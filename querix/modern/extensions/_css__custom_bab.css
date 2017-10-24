@@ -1,0 +1,95 @@
+/*
+########################################################
+CSS is used for specific customer/project properties
+
+
+########################################################
+*/
+
+/* selection row in lookup tables with reversed attribute*/
+.qx-text-field.qx-single-row.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-element-role-input.qx-c-attribute_reverse
+{
+font: normal 1.1rem "Droid Sans",Calibri,"Helvetica Neue", Sans-Serif;
+color: white;
+background-color:  #2e6e9e;
+   
+}
+
+
+/* Form Title Header text in textbox - prompt class */
+.qx-identifier-pr_prompt_text .qx-text.qx-text-edit{
+font: normal 1.1rem "Droid Sans",Calibri,"Helvetica Neue", Sans-Serif;
+color: white;
+background-color:  #2e6e9e;
+}
+
+.qx-content.qx-flex-cell.qx-focus-target.qx-root.qx-aum.qx-aum-window.qx-aum-element-container.qx-aum-abstract-container.qx-identifier-w3.qx-focusable-field.qx-full-screen.qx-inter-window.ui-widget-content.qx-o-aum-window *
+{
+
+    color: white;
+
+    background: #5c9ccc url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) 50% 50% repeat-x;
+    background-image: url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: initial;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(92, 156, 204);    
+}
+
+.qx-content.qx-flex-cell.qx-focus-target.qx-root.qx-aum.qx-aum-window.qx-aum-element-container.qx-aum-abstract-container.qx-identifier-wkeyusage.qx-focusable-field.qx-full-screen.qx-inter-window.ui-widget-content.qx-o-aum-window *
+{
+
+    color: white;
+
+    background: #5c9ccc url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) 50% 50% repeat-x;
+    background-image: url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: initial;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(92, 156, 204);
+}
+
+
+/* DISPLAY <text> ATTRIBUTE(NORMAL) */
+/* Note: I have added this for the BAB F002 module menu library xButtonMenu*/
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-attribute_normal:not(.qx-c-nativestyle), .qx-aum.qx-c-attribute_normal:not(.qx-c-nativestyle) * {
+    color: #2e6e9e;
+}
+
+/*Molongo table - select current line has only underline*/
+.qx-table-cell.qx-c-activefield.qx-aum.qx-aum-abstract-field.qx-content.qx-has-text.qx-c-attribute_underline
+{ color: #3a597e;
+    background: #fbec88;
+    text-decoration: none;
+}
+
+/*Malongo table */
+.qx-table-cell.qx-c-activefield.qx-aum.qx-aum-abstract-field.qx-content.qx-has-text.qx-c-attribute_underline .qx-text.qx-has-text
+{ color: #3a597e;
+    background: transparent;
+    text-decoration: none;
+    
+}
+/*Molongo table - no underline */
+/*you can add table identifier .qx-aum-table.qx-identifier-sar in case you want to keep cells in other tables underlined*/
+.qx-aum-table .qx-aum.qx-c-attribute_underline, .qx-aum-table .qx-aum.qx-c-attribute_underline * {
+text-decoration:none;
+}
+
+/*BAB displays the menu label with focus with attribute(underline) */
+.qx-grid-cell .qx-aum-label.qx-c-attribute_underline.qx-c-fcls_menulabel * {
+    vertical-align: middle;
+    overflow: hidden;
+    color: white;   
+    background: #2e6e9e;
+}

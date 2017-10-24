@@ -1,0 +1,1185 @@
+/*! jQuery UI - v1.11.4 - 2016-03-14
+* http://jqueryui.com
+* Includes: theme.css
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Lucida%20Grande%2CLucida%20Sans%2CArial%2Csans-serif&fsDefault=1.0em&fwDefault=bold&cornerRadius=5px&bgColorHeader=%235c9ccc&bgTextureHeader=gloss_wave&borderColorHeader=%234297d7&fcHeader=%23ffffff&iconColorHeader=%23d8e7f3&bgColorContent=%23fcfdfd&bgTextureContent=inset_hard&borderColorContent=%23a6c9e2&fcContent=%23222222&iconColorContent=%23469bdd&bgColorDefault=%23dfeffc&bgTextureDefault=glass&borderColorDefault=%23c5dbec&fcDefault=%232e6e9e&iconColorDefault=%236da8d5&bgColorHover=%23d0e5f5&bgTextureHover=glass&borderColorHover=%2379b7e7&fcHover=%231d5987&iconColorHover=%23217bc0&bgColorActive=%23f5f8f9&bgTextureActive=inset_hard&borderColorActive=%2379b7e7&fcActive=%234f98c0&iconColorActive=%23f9bd01&bgColorHighlight=%23fbec88&bgTextureHighlight=flat&borderColorHighlight=%23fad42e&fcHighlight=%23363636&iconColorHighlight=%232e83ff&bgColorError=%23fef1ec&bgTextureError=glass&borderColorError=%23cd0a0a&fcError=%23cd0a0a&iconColorError=%23cd0a0a&bgColorOverlay=%23aaaaaa&bgTextureOverlay=flat&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=%23aaaaaa&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px&bgImgOpacityHeader=55&bgImgOpacityContent=100&bgImgOpacityDefault=85&bgImgOpacityHover=75&bgImgOpacityActive=100&bgImgOpacityHighlight=55&bgImgOpacityError=95
+* Copyright jQuery Foundation and other contributors; Licensed MIT */
+
+.ui-widget{font-family:Lucida Grande,Lucida Sans,Arial,sans-serif;font-size:1.0em}.ui-widget .ui-widget{font-size:1em}.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{font-family:Lucida Grande,Lucida Sans,Arial,sans-serif;font-size:1em}.ui-widget-content{border:1px solid #a6c9e2;background:#fcfdfd url("images/ui-bg_inset-hard_100_fcfdfd_1x100.png") 50% bottom repeat-x;color:#222}.ui-widget-content a{color:#222}.ui-widget-header{border:1px solid #4297d7;background:#5c9ccc url("images/ui-bg_gloss-wave_55_5c9ccc_500x100.png") 50% 50% repeat-x;color:#fff;font-weight:bold}.ui-widget-header a{color:#fff}.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{border:1px solid #c5dbec;background:#dfeffc url("images/ui-bg_glass_85_dfeffc_1x400.png") 50% 50% repeat-x;font-weight:bold;color:#2e6e9e}.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited{color:#2e6e9e;text-decoration:none}.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus{border:1px solid #79b7e7;background:#d0e5f5 url("images/ui-bg_glass_75_d0e5f5_1x400.png") 50% 50% repeat-x;font-weight:bold;color:#1d5987}.ui-state-hover a,.ui-state-hover a:hover,.ui-state-hover a:link,.ui-state-hover a:visited,.ui-state-focus a,.ui-state-focus a:hover,.ui-state-focus a:link,.ui-state-focus a:visited{color:#1d5987;text-decoration:none}.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{border:1px solid #79b7e7;background:#f5f8f9 url("images/ui-bg_inset-hard_100_f5f8f9_1x100.png") 50% 50% repeat-x;font-weight:bold;color:#4f98c0}.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited{color:#4f98c0;text-decoration:none}.ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight{border:1px solid #fad42e;background:#fbec88;color:#363636}.ui-state-highlight a,.ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a{color:#363636}.ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error{border:1px solid #cd0a0a;background:#fef1ec url("images/ui-bg_glass_95_fef1ec_1x400.png") 50% 50% repeat-x;color:#cd0a0a}.ui-state-error a,.ui-widget-content .ui-state-error a,.ui-widget-header .ui-state-error a{color:#cd0a0a}.ui-state-error-text,.ui-widget-content .ui-state-error-text,.ui-widget-header .ui-state-error-text{color:#cd0a0a}.ui-priority-primary,.ui-widget-content .ui-priority-primary,.ui-widget-header .ui-priority-primary{font-weight:bold}.ui-priority-secondary,.ui-widget-content .ui-priority-secondary,.ui-widget-header .ui-priority-secondary{opacity:.7;filter:Alpha(Opacity=70);font-weight:normal}.ui-state-disabled,.ui-widget-content .ui-state-disabled,.ui-widget-header .ui-state-disabled{opacity:.35;filter:Alpha(Opacity=35);background-image:none}.ui-state-disabled .ui-icon{filter:Alpha(Opacity=35)}.ui-icon{width:16px;height:16px}.ui-icon,.ui-widget-content .ui-icon{background-image:url("images/ui-icons_469bdd_256x240.png")}.ui-widget-header .ui-icon{background-image:url("images/ui-icons_d8e7f3_256x240.png")}.ui-state-default .ui-icon{background-image:url("images/ui-icons_6da8d5_256x240.png")}.ui-state-hover .ui-icon,.ui-state-focus .ui-icon{background-image:url("images/ui-icons_217bc0_256x240.png")}.ui-state-active .ui-icon{background-image:url("images/ui-icons_f9bd01_256x240.png")}.ui-state-highlight .ui-icon{background-image:url("images/ui-icons_2e83ff_256x240.png")}.ui-state-error .ui-icon,.ui-state-error-text .ui-icon{background-image:url("images/ui-icons_cd0a0a_256x240.png")}.ui-icon-blank{background-position:16px 16px}.ui-icon-carat-1-n{background-position:0 0}.ui-icon-carat-1-ne{background-position:-16px 0}.ui-icon-carat-1-e{background-position:-32px 0}.ui-icon-carat-1-se{background-position:-48px 0}.ui-icon-carat-1-s{background-position:-64px 0}.ui-icon-carat-1-sw{background-position:-80px 0}.ui-icon-carat-1-w{background-position:-96px 0}.ui-icon-carat-1-nw{background-position:-112px 0}.ui-icon-carat-2-n-s{background-position:-128px 0}.ui-icon-carat-2-e-w{background-position:-144px 0}.ui-icon-triangle-1-n{background-position:0 -16px}.ui-icon-triangle-1-ne{background-position:-16px -16px}.ui-icon-triangle-1-e{background-position:-32px -16px}.ui-icon-triangle-1-se{background-position:-48px -16px}.ui-icon-triangle-1-s{background-position:-64px -16px}.ui-icon-triangle-1-sw{background-position:-80px -16px}.ui-icon-triangle-1-w{background-position:-96px -16px}.ui-icon-triangle-1-nw{background-position:-112px -16px}.ui-icon-triangle-2-n-s{background-position:-128px -16px}.ui-icon-triangle-2-e-w{background-position:-144px -16px}.ui-icon-arrow-1-n{background-position:0 -32px}.ui-icon-arrow-1-ne{background-position:-16px -32px}.ui-icon-arrow-1-e{background-position:-32px -32px}.ui-icon-arrow-1-se{background-position:-48px -32px}.ui-icon-arrow-1-s{background-position:-64px -32px}.ui-icon-arrow-1-sw{background-position:-80px -32px}.ui-icon-arrow-1-w{background-position:-96px -32px}.ui-icon-arrow-1-nw{background-position:-112px -32px}.ui-icon-arrow-2-n-s{background-position:-128px -32px}.ui-icon-arrow-2-ne-sw{background-position:-144px -32px}.ui-icon-arrow-2-e-w{background-position:-160px -32px}.ui-icon-arrow-2-se-nw{background-position:-176px -32px}.ui-icon-arrowstop-1-n{background-position:-192px -32px}.ui-icon-arrowstop-1-e{background-position:-208px -32px}.ui-icon-arrowstop-1-s{background-position:-224px -32px}.ui-icon-arrowstop-1-w{background-position:-240px -32px}.ui-icon-arrowthick-1-n{background-position:0 -48px}.ui-icon-arrowthick-1-ne{background-position:-16px -48px}.ui-icon-arrowthick-1-e{background-position:-32px -48px}.ui-icon-arrowthick-1-se{background-position:-48px -48px}.ui-icon-arrowthick-1-s{background-position:-64px -48px}.ui-icon-arrowthick-1-sw{background-position:-80px -48px}.ui-icon-arrowthick-1-w{background-position:-96px -48px}.ui-icon-arrowthick-1-nw{background-position:-112px -48px}.ui-icon-arrowthick-2-n-s{background-position:-128px -48px}.ui-icon-arrowthick-2-ne-sw{background-position:-144px -48px}.ui-icon-arrowthick-2-e-w{background-position:-160px -48px}.ui-icon-arrowthick-2-se-nw{background-position:-176px -48px}.ui-icon-arrowthickstop-1-n{background-position:-192px -48px}.ui-icon-arrowthickstop-1-e{background-position:-208px -48px}.ui-icon-arrowthickstop-1-s{background-position:-224px -48px}.ui-icon-arrowthickstop-1-w{background-position:-240px -48px}.ui-icon-arrowreturnthick-1-w{background-position:0 -64px}.ui-icon-arrowreturnthick-1-n{background-position:-16px -64px}.ui-icon-arrowreturnthick-1-e{background-position:-32px -64px}.ui-icon-arrowreturnthick-1-s{background-position:-48px -64px}.ui-icon-arrowreturn-1-w{background-position:-64px -64px}.ui-icon-arrowreturn-1-n{background-position:-80px -64px}.ui-icon-arrowreturn-1-e{background-position:-96px -64px}.ui-icon-arrowreturn-1-s{background-position:-112px -64px}.ui-icon-arrowrefresh-1-w{background-position:-128px -64px}.ui-icon-arrowrefresh-1-n{background-position:-144px -64px}.ui-icon-arrowrefresh-1-e{background-position:-160px -64px}.ui-icon-arrowrefresh-1-s{background-position:-176px -64px}.ui-icon-arrow-4{background-position:0 -80px}.ui-icon-arrow-4-diag{background-position:-16px -80px}.ui-icon-extlink{background-position:-32px -80px}.ui-icon-newwin{background-position:-48px -80px}.ui-icon-refresh{background-position:-64px -80px}.ui-icon-shuffle{background-position:-80px -80px}.ui-icon-transfer-e-w{background-position:-96px -80px}.ui-icon-transferthick-e-w{background-position:-112px -80px}.ui-icon-folder-collapsed{background-position:0 -96px}.ui-icon-folder-open{background-position:-16px -96px}.ui-icon-document{background-position:-32px -96px}.ui-icon-document-b{background-position:-48px -96px}.ui-icon-note{background-position:-64px -96px}.ui-icon-mail-closed{background-position:-80px -96px}.ui-icon-mail-open{background-position:-96px -96px}.ui-icon-suitcase{background-position:-112px -96px}.ui-icon-comment{background-position:-128px -96px}.ui-icon-person{background-position:-144px -96px}.ui-icon-print{background-position:-160px -96px}.ui-icon-trash{background-position:-176px -96px}.ui-icon-locked{background-position:-192px -96px}.ui-icon-unlocked{background-position:-208px -96px}.ui-icon-bookmark{background-position:-224px -96px}.ui-icon-tag{background-position:-240px -96px}.ui-icon-home{background-position:0 -112px}.ui-icon-flag{background-position:-16px -112px}.ui-icon-calendar{background-position:-32px -112px}.ui-icon-cart{background-position:-48px -112px}.ui-icon-pencil{background-position:-64px -112px}.ui-icon-clock{background-position:-80px -112px}.ui-icon-disk{background-position:-96px -112px}.ui-icon-calculator{background-position:-112px -112px}.ui-icon-zoomin{background-position:-128px -112px}.ui-icon-zoomout{background-position:-144px -112px}.ui-icon-search{background-position:-160px -112px}.ui-icon-wrench{background-position:-176px -112px}.ui-icon-gear{background-position:-192px -112px}.ui-icon-heart{background-position:-208px -112px}.ui-icon-star{background-position:-224px -112px}.ui-icon-link{background-position:-240px -112px}.ui-icon-cancel{background-position:0 -128px}.ui-icon-plus{background-position:-16px -128px}.ui-icon-plusthick{background-position:-32px -128px}.ui-icon-minus{background-position:-48px -128px}.ui-icon-minusthick{background-position:-64px -128px}.ui-icon-close{background-position:-80px -128px}.ui-icon-closethick{background-position:-96px -128px}.ui-icon-key{background-position:-112px -128px}.ui-icon-lightbulb{background-position:-128px -128px}.ui-icon-scissors{background-position:-144px -128px}.ui-icon-clipboard{background-position:-160px -128px}.ui-icon-copy{background-position:-176px -128px}.ui-icon-contact{background-position:-192px -128px}.ui-icon-image{background-position:-208px -128px}.ui-icon-video{background-position:-224px -128px}.ui-icon-script{background-position:-240px -128px}.ui-icon-alert{background-position:0 -144px}.ui-icon-info{background-position:-16px -144px}.ui-icon-notice{background-position:-32px -144px}.ui-icon-help{background-position:-48px -144px}.ui-icon-check{background-position:-64px -144px}.ui-icon-bullet{background-position:-80px -144px}.ui-icon-radio-on{background-position:-96px -144px}.ui-icon-radio-off{background-position:-112px -144px}.ui-icon-pin-w{background-position:-128px -144px}.ui-icon-pin-s{background-position:-144px -144px}.ui-icon-play{background-position:0 -160px}.ui-icon-pause{background-position:-16px -160px}.ui-icon-seek-next{background-position:-32px -160px}.ui-icon-seek-prev{background-position:-48px -160px}.ui-icon-seek-end{background-position:-64px -160px}.ui-icon-seek-start{background-position:-80px -160px}.ui-icon-seek-first{background-position:-80px -160px}.ui-icon-stop{background-position:-96px -160px}.ui-icon-eject{background-position:-112px -160px}.ui-icon-volume-off{background-position:-128px -160px}.ui-icon-volume-on{background-position:-144px -160px}.ui-icon-power{background-position:0 -176px}.ui-icon-signal-diag{background-position:-16px -176px}.ui-icon-signal{background-position:-32px -176px}.ui-icon-battery-0{background-position:-48px -176px}.ui-icon-battery-1{background-position:-64px -176px}.ui-icon-battery-2{background-position:-80px -176px}.ui-icon-battery-3{background-position:-96px -176px}.ui-icon-circle-plus{background-position:0 -192px}.ui-icon-circle-minus{background-position:-16px -192px}.ui-icon-circle-close{background-position:-32px -192px}.ui-icon-circle-triangle-e{background-position:-48px -192px}.ui-icon-circle-triangle-s{background-position:-64px -192px}.ui-icon-circle-triangle-w{background-position:-80px -192px}.ui-icon-circle-triangle-n{background-position:-96px -192px}.ui-icon-circle-arrow-e{background-position:-112px -192px}.ui-icon-circle-arrow-s{background-position:-128px -192px}.ui-icon-circle-arrow-w{background-position:-144px -192px}.ui-icon-circle-arrow-n{background-position:-160px -192px}.ui-icon-circle-zoomin{background-position:-176px -192px}.ui-icon-circle-zoomout{background-position:-192px -192px}.ui-icon-circle-check{background-position:-208px -192px}.ui-icon-circlesmall-plus{background-position:0 -208px}.ui-icon-circlesmall-minus{background-position:-16px -208px}.ui-icon-circlesmall-close{background-position:-32px -208px}.ui-icon-squaresmall-plus{background-position:-48px -208px}.ui-icon-squaresmall-minus{background-position:-64px -208px}.ui-icon-squaresmall-close{background-position:-80px -208px}.ui-icon-grip-dotted-vertical{background-position:0 -224px}.ui-icon-grip-dotted-horizontal{background-position:-16px -224px}.ui-icon-grip-solid-vertical{background-position:-32px -224px}.ui-icon-grip-solid-horizontal{background-position:-48px -224px}.ui-icon-gripsmall-diagonal-se{background-position:-64px -224px}.ui-icon-grip-diagonal-se{background-position:-80px -224px}.ui-corner-all,.ui-corner-top,.ui-corner-left,.ui-corner-tl{border-top-left-radius:5px}.ui-corner-all,.ui-corner-top,.ui-corner-right,.ui-corner-tr{border-top-right-radius:5px}.ui-corner-all,.ui-corner-bottom,.ui-corner-left,.ui-corner-bl{border-bottom-left-radius:5px}.ui-corner-all,.ui-corner-bottom,.ui-corner-right,.ui-corner-br{border-bottom-right-radius:5px}.ui-widget-overlay{background:#aaa;opacity:.3;filter:Alpha(Opacity=30)}.ui-widget-shadow{margin:-8px 0 0 -8px;padding:8px;background:#aaa;opacity:.3;filter:Alpha(Opacity=30);border-radius:8px}
+
+
+
+.tooltipster-default{border-radius:5px;border:2px solid #000;background:#4c4c4c;color:#fff}.tooltipster-default .tooltipster-content{font-family:Arial,sans-serif;font-size:14px;line-height:16px;padding:8px 10px;overflow:hidden}.tooltipster-icon{cursor:help;margin-left:4px}.tooltipster-base{padding:0;font-size:0;line-height:0;position:absolute;left:0;top:0;z-index:9999999;pointer-events:none;width:auto;overflow:visible}.tooltipster-base .tooltipster-content{overflow:hidden}.tooltipster-arrow{display:block;text-align:center;width:100%;height:100%;position:absolute;top:0;left:0;z-index:-1}.tooltipster-arrow span,.tooltipster-arrow-border{display:block;width:0;height:0;position:absolute}.tooltipster-arrow-top span,.tooltipster-arrow-top-left span,.tooltipster-arrow-top-right span{border-left:8px solid transparent!important;border-right:8px solid transparent!important;border-top:8px solid;bottom:-7px}.tooltipster-arrow-top .tooltipster-arrow-border,.tooltipster-arrow-top-left .tooltipster-arrow-border,.tooltipster-arrow-top-right .tooltipster-arrow-border{border-left:9px solid transparent!important;border-right:9px solid transparent!important;border-top:9px solid;bottom:-7px}.tooltipster-arrow-bottom span,.tooltipster-arrow-bottom-left span,.tooltipster-arrow-bottom-right span{border-left:8px solid transparent!important;border-right:8px solid transparent!important;border-bottom:8px solid;top:-7px}.tooltipster-arrow-bottom .tooltipster-arrow-border,.tooltipster-arrow-bottom-left .tooltipster-arrow-border,.tooltipster-arrow-bottom-right .tooltipster-arrow-border{border-left:9px solid transparent!important;border-right:9px solid transparent!important;border-bottom:9px solid;top:-7px}.tooltipster-arrow-bottom .tooltipster-arrow-border,.tooltipster-arrow-bottom span,.tooltipster-arrow-top .tooltipster-arrow-border,.tooltipster-arrow-top span{left:0;right:0;margin:0 auto}.tooltipster-arrow-bottom-left span,.tooltipster-arrow-top-left span{left:6px}.tooltipster-arrow-bottom-left .tooltipster-arrow-border,.tooltipster-arrow-top-left .tooltipster-arrow-border{left:5px}.tooltipster-arrow-bottom-right span,.tooltipster-arrow-top-right span{right:6px}.tooltipster-arrow-bottom-right .tooltipster-arrow-border,.tooltipster-arrow-top-right .tooltipster-arrow-border{right:5px}.tooltipster-arrow-left .tooltipster-arrow-border,.tooltipster-arrow-left span{border-top:8px solid transparent!important;border-bottom:8px solid transparent!important;border-left:8px solid;top:50%;margin-top:-7px;right:-7px}.tooltipster-arrow-left .tooltipster-arrow-border{border-top:9px solid transparent!important;border-bottom:9px solid transparent!important;border-left:9px solid;margin-top:-8px}.tooltipster-arrow-right .tooltipster-arrow-border,.tooltipster-arrow-right span{border-top:8px solid transparent!important;border-bottom:8px solid transparent!important;border-right:8px solid;top:50%;margin-top:-7px;left:-7px}.tooltipster-arrow-right .tooltipster-arrow-border{border-top:9px solid transparent!important;border-bottom:9px solid transparent!important;border-right:9px solid;margin-top:-8px}.tooltipster-fade{opacity:0;-webkit-transition-property:opacity;-moz-transition-property:opacity;-o-transition-property:opacity;-ms-transition-property:opacity;transition-property:opacity}.tooltipster-fade-show{opacity:1}.tooltipster-grow{-webkit-transform:scale(0,0);-moz-transform:scale(0,0);-o-transform:scale(0,0);-ms-transform:scale(0,0);transform:scale(0,0);-webkit-transition-property:-webkit-transform;transition-property:transform;-webkit-backface-visibility:hidden}.tooltipster-grow,.tooltipster-swing{-moz-transition-property:-moz-transform;-o-transition-property:-o-transform;-ms-transition-property:-ms-transform}.tooltipster-grow-show{-webkit-transform:scale(1,1);-moz-transform:scale(1,1);-o-transform:scale(1,1);-ms-transform:scale(1,1);transform:scale(1,1);-webkit-transition-timing-function:cubic-bezier(.175,.885,.32,1);-webkit-transition-timing-function:cubic-bezier(.175,.885,.32,1.15);-moz-transition-timing-function:cubic-bezier(.175,.885,.32,1.15);-ms-transition-timing-function:cubic-bezier(.175,.885,.32,1.15);-o-transition-timing-function:cubic-bezier(.175,.885,.32,1.15);transition-timing-function:cubic-bezier(.175,.885,.32,1.15)}.tooltipster-swing{opacity:0;-webkit-transform:rotateZ(4deg);-moz-transform:rotateZ(4deg);-o-transform:rotateZ(4deg);-ms-transform:rotateZ(4deg);transform:rotateZ(4deg);-webkit-transition-property:-webkit-transform,opacity;transition-property:transform}.tooltipster-swing-show{opacity:1;-webkit-transform:rotateZ(0);-moz-transform:rotateZ(0);-o-transform:rotateZ(0);-ms-transform:rotateZ(0);transform:rotateZ(0);-webkit-transition-timing-function:cubic-bezier(.23,.635,.495,1);-webkit-transition-timing-function:cubic-bezier(.23,.635,.495,2.4);-moz-transition-timing-function:cubic-bezier(.23,.635,.495,2.4);-ms-transition-timing-function:cubic-bezier(.23,.635,.495,2.4);-o-transition-timing-function:cubic-bezier(.23,.635,.495,2.4);transition-timing-function:cubic-bezier(.23,.635,.495,2.4)}.tooltipster-fall{top:0;-webkit-transition-property:top;-moz-transition-property:top;-o-transition-property:top;-ms-transition-property:top;transition-property:top;-webkit-transition-timing-function:cubic-bezier(.175,.885,.32,1.15);transition-timing-function:cubic-bezier(.175,.885,.32,1.15)}.tooltipster-fall,.tooltipster-slide{-webkit-transition-timing-function:cubic-bezier(.175,.885,.32,1);-moz-transition-timing-function:cubic-bezier(.175,.885,.32,1.15);-ms-transition-timing-function:cubic-bezier(.175,.885,.32,1.15);-o-transition-timing-function:cubic-bezier(.175,.885,.32,1.15)}.tooltipster-fall.tooltipster-dying{-webkit-transition-property:all;-moz-transition-property:all;-o-transition-property:all;-ms-transition-property:all;transition-property:all;top:0!important;opacity:0}.tooltipster-slide{left:-40px;-webkit-transition-property:left;-moz-transition-property:left;-o-transition-property:left;-ms-transition-property:left;transition-property:left;-webkit-transition-timing-function:cubic-bezier(.175,.885,.32,1.15);transition-timing-function:cubic-bezier(.175,.885,.32,1.15)}.tooltipster-slide.tooltipster-dying{-webkit-transition-property:all;-moz-transition-property:all;-o-transition-property:all;-ms-transition-property:all;transition-property:all;left:0!important;opacity:0}.tooltipster-content-changing{opacity:.5;-webkit-transform:scale(1.1,1.1);-moz-transform:scale(1.1,1.1);-o-transform:scale(1.1,1.1);-ms-transform:scale(1.1,1.1);transform:scale(1.1,1.1)}
+
+
+
+
+
+.qx-c-fcls_flexbox .qx-tbody > tbody > tr > td:nth-child(1) img {
+   height: 120px;
+}
+
+.qx-c-fcls_flexbox .qx-tbody > tbody > tr > td:nth-child(2) {
+    display:none;
+}
+
+/*Hide the URL colummn - alternatively, change your 4gl/form */
+/*.qx-c-fcls_flexbox .qx-tbody td:nth-child(<2>) {
+display:none;
+}
+*/
+
+.qx-c-fcls_flexbox.qx-aum-table.qx-table {
+  background-image: none !important;
+  /*background-color: #d0e5f5;*/
+  background-color: #ffffff;
+}
+.qx-c-fcls_flexbox .qx-tbody {
+  display: block;
+}
+.qx-c-fcls_flexbox .qx-hrow,
+.qx-c-fcls_flexbox .qx-frow,
+.qx-c-fcls_flexbox .qx-tbody > thead {
+  display: none !important;
+}
+.qx-c-fcls_flexbox .qx-brow {
+  padding-top:0 !important;
+}
+.qx-c-fcls_flexbox .qx-tbody > tbody {
+  display: block;
+  /*display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;*/
+  padding-top: 1em;
+}
+.qx-c-fcls_flexbox .qx-tbody > tbody > tr {
+  float: left;
+  display: flex;
+  flex-flow: column;
+  flex: 1 1 30%;
+  align-self: flex-start;
+  margin: 1%;
+  min-width: 170px;
+  border: none;
+  background: none !important;
+}
+.qx-c-fcls_flexbox .qx-tbody > tbody > tr.qx-scroll-space {
+    flex: 0 0 100%;
+}
+.qx-c-fcls_flexbox .qx-tbody > tbody > tr > td {
+  height: auto !important;
+  border: none;
+  align-self: center;
+}
+.qx-c-fcls_flexbox .qx-tbody > tbody > tr * {
+  background: none !important;
+}
+.qx-c-fcls_flexbox .qx-tbody > tbody > tr > td img:first-child {
+  border-radius: 1em;
+}
+/*
+@media only screen and (min-width: 1601px) {
+    .qx-c-fcls_flexbox .qx-tbody > tbody > tr {
+      flex-basis: 22%;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1600px) {
+    .qx-c-fcls_flexbox .qx-tbody > tbody > tr {
+      flex-basis: 30%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+    .qx-c-fcls_flexbox .qx-tbody > tbody > tr {
+      flex-basis: 45%;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .qx-c-fcls_flexbox .qx-tbody > tbody > tr {
+      flex-basis: 100%;
+    }
+}
+*/
+
+
+/* .qx-identifier-lbValueUserPicture {*/
+#lbValueUserPicture {	
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+}
+
+
+
+
+/* huho 21.7.2016 commented - font-size is defined in the theme file */
+/*label widgets with image .... s for widgets i.e. buttons */
+/* .ui-widget .qx-text-with-icon{
+font-family:Lucida Grande,Lucida Sans,Arial,sans-serif;
+font-size: 1rem;
+font-weight:normal;
+}
+*/
+
+/* huho 21.7.2016 commented - font-size is defined in the theme file */
+/* label elements without image */
+/*
+.ui-widget .qx-aum-label {
+font-family:Lucida Grande,Lucida Sans,Arial,sans-serif;
+font-size:1rem;
+font-weight: normal;
+
+color: #3a597e;
+	
+}
+*/
+
+
+
+
+
+/*
+##########################
+RootContainer
+##########################
+border is already applied by qxtheme
+*/
+/*
+.qx-c-fcls_rootcontainer{
+	
+	padding:2px 2px 2px 2px;
+	
+}
+*/
+
+/*huho
+.qx-c-fcls_rootcontainer fieldset{
+	border: 1px solid #929292;
+	border-radius: 4px;
+}
+*/
+
+
+
+
+/*
+.qx-c-fcls_detail_gb_cnt {
+    font: normal 1rem "Calibri","Helvetica Neue", Sans-Serif;
+}
+*/
+/*
+qx-groupbox-table qx-aum qx-on-2 qx-s-on-0 qx-2-149 qx-aum-group-box qx-aum-element-container qx-aum-abstract-container qx-psh qx-psw qx-identifier-cntdetail2groupbox1 qx-c-fcls_detail_gb_cnt qx-c-nativestyle qx-has-title ui-accordion ui-widget ui-helper-reset qx-rsw qx-has-text
+*/
+
+/*huho
+.qx-is-selected *
+{ background-color: rgb(190, 210, 240); color: black; } 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*####################################################
+Inflair custom key usage information - bottom form
+######################################################*/
+/*huho
+.qx-c-fcls_detail_cnt {
+
+background: #a6c9e2 url("https://code.jquery.com/ui/1.11.3/themes/redmond/images/ui-bg_glass_85_dfeffc_1x400.png") 50% 50% repeat-x;
+needs commenting/*	background: #a6c9e2 url("https://code.jquery.com/ui/1.11.3/themes/redmond/images/ui-bg_inset-hard_100_f5f8f9_1x100.png") repeat-x;
+	border: 1px solid #a6c9e2;
+	border-radius: 4px;
+	margin-top:2px;
+         -webkit-background-size: contain;
+         -moz-background-size: contain;
+         -o-background-size: contain;
+          background-size: contain;
+}
+*/
+
+
+
+/*##############################################################################################*/
+/* Form Class field fcls_length                                                                 */
+/*##############################################################################################*/
+
+/* issue with length_01 - no idea why */
+.qx-c-fcls_length_01 {
+    width: 66rem;
+}
+
+.qx-c-fcls_length_05 {
+    width: 04rem;
+}
+
+.qx-c-fcls_length_10 {
+    width: 8rem;
+}
+
+.qx-c-fcls_length_15 {
+    width: 12rem;
+}
+
+.qx-c-fcls_length_20 {
+    width: 16rem;
+}
+.qx-c-fcls_length_30 {
+    width: 24rem;
+}
+
+.qx-c-fcls_length_40 {
+    width: 32rem;
+}
+
+.qx-c-fcls_length_50 {
+    width: 40rem;
+}
+
+.qx-c-fcls_length_60 {
+    width: 48rem;
+}
+
+
+
+
+
+/*Changes hilited row in the table*/
+/*.qx-aum.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse, .qx-aum.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse * {
+    background-color: #f6a828;
+    color: white;
+}*/
+
+
+/*Changes font-weight of the start menu*/
+/*.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus
+.ui-state-hover a,.ui-state-hover a:hover,.ui-state-hover a:link,.ui-state-hover a:visited,.ui-state-focus a,.ui-state-focus a:hover,.ui-state-focus a:link,.ui-state-focus a:visited,
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default,
+.ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, .ui-state-active {
+	font-weight: normal;
+}*/
+
+/*Changes menu items color in the start menu*/
+/*.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited,
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default,
+.ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, .ui-state-active {
+	color: #212121;
+}*/
+
+.ui-accordion-header .qx-text{
+	font-size: 1rem;
+}
+
+
+.ui-accordion-header .qx-text {
+	font-size: 1rem;
+	color: #3a597e; /*was #2e6e9e;  */ 
+
+}
+
+/*
+GroupBox Header with form class fcls_detail_gb_cnt
+*/
+.ui-accordion.qx-aum-group-box .ui-accordion-header
+{
+	border: 1px solid #5c9ccc;
+	background: #3a597e; url("images/ui-bg_gloss-wave_55_5c9ccc_500x100.png") 50% 50% repeat-x;    /* #3a597e; was #5c9ccc */
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 4px;
+	padding: 2px;
+	margin: 0; 
+}
+
+/*
+GroupBox Header LABEL with form class fcls_detail_gb_cnt
+*/
+ .qx-c-fcls_detail_gb_cnt .ui-accordion-header .qx-text
+{
+    font: bold 1.1rem "Calibri","Helvetica Neue", Sans-Serif;
+		color: white /*#2e6e9e;*/
+
+}
+
+
+/*
+.qx-o-aum-window.qx-o-c-full-screen,
+.qx-o-aum-window.qx-o-identifier-screen,
+.ui-widget-content, .qx-window-border {
+	background-color: #fff;
+	background-image: none;
+}
+*/
+
+.qx-menu-group-header {
+	border:none;
+}
+
+.qx-aum-menu-command:hover,
+.qx-menu-group-header:hover
+ {
+	background: #f0f8ff;
+}
+.qx-menu-group-header {
+	background: transparent;
+	border-radius: 0;
+}
+
+.ui-state-default.qx-aum-menu-item {
+	background: transparent;
+		border:none;
+
+}
+
+.qx-aum-menu-group .ui-widget-content {
+	background: transparent;
+	border: none;
+}
+
+.qx-aum-menu-item .ui-state-default {
+	font-weight: initial !important;
+}
+
+#qx-container-menu .treeview ul.ui-accordion-content {
+    padding: 0px;
+    margin: 0px;
+}
+
+.qx-mdi.qx-menu-type-tree #qx-container-menu {
+   width: 300px;
+}
+
+#qx-container-menu .treeview li {
+    padding: 3px;
+}
+
+#qx-container-toolbars .qx-scroll-viewport {
+    height: auto !important;
+}
+
+#qx-container-toolbars .qx-scroll-viewport > .qx-content {
+    width: 100%;
+    position: relative;
+}
+
+#qx-container-toolbars .qx-scroll-viewport .qx-scroll-target {
+    padding: 2px;
+    height: 50px;
+    width: 200px;
+}
+
+
+
+
+/*
+####################################################################################################################################
+Table AND GridPanel container CSS
+
+FormClasses:
+
+
+/* 
+colors:
+normal = blue/white
+	border: #79b7e7
+	background: #ffffff
+	
+input  =darkYello-lightYellow
+	border:#fad42e
+	background: #fbec88
+
+####################################################################################################################################
+*/
+/*inactive TableWidgetContainer - white */
+	/*, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active*/
+/*inactive TableWidgetContainer - white */
+.qx-tbody tr
+{ 
+background-color: transparent; 
+}
+
+/*tableWidgetContainer - Assign to every second/even row a light blue */
+.qx-tbody .qx-table-row:nth-child(even) {
+	background: rgba(137,210,255, 0.1);
+	}
+
+/*tableWidgetContainer - Assign to every second/even row a light blue */
+.qx-c-activefield .qx-tbody .qx-table-row:nth-child(even) {
+	background: rgba(137,210,255, 0.01);
+	}
+
+/*tableWidgetContainer Current-Focus Row */
+.qx-aum.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse:not(.qx-c-nativestyle), .qx-aum.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse:not(.qx-c-nativestyle) *
+{
+
+	background: #fbec88;
+	/*color: #2e6e9e;*/
+	
+}
+
+/*tableWidgetContainer - Normal text fields */
+.qx-c-activefield .qx-tbody  tr .qx-text.qx-has-text {
+    font: normal 1rem "Calibri","Helvetica Neue", Sans-Serif;
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+}
+
+
+
+/*.qx-aum.ui-row-ltr.qx-focusable.qx-table-row  selects ALL rows*/ 
+
+
+.qx-aum-table-column {
+    margin-left: 3px;
+    margin-right: 3px;    
+	
+}
+
+.qx-aum-table-column .ui-widget .qx-aum-label {
+    margin-left: 3px;
+    margin-right: 3px;    
+	
+}
+
+/*tableWidget container - HEADER row - i.e 5px top/bottom and 0px right/left*/
+.qx-aum-table-column .qx-text { 
+	margin: 5px 0px; 
+
+}
+
+/*
+.qx-aum-abstract-field.ui-state-active .qx-aum-abstract-field.ui-state-active .qx-aum-radio-button-list .qx-content, .qx-c-nativestyle .qx-content
+{
+	color: black;
+	font-size: 1rem;	
+}
+*/
+
+/*
+######################################
+Table Column
+(Display Array / Input Array)
+######################################
+*/
+
+/*
+.qx-table-cell.qx-aum-abstract-field
+{
+  padding-left: 4px;
+  padding-right: 4px;
+
+  color: black;	
+  background-color: white;
+}
+*/
+.qx-aum-table-column.ui-widget-header > div
+{
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+
+  color: white;	
+
+}
+
+
+
+div.qx-aum-label.qx-aum.qx-aum-abstract-field.qx-c-nativestyle .qx-vtal{
+	vertical-align: middle;
+}
+
+
+.qx-table td, .qx-table-cell .ui-state-active {/*, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active*/
+	border: none;
+	font-size: 1rem;
+}
+
+
+/*
+########################################################
+CSS is used for label/text properties
+
+/* 
+colors:
+normal = blue/white
+	border: #79b7e7
+	background: #ffffff
+input  =darkYello-lightYellow
+	border:#fad42e
+	background: #fbec88
+########################################################
+*/
+
+
+/*normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel .qx-text{
+    font: normal 1rem Montserrat,Calibri,"Helvetica Neue", Sans-Serif;
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+.qx-c-fcls_data_widget.qx-no-image.qx-aum.qx-aum-label.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-has-text.qx-c-attribute_underline
+{
+    font: normal 1rem Montserrat,Calibri,"Helvetica Neue", Sans-Serif;
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+.qx-c-fcls_columnlabel .qx-text{
+    font: bold 1.2rem "Calibri","Helvetica Neue", Sans-Serif;
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+.qx-c-fcls_columnlabel_rev .qx-text{
+    font: normal 1.2rem "Calibri","Helvetica Neue", Sans-Serif;
+    color: white;   
+    background: #2e6e9e;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;    
+    /*margin: 5px;*/
+}	
+
+.qx-c-fcls_menulabel .qx-text{
+    font: normal 1rem "Calibri","Helvetica Neue", Sans-Serif;
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+.qx-c-fcls_title_lb .qx-text {
+    padding: 2px;
+    padding: 5px 10px;
+    color: white !important;
+    font: bold 1.2rem "Calibri","Helvetica Neue", Sans-Serif;
+} 
+
+
+.qx-c-fcls_sblabel .qx-text {
+	color: #ffffff;
+    font: normal 1rem "Calibri","Helvetica Neue", Sans-Serif;
+    padding: 5px 10px 2px;
+} 
+
+/*dynamic menu label - initial draw */
+.qx-c-fcls_menulabel.qx-no-image.qx-has-text.qx-hta-l.qx-aum.qx-aum-label.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-inactive {
+	color: #2e6e9e;    
+}
+
+/* DISPLAY <text> ATTRIBUTE(NORMAL) */
+/* Note: I have added this for the BAB F002 module menu library xButtonMenu*/
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-attribute_normal:not(.qx-c-nativestyle), .qx-aum.qx-c-attribute_normal:not(.qx-c-nativestyle) * {
+    color: #2e6e9e;
+}
+
+/*BAB displays the menu label with focus with attribute(underline) */
+.qx-grid-cell .qx-aum-label.qx-c-attribute_underline.qx-c-fcls_menulabel * {
+    vertical-align: middle;
+    overflow: hidden;
+    color: white;   
+    background: #2e6e9e;
+}
+
+
+.qx-c-fcls_font_h1 .qx-text-with-icon{
+font-family: Montserrat,"Lucida Grande","Lucida Sans",Arial,"sans-serif";
+font-size: 2rem;
+font-weight:bold;
+color: #3a597e;
+}
+
+.qx-c-fcls_font_h2 .qx-text-with-icon{
+font-family: Montserrat,"Lucida Grande","Lucida Sans",Arial,"sans-serif";
+font-size: 1.6rem;
+font-weight:bold;
+color: #3a597e;
+}
+
+.qx-c-fcls_font_h3 .qx-text-with-icon{
+font-family:Montserrat,"Lucida Grande","Lucida Sans",Arial,"sans-serif";
+font-size: 1.2rem;
+font-weight:bold;
+color: #3a597e;
+}
+
+.qx-c-fcls_font_h4 .qx-text-with-icon{
+font-family: Montserrat,"Lucida Grande","Lucida Sans",Arial,sans-serif;
+font-size: 1rem;
+font-weight:bold;
+color: #3a597e;
+}
+
+.qx-c-fcls_font_h5 .qx-text-with-icon{
+font-family:Montserrat,"Lucida Grande","Lucida Sans",Arial,sans-serif;
+font-size: 1rem;
+font-weight:normal;
+color: #3a597e;
+}
+
+.qx-c-fcls_font_description .qx-text-with-icon{
+font-family:Montserrat,"Lucida Grande","Lucida Sans",Arial,sans-serif;
+font-size: 1rem;
+font-weight:normal;
+color: grey;
+font-style: italic;
+}
+
+
+/*
+##########################
+Toolbar Button Label
+##########################
+*/
+.qx-aum-toolbar-button .qx-text {
+     font: bold 0.7rem  Montserrat,Calibri,"Helvetica Neue", Sans-Serif;
+}
+
+
+
+.qx-scroll.qx-aum-toolbar.qx-aum-abstract-container.qx-identifier-toolbar.qx-c-lycia_actionstoolbar
+{
+    border: 1px solid #5c9ccc !important;     
+    margin: 4px;
+    padding: 2px;
+    border-radius: 5px;
+    /*margin-right: 100px;
+    padding-right: 100px; */
+}
+
+
+.tooltipster-default {
+	border-radius: 5px; 
+	border: 1px solid #000;
+	background: #4c4c4c;
+	color: #fff;
+}
+
+.tooltipster-default .tooltipster-content {
+	font-family: Montserrat,Calibri,"Trebuchet MS",Tahoma,Verdana,Arial,sans-serif;
+	font-size: 9pt;
+	line-height: normal;
+	padding: 6px 10px;
+	/*overflow: hidden;*/
+}
+
+.tooltipster-message,.tooltipster-usage,.tooltipster-other {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.tooltipster-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+.tooltipster-error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.tooltipster-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+
+/*
+####################################################################################################################################
+Title Container and text in form - top row-container in form's rootContainer
+
+FormClasses:
+fcls_title_cnt
+fcls_title_cnt_sub
+fcls_title_lb
+####################################################################################################################################
+*/
+.qx-c-fcls_title_lb .qx-text {
+    padding: 2px;
+    padding: 5px 10px;
+    color: white !important;
+    font: bold 14px "Calibri","Helvetica Neue", Sans-Serif;
+} 
+
+.qx-c-fcls_title_cnt {
+	/* border: 1px solid #cccccc; */
+	background: #cccccc url("/public/custom/extensions/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png") 50% 50% repeat-x;
+	/* background: url("https://code.jquery.com/ui/1.11.3/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x; */
+	/*color: #ffffff;*/
+	font-weight: bold;
+	border-radius: 4px;
+	/*padding: 2px; */
+	margin: 0;
+}
+
+/*
+.qx-c-fcls_title_cnt {
+	border: 1px solid #5c9ccc;
+	background: #5c9ccc url("images/ui-bg_gloss-wave_55_5c9ccc_500x100.png") 50% 50% repeat-x;
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 4px;
+	padding: 2px;
+	margin: 0; 
+}
+*/
+
+/*
+####################################################################################################################################
+Custom Statusbar - bottom form
+Form Classes / Selectors:
+fcls_statusbar_cnt
+fcls_statusbar_cnt_sub
+fcls_sblabel
+####################################################################################################################################
+*/
+
+.qx-c-fcls_statusbar_cnt {
+	/*border: 1px solid #3a597e;*/
+	background: #3a597e url("/public/custom/extensions/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png") 50% 50% repeat-x;
+	border-radius: 4px;
+	padding: 0;
+	margin-top:5px;
+}
+
+/*
+####################################################################################################################################
+Title Container and text in form - top row-container in form's rootContainer
+
+FormClasses:
+fcls_title_cnt
+fcls_title_cnt_sub
+fcls_title_lb
+
+/* 
+colors:
+normal = blue/white
+	border: #79b7e7
+	background: #ffffff
+input  =darkYello-lightYellow
+	border:#fad42e
+	background: #fbec88
+
+####################################################################################################################################
+*/
+
+
+/*
+####################################################################
+Element Type ComboBoxList Field with form element class fcls_data_widget
+####################################################################
+*/
+/* .qx-c-fcls_data_widget.qx-aum-combo-box.qx-o-aum-abstract-string-field.qx-o-aum-abstract-field { */
+.qx-c-fcls_data_widget.qx-aum-combo-box {
+    #border: 1px solid #c5dbec;
+    background: none  #; 
+    #font-weight: bold;
+    /*color: #2e6e9e;*/
+   /* color: #ff0000*/
+}
+
+/*
+.qx-c-fcls_data_widget.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: px solid #c5dbec;
+    background: #dfeffc url("images/ui-bg_glass_85_dfeffc_1x400.png") 50% 50% repeat-x;
+    font-weight: bold;
+
+    color: #ff00ff
+}
+*/
+/*
+####################################################################
+Element Type Function Field with form element class fcls_data_widget
+####################################################################
+*/
+/*very outer box */
+/*
+.qx-wrap.qx-whs.qx-wvs.qx-o.qx-va-t.qx-o-aum-function-field-abs.qx-o-aum-abstract-field.qx-scw.qx-ha-l
+{
+	border: 5px solid #A0F !important; 
+	color: red;
+	border: green;
+}
+*/
+/*outer box */
+
+.qx-single-row.qx-aum.qx-aum-function-field-abs.qx-aum-abstract-field.qx-element-role-input.qx-active.qx-c-fcls_align_left.qx-c-fcls_data_widget.qx-not-readonly
+{
+	border: 1px solid rgba(92, 156, 204, .5) !important; 
+}
+
+
+/*inner box*/
+/*
+.qx-aum-function-field-abs .qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly.qx-has-text
+{
+	border: 1px solid #79b7e7 !important; 
+}
+*/
+
+.qx-c-fcls_data_widget.qx-aum-function-field-abs {
+    border: 0px solid #A0F !important; 
+    background:transparent;
+}
+/*and it's decendent textbox will change when it becomes focus (cursor in field)*/
+.qx-c-fcls_data_widget.qx-aum-function-field-abs .qx-aum-abstract-field.qx-focused {
+	    background: #fbec88;
+    /*border: 1px solid #79b7e7 !important; */
+    border: 1px solid #fad42e !important; 
+    
+}
+
+/*
+####################################################################
+Element Type spinner Field with form element class fcls_data_widget
+####################################################################
+*/
+
+
+/*Overwrite jQuery css for spinner input*/
+.qx-c-fcls_data_widget.qx-aum-spinner > input {
+background: none;
+    background-color: transparent;
+}
+
+/*not used - will be overwritten - just used when testing is required*/
+.qx-c-fcls_data_widget.qx-aum-spinner {
+    border: 10px solid #ff00ff !important; 
+        background:orange;
+}
+
+/*spinner - outer spinner - input but not focused*/
+.qx-c-fcls_data_widget.qx-aum-spinner.qx-aum-abstract-field {
+    border: 0px solid #ffffff !important; 
+        background:transparent;
+}
+/*spinner - inner textbox input with focus*/
+.qx-c-fcls_data_widget.qx-aum-spinner.qx-aum-abstract-field.ui-state-active.qx-focused .qx-text {
+    border: 1px solid #fad42e !important; /*darkYellow*/
+    background:#fbec88; /*brightYellow*/
+    font-weight: normal;
+}
+
+/*spinner - inner textbox input NO focus*/
+.qx-c-fcls_data_widget.qx-aum-spinner.qx-aum-abstract-field.ui-state-active .qx-text {
+    border: 1px solid #79b7e7 !important; /*blue*/
+    background:#ffffff;  /*white*/
+}
+
+
+
+/*
+TextField
+*/
+
+/*textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget .qx-text{
+font: normal 1rem Montserrat,Calibri,"Helvetica Neue", Sans-Serif;
+}
+
+/*
+.qx-aum-text-field.qx-aum-spinner, .qx-aum-text-field.qx-aum-text-area, .qx-aum-text-field.qx-aum-calendar, 
+.qx-aum-text-field.qx-aum-time-edit-field, .qx-aum-text-field.qx-aum-combo-box, .qx-aum-text-field.qx-aum-list-box, 
+.qx-aum-text-field.qx-aum-list-box-item, .qx-aum-text-field.qx-aum-radio-button-list, .qx-aum-text-field.qx-aum-check-box {
+
+	color: #0e0e0e;
+	font-size: 1rem;	
+}
+*/
+
+/*
+RadioButtonList Children * selector
+*/
+
+.qx-bool-widget.qx-aum.qx-aum-radio-button.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-has-title.qx-has-text.qx-focusable-field  
+{
+	color: #3a597e;  /* #3a597e; was #2e6e9e; */
+	font-size: 1rem;		
+}
+.qx-aum-radio-button-list * 
+{
+	color: #3a597e;   /* #3a597e; was #2e6e9e; */
+	font-size: 1rem;		
+}
+
+/*
+######################################################
+RadioButtonList
+######################################################
+*/
+/*
+RadioButtonListItem
+Element: .qx-aum-radio-button-list-item
+FormClass: .qx-c-fcls_field
+*/
+
+.qx-c-fcls_field .qx-aum-radio-button-list-item
+{
+	color: #3a597e;   /* #3a597e; was #2e6e9e; */
+	font-size: 1rem;		
+}
+
+.qx-c-fcls_data_widget .qx-aum-radio-button-list-item
+{
+	color: #3a597e;   /* #3a597e; was #2e6e9e; */
+	font-size: 1rem;		
+}
+
+.aum-text-field
+{
+	color: #3a597e;   /* #3a597e; was #2e6e9e; */
+	font-size: 2.8rem;		
+}
+
+.qx-aum-radio-button-list .qx-content, .qx-c-nativestyle .qx-content
+{
+	color: #3a597e;   /* #3a597e; was #2e6e9e; */
+	font-size: 2.8rem;		
+}
+
+/*kk
+.qx-aum-abstract-field.ui-state-active .qx-aum-radio-button-list .qx-content, .qx-c-nativestyle .qx-content
+*/
+
+qx-aum-abstract-field.ui-state-active .qx-aum-abstract-field.ui-state-active .qx-aum-radio-button-list .qx-content, .qx-c-nativestyle .qx-content
+{
+	color: black;
+	font-size: 1rem;		
+}
+
+
+.ui-widget-content .qx-aum-abstract-field.ui-state-active, 
+.ui-widget-header .qx-aum-abstract-field.ui-state-active, 
+.qx-aum-abstract-field.ui-state-active
+{
+	font-weight: normal;
+	color: #3a597e;   /* #3a597e; was #2e6e9e; */
+}
+
+/*#######################################
+RadioButton Single
+#########################################*/
+
+/*inactive*/
+.qx-c-fcls_data_widget.qx-aum-radio-button.qx-bool-widget.qx-aum.qx-on-1.qx-s-on-0.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-psw.qx-has-title.qx-has-text.qx-inactive.qx-disabled.qx-readonly .qx-text-with-icon .qx-text 
+{ 
+	color: #3a597e;
+}
+
+/*active*/
+.qx-c-fcls_data_widget.qx-aum-radio-button.qx-bool-widget.qx-aum.qx-on-1.qx-s-on-0.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-active.qx-c-activefield.qx-has-title.qx-has-text .qx-text-with-icon .qx-text 
+{ 
+	color: #3a597e;
+}
+
+/*#######################################
+CheckBox
+##########################################*/
+/*checkBox label*/
+.qx-bool-widget.qx-aum.qx-aum-check-box.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-has-title.qx-has-text
+{
+	color: #3a597e;
+}
+
+.qx-c-fcls_data_widget.qx-aum-check-box.qx-bool-widget.qx-aum-abstract-field.qx-aum.qx-aum-abstract-bool-field.qx-element-role-input.qx-active.qx-c-activefield.qx-has-title.qx-has-text .qx-text-with-icon .qx-text
+{
+	color: #3a597e;
+}
+
+.qx-c-fcls_data_widget.qx-aum-check-box.qx-bool-widget.qx-aum-abstract-field.qx-aum.qx-element-role-input.qx-has-title.qx-has-text.qx-inactive.qx-disabled.qx-readonly .qx-text-with-icon .qx-text
+{
+	color: #3a597e;
+}
+/*########################################
+Tab Handles 
+##########################################*/
+/*Note, we need a different/unique class name for MDI-container tab-handles*/
+/*at the moment, this class will select ALL tab handles normal form AND mdi-container */
+.ui-tabs-nav .qx-text 
+{
+    min-width: 150px;
+}
+
+
+/*All button-labels (from any button) in forms with the (rootfolder) class name fcls_container_menu*/
+.qx-c-fcls_container_menu .qx-aum-button .qx-text-with-icon {
+	justify-content:flex-start;
+	}
+
+
+/*##################################################
+Inactive State - kind of global for all elements
+###################################################*/
+
+.ui-state-disabled.qx-c-fcls_data_widget, .ui-widget-content.qx-c-fcls_data_widget .ui-state-disabled.qx-c-fcls_data_widget, .ui-state-disabled.qx-c-fcls_data_widget{
+    opacity: .7; 
+    filter: Alpha(Opacity=70);
+    border: 1px solid rgba(92, 156, 204, .5);
+    }
+/*
+.qx-c-fcls_data_widget .ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled{
+    opacity: .7; 
+    filter: Alpha(Opacity=70);
+    border: 1px solid rgba(92, 156, 204, .5);
+    }
+*/    
+
+/*
+########################################################
+CSS is used for container properties
+
+
+########################################################
+*/
+
+
+
+/*
+#######################################################
+Gridpanel
+#######################################################
+*/
+
+/*rootContainer elementBorder */
+.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-identifier-rootcontainer.qx-c-fcls_container_border.qx-c-fcls_rootcontainer table {
+    border-color: #a6c9e2;
+}
+
+/*All grid cells - vertical element alignment within gridPanel cells */
+/*
+.qx-grid-cell {
+    vertical-align: top;
+    overflow: hidden;
+   
+}
+
+*/
+
+/*All cells in rootContainer descendants -  vertical element alignment top*/
+.qx-c-fcls_rootcontainer.qx-aum-grid-panel .qx-grid-cell 
+{
+    vertical-align: top;
+    overflow: hidden;
+}
+
+/*All descendant cells in gridPanels with class fcls_data_cnt -  vertical element middle */
+.qx-aum-grid-panel.qx-c-fcls_data_cnt .qx-grid-cell 
+{
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+
+
+/*
+####################################################################################################################################
+MDI-Container stuff
+
+
+####################################################################################################################################
+*/
+
+
+/*Tab Handles */
+
+/* MDI-Container Root-Tab should be hidden without taking place / display:none */
+.qx-page-0-header
+{
+    /*visibility: hidden;*/
+    display: none;
+}
+
+/*Note, we need a different/unique class name for MDI-container tab-handles*/
+/*at the moment, this class will select ALL tab handles normal form AND mdi-container */
+.ui-tabs-nav .qx-text 
+{
+    min-width: 150px;
+}
+
+.qx-t-h.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header
+{
+    /*visibility: hidden;*/
+    border-bottom: 1px solid #5c9ccc !important; 
+    
+}
+
+/*
+####################################################################################################################################
+Dialog/Message boxes i.e. for fgl_winmessage()
+
+FYIO: These build in dialog functions do not use forms - so there are no user-defined form classes to select from
+
+/* 
+colors:
+normal = blue/white
+	border: #79b7e7
+	background: #ffffff
+input  =darkYello-lightYellow
+	border:#fad42e
+	background: #fbec88
+
+####################################################################################################################################
+*/
+
+
+/*
+####################################################################
+fgl_winmessage() dialog/message boxes
+####################################################################
+*/
+
+.qx-mb-dialog.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable{
+min-width: 300px;
+}
+
+.qx-message-box.ui-dialog-content.ui-widget-content {
+	color: #495797;	
+	background: #ffffff;	
+}	
+
+/* text/message are within the dialog box */
+.qx-message-box.ui-dialog-content.ui-widget-content .qx-text-wrapper {
+    /*color: #ff0000;	*/
+	background: transparent;	
+}
+
+img[src="/LyciaWeb/pack/exclamation.ico"] {
+  /*display: none; */
+  box-sizing: border-box;
+  /*background: url(/public/custom/icon32/basic/info.png) no-repeat; */
+  content: url(/public/custom/icon32/basic/info.png);
+  /*width: 180px; *//* Width of new image */
+  /*height: 236px; */ /* Height of new image */
+  margin-left: 2px; /* Equal to width of new image */
+  margin-right: 2px; /* Equal to width of new image */  
+  /* vertical-align: middle; */
+  /*background-color: #ff00ff;  */
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Arimo");
+@import url("https://fonts.googleapis.com/css?family=Abel");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+
+@import url("https://fonts.googleapis.com/css?family=Cousine");
+@import url("https://fonts.googleapis.com/css?family=Space+Mono");
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+
+@import url("http://www.princexml.com/fonts/larabie/index.css") all;

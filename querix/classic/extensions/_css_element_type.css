@@ -1,0 +1,381 @@
+/*
+####################################################################################################################################
+Title Container and text in form - top row-container in form's rootContainer
+
+FormClasses:
+fcls_title_cnt
+fcls_title_cnt_sub
+fcls_title_lb
+
+/* 
+colors:
+normal = blue/white
+	border: #79b7e7
+	background: #ffffff
+input  =darkYello-lightYellow
+	border:#fad42e
+	background: #fbec88
+
+####################################################################################################################################
+*/
+
+
+/*
+####################################################################
+ALL Element Types with textBox
+####################################################################
+*/
+
+/*Make current focused input field stand out */
+.qx-aum-calendar.qx-has-focus,
+.qx-aum-calendar.qx-has-focus *,
+.qx-aum-function-field-abs.qx-has-focus .qx-ff-text,
+.qx-aum-function-field-abs.qx-has-focus .qx-ff-text *,
+.qx-aum-spinner.qx-has-focus,
+.qx-aum-spinner.qx-has-focus .qx-text,
+.qx-aum-text-field.qx-has-focus,
+.qx-aum-text-field.qx-has-focus *,
+.qx-aum-text-area.qx-has-focus,
+.qx-aum-text-area.qx-has-focus *,
+.qx-aum-time-edit-field.qx-has-focus,
+.qx-aum-time-edit-field.qx-has-focus *,
+.qx-aum-combo-box.qx-has-focus 
+{
+   background-color: #fbec88  !important;
+}
+
+
+
+/*Overwrite opacity for disabled fields */
+.ui-widget-header .ui-state-active,
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled, 
+.ui-state-disabled {
+   opacity: 0.9;
+   filter: Alpha(Opacity=100);
+  
+}
+/*
+.qx-table-cell, .ui-widget-content
+{
+	background-color: pink;
+	color: pink;
+    border: 3px solid #ff00ff !important; 
+}
+*/
+
+
+
+/*
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled, 
+.ui-state-disabled {
+   opacity: 1;
+   filter: Alpha(Opacity=100);
+   border: 1px solid rgba(92, 156, 204, .5);
+   #background: none;
+   #background-color: #fbec88 ;
+   color: #2e6e9e;
+}
+*/
+
+/*
+####################################################################
+Element Type ComboBoxList Field with form element class fcls_data_widget
+####################################################################
+*/
+/* .qx-c-fcls_data_widget.qx-aum-combo-box.qx-o-aum-abstract-string-field.qx-o-aum-abstract-field { */
+.qx-c-fcls_data_widget.qx-aum-combo-box {
+    #border: 1px solid #c5dbec;
+    background: none  #; 
+    #font-weight: bold;
+    /*color: #2e6e9e;*/
+   /* color: #ff0000*/
+}
+
+/*
+.qx-c-fcls_data_widget.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: px solid #c5dbec;
+    background: #dfeffc url("images/ui-bg_glass_85_dfeffc_1x400.png") 50% 50% repeat-x;
+    font-weight: bold;
+
+    color: #ff00ff
+}
+*/
+/*
+####################################################################
+Element Type Function Field with form element class fcls_data_widget
+####################################################################
+*/
+/*very outer box */
+/*
+.qx-wrap.qx-whs.qx-wvs.qx-o.qx-va-t.qx-o-aum-function-field-abs.qx-o-aum-abstract-field.qx-scw.qx-ha-l
+{
+	border: 5px solid #A0F !important; 
+	color: red;
+	border: green;
+}
+*/
+/*outer box */
+
+.qx-single-row.qx-aum.qx-aum-function-field-abs.qx-aum-abstract-field.qx-element-role-input.qx-active.qx-c-fcls_align_left.qx-c-fcls_data_widget.qx-not-readonly
+{
+	border: 1px solid rgba(92, 156, 204, .5) !important; 
+}
+
+
+/*inner box*/
+/*
+.qx-aum-function-field-abs .qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly.qx-has-text
+{
+	border: 1px solid #79b7e7 !important; 
+}
+*/
+
+.qx-c-fcls_data_widget.qx-aum-function-field-abs {
+    border: 0px solid #A0F !important; 
+    background:transparent;
+}
+/*and it's decendent textbox will change when it becomes focus (cursor in field)*/
+.qx-c-fcls_data_widget.qx-aum-function-field-abs .qx-aum-abstract-field.qx-focused {
+	    background: #fbec88;
+    /*border: 1px solid #79b7e7 !important; */
+    border: 1px solid #fad42e !important; 
+    
+}
+
+/*
+####################################################################
+Element Type spinner Field with form element class fcls_data_widget
+####################################################################
+*/
+
+
+/*Overwrite jQuery css for spinner input*/
+.qx-c-fcls_data_widget.qx-aum-spinner > input {
+background: none;
+    background-color: transparent;
+}
+
+/*not used - will be overwritten - just used when testing is required*/
+.qx-c-fcls_data_widget.qx-aum-spinner {
+    border: 10px solid #ff00ff !important; 
+        background:orange;
+}
+
+/*spinner - outer spinner - input but not focused*/
+.qx-c-fcls_data_widget.qx-aum-spinner.qx-aum-abstract-field {
+    border: 0px solid #ffffff !important; 
+        background:transparent;
+}
+/*spinner - inner textbox input with focus*/
+.qx-c-fcls_data_widget.qx-aum-spinner.qx-aum-abstract-field.ui-state-active.qx-focused .qx-text {
+    border: 1px solid #fad42e !important; /*darkYellow*/
+    background:#fbec88; /*brightYellow*/
+    font-weight: normal;
+}
+
+/*spinner - inner textbox input NO focus*/
+.qx-c-fcls_data_widget.qx-aum-spinner.qx-aum-abstract-field.ui-state-active .qx-text {
+    border: 1px solid #79b7e7 !important; /*blue*/
+    background:#ffffff;  /*white*/
+}
+
+
+
+/*################################################
+TextField
+##################################################*/
+
+/* classic - without form class */
+.qx-text.qx-text-edit{
+font: normal 1rem "Droid Sans","Roboto Mono", Sans-Serif;
+color: black;
+}
+
+/*textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget .qx-text{
+font: normal 1rem "Roboto Mono",Calibri,"Helvetica Neue", Sans-Serif;
+}
+
+/*textField widget - fcls_active_widget  widgets should show active but not be selectable */ 
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_active_widget .qx-text{
+	opacity: 1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+	/*color: rgba(0, 0, 0, 0.5);*/
+}
+
+/*
+.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-element-role-input.qx-active.ui-state-active.qx-c-activefield.qx-focusable-field.qx-has-text.qx-enabled.qx-not-readonly.qx-editable.qx-focused.ui-state-focus.ui-state-highlight.qx-has-focus .qx-text
+{
+color: red;
+font-size: 2rem;	
+}
+*/
+/*
+.qx-aum-text-field.qx-aum-spinner, .qx-aum-text-field.qx-aum-text-area, .qx-aum-text-field.qx-aum-calendar, 
+.qx-aum-text-field.qx-aum-time-edit-field, .qx-aum-text-field.qx-aum-combo-box, .qx-aum-text-field.qx-aum-list-box, 
+.qx-aum-text-field.qx-aum-list-box-item, .qx-aum-text-field.qx-aum-radio-button-list, .qx-aum-text-field.qx-aum-check-box {
+
+	color: #0e0e0e;
+	font-size: 1rem;	
+}
+*/
+
+/*######################################################
+RadioButtonList Children * selector
+########################################################*/
+
+.qx-bool-widget.qx-aum.qx-aum-radio-button.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-has-title.qx-has-text.qx-focusable-field  
+{
+	color: #3a597e;  /* #3a597e; was #2e6e9e; */
+	font-size: 1rem;		
+}
+.qx-aum-radio-button-list * 
+{
+	color: #3a597e;   /* #3a597e; was #2e6e9e; */
+	font-size: 1rem;		
+}
+
+/*
+######################################################
+RadioButtonList
+######################################################
+*/
+/*
+RadioButtonListItem
+Element: .qx-aum-radio-button-list-item
+FormClass: .qx-c-fcls_field
+*/
+
+.qx-c-fcls_field .qx-aum-radio-button-list-item
+{
+	color: #3a597e;   /* #3a597e; was #2e6e9e; */
+	font-size: 1rem;		
+}
+
+.qx-c-fcls_data_widget .qx-aum-radio-button-list-item
+{
+	color: #3a597e;   /* #3a597e; was #2e6e9e; */
+	font-size: 1rem;		
+}
+
+.aum-text-field
+{
+	color: #3a597e;   /* #3a597e; was #2e6e9e; */
+	font-size: 2.8rem;		
+}
+
+.qx-aum-radio-button-list .qx-content, .qx-c-nativestyle .qx-content
+{
+	color: #3a597e;   /* #3a597e; was #2e6e9e; */
+	font-size: 2.8rem;		
+}
+
+/*kk
+.qx-aum-abstract-field.ui-state-active .qx-aum-radio-button-list .qx-content, .qx-c-nativestyle .qx-content
+*/
+
+qx-aum-abstract-field.ui-state-active .qx-aum-abstract-field.ui-state-active .qx-aum-radio-button-list .qx-content, .qx-c-nativestyle .qx-content
+{
+	color: black;
+	font-size: 1rem;		
+}
+
+.qx-aum-radio-button-list.ui-state-focus, .qx-aum-radio-button-list.ui-state-hover, .qx-aum-radio-button-list.ui-widget-content .qx-aum-radio-button-list.ui-state-focus, .qx-aum-radio-button-list.ui-widget-content .qx-aum-radio-button-list.ui-state-hover, .qx-aum-radio-button-list.ui-widget-header .qx-aum-radio-button-list.ui-state-focus, .qx-aum-radio-button-list.ui-widget-header .qx-aum-radio-button-list.ui-state-hover {
+
+    background-color: transparent;
+	background-image:none;
+	border: none;
+}
+
+
+.ui-widget-content .qx-aum-abstract-field.ui-state-active, 
+.ui-widget-header .qx-aum-abstract-field.ui-state-active, 
+.qx-aum-abstract-field.ui-state-active
+{
+	font-weight: normal;
+	color: #3a597e;   /* #3a597e; was #2e6e9e; */
+}
+
+/*#######################################
+RadioButton Single
+#########################################*/
+/*general*/
+.qx-c-fcls_data_widget.qx-aum-radio-button.qx-aum-abstract-field .qx-text-with-icon .qx-text
+{
+	font-size: 1rem;
+	font-weight: normal;
+    font: normal 1rem "Roboto Mono",Calibri,"Helvetica Neue", Sans-Serif;
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/		
+}	
+
+/*inactive*/
+.qx-c-fcls_data_widget.qx-aum-radio-button.qx-bool-widget.qx-aum.qx-on-1.qx-s-on-0.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-psw.qx-has-title.qx-has-text.qx-inactive.qx-disabled.qx-readonly .qx-text-with-icon .qx-text 
+{ 
+	color: #3a597e;
+}
+
+/*active*/
+.qx-c-fcls_data_widget.qx-aum-radio-button.qx-bool-widget.qx-aum.qx-on-1.qx-s-on-0.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-active.qx-c-activefield.qx-has-title.qx-has-text .qx-text-with-icon .qx-text 
+{ 
+	color: #3a597e;
+}
+
+/*#######################################
+CheckBox
+##########################################*/
+/*checkBox label*/
+.qx-bool-widget.qx-aum.qx-aum-check-box.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-has-title.qx-has-text
+{
+	font-size: 1rem;
+	font-weight: normal;
+    font: normal 1rem "Roboto Mono",Calibri,"Helvetica Neue", Sans-Serif;
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/		
+}
+
+.qx-c-fcls_data_widget.qx-aum-check-box.qx-bool-widget.qx-aum-abstract-field.qx-aum.qx-aum-abstract-bool-field.qx-element-role-input.qx-active.qx-c-activefield.qx-has-title.qx-has-text .qx-text-with-icon .qx-text
+{
+	color: #3a597e;
+}
+
+.qx-c-fcls_data_widget.qx-aum-check-box.qx-bool-widget.qx-aum-abstract-field.qx-aum.qx-element-role-input.qx-has-title.qx-has-text.qx-inactive.qx-disabled.qx-readonly .qx-text-with-icon .qx-text
+{
+	color: #3a597e;
+}
+/*########################################
+Tab Handles 
+##########################################*/
+/*Note, we need a different/unique class name for MDI-container tab-handles*/
+/*at the moment, this class will select ALL tab handles normal form AND mdi-container */
+.ui-tabs-nav .qx-text 
+{
+    min-width: 150px;
+}
+
+
+/*All button-labels (from any button) in forms with the (rootfolder) class name fcls_container_menu*/
+.qx-c-fcls_container_menu .qx-aum-button .qx-text-with-icon {
+	justify-content:flex-start;
+	}
+
+
+/*##################################################
+Inactive State - kind of global for all elements
+###################################################*/
+
+.ui-state-disabled.qx-c-fcls_data_widget, .ui-widget-content.qx-c-fcls_data_widget .ui-state-disabled.qx-c-fcls_data_widget, .ui-state-disabled.qx-c-fcls_data_widget{
+    opacity: .7; 
+    filter: Alpha(Opacity=70);
+    border: 1px solid rgba(92, 156, 204, .5);
+    }
+/*
+.qx-c-fcls_data_widget .ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled{
+    opacity: .7; 
+    filter: Alpha(Opacity=70);
+    border: 1px solid rgba(92, 156, 204, .5);
+    }
+*/    

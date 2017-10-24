@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <WithPseudoClassFilter PseudoClassName="DataWidgets">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Margin</PropertyName>
+            <PropertyName>Left</PropertyName>
+          </PropertyPath>
+          <PropertyValue>1</PropertyValue>
+        </SetProperty>
+      </DoStyleAction>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Margin</PropertyName>
+            <PropertyName>Right</PropertyName>
+          </PropertyPath>
+          <PropertyValue>1</PropertyValue>
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </WithPseudoClassFilter>
+  <ElementFilter ElementName="FunctionFieldAbs">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Margin</PropertyName>
+            <PropertyName>Left</PropertyName>
+          </PropertyPath>
+          <PropertyValue>1</PropertyValue>
+        </SetProperty>
+      </DoStyleAction>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Margin</PropertyName>
+            <PropertyName>Right</PropertyName>
+          </PropertyPath>
+          <PropertyValue>1</PropertyValue>
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementFilter>
+</StyleSheet>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <ElementFilter ElementName="Toolbar">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>PreferredSize</PropertyName>
+            <PropertyName>Height</PropertyName>
+          </PropertyPath>
+          <PropertyValue>60</PropertyValue>
+        </SetProperty>
+      </DoStyleAction>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>HideLabels</PropertyName>
+          </PropertyPath>
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementFilter>
+  <ElementFilter ElementName="ToolbarButton">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Font</PropertyName>
+            <PropertyName>FontSize</PropertyName>
+          </PropertyPath>
+          <PropertyValue>8</PropertyValue>
+        </SetProperty>
+      </DoStyleAction>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Image</PropertyName>
+            <PropertyName>ImagePosition</PropertyName>
+          </PropertyPath>
+          <PropertyValue>Top</PropertyValue>
+        </SetProperty>
+      </DoStyleAction>
+      <WithPseudoClassFilter PseudoClassName="Active">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Background</PropertyName>
+                <PropertyName>FillColor</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="CustomizedColor" RedColor="255" GreenColor="255" BlueColor="255" Alpha="0" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <WithPseudoClassFilter PseudoClassName="Inactive">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Background</PropertyName>
+                <PropertyName>FillColor</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="CustomizedColor" RedColor="128" GreenColor="128" BlueColor="128" Alpha="30" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>TextAlignment</PropertyName>
+            <PropertyName>HorizontalTextAlignment</PropertyName>
+          </PropertyPath>
+          <PropertyValue>Center</PropertyValue>
+        </SetProperty>
+      </DoStyleAction>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>MinSize</PropertyName>
+            <PropertyName>Width</PropertyName>
+          </PropertyPath>
+          <PropertyValue>60</PropertyValue>
+        </SetProperty>
+      </DoStyleAction>
+      <DescendantFilter>
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Font</PropertyName>
+                <PropertyName>FontSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue>8</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>TextAlignment</PropertyName>
+                <PropertyName>HorizontalTextAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </DescendantFilter>
+    </StyleSheet>
+  </ElementFilter>
+  <ElementFilter ElementName="MenuBar">
+    <StyleSheet>
+      <ElementIdFilter Identifier="demo">
+        <StyleSheet>
+          <ChildFilter>
+            <StyleSheet>
+              <ElementFilter ElementName="MenuCommand">
+                <StyleSheet>
+                  <WithClassFilter ClassName="classic">
+                    <StyleSheet />
+                  </WithClassFilter>
+                </StyleSheet>
+              </ElementFilter>
+            </StyleSheet>
+          </ChildFilter>
+        </StyleSheet>
+      </ElementIdFilter>
+    </StyleSheet>
+  </ElementFilter>
+  <ElementFilter ElementName="MenuGroup">
+    <StyleSheet>
+      <WithClassFilter ClassName="expanded">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>ImageId</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="ResourceId" Uri="{CONTEXT}public/querix/icon10/down.png" />
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Wrapper</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Wrapper" Name="applyClass" Parameter="[&quot;ui-accordion ui-widget ui-helper-reset&quot;,&#xD;&#xA; {&#xD;&#xA;      &quot;find&quot;:&quot;&gt; a&quot;,&#xD;&#xA;      &quot;add&quot;: &quot;ui-accordion-header ui-state-default ui-accordion-header-active ui-state-active ui-corner-top&quot;&#xD;&#xA;  },&#xD;&#xA;{&#xD;&#xA;      &quot;find&quot;:&quot;&gt; ul&quot;,&#xD;&#xA;      &quot;add&quot;: &quot;ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active&quot;&#xD;&#xA;  }]&#xD;&#xA;" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithClassFilter>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>ImageId</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="ResourceId" Uri="{CONTEXT}public/querix/icon10/right.png" />
+        </SetProperty>
+      </DoStyleAction>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="applyClass" Parameter="[&quot;ui-accordion ui-widget ui-helper-reset&quot;,&#xD;&#xA; {&#xD;&#xA;      &quot;find&quot;:&quot;&gt; a&quot;,&#xD;&#xA;      &quot;add&quot;: &quot;ui-accordion-header ui-state-default ui-corner-all&quot;&#xD;&#xA;  }]" />
+        </SetProperty>
+      </DoStyleAction>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>ForeColor</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="SystemColor" SystemColorName="Magenta" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementFilter>
+</StyleSheet>

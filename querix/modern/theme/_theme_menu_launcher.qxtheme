@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <ElementFilter ElementName="Application">
+    <StyleSheet>
+      <DoStyleAction>
+        <ApplyClass Name="disable-mobile-transform" />
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementFilter>
+  <ElementFilter ElementName="MenuBar">
+    <StyleSheet>
+      <ChildFilter>
+        <StyleSheet>
+          <ElementFilter ElementName="MenuCommand">
+            <StyleSheet>
+              <DoStyleAction>
+                <SetProperty>
+                  <PropertyPath>
+                    <PropertyName>Wrapper</PropertyName>
+                  </PropertyPath>
+                  <PropertyValue type="Wrapper" Name="containermenu_transformer" Parameter="none" />
+                </SetProperty>
+              </DoStyleAction>
+            </StyleSheet>
+          </ElementFilter>
+          <ElementFilter ElementName="MenuGroup">
+            <StyleSheet>
+              <DoStyleAction>
+                <SetProperty>
+                  <PropertyPath>
+                    <PropertyName>Wrapper</PropertyName>
+                  </PropertyPath>
+                  <PropertyValue type="Wrapper" Name="containermenu_transformer" Parameter="none" />
+                </SetProperty>
+              </DoStyleAction>
+            </StyleSheet>
+          </ElementFilter>
+        </StyleSheet>
+      </ChildFilter>
+    </StyleSheet>
+  </ElementFilter>
+</StyleSheet>

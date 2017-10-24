@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Arimo");
+@import url("https://fonts.googleapis.com/css?family=Abel");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+
+@import url("https://fonts.googleapis.com/css?family=Cousine");
+@import url("https://fonts.googleapis.com/css?family=Space+Mono");
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+
+@import url("http://www.princexml.com/fonts/larabie/index.css") all;
+
+
+:root {
+font-size: 12px;
+}
+
+/*html { font-size: 200%; }*/
+
+/*######################################################
+default font
+######################################################*/
+/*
+.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field .qx-text
+{
+	font: normal 5rem "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;  
+
+}
+*/
+.qx-text,
+.qx-has-text .qx-text,
+.qx-c-fcls_data_widget.qx-has-text .qx-text,
+.qx-bcell .qx-tbody.qx-tbody-flex-experimental,
+.ui-spinner.ui-widget.ui-widget-content.qx-aum.qx-aum-spinner.qx-aum-abstract-field.qx-c-fcls_data_widget .qx-text,
+.qx-text-field.qx-aum-text-field .qx-text
+{
+	font: normal 1rem "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;  
+
+}
+
+
+
+/*font test case font1 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_01 .qx-text{
+    font: normal 1rem Montserrat;
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font2 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_02 .qx-text{
+    font: normal 1rem Calibri;
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font3 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_03 .qx-text{
+    font: normal 1rem "Helvetica Neue";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font4 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_04 .qx-text{
+    font: normal 1rem Sans-Serif;
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font5 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_05 .qx-text{
+    font: normal 1rem "Roboto Mono";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font6 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_06 .qx-text{
+    font: normal 1rem "Droid Sans Mono";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font7 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_07 .qx-text{
+    font: normal 1rem "Space Mono";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font8 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_08 .qx-text{
+    font: normal 1rem "Cousine";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font9 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_09 .qx-text{
+    font: normal 1rem "Open Sans";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font10 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_10 .qx-text{
+    font: normal 1rem "Fira Sans";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font11 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_11 .qx-text{
+    font: normal 1rem "Josefin Sans";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font12 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_12 .qx-text{
+    font: normal 1rem "Open Sans Condensed";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+/*font test case font13 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_13 .qx-text{
+    font: normal 1rem "Roboto";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font14 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_14 .qx-text{
+    font: normal 1rem "Lato";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+
+/*font test case font15 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_15 .qx-text{
+    font: normal 1rem "Roboto Condensed";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font16 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_16 .qx-text{
+    font: normal 1rem "Raleway";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font17 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_17 .qx-text{
+    font: normal 1rem "Droid Sans";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font18 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_18 .qx-text{
+    font: normal 1rem "Ubuntu";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+/*font test case font19 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_19 .qx-text{
+    font: normal 1rem "Arimo";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+
+/*font test case font20 - normal form text label -class fcls_fieldlabel*/
+.qx-c-fcls_fieldlabel.qx-c-fcls_font_20 .qx-text{
+    font: normal 1rem "Abel";
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+} 
+
+
+
+
+
+
+/*Font_01 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_01 .qx-text{
+font: normal 1rem Montserrat;
+}
+/*Font_02 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_02 .qx-text{
+font: normal 1rem Calibri;
+}
+/*Font_03 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_03 .qx-text{
+font: normal 1rem "Helvetica Neue";
+}
+/*Font_04 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_04 .qx-text{
+font: normal 1rem Sans-Serif;
+}
+/*Font_05 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_05 .qx-text{
+font: normal 1rem "Roboto Mono";
+}
+/*Font_06 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_06 .qx-text{
+font: normal 1rem "Droid Sans Mono";
+}
+/*Font_07 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_07 .qx-text{
+font: normal 1rem "Space Mono";
+}
+/*Font_08 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_08 .qx-text{
+font: normal 1rem "Cousine";
+}
+/*Font_09 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_09 .qx-text{
+font: normal 1rem "Open Sans";
+}
+/*Font_10 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_10 .qx-text{
+font: normal 1rem "Fira Sans";
+}
+/*Font_11 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_11 .qx-text{
+font: normal 1rem "Josefin Sans";
+}
+/*Font_12 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_12 .qx-text{
+font: normal 1rem "Open Sans Condensed";
+}
+/*Font_13 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_13 .qx-text{
+font: normal 1rem "Roboto";
+}
+/*Font_14 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_14 .qx-text{
+font: normal 1rem "Lato";
+}
+/*Font_15 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_15 .qx-text{
+font: normal 1rem "Roboto Condensed";
+}
+/*Font_16 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_16 .qx-text{
+font: normal 1rem "Raleway";
+}
+/*Font_17 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_17 .qx-text{
+font: normal 1rem "Droid Sans";
+}
+/*Font_18 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_18 .qx-text{
+font: normal 1rem "Ubuntu";
+}
+/*Font_19 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_19 .qx-text{
+font: normal 1rem "Arimo";
+}
+/*Font_20 Example - textField widget - font*/
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_font_20 .qx-text{
+font: normal 1rem "Abel";
+}
+

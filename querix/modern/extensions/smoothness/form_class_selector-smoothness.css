@@ -1,0 +1,333 @@
+/* darkOrange= #c77405; blue=#1c94c4; blue2 = #0202A2;  red= #A20202; yellow= #fbd850 */
+
+.qx-aum-toolbar-button .qx-text {
+     font: bold 11px "Calibri";
+}
+.qx-c-fcls_rootcontainer{
+/*	height: auto !important;*/
+	border-radius: 4px;
+	padding:2px 2px 2px 2px;
+	border: 1px solid #929292;
+}
+.qx-c-fcls_rootcontainer fieldset{
+	border: 1px solid #929292;
+	border-radius: 4px;
+}
+
+.qx-c-fcls_fieldlabel {
+    font: normal 13px "Calibri","Helvetica Neue", Sans-Serif;
+	color: #4ca8c8;
+} 
+
+.qx-c-fcls_detail_gb_cnt {
+    font: normal 13px "Calibri","Helvetica Neue", Sans-Serif;
+}
+
+.qx-is-selected *
+{ background-color: rgb(190, 210, 240); color: black; }
+
+/*####################################################
+Inflair Title text in form - top row-container in form's rootContainer
+######################################################*/
+.qx-c-fcls_title_lb .qx-text {
+    padding: 2px;
+    padding: 5px 10px;
+    color: white !important;
+    font: bold 14px "Calibri","Helvetica Neue", Sans-Serif;
+} 
+
+.qx-c-fcls_title_cnt {
+	border: 1px solid #cccccc;
+	background: #cccccc url("https://code.jquery.com/ui/1.11.3/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x;
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 4px;
+	padding: 2px;
+	margin: 0; 
+}
+/*####################################################
+Inflair custom key usage information - bottom form
+######################################################*/
+
+.qx-c-fcls_detail_cnt {
+	background: #cccccc url("https://code.jquery.com/ui/1.11.3/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	margin-top:2px;
+         -webkit-background-size: contain;
+         -moz-background-size: contain;
+         -o-background-size: contain;
+          background-size: contain;
+}
+
+/*####################################################
+Inflair custom key usage information - bottom form
+######################################################*/
+.qx-c-fcls_statusbar_cnt {
+	border: 1px solid #cccccc;
+	background: #cccccc  url("https://code.jquery.com/ui/1.11.3/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x;
+	border-radius: 4px;
+	padding: 0;
+	margin-top:5px;
+}
+.qx-c-fcls_sblabel {
+  min-height: 30px;
+}
+.qx-c-fcls_sblabel .qx-text {
+	color: #ffffff;
+    font: normal 14px "Calibri","Helvetica Neue", Sans-Serif;
+    padding: 5px 10px 2px;
+} 
+
+
+/*##############################################################################################*/
+/* Form Class field fcls_field                                                                  */
+/*##############################################################################################*/
+#qx-container-body div.qx-content > div.qx-c-fcls_field.qx-aum.qx-aum-abstract-field,
+#qx-container-shadow div.qx-content > div.qx-c-fcls_field.qx-aum.qx-aum-abstract-field
+{
+/*	width: auto !important;*/
+	width: inherit !important;
+	height: 24px !important;
+	padding: 2px;
+	margin: 2px 2px 2px 2px;
+/*	margin-right: auto;*/
+}
+
+#qx-container-body div.qx-content > div.qx-c-fcls_field_01.qx-aum.qx-aum-abstract-field,
+#qx-container-shadow div.qx-content > div.qx-c-fcls_field_01.qx-aum.qx-aum-abstract-field
+{
+	width: 40px !important;
+	height: 24px !important;
+	padding: 2px;
+	margin: 2px 2px 2px 2px;
+/*	margin-right: auto;*/
+}
+
+#qx-container-body div.qx-content > div.qx-c-fcls_field_05.qx-aum.qx-aum-abstract-field,
+#qx-container-shadow div.qx-content > div.qx-c-fcls_field_05.qx-aum.qx-aum-abstract-field
+{
+	width: 70px !important;
+	height: 24px !important;
+	padding: 2px;
+	margin: 2px 2px 2px 2px;
+/*	margin-right: auto;*/
+}
+
+
+#qx-container-body div.qx-content > div.qx-c-fcls_field_10.qx-aum.qx-aum-abstract-field,
+#qx-container-shadow div.qx-content > div.qx-c-fcls_field_10.qx-aum.qx-aum-abstract-field
+{
+	width: 110px !important;
+	height: 24px !important;
+	padding: 2px;
+	margin: 2px 2px 2px 2px;
+ /*	margin-right: auto; */
+}
+
+
+
+#qx-container-body div.qx-content > div.qx-c-fcls_field_15.qx-aum.qx-aum-abstract-field,
+#qx-container-shadow div.qx-content > div.qx-c-fcls_field_15.qx-aum.qx-aum-abstract-field
+{
+	width: 150px !important;
+	height: 24px !important;
+	padding: 2px;
+	margin: 2px 2px 2px 2px;
+/*	margin-right: auto;*/
+}
+
+
+
+#qx-container-body div.qx-content > div.qx-c-fcls_field_20.qx-aum.qx-aum-abstract-field,
+#qx-container-shadow div.qx-content > div.qx-c-fcls_field_20.qx-aum.qx-aum-abstract-field
+{
+	width: 190px !important;
+	height: 24px !important;
+	padding: 2px;
+	margin: 2px 2px 2px 2px;
+/*	margin-right: auto;*/
+}
+
+
+
+#qx-container-body div.qx-content > div.qx-c-fcls_field_30.qx-aum.qx-aum-abstract-field,
+#qx-container-shadow div.qx-content > div.qx-c-fcls_field_30.qx-aum.qx-aum-abstract-field
+{
+	width: 270px !important;
+	height: 24px !important;
+	padding: 2px;
+	margin: 2px 2px 2px 2px;
+/*	margin-right: auto;*/
+}
+
+
+
+
+
+/*##############################################################################################*/
+/* Form Class search_field                                                                      */
+/*##############################################################################################*/
+
+#qx-container-body div.qx-content > div.qx-c-fcls_search_field_01.qx-aum.qx-aum-abstract-field.qx-c-nativestyle,
+#qx-container-shadow div.qx-content > div.qx-c-fcls_search_field_01.qx-aum.qx-aum-abstract-field.qx-c-nativestyle
+{
+	width: 40px !important;
+	height: 24px !important;
+	padding: 2px;
+	margin: 2px;
+	margin-right: auto;
+}
+
+#qx-container-body div.qx-content > div.qx-c-fcls_search_field_05.qx-aum.qx-aum-abstract-field.qx-c-nativestyle,
+#qx-container-shadow div.qx-content > div.qx-c-fcls_search_field_05.qx-aum.qx-aum-abstract-field.qx-c-nativestyle
+{
+	width: 70px !important;
+	height: 24px !important;
+	padding: 2px;
+	margin: 2px;
+	margin-right: auto;
+}
+
+#qx-container-body div.qx-content > div.qx-c-fcls_search_field_10.qx-aum.qx-aum-abstract-field.qx-c-nativestyle,
+#qx-container-shadow div.qx-content > div.qx-c-fcls_search_field_10.qx-aum.qx-aum-abstract-field.qx-c-nativestyle
+{
+	width: 110px !important;
+	height: 24px !important;
+	padding: 2px;
+	margin: 2px;
+	margin-right: auto;
+}
+
+
+#qx-container-body div.qx-content > div.qx-c-fcls_search_field_15.qx-aum.qx-aum-abstract-field.qx-c-nativestyle,
+#qx-container-shadow div.qx-content > div.qx-c-fcls_search_field_15.qx-aum.qx-aum-abstract-field.qx-c-nativestyle
+{
+	width: 150px !important;
+	height: 24px !important;
+	padding: 2px;
+	margin: 2px;
+	margin-right: auto;
+}
+
+
+
+#qx-container-body div.qx-content > div.qx-c-fcls_search_field_20.qx-aum.qx-aum-abstract-field.qx-c-nativestyle,
+#qx-container-shadow div.qx-content > div.qx-c-fcls_search_field_20.qx-aum.qx-aum-abstract-field.qx-c-nativestyle
+{
+	width: 190px !important;
+	height: 24px !important;
+	padding: 2px;
+	margin: 2px;
+	margin-right: auto;
+}
+
+
+
+#qx-container-body div.qx-content > div.qx-c-fcls_search_field_30.qx-aum.qx-aum-abstract-field.qx-c-nativestyle,
+#qx-container-shadow div.qx-content > div.qx-c-fcls_search_field_30.qx-aum.qx-aum-abstract-field.qx-c-nativestyle
+{
+	width: 270px !important;
+	height: 24px !important;
+	padding: 2px;
+	margin: 2px;
+	margin-right: auto;
+}
+
+div.qx-aum-label.qx-aum.qx-aum-abstract-field.qx-c-nativestyle .qx-vtal{
+	vertical-align: middle;
+}
+
+
+.qx-start-menu {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.qx-start-menu > ul > li, .qx-start-menu > ul > li > a {
+	font-size: 1.1em;
+}
+
+.qx-start-menu > ul ul ul > li, .qx-start-menu > ul ul ul > li > a {
+	font-size: .95em;
+	font-weight: normal;
+}
+
+.qx-start-menu ul ul ul>li.ui-state-default,
+.qx-start-menu ul ul ul>li.ui-widget-content
+{
+	border-color: transparent;
+	background-image: none;
+	background-color: transparent;
+}
+
+.qx-start-menu li.qx-aum-menu-command {
+	padding-left: 2em;
+}
+
+.qx-start-menu > ul > li, .qx-start-menu a {
+	padding: 0;
+	margin: 0;
+}
+
+.qx-table td, .qx-table-cell .ui-state-active {/*, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active*/
+	border: none;
+}
+
+/*Changes hilited row in the table*/
+/*.qx-aum.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse, .qx-aum.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse * {
+    background-color: #f6a828;
+    color: white;
+}*/
+
+
+/*Changes font-weight of the start menu*/
+/*.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus
+.ui-state-hover a,.ui-state-hover a:hover,.ui-state-hover a:link,.ui-state-hover a:visited,.ui-state-focus a,.ui-state-focus a:hover,.ui-state-focus a:link,.ui-state-focus a:visited,
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default,
+.ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, .ui-state-active {
+	font-weight: normal;
+}*/
+
+/*Changes menu items color in the start menu*/
+/*.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited,
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default,
+.ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, .ui-state-active {
+	color: #212121;
+}*/
+
+/*Mimics Exit button in the start menu*/
+.qx-start-menu .qx-identifier-exit {
+	line-height: 1.3;
+}
+.qx-start-menu .qx-identifier-exit > a{
+	cursor: pointer;
+	position: relative;
+	margin: 2px 0 0 0;
+	padding: .5em .5em .5em .7em;
+	min-height: 0; /* support: IE7 */
+	font-size: 100%;
+	display: block;
+	border-radius: 4px;
+	border: 1px solid #cccccc;
+	background: #f6f6f6 url("images/ui-bg_glass_100_f6f6f6_1x400.png") 50% 50% repeat-x;
+	font-weight: bold;
+	color: #1c94c4;
+}
+
+.qx-aum,
+* .ui-dialog-titlebar *, 
+.ui-widget,
+.qx-start-menu {
+	font-family: Calibri,Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+}
+
+.qx-o-aum-window.qx-o-c-full-screen,
+.qx-o-aum-window.qx-o-identifier-screen,
+.ui-widget-content, .qx-window-border {
+	background-color: #fff;
+	background-image: none;
+}
+.qx-aum-text-field, .qx-aum-spinner, .qx-aum-text-area, .qx-aum-calendar, .qx-aum-time-edit-field, .qx-aum-combo-box, .qx-aum-list-box {
+	background-color: #e6e6e6;
+}

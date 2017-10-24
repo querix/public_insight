@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <ElementFilter ElementName="ReportViewerConfig">
+    <StyleSheet>
+      <ElementIdFilter Identifier="screen">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>ViewerType</PropertyName>
+              </PropertyPath>
+              <PropertyValue>TextViewer</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Parameter</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Console report</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementIdFilter>
+      <ElementIdFilter Identifier="printer">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>ViewerType</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Print</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Parameter</PropertyName>
+              </PropertyPath>
+              <PropertyValue>.txt</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementIdFilter>
+      <ElementIdFilter Identifier="new_window">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>ViewerType</PropertyName>
+              </PropertyPath>
+              <PropertyValue>NewWindow</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Parameter</PropertyName>
+              </PropertyPath>
+              <PropertyValue>New Tab</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementIdFilter>
+      <ElementIdFilter Identifier="download">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>ViewerType</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Download</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Parameter</PropertyName>
+              </PropertyPath>
+              <PropertyValue>.txt</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementIdFilter>
+    </StyleSheet>
+  </ElementFilter>
+
+</StyleSheet>
+

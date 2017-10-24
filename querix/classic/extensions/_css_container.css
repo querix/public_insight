@@ -1,0 +1,103 @@
+/*
+########################################################
+CSS is used for container properties
+
+
+########################################################
+*/
+
+/*#####################################################
+ SCREEN window 
+#######################################################*/
+.qx-c-screen.qx-content.qx-root.qx-aum-window.qx-identifier-screen.qx-c-classic
+{
+   background-color: white;    
+  border-color: #a6c9e2;   
+}
+
+/*
+#######################################################
+Gridpanel
+#######################################################
+*/
+
+/*rootContainer elementBorder */
+.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-identifier-rootcontainer.qx-c-fcls_container_border.qx-c-fcls_rootcontainer table {
+    border-color: #a6c9e2;
+}
+
+/*All grid cells - vertical element alignment within gridPanel cells */
+/*
+.qx-grid-cell {
+    vertical-align: top;
+    overflow: hidden;
+   
+}
+
+*/
+
+/*All cells in rootContainer descendants -  vertical element alignment top*/
+.qx-c-fcls_rootcontainer.qx-aum-grid-panel .qx-grid-cell 
+{
+    vertical-align: top;
+    overflow: hidden;
+}
+
+/*All descendant cells in gridPanels with class fcls_data_cnt -  vertical element middle */
+.qx-aum-grid-panel.qx-c-fcls_data_cnt .qx-grid-cell 
+{
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+/* ###############################################################
+  classic table - screen array (without table container) 
+##################################################################*/
+
+/* Table (not real table - legacy - Underline shows current line */
+.qx-c-attribute_underline .qx-text.qx-text-edit.qx-vtal.qx-htal.qx-focus-target 
+{
+	color: #3a597e;
+    background: #fbec88;
+    text-decoration: none;
+}
+
+/*qx-text-field qx-single-row qx-vta-c qx-hta-l qx-aum qx-on-0 qx-s-on-0 qx-0-124 qx-aum-text-field qx-aum-abstract-text-field qx-aum-abstract-string-field qx-aum-abstract-field qx-identifier-no_compte qx-inactive ui-state-disabled qx-o QX-SCREEN-ARRAY-ELEMENT qx-disabled qx-scw qx-sch qx-readonly qx-psw qx-psh qx-has-text*/
+
+.QX-SCREEN-ARRAY-ELEMENT.qx-text-field.qx-single-row.qx-aum-text-field.qx-aum-abstract-text-field 
+.qx-text.qx-text-edit.qx-vtal.qx-htal.qx-focus-target
+{
+font-family: Lato;
+color: black;
+font-size: 1.0rem;
+font-style: normal;
+ white-space: initial;
+}
+
+.QX-SCREEN-ARRAY-ELEMENT.qx-text-field.qx-single-row.qx-aum-text-field.qx-aum-abstract-text-field 
+{
+   font-family: Lato; 
+}
+/* make the column with field id "debit" right align */
+.qx-identifier-debit .qx-text {
+    align-items: flex-end !important;
+}
+
+/* make the column with field id "credit" right align */
+.qx-identifier-credit .qx-text {
+    align-items: flex-end !important;
+}
+
+
+.qx-text-field.qx-single-row.qx-vta-c.qx-hta-l.qx-aum.qx-on-0.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-inactive.ui-state-disabled.qx-o.QX-SCREEN-ARRAY-ELEMENT.qx-disabled.qx-scw.qx-sch.qx-readonly.qx-psw.qx-psh.qx-has-text
+.qx-text
+{
+    font-family: Lato; 
+    color pink;
+
+}
+.qx-text-field.qx-single-row.qx-vta-c.qx-hta-l.qx-aum.qx-on-0.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-inactive.ui-state-disabled.qx-o.QX-SCREEN-ARRAY-ELEMENT.qx-disabled.qx-scw.qx-sch.qx-readonly.qx-psw.qx-psh.qx-has-text
+{
+    font-family: Lato; 
+    color pink;
+}

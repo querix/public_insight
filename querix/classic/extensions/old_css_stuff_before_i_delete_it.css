@@ -1,0 +1,72 @@
+/*
+
+.qx-c-fcls_field_01.qx-aum-text-abs {
+	width: 20px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+.qx-c-fcls_field_05.qx-aum-text-abs {
+	width: 40px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+.qx-c-fcls_field_10.qx-aum-text-abs {
+	width: 80px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+.qx-c-fcls_field_15.qx-aum-text-abs {
+	width: 120px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+.qx-c-fcls_field_20.qx-aum-text-abs {
+	width: 160px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+.qx-c-fcls_field_30.qx-aum-text-abs {
+	width: 160px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+*/
+
+
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_field_01.qx-aum-function-field-abs {
+	width: 20px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_field_05.qx-aum-function-field-abs {
+	width: 40px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_field_10.qx-aum-function-field-abs {
+	width: 80px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_field_15.qx-aum-function-field-abs {
+	width: 120px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_field_20.qx-aum-function-field-abs {
+	width: 160px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_field_30.qx-aum-function-field-abs {
+	width: 240px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}

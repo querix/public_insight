@@ -1,0 +1,31 @@
+/*
+####################################################################################################################################
+MDI-Container stuff
+
+
+####################################################################################################################################
+*/
+
+
+/*Tab Handles */
+
+/* MDI-Container Root-Tab should be hidden without taking place / display:none */
+.qx-page-0-header
+{
+    /*visibility: hidden;*/
+    display: none;
+}
+
+/*Note, we need a different/unique class name for MDI-container tab-handles*/
+/*at the moment, this class will select ALL tab handles normal form AND mdi-container */
+.ui-tabs-nav .qx-text 
+{
+    min-width: 80px;
+}
+
+.qx-t-h.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header
+{
+    /*visibility: hidden;*/
+    border-bottom: 1px solid #5c9ccc !important; 
+    
+}

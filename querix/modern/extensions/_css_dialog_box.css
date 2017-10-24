@@ -1,0 +1,73 @@
+/*
+####################################################################################################################################
+Dialog/Message boxes i.e. for fgl_winmessage()
+
+FYIO: These build in dialog functions do not use forms - so there are no user-defined form classes to select from
+
+/* 
+colors:
+normal = blue/white
+	border: #79b7e7
+	background: #ffffff
+input  =darkYello-lightYellow
+	border:#fad42e
+	background: #fbec88
+
+####################################################################################################################################
+*/
+
+
+/*
+####################################################################
+fgl_winmessage() dialog/message boxes
+####################################################################
+*/
+
+.qx-mb-dialog.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable{
+min-width: 300px;
+}
+
+.qx-message-box.ui-dialog-content.ui-widget-content {
+	color: #495797;	
+	background: #ffffff;	
+}	
+
+/* text/message are within the dialog box */
+.qx-message-box.ui-dialog-content.ui-widget-content .qx-text-wrapper {
+    /*color: #ff0000;	*/
+	background: transparent;	
+}
+
+img[src="/LyciaWeb/pack/exclamation.ico"] {
+  /*display: none; */
+  box-sizing: border-box;
+  /*background: url(/public/maia/icon32/basic/info.png) no-repeat; */
+  content: url(/public/maia/icon32/basic/info.png);
+  /*width: 180px; *//* Width of new image */
+  /*height: 236px; */ /* Height of new image */
+  margin-left: 2px; /* Equal to width of new image */
+  margin-right: 2px; /* Equal to width of new image */  
+  /* vertical-align: middle; */
+  /*background-color: #ff00ff;  */
+}
+
+/*
+######################################################
+Table FIND dialog
+######################################################
+*/
+.qx-find-form.ui-dialog-content.ui-widget-content *
+{
+    font: normal 1.0rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+    color: #2e6e9e; 
+    margin: 4px;
+}
+
+.qx-find-form.ui-dialog-content.ui-widget-content #qx-find-val,
+.qx-find-form.ui-dialog-content.ui-widget-content #qx-find-column
+{
+    font: normal 1.0rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+    color: #2e6e9e; 
+    margin: 4px;
+}
+

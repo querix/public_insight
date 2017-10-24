@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <WithClassFilter ClassName="fcls_title_lb">
+    <StyleSheet>
+      <ElementFilter ElementName="Label">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Font</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Font" Bold="True" Italic="True" FontSize="11">
+                <Family>
+                  <Name>Calibri</Name>
+                </Family>
+              </PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>ForeColor</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="CustomizedColor" RedColor="255" GreenColor="255" BlueColor="255" Alpha="255" />
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>TextAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="TextAlignment" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_fieldlabel">
+    <StyleSheet>
+      <ElementFilter ElementName="Label">
+        <StyleSheet>
+          <!--DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>M argin</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Thickness" Left="2" Top="1" Right="2" Bottom="0" />
+            </SetProperty>
+          </DoStyleAction-->
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>TextAlignment</PropertyName>
+                <PropertyName>VerticalTextAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>MinSize</PropertyName>
+                <PropertyName>Height</PropertyName>
+              </PropertyPath>
+              <PropertyValue>18</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_columnlabel">
+    <StyleSheet>
+      <ElementFilter ElementName="Label">
+        <StyleSheet>
+          <!--DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>M argin</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Thickness" Left="2" Top="2" Right="2" Bottom="2" />
+            </SetProperty>
+          </DoStyleAction-->
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>MinSize</PropertyName>
+                <PropertyName>Height</PropertyName>
+              </PropertyPath>
+              <PropertyValue>18</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>TextAlignment</PropertyName>
+                <PropertyName>VerticalTextAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Padding</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Thickness" Left="0" Top="0" Right="0" Bottom="0" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_sblabel">
+    <StyleSheet>
+      <ElementFilter ElementName="Label">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Font</PropertyName>
+                <PropertyName>FontSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue>8</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>ForeColor</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="CustomizedColor" RedColor="255" GreenColor="255" BlueColor="255" Alpha="255" />
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>TextAlignment</PropertyName>
+                <PropertyName>VerticalTextAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_font_h1">
+    <StyleSheet>
+      <ElementFilter ElementName="Label">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Font</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Font" Bold="True" Italic="True" FontSize="20">
+                <Family>
+                  <Name>Calibri</Name>
+                </Family>
+              </PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>ForeColor</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="CustomizedColor" RedColor="40" GreenColor="91" BlueColor="186" Alpha="255" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_font_h2">
+    <StyleSheet>
+      <ElementFilter ElementName="Label">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Font</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Font" Bold="True" Italic="False" FontSize="16">
+                <Family>
+                  <Name>Calibri</Name>
+                </Family>
+              </PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>ForeColor</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="CustomizedColor" RedColor="40" GreenColor="91" BlueColor="186" Alpha="255" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_font_h3">
+    <StyleSheet>
+      <ElementFilter ElementName="Label">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Font</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Font" Bold="True" Italic="False" FontSize="12">
+                <Family>
+                  <Name>Calibri</Name>
+                </Family>
+              </PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>ForeColor</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="CustomizedColor" RedColor="40" GreenColor="91" BlueColor="186" Alpha="255" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <WithClassFilter ClassName="fcls_font_h4">
+        <StyleSheet>
+          <ElementFilter ElementName="Label">
+            <StyleSheet>
+              <DoStyleAction>
+                <SetProperty>
+                  <PropertyPath>
+                    <PropertyName>Font</PropertyName>
+                  </PropertyPath>
+                  <PropertyValue type="Font" Bold="True" Italic="False" FontSize="9">
+                    <Family>
+                      <Name>Calibri</Name>
+                    </Family>
+                  </PropertyValue>
+                </SetProperty>
+              </DoStyleAction>
+              <DoStyleAction>
+                <SetProperty>
+                  <PropertyPath>
+                    <PropertyName>ForeColor</PropertyName>
+                  </PropertyPath>
+                  <PropertyValue type="CustomizedColor" RedColor="40" GreenColor="91" BlueColor="186" Alpha="255" />
+                </SetProperty>
+              </DoStyleAction>
+            </StyleSheet>
+          </ElementFilter>
+        </StyleSheet>
+      </WithClassFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_font_description">
+    <StyleSheet>
+      <ElementFilter ElementName="Label">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Font</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Font" Bold="False" Italic="True" FontSize="9">
+                <Family>
+                  <Name>Calibri</Name>
+                </Family>
+              </PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>ForeColor</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="CustomizedColor" RedColor="105" GreenColor="105" BlueColor="105" Alpha="255" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_menulabel">
+    <StyleSheet>
+      <ElementFilter ElementName="Label">
+        <StyleSheet>
+          <!--DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>M argin</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Thickness" Left="2" Top="2" Right="2" Bottom="2" />
+            </SetProperty>
+          </DoStyleAction-->
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>MinSize</PropertyName>
+                <PropertyName>Height</PropertyName>
+              </PropertyPath>
+              <PropertyValue>18</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>TextAlignment</PropertyName>
+                <PropertyName>VerticalTextAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Padding</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Thickness" Left="0" Top="0" Right="0" Bottom="0" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+</StyleSheet>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/modern/theme/_theme_alignment_size.qxtheme"/>
+  </DoStyleAction>
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/modern/theme/_theme_application_defaults.qxtheme"/>
+  </DoStyleAction>
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/modern/theme/_theme_button_form.qxtheme"/>
+  </DoStyleAction>  
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/modern/theme/_theme_color.qxtheme"/>
+  </DoStyleAction>  
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/modern/theme/_theme_container.qxtheme"/>
+  </DoStyleAction>  
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/modern/theme/_theme_default_data_widget.qxtheme"/>
+  </DoStyleAction> 
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/modern/theme/_theme_display_at_redirection.qxtheme"/>
+  </DoStyleAction> 
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/modern/theme/_theme_error_message.qxtheme"/>
+  </DoStyleAction> 
+
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/modern/theme/_theme_report.qxtheme"/>
+  </DoStyleAction>    
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/modern/theme/_theme_text_label.qxtheme"/>
+  </DoStyleAction>    
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/modern/theme/_theme_toolbar_menu.qxtheme"/>
+  </DoStyleAction>
+  <!--DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/modern/theme/_theme_menu_launcher.qxtheme"/>
+  </DoStyleAction-->
+
+  </StyleSheet>

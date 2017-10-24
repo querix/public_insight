@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <ElementFilter ElementName="Application">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Font</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Font" FontSize="10">
+            <Family>
+              <Name>Roboto</Name>
+              <Name>sans-serif</Name>
+              <Name>Calibri</Name>
+              <Name>Arial</Name>
+              <Name>Verdana</Name>
+            </Family>
+          </PropertyValue>
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementFilter>
+  <ElementFilter ElementName="Window">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Background</PropertyName>
+            <PropertyName>FillColor</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="CustomizedColor" RedColor="255" GreenColor="255" BlueColor="255" Alpha="255" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementFilter>
+  <ElementFilter ElementName="StatusBar">
+    <StyleSheet>
+      <ChildFilter>
+        <StyleSheet>
+          <ElementFilter ElementName="TemplateInstance">
+            <StyleSheet>
+              <DoStyleAction>
+                <SetProperty>
+                  <PropertyPath>
+                    <PropertyName>TemplateName</PropertyName>
+                  </PropertyPath>
+                  <PropertyValue>StatusBar_Panels1</PropertyValue>
+                </SetProperty>
+              </DoStyleAction>
+            </StyleSheet>
+          </ElementFilter>
+        </StyleSheet>
+      </ChildFilter>
+    </StyleSheet>
+  </ElementFilter>
+  <DoStyleAction>
+    <SetProperty>
+      <PropertyPath>
+        <PropertyName>Font</PropertyName>
+      </PropertyPath>
+      <PropertyValue type="Font">
+        <Family>
+          <Name>Roboto</Name>
+          <Name>sans-serif</Name>
+          <Name>Calibri</Name>
+          <Name>Arial</Name>
+          <Name>Verdana</Name>
+        </Family>
+      </PropertyValue>
+    </SetProperty>
+  </DoStyleAction>
+</StyleSheet>

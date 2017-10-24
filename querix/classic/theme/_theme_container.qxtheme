@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <WithClassFilter ClassName="fcls_rootContainer">
+    <StyleSheet>
+      <ElementFilter ElementName="GridPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Margin</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Thickness" Left="2" Top="2" Right="2" Bottom="2" />
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Padding</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Thickness" Left="2" Top="2" Right="2" Bottom="2" />
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <ApplyClass Name="fcls_container_border" />
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_title_cnt">
+    <StyleSheet />
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_title_cnt_sub">
+    <StyleSheet>
+      <ElementFilter ElementName="GridPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Margin</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Thickness" Left="0" Top="0" Right="0" Bottom="0" />
+        </SetProperty>
+      </DoStyleAction>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Padding</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Thickness" Left="0" Top="0" Right="0" Bottom="0" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_detail_cnt">
+    <StyleSheet>
+      <ElementFilter ElementName="GridPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Margin</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Thickness" Left="2" Top="2" Right="2" Bottom="2" />
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Padding</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Thickness" Left="2" Top="2" Right="2" Bottom="2" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_detail_cnt_sub">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Margin</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Thickness" Left="4" Top="4" Right="4" Bottom="4" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_detail_cnt_sub_sub">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Margin</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Thickness" Left="2" Top="2" Right="2" Bottom="2" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_detail_gb_cnt">
+    <StyleSheet />
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_detail_gb_cnt_sub">
+    <StyleSheet>
+      <ElementFilter ElementName="GridPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Margin</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Thickness" Left="2" Top="2" Right="2" Bottom="2" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_detail_gp_cnt_sub">
+    <StyleSheet />
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_table_cnt">
+    <StyleSheet />
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_statusbar_cnt">
+    <StyleSheet />
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_statusbar_cnt_sub">
+    <StyleSheet />
+  </WithClassFilter>
+  <ElementFilter ElementName="Table">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>GridColor</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="CustomizedColor" RedColor="255" GreenColor="255" BlueColor="255" Alpha="0" />
+        </SetProperty>
+      </DoStyleAction>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Margin</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Thickness" Left="1" Top="1" Right="1" Bottom="1" />
+        </SetProperty>
+      </DoStyleAction>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Padding</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Thickness" Left="1" Top="1" Right="1" Bottom="1" />
+        </SetProperty>
+      </DoStyleAction>
+      <DescendantFilter>
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Padding</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Thickness" Left="5" Top="0" Right="5" Bottom="0" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </DescendantFilter>
+    </StyleSheet>
+  </ElementFilter>
+  <ElementFilter ElementName="TableColumn">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Resizable</PropertyName>
+          </PropertyPath>
+          <PropertyValue />
+        </SetProperty>
+      </DoStyleAction>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>ElementBorder</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="LineBorder">
+            <Thickness Left="0" Top="0" Right="0" Bottom="0" />
+          </PropertyValue>
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementFilter>
+  <WithClassFilter ClassName="fcls_stackPanel_cnt_for_button_r">
+    <StyleSheet>
+      <ElementFilter ElementName="StackPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_stackPanel_cnt_for_button_l">
+    <StyleSheet>
+      <ElementFilter ElementName="StackPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_container_border">
+    <StyleSheet>
+      <ElementFilter ElementName="GridPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>ElementBorder</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="LineBorder">
+                <Thickness Left="1" Top="1" Right="1" Bottom="1" />
+                <CornerRadius BottomLeft="5" BottomRight="5" TopLeft="5" TopRight="5" />
+                <BorderBrush type="CustomizedColor" RedColor="46" GreenColor="109" BlueColor="158" Alpha="255" />
+              </PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_container_menu">
+    <StyleSheet>
+      <ElementFilter ElementName="GridPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Window">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>WindowStyle</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Flat</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+</StyleSheet>

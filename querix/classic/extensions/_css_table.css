@@ -1,0 +1,120 @@
+/*
+####################################################################################################################################
+Table AND GridPanel container CSS
+
+FormClasses:
+
+
+/* 
+colors:
+normal = blue/white
+	border: #79b7e7
+	background: #ffffff
+	
+input  =darkYello-lightYellow
+	border:#fad42e
+	background: #fbec88
+
+####################################################################################################################################
+*/
+/*inactive TableWidgetContainer - white */
+	/*, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active*/
+/*inactive TableWidgetContainer - white */
+.qx-tbody tr
+{ 
+background-color: transparent; 
+}
+
+/*tableWidgetContainer - Assign to every second/even row a light blue */
+.qx-tbody .qx-table-row:nth-child(even) {
+	background: rgba(137,210,255, 0.1);
+	}
+
+/*tableWidgetContainer - Assign to every second/even row a light blue */
+.qx-c-activefield .qx-tbody .qx-table-row:nth-child(even) {
+	background: rgba(137,210,255, 0.01);
+	}
+
+/*tableWidgetContainer Current-Focus Row */
+.qx-aum.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse:not(.qx-c-nativestyle), .qx-aum.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse:not(.qx-c-nativestyle) *
+{
+
+	background: #fbec88;
+	/*color: #2e6e9e;*/
+	
+}
+
+/*tableWidgetContainer - Normal text fields */
+.qx-c-activefield .qx-tbody  tr .qx-text.qx-has-text {
+    font: normal 1rem "Calibri","Helvetica Neue", Sans-Serif;
+    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+}
+
+
+
+/*.qx-aum.ui-row-ltr.qx-focusable.qx-table-row  selects ALL rows*/ 
+
+
+.qx-aum-table-column {
+    margin-left: 3px;
+    margin-right: 3px;    
+	
+}
+
+.qx-aum-table-column .ui-widget .qx-aum-label {
+    margin-left: 3px;
+    margin-right: 3px;    
+	
+}
+
+/*tableWidget container - HEADER row - i.e 5px top/bottom and 0px right/left*/
+.qx-aum-table-column .qx-text { 
+	margin: 5px 0px; 
+
+}
+
+/*
+.qx-aum-abstract-field.ui-state-active .qx-aum-abstract-field.ui-state-active .qx-aum-radio-button-list .qx-content, .qx-c-nativestyle .qx-content
+{
+	color: black;
+	font-size: 1rem;	
+}
+*/
+
+/*
+######################################
+Table Column
+(Display Array / Input Array)
+######################################
+*/
+
+/*
+.qx-table-cell.qx-aum-abstract-field
+{
+  padding-left: 4px;
+  padding-right: 4px;
+
+  color: black;	
+  background-color: white;
+}
+*/
+.qx-aum-table-column.ui-widget-header > div
+{
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+
+  color: white;	
+
+}
+
+
+
+div.qx-aum-label.qx-aum.qx-aum-abstract-field.qx-c-nativestyle .qx-vtal{
+	vertical-align: middle;
+}
+
+
+.qx-table td, .qx-table-cell .ui-state-active {/*, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active*/
+	border: none;
+	font-size: 1rem;
+}

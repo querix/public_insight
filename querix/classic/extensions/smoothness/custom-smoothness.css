@@ -1,0 +1,166 @@
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#qx-main-layout {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+#qx-main-layout > * {
+  display: table-row;
+}
+
+#qx-main-layout > * > * {
+  display: table-cell;
+}
+
+#qx-container-menu {
+  width: 300px;
+}
+
+.qx-content {
+  font-size: inherit;
+}
+/*
+#sample-footer, #sample-header  {
+  font-size: 30px;
+  text-align: center;
+}
+*/
+#sample-header  {
+  font-size: 40px;
+  /*text-align: center;*/
+}
+
+
+#sample-footer {
+    height: 100px;
+}
+
+#myGridPanelConatiner{
+    border: 5px solid red;
+}
+
+
+#header-container {
+	
+}
+
+#header-container > * {
+	float: left;
+}
+
+.qx-identifier-toolbar .qx-scroll-viewport {
+  height: 50px !important;
+}
+
+.qx-identifier-toolbargroup .ui-button-text {
+  width: 60px !important;
+  height: 43px !important;
+  padding: 3px !important;
+  display: block !important;
+}
+
+.qx-identifier-toolbargroup .qx-tar {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.qx-identifier-toolbargroup .qx-tat, .qx-identifier-toolbargroup .qx-tat *{
+  text-align: center;
+  vertical-align: middle;
+  font-size: 90%;
+}
+
+/* GroupBox only for window tco_51win*/
+
+/*
+.qx-identifier-tco_51win.qx-aum-window fieldset {
+  width: auto; height: auto;
+  
+  margin: 10px;
+  padding: 5px;
+
+  border: 2px solid #F7AE36;
+  border-radius: 5px;
+  font-size: 1.0em;
+  font-family: Calibri, Comic Sans MS, Verdana, Helvetica, sans-serif;
+  /*color: orange;  */
+}
+
+
+.qx-aum-window.qx-aum fieldset {
+  width: auto; height: auto;
+  
+  margin: 10px;
+  padding: 5px;
+
+  border: 2px solid #F7AE36;
+  border-radius: 5px;
+  font-size: 1.0em;
+  font-family: Calibri, Comic Sans MS, Verdana, Helvetica, sans-serif;
+  color: orange;
+}
+*/
+
+/* Info
+fieldset = groupBox
+legend = titleLabel of the groupBox
+qx-aum = main tag i.e. .qx-aum-window = any window or .qx-aum fieldset = any groupBox
+qx-o-aum = outer boundary of a widget
+qx-h-aum = widget header area separated from the content
+
+*/
+
+.qx-aum-window.qx-aum fieldset {
+  width: auto; height: auto;
+  
+  margin: 10px;
+  padding: 5px;
+
+  border: 2px solid #F7AE36;
+  border-radius: 5px;
+  font-size: 1.0em;
+  font-family: Calibri, Comic Sans MS, Verdana, Helvetica, sans-serif;
+}
+
+.qx-aum-window.qx-aum legend {
+  color: #929292;
+}
+  
+.qx-aum-window.qx-h-aum-fieldset.qx-aum legend {
+  color: blue;
+}
+
+
+/*gridPanel container */
+/*
+.qx-aum-window.qx-aum .qx-aum-grid-panel.qx-aum {
+  width: auto !important; 
+  height: auto !important;
+  
+  margin: 10px;
+  padding: 5px;
+
+  border: 2px solid #0000FF;
+  border-radius: 5px;
+}
+*/
+/*
+.qx-aum-window.qx-aum-grid-panel {
+  width: auto; height: auto;
+  
+  margin: 10px;
+  padding: 5px;
+
+  border: 2px solid #0000FF;
+  border-radius: 5px;
+
+}
+*/
+
+/*F7AE36 = Orange*/
