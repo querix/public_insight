@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <ElementFilter ElementName="Window">
+    <StyleSheet>
+      <ElementIdFilter Identifier="w_flbbuttonmenu">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>FullScreen</PropertyName>
+              </PropertyPath>
+              <PropertyValue />
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>WindowStyle</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Flat</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementIdFilter>
+    </StyleSheet>
+  </ElementFilter>
+  <ElementFilter ElementName="Toolbar">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>HideLabels</PropertyName>
+          </PropertyPath>
+          <PropertyValue />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementFilter>
+  <ElementFilter ElementName="Window">
+    <StyleSheet>
+      <ElementIdFilter Identifier="fks020">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>FullScreen</PropertyName>
+              </PropertyPath>
+              <PropertyValue />
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>WindowStyle</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Flat</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementIdFilter>
+    </StyleSheet>
+  </ElementFilter>
+  <ElementFilter ElementName="Window">
+    <StyleSheet>
+      <ElementIdFilter Identifier="fks010">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>FullScreen</PropertyName>
+              </PropertyPath>
+              <PropertyValue />
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>WindowStyle</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Flat</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementIdFilter>
+    </StyleSheet>
+  </ElementFilter>
+  <ElementFilter ElementName="Window">
+    <StyleSheet>
+      <ElementIdFilter Identifier="fks020_vl">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>FullScreen</PropertyName>
+              </PropertyPath>
+              <PropertyValue />
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>WindowStyle</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Flat</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementIdFilter>
+    </StyleSheet>
+  </ElementFilter>
+  <ElementFilter ElementName="Window">
+    <StyleSheet>
+      <ElementIdFilter Identifier="fvbu">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>FullScreen</PropertyName>
+              </PropertyPath>
+              <PropertyValue />
+            </SetProperty>
+          </DoStyleAction>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>WindowStyle</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Flat</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementIdFilter>
+    </StyleSheet>
+  </ElementFilter>
+</StyleSheet>

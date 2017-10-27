@@ -1,0 +1,553 @@
+/*#qx-c-fcls_title_lb {
+    padding: 2px;
+    padding: 10px 20px;
+    color: white !important;
+    font: bold 14px "Helvetica Neue", Sans-Serif;
+}*/
+
+.qx-c-fcls_title_lb .qx-text {
+    padding: 2px;
+    padding: 5px 10px;
+    color: white !important;
+    font: bold 14px "Helvetica Neue", Sans-Serif;
+} 
+
+.qx-c-fcls_title_cnt {
+/* darkOrange= #c77405; blue=#1c94c4; blue2 = #0202A2;  red= #A20202; yellow= #fbd850 */
+
+
+	border: 1px solid #e78f08;
+	background: #f6a828 url("images/ui-bg_gloss-wave_35_f6a828_500x100.png") 50% 50% repeat-x;
+	color: #ffffff;
+	font-weight: bold;
+
+	border-radius: 4px;
+
+
+/*	background-color: #fbd850; 
+	border: 1px solid #c77405; 
+	border-radius: 4px;
+*/
+/*	color: #00ff00;*/ /*#ff0000;*/ /*will be overriden by ".qx-c-fcls_title_lb .qx-text" */
+	padding: 2px;
+	margin: 0; 
+}
+
+/*########################################################################################################*/
+/* textField Widgets
+/*########################################################################################################*/
+
+/* TEXTFelds by form-class name fcls_field_05 */
+.qx-c-fcls_field_01.qx-aum-text-field.qx-c-nativestyle.qx-aum-abstract-text-field.qx-aum-abstract-string-field {
+ width: 20px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_05.qx-aum-text-field.qx-c-nativestyle.qx-aum-abstract-text-field.qx-aum-abstract-string-field {
+ width: 40px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_10.qx-aum-text-field.qx-c-nativestyle.qx-aum-abstract-text-field.qx-aum-abstract-string-field {
+ width: 80px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_15.qx-aum-text-field.qx-c-nativestyle.qx-aum-abstract-text-field.qx-aum-abstract-string-field {
+ width: 120px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_20.qx-aum-text-field.qx-c-nativestyle.qx-aum-abstract-text-field.qx-aum-abstract-string-field {
+ width: 160px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+.qx-c-fcls_field_30.qx-aum-text-field.qx-c-nativestyle.qx-aum-abstract-text-field.qx-aum-abstract-string-field {
+ width: 240px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+
+
+/* Search fields with class fcls_search_field */
+
+
+
+/* TEXTFelds by form-class name */
+.qx-c-fcls_search_field_01.qx-aum-text-field.qx-c-nativestyle.qx-aum-abstract-text-field.qx-aum-abstract-string-field {
+ width: 20px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_05.qx-aum-text-field.qx-c-nativestyle.qx-aum-abstract-text-field.qx-aum-abstract-string-field {
+ width: 40px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_10.qx-aum-text-field.qx-c-nativestyle.qx-aum-abstract-text-field.qx-aum-abstract-string-field {
+ width: 80px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_15.qx-aum-text-field.qx-c-nativestyle.qx-aum-abstract-text-field.qx-aum-abstract-string-field {
+ width: 120px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_20.qx-aum-text-field.qx-c-nativestyle.qx-aum-abstract-text-field.qx-aum-abstract-string-field {
+ width: 160px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+.qx-c-fcls_search_field_30.qx-aum-text-field.qx-c-nativestyle.qx-aum-abstract-text-field.qx-aum-abstract-string-field {
+ width: 240px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+
+
+/*########################################################################################################*/
+/* FunctionField Widgets
+/*########################################################################################################*/
+
+
+/* FunctionFields by form-class name  fcls_field_05 */
+.qx-c-fcls_field_01.qx-aum-function-field.qx-c-nativestyle.qx-aum-abstract-function-field.qx-aum-abstract-string-field {
+ width: 20px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_05.qx-aum-function-field.qx-c-nativestyle.qx-aum-abstract-function-field.qx-aum-abstract-string-field {
+ width: 40px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_10.qx-aum-function-field.qx-c-nativestyle.qx-aum-abstract-function-field.qx-aum-abstract-string-field {
+ width: 80px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_15.qx-aum-function-field.qx-c-nativestyle.qx-aum-abstract-function-field.qx-aum-abstract-string-field {
+ width: 120px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_20.qx-aum-function-field.qx-c-nativestyle.qx-aum-abstract-function-field.qx-aum-abstract-string-field {
+ width: 160px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+.qx-c-fcls_field_30.qx-aum-function-field.qx-c-nativestyle.qx-aum-abstract-function-field.qx-aum-abstract-string-field {
+ width: 240px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+
+
+
+/* FunctionFields by form-class name fcls_search_field_05 */
+.qx-c-fcls_search_field_01.qx-aum-function-field.qx-c-nativestyle.qx-aum-abstract-function-field.qx-aum-abstract-string-field {
+ width: 20px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_05.qx-aum-function-field.qx-c-nativestyle.qx-aum-abstract-function-field.qx-aum-abstract-string-field {
+ width: 40px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_10.qx-aum-function-field.qx-c-nativestyle.qx-aum-abstract-function-field.qx-aum-abstract-string-field {
+ width: 80px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_15.qx-aum-function-field.qx-c-nativestyle.qx-aum-abstract-function-field.qx-aum-abstract-string-field {
+ width: 120px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_20.qx-aum-function-field.qx-c-nativestyle.qx-aum-abstract-function-field.qx-aum-abstract-string-field {
+ width: 160px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+.qx-c-fcls_search_field_30.qx-aum-function-field.qx-c-nativestyle.qx-aum-abstract-function-field.qx-aum-abstract-string-field {
+ width: 240px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+
+
+
+
+/*########################################################################################################*/
+/* ComboBox Widgets
+/*########################################################################################################*/
+
+
+/* FunctionFields by form-class name  fcls_field_05 */
+.qx-c-fcls_field_01.qx-aum-combo-box.qx-c-nativestyle.qx-aum-abstract-combo-box.qx-aum-abstract-string-field {
+ width: 20px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_05.qx-aum-combo-box.qx-c-nativestyle.qx-aum-abstract-combo-box.qx-aum-abstract-string-field {
+ width: 40px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_10.qx-aum-combo-box.qx-c-nativestyle.qx-aum-abstract-combo-box.qx-aum-abstract-string-field {
+ width: 80px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_15.qx-aum-combo-box.qx-c-nativestyle.qx-aum-abstract-combo-box.qx-aum-abstract-string-field {
+ width: 120px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_20.qx-aum-combo-box.qx-c-nativestyle.qx-aum-abstract-combo-box.qx-aum-abstract-string-field {
+ width: 160px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+.qx-c-fcls_field_30.qx-aum-combo-box.qx-c-nativestyle.qx-aum-abstract-combo-box.qx-aum-abstract-string-field {
+ width: 240px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+
+
+
+/* FunctionFields by form-class name fcls_search_field_05 */
+.qx-c-fcls_search_field_01.qx-aum-combo-box.qx-c-nativestyle.qx-aum-abstract-combo-box.qx-aum-abstract-string-field {
+ width: 20px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_05.qx-aum-combo-box.qx-c-nativestyle.qx-aum-abstract-combo-box.qx-aum-abstract-string-field {
+ width: 40px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_10.qx-aum-combo-box.qx-c-nativestyle.qx-aum-abstract-combo-box.qx-aum-abstract-string-field {
+ width: 80px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_15.qx-aum-combo-box.qx-c-nativestyle.qx-aum-abstract-combo-box.qx-aum-abstract-string-field {
+ width: 120px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_20.qx-aum-combo-box.qx-c-nativestyle.qx-aum-abstract-combo-box.qx-aum-abstract-string-field {
+ width: 160px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+.qx-c-fcls_search_field_30.qx-aum-combo-box.qx-c-nativestyle.qx-aum-abstract-combo-box.qx-aum-abstract-string-field {
+ width: 240px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+
+
+
+
+
+
+/*########################################################################################################*/
+/* Date / Calendar Picker Widgets
+/*########################################################################################################*/
+
+
+/* FunctionFields by form-class name  fcls_field_05 */
+.qx-c-fcls_field_01.qx-aum-calendar.qx-c-nativestyle.qx-aum-abstract-calendar.qx-aum-abstract-string-field {
+ width: 20px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_05.qx-aum-calendar.qx-c-nativestyle.qx-aum-abstract-calendar.qx-aum-abstract-string-field {
+ width: 40px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_10.qx-aum-calendar.qx-c-nativestyle.qx-aum-abstract-calendar.qx-aum-abstract-string-field {
+ width: 80px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_15.qx-aum-calendar.qx-c-nativestyle.qx-aum-abstract-calendar.qx-aum-abstract-string-field {
+ width: 120px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_field_20.qx-aum-calendar.qx-c-nativestyle.qx-aum-abstract-calendar.qx-aum-abstract-string-field {
+ width: 160px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+.qx-c-fcls_field_30.qx-aum-calendar.qx-c-nativestyle.qx-aum-abstract-calendar.qx-aum-abstract-string-field {
+ width: 240px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+
+
+
+/* FunctionFields by form-class name fcls_search_field_05 */
+.qx-c-fcls_search_field_01.qx-aum-calendar.qx-c-nativestyle.qx-aum-abstract-calendar.qx-aum-abstract-string-field {
+ width: 20px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_05.qx-aum-calendar.qx-c-nativestyle.qx-aum-abstract-calendar.qx-aum-abstract-string-field {
+ width: 40px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_10.qx-aum-calendar.qx-c-nativestyle.qx-aum-abstract-calendar.qx-aum-abstract-string-field {
+ width: 80px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_15.qx-aum-calendar.qx-c-nativestyle.qx-aum-abstract-calendar.qx-aum-abstract-string-field {
+ width: 120px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+.qx-c-fcls_search_field_20.qx-aum-calendar.qx-c-nativestyle.qx-aum-abstract-calendar.qx-aum-abstract-string-field {
+ width: 160px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+.qx-c-fcls_search_field_30.qx-aum-calendar.qx-c-nativestyle.qx-aum-abstract-calendar.qx-aum-abstract-string-field {
+ width: 240px !important;
+ height: 24px !important;
+ padding: 2px;
+ margin: 2px;
+}
+
+
+
+############################
+
+
+/*########################################################################################################*/
+/* textField Widgets
+/*########################################################################################################*/
+
+/* TEXTFelds by form-class name */
+.qx-c-fcls_field_01.qx-aum-text-abs {
+	width: 20px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+.qx-c-fcls_field_05.qx-aum-text-abs {
+	width: 40px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+.qx-c-fcls_field_10.qx-aum-text-abs {
+	width: 80px !important;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+.qx-c-fcls_field_15.qx-aum-text-abs {
+	width: 120px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+.qx-c-fcls_field_20.qx-aum-text-abs {
+	width: 160px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+.qx-c-fcls_field_30.qx-aum-text-abs {
+	width: 160px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+
+/*########################################################################################################*/
+/* FunctionField Widgets
+/*########################################################################################################*/
+
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_field_01.qx-aum-function-field-abs {
+	width: 20px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_field_05.qx-aum-function-field-abs {
+	width: 40px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_field_10.qx-aum-function-field-abs {
+	width: 80px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_field_15.qx-aum-function-field-abs {
+	width: 120px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_field_20.qx-aum-function-field-abs {
+	width: 160px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_field_30.qx-aum-function-field-abs {
+	width: 240px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+
+
+
+/*#########################################################*/
+/* Search Fields */
+/*#########################################################*/
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_search_field_01.qx-aum-function-field-abs {
+	width: 20px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_search_field_05.qx-aum-function-field-abs {
+	width: 40px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_search_field_10.qx-aum-function-field-abs {
+	width: 80px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_search_field_15.qx-aum-function-field-abs {
+	width: 120px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_search_field_20.qx-aum-text-field.qx-c-nativestyle.qx-aum-abstract-text-field.qx-aum-abstract-string-field {
+	width: 80px !important;
+	height: 24px !important;
+	padding: 2px;
+	margin: 2px;
+	margin-right: auto;
+}
+
+.qx-aum-label .qx-vtal{
+	vertical-align: middle;
+}
+
+
+/* Select special fields 'functionFields' by form-class name */
+.qx-c-fcls_search_field_30.qx-aum-function-field-abs {
+	width: 240px;
+	/*border: 1px solid #ff0000;*/ /*#0202A2;*/
+}
