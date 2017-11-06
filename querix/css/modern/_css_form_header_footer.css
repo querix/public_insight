@@ -36,7 +36,7 @@ fcls_sblabel
 .qx-c-fcls_statusbar_cnt {
 	background: #3a597e;
         background-image: none;
-	border-radius: 4px;
+	/*border-radius: 4px;*/
 	padding: 0;
 	margin-top:5px;
 }

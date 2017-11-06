@@ -231,3 +231,7 @@ Tab Page Container
 .qx-table-row > td.qx-table-cell {
 	padding: 0 3px;
 }
+
+.qx-c-fcls_container_border {
+  border: 1px solid #3a597e;
+}
