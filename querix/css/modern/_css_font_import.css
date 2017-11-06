@@ -25,18 +25,6 @@
 font-size: 12px;
 }
 
-/*html { font-size: 200%; }*/
-
-/*######################################################
-default font
-######################################################*/
-/*
-.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field .qx-text
-{
-	font: normal 5rem "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;  
-
-}
-*/
 .qx-text,
 .qx-has-text .qx-text,
 .qx-c-fcls_data_widget.qx-has-text .qx-text,

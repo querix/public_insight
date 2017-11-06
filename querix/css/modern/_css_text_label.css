@@ -20,11 +20,6 @@ input  =darkYello-lightYellow
     color: #2e6e9e;	
 }
 
-/*FormClass: fcls_fieldlabel*/
-.qx-c-fcls_fieldlabel.qx-aum-label .qx-text{
-    /*color: #2e6e9e; */
-} 
-
 .qx-c-fcls_data_widget.qx-no-image.qx-aum.qx-aum-label.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-has-text.qx-c-attribute_underline
 {
     font: normal 1rem "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;
@@ -56,7 +51,8 @@ input  =darkYello-lightYellow
 .qx-c-fcls_columnlabel_rev_cell.qx-aum-label .qx-text{
     font: normal 1.2rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
     color: white;   
-    background: #2e6e9e;
+    background: #3a597e;
+    /*background: #2e6e9e;*/
     padding-right: 5px;
     padding-left: 5px;
     padding-top: 2px;

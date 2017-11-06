@@ -15,10 +15,8 @@ fcls_title_lb
     font: bold 14px "Roboto","Calibri","Helvetica Neue", Sans-Serif;
 } 
 .qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-c-fcls_title_cnt {
-	/* border: 1px solid #cccccc; */
-	background: url("../images/ui-bg_gloss-wave_55_5c9ccc_500x100.png") 50% 50% repeat-x;
-	/* background: url("https://code.jquery.com/ui/1.11.3/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x; */
-	/*color: #ffffff;*/
+	background: #3a597e;
+	background-image: none;
 	font-weight: bold;
 	#border-radius: 4px;
 	padding: 2px; 
@@ -36,7 +34,8 @@ fcls_sblabel
 */
 
 .qx-c-fcls_statusbar_cnt {
-	background: #3a597e url("../images/ui-bg_gloss-wave_55_5c9ccc_500x100.png") 50% 50% repeat-x;
+	background: #3a597e;
+        background-image: none;
 	border-radius: 4px;
 	padding: 0;
 	margin-top:5px;

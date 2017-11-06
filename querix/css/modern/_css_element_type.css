@@ -1,28 +1,3 @@
-/*
-####################################################################################################################################
-Title Container and text in form - top row-container in form's rootContainer
-
-FormClasses:
-fcls_title_cnt
-fcls_title_cnt_sub
-fcls_title_lb
-
-/* 
-colors:
-normal = blue/white
-	border: #79b7e7
-	background: #ffffff
-input  =darkYello-lightYellow
-	border:#fad42e
-	background: #fbec88
-
-####################################################################################################################################
-*/
-
-/*######################################
-1. Do I need these...
-2. If Yes . Move to correct category and document the selector
-########################################*/
 .ui-widget-content .qx-aum-abstract-field.ui-state-active, 
 .ui-widget-header .qx-aum-abstract-field.ui-state-active, 
 .qx-aum-abstract-field.ui-state-active
@@ -87,19 +62,12 @@ ALL Element Types with textBox
 .ui-state-disabled {
    opacity: 1;
    filter: Alpha(Opacity=100);
-	/*color:#054779;*/
-	
-  
 }
 
 /*################################################
 ElementType TextField
 ##################################################*/
 
-/*textField widget - font*/
-.qx-text-field.qx-c-fcls_data_widget .qx-text{
-/*font: normal 1rem "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif; */
-}
 
 /*textField widget - fcls_active_widget  widgets should show active but not be selectable */ 
 .qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_active_widget .qx-text{
@@ -109,45 +77,14 @@ ElementType TextField
 }
 
 /*
-.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-element-role-input.qx-active.ui-state-active.qx-c-activefield.qx-focusable-field.qx-has-text.qx-enabled.qx-not-readonly.qx-editable.qx-focused.ui-state-focus.ui-state-highlight.qx-has-focus .qx-text
-{
-color: red;
-font-size: 2rem;	
-}
-*/
-/*
-.qx-aum-text-field.qx-aum-spinner, .qx-aum-text-field.qx-aum-text-area, .qx-aum-text-field.qx-aum-calendar, 
-.qx-aum-text-field.qx-aum-time-edit-field, .qx-aum-text-field.qx-aum-combo-box, .qx-aum-text-field.qx-aum-list-box, 
-.qx-aum-text-field.qx-aum-list-box-item, .qx-aum-text-field.qx-aum-radio-button-list, .qx-aum-text-field.qx-aum-check-box {
-
-	color: #0e0e0e;
-	font-size: 1rem;	
-}
-*/
-
-/*######################################################
-ElementType: TextArea selector
-########################################################*/
-.qx-aum-text-area.qx-c-fcls_field_memo .qx-text
-{
-	/*background-color: red;
-	color: pink;*/
-	
-}
-
-
-/*
 ####################################################################
 Element Type ComboBoxList Field with form element class fcls_data_widget
 ####################################################################
 */
-/* .qx-c-fcls_data_widget.qx-aum-combo-box.qx-o-aum-abstract-string-field.qx-o-aum-abstract-field { */
 .qx-c-fcls_data_widget.qx-aum-combo-box {
     #border: 1px solid #c5dbec;
     background: none  #; 
     #font-weight: bold;
-    /*color: #2e6e9e;*/
-   /* color: #ff0000*/
 }
 
 .qx-single-row.qx-aum.qx-aum-function-field-abs.qx-aum-abstract-field.qx-element-role-input.qx-active.qx-c-fcls_align_left.qx-c-fcls_data_widget.qx-not-readonly
@@ -156,14 +93,6 @@ Element Type ComboBoxList Field with form element class fcls_data_widget
 }
 
 
-/*inner box*/
-/*
-.qx-aum-function-field-abs .qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly.qx-has-text
-{
-	border: 1px solid #79b7e7 !important; 
-}
-*/
-
 .qx-c-fcls_data_widget.qx-aum-function-field-abs {
     border: 0px solid #A0F !important; 
     background:transparent;
@@ -171,7 +100,6 @@ Element Type ComboBoxList Field with form element class fcls_data_widget
 /*and it's decendent textbox will change when it becomes focus (cursor in field)*/
 .qx-c-fcls_data_widget.qx-aum-function-field-abs .qx-aum-abstract-field.qx-focused {
 	    background: #fbec88;
-    /*border: 1px solid #79b7e7 !important; */
     border: 1px solid #fad42e !important; 
     
 }
@@ -189,12 +117,6 @@ background: none;
     background-color: transparent;
 }
 
-/*not used - will be overwritten - just used when testing is required*/
-/*.qx-c-fcls_data_widget.qx-aum-spinner {
-    border: 10px solid #ff00ff !important; 
-        background:orange;
-}*/
-
 /*spinner - outer spinner - input but not focused*/
 .qx-c-fcls_data_widget.qx-aum-spinner.qx-aum-abstract-field {
    # border: 0px solid #ffffff !important; 
@@ -206,13 +128,6 @@ background: none;
     background:#fbec88; /*brightYellow*/
     font-weight: normal;
 }
-
-/*spinner - inner textbox input NO focus*/
-.qx-c-fcls_data_widget.qx-aum-spinner.qx-aum-abstract-field.ui-state-active .qx-text {
-    /*border: 0px solid #79b7e7 !important;*/ /*blue*/
-   /* background:#ffffff; */ /*white*/
-}
-
 
 
 /*######################################################
@@ -235,12 +150,6 @@ RadioButtonList Children * selector
 RadioButtonList
 ######################################################
 */
-/*
-RadioButtonListItem
-Element: .qx-aum-radio-button-list-item
-FormClass: .qx-c-fcls_field
-*/
-
 .qx-c-fcls_field .qx-aum-radio-button-list-item
 {
 	color: #2e6e9e;   
@@ -264,10 +173,6 @@ FormClass: .qx-c-fcls_field
 	color: #2e6e9e;   
 	font-size: 2.8rem;		
 }
-
-/*kk
-.qx-aum-abstract-field.ui-state-active .qx-aum-radio-button-list .qx-content, .qx-c-nativestyle .qx-content
-*/
 
 qx-aum-abstract-field.ui-state-active .qx-aum-abstract-field.ui-state-active .qx-aum-radio-button-list .qx-content, .qx-c-nativestyle .qx-content
 {
@@ -363,31 +268,6 @@ Inactive State - kind of global for all elements
     filter: Alpha(Opacity=70);
     border: 1px solid rgba(92, 156, 204, .5);
     }
-/*
-.qx-c-fcls_data_widget .ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled{
-    opacity: .7; 
-    filter: Alpha(Opacity=70);
-    border: 1px solid rgba(92, 156, 204, .5);
-    }
-*/    
-
-
-/*##################################################
-Margin for elements
-###################################################*/
-/*
-.qx-c-fcls_button.qx-aum-button,
-.qx-c-fcls_button_main.qx-aum-button,
-.qx-c-fcls_button_1.qx-aum-button,
-.qx-c-fcls_button_2.qx-aum-button,
-.qx-c-fcls_button_3.qx-aum-button,
-.qx-c-fcls_button_5.qx-aum-button,
-.qx-aum-table,
-.qx-c-fcls_data_widget
-{
-	margin: 1px;
-}
-*/
 
 .qx-c-fcls_fieldlabel.qx-aum-label 
 {
