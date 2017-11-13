@@ -332,3 +332,9 @@ html.cmsfb:root .cms-mainmenu-close {
 .cmsfb .qx-menu-type-tree.qx-mdi div#qx-container-menu > .qx-menu-inner {
 	padding-top: 60px;
 }
+
+/*Style for the dialogs opened with fgl_winmessge/prompt/etc*/
+.cmsfb body > .ui-dialog {
+	margin-top: 60px;
+	z-index: 1002;
+}
