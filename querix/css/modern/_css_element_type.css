@@ -289,6 +289,8 @@ Inactive State - kind of global for all elements
   padding-right: 2px;
 }
 
+.qx-aum.qx-aum-spinner.qx-c-fcls_data_widget,
+.qx-aum.qx-aum-combo-box.qx-c-fcls_data_widget,
 .qx-aum.qx-aum-calendar.qx-c-fcls_data_widget {
   padding-right: 0;
 }
