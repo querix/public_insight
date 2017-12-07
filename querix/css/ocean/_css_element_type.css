@@ -1,0 +1,616 @@
+/*
+.qx-single-row.qx-aum.qx-aum-function-field-abs
+*/
+
+
+
+/*qx-c-fcls_data_widget */
+
+/*
+.qx-bool-widget.qx-aum-radio-button.qx-aum-abstract-bool-field
+{
+	width: 10rem !important;
+}
+*/
+/*qx-c-fcls_data_widget */
+
+.qx-c-fcls_length_01qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
+.qx-c-fcls_length_01qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
+.qx-c-fcls_length_01qch.qx-text-field.qx-aum.qx-aum-combo-box
+{
+	width: 2rem !important;
+}
+
+
+.qx-c-fcls_length_05qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
+.qx-c-fcls_length_05qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
+.qx-c-fcls_length_05qch.qx-text-field.qx-aum.qx-aum-combo-box 
+{
+	width: 5rem !important;
+}
+
+
+.qx-c-fcls_length_10qch.qx-aum.qx-text-field.qx-aum-calendar.qx-aum-abstract-text-field,
+.qx-c-fcls_length_10qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field,
+.qx-c-fcls_length_10qch.qx-aum.qx-single-row.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field
+.qx-c-fcls_length_10qch.qx-aum.qx-text-field.qx-aum-combo-box,
+.qx-c-fcls_length_10qch.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-has-text,
+.qx-c-fcls_length_10qch.qx-aum.qx-aum-time-edit-field,
+.qx-c-fcls_length_10qch.qx-bool-widget.qx-aum-radio-button.qx-aum-abstract-bool-field,
+.qx-c-fcls_length_10qch.qx-single-row.qx-aum.qx-aum-function-field-abs, 
+.qx-c-fcls_length_10qch.qx-aum.qx-single-row.qx-aum-button
+{
+	width: 10rem !important;
+}
+
+
+.qx-c-fcls_length_15qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
+.qx-c-fcls_length_15qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
+.qx-c-fcls_length_15qch.qx-text-field.qx-aum.qx-aum-combo-box 
+{
+	width: 15rem !important;
+}
+
+.qx-c-fcls_length_20qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
+.qx-c-fcls_length_20qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
+.qx-c-fcls_length_20qch.qx-text-field.qx-aum.qx-aum-combo-box 
+{
+	width: 20rem !important;
+}
+
+.qx-c-fcls_length_25qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
+.qx-c-fcls_length_25qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
+.qx-c-fcls_length_25qch.qx-text-field.qx-aum.qx-aum-combo-box 
+{
+	width: 25rem !important;
+}
+
+.qx-c-fcls_length_30qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
+.qx-c-fcls_length_30qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
+.qx-c-fcls_length_30qch.qx-text-field.qx-aum.qx-aum-combo-box 
+{
+	width: 30rem !important;
+}
+
+.qx-c-fcls_length_40qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
+.qx-c-fcls_length_40qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
+.qx-c-fcls_length_40qch.qx-text-field.qx-aum.qx-aum-combo-box 
+{
+	width: 40rem !important;
+}
+
+
+.qx-c-fcls_length_50qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
+.qx-c-fcls_length_50qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
+.qx-c-fcls_length_50qch.qx-text-field.qx-aum.qx-aum-combo-box 
+{
+	width: 50rem !important;
+}
+
+
+.qx-c-fcls_length_30qch
+{
+	width: 50rem !important;
+}
+
+
+
+/*
+######################################################################################################
+ALL Elements V-Size
+######################################################################################################
+*/
+/*Vertical Size - all textField based widgets*/
+.qx-aum.qx-aum-calendar,
+.qx-aum.qx-aum-text-field,
+.qx-aum.qx-aum-combo-box,
+.qx-aum.qx-aum-list-box,
+.qx-aum.qx-aum-list-box,
+.qx-aum.qx-aum-radio-button,
+.qx-aum.qx-aum-check-box,
+.qx-single-row.ui-spinner.qx-aum-spinner,
+.qx-single-row.qx-aum-button,
+.qx-single-row.qx-aum.qx-aum-time-edit-field,
+.qx-bool-widget.qx-aum-radio-button.qx-aum-abstract-bool-field,
+.qx-single-row.qx-aum.qx-aum-function-field-abs
+{
+	height: 2.2rem !important;
+}
+
+/*
+######################################################################################################
+ALL Element MARGIN
+######################################################################################################
+*/
+/*margin for combo 
+.qx-text-field.qx-single-row.qx-aum.qx-aum-combo-box.qx-aum-abstract-string-field
+*/
+.qssx-aum-combo-box
+{
+	margin-top:2px;
+	margin-bottom:2px;
+	
+}
+
+/*
+qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-va-c.qx-ip-l.qx-vta-c
+*/
+
+.qx-c-fcls_fieldlabel.qx-aum-label.qx-has-text .qx-text-with-icon 
+{
+	margin-left:2px;
+	margin-right:2px;	
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+/*margin textFields*/
+.qx-aum.qx-aum-text-field,
+.qx-aum.qx-aum-function-field-abs, 
+.qx-aum.qx-aum-combo-box,
+.qx-aum-calendar.qx-aum-abstract-text-field,
+.qx-aum.qx-aum-list-box,
+.qx-aum.qx-aum-list-box .qx-text,
+.qx-aum.ui-spinner.qx-aum-spinner,
+.qx-aum.qx-aum-radio-button,
+.qx-aum.qx-aum-button
+{
+	margin-top:2px;
+	margin-bottom:2px;	
+	margin-right: 2px
+}
+
+
+
+
+/*
+######################################################################################################
+ALL Element Types with textBox
+######################################################################################################
+*/
+
+
+/*
+####################################################################
+INPUT ELEMENTS WITHOUT FOCUS (ALL Element Types with textBox)
+####################################################################
+*/
+.ui-widget-content .qx-aum-abstract-field.ui-state-active, 
+.ui-widget-header .qx-aum-abstract-field.ui-state-active, 
+.qx-aum-abstract-field.ui-state-active,
+.ui-widget-content .qx-aum-abstract-field.ui-state-active > select, 
+.ui-widget-header .qx-aum-abstract-field.ui-state-active > select, 
+.qx-aum-abstract-field.ui-state-active > select
+{
+	font-weight: normal;
+	color: #2e6e9e;  
+}
+
+
+/*
+####################################################################
+INPUT FOCUS (ALL Element Types with textBox)
+####################################################################
+
+
+.qx-aum-calendar.qx-has-focus,
+*/
+.qx-aum-function-field-abs.qx-has-focus .qx-ff-text,
+
+.qx-aum-function-field-abs.qx-has-focus .qx-ff-text *,
+
+.qx-aum-spinner.qx-has-focus,
+
+.qx-aum-spinner.qx-has-focus .qx-text,
+
+.qx-aum-text-field.qx-has-focus,
+
+.qx-aum-text-field.qx-has-focus *,
+
+.qx-aum-text-area.qx-has-focus,
+
+.qx-aum-text-area.qx-has-focus *,
+
+.qx-aum-time-edit-field.qx-has-focus,
+
+.qx-aum-time-edit-field.qx-has-focus *,
+
+.qx-aum-list-box.qx-has-focus,
+.qx-aum-radio-button-list.qx-focused.qx-has-focus, 
+.qx-aum-combo-box.qx-has-focus 
+{
+border:1px solid #69a7d7;
+border-radius: 3px;
+color:#363636;
+background-color:rgba(208,229,245,0.2) !important;
+}
+
+/* calendar widgt special rules as it is made up of a text field and a button*/
+.qx-aum-calendar.qx-has-focus 
+{
+background-color:rgba(208,229,245,0.2) !important;
+}
+
+/*Outer calendar widget - parent container */
+.qx-aum-calendar.qx-element-role-input.qx-active.ui-state-active.qx-focused.ui-state-focus.qx-has-focus
+{
+border-color: rgba(208,229,245,0.2) ;
+}
+.qx-aum-calendar.qx-has-focus .qx-text.qx-htal.hasDatepicker 
+{
+/* url("images/ui-bg_inset-hard_100_f5f8f9_1x100.png") 50% 50% repeat-x; */
+border-left:1px solid #69a7d7;
+border-top:1px solid #69a7d7;
+border-bottom:1px solid #69a7d7;
+
+border-radius: 3px;
+
+background-color:rgba(208,229,245,0.2) !important;
+}
+
+
+
+/*
+####################################################################
+Inactive Fields (ALL Element Types with textBox)
+####################################################################
+
+*/
+/*
+.qx-aum-calendar.qx-inactive.ui-state-disabled,
+
+.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+
+.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+
+.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+
+.qx-aum-spinner.qx-inactive.ui-state-disabled,
+
+.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+
+.qx-aum-text-field.qx-inactive.ui-state-disabled,
+
+.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+
+.qx-aum-text-area.qx-inactive.ui-state-disabled,
+
+.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+
+.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+
+.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+
+.qx-aum-combo-box.qx-inactive.ui-state-disabled 
+{
+
+color:black;
+background-color:rgba(208,229,245,0.0) !important;
+   opacity: 1;
+   filter: Alpha(Opacity=00);
+}
+
+*/
+/*##################################################
+Inactive State - kind of global for all elements
+###################################################*/
+
+.ui-state-disabled.qx-c-fcls_data_widget, .ui-widget-content.qx-c-fcls_data_widget .ui-state-disabled.qx-c-fcls_data_widget, .ui-state-disabled.qx-c-fcls_data_widget{
+    opacity: .7; 
+    filter: Alpha(Opacity=70);
+    border: 1px solid rgba(92, 156, 204, .5);
+    color:#2e6e9e;
+    }
+
+
+/*
+qx-text-field qx-aum qx-aum-text-field qx-aum-abstract-text-field qx-aum-abstract-string-field qx-aum-abstract-field qx-inactive ui-state-disabled qx-c-fcls_align_hstretch qx-c-fcls_data_widget qx-disabled qx-readonly qx-rsw qx-ha-s qx-has-text
+*/
+/*#################################################
+ Enabled/Disabled fields - Input/not in Input
+###################################################*/
+/*Overwrite opacity for disabled fields */
+.ui-widget-header .ui-state-active,
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled, 
+.ui-state-disabled {
+   opacity: 1;
+   filter: Alpha(Opacity=100);
+
+}
+
+/*Overwrite opacity for disabled fields */
+.qx-c-fcls_show_enabled.ui-widget-header .qx-c-fcls_show_enabled.ui-state-active,
+.ui-state-disabled,
+.qx-c-fcls_show_enabled.ui-widget-content .ui-state-disabled, 
+.ui-state-disabled {
+   opacity: 1;
+   filter: Alpha(Opacity=100);
+}
+
+/*################################################
+ElementType TextField
+##################################################*/
+
+
+
+/*ACTIVE*/
+/*textField widget - fcls_active_widget  widgets should show active but not be selectable */ 
+.qx-text-field.qx-c-fcls_data_widget.qx-c-fcls_active_widget .qx-text{
+	opacity: 1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+	margin-bottom: 4px;
+
+	/*color: rgba(0, 0, 0, 0.5);*/
+}
+
+
+/*
+####################################################################
+Element Type ComboBoxList Field with form element class fcls_data_widget
+####################################################################
+*/
+.qx-c-fcls_data_widget.qx-aum-combo-box {
+    #border: 1px solid #c5dbec;
+    background: none  #; 
+    #font-weight: bold;
+}
+
+.qx-single-row.qx-aum.qx-aum-function-field-abs.qx-aum-abstract-field.qx-element-role-input.qx-active.qx-c-fcls_align_left.qx-c-fcls_data_widget.qx-not-readonly
+{
+	border: 1px solid rgba(92, 156, 204, .5) !important; 
+}
+
+
+.qx-c-fcls_data_widget.qx-aum-function-field-abs {
+    border: 0px solid #A0F !important; 
+    background:transparent;
+}
+/*and it's decendent textbox will change when it becomes focus (cursor in field)*/
+.qx-c-fcls_data_widget.qx-aum-function-field-abs .qx-aum-abstract-field.qx-focused {
+	    background: #fbec88;
+    border: 1px solid #fad42e !important; 
+    
+}
+
+/*
+####################################################################
+Element Type spinner Field with form element class fcls_data_widget
+####################################################################
+*/
+
+
+/*Overwrite jQuery css for spinner input*/
+.qx-c-fcls_data_widget.qx-aum-spinner > input {
+background: none;
+    background-color: transparent;
+}
+
+/*spinner - outer spinner - input but not focused*/
+.qx-c-fcls_data_widget.qx-aum-spinner.qx-aum-abstract-field {
+   # border: 0px solid #ffffff !important; 
+   #     background:transparent;
+}
+/*spinner - inner textbox input with focus*/
+.qx-c-fcls_data_widget.qx-aum-spinner.qx-aum-abstract-field.ui-state-active.qx-focused .qx-text {
+    border: 1px solid #fad42e !important; /*darkYellow*/
+    background:#fbec88; /*brightYellow*/
+    font-weight: normal;
+}
+
+
+/*######################################################
+RadioButtonList Children * selector
+########################################################*/
+
+.qx-bool-widget.qx-aum.qx-aum-radio-button.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-has-title.qx-has-text.qx-focusable-field  
+{
+	color: #2e6e9e;  
+	font-size: 1rem;		
+}
+.qx-aum-radio-button-list * 
+{
+	color: #2e6e9e;   
+	font-size: 1rem;		
+}
+
+/*
+######################################################
+RadioButtonList
+######################################################
+*/
+.qx-c-fcls_field .qx-aum-radio-button-list-item
+{
+	color: #2e6e9e;   
+	font-size: 1rem;		
+}
+
+.qx-c-fcls_data_widget .qx-aum-radio-button-list-item
+{
+	color: #2e6e9e;   
+	font-size: 1rem;		
+}
+
+.aum-text-field
+{
+	color: #2e6e9e;   
+	font-size: 2.8rem;		
+}
+
+.qx-aum-radio-button-list .qx-content, .qx-c-nativestyle .qx-content
+{
+	color: #2e6e9e;   
+	font-size: 2.8rem;		
+}
+
+qx-aum-abstract-field.ui-state-active .qx-aum-abstract-field.ui-state-active .qx-aum-radio-button-list .qx-content, .qx-c-nativestyle .qx-content
+{
+	color: black;
+	font-size: 1rem;		
+}
+
+.qx-aum-radio-button-list.ui-state-focus, .qx-aum-radio-button-list.ui-state-hover, .qx-aum-radio-button-list.ui-widget-content .qx-aum-radio-button-list.ui-state-focus, .qx-aum-radio-button-list.ui-widget-content .qx-aum-radio-button-list.ui-state-hover, .qx-aum-radio-button-list.ui-widget-header .qx-aum-radio-button-list.ui-state-focus, .qx-aum-radio-button-list.ui-widget-header .qx-aum-radio-button-list.ui-state-hover {
+
+    background-color: transparent;
+	background-image:none;
+	border: none;
+}
+
+
+
+
+/*#######################################
+RadioButton Single
+#########################################*/
+/*general*/
+
+.qx-aum-radio-button .qx-text
+{
+    color: #2e6e9e; 
+}	
+.qx-c-fcls_data_widget.qx-aum-radio-button.qx-aum-abstract-field .qx-text-with-icon .qx-text
+{
+	font-size: 1rem;
+	font-weight: normal;
+    font: normal 1rem "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;
+    color: #2e6e9e; 	
+}	
+
+/*inactive*/
+.qx-c-fcls_data_widget.qx-aum-radio-button.qx-bool-widget.qx-aum.qx-on-1.qx-s-on-0.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-psw.qx-has-title.qx-has-text.qx-inactive.qx-disabled.qx-readonly .qx-text-with-icon .qx-text 
+{ 
+	color: #2e6e9e;
+}
+
+/*active*/
+.qx-c-fcls_data_widget.qx-aum-radio-button.qx-bool-widget.qx-aum.qx-on-1.qx-s-on-0.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-active.qx-c-activefield.qx-has-title.qx-has-text .qx-text-with-icon .qx-text 
+{ 
+	color: #2e6e9e;
+}
+
+/*#######################################
+CheckBox
+##########################################*/
+/*checkBox label*/
+.qx-bool-widget.qx-aum.qx-aum-check-box.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-has-title.qx-has-text
+{
+	font-size: 1rem;
+	font-weight: normal;
+    font: normal 1rem "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;
+    color: #2e6e9e; 		
+}
+
+/*in input*/
+.qx-c-fcls_data_widget.qx-aum-check-box.qx-bool-widget.qx-aum-abstract-field.qx-aum.qx-aum-abstract-bool-field.qx-element-role-input.qx-active.qx-c-activefield.qx-has-title.qx-has-text .qx-text-with-icon .qx-text
+{
+	color: #2e6e9e;
+}
+
+/*disabled - not in input*/
+.qx-c-fcls_data_widget.qx-aum-check-box.qx-bool-widget.qx-aum-abstract-field.qx-aum.qx-element-role-input.qx-has-title.qx-has-text.qx-inactive.qx-disabled.qx-readonly .qx-text-with-icon .qx-text
+{
+	color: #2e6e9e;
+}
+/*########################################
+Tab Handles 
+##########################################*/
+/*Note, we need a different/unique class name for MDI-container tab-handles*/
+/*at the moment, this class will select ALL tab handles normal form AND mdi-container */
+.ui-tabs-nav .qx-text 
+{
+    min-width: 150px;
+}
+
+
+/*All button-labels (from any button) in forms with the (rootfolder) class name fcls_container_menu*/
+.qx-c-fcls_container_menu .qx-aum-button .qx-text-with-icon {
+	justify-content:flex-start;
+	}
+
+/*BUTTON ######################################################*/
+
+/*Any general button*/
+.qx-no-image.ui-button.ui-widget .ui-button-text .qx-text-with-icon
+{
+
+color:white;
+background-color:rgb(58, 89, 126);
+
+}
+
+/*Special Lookup Button*/
+.qx-aum.qx-aum-button.qx-c-fcls_button_lookup .ui-button-text .qx-text-with-icon
+{
+background-image: url(/public/querix/icon/svg/24/ic_search_white_24px.svg);
+color:white;
+background-color:rgb(58, 89, 126);
+width:24px;
+height:24px;
+
+}
+/*hide image when inactive*/
+.qx-inactive.ui-state-disabled.qx-aum.qx-aum-button.qx-c-fcls_button_lookup .ui-button-text .qx-text-with-icon
+{
+	background-image: none;
+}
+
+
+/*
+.qx-aum.qx-c-fcls_data_widget.qx-aum-button
+{
+	background-color: red;
+	background-image: url(/public/querix/css/images/ui-icons_217bc0_256x240.png);
+}
+
+.qx-no-image.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only
+{
+		background-color: #3a597e;
+	background-image: url(/public/querix/icon/svg/24/ic_search_white_24px.svg);
+}
+.qx-aum.qx-c-fcls_data_widget.qx-aum-button .qx-text-with-icon 
+{
+	background-color: red;
+	background-image: url(/public/querix/icon/svg/24/ic_search_white_24px.svg);
+
+
+
+}
+
+*/
+/*************************************************************/
+
+
+
+/*######################################################*/
+
+.qx-c-fcls_fieldlabel.qx-aum-label 
+{
+	margin: 1px 2px 0;
+}
+
+.qx-c-fcls_columnlabel.qx-aum-label,
+.qx-c-fcls_menulabel.qx-aum-label 
+{
+	margin: 2px;
+}
+
+.qx-grid-cell {
+  padding: 1px;
+}
+
+.qx-aum.qx-c-fcls_data_widget {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.qx-aum.qx-aum-spinner.qx-c-fcls_data_widget,
+.qx-aum.qx-aum-combo-box.qx-c-fcls_data_widget,
+.qx-aum.qx-aum-calendar.qx-c-fcls_data_widget {
+  padding-right: 0;
+}
+/*################################################################################################################*/
+/*jQuery icon image overwrite.. we want the blue map, not yello*/
+/*################################################################################################################*/
+.ui-state-active .ui-icon {
+	background-image: url(/public/querix/css/images/ui-icons_217bc0_256x240.png);
+}

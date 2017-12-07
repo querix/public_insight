@@ -1,0 +1,53 @@
+/*
+##########################
+Toolbar Button Label
+##########################
+*/
+
+/*toolbar button text */
+.qx-scroll.qx-aum-toolbar.qx-aum-abstract-container.qx-identifier-toolbar.qx-c-lycia_actionstoolbar .qx-aum-toolbar-button .qx-aum-toolbar-button .qx-text {
+     /*font: bold 0.7rem  "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;*/
+     font-size: 0.7rem;
+
+
+}
+
+/*Toolbar button*/
+.qx-scroll.qx-aum-toolbar.qx-aum-abstract-container.qx-identifier-toolbar.qx-c-lycia_actionstoolbar .qx-aum-toolbar-button
+{
+     /*font: bold 0.7rem  "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;*/
+     width: 100px;
+     color: white;
+}
+
+
+.qx-scroll.qx-aum-toolbar.qx-aum-abstract-container.qx-identifier-toolbar.qx-c-lycia_actionstoolbar
+{
+    /*border: 1px solid #5c9ccc !important;  */
+    border: 1px solid rgb(58, 89, 126);   
+    background: rgb(58, 89, 126);;    
+    margin: 2px;
+    padding: 2px;
+    /*border-radius: 5px;*/
+    /*margin-right: 100px;
+    padding-right: 100px; */
+}
+
+
+/*Remove toolbar button border and background-image*/
+
+.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only.qx-aum.qx-aum-toolbar-button.qx-aum-toolbar-item.qx-has-text.qx-has-image
+
+{
+    border:transparent;
+    background-image: none;
+    /*color: red;*/
+
+}
+
+.qx-menu.qx-aum.qx-aum-menu-bar.qx-aum-abstract-container.qx-identifier-topmenu.ui-menubar
+{
+    color:red;
+    background: red;
+
+}

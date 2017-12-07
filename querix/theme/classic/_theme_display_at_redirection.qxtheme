@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <ElementFilter ElementName="Label">
+    <StyleSheet>
+      <WithClassFilter ClassName="lycia_display_at">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Wrapper</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Wrapper" Name="displayAtRedir" Parameter="[  {&quot;rows&quot;:[23],&quot;to&quot;:&quot;popup&quot;,&quot;parameter&quot;:&quot;f1&quot;},&#xD;&#xA; {&quot;rows&quot;:[24],&quot;to&quot;:&quot;popup&quot;,&quot;parameter&quot;:&quot;f2&quot;} ]" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithClassFilter>
+    </StyleSheet>
+  </ElementFilter>
+</StyleSheet>

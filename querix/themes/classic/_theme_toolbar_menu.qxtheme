@@ -162,7 +162,7 @@
           <PropertyPath>
             <PropertyName>ImageId</PropertyName>
           </PropertyPath>
-          <PropertyValue type="ResourceId" Uri="{CONTEXT}public/querix/icon10/right.png" />
+          <PropertyValue type="ResourceId" Uri="{CONTEXT}public/querix/icon/svg/24/ic_keyboard_arrow_right_white_24px.svg" />
         </SetProperty>
       </DoStyleAction>
       <DoStyleAction>

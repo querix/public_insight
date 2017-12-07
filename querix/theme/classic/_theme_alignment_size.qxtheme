@@ -1,0 +1,1643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <WithClassFilter ClassName="fcls_length_20qch_p">
+    <StyleSheet>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="20%" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="20%" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Button">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="20%" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_length_20qch_q">
+    <StyleSheet>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="20qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="20qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Button">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="20%" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_length_20qch_r">
+    <StyleSheet>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="20rem" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="20rem" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_length_20qch_e">
+    <StyleSheet>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="20em" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="20em" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_length_01qch">
+    <StyleSheet>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="3qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="3qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Button">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="3qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_length_05qch">
+    <StyleSheet>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="5qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="5qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Button">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="5qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_length_10qch">
+    <StyleSheet>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="10qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="10qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Button">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="10qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_length_15qch">
+    <StyleSheet>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="15qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="15qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Button">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="15qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_length_20qch">
+    <StyleSheet>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="20qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="20qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Button">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="20qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_length_25qch">
+    <StyleSheet>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="25qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="25qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Button">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="25qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_length_30qch">
+    <StyleSheet>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="30qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="30qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Button">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="30qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_length_40qch">
+    <StyleSheet>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="40qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="40qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Button">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="40qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_length_50qch">
+    <StyleSheet>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="50qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="50qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Button">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="50qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_length_60qch">
+    <StyleSheet>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="60qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="60qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Button">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>PreferredSize</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Size" Width="60qch" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_align_left">
+    <StyleSheet>
+      <ElementFilter ElementName="Browser">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Canvas">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="ProgressBar">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Slider">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="BorderPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="CoordPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="GridPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="GroupBox">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="StackPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Tab">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Table">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="TreeTable">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="TabPage">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Left</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_align_right">
+    <StyleSheet>
+      <ElementFilter ElementName="Browser">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Canvas">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="ProgressBar">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Slider">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="BorderPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="CoordPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="GridPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="GroupBox">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="StackPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Tab">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Table">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="TreeTable">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="TabPage">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Right</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_align_hcenter">
+    <StyleSheet>
+      <ElementFilter ElementName="Browser">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Canvas">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="ProgressBar">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Slider">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="BorderPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="CoordPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="GridPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="GroupBox">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="StackPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Tab">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Table">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="TreeTable">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="TabPage">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>HorizontalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Center</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_align_top">
+    <StyleSheet>
+      <ElementFilter ElementName="Browser">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="ProgressBar">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Slider">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="TextArea">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="BorderPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="CoordPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="GridPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="GroupBox">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="StackPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Tab">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Table">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="TreeTable">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="TabPage">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Top</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_align_bottom">
+    <StyleSheet>
+      <ElementFilter ElementName="Browser">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Bottom</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Canvas">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Bottom</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="ProgressBar">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Bottom</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Slider">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Bottom</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="BorderPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Bottom</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="CoordPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Bottom</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="GridPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Bottom</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="GroupBox">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Bottom</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="StackPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Bottom</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Tab">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Bottom</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Table">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Bottom</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="TreeTable">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Bottom</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="TabPage">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Bottom</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Bottom</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Bottom</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_align_vstretch">
+    <StyleSheet>
+      <ElementFilter ElementName="Browser">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Canvas">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="ProgressBar">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Slider">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="BorderPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="CoordPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="GridPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="GroupBox">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="StackPanel">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Tab">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="Table">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="TreeTable">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <ElementFilter ElementName="TabPage">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+      <WithPseudoClassFilter PseudoClassName="DataWidgets">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <ElementFilter ElementName="FunctionFieldAbs">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>VerticalAlignment</PropertyName>
+              </PropertyPath>
+              <PropertyValue>Stretch</PropertyValue>
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </ElementFilter>
+    </StyleSheet>
+  </WithClassFilter>
+</StyleSheet>

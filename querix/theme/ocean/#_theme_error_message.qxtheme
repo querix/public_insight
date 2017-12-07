@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <ElementFilter ElementName="Label">
+    <StyleSheet>
+      <WithPseudoClassFilter PseudoClassName="Message">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Wrapper</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Wrapper" Name="popup" Parameter="5" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <WithPseudoClassFilter PseudoClassName="Error">
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>Wrapper</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="Wrapper" Name="popupError" Parameter=".qx-focused" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+      <WithPseudoClassFilter>
+        <StyleSheet>
+          <DoStyleAction>
+            <SetProperty>
+              <PropertyPath>
+                <PropertyName>ForeColor</PropertyName>
+              </PropertyPath>
+              <PropertyValue type="CustomizedColor" RedColor="253" GreenColor="255" BlueColor="0" Alpha="94" />
+            </SetProperty>
+          </DoStyleAction>
+        </StyleSheet>
+      </WithPseudoClassFilter>
+    </StyleSheet>
+  </ElementFilter>
+</StyleSheet>

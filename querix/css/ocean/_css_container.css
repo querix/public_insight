@@ -1,0 +1,228 @@
+.qx-c-fcls_detail_cnt.qx-aum-items-container.qx-aum-abstract-container
+{
+    margin-top: 8px;
+    margin-bottom: 8px;
+	
+}
+
+.qx-c-fcls_container_margin.qx-aum-items-container.qx-aum-abstract-container
+{
+    margin: 2px;
+}
+
+.qx-c-fcls_container_padding.qx-aum-items-container.qx-aum-abstract-container
+{
+    padding: 2px;
+}
+
+/*
+#######################################################
+Gridpanel
+#######################################################
+*/
+
+.qx-identifier-rootcontainer.qx-c-fcls_rootcontainer.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container,
+.qx-c-fcls_rootcontainer.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container,
+.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container,
+.qx-aum.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-root-form.qx-window-root
+{
+    padding: 2px;
+}
+
+.qx-wrap.qx-ha-l > .qx-bound > *{
+    align-self: stretch;
+}
+
+/*All cells in rootContainer descendants -  vertical element alignment top*/
+.qx-c-fcls_rootcontainer.qx-aum-grid-panel .qx-grid-cell 
+{
+    vertical-align: top;
+    overflow: hidden;
+}
+
+/*All descendant cells in gridPanels with class fcls_data_cnt -  vertical element middle */
+.qx-aum-grid-panel.qx-c-fcls_data_cnt .qx-grid-cell 
+{
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+
+
+/*#######################################################
+GroupBox
+#######################################################*/
+/*
+GroupBox Header can also have form class qx-c-fcls_detail_gb_cnt
+*/
+
+/*Select ALL GroupBoxes */
+.qx-aum-group-box.qx-aum.qx-aum-group-box.qx-aum-element-container 
+{
+	background-color: white;
+	background-image: none;
+	margin: 2px
+}
+
+
+/*Only groupBoxes with the form class .qx-c-fcls_detail_gb_cnt*/
+.qx-c-fcls_detail_gb_cnt.qx-aum-group-box .qx-groupbox-header
+{
+	border: 1px solid #5c9ccc;
+	background: #3a597e;
+        background-image: none;
+	color: #ffffff;
+	#font-weight: bold;
+	padding: 2px;	
+	/*
+	border-radius: 4px;
+
+	margin: 0; 
+	*/	
+}
+
+
+/*
+GroupBox Header LABEL with form class fcls_detail_gb_cnt
+*/
+.qx-c-fcls_detail_gb_cnt .ui-accordion-header .qx-text
+{
+	color: white;
+}
+
+.qx-aum-stack-panel
+{
+    align-items:center;
+}
+
+.qx-table-cell.qx-c-activefield.qx-aum.qx-aum-abstract-field.qx-content.qx-has-text.qx-c-attribute_reverse >
+.qx-text-with-icon.qx-vtal.qx-htal >
+.qx-text.qx-has-text
+{
+	color: #cd0a0a;
+}
+.qx-table.qx-aum-table.qx-aum-abstract-data-table.qx-aum-abstract-container
+{
+  
+    margin: 2px;
+    padding: 2px;
+}	
+.qx-table.qx-aum-table.qx-aum-abstract-data-table .qx-aum-combo-box {
+	padding-right: 0;
+}
+
+
+.qx-tbody tr
+{ 
+background-color: transparent; 
+}
+
+.qx-tbody .qx-table-row:nth-child(even) {
+	background: rgba(137,210,255, 0.1);
+	}
+
+.qx-c-activefield .qx-tbody .qx-table-row:nth-child(even) {
+	background: rgba(137,210,255, 0.01);
+	}
+
+.qx-aum-wtf.qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle), .qx-aum-wtf.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse:not(.qx-c-nativestyle) *
+{
+	background: #fbec88;
+}
+
+.qx-c-activefield .qx-tbody  tr .qx-text.qx-has-text {
+    font: normal 1rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+    color: #2e6e9e; 
+}
+/*Row Selection */
+.qx-c-activefield .qx-tbody .qx-table-row.qx-c-highlight_str
+{
+	background-color:rgba(255, 200, 200, 0.3);
+} 
+
+/*Field Selection */
+.qx-c-activefield .qx-tbody .qx-table-row.qx-c-highlight_str .qx-text.qx-has-text
+{
+	color: hsla(357, 100%, 24%, 1);
+} 
+
+
+
+/*
+######################################
+Table Column
+(Display Array / Input Array)
+######################################
+*/
+
+/*Table column and gridHeader padding/margin/border */
+.qx-aum-table-column.ui-widget-header > div
+{
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+
+  color: white;	
+
+}
+
+
+
+div.qx-aum-label.qx-aum.qx-aum-abstract-field.qx-c-nativestyle .qx-vtal{
+	vertical-align: middle;
+}
+
+
+.qx-table td, .qx-table-cell .ui-state-active {/*, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active*/
+	border: none;
+	font-size: 1rem;
+}
+
+
+
+.qx-aum-table-column {
+	 border-left: 1px solid #fff !important;
+}
+
+/*tableWidget container - HEADER row - i.e 5px top/bottom and 0px right/left*/
+.qx-aum-table-column .qx-text { 
+	margin: 5px 0px; 
+
+}
+
+
+/*###########################################
+Tab Page Container 
+#############################################*/
+
+/* labels in the tabPage handles */
+.qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text
+{
+    justify-content: left;
+    text-align: left;
+	align-items: flex-start;
+}
+
+
+.qx-thead th > label {
+ left: 0;
+ right: 0;
+}
+.qx-table-row > td.qx-table-cell,
+.qx-thead-row > th.qx-aum-table-column.ui-widget-header {
+	border: none;
+    border-left: 1px solid transparent !important;
+}
+
+.qx-thead-row > th.qx-aum-table-column.ui-widget-header:nth-child(1),
+.qx-table-row > td.qx-table-cell:nth-child(1) {
+	border-left: none !important;
+}
+
+.qx-thead-row > th.qx-aum-table-column.ui-widget-header > label,
+.qx-table-row > td.qx-table-cell {
+	padding: 0 3px;
+}
+
+.qx-c-fcls_container_border {
+  border: 1px solid #3a597e;
+}
