@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StyleSheet xmlns="http://querix.com">
+
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_alignment_size.qxtheme"/>
   </DoStyleAction>
+<!--
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_application_defaults.qxtheme"/>
   </DoStyleAction>
@@ -15,10 +17,18 @@
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_container.qxtheme"/>
   </DoStyleAction>  
-<!--
+
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_default_data_widget.qxtheme"/>
   </DoStyleAction> 
+
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_text_label.qxtheme"/>
+  </DoStyleAction>    
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_toolbar_menu.qxtheme"/>
+  </DoStyleAction>
+
 -->
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_display_at_redirection.qxtheme"/>
@@ -30,14 +40,10 @@
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_report.qxtheme"/>
   </DoStyleAction>    
+<!--
   <DoStyleAction>
-    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_text_label.qxtheme"/>
-  </DoStyleAction>    
-  <DoStyleAction>
-    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_toolbar_menu.qxtheme"/>
-  </DoStyleAction>
-  <!--DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_menu_launcher.qxtheme"/>
-  </DoStyleAction-->
+  </DoStyleAction>
+-->
 
   </StyleSheet>

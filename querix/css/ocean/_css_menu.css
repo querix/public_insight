@@ -28,12 +28,3 @@
 
 
 
-/*#####################################################
-Toolbar button
-#####################################################*/
-.ui-button.ui-widget.ui-button-text-only.qx-aum.qx-aum-toolbar-button.qx-aum-toolbar-item.qx-has-text.qx-has-image
-{
-    background-image: none;
-    background-color: transparent;
-    width: 10rem;
-}

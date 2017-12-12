@@ -14,10 +14,18 @@ min-width: 300px;
 
 img[src="/LyciaWeb/pack/exclamation.ico"] {
   box-sizing: border-box;
-  content: url(/public/maia/icon32/basic/info.png);
+  content: url(/public/querix/icon/svg/24/black/ic_error_outline_black_24px.svg);
   margin-left: 2px; /* Equal to width of new image */
   margin-right: 2px; /* Equal to width of new image */  
 }
+
+img[src="/LyciaWeb/pack/info.ico"] {
+  box-sizing: border-box;
+  content: url(/public/querix/icon/svg/24/black/ic_info_outline_black_24px.svg);
+  margin-left: 2px; /* Equal to width of new image */
+  margin-right: 2px; /* Equal to width of new image */  
+}
+
 
 /*
 ######################################################
@@ -38,4 +46,12 @@ Table FIND dialog
     color: #2e6e9e; 
     margin: 4px;
 }
+
+/*Titlebar text for ALL DIALOG windows & boxes*/
+.ui-widget-header
+{
+	color:white !important;
+	
+}
+
 

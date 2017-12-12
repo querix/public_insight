@@ -108,7 +108,7 @@ html,body {
 }
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar label > img {
-	visibility: hidden;
+	/*visibility: hidden;  huho 2017-12-10*/
 	display: block !important;
 	width: 16px !important;
 }
@@ -211,7 +211,7 @@ html,body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #3a597e url(/public/querix/iconlarge/lycia-icon.png) no-repeat 20px center;
+	background: #3a597e url(/public/querix/css/lycia-icon.png) no-repeat 20px center;
 }
 /*END left-side menu*/
 
@@ -244,7 +244,6 @@ html,body {
 
 .cmsfb #cms-button-mainmenu {
 	text-indent: -9999px;
-	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAAAXNSR0IArs4c6QAAAGNJREFUKBVj/A8EDKQDPUZGxssgbUyk60XVwQLk3kQVIor3kyhVdFHECAxDfyJsuggMtAdY1YFigQiQiVUzUJAqsdCJy3Qk8fNI7EHGBMXCfErcBDKAnLwAt5MqsWAJN44MBgCxaDxURdgsXAAAAABJRU5ErkJggg==') no-repeat center center !important;
 	width: 40px;
 	height: 40px;
 	border: none;

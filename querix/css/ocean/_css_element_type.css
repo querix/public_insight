@@ -1,96 +1,257 @@
-/*
-.qx-single-row.qx-aum.qx-aum-function-field-abs
-*/
-
-
-
-/*qx-c-fcls_data_widget */
-
-/*
-.qx-bool-widget.qx-aum-radio-button.qx-aum-abstract-bool-field
-{
-	width: 10rem !important;
+#qx-container-status-bar {
+	display: none;
 }
-*/
-/*qx-c-fcls_data_widget */
 
-.qx-c-fcls_length_01qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
-.qx-c-fcls_length_01qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
-.qx-c-fcls_length_01qch.qx-text-field.qx-aum.qx-aum-combo-box
+.qx-c-fcls_length_01qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
+.qx-c-fcls_length_01qch.qx-aum.qx-aum-function-field-abs, /*FunctionField*/
+.qx-c-fcls_length_01qch.qx-aum.qx-text-field.qx-aum-combo-box, /*ComboBoxList*/
+.qx-c-fcls_length_01qch.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field, /*calendar*/
+.qx-c-fcls_length_01qch.qx-aum.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field, /*Spinner*/
+.qx-c-fcls_length_01qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
+.qx-c-fcls_length_01qch.qx-aum.qx-aum-check-box, /*checkBox*/
+.qx-c-fcls_length_01qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_01qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
+.qx-c-fcls_length_01qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
+.qx-c-fcls_length_01qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
+.qx-c-fcls_length_01qch.qx-aum.qx-single-row.qx-aum-button, /*button*/
+.qx-c-fcls_length_01qch.qx-aum.qx-aum-web-component, /*web component*/
+.qx-c-fcls_length_01qch.qx-aum.qx-horizontal.qx-aum-progress-bar.qx-aum-abstract-range-field, /*progressbar*/
+.qx-c-fcls_length_01qch.qx-aum.qx-horizontal.qx-aum-slider.qx-aum-abstract-range-field, /*slider*/
+.qx-c-fcls_length_01qch.qx-aum.qx-horizontal.qx-aum-scroll-bar.qx-aum-abstract-range-field, /*scrollbar*/
+.qx-c-fcls_length_01qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
+.qx-c-fcls_length_01qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
 {
 	width: 2rem !important;
 }
 
-
-.qx-c-fcls_length_05qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
-.qx-c-fcls_length_05qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
-.qx-c-fcls_length_05qch.qx-text-field.qx-aum.qx-aum-combo-box 
+.qx-c-fcls_length_05qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
+.qx-c-fcls_length_05qch.qx-aum.qx-aum-function-field-abs, /*FunctionField*/
+.qx-c-fcls_length_05qch.qx-aum.qx-text-field.qx-aum-combo-box, /*ComboBoxList*/
+.qx-c-fcls_length_05qch.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field, /*calendar*/
+.qx-c-fcls_length_05qch.qx-aum.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field, /*Spinner*/
+.qx-c-fcls_length_05qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
+.qx-c-fcls_length_05qch.qx-aum.qx-aum-check-box, /*checkBox*/
+.qx-c-fcls_length_05qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_05qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
+.qx-c-fcls_length_05qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
+.qx-c-fcls_length_05qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
+.qx-c-fcls_length_05qch.qx-aum.qx-single-row.qx-aum-button, /*button*/
+.qx-c-fcls_length_05qch.qx-aum.qx-aum-web-component, /*web component*/
+.qx-c-fcls_length_05qch.qx-aum.qx-horizontal.qx-aum-progress-bar.qx-aum-abstract-range-field, /*progressbar*/
+.qx-c-fcls_length_05qch.qx-aum.qx-horizontal.qx-aum-slider.qx-aum-abstract-range-field, /*slider*/
+.qx-c-fcls_length_05qch.qx-aum.qx-horizontal.qx-aum-scroll-bar.qx-aum-abstract-range-field, /*scrollbar*/
+.qx-c-fcls_length_05qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
+.qx-c-fcls_length_05qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
 {
 	width: 5rem !important;
 }
 
-
-.qx-c-fcls_length_10qch.qx-aum.qx-text-field.qx-aum-calendar.qx-aum-abstract-text-field,
-.qx-c-fcls_length_10qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field,
-.qx-c-fcls_length_10qch.qx-aum.qx-single-row.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field
-.qx-c-fcls_length_10qch.qx-aum.qx-text-field.qx-aum-combo-box,
-.qx-c-fcls_length_10qch.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-has-text,
-.qx-c-fcls_length_10qch.qx-aum.qx-aum-time-edit-field,
-.qx-c-fcls_length_10qch.qx-bool-widget.qx-aum-radio-button.qx-aum-abstract-bool-field,
-.qx-c-fcls_length_10qch.qx-single-row.qx-aum.qx-aum-function-field-abs, 
-.qx-c-fcls_length_10qch.qx-aum.qx-single-row.qx-aum-button
+.qx-c-fcls_length_10qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
+.qx-c-fcls_length_10qch.qx-aum.qx-aum-function-field-abs, /*FunctionField*/
+.qx-c-fcls_length_10qch.qx-aum.qx-text-field.qx-aum-combo-box, /*ComboBoxList*/
+.qx-c-fcls_length_10qch.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field, /*calendar*/
+.qx-c-fcls_length_10qch.qx-aum.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field, /*Spinner*/
+.qx-c-fcls_length_10qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
+.qx-c-fcls_length_10qch.qx-aum.qx-aum-check-box, /*checkBox*/
+.qx-c-fcls_length_10qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_10qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
+.qx-c-fcls_length_10qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
+.qx-c-fcls_length_10qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
+.qx-c-fcls_length_10qch.qx-aum.qx-single-row.qx-aum-button, /*button*/
+.qx-c-fcls_length_10qch.qx-aum.qx-aum-web-component, /*web component*/
+.qx-c-fcls_length_10qch.qx-aum.qx-horizontal.qx-aum-progress-bar.qx-aum-abstract-range-field, /*progressbar*/
+.qx-c-fcls_length_10qch.qx-aum.qx-horizontal.qx-aum-slider.qx-aum-abstract-range-field, /*slider*/
+.qx-c-fcls_length_10qch.qx-aum.qx-horizontal.qx-aum-scroll-bar.qx-aum-abstract-range-field, /*scrollbar*/
+.qx-c-fcls_length_10qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
+.qx-c-fcls_length_10qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
 {
 	width: 10rem !important;
 }
-
-
-.qx-c-fcls_length_15qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
-.qx-c-fcls_length_15qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
-.qx-c-fcls_length_15qch.qx-text-field.qx-aum.qx-aum-combo-box 
+.qx-c-fcls_length_15qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
+.qx-c-fcls_length_15qch.qx-aum.qx-aum-function-field-abs, /*FunctionField*/
+.qx-c-fcls_length_15qch.qx-aum.qx-text-field.qx-aum-combo-box, /*ComboBoxList*/
+.qx-c-fcls_length_15qch.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field, /*calendar*/
+.qx-c-fcls_length_15qch.qx-aum.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field, /*Spinner*/
+.qx-c-fcls_length_15qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
+.qx-c-fcls_length_15qch.qx-aum.qx-aum-check-box, /*checkBox*/
+.qx-c-fcls_length_15qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_15qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
+.qx-c-fcls_length_15qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
+.qx-c-fcls_length_15qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
+.qx-c-fcls_length_15qch.qx-aum.qx-single-row.qx-aum-button, /*button*/
+.qx-c-fcls_length_15qch.qx-aum.qx-aum-web-component, /*web component*/
+.qx-c-fcls_length_15qch.qx-aum.qx-horizontal.qx-aum-progress-bar.qx-aum-abstract-range-field, /*progressbar*/
+.qx-c-fcls_length_15qch.qx-aum.qx-horizontal.qx-aum-slider.qx-aum-abstract-range-field, /*slider*/
+.qx-c-fcls_length_15qch.qx-aum.qx-horizontal.qx-aum-scroll-bar.qx-aum-abstract-range-field, /*scrollbar*/
+.qx-c-fcls_length_15qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
+.qx-c-fcls_length_15qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
 {
 	width: 15rem !important;
 }
 
-.qx-c-fcls_length_20qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
-.qx-c-fcls_length_20qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
-.qx-c-fcls_length_20qch.qx-text-field.qx-aum.qx-aum-combo-box 
-{
-	width: 20rem !important;
-}
 
-.qx-c-fcls_length_25qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
-.qx-c-fcls_length_25qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
-.qx-c-fcls_length_25qch.qx-text-field.qx-aum.qx-aum-combo-box 
-{
-	width: 25rem !important;
-}
-
-.qx-c-fcls_length_30qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
-.qx-c-fcls_length_30qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
-.qx-c-fcls_length_30qch.qx-text-field.qx-aum.qx-aum-combo-box 
-{
-	width: 30rem !important;
-}
-
-.qx-c-fcls_length_40qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
-.qx-c-fcls_length_40qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
-.qx-c-fcls_length_40qch.qx-text-field.qx-aum.qx-aum-combo-box 
+.qx-text-field.qx-aum.qx-aum-combo-box,
+.qx-c-fcls_length_20qch.qx-text-field.qx-aum.qx-aum-combo-box
 {
 	width: 40rem !important;
 }
 
 
-.qx-c-fcls_length_50qch.qx-text-field.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
-.qx-c-fcls_length_50qch.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field,
-.qx-c-fcls_length_50qch.qx-text-field.qx-aum.qx-aum-combo-box 
+.qx-c-fcls_length_20qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
+.qx-c-fcls_length_20qch.qx-aum.qx-aum-function-field-abs, /*FunctionField*/
+.qx-c-fcls_length_20qch.qx-aum.qx-text-field.qx-aum-combo-box, /*ComboBoxList*/
+.qx-c-fcls_length_20qch.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field, /*calendar*/
+.qx-c-fcls_length_20qch.qx-aum.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field, /*Spinner*/
+.qx-c-fcls_length_20qch.qx-aum.qx-aum-check-box, /*checkBox*/
+.qx-c-fcls_length_20qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
+.qx-c-fcls_length_20qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_20qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
+.qx-c-fcls_length_20qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
+.qx-c-fcls_length_20qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
+.qx-c-fcls_length_20qch.qx-aum.qx-single-row.qx-aum-button, /*button*/
+.qx-c-fcls_length_20qch.qx-aum.qx-aum-web-component, /*web component*/
+.qx-c-fcls_length_20qch.qx-aum.qx-horizontal.qx-aum-progress-bar.qx-aum-abstract-range-field, /*progressbar*/
+.qx-c-fcls_length_20qch.qx-aum.qx-horizontal.qx-aum-slider.qx-aum-abstract-range-field, /*slider*/
+.qx-c-fcls_length_20qch.qx-aum.qx-horizontal.qx-aum-scroll-bar.qx-aum-abstract-range-field, /*scrollbar*/
+.qx-c-fcls_length_20qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
+.qx-c-fcls_length_20qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
 {
-	width: 50rem !important;
+	width: 20rem !important;
+}
+
+.qx-c-fcls_length_25qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
+.qx-c-fcls_length_25qch.qx-aum.qx-aum-function-field-abs, /*FunctionField*/
+.qx-c-fcls_length_25qch.qx-aum.qx-text-field.qx-aum-combo-box, /*ComboBoxList*/
+.qx-c-fcls_length_25qch.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field, /*calendar*/
+.qx-c-fcls_length_25qch.qx-aum.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field, /*Spinner*/
+.qx-c-fcls_length_25qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
+.qx-c-fcls_length_25qch.qx-aum.qx-aum-check-box, /*checkBox*/
+.qx-c-fcls_length_25qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_25qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
+.qx-c-fcls_length_25qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
+.qx-c-fcls_length_25qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
+.qx-c-fcls_length_25qch.qx-aum.qx-single-row.qx-aum-button, /*button*/
+.qx-c-fcls_length_25qch.qx-aum.qx-aum-web-component, /*web component*/
+.qx-c-fcls_length_25qch.qx-aum.qx-horizontal.qx-aum-progress-bar.qx-aum-abstract-range-field, /*progressbar*/
+.qx-c-fcls_length_25qch.qx-aum.qx-horizontal.qx-aum-slider.qx-aum-abstract-range-field, /*slider*/
+.qx-c-fcls_length_25qch.qx-aum.qx-horizontal.qx-aum-scroll-bar.qx-aum-abstract-range-field, /*scrollbar*/
+.qx-c-fcls_length_25qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
+.qx-c-fcls_length_25qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
+{
+	width: 25rem;
 }
 
 
-.qx-c-fcls_length_30qch
+.qx-c-fcls_length_30qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
+.qx-c-fcls_length_30qch.qx-aum.qx-aum-function-field-abs, /*FunctionField*/
+.qx-c-fcls_length_30qch.qx-aum.qx-text-field.qx-aum-combo-box, /*ComboBoxList*/
+.qx-c-fcls_length_30qch.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field, /*calendar*/
+.qx-c-fcls_length_30qch.qx-aum.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field, /*Spinner*/
+.qx-c-fcls_length_30qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
+.qx-c-fcls_length_30qch.qx-aum.qx-aum-check-box, /*checkBox*/
+.qx-c-fcls_length_30qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_30qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
+.qx-c-fcls_length_30qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
+.qx-c-fcls_length_30qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
+.qx-c-fcls_length_30qch.qx-aum.qx-single-row.qx-aum-button, /*button*/
+.qx-c-fcls_length_30qch.qx-aum.qx-aum-web-component, /*web component*/
+.qx-c-fcls_length_30qch.qx-aum.qx-horizontal.qx-aum-progress-bar.qx-aum-abstract-range-field, /*progressbar*/
+.qx-c-fcls_length_30qch.qx-aum.qx-horizontal.qx-aum-slider.qx-aum-abstract-range-field, /*slider*/
+.qx-c-fcls_length_30qch.qx-aum.qx-horizontal.qx-aum-scroll-bar.qx-aum-abstract-range-field, /*scrollbar*/
+.qx-c-fcls_length_30qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
+.qx-c-fcls_length_30qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
 {
-	width: 50rem !important;
+	width: 30rem;
+}
+
+.qx-c-fcls_length_35qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
+.qx-c-fcls_length_35qch.qx-aum.qx-aum-function-field-abs, /*FunctionField*/
+.qx-c-fcls_length_35qch.qx-aum.qx-text-field.qx-aum-combo-box, /*ComboBoxList*/
+.qx-c-fcls_length_35qch.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field, /*calendar*/
+.qx-c-fcls_length_35qch.qx-aum.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field, /*Spinner*/
+.qx-c-fcls_length_35qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
+.qx-c-fcls_length_35qch.qx-aum.qx-aum-check-box, /*checkBox*/
+.qx-c-fcls_length_35qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_35qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
+.qx-c-fcls_length_35qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
+.qx-c-fcls_length_35qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
+.qx-c-fcls_length_35qch.qx-aum.qx-single-row.qx-aum-button, /*button*/
+.qx-c-fcls_length_35qch.qx-aum.qx-aum-web-component, /*web component*/
+.qx-c-fcls_length_35qch.qx-aum.qx-horizontal.qx-aum-progress-bar.qx-aum-abstract-range-field, /*progressbar*/
+.qx-c-fcls_length_35qch.qx-aum.qx-horizontal.qx-aum-slider.qx-aum-abstract-range-field, /*slider*/
+.qx-c-fcls_length_35qch.qx-aum.qx-horizontal.qx-aum-scroll-bar.qx-aum-abstract-range-field ,/*scrollbar*/
+.qx-c-fcls_length_35qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
+.qx-c-fcls_length_35qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
+{
+	width: 35rem;
+}
+
+.qx-c-fcls_length_40qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
+.qx-c-fcls_length_40qch.qx-aum.qx-aum-function-field-abs, /*FunctionField*/
+.qx-c-fcls_length_40qch.qx-aum.qx-text-field.qx-aum-combo-box, /*ComboBoxList*/
+.qx-c-fcls_length_40qch.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field, /*calendar*/
+.qx-c-fcls_length_40qch.qx-aum.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field, /*Spinner*/
+.qx-c-fcls_length_40qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
+.qx-c-fcls_length_40qch.qx-aum.qx-aum-check-box, /*checkBox*/
+.qx-c-fcls_length_40qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_40qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
+.qx-c-fcls_length_40qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
+.qx-c-fcls_length_40qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
+.qx-c-fcls_length_40qch.qx-aum.qx-single-row.qx-aum-button, /*button*/
+.qx-c-fcls_length_40qch.qx-aum.qx-aum-web-component, /*web component*/
+.qx-c-fcls_length_40qch.qx-aum.qx-horizontal.qx-aum-progress-bar.qx-aum-abstract-range-field, /*progressbar*/
+.qx-c-fcls_length_40qch.qx-aum.qx-horizontal.qx-aum-slider.qx-aum-abstract-range-field, /*slider*/
+.qx-c-fcls_length_40qch.qx-aum.qx-horizontal.qx-aum-scroll-bar.qx-aum-abstract-range-field ,/*scrollbar*/
+.qx-c-fcls_length_40qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
+.qx-c-fcls_length_40qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
+{
+	width: 40rem;
+}
+
+
+.qx-c-fcls_length_50qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
+.qx-c-fcls_length_50qch.qx-aum.qx-aum-function-field-abs, /*FunctionField*/
+.qx-c-fcls_length_50qch.qx-aum.qx-text-field.qx-aum-combo-box, /*ComboBoxList*/
+.qx-c-fcls_length_50qch.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field, /*calendar*/
+.qx-c-fcls_length_50qch.qx-aum.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field, /*Spinner*/
+.qx-c-fcls_length_50qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
+.qx-c-fcls_length_50qch.qx-aum.qx-aum-check-box, /*checkBox*/
+.qx-c-fcls_length_50qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_50qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
+.qx-c-fcls_length_50qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
+.qx-c-fcls_length_50qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
+.qx-c-fcls_length_50qch.qx-aum.qx-single-row.qx-aum-button, /*button*/
+.qx-c-fcls_length_50qch.qx-aum.qx-aum-web-component, /*web component*/
+.qx-c-fcls_length_50qch.qx-aum.qx-horizontal.qx-aum-progress-bar.qx-aum-abstract-range-field, /*progressbar*/
+.qx-c-fcls_length_50qch.qx-aum.qx-horizontal.qx-aum-slider.qx-aum-abstract-range-field, /*slider*/
+.qx-c-fcls_length_50qch.qx-aum.qx-horizontal.qx-aum-scroll-bar.qx-aum-abstract-range-field,/*scrollbar*/
+.qx-c-fcls_length_50qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
+.qx-c-fcls_length_50qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
+{
+	width: 50rem;
+}
+
+
+.qx-c-fcls_length_60qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
+.qx-c-fcls_length_60qch.qx-aum.qx-aum-function-field-abs, /*FunctionField*/
+.qx-c-fcls_length_60qch.qx-aum.qx-text-field.qx-aum-combo-box, /*ComboBoxList*/
+.qx-c-fcls_length_60qch.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field, /*calendar*/
+.qx-c-fcls_length_60qch.qx-aum.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field, /*Spinner*/
+.qx-c-fcls_length_60qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
+.qx-c-fcls_length_60qch.qx-aum.qx-aum-check-box, /*checkBox*/
+.qx-c-fcls_length_60qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_60qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
+.qx-c-fcls_length_60qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
+.qx-c-fcls_length_60qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
+.qx-c-fcls_length_60qch.qx-aum.qx-single-row.qx-aum-button, /*button*/
+.qx-c-fcls_length_60qch.qx-aum.qx-aum-web-component, /*web component*/
+.qx-c-fcls_length_60qch.qx-aum.qx-horizontal.qx-aum-progress-bar.qx-aum-abstract-range-field, /*progressbar*/
+.qx-c-fcls_length_60qch.qx-aum.qx-horizontal.qx-aum-slider.qx-aum-abstract-range-field, /*slider*/
+.qx-c-fcls_length_60qch.qx-aum.qx-horizontal.qx-aum-scroll-bar.qx-aum-abstract-range-field ,/*scrollbar*/
+.qx-c-fcls_length_60qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
+.qx-c-fcls_length_60qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
+{
+	width: 60rem;
 }
 
 
@@ -100,69 +261,164 @@
 ALL Elements V-Size
 ######################################################################################################
 */
-/*Vertical Size - all textField based widgets*/
-.qx-aum.qx-aum-calendar,
-.qx-aum.qx-aum-text-field,
-.qx-aum.qx-aum-combo-box,
-.qx-aum.qx-aum-list-box,
-.qx-aum.qx-aum-list-box,
-.qx-aum.qx-aum-radio-button,
-.qx-aum.qx-aum-check-box,
-.qx-single-row.ui-spinner.qx-aum-spinner,
-.qx-single-row.qx-aum-button,
-.qx-single-row.qx-aum.qx-aum-time-edit-field,
-.qx-bool-widget.qx-aum-radio-button.qx-aum-abstract-bool-field,
-.qx-single-row.qx-aum.qx-aum-function-field-abs
+
+/*Half Line widgets i.e. slider, scrollbar..*/
+ /*button*/
+
+.qx-aum-progress-bar,
+.qx-horizontal.qx-aum.qx-aum-slider,
+.qx-aum-scroll-bar
 {
 	height: 2.2rem !important;
+	vertical-align: middle;
 }
 
-/*
-######################################################################################################
-ALL Element MARGIN
-######################################################################################################
-*/
-/*margin for combo 
-.qx-text-field.qx-single-row.qx-aum.qx-aum-combo-box.qx-aum-abstract-string-field
-*/
-.qssx-aum-combo-box
+/*Single Line Widgets / textField based*/
+.qx-aum.qx-aum-text-field, /*textField*/
+.qx-single-row.qx-aum.qx-aum-function-field-abs,  /*functionField*/
+.qx-aum.qx-aum-combo-box,  /*ComboList*/
+.qx-aum.qx-aum-calendar,  /*Calendar*/
+.qx-single-row.ui-spinner.qx-aum-spinner, /*Spinner*/
+.qx-single-row.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
+.qx-aum.qx-aum-check-box,  /*CheckBox*/
+.qx-aum.qx-aum-radio-button, /*Single RadioButton *special widget*/
+.qx-bool-widget.qx-aum.qx-aum-radio-button,
+.qx-single-row.qx-aum-button, /*button*/
+.qx-aum-progress-bar,
+.qx-horizontal.qx-aum.qx-aum-slider,
+.qx-aum-scroll-bar
+
 {
-	margin-top:2px;
-	margin-bottom:2px;
-	
+	height: 2.2rem !important;
+	vertical-align: middle;
+	align:left; /*just for test*/
+}
+
+
+
+
+/*Multi Line Widgets / textField based*/
+.qx-aum.qx-aum-list-box,  /*ListBox*/
+.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
+.qx-aum.qx-aum-radio-button-list  /*RadioButtonList GROUP*/
+{
+	height: 6.6rem !important;
+}
+
+/*Image Area Widgets / i.e. canvas, browser*/
+.qx-aum.qx-aum-web-component,  /*WebComponent*/
+.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
+.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
+{
+	height: 10.6rem !important;
+}
+
+/*Navigation/ScrollBar*/
+.qx-aum.qx-aum-slider.qx-horizontal.qx-aum-abstract-range-field.qx-aum-abstract-field
+{
+  height: 1.4rem;
+}
+.qx-aum.qx-aum-slider.qx-vertical.qx-aum-abstract-range-field.qx-aum-abstract-field
+{
+  width: 1.4rem;
+}
+
+
+/*################################################
+Alignment - in GridPanel Cell -> Vertical-Center Elements
+##################################################*/
+.qx-aum-grid-panel.qx-display-grid > .qx-va-t {
+    -ms-flex-item-align: start;
+    align-self: stretch;
+    -ms-grid-row-align: start;
+    vertical-align: middle;
+}
+
+.qx-aum-progress-bar
+{
+
 }
 
 /*
-qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-va-c.qx-ip-l.qx-vta-c
+######################################################################################################
+MARGIN ALL Elements MARGIN
+######################################################################################################
 */
 
-.qx-c-fcls_fieldlabel.qx-aum-label.qx-has-text .qx-text-with-icon 
+/*.qx-c-fcls_fieldlabel.qx-aum-label.qx-has-text .qx-text-with-icon 
 {
 	margin-left:2px;
 	margin-right:2px;	
 	margin-top:2px;
 	margin-bottom:2px;
-}
+}*/
 
 /*margin textFields*/
-.qx-aum.qx-aum-text-field,
-.qx-aum.qx-aum-function-field-abs, 
-.qx-aum.qx-aum-combo-box,
+.qx-aum-label,
+.qx-aum-text-field,
+.qx-aum-text-area,
+.qx-aum-function-field-abs, 
+.qx-aum-combo-box,
 .qx-aum-calendar.qx-aum-abstract-text-field,
-.qx-aum.qx-aum-list-box,
-.qx-aum.qx-aum-list-box .qx-text,
-.qx-aum.ui-spinner.qx-aum-spinner,
-.qx-aum.qx-aum-radio-button,
-.qx-aum.qx-aum-button
+.qx-aum-list-box,
+.qx-aum-spinner,
+.qx-aum-radio-button-list.qx-aum-abstract-field,
+.qx-aum-blob-viewer,
+.qx-aum-browser,
+.qx-aum-progress-bar,
+.qx-aum-radio-button,
+.qx-aum-slider,
+.qx-aum-canvas,
+.qx-aum-scroll-bar,
+.qx-aum-time-edit-field,
+.qx-aum-button .qx-text,
+.qx-aum-button,
+.qx-aum.qx-aum-button.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-has-text 
 {
 	margin-top:2px;
 	margin-bottom:2px;	
-	margin-right: 2px
+	margin-right: 2px;
+	margin-left: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+
+	
 }
 
 
+/*.qx-aum.qx-aum-list-box .qx-text
+{
+	margin-top:12px;
+	margin-bottom:12px;	
+	margin-right: 12px
+}*/
+
+.qx-grid-cell {
+  padding: 1px;
+}
+
+.qx-aum.qx-c-fcls_data_widget {
+  padding-left: 2px;
+  padding-right: 2px;
+}
 
 
+.qx-aum.qx-aum-list-box
+{
+	margin-top:2px;
+	margin-bottom:2px;	
+	margin-right: 2px;
+
+
+}
+
+/*margin/padding for text box TEXT area ( i.e. INNER listBox)*/
+.qx-text.qx-focus-target
+{
+
+	padding:4px;
+}
 /*
 ######################################################################################################
 ALL Element Types with textBox
@@ -183,7 +439,7 @@ INPUT ELEMENTS WITHOUT FOCUS (ALL Element Types with textBox)
 .qx-aum-abstract-field.ui-state-active > select
 {
 	font-weight: normal;
-	color: #2e6e9e;  
+	color: #3a597e;  
 }
 
 
@@ -192,9 +448,7 @@ INPUT ELEMENTS WITHOUT FOCUS (ALL Element Types with textBox)
 INPUT FOCUS (ALL Element Types with textBox)
 ####################################################################
 
-
-.qx-aum-calendar.qx-has-focus,
-*/
+/*
 .qx-aum-function-field-abs.qx-has-focus .qx-ff-text,
 
 .qx-aum-function-field-abs.qx-has-focus .qx-ff-text *,
@@ -203,9 +457,8 @@ INPUT FOCUS (ALL Element Types with textBox)
 
 .qx-aum-spinner.qx-has-focus .qx-text,
 
-.qx-aum-text-field.qx-has-focus,
 
-.qx-aum-text-field.qx-has-focus *,
+
 
 .qx-aum-text-area.qx-has-focus,
 
@@ -218,12 +471,68 @@ INPUT FOCUS (ALL Element Types with textBox)
 .qx-aum-list-box.qx-has-focus,
 .qx-aum-radio-button-list.qx-focused.qx-has-focus, 
 .qx-aum-combo-box.qx-has-focus 
+
 {
-border:1px solid #69a7d7;
+border:2px solid #69a7d7;
 border-radius: 3px;
 color:#363636;
 background-color:rgba(208,229,245,0.2) !important;
 }
+*/
+/*
+.qx-text.qx-focus-target
+
+
+.qx-o-active
+.qx-aum-text-field.qx-element-role-input.qx-active.qx-c-activefield.qx-focusable-field.qx-enabled.qx-not-readonly
+*/
+
+.qx-aum-calendar.qx-has-focus, 
+.qx-aum-calendar.qx-has-focus *, 
+.qx-aum-combo-box.qx-has-focus, 
+.qx-aum-function-field-abs.qx-has-focus 
+.qx-ff-text, 
+.qx-aum-function-field-abs.qx-has-focus 
+.qx-ff-text *, 
+.qx-aum-spinner.qx-has-focus, 
+.qx-aum-spinner.qx-has-focus .qx-text, 
+.qx-aum-text-area.qx-has-focus, 
+.qx-aum-text-area.qx-has-focus *, 
+.qx-aum-text-field.qx-has-focus, 
+.qx-aum-text-field.qx-has-focus *, 
+.qx-aum-time-edit-field.qx-has-focus, 
+.qx-aum-time-edit-field.qx-has-focus *
+{
+/*border:2px solid #69a7d7;
+border-radius: 3px;
+color:#3a597e;*/
+background-color:rgba(208,229,245,0.2) !important;
+
+}
+
+
+/*.qx-text.qx-focus-target ~ .qx-aum-text-field.qx-has-focus*/
+.ui-widget-content .ui-state-highlight
+{
+border:2px solid #69a7d7;
+border-radius: 3px;
+color:#3a597e;
+background-color:rgba(208,229,245,0.2) !important;
+
+}
+
+.qx-text-field input.qx-text
+{
+/*border:2px solid #69a7d7;
+border-radius: 3px;
+color:#3a597e;*/
+background-color:rgba(208,229,245,0.2) !important;
+
+}
+
+/***************************************************/
+
+
 
 /* calendar widgt special rules as it is made up of a text field and a button*/
 .qx-aum-calendar.qx-has-focus 
@@ -253,10 +562,11 @@ background-color:rgba(208,229,245,0.2) !important;
 /*
 ####################################################################
 Inactive Fields (ALL Element Types with textBox)
+NOT IN INPUT
 ####################################################################
 
 */
-/*
+
 .qx-aum-calendar.qx-inactive.ui-state-disabled,
 
 .qx-aum-calendar.qx-inactive.ui-state-disabled *,
@@ -281,31 +591,92 @@ Inactive Fields (ALL Element Types with textBox)
 
 .qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
 
-.qx-aum-combo-box.qx-inactive.ui-state-disabled 
+.qx-aum-combo-box.qx-inactive.ui-state-disabled,
+.qx-aum-browser 
 {
 
-color:black;
+color:#3a597e;;
 background-color:rgba(208,229,245,0.0) !important;
    opacity: 1;
    filter: Alpha(Opacity=00);
 }
 
-*/
-/*##################################################
-Inactive State - kind of global for all elements
-###################################################*/
 
-.ui-state-disabled.qx-c-fcls_data_widget, .ui-widget-content.qx-c-fcls_data_widget .ui-state-disabled.qx-c-fcls_data_widget, .ui-state-disabled.qx-c-fcls_data_widget{
+/*##############################################################################################################
+Inactive State - kind of global for all elements
+##############################################################################################################*/
+
+.ui-state-disabled, 
+.ui-widget-content .ui-state-disabled
+
+{
     opacity: .7; 
     filter: Alpha(Opacity=70);
     border: 1px solid rgba(92, 156, 204, .5);
-    color:#2e6e9e;
+    color:#3a597e;
     }
 
 
-/*
-qx-text-field qx-aum qx-aum-text-field qx-aum-abstract-text-field qx-aum-abstract-string-field qx-aum-abstract-field qx-inactive ui-state-disabled qx-c-fcls_align_hstretch qx-c-fcls_data_widget qx-disabled qx-readonly qx-rsw qx-ha-s qx-has-text
-*/
+.qx-aum-text-field.qx-inactive
+{
+	/*border:none;*/
+	border: 1px solid rgba(92, 156, 204, .5);
+}
+
+
+/************************************
+functionField
+*************************************/
+
+/*remove outer/parent border*/
+.qx-aum-function-field-abs.qx-inactive.ui-state-active.qx-aum.qx-aum-abstract-field.qx-active 
+{
+	/*border:none;*/
+	border: 10px solid rgba(92, 156, 204, .5);
+}
+
+/*.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly.qx-has-text
+
+{
+	border: 1px solid rgba(92, 156, 204, .5);
+}*/
+
+/*.ui-state-active.qx-single-row.qx-aum.qx-aum-function-field-abs.qx-active
+.qx-ff-text.qx-focus-element
+{
+
+	border: 1px solid rgba(92, 156, 204, .5);
+} */
+
+
+/************************************
+comboListBox
+*************************************/
+.qx-text-field.qx-aum.qx-aum-combo-box.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly.qx-has-text
+{
+border: 1px solid rgba(92, 156, 204, .5);	
+}
+
+
+/************************************
+xxxxxxxxxxxxxxxx
+*************************************/
+.qx-aum-text-area.qx-inactive,   /*.ui-state-disabled.qx-disabled.qx-readonly,*/  /*text-area*/
+.qx-aum-time-edit-field.qx-inactive,                           /*time-edit-field*/
+.qx-aum-browser.qx-inactive,  /*browser*/
+.qx-aum-calendar.qx-inactive,   /*calendar*/
+.qx-aum-list-box.qx-inactive,
+.qx-aum-canvas.qx-inactive
+{
+border: 1px solid rgba(92, 156, 204, .5);	
+}
+
+.qx-aum-list-box .qx-text
+{
+	border:none;
+}
+
+/*###########################################################################################################*/
 /*#################################################
  Enabled/Disabled fields - Input/not in Input
 ###################################################*/
@@ -356,11 +727,11 @@ Element Type ComboBoxList Field with form element class fcls_data_widget
     #font-weight: bold;
 }
 
-.qx-single-row.qx-aum.qx-aum-function-field-abs.qx-aum-abstract-field.qx-element-role-input.qx-active.qx-c-fcls_align_left.qx-c-fcls_data_widget.qx-not-readonly
+/*.qx-single-row.qx-aum.qx-aum-function-field-abs.qx-aum-abstract-field.qx-element-role-input.qx-active.qx-c-fcls_data_widget.qx-not-readonly
 {
 	border: 1px solid rgba(92, 156, 204, .5) !important; 
 }
-
+*/
 
 .qx-c-fcls_data_widget.qx-aum-function-field-abs {
     border: 0px solid #A0F !important; 
@@ -405,12 +776,13 @@ RadioButtonList Children * selector
 
 .qx-bool-widget.qx-aum.qx-aum-radio-button.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-has-title.qx-has-text.qx-focusable-field  
 {
-	color: #2e6e9e;  
+	color: #3a597e;	
+
 	font-size: 1rem;		
 }
 .qx-aum-radio-button-list * 
 {
-	color: #2e6e9e;   
+color: #3a597e;	
 	font-size: 1rem;		
 }
 
@@ -421,25 +793,25 @@ RadioButtonList
 */
 .qx-c-fcls_field .qx-aum-radio-button-list-item
 {
-	color: #2e6e9e;   
+	color: #3a597e;   
 	font-size: 1rem;		
 }
 
 .qx-c-fcls_data_widget .qx-aum-radio-button-list-item
 {
-	color: #2e6e9e;   
+	color: #3a597e;   
 	font-size: 1rem;		
 }
 
 .aum-text-field
 {
-	color: #2e6e9e;   
+	color: #3a597e;   
 	font-size: 2.8rem;		
 }
 
 .qx-aum-radio-button-list .qx-content, .qx-c-nativestyle .qx-content
 {
-	color: #2e6e9e;   
+	color: #3a597e;   
 	font-size: 2.8rem;		
 }
 
@@ -452,11 +824,25 @@ qx-aum-abstract-field.ui-state-active .qx-aum-abstract-field.ui-state-active .qx
 .qx-aum-radio-button-list.ui-state-focus, .qx-aum-radio-button-list.ui-state-hover, .qx-aum-radio-button-list.ui-widget-content .qx-aum-radio-button-list.ui-state-focus, .qx-aum-radio-button-list.ui-widget-content .qx-aum-radio-button-list.ui-state-hover, .qx-aum-radio-button-list.ui-widget-header .qx-aum-radio-button-list.ui-state-focus, .qx-aum-radio-button-list.ui-widget-header .qx-aum-radio-button-list.ui-state-hover {
 
     background-color: transparent;
-	background-image:none;
-	border: none;
+	/*background-image:none;
+	border: none; */
+	
+	border: 1px solid white;
+	border-radius: 3px;
+
 }
 
+.ui-state-hover:hover
+{
 
+    background-color: transparent;
+	/*background-image:none;
+	border: none; */
+	
+	border: 1px solid white;
+	border-radius: 3px;
+
+}
 
 
 /*#######################################
@@ -466,26 +852,26 @@ RadioButton Single
 
 .qx-aum-radio-button .qx-text
 {
-    color: #2e6e9e; 
+    color: #3a597e; 
 }	
 .qx-c-fcls_data_widget.qx-aum-radio-button.qx-aum-abstract-field .qx-text-with-icon .qx-text
 {
 	font-size: 1rem;
 	font-weight: normal;
     font: normal 1rem "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;
-    color: #2e6e9e; 	
+    color: #3a597e; 	
 }	
 
 /*inactive*/
 .qx-c-fcls_data_widget.qx-aum-radio-button.qx-bool-widget.qx-aum.qx-on-1.qx-s-on-0.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-psw.qx-has-title.qx-has-text.qx-inactive.qx-disabled.qx-readonly .qx-text-with-icon .qx-text 
 { 
-	color: #2e6e9e;
+	color: #3a597e;
 }
 
 /*active*/
 .qx-c-fcls_data_widget.qx-aum-radio-button.qx-bool-widget.qx-aum.qx-on-1.qx-s-on-0.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-active.qx-c-activefield.qx-has-title.qx-has-text .qx-text-with-icon .qx-text 
 { 
-	color: #2e6e9e;
+	color: #3a597e;
 }
 
 /*#######################################
@@ -497,28 +883,44 @@ CheckBox
 	font-size: 1rem;
 	font-weight: normal;
     font: normal 1rem "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;
-    color: #2e6e9e; 		
+    color: #3a597e; 		
 }
 
 /*in input*/
 .qx-c-fcls_data_widget.qx-aum-check-box.qx-bool-widget.qx-aum-abstract-field.qx-aum.qx-aum-abstract-bool-field.qx-element-role-input.qx-active.qx-c-activefield.qx-has-title.qx-has-text .qx-text-with-icon .qx-text
 {
-	color: #2e6e9e;
+	color: #3a597e;
 }
 
 /*disabled - not in input*/
 .qx-c-fcls_data_widget.qx-aum-check-box.qx-bool-widget.qx-aum-abstract-field.qx-aum.qx-element-role-input.qx-has-title.qx-has-text.qx-inactive.qx-disabled.qx-readonly .qx-text-with-icon .qx-text
 {
-	color: #2e6e9e;
+	color: #3a597e;
 }
 /*########################################
 Tab Handles 
 ##########################################*/
 /*Note, we need a different/unique class name for MDI-container tab-handles*/
 /*at the moment, this class will select ALL tab handles normal form AND mdi-container */
-.ui-tabs-nav .qx-text 
+
+.ui-tabs-nav 
 {
     min-width: 150px;
+    color: white;
+    background-color: #3a597e;
+	/*background:transparent; */
+}
+
+
+
+
+.ui-tabs-nav .qx-text 
+{
+	
+    min-width: 150px;
+    color: white;
+    /*background-color: re; */
+
 }
 
 
@@ -538,16 +940,158 @@ background-color:rgb(58, 89, 126);
 
 }
 
-/*Special Lookup Button*/
-.qx-aum.qx-aum-button.qx-c-fcls_button_lookup .ui-button-text .qx-text-with-icon
+/*###############################################
+Fix size buttons
+###############################################*/
+
+.qx-c-fcls_button_1
 {
-background-image: url(/public/querix/icon/svg/24/ic_search_white_24px.svg);
+	width:5rem;
+}
+
+.qx-c-fcls_button_2
+{
+	width:10rem;
+}
+
+.qx-c-fcls_button_3
+{
+	width:15rem;
+}
+.qx-c-fcls_button_4
+{
+	width:20rem;
+}
+.qx-c-fcls_button_5
+{
+	width:25rem;
+}
+
+
+
+/*###############################################
+images for icons/buttons
+###############################################*/
+
+.qx-c-fcls_image_remove.qx-aum-function-field-abs
+{
+	color:red;
+	background-color: red;
+	background: none;
+}
+
+/* replace the functionField button image */
+.qx-c-fcls_image_remove.qx-aum-function-field-abs .qx-image.qx-image-scaling-none
+{
+  display: block;
+  width: 0px; /* Width of new image */
+  height: 0px; /* Height of new image */
+}
+
+
+.qx-c-fcls_image_remove .qx-text-with-icon
+{
+	color:red;
+	border-color: green;
+background-image: url(/public/querix/icon/svg/24/ic_remove_white_24px.svg);	
+}
+
+
+/*###############################################
+add to form class buttons an images
+###############################################*/
+
+/*.qx-c-fcls_button_done .qx-text-with-icon
+{
+	background-image: url(/public/querix/icon/svg/24/ic_done_white_24px.svg);
 color:white;
 background-color:rgb(58, 89, 126);
-width:24px;
-height:24px;
+
+width: 100%;
+height: auto;
+min-width:2rem;
+background-repeat: no-repeat;
+background-size: contain;
 
 }
+*/
+
+
+.qx-aum-button .ui-button {
+	border:none;
+}
+
+.qx-c-fcls_button_lookup.qx-aum-button .qx-text-with-icon, 
+.qx-c-fcls_button_remove.qx-aum-button .qx-text-with-icon, 
+.qx-c-fcls_button_add.qx-aum-button .qx-text-with-icon, 
+.qx-c-fcls_button_edit.qx-aum-button.ui-button-text .qx-text-with-icon,
+.qx-c-fcls_button_done.qx-aum-button .qx-text-with-icon,
+.qx-c-fcls_button_cancel.qx-aum-button.ui-button-text .qx-text-with-icon,
+.qx-c-fcls_button_help.qx-aum-button.ui-button-text .qx-text-with-icon
+{
+color:white;
+background-color:rgb(58, 89, 126);
+
+width: 100%;
+height: auto;
+min-width:2rem;
+background-repeat: no-repeat;
+background-size: contain;
+border:none;
+}
+
+
+/*Search Button*/
+.qx-c-fcls_button_search.qx-aum-button .ui-button-text .qx-text-with-icon 
+{
+background-image: url(/public/querix/icon/svg/24/ic_search_white_24px.svg);
+}
+
+/*Lookup Button*/
+.qx-c-fcls_button_lookup.qx-aum-button .ui-button-text .qx-text-with-icon 
+{
+background-image: url(/public/querix/icon/svg/24/ic_search_white_24px.svg);
+}
+
+
+/*Remove Button*/
+.qx-c-fcls_button_remove.qx-aum-button .ui-button-text .qx-text-with-icon 
+{
+background-image: url(/public/querix/icon/svg/24/ic_remove_white_24px.svg);
+}
+
+/*Add Button*/
+.qx-c-fcls_button_add.qx-aum-button .ui-button-text .qx-text-with-icon 
+{
+background-image: url(/public/querix/icon/svg/24/ic_add_white_24px.svg);
+}
+
+
+/*Edit Button*/
+.qx-c-fcls_button_edit .qx-text-with-icon
+{
+background-image: url(/public/querix/icon/svg/24/ic_create_white_24px.svg);
+}
+
+/*DONE (accept) Button*/
+.qx-c-fcls_button_done .qx-text-with-icon
+{
+background-image: url(/public/querix/icon/svg/24/ic_done_white_24px.svg);
+}
+
+/*CANCEL Button*/
+.qx-c-fcls_button_cancel.qx-aum-button .ui-button-text .qx-text-with-icon
+{
+background-image: url(/public/querix/icon/svg/24/ic_cancel_white_24px.svg);
+}
+/*HELP Button*/
+.qx-c-fcls_button_help.qx-aum-button .ui-button-text .qx-text-with-icon
+{
+background-image: url(/public/querix/icon/svg/24/ic_help_outline_white_24px.svg);
+}
+
+
+
 /*hide image when inactive*/
 .qx-inactive.ui-state-disabled.qx-aum.qx-aum-button.qx-c-fcls_button_lookup .ui-button-text .qx-text-with-icon
 {
@@ -580,28 +1124,30 @@ height:24px;
 /*************************************************************/
 
 
+/******************************/
+.qx-aum-label  /*2017-12-09*/  /*qx-aum-label*/
+{
+/*align-self: center;*/
+vertical-align: middle;
+text-align: left;
+}
+
 
 /*######################################################*/
 
-.qx-c-fcls_fieldlabel.qx-aum-label 
+/*.qx-c-fcls_fieldlabel.qx-aum-label 
 {
 	margin: 1px 2px 0;
 }
-
+*/
+/*
 .qx-c-fcls_columnlabel.qx-aum-label,
 .qx-c-fcls_menulabel.qx-aum-label 
 {
 	margin: 2px;
 }
+*/
 
-.qx-grid-cell {
-  padding: 1px;
-}
-
-.qx-aum.qx-c-fcls_data_widget {
-  padding-left: 2px;
-  padding-right: 2px;
-}
 
 .qx-aum.qx-aum-spinner.qx-c-fcls_data_widget,
 .qx-aum.qx-aum-combo-box.qx-c-fcls_data_widget,

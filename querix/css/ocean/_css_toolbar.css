@@ -42,7 +42,7 @@ Toolbar Button Label
     border:transparent;
     background-image: none;
     /*color: red;*/
-
+    background:transparent;
 }
 
 .qx-menu.qx-aum.qx-aum-menu-bar.qx-aum-abstract-container.qx-identifier-topmenu.ui-menubar
@@ -50,4 +50,83 @@ Toolbar Button Label
     color:red;
     background: red;
 
+}
+
+/*#####################################################
+Toolbar button
+#####################################################*/
+.ui-button.ui-widget.ui-button-text-only.qx-aum.qx-aum-toolbar-button.qx-aum-toolbar-item.qx-has-text.qx-has-image
+{
+    background-image: none;
+    background-color: transparent;
+    /* width: 10rem; */
+    border:transparent;
+}
+
+/*toolbar button*/
+.qx-no-image.ui-button.ui-widget.qx-aum.qx-aum-toolbar-button.qx-aum-toolbar-item
+{
+    background-image: none;
+    background-color: transparent;
+    width: 10rem;
+    color:transparent;
+    border:transparent;
+}
+
+.qx-no-image.ui-button.ui-widget.ui-button-text-only.qx-aum.qx-aum-toolbar-button.qx-aum-toolbar-item
+{
+    background-image: none;
+    background-color: transparent;
+    width: 10rem;
+    color:transparent;
+    border:transparent;
+}
+
+/*#####################################
+FORM TabContainer
+#######################################*/
+/*TabContainer unselected tab*/
+.qx-aum-tab.qx-display-grid > :first-child label,
+.qx-aum-tab.qx-display-grid > :first-child label:hover {
+background-image: none;
+background-color: rgb(58, 89, 126);
+}
+
+/*TabContainer selected tab*/
+.qx-aum-tab.qx-display-grid > :first-child [type="radio"]:checked + label {
+    border: 1px solid #aaa;
+    border-bottom: 0;
+    background: rgb(32, 53, 94);
+    font-weight: 400;
+    color: #212121;
+    cursor: default;
+}
+
+/*##################### 
+MDI TAB 
+##############*/
+
+
+.ui-widget-header .ui-state-default[role="tab"]
+{
+    height:2rem;
+    margin; 5px;
+    padding: 10px;
+    border-top: 5px;
+}
+
+/*MDI tabbed_container unselected tab*/
+.ui-widget-header .ui-state-default[role="tab"] {
+    border: 1px solid #d3d3d3;
+    background: rgb(58, 89, 126);
+    font-weight: 400;
+    color: rgb(32, 53, 94);
+}
+
+/*MDI tabbed_container selected tab*/
+.ui-widget-header .ui-state-default.ui-state-active[role="tab"] {
+    border: 1px solid #aaa;
+    background: rgb(58, 89, 126);
+    font-weight: 400;
+    color: rgb(32, 53, 94);
 }
