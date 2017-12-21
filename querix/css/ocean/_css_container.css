@@ -118,11 +118,11 @@ background-color: transparent;
 }
 
 .qx-tbody .qx-table-row:nth-child(even) {
-	background: rgba(137,210,255, 0.1);
+	background: rgba(137,210,255, 0.2);
 	}
 
 .qx-c-activefield .qx-tbody .qx-table-row:nth-child(even) {
-	background: rgba(137,210,255, 0.01);
+	background: rgba(137,210,255, 0.2);
 	}
 
 .qx-aum-wtf.qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle), .qx-aum-wtf.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse:not(.qx-c-nativestyle) *

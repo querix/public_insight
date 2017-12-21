@@ -89,13 +89,13 @@
 	width: 15rem !important;
 }
 
-
+/*
 .qx-text-field.qx-aum.qx-aum-combo-box,
 .qx-c-fcls_length_20qch.qx-text-field.qx-aum.qx-aum-combo-box
 {
 	width: 40rem !important;
 }
-
+*/
 
 .qx-c-fcls_length_20qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
 .qx-c-fcls_length_20qch.qx-aum.qx-aum-function-field-abs, /*FunctionField*/
@@ -501,13 +501,14 @@ background-color:rgba(208,229,245,0.2) !important;
 .qx-aum-text-field.qx-has-focus, 
 .qx-aum-text-field.qx-has-focus *, 
 .qx-aum-time-edit-field.qx-has-focus, 
-.qx-aum-time-edit-field.qx-has-focus *
+.qx-aum-time-edit-field.qx-has-focus *,
+.qx-aum-check-box.qx-has-focus
 {
 /*border:2px solid #69a7d7;
 border-radius: 3px;
 color:#3a597e;*/
 background-color:rgba(208,229,245,0.2) !important;
-
+background-image: none;
 }
 
 
@@ -615,6 +616,17 @@ Inactive State - kind of global for all elements
     border: 1px solid rgba(92, 156, 204, .5);
     color:#3a597e;
     }
+
+
+/*disabled button */
+.qx-aum-button.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly
+{
+    opacity: .7; 
+    filter: Alpha(Opacity=70);
+    border: none; 
+    color:#3a597e;
+    }
+
 
 
 .qx-aum-text-field.qx-inactive
@@ -1048,7 +1060,15 @@ background-image: url(/public/querix/icon/svg/24/ic_search_white_24px.svg);
 }
 
 /*Lookup Button*/
+/*enabled*/
 .qx-c-fcls_button_lookup.qx-aum-button .ui-button-text .qx-text-with-icon 
+{
+background-image: url(/public/querix/icon/svg/24/ic_search_white_24px.svg);
+}
+/*disabled*/
+.qx-c-fcls_button_lookup.qx-aum-button 
+.ui-button.ui-widget.ui-state-default.ui-button-disabled.ui-state-disabled
+.qx-text-with-icon 
 {
 background-image: url(/public/querix/icon/svg/24/ic_search_white_24px.svg);
 }
