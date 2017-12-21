@@ -211,7 +211,9 @@ html,body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #3a597e url(/public/querix/iconlarge/lycia-icon.png) no-repeat 20px center;
+  background: #3a597e url(/public/querix/css/images/lycia-icon.svg) no-repeat 20px center;
+  background-size: 10em;
+  background-position: 20px -64px;
 }
 /*END left-side menu*/
 
