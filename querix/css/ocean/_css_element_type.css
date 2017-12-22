@@ -10,6 +10,7 @@
 .qx-c-fcls_length_01qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
 .qx-c-fcls_length_01qch.qx-aum.qx-aum-check-box, /*checkBox*/
 .qx-c-fcls_length_01qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_01qch.qx-aum.qx-aum-radio-button-list, /*RadioButtonList*/
 .qx-c-fcls_length_01qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
 .qx-c-fcls_length_01qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
 .qx-c-fcls_length_01qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
@@ -32,6 +33,7 @@
 .qx-c-fcls_length_05qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
 .qx-c-fcls_length_05qch.qx-aum.qx-aum-check-box, /*checkBox*/
 .qx-c-fcls_length_05qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_05qch.qx-aum.qx-aum-radio-button-list, /*RadioButtonList*/
 .qx-c-fcls_length_05qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
 .qx-c-fcls_length_05qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
 .qx-c-fcls_length_05qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
@@ -54,6 +56,7 @@
 .qx-c-fcls_length_10qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
 .qx-c-fcls_length_10qch.qx-aum.qx-aum-check-box, /*checkBox*/
 .qx-c-fcls_length_10qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_10qch.qx-aum.qx-aum-radio-button-list, /*RadioButtonList*/
 .qx-c-fcls_length_10qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
 .qx-c-fcls_length_10qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
 .qx-c-fcls_length_10qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
@@ -75,6 +78,7 @@
 .qx-c-fcls_length_15qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
 .qx-c-fcls_length_15qch.qx-aum.qx-aum-check-box, /*checkBox*/
 .qx-c-fcls_length_15qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_15qch.qx-aum.qx-aum-radio-button-list, /*RadioButtonList*/
 .qx-c-fcls_length_15qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
 .qx-c-fcls_length_15qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
 .qx-c-fcls_length_15qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
@@ -105,6 +109,7 @@
 .qx-c-fcls_length_20qch.qx-aum.qx-aum-check-box, /*checkBox*/
 .qx-c-fcls_length_20qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
 .qx-c-fcls_length_20qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_20qch.qx-aum.qx-aum-radio-button-list, /*RadioButtonList*/
 .qx-c-fcls_length_20qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
 .qx-c-fcls_length_20qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
 .qx-c-fcls_length_20qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
@@ -127,6 +132,7 @@
 .qx-c-fcls_length_25qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
 .qx-c-fcls_length_25qch.qx-aum.qx-aum-check-box, /*checkBox*/
 .qx-c-fcls_length_25qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_25qch.qx-aum.qx-aum-radio-button-list, /*RadioButtonList*/
 .qx-c-fcls_length_25qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
 .qx-c-fcls_length_25qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
 .qx-c-fcls_length_25qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
@@ -138,7 +144,7 @@
 .qx-c-fcls_length_25qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
 .qx-c-fcls_length_25qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
 {
-	width: 25rem;
+	width: 25rem !important;
 }
 
 
@@ -150,6 +156,7 @@
 .qx-c-fcls_length_30qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
 .qx-c-fcls_length_30qch.qx-aum.qx-aum-check-box, /*checkBox*/
 .qx-c-fcls_length_30qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_30qch.qx-aum.qx-aum-radio-button-list, /*RadioButtonList*/
 .qx-c-fcls_length_30qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
 .qx-c-fcls_length_30qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
 .qx-c-fcls_length_30qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
@@ -161,7 +168,7 @@
 .qx-c-fcls_length_30qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
 .qx-c-fcls_length_30qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
 {
-	width: 30rem;
+	width: 30rem !important;
 }
 
 .qx-c-fcls_length_35qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
@@ -172,6 +179,7 @@
 .qx-c-fcls_length_35qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
 .qx-c-fcls_length_35qch.qx-aum.qx-aum-check-box, /*checkBox*/
 .qx-c-fcls_length_35qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_35qch.qx-aum.qx-aum-radio-button-list, /*RadioButtonList*/
 .qx-c-fcls_length_35qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
 .qx-c-fcls_length_35qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
 .qx-c-fcls_length_35qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
@@ -183,7 +191,7 @@
 .qx-c-fcls_length_35qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
 .qx-c-fcls_length_35qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
 {
-	width: 35rem;
+	width: 35rem !important;
 }
 
 .qx-c-fcls_length_40qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
@@ -194,6 +202,7 @@
 .qx-c-fcls_length_40qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
 .qx-c-fcls_length_40qch.qx-aum.qx-aum-check-box, /*checkBox*/
 .qx-c-fcls_length_40qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_40qch.qx-aum.qx-aum-radio-button-list, /*RadioButtonList*/
 .qx-c-fcls_length_40qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
 .qx-c-fcls_length_40qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
 .qx-c-fcls_length_40qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
@@ -205,7 +214,7 @@
 .qx-c-fcls_length_40qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
 .qx-c-fcls_length_40qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
 {
-	width: 40rem;
+	width: 40rem !important;
 }
 
 
@@ -217,6 +226,7 @@
 .qx-c-fcls_length_50qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
 .qx-c-fcls_length_50qch.qx-aum.qx-aum-check-box, /*checkBox*/
 .qx-c-fcls_length_50qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_50qch.qx-aum.qx-aum-radio-button-list, /*RadioButtonList*/
 .qx-c-fcls_length_50qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
 .qx-c-fcls_length_50qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
 .qx-c-fcls_length_50qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
@@ -228,7 +238,7 @@
 .qx-c-fcls_length_50qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
 .qx-c-fcls_length_50qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
 {
-	width: 50rem;
+	width: 50rem !important;
 }
 
 
@@ -240,6 +250,7 @@
 .qx-c-fcls_length_60qch.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
 .qx-c-fcls_length_60qch.qx-aum.qx-aum-check-box, /*checkBox*/
 .qx-c-fcls_length_60qch.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
+.qx-c-fcls_length_60qch.qx-aum.qx-aum-radio-button-list, /*RadioButtonList*/
 .qx-c-fcls_length_60qch.qx-aum.qx-bool-widget.qx-aum-radio-button, /*RadioButton*/
 .qx-c-fcls_length_60qch.qx-aum.qx-aum-list-box.qx-aum-abstract-field, /*listBox*/
 .qx-c-fcls_length_60qch.qx-aum.qx-aum-text-area.qx-text-field, /*TextArea*/
@@ -251,7 +262,7 @@
 .qx-c-fcls_length_60qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
 .qx-c-fcls_length_60qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
 {
-	width: 60rem;
+	width: 60rem !important;
 }
 
 
