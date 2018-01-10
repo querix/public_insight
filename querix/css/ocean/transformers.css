@@ -205,7 +205,7 @@ html,body {
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu {
 	z-index: 1001;
 }
-.cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu::before {
+/* .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu::before {
 	content: "";
 	width: 100%;
 	position: absolute;
@@ -213,8 +213,7 @@ html,body {
 	left: 0;
 	background: #3a597e url(/public/querix/css/images/logo.svg) no-repeat 20px center;
 	background-size: 40%;
-
-}
+} */
 /*END left-side menu*/
 
 .qx-devicemode-desktop #qx-main-layout .qx-menu-type-tree.qx-mdi div#qx-container-menu {
@@ -242,16 +241,6 @@ html,body {
 .cmsfb #qx-container-menu {
 	transition-duration: .5s !important;
 	transition-property: width !important;
-}
-
-.cmsfb #cms-button-mainmenu {
-	text-indent: -9999px;
-	width: 40px;
-	height: 40px;
-	border: none;
-	margin: 0 .5em;
-	cursor: pointer;
-	align-self: center;
 }
 
 .cmsfb #cms-topbar > p {
@@ -303,7 +292,7 @@ html,body {
 	border: 1px solid #fff;
 }
 
-.cmsfb .cms-mainmenu-close {
+/* .cmsfb .cms-mainmenu-close {
 	font-size: 2em;
 	cursor: pointer;
 	color: #fff;
@@ -316,7 +305,7 @@ html,body {
 }
 html.cmsfb:root .cms-mainmenu-close {
     display: none;
-}
+} */
 
 /*.cmsfb:root .qx-window-border,
 .cmsfb:root #qx-t-c {
@@ -338,4 +327,64 @@ html.cmsfb:root .cms-mainmenu-close {
 .cmsfb body > .ui-dialog {
 	margin-top: 60px;
 	z-index: 1002;
+}
+
+.cmsfb .cms-button-mainmenu-close,
+.cmsfb .cms-button-mainmenu {
+	/* text-indent: -9999px; */
+	/* background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMyAxOGgxOHYtMkgzdjJ6bTAtNWgxOHYtMkgzdjJ6bTAtN3YyaDE4VjZIM3oiLz48L3N2Zz4=) no-repeat center center !important; */
+	width: 32px;
+	height: 32px;
+	border: none;
+	margin: 0 1.5rem;
+	cursor: pointer;
+  align-self: center;
+  /* color: #fff; */
+  /* position: absolute; */
+  /* left: 1rem; */
+}
+
+.cmsfb .cms-button-mainmenu-close > svg,
+.cmsfb .cms-button-mainmenu > svg {
+  fill: #fff;
+}
+
+
+.cmsfb .cms-topbar-left {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+  z-index: 1;
+}
+
+.cmsfb.cms-mainmenu-visible #cms-topbar .cms-topbar-left,
+.cmsfb #qx-container-menu .cms-topbar-left {
+  display: none;
+}
+
+.cmsfb.cms-mainmenu-visible #qx-container-menu .cms-topbar-left {
+  display: flex;
+}
+
+.cmsfb .qx-logo {
+	/* position: absolute;
+	top: 0;
+  left: 5rem; */
+  height: 60px;
+  /* right: 0; */
+  display: flex;
+  justify-content: left;
+  padding-left: 1rem;
+  align-items: center;
+  flex: 1;
+}
+
+.cmsfb:root .qx-logo > svg {
+  width: 60%;
+  height: 60%;
+  transform: translateY(-.5rem);
 }

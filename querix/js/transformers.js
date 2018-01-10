@@ -18,6 +18,49 @@
     noHeavyInit - suppresses any heavy initialization actions performed by LyciaClient API
 */
 
+// var buttonOpenMainMenuHtml = '<a class="cms-button-mainmenu">'+
+// '<svg fill="#ffffff" viewBox="0 0 24 24" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">'+
+// '<path d="M0 0h24v24H0z" fill="none"/>'+
+// '<path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>'+
+// '</svg>'+
+// '</a>';
+
+// var buttonCloseMainMenuHtml = '<a class="cms-button-mainmenu-close">'+
+// '<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">'+
+// '<path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>'+
+// '<path d="M0 0h24v24H0z" fill="none"/>'+
+// '</svg>'+
+// '</a>';
+
+var buttonOpenMainMenuHtml = '<a class="cms-button-mainmenu">'+
+'<svg width="100%" height="100%"  xmlns="http://www.w3.org/2000/svg">'+
+'<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/public/querix/css/images/transformers.svg#menu">'+
+'</svg>'+
+'</a>';
+
+var buttonCloseMainMenuHtml = '<a class="cms-button-mainmenu-close">'+
+'<svg width="100%" height="100%"  xmlns="http://www.w3.org/2000/svg">'+
+'<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/public/querix/css/images/transformers.svg#menu-close">'+
+'</svg>'+
+'</a>';
+
+var logoHtml = '<div class="qx-logo">'+
+'<svg width="100%" height="100%"  xmlns="http://www.w3.org/2000/svg">'+
+'<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/public/querix/css/images/transformers.svg#logo">'+
+'</svg>'+
+'</div>';
+
+var topbarHtml = '<form id="cms-topbar" class="cms-show-logo"><div class="cms-topbar-left">'+
+buttonOpenMainMenuHtml+
+'</div><p class="cms-search-widget"></p>'+
+'<p>'+
+'<a id="lbValueUserName"><img alt="" src="data:image/png;base64,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" />'+
+'<span class="qx-text"/>'+
+'<i class="toggle-popup"></i>'+
+'</a>'+
+'</p>'+
+'</form>';
+
 (function(querix){
     var setDeviceDependentClasses = function() {
         var $ = window.top.$;
@@ -120,7 +163,7 @@ var topbar = (function() {
                                 menuDisplay: 'table-cell'
                         }
                 };
-                var topbar = $('<form id=\"cms-topbar\" class="cms-show-logo"><a id=\"cms-button-mainmenu\">Main Menu</a><p class="cms-search-widget"></p><p><a id=\"lbValueUserName\"><img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAIAAABuYg/PAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJTUUH4AQHBjgctdSzXQAAAAZiS0dEAP8A/wD/oL2nkwAACOFJREFUSMeNV9tuXNeRXatqn0tfeL+IIk1SlmQJGcVO7CTwBDODAQZI/GAnD/mGAeZtPmce5ilAfiDIvAyCPATxJdYgSGLJMnWXKJGiJJJNdfPS3eecXTUPp5uS7ATJRjf64PTpvWrXqlqrmv1uJ/nqV3hy1e3IKPAAd9IB4rVV3yFAc0fE0c1He59dTwfWLBEMlcBIAE44HAzwtkEdLiFMfvSz/N//U386c7AwfKRaOgwQQOD4S2CokdxBQEUzTbs7z3k4TE0ARKGRoLjTSEcwTzRkaZ7nrVbydFt6XX23e3t+YW7uzJx7dABkvWt98U0wAHSIQbPci6p4eqAVIFqJGsUoBjVRSJo1p5vt6ebklGswSNzd1X+bSc3j+oX1kMAZAfkbYCQdcCeYtdqDpx0/KVTTihqpEcKQ5q2J9tRc0phBkkdIhEaIVaYfLE4dHXUXl2Zm5iaMVu9JZ51FH71Ht8efdIAOFUXlx0/3tPCSKdNGlk+0JqezRts1N6QRSQSNahCnSh5a1RBf/flWMXBxpRvhzpdlQRhZgqUxWp1Id4cDBpXs4lqcnx0meTIx25xeaM+e0dCEZK6JUR1w0ggTGKEfzbYI6R/1FxcXZuem4AVIgKdZJCLlxLSqSIMSIoCbm9HSFpZWw/TaSU80zT1JHJJEIaQSdRIyIoSAkIEe1VkM/Ktrd5bXzqTtNHrEaTW6myCqOigeCAJeUPs6wdZCY3Gdy2vtJelsid+9mcTCAUDgpNUbWN0I7k4wkOaubnz0YHt7a/fCPyybHRuMoyrxCBmiKc7ExD2Nmg/T6XT5Sr54sUgnT5K8HXTxe/90+Ggz6ReRNBIOMTjHdBD1+fTDhTYAUEsrgbi6vqoJDHGcRzdIGZMqIib5sLGULL+fvfmvxcLlYTZVMSkRCmk02hODza+qzq5Ed6ETdRHVacSYFf3JQtNBkOb2oneweHZher4N2gjKYZIUYRqTq/nKO+nZd2X2UmwsDDWUI1FxI9KkFOvs372dFa4iJjAZ8QQSJEmQ+tFCc3xOL6sKVp27sKyJRMpQ0jI0y2w2XbnSOvd9m7oUW6sxNA0GlnV/0CEsRIZZWw63n/jzg5Tj3gDr0jjNpX403xydkxRI//h46ez85Nz8QFtH0yvhjXcbqz/A3KUimys1q0ij1+1Y7yMEnM6QNKe1H3v37qVlkRuCCQnnqFnql3640DIQkDqWqoyDwt749vvJhe/la+/J9IUqnS+0USE4BfBxk9cJqskgoBrSdpp1Hj7gfqfhyjoYeQ1MSg+RwSS4JC6JM9/brTo2F5a/qxNvVTpTIDGQqFk/XXiZIIDuxWCIicnF974/zKf6ECO9bn6H+0jqpGRimkvWDI2JtDnVnJyvJP/i+q3+oCpQVSF6iKPn/+oi6BQZpvnEt9/V9QvHkvhIQfHqD/WD5TOaZJpmmqQSEpOsH5u73f7ym+dmVs6WFGMgQDhe1ZVvwDkJhkwzRD+8f7d5ciwKeylDACiaNDTJJeSQ1Jg40ySZqDr9jd9+ZoeHwahR+ddRasdxwIhIFlnaevuynF0cOs0DqYSArNTLYPrh+jkNCRlAcZBgYpYQB90Xs+urS6tvDIs+BGOiXnGB04jhBjdx0KIWMiWhP+je3Q4QGh2IKQ6DPRl29afnzpMCCkCn0J1upBfRKuOFt6/ETGsLpnOsmXIKMzobEcUUBosDL2cmZnpbz+XghSu6Db1VnXyy8+jT7U39yfq50+IaSQLpFBj7vcHs2urk+oqd2jdQh/UqmDshdEEwBGNhkEbbKuvcv9Vl8enek/999OBa73irkvA1J/a6EgwJxY6H1z/5fPHKpWS6VcLr4n89kzI6mHvmYlWUtCH55G5VnVw+/2sMrn3xf8+KcqgZ2SYkvMpBHac4xGHASSzu3di48uXtlR9+B4GAw8Wd8PHMMHJshOhJUXmSHgV58KL3x/v3b355bYfhcToZxNLKQ4S4h9emKNbWTNa9qF72ejc+/uzs229hqmn1dyOHIuluBkBJ1UTS5EF3/+M/bvzp0eOt3uGwqrK18+VOR3b3tTwRlMTXwMZJMZCIDbPc+WTj+s7tW4vvvVME0qlOrRHdq8oTVaXu9A5+8/DLq7c39g4PS9JEmUlMWlPry0cvdouiBExcXgM75cydhAczB4aHhxu/u7py+TImE0anwYUCxsCYyIP95zfu3fli8+6d3l4fUVRFBDBzr8CplaX+1v3hoEd3hYdvTmtjMkZXGu3ptY3nG/eXf/Bdi6xUC+XQy92j3tVb1z6/s7F9dFAlEtI0GH2s0nSHV2xmzZWl7u5u9AE9BvytpWBx0Lvxyednv3WZ8wsD4OHB7u9vX7vx6N7j3adlYMzURdydFBFx93Gd2sBja2Xp6PF29fxZiGUYayxfq0k6vZ5URrJ268/X3rx5M75jV+/evr6xcb/7rFBHGiyI1TXpLiTgHDmcu3jpCK3W5LnVTud5o4rBKXDHWKMJEgJnPfI5GUWHaXjS6/z3L34ef3hlq39sEciVRIS7ox7YCAA26ncfTTuEVMp8eTE8nCmeFCFCQQMrZzRGMWZomWskPE2HZvtF/3b32Vb/aHf//nKrmnrrfNVIjHBAQHG41SMAXtrkqdg4QNjERHP94kGnDCPXBcfDJMvonoQj2v7geLt78OS4+9wHA2JI7j/cmr/4Zh/RnaQQhL9aTKdEON0Fom6gxyQ0V5b3t/aCusNhtbBLiKJDTbtVsfli72F3v+fxRDFUhshmxGB7r7f9LDm/UgFeKylf/X/zcmYXp46VqKwq5snkhTdCVrgHLUULYUl0isG9487OYe+oHA5gUTUqIRRD5iyP+rt3Hp5bPuN5UuHvWgaHe6U8c35Nlv/lH6sggzx9XA7+sPf098+2N17s7XnZT5MiJJUoKepCqiWaZvn+5s7R5k4w/4a3fV3QK0ERPAoVBPn+xW/pf/3PL59uPrh+986ftjc3i5OOuIUEmpQWbeSYFCchJiJpUhYVVNprZy3hWPj5coAacQ+nm9AIOsTxo0vv/Mc///j/AZWByBM1n+OVAAAAAElFTkSuQmCC" /><span class="qx-text"/><i class="toggle-popup"></i></a></p></form>');
+                var topbar = $(topbarHtml);
                 var accountPopup = $('<div data-role="popup" id="cms-account-menu" class="qx-popup qx-popup-userdata"/>')
                         .append($('<p class="content"></p>')).appendTo($('body'));
                 accountPopup.popup({
@@ -155,7 +198,7 @@ var topbar = (function() {
                         }
                         topqx.rjqui.signalWindowResize();
                 }
-                topbar.find('#cms-button-mainmenu').on('click',toggleMainmenu);
+                topbar.find('.cms-button-mainmenu').on('click',toggleMainmenu);
                 topbar.find('#lbValueUserName').on('click',function(){
                     try{
                         accountPopup.popup("open",{positionTo: '#lbValueUserName .toggle-popup'});
@@ -465,39 +508,34 @@ querix.plugins.wrappers.containermenu_transformer = {
                 var $$ = this.getWindow().$;
                 //$$('html').removeClass('cmsfb');
                 topbar.remove();
+                $('.qx-logo').remove();
                 this.parent().find('.cms-mainmenu-close').remove();
                 this.removeClass('MENU-ITEM-TRANSFORMED');
             },
             attach: function(to) {
                 var $$ = this.getWindow().$, cuscId = 'custom-scrollbar';
                 $$('html').addClass('cmsfb');
-/*                var doc = this.getWindow().document;
-                if($('#'+cuscId).length == 0) {
-                    var cusc = document.createElement('script');
-                    cusc.id = cuscId;
-                    cusc.src = querix.conf.server + querix.conf.pathPrefix + 'res/' + querix.conf.instance + '/' + querix.conf.progPath + 'extensions/cms-demo-redesign/'+cuscId+'.js';
-                    cusc.type = 'text/javascript';
-                    cusc.onload = function() {
-                        console.error('~~~~~~~~~~~~custom-scrollbar.js loaded');
-                    };
-                    doc.body.appendChild(cusc);
-                }
-*/
                 var $topbar = $$('#cms-topbar');
                 if ($topbar.length == 0) {
                     topbar.attach();
+                }
+                if ($$('#qx-container-menu').find('.qx-logo').length === 0) {
+                  $$('#qx-container-menu').prepend('<div class="cms-topbar-left">'+logoHtml+buttonCloseMainMenuHtml+'</div>');
+                  $$('#qx-container-menu').find('.cms-button-mainmenu-close')
+                  // .addClass('cms-mainmenu-close')
+                  .on('click',function(e){$$('#cms-topbar .cms-button-mainmenu').trigger('click');});
                 }
                 this.find('a').on('click',function(){
                     $$('#qx-container-menu li').removeClass('menu-item-selected');
                     $$(this).parent().addClass('menu-item-selected');
                 });
                 this.addClass('MENU-ITEM-TRANSFORMED');
-                var closeButton = this.parent().find('.cms-mainmenu-close');
-                if (closeButton.length == 0) {
-                    var closeButton = $$('<a class="cms-mainmenu-close"><i class="fa fa-close"/></a>');
-                    closeButton.on('click',function(e){$$('#cms-button-mainmenu').trigger('click');})
-                    this.parent().append(closeButton);
-                }
+                // var closeButton = this.parent().find('.cms-mainmenu-close');
+                // if (closeButton.length == 0) {
+                //     var closeButton = $$(buttonMainMenuHtml);
+                //     closeButton.on('click',function(e){$$('#cms-button-mainmenu').trigger('click');})
+                //     this.parent().append(closeButton);
+                // }
                 return true;
             },
             prop: function(){return true;}
