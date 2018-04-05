@@ -388,3 +388,35 @@ html.cmsfb:root .cms-mainmenu-close {
   height: 60%;
   transform: translateY(-.5rem);
 }
+
+/*#qx-container-status-bar-inner {
+padding-bottom: 1rem;
+}*/
+
+.qx-aum-status-bar > .qx-aum-template-instance {
+    height: 48px;
+    padding-bottom: 24px;
+}
+
+#qx-container-status-bar {
+  background-color: #ccc;
+}
+
+#qx-maia-footnote {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 24px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 24px;
+    background-color: #d9e6ec;
+}
+
+#qx-maia-footnote > a:visited,
+#qx-maia-footnote > a {
+    color: #3f4e68;
+}
