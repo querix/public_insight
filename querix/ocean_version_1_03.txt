@@ -1,0 +1,41 @@
+ocean_version 1.03
+
+15 Nov, 2017 1 commit
+Victor Orlov's avatar
+LYC-192 Layout - ComboBox button shows no default icon and shows some margin/padding
+Victor Orlov authored 5 months ago
+1d8d6ddc
+13 Nov, 2017 1 commit
+Victor Orlov's avatar
+Fix for fgl_winprompt/message/etc
+Victor Orlov authored 5 months ago
+2460005c
+10 Nov, 2017 1 commit
+Alexey P's avatar
+removed unknown width: 200px
+Alexey P authored 5 months ago
+fbcf1c25
+06 Nov, 2017 2 commits
+Victor Orlov's avatar
+border/border-radius fixes
+Victor Orlov authored 5 months ago
+990d4971
+Victor Orlov's avatar
+Folder structure changes, icons added, color fixes
+Victor Orlov authored 5 months ago
+c143ab9a
+27 Oct, 2017 1 commit
+Victor Orlov's avatar
+CSS/qxtheme files which are presumable unused added for reference
+Victor Orlov authored 5 months ago
+074a8a04
+25 Oct, 2017 1 commit
+Victor Orlov's avatar
+Normalized (but not tested so far) content of the /public
+Victor Orlov authored 5 months ago
+1afe121b
+24 Oct, 2017 1 commit
+Victor Orlov's avatar
+Initial commit of the CSS/JS/images/fonts provided by huho
+Victor Orlov authored 6 months ago
+f23350d1
