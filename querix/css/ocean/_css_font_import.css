@@ -32,7 +32,7 @@ font-size: 12px;
 .ui-spinner.ui-widget.ui-widget-content.qx-aum.qx-aum-spinner.qx-aum-abstract-field.qx-c-fcls_data_widget .qx-text,
 .qx-text-field.qx-aum-text-field .qx-text
 {
-	font: normal 1rem "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;  
+	font: normal 1rem "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif !important;  
 
 }
 

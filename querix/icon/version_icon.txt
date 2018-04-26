@@ -1,0 +1,6 @@
+1.00 HuHo 13.01.2016 - Created theses icon library based on png icons
+1.01 HuHo 15.11.2017 - Replaced png with svg icons 
+- Material design icons
+- https://google.github.io/material-design-icons/
+1.02 HuHo 26.04.2018 added full set of svg icons from gitHub
+- public\querix\icon\svg\all

@@ -182,7 +182,7 @@
           </DoStyleAction>
         </StyleSheet>
       </ElementFilter>
-      <ElementFilter ElementName="RadioButtonList">
+      <ElementFilter ElementName="RadioGroup">
         <StyleSheet>
           <DoStyleAction>
             <SetProperty>

@@ -4,6 +4,13 @@ Toolbar Button Label
 ##########################
 */
 
+
+/*Toolbar Height - */
+  .qx-top-toolbar-cell .qx-aum-toolbar, #qx-container-toolbars .qx-aum-toolbar {
+	height: 70px;
+  }
+
+
 /*toolbar button text */
 .qx-scroll.qx-aum-toolbar.qx-aum-abstract-container.qx-identifier-toolbar.qx-c-lycia_actionstoolbar .qx-aum-toolbar-button .qx-aum-toolbar-button .qx-text {
      /*font: bold 0.7rem  "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;*/

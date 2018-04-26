@@ -59,4 +59,17 @@
       </DoStyleAction>
     </StyleSheet>
   </ElementFilter>
+  <ElementFilter ElementName="ToolbarButton">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Image</PropertyName>
+            <PropertyName>ImagePosition</PropertyName>
+          </PropertyPath>
+          <PropertyValue>Top</PropertyValue>
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementFilter>
 </StyleSheet>

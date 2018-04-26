@@ -4,6 +4,11 @@
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_alignment_size.qxtheme"/>
   </DoStyleAction>
+
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_toolbar_menu.qxtheme"/>
+  </DoStyleAction>
+  
 <!--
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_application_defaults.qxtheme"/>
@@ -25,9 +30,7 @@
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_text_label.qxtheme"/>
   </DoStyleAction>    
-  <DoStyleAction>
-    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_toolbar_menu.qxtheme"/>
-  </DoStyleAction>
+
 
 -->
   <DoStyleAction>
