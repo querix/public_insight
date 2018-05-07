@@ -41,14 +41,16 @@
           </DoStyleAction>
         </StyleSheet>
       </WithClassFilter>
+<!--
       <DoStyleAction>
         <SetProperty>
           <PropertyPath>
             <PropertyName>ImageId</PropertyName>
           </PropertyPath>
-          <PropertyValue type="ResourceId" Uri="{CONTEXT}public/querix/icon10/right.png" />
+          <PropertyValue type="ResourceId" Uri="{CONTEXT}public/querix/icon/svg/18/ic_arrow_drop_down_white_18px.svg" />
         </SetProperty>
       </DoStyleAction>
+-->
       <DoStyleAction>
         <SetProperty>
           <PropertyPath>
