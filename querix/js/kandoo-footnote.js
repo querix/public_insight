@@ -1,4 +1,4 @@
-var footnoteHtml = 'KandooERP is a community-supported, Modular, Multi-Company, Multi-Language, '+
+var footnoteHtml = 'KandooERP is a community-supported Modular, Multi-Company, Multi-Language, '+
 'Multi-Currency, Fully Analytical ERP. Curtsey of <a href="http://www.maiaerp.org" target="_blank">Maia Associates</a>. '+
 'To access the source code, please contact <a href="mailto:ericv@kandooerp.org">Eric Vercelletto</a>';
 
