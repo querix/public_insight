@@ -2,6 +2,60 @@
 	display: none;
 }
 
+
+.qx-c-VictorClass .qx-c-fcls_data_widget.qx-c-fcls_length_01qch 
+
+/*new vdom length*/
+.qx-c-fcls_data_widget.qx-c-fcls_length_01qch
+{
+	width: 2rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_05qch
+{
+	width: 5rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_10qch
+{
+	width: 10rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_15qch
+{
+	width: 15rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_20qch
+{
+	width: 20rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_25qch
+{
+	width: 25rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_30qch
+{
+	width: 30rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_35qch
+{
+	width: 35rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_40qch
+{
+	width: 40rem !important;
+
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_50qch
+{
+	width: 50rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_60qch
+{
+	width: 60rem !important;
+
+}
+
+
+
+
 .qx-c-fcls_length_01qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
 .qx-c-fcls_length_01qch.qx-aum.qx-aum-function-field-abs, /*FunctionField*/
 .qx-c-fcls_length_01qch.qx-aum.qx-text-field.qx-aum-combo-box, /*ComboBoxList*/
@@ -345,7 +399,8 @@ ALL Elements V-Size
 /*Was added to give the user some feedback on current row in INPUT ARRAY */
 .qx-aum-wtf.ui-row-ltr.qx-focusable.qx-table-row.qx-selected
 {
-	color: #3a597e;
+	background-color: #6a89ae;
+	color: white;
 }
 
 /*################################################
