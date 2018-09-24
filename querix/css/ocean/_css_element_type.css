@@ -600,6 +600,22 @@ background-image: none;
 }
 
 
+/* Special for CheckBox - Tester Feedback Anna - remove visible box when focusing a check box */
+.qx-aum-check-box.qx-has-focus
+{
+border-width: 0px;
+background-color:white !important;
+background-image: none;
+}
+.qx-aum-radio-group.qx-focused, .qx-bool-widget.qx-focused label {
+    outline: 0px dashed #aaa;
+    outline-width: 0px;
+}
+/* EOL - Special for CheckBox - Tester Feedback Anna - remove visible box when focusing a check box */
+
+
+
+
 /*.qx-text.qx-focus-target ~ .qx-aum-text-field.qx-has-focus*/
 .ui-widget-content .ui-state-highlight
 {
@@ -723,6 +739,13 @@ Inactive State - kind of global for all elements
 	/*border:none;*/
 	border: 1px solid rgba(92, 156, 204, .5);
 }
+
+/* ---Disabled ComboBox - Special Case huho 18.09.2018*/
+.qx-aum-combo-box.qx-disabled .ui-button {
+	display: none;
+}	
+
+
 
 
 /************************************
@@ -1253,7 +1276,7 @@ text-align: left;
 .qx-c-fcls_columnlabel.qx-aum-label,
 .qx-c-fcls_menulabel.qx-aum-label 
 {
-	margin: 2px;
+	margin: 2px; v
 }
 */
 

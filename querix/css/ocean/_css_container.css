@@ -15,6 +15,35 @@
     padding: 2px;
 }
 
+
+/*
+#######################################################
+Legacy Coordinate Panel
+#######################################################
+*/
+.qx-content.qx-display-grid.qx-root.qx-aum.qx-c-classic.qx-o-aum-window
+{
+	background-color: white;
+}
+
+
+/*.qx-text.qx-focus-target ~ .qx-aum-text-field.qx-has-focus*/
+.qx-content.qx-display-grid.qx-root.qx-aum.qx-c-classic.qx-o-aum-window > 
+.ui-widget-content .ui-state-highlight
+{
+border:5px solid #69a7d7;
+border-radius: 3px;
+color:red !important;
+background-color:red !important;
+
+}
+
+.qx-aum-coord-panel > .qx-aum
+ {
+/* 	padding: 0 !important; */
+/* 	margin: 0 !important; */
+}
+
 /*
 #######################################################
 Gridpanel
