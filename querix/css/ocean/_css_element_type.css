@@ -1203,3 +1203,54 @@ text-align: left;
 .ui-state-active .ui-icon {
 	background-image: url(/public/querix/css/images/ui-icons_217bc0_256x240.png);
 }
+
+/*BEGIN PREVENT WIDGETS IN COORDPANEL FROM THE SIZE AND POSITION CHANGES */
+.qx-aum-coord-panel .qx-aum-label,
+.qx-aum-coord-panel .qx-aum-text-field,
+.qx-aum-coord-panel .qx-aum-text-area,
+.qx-aum-coord-panel .qx-aum-function-field-abs, 
+.qx-aum-coord-panel .qx-aum-combo-box,
+.qx-aum-coord-panel .qx-aum-calendar.qx-aum-abstract-text-field,
+.qx-aum-coord-panel .qx-aum-list-box,
+.qx-aum-coord-panel .qx-aum-spinner,
+.qx-aum-coord-panel .qx-aum-radio-group.qx-aum-abstract-field,
+.qx-aum-coord-panel .qx-aum-blob-viewer,
+.qx-aum-coord-panel .qx-aum-browser,
+.qx-aum-coord-panel .qx-aum-progress-bar,
+.qx-aum-coord-panel .qx-aum-radio,
+.qx-aum-coord-panel .qx-aum-slider,
+.qx-aum-coord-panel .qx-aum-canvas,
+.qx-aum-coord-panel .qx-aum-scroll-bar,
+.qx-aum-coord-panel .qx-aum-time-edit-field,
+.qx-aum-coord-panel .qx-aum-button .qx-text,
+.qx-aum-coord-panel .qx-aum-button,
+.qx-aum-coord-panel .qx-aum-check-box, 
+.qx-aum-coord-panel .qx-aum.qx-aum-button.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-has-text {
+	margin-top:0;
+	margin-bottom:0;	
+	margin-right: 0;
+	margin-left: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.qx-aum-coord-panel .qx-text.qx-focus-target {
+	padding: 0;
+}
+
+.qx-aum-coord-panel .qx-aum.qx-aum-text-field, /*textField*/
+.qx-aum-coord-panel .qx-single-row.qx-aum.qx-aum-function-field-abs,  /*functionField*/
+.qx-aum-coord-panel .qx-aum.qx-aum-combo-box,  /*ComboList*/
+.qx-aum-coord-panel .qx-aum.qx-aum-calendar,  /*Calendar*/
+.qx-aum-coord-panel .qx-single-row.ui-spinner.qx-aum-spinner, /*Spinner*/
+.qx-aum-coord-panel .qx-single-row.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
+.qx-aum-coord-panel .qx-aum.qx-aum-check-box,  /*CheckBox*/
+.qx-aum-coord-panel .qx-aum.qx-aum-radio, /*Single RadioButton *special widget*/
+.qx-aum-coord-panel .qx-bool-widget.qx-aum.qx-aum-radio,
+.qx-aum-coord-panel .qx-single-row.qx-aum-button, /*button*/
+.qx-aum-coord-panel .qx-aum-progress-bar,
+.qx-aum-coord-panel .qx-horizontal.qx-aum.qx-aum-slider,
+.qx-aum-coord-panel .qx-aum-scroll-bar {
+	height: var(--qx-qch, 22px) !important;
+}
+/*END PREVENT WIDGETS IN COORDPANEL FROM THE SIZE AND POSITION CHANGES */
