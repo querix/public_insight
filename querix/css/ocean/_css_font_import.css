@@ -17,14 +17,16 @@
 @import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
-
+/*
 @import url("http://www.princexml.com/fonts/larabie/index.css") all;
-
-
+*/
+/*Size of the root element to define 1rem */
+/* You can also see it as a global screen scaling option */
 :root {
 font-size: 12px;
 }
 
+/*Default font for elements, if it does not get overwritten by other css selectors*/
 .qx-text,
 .qx-has-text .qx-text,
 .qx-c-fcls_data_widget.qx-has-text .qx-text,

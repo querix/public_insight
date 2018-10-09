@@ -2,6 +2,60 @@
 	display: none;
 }
 
+
+.qx-c-VictorClass .qx-c-fcls_data_widget.qx-c-fcls_length_01qch 
+
+/*new vdom length*/
+.qx-c-fcls_data_widget.qx-c-fcls_length_01qch
+{
+	width: 2rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_05qch
+{
+	width: 5rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_10qch
+{
+	width: 10rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_15qch
+{
+	width: 15rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_20qch
+{
+	width: 20rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_25qch
+{
+	width: 25rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_30qch
+{
+	width: 30rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_35qch
+{
+	width: 35rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_40qch
+{
+	width: 40rem !important;
+
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_50qch
+{
+	width: 50rem !important;
+}
+.qx-c-fcls_data_widget.qx-c-fcls_length_60qch
+{
+	width: 60rem !important;
+
+}
+
+
+
+
 .qx-c-fcls_length_01qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
 .qx-c-fcls_length_01qch.qx-aum.qx-aum-function-field-abs, /*FunctionField*/
 .qx-c-fcls_length_01qch.qx-aum.qx-text-field.qx-aum-combo-box, /*ComboBoxList*/
@@ -336,6 +390,18 @@ ALL Elements V-Size
   width: 1.4rem;
 }
 
+/*Table for DISPLAY & INPUT ARRAY*/
+.qx-table-cell > .qx-aum {
+ margin: 0;
+ padding: 0;
+ height: auto !important;
+}
+/*Was added to give the user some feedback on current row in INPUT ARRAY */
+.qx-aum-wtf.ui-row-ltr.qx-focusable.qx-table-row.qx-selected
+{
+	background-color: #6a89ae;
+	color: white;
+}
 
 /*################################################
 Alignment - in GridPanel Cell -> Vertical-Center Elements
@@ -534,6 +600,22 @@ background-image: none;
 }
 
 
+/* Special for CheckBox - Tester Feedback Anna - remove visible box when focusing a check box */
+.qx-aum-check-box.qx-has-focus
+{
+border-width: 0px;
+background-color:white !important;
+background-image: none;
+}
+.qx-aum-radio-group.qx-focused, .qx-bool-widget.qx-focused label {
+    outline: 0px dashed #aaa;
+    outline-width: 0px;
+}
+/* EOL - Special for CheckBox - Tester Feedback Anna - remove visible box when focusing a check box */
+
+
+
+
 /*.qx-text.qx-focus-target ~ .qx-aum-text-field.qx-has-focus*/
 .ui-widget-content .ui-state-highlight
 {
@@ -657,6 +739,13 @@ Inactive State - kind of global for all elements
 	/*border:none;*/
 	border: 1px solid rgba(92, 156, 204, .5);
 }
+
+/* ---Disabled ComboBox - Special Case huho 18.09.2018*/
+.qx-aum-combo-box.qx-disabled .ui-button {
+	display: none;
+}	
+
+
 
 
 /************************************
@@ -1187,7 +1276,7 @@ text-align: left;
 .qx-c-fcls_columnlabel.qx-aum-label,
 .qx-c-fcls_menulabel.qx-aum-label 
 {
-	margin: 2px;
+	margin: 2px; v
 }
 */
 
