@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg2" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="238.68px"
+	 height="160.421px" viewBox="186.66 439.534 238.68 160.421" enable-background="new 186.66 439.534 238.68 160.421"
+	 xml:space="preserve">
+<g id="layer1" sodipodi:insensitive="true" inkscape:groupmode="layer" inkscape:label="bg">
+	<g id="bg">
+		
+			<linearGradient id="background_1_" gradientUnits="userSpaceOnUse" x1="0.8577" y1="792.9851" x2="1.0598" y2="792.9851" gradientTransform="matrix(0 792 612 0 -485000.8438 -239.6936)">
+			<stop  offset="0" style="stop-color:#95DAF7"/>
+			<stop  offset="1" style="stop-color:#D0FAFA"/>
+		</linearGradient>
+		<rect id="background" x="186.66" y="439.534" fill="url(#background_1_)" width="238.68" height="160.422"/>
+	</g>
+</g>
+<g id="layer3" inkscape:groupmode="layer" inkscape:label="Colours">
+	<g id="col1" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect35" x="172.385" y="273.392" fill="#FFFFFF" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col2" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect38" x="178.912" y="273.392" fill="#B5B2B5" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col3" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect41" x="185.438" y="273.392" fill="#6B696B" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col4" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect44" x="191.965" y="273.392" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col5" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect47" x="198.491" y="273.392" fill="#EFDBB5" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col6" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect50" x="205.018" y="273.392" fill="#EFDF00" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col7" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect53" x="211.544" y="273.392" fill="#FFD718" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col8" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect56" x="218.07" y="273.392" fill="#FFA218" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col9" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect59" x="224.596" y="273.392" fill="#E74D10" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col10" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect62" x="231.123" y="273.392" fill="#FF0000" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col11" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect65" x="237.649" y="273.392" fill="#FF1C4A" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col12" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect68" x="244.176" y="273.392" fill="#DE1842" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col13" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect71" x="250.702" y="273.392" fill="#AD2063" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col14" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect74" x="257.229" y="273.392" fill="#08A2EF" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col15" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect77" x="172.385" y="279.919" fill="#395DC6" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col16" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect80" x="178.912" y="279.919" fill="#29108C" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col17" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect83" x="185.438" y="279.919" fill="#08A6CE" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col18" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect86" x="191.965" y="279.919" fill="#00799C" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col19" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect89" x="198.491" y="279.919" fill="#73759C" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col20" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect92" x="205.018" y="279.919" fill="#EFCFEF" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col21" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect95" x="211.544" y="279.919" fill="#E7007B" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col22" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect98" x="218.07" y="279.919" fill="#C64D9C" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col23" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect101" x="224.596" y="279.919" fill="#6B0C5A" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col24" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect104" x="231.123" y="279.919" fill="#00964A" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col25" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect107" x="237.649" y="279.919" fill="#006D39" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col26" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect110" x="244.176" y="279.919" fill="#E5FF00" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col27" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect113" x="250.702" y="279.919" fill="#7BFB00" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="col28" onclick="parent.setColour(evt)" transform="matrix(2.1515037,0,0,2.0623295,-164.81169,0.84830001)">
+		<rect id="rect116" x="257.229" y="279.919" fill="#FF5100" stroke="#000000" stroke-width="0.43" width="4.662" height="4.662"/>
+	</g>
+	<g id="current" transform="matrix(1.2758407,0,0,1.0595202,-206.49408,-79.476615)">
+		<text id="text120" transform="matrix(0.9438 0 0 0.9438 345.1011 600.8007)" font-family="'ArialMT'" font-size="8.8905">Current Colour:</text>
+		<rect id="currentColour" x="408.501" y="593.342" stroke="#000000" stroke-width="0.8601" width="27.97" height="11.189"/>
+	</g>
+	<path id="path3729" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="
+		M359.403,588.634v1.649l40.536-0.165v-2.143"/>
+	<text transform="matrix(1.0297 0 0 1 347.8381 599.9548)" font-family="'Vrinda'" font-size="11.0243">Fluorescent</text>
+</g>
+<g id="layer5" inkscape:groupmode="layer" inkscape:label="Kite Panels Left">
+	
+		<path id="LeftLowerLong" onclick="parent.cngColour(evt)" sodipodi:nodetypes="ccccc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M216.577,523.437c0,0,18.533-20.889,51.91-22.511c0.652,0,18.901-1.955,16.815,12.515c0.261,0.13-13.296-13.165-31.155-5.215
+		C252.193,507.053,216.447,521.744,216.577,523.437z"/>
+	
+		<path id="LeftTip" onclick="parent.cngColour(evt)" sodipodi:nodetypes="cccscc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M216.224,515.244c0,0,21.871-12.718,1.536,7.227c-2.477,1.957-13.296,7.691-13.296,7.691s-12.221,7.948-12.526,8.2
+		c-1.813,1.495,20.237-20.358,20.237-20.358L216.224,515.244z"/>
+	
+		<path id="LeftMiddle4" onclick="parent.cngColour(evt)" sodipodi:nodetypes="cccccccccc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M216.238,515.221l24.615-21.724l47.709-36.631l15.513-10.429v2.217c0,0-32.328,22.029-56.313,44.581c0,0-6.677,8.271,6.779,8.734
+		c0.13-0.131,13.595-1.006,13.595-1.006s-29.295,0.531-50.328,21.428C218.968,519.484,234.119,506.563,216.238,515.221
+		L216.238,515.221z"/>
+	
+		<path id="LeftLowerSmall" onclick="parent.cngColour(evt)" sodipodi:nodetypes="cccc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M286.346,514.353c0,0,0.619-1.173,1.271-6.518c2.254,1.536,7.199,9.115,10.07,19.423
+		C297.556,526.998,286.607,514.353,286.346,514.353z"/>
+	
+		<path id="LeftMiddle3" onclick="parent.cngColour(evt)" sodipodi:nodetypes="ccccccccccccccccc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M303.423,449.047l-22.942,16.686l-19.554,14.99l-12.645,11.862c0,0-8.603,10.559,6.258,9.386
+		c-0.131-0.131,14.012-0.913,14.012-0.913h5.41c0,0,13.166,0.651,11.341,12.123c0.131,0.261,1.075,0.75,1.075,0.75
+		s1.206-3.227,1.206-6.095c0.098,0.098,0-0.064,0-0.064s1.891-4.27-9.842-9.842c0.261,0.651-8.375-3.259-5.214-11.732
+		c0-0.13,7.169-10.819,7.169-10.819s8.604-12.383,24.637-25.68c0.13,0.26,0-1.369,0-1.369L303.423,449.047z"/>
+	
+		<path id="LeftMiddle2" onclick="parent.cngColour(evt)" sodipodi:nodetypes="ccccc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M304.335,449.828v9.255c0,0-28.784,26.933-25.817,39.721c0.131-0.261-12.746-1.787-4.165-15.866
+		C274.093,483.199,287.78,462.602,304.335,449.828z"/>
+	
+		<path id="LeftCenter" onclick="parent.cngColour(evt)" sodipodi:nodetypes="ccc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M304.335,458.623l0.114,61.887C304.449,520.51,272.337,502.952,304.335,458.623z"/>
+	
+		<path id="LeftMiddle1" onclick="parent.cngColour(evt)" sodipodi:nodetypes="cccccccc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M304.166,458.715c0,0-29.343,28.458-25.518,39.959c-0.261-0.393,9.713,3.965,8.87,8.902c0,0.13,7.301,7.821,10.299,19.553
+		c-0.13-0.26,4.302,5.605,4.302,5.605l-0.131-7.04l1.396-5.713C303.385,519.981,273.05,501.516,304.166,458.715z"/>
+</g>
+<g id="layer8" inkscape:groupmode="layer" inkscape:label="Kite Panels Right">
+	
+		<path id="RightLowerLong" onclick="parent.cngColour(evt)" sodipodi:nodetypes="ccccc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M392.096,523.401c0,0-18.534-20.89-51.91-22.51c-0.652,0-18.901-1.955-16.816,12.514c-0.26,0.131,13.296-13.166,31.154-5.214
+		C356.481,507.018,392.226,521.707,392.096,523.401z"/>
+	
+		<path id="RightTip" onclick="parent.cngColour(evt)" sodipodi:nodetypes="cccscc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M392.448,515.208c0,0-21.871-12.717-1.534,7.228c2.476,1.955,13.296,7.69,13.296,7.69s12.497,8.317,12.802,8.568
+		c1.813,1.496-20.514-20.727-20.514-20.727L392.448,515.208z"/>
+	
+		<path id="RightMiddle4" onclick="parent.cngColour(evt)" sodipodi:nodetypes="cccccccccc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M392.435,515.185l-24.613-21.725l-47.711-36.63l-15.512-10.428v2.216c0,0,32.329,22.029,56.314,44.582c0,0,6.677,8.27-6.779,8.732
+		c-0.13-0.129-13.596-1.004-13.596-1.004s29.296,0.529,50.328,21.426C389.705,519.447,374.555,506.528,392.435,515.185
+		L392.435,515.185z"/>
+	
+		<path id="RightLowerSmall" onclick="parent.cngColour(evt)" sodipodi:nodetypes="cccc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M322.326,514.318c0,0-0.618-1.173-1.271-6.518c-2.255,1.534-7.2,9.115-10.07,19.422
+		C311.116,526.963,322.066,514.318,322.326,514.318z"/>
+	
+		<path id="RightMiddle3" onclick="parent.cngColour(evt)" sodipodi:nodetypes="ccccccccccccccccc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M305.251,449.01l22.942,16.686l19.554,14.99l12.645,11.862c0,0,8.604,10.56-6.258,9.386c0.131-0.129-14.013-0.912-14.013-0.912
+		h-5.41c0,0-13.166,0.652-11.341,12.124c-0.13,0.26-1.075,0.749-1.075,0.749s-1.206-3.227-1.206-6.094c-0.098,0.098,0-0.066,0-0.066
+		s-1.89-4.269,9.842-9.842c-0.261,0.651,8.375-3.259,5.214-11.731c0-0.131-7.169-10.818-7.169-10.818s-8.604-12.385-24.637-25.681
+		c-0.13,0.261,0-1.368,0-1.368L305.251,449.01L305.251,449.01z"/>
+	
+		<path id="RightMiddle2" onclick="parent.cngColour(evt)" sodipodi:nodetypes="ccccc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M304.338,449.792v9.256c0,0,28.784,26.932,25.817,39.72c-0.13-0.262,12.746-1.787,4.165-15.865
+		C334.579,483.163,320.893,462.567,304.338,449.792L304.338,449.792z"/>
+	
+		<path id="RightCenter" onclick="parent.cngColour(evt)" sodipodi:nodetypes="ccc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M304.338,458.587l-0.114,61.888C304.223,520.474,336.335,502.917,304.338,458.587z"/>
+	
+		<path id="RightMiddle1" onclick="parent.cngColour(evt)" sodipodi:nodetypes="cccccccc" fill="#FCF8FF" stroke="#F80000" stroke-linecap="round" stroke-linejoin="round" d="
+		M304.507,458.678c0,0,29.343,28.459,25.518,39.958c0.261-0.391-9.715,3.965-8.871,8.903c0,0.13-7.3,7.82-10.298,19.552
+		c0.13-0.26-4.302,5.606-4.302,5.606l0.131-7.039l-1.396-5.713C305.289,519.946,335.623,501.479,304.507,458.678z"/>
+</g>
+<g id="layer6" inkscape:groupmode="layer" inkscape:label="Frame">
+	<path id="path2348" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="M191.057,538.73
+		L191.057,538.73c0,0,38.194-38.716,65.568-58.27c0.261,0.262,45.495-34.022,46.928-33.762c0.783,0.262,0.783,0.262,0.783,0.262"/>
+	
+		<path id="path3235" sodipodi:nodetypes="ccccccc" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="
+		M192.414,538.123l-0.967,0.737c0,0,36.792-27.511,71.492-32.795c-0.223,0.83,11.929-4.333,25.821,10.165
+		c1.313,0.483,13.099,16.504,13.099,16.504l2.085,2.867l0.392,1.695"/>
+	<path id="path5026" sodipodi:nodetypes="cccccccc" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="
+		M304.538,504.408l-1.198,1.198l-0.368,15.945l-0.738,4.426v6.821l2.12,3.226l0.092-1.936L304.538,504.408z"/>
+	<path id="path6798" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="M300.294,448.524c0.912,0,8.473,0,8.473,0
+		l-3.128-2.477h-1.173l-3.52,2.217v0.521L300.294,448.524z"/>
+	<path id="path6809" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="M417.809,538.731
+		L417.809,538.731c0,0-38.193-38.716-65.568-58.27c-0.261,0.262-45.494-34.021-46.928-33.762c-0.783,0.261-0.783,0.261-0.783,0.261"
+		/>
+	
+		<path id="path6811" sodipodi:nodetypes="ccccccc" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="
+		M416.82,538.216l0.599,0.646c0,0-36.793-27.511-71.491-32.796c0.222,0.829-11.93-4.334-25.821,10.165
+		c-1.313,0.482-13.099,16.504-13.099,16.504l-2.085,2.868l-0.392,1.694"/>
+	<path id="path6813" sodipodi:nodetypes="cccccccc" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="
+		M304.617,504.412l1.198,1.198l0.369,15.945l0.736,4.426v6.821l-2.119,3.226l-0.092-1.936L304.617,504.412z"/>
+</g>
+<g id="layer7" inkscape:groupmode="layer" inkscape:label="Frame spreaders">
+	
+		<path id="path2877" sodipodi:nodetypes="cc" fill="#00000F" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="
+		M223.254,508.488h162.943"/>
+	
+		<path id="path3764" sodipodi:nodetypes="cc" fill="#00000F" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="
+		M275.832,467.112l58.138,0.129"/>
+</g>
+</svg>

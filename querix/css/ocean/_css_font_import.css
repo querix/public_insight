@@ -26,6 +26,7 @@
 font-size: 12px;
 }
 
+
 /*Default font for elements, if it does not get overwritten by other css selectors*/
 .qx-text,
 .qx-has-text .qx-text,
