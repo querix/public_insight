@@ -1222,6 +1222,22 @@ background-image: url(/public/querix/icon/svg/24/ic_cancel_white_24px.svg);
 background-image: url(/public/querix/icon/svg/24/ic_help_outline_white_24px.svg);
 }
 
+/*LEFT ARROW Button*/
+.qx-c-fcls_button_left.qx-aum-button .ui-button-text .qx-text-with-icon
+{
+background-image: url(/public/querix/icon/svg/24/ic_arrow_back_24px.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+/*RIGHT ARROW Button*/
+.qx-c-fcls_button_right.qx-aum-button .ui-button-text .qx-text-with-icon
+{
+background-image: url(/public/querix/icon/svg/24/ic_arrow_forward_24px.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
 
 
 /*hide image when inactive*/
