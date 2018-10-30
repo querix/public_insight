@@ -599,6 +599,42 @@ background-color:rgba(208,229,245,0.2) !important;
 background-image: none;
 }
 
+/*Special Case RadioButton */
+/*font-weight: 400;*/
+/*color: #212121;*/
+.ui-state-focus, 
+.ui-state-hover, 
+.ui-widget-content 
+.ui-state-focus, 
+.ui-widget-content .ui-state-hover, 
+.ui-widget-header .ui-state-focus, 
+.ui-widget-header .ui-state-hover {
+    border: none;
+    background: none;
+}
+/*END Special Case RadioButton */
+
+/*Special Case Blob Viewer - 30.10.2018*/
+/*qx-aum qx-aum-blob-viewer qx-aum-abstract-field qx-blob-text*/
+/******************************************/
+.ui-state-focus, 
+.ui-state-hover, 
+.ui-widget-content .ui-state-focus.qx-aum-blob-viewer, 
+.ui-widget-content .ui-state-hover.qx-aum-blob-viewer, 
+.ui-widget-header .ui-state-focus.qx-aum-blob-viewer, 
+.ui-widget-header .ui-state-hover.qx-aum-blob-viewer 
+{
+    border: 1px solid #3a597e;
+    background:none;
+    font-weight: 400;
+    color:red;/* #212121;*/
+}
+
+iframe {
+	border:none;
+}
+
+/*END Special Case Blob Viewer*/
 
 /* Special for CheckBox - Tester Feedback Anna - remove visible box when focusing a check box */
 .qx-aum-check-box.qx-has-focus
