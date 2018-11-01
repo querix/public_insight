@@ -524,84 +524,35 @@ INPUT ELEMENTS WITHOUT FOCUS (ALL Element Types with textBox)
 
 /*
 ####################################################################
-INPUT FOCUS (ALL Element Types with textBox)
+INPUT FOCUS (ALL Element Types with textBox(abstract text box)
 ####################################################################
-
-/*
-.qx-aum-function-field-abs.qx-has-focus .qx-ff-text,
-
-.qx-aum-function-field-abs.qx-has-focus .qx-ff-text *,
-
-.qx-aum-spinner.qx-has-focus,
-
-.qx-aum-spinner.qx-has-focus .qx-text,
-
-
-
-
-.qx-aum-text-area.qx-has-focus,
-
-.qx-aum-text-area.qx-has-focus *,
-
-.qx-aum-time-edit-field.qx-has-focus,
-
-.qx-aum-time-edit-field.qx-has-focus *,
-
-.qx-aum-list-box.qx-has-focus,
-.qx-aum-radio-group.qx-focused.qx-has-focus, 
-.qx-aum-combo-box.qx-has-focus 
-
-{
-border:2px solid #69a7d7;
-border-radius: 3px;
-color:#363636;
-background-color:rgba(208,229,245,0.2) !important;
-}
 */
-/*
-.qx-text.qx-focus-target
-
-
-.qx-o-active
-.qx-aum-text-field.qx-element-role-input.qx-active.qx-c-activefield.qx-focusable-field.qx-enabled.qx-not-readonly
-*/
-
-.qx-aum-calendar.qx-has-focus, 
-.qx-aum-calendar.qx-has-focus *, 
-.qx-aum-calendar.qx-aum.qx-element-role-input.qx-enabled,
-/*.qx-aum-calendar.qx-aum.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-identifier-f4.qx-element-role-input.qx-active.ui-state-active.qx-c-activefield.qx-enabled.qx-focusable-field,*/
-.qx-aum-combo-box.qx-has-focus, 
-.qx-aum-function-field-abs.qx-has-focus 
-.qx-ff-text, 
-.qx-aum-function-field-abs.qx-has-focus 
-.qx-ff-text *, 
-.qx-aum-spinner.qx-has-focus, 
-.qx-aum-spinner.qx-has-focus .qx-text, 
-.qx-aum-spinner.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
-.qx-aum-text-area.qx-has-focus, 
-.qx-aum-text-area.qx-has-focus *, 
-.qx-aum-text-field.qx-has-focus, 
-.qx-aum-text-field.qx-has-focus *, 
-.qx-aum-time-edit-field.qx-has-focus, 
-.qx-aum-time-edit-field.qx-has-focus *,
-.qx-aum-check-box.qx-has-focus,
+.qx-aum.qx-aum-combo-box.qx-has-focus, 
+.qx-aum.qx-aum-function-field-abs.qx-has-focus 
+.qx-aum.qx-ff-text, 
+.qx-aum.qx-aum-function-field-abs.qx-has-focus 
+.qx-aum.qx-ff-text *, 
+.qx-aum.qx-aum-spinner.qx-has-focus, 
+.qx-aum.qx-aum-spinner.qx-has-focus .qx-text, 
+.qx-aum.qx-aum-spinner.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
+.qx-aum.qx-aum-text-area.qx-has-focus, 
+.qx-aum.qx-aum-text-area.qx-has-focus *, 
+.qx-aum.qx-aum-text-field.qx-has-focus, 
+.qx-aum.qx-aum-text-field.qx-has-focus *, 
+.qx-aum.qx-aum-time-edit-field.qx-has-focus, 
+.qx-aum.qx-aum-time-edit-field.qx-has-focus *,
+.qx-aum.qx-aum-check-box.qx-has-focus,
 .qx-aum.qx-aum-blob-viewer.qx-blob-image.qx-active.qx-enabled.qx-not-readonly,
 .qx-aum.qx-aum-list-box.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
-.qx-text-field.qx-aum.qx-aum-text-area.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
+.qx-aum.qx-text-field.qx-aum-text-area.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
 .qx-aum.qx-aum-time-edit-field.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly
-
-
 {
-/*border:2px solid #69a7d7;
-border-radius: 3px;
-color:#3a597e;*/
 background-color:rgba(208,229,245,0.2) !important;
 background-image: none;
 }
 
 /*Special Case RadioButton */
-/*font-weight: 400;*/
-/*color: #212121;*/
+
 .ui-state-focus, 
 .ui-state-hover, 
 .ui-widget-content 
