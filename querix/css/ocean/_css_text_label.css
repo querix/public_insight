@@ -19,6 +19,18 @@ input  =darkYello-lightYellow
 .qx-aum-label .qx-text{
     color: #3a597e;	
 }
+/*4gl color green huho: 03.11.2018 */
+.qx-c-attribute_green.qx-aum-label .qx-text{
+    color: #6abd44;	
+}
+
+/*4gl color red huho: 03.11.2018 */
+.qx-c-attribute_red.qx-aum-label .qx-text{
+    color: red;	
+}
+
+
+
 
 .qx-c-fcls_data_widget.qx-no-image.qx-aum.qx-aum-label.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-has-text.qx-c-attribute_underline
 {
