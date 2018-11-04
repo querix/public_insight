@@ -358,8 +358,13 @@ ALL Elements V-Size
 	vertical-align: middle;
 	align:left; /*just for test*/
 }
-
-
+/*Special Case: only with button fit.content   qx-c-fcls_button_image_only  HuHo 03.11.2018*/
+.qx-c-fcls_button_image_only.qx-single-row.qx-aum-button
+{
+	height: fit-content !important;
+	/*vertical-align: middle;*/
+	/*align:left;*/ /*just for test*/
+}
 
 
 /*Multi Line Widgets / textField based*/
@@ -1170,7 +1175,7 @@ images for icons/buttons
 {
 	color:red;
 	border-color: green;
-background-image: url(/public/querix/icon/svg/24/ic_remove_white_24px.svg);	
+background-image: url(/public/querix/icon/svg/24/ic_remove_24px.svg);	
 }
 
 
@@ -1180,7 +1185,7 @@ add to form class buttons an images
 
 /*.qx-c-fcls_button_done .qx-text-with-icon
 {
-	background-image: url(/public/querix/icon/svg/24/ic_done_white_24px.svg);
+	background-image: url(/public/querix/icon/svg/24/ic_done_24px.svg);
 color:white;
 background-color:rgb(58, 89, 126);
 
@@ -1221,58 +1226,58 @@ border:none;
 /*Search Button*/
 .qx-c-fcls_button_search.qx-aum-button .ui-button-text .qx-text-with-icon 
 {
-background-image: url(/public/querix/icon/svg/24/ic_search_white_24px.svg);
+background-image: url(/public/querix/icon/svg/24/ic_search_24px.svg);
 }
 
 /*Lookup Button*/
 /*enabled*/
 .qx-c-fcls_button_lookup.qx-aum-button .ui-button-text .qx-text-with-icon 
 {
-background-image: url(/public/querix/icon/svg/24/ic_search_white_24px.svg);
+background-image: url(/public/querix/icon/svg/24/ic_search_24px.svg);
 }
 /*disabled*/
 .qx-c-fcls_button_lookup.qx-aum-button 
 .ui-button.ui-widget.ui-state-default.ui-button-disabled.ui-state-disabled
 .qx-text-with-icon 
 {
-background-image: url(/public/querix/icon/svg/24/ic_search_white_24px.svg);
+background-image: url(/public/querix/icon/svg/24/ic_search_24px.svg);
 }
 
 
 /*Remove Button*/
 .qx-c-fcls_button_remove.qx-aum-button .ui-button-text .qx-text-with-icon 
 {
-background-image: url(/public/querix/icon/svg/24/ic_remove_white_24px.svg);
+background-image: url(/public/querix/icon/svg/24/ic_remove_24px.svg);
 }
 
 /*Add Button*/
 .qx-c-fcls_button_add.qx-aum-button .ui-button-text .qx-text-with-icon 
 {
-background-image: url(/public/querix/icon/svg/24/ic_add_white_24px.svg);
+background-image: url(/public/querix/icon/svg/24/ic_add_24px.svg);
 }
 
 
 /*Edit Button*/
 .qx-c-fcls_button_edit .qx-text-with-icon
 {
-background-image: url(/public/querix/icon/svg/24/ic_create_white_24px.svg);
+background-image: url(/public/querix/icon/svg/24/ic_create_24px.svg);
 }
 
 /*DONE (accept) Button*/
 .qx-c-fcls_button_done .qx-text-with-icon
 {
-background-image: url(/public/querix/icon/svg/24/ic_done_white_24px.svg);
+background-image: url(/public/querix/icon/svg/24/ic_done_24px.svg);
 }
 
 /*CANCEL Button*/
 .qx-c-fcls_button_cancel.qx-aum-button .ui-button-text .qx-text-with-icon
 {
-background-image: url(/public/querix/icon/svg/24/ic_cancel_white_24px.svg);
+background-image: url(/public/querix/icon/svg/24/ic_cancel_24px.svg);
 }
 /*HELP Button*/
 .qx-c-fcls_button_help.qx-aum-button .ui-button-text .qx-text-with-icon
 {
-background-image: url(/public/querix/icon/svg/24/ic_help_outline_white_24px.svg);
+background-image: url(/public/querix/icon/svg/24/ic_help_outline_24px.svg);
 }
 
 /*LEFT ARROW Button*/
@@ -1310,12 +1315,12 @@ background-position: center;
 .qx-no-image.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only
 {
 		background-color: #3a597e;
-	background-image: url(/public/querix/icon/svg/24/ic_search_white_24px.svg);
+	background-image: url(/public/querix/icon/svg/24/ic_search_24px.svg);
 }
 .qx-aum.qx-c-fcls_data_widget.qx-aum-button .qx-text-with-icon 
 {
 	background-color: red;
-	background-image: url(/public/querix/icon/svg/24/ic_search_white_24px.svg);
+	background-image: url(/public/querix/icon/svg/24/ic_search_24px.svg);
 
 
 

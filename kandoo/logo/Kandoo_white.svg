@@ -1,143 +1,852 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 328.7 80" enable-background="new 0 0 328.7 80" xml:space="preserve">
-<g id="Layer_1">
-	<g>
-		<path fill="#FFFFFF" d="M287.7,30h8.9v2.1h-11.3v-17h10.9v2.1h-8.5v5.1h8v2h-8V30z"/>
-		<path fill="#FFFFFF" d="M302.1,32.1h-2.4v-17h5.4c0.8,0,1.6,0.1,2.3,0.3c0.7,0.2,1.4,0.4,1.9,0.8c0.6,0.4,1,0.9,1.3,1.5
-			c0.3,0.6,0.5,1.3,0.5,2.2c0,1.2-0.4,2.3-1.2,3c-0.8,0.8-1.8,1.3-3,1.5l4.8,7.8H309l-4.3-7.6h-2.5V32.1z M302.1,22.5h2.7
-			c0.6,0,1.1,0,1.6-0.1c0.5-0.1,0.9-0.3,1.3-0.5s0.6-0.5,0.9-0.8c0.2-0.3,0.3-0.8,0.3-1.3c0-0.5-0.1-0.9-0.3-1.3s-0.5-0.6-0.8-0.8
-			c-0.3-0.2-0.7-0.4-1.2-0.4c-0.5-0.1-1-0.1-1.5-0.1h-2.9V22.5z"/>
-		<path fill="#FFFFFF" d="M314.5,15.1h5.2c0.9,0,1.7,0.1,2.5,0.3s1.4,0.5,1.9,0.9c0.5,0.4,0.9,0.9,1.2,1.5s0.4,1.3,0.4,2.1
-			c0,0.8-0.2,1.6-0.5,2.2c-0.3,0.6-0.7,1.1-1.3,1.5c-0.6,0.4-1.2,0.7-2,0.9c-0.8,0.2-1.6,0.3-2.5,0.3h-2.7v7.5h-2.4V15.1z
-			 M316.9,22.6h2.5c0.6,0,1.1-0.1,1.6-0.2c0.5-0.1,0.9-0.3,1.3-0.5c0.4-0.2,0.6-0.5,0.8-0.9c0.2-0.4,0.3-0.8,0.3-1.3
-			c0-0.5-0.1-0.9-0.3-1.3s-0.5-0.6-0.8-0.8c-0.3-0.2-0.8-0.4-1.2-0.5c-0.5-0.1-1-0.1-1.6-0.1h-2.6V22.6z"/>
-	</g>
-	<g>
-		<path fill="#FFFFFF" d="M13.3,38.5L13.3,38.5l27-25.4h8.2L20,38.7l30.2,31h-8.5L13.4,39.5h-0.1v30.2H7.5V13.1h5.8V38.5z"/>
-		<path fill="#FFFFFF" d="M80.1,45.5c0-3.2-0.9-5.6-2.6-7.2c-1.7-1.6-4.2-2.4-7.4-2.4c-2.2,0-4.3,0.4-6.2,1.2
-			c-1.9,0.8-3.5,1.9-4.9,3.2l-3-3.6c1.5-1.5,3.6-2.8,6.1-3.8c2.5-1,5.4-1.5,8.6-1.5c2,0,3.9,0.3,5.7,0.8c1.8,0.6,3.3,1.4,4.6,2.5
-			c1.3,1.1,2.4,2.5,3.1,4.2c0.7,1.7,1.1,3.7,1.1,6v16.4c0,1.4,0.1,2.9,0.2,4.5c0.1,1.5,0.3,2.9,0.5,3.9H81c-0.2-0.9-0.3-1.9-0.4-3
-			c-0.1-1.1-0.2-2.1-0.2-3.1h-0.2c-1.7,2.5-3.6,4.3-5.8,5.4c-2.2,1.1-4.8,1.6-7.8,1.6c-1.4,0-2.9-0.2-4.4-0.6s-2.9-1.1-4.2-2
-			c-1.3-0.9-2.3-2.1-3.1-3.5c-0.8-1.4-1.2-3.2-1.2-5.3c0-2.9,0.7-5.2,2.2-6.9c1.5-1.7,3.4-2.9,5.9-3.8c2.5-0.8,5.3-1.4,8.4-1.6
-			c3.2-0.2,6.5-0.4,9.9-0.4V45.5z M78.5,51c-2.2,0-4.5,0.1-6.8,0.3c-2.3,0.2-4.3,0.6-6.2,1.1c-1.8,0.6-3.3,1.4-4.5,2.4
-			c-1.2,1.1-1.8,2.5-1.8,4.2c0,1.3,0.3,2.5,0.8,3.4c0.5,0.9,1.2,1.6,2,2.2c0.9,0.6,1.8,1,2.8,1.2c1,0.2,2.1,0.4,3.2,0.4
-			c1.9,0,3.6-0.3,5.1-1c1.5-0.7,2.7-1.6,3.8-2.7c1-1.1,1.8-2.5,2.3-4c0.5-1.5,0.8-3.1,0.8-4.7V51H78.5z"/>
-		<path fill="#FFFFFF" d="M104.1,32.3c0.1,1,0.2,2.1,0.2,3.4c0.1,1.2,0.1,2.2,0.1,3h0.2c1.1-2.2,2.8-4,5.2-5.3c2.4-1.4,4.9-2,7.6-2
-			c4.7,0,8.3,1.4,10.7,4.2c2.4,2.8,3.6,6.6,3.6,11.2v23h-5.4V49c0-2-0.2-3.8-0.5-5.4c-0.3-1.6-0.9-3-1.6-4.1c-0.8-1.1-1.8-2-3.1-2.7
-			c-1.3-0.6-2.9-1-4.9-1c-1.4,0-2.8,0.3-4.2,0.9c-1.4,0.6-2.6,1.5-3.6,2.7c-1.1,1.2-1.9,2.7-2.6,4.6c-0.6,1.8-1,4-1,6.5v19.2h-5.4
-			V40.5c0-1,0-2.3-0.1-3.9c-0.1-1.6-0.1-3-0.2-4.3H104.1z"/>
-		<path fill="#FFFFFF" d="M176.5,63.4c-1.6,2.4-3.7,4.2-6.2,5.4c-2.6,1.2-5.2,1.8-7.9,1.8c-2.9,0-5.6-0.5-8-1.5
-			c-2.4-1-4.4-2.4-6.1-4.2c-1.7-1.8-3-3.8-3.9-6.2c-0.9-2.4-1.4-5-1.4-7.8c0-2.8,0.5-5.4,1.4-7.8c0.9-2.4,2.2-4.5,3.9-6.2
-			c1.7-1.8,3.7-3.1,6.1-4.2c2.4-1,5-1.5,8-1.5c2.7,0,5.4,0.6,7.9,1.9c2.6,1.3,4.6,3.1,6.2,5.6h0.2V9.2h5.4v60.5h-5.4v-6.3H176.5z
-			 M148.7,51c0,2.1,0.3,4,1,5.9c0.6,1.8,1.6,3.4,2.8,4.8s2.7,2.4,4.4,3.2c1.8,0.8,3.8,1.2,6,1.2c2.1,0,4-0.4,5.8-1.2
-			c1.8-0.8,3.3-1.8,4.6-3.2c1.3-1.3,2.3-2.9,3-4.8c0.7-1.8,1.1-3.8,1.1-6c0-2.1-0.4-4.1-1.1-6c-0.7-1.8-1.7-3.4-3-4.8
-			c-1.3-1.4-2.8-2.4-4.6-3.2c-1.8-0.8-3.7-1.2-5.8-1.2c-2.2,0-4.2,0.4-6,1.2c-1.8,0.8-3.2,1.9-4.4,3.2s-2.1,3-2.8,4.8
-			C149,46.9,148.7,48.9,148.7,51z"/>
-		<path fill="#FFFFFF" d="M233.8,51c0,2.8-0.5,5.4-1.5,7.8c-1,2.4-2.4,4.5-4.1,6.2c-1.8,1.8-3.9,3.1-6.3,4.1c-2.5,1-5.1,1.5-8.1,1.5
-			c-2.9,0-5.5-0.5-8-1.5c-2.5-1-4.6-2.4-6.3-4.1c-1.8-1.8-3.1-3.8-4.1-6.2c-1-2.4-1.5-5-1.5-7.8c0-2.8,0.5-5.4,1.5-7.8
-			c1-2.4,2.4-4.5,4.1-6.2c1.8-1.8,3.9-3.1,6.3-4.1c2.5-1,5.1-1.5,8-1.5c2.9,0,5.6,0.5,8.1,1.5c2.5,1,4.6,2.4,6.3,4.1
-			c1.8,1.8,3.1,3.8,4.1,6.2C233.3,45.5,233.8,48.2,233.8,51z M228.1,51c0-2.1-0.3-4-1-5.9c-0.7-1.8-1.6-3.4-2.8-4.8
-			c-1.2-1.4-2.7-2.4-4.5-3.2c-1.8-0.8-3.7-1.2-5.9-1.2c-2.2,0-4.1,0.4-5.9,1.2c-1.7,0.8-3.2,1.9-4.4,3.2c-1.2,1.4-2.2,3-2.8,4.8
-			c-0.7,1.8-1,3.8-1,5.9c0,2.1,0.3,4,1,5.9c0.7,1.8,1.6,3.4,2.8,4.8c1.2,1.4,2.7,2.4,4.4,3.2c1.7,0.8,3.7,1.2,5.9,1.2
-			c2.2,0,4.2-0.4,5.9-1.2c1.8-0.8,3.3-1.8,4.5-3.2c1.2-1.4,2.2-3,2.8-4.8C227.7,55,228.1,53.1,228.1,51z"/>
-		<path fill="#FFFFFF" d="M282.7,51c0,2.8-0.5,5.4-1.5,7.8c-1,2.4-2.4,4.5-4.1,6.2c-1.8,1.8-3.9,3.1-6.3,4.1c-2.5,1-5.1,1.5-8.1,1.5
-			c-2.9,0-5.5-0.5-8-1.5c-2.5-1-4.6-2.4-6.3-4.1c-1.8-1.8-3.1-3.8-4.1-6.2c-1-2.4-1.5-5-1.5-7.8c0-2.8,0.5-5.4,1.5-7.8
-			c1-2.4,2.4-4.5,4.1-6.2c1.8-1.8,3.9-3.1,6.3-4.1c2.5-1,5.1-1.5,8-1.5c2.9,0,5.6,0.5,8.1,1.5c2.5,1,4.6,2.4,6.3,4.1
-			c1.8,1.8,3.1,3.8,4.1,6.2C282.2,45.5,282.7,48.2,282.7,51z M277,51c0-2.1-0.3-4-1-5.9c-0.7-1.8-1.6-3.4-2.8-4.8
-			c-1.2-1.4-2.7-2.4-4.5-3.2c-1.8-0.8-3.7-1.2-5.9-1.2c-2.2,0-4.1,0.4-5.9,1.2c-1.7,0.8-3.2,1.9-4.4,3.2c-1.2,1.4-2.2,3-2.8,4.8
-			c-0.7,1.8-1,3.8-1,5.9c0,2.1,0.3,4,1,5.9c0.7,1.8,1.6,3.4,2.8,4.8c1.2,1.4,2.7,2.4,4.4,3.2c1.7,0.8,3.7,1.2,5.9,1.2
-			c2.2,0,4.2-0.4,5.9-1.2c1.8-0.8,3.3-1.8,4.5-3.2c1.2-1.4,2.2-3,2.8-4.8C276.6,55,277,53.1,277,51z"/>
-	</g>
-</g>
-<g id="Layer_2" display="none">
-	<g display="inline">
-		<path fill="#FFFFFF" d="M14.1,38.5L14.1,38.5l27-25.4h8.2L20.8,38.7l30.2,31h-8.5L14.2,39.5h-0.1v30.2H8.3V13.1h5.8V38.5z"/>
-		<path fill="#FFFFFF" d="M80.9,45.5c0-3.2-0.9-5.6-2.6-7.2c-1.7-1.6-4.2-2.4-7.4-2.4c-2.2,0-4.3,0.4-6.2,1.2
-			c-1.9,0.8-3.5,1.9-4.9,3.2l-3-3.6c1.5-1.5,3.6-2.8,6.1-3.8c2.5-1,5.4-1.5,8.6-1.5c2,0,3.9,0.3,5.7,0.8c1.8,0.6,3.3,1.4,4.6,2.5
-			c1.3,1.1,2.4,2.5,3.1,4.2c0.7,1.7,1.1,3.7,1.1,6v16.4c0,1.4,0.1,2.9,0.2,4.5c0.1,1.5,0.3,2.9,0.5,3.9h-4.9c-0.2-0.9-0.3-1.9-0.4-3
-			c-0.1-1.1-0.2-2.1-0.2-3.1H81c-1.7,2.5-3.6,4.3-5.8,5.4c-2.2,1.1-4.8,1.6-7.8,1.6c-1.4,0-2.9-0.2-4.4-0.6c-1.5-0.4-2.9-1.1-4.2-2
-			c-1.3-0.9-2.3-2.1-3.1-3.5c-0.8-1.4-1.2-3.2-1.2-5.3c0-2.9,0.7-5.2,2.2-6.9c1.5-1.7,3.4-2.9,5.9-3.8c2.5-0.8,5.3-1.4,8.4-1.6
-			c3.2-0.2,6.5-0.4,9.9-0.4V45.5z M79.3,51c-2.2,0-4.5,0.1-6.8,0.3c-2.3,0.2-4.3,0.6-6.2,1.1c-1.8,0.6-3.3,1.4-4.5,2.4
-			c-1.2,1.1-1.8,2.5-1.8,4.2c0,1.3,0.3,2.5,0.8,3.4c0.5,0.9,1.2,1.6,2,2.2c0.9,0.6,1.8,1,2.8,1.2c1,0.2,2.1,0.4,3.2,0.4
-			c1.9,0,3.6-0.3,5.1-1c1.5-0.7,2.7-1.6,3.8-2.7c1-1.1,1.8-2.5,2.3-4c0.5-1.5,0.8-3.1,0.8-4.7V51H79.3z"/>
-		<path fill="#FFFFFF" d="M104.9,32.3c0.1,1,0.2,2.1,0.2,3.4c0.1,1.2,0.1,2.2,0.1,3h0.2c1.1-2.2,2.8-4,5.2-5.3c2.4-1.4,4.9-2,7.6-2
-			c4.7,0,8.3,1.4,10.7,4.2c2.4,2.8,3.6,6.6,3.6,11.2v23H127V49c0-2-0.2-3.8-0.5-5.4c-0.3-1.6-0.9-3-1.6-4.1c-0.8-1.1-1.8-2-3.1-2.7
-			c-1.3-0.6-2.9-1-4.9-1c-1.4,0-2.8,0.3-4.2,0.9c-1.4,0.6-2.6,1.5-3.6,2.7c-1.1,1.2-1.9,2.7-2.6,4.6c-0.6,1.8-1,4-1,6.5v19.2H100
-			V40.5c0-1,0-2.3-0.1-3.9c-0.1-1.6-0.1-3-0.2-4.3H104.9z"/>
-		<path fill="#FFFFFF" d="M177.3,63.4c-1.6,2.4-3.7,4.2-6.2,5.4c-2.6,1.2-5.2,1.8-7.9,1.8c-2.9,0-5.6-0.5-8-1.5
-			c-2.4-1-4.4-2.4-6.1-4.2c-1.7-1.8-3-3.8-3.9-6.2c-0.9-2.4-1.4-5-1.4-7.8c0-2.8,0.5-5.4,1.4-7.8c0.9-2.4,2.2-4.5,3.9-6.2
-			c1.7-1.8,3.7-3.1,6.1-4.2c2.4-1,5-1.5,8-1.5c2.7,0,5.4,0.6,7.9,1.9c2.6,1.3,4.6,3.1,6.2,5.6h0.2V9.2h5.4v60.5h-5.4v-6.3H177.3z
-			 M149.5,51c0,2.1,0.3,4,1,5.9c0.6,1.8,1.6,3.4,2.8,4.8c1.2,1.4,2.7,2.4,4.4,3.2c1.8,0.8,3.8,1.2,6,1.2c2.1,0,4-0.4,5.8-1.2
-			c1.8-0.8,3.3-1.8,4.6-3.2c1.3-1.3,2.3-2.9,3-4.8c0.7-1.8,1.1-3.8,1.1-6c0-2.1-0.4-4.1-1.1-6c-0.7-1.8-1.7-3.4-3-4.8
-			c-1.3-1.4-2.8-2.4-4.6-3.2c-1.8-0.8-3.7-1.2-5.8-1.2c-2.2,0-4.2,0.4-6,1.2c-1.8,0.8-3.2,1.9-4.4,3.2s-2.1,3-2.8,4.8
-			C149.8,46.9,149.5,48.9,149.5,51z"/>
-	</g>
-</g>
-<g id="Layer_6" display="none">
-	<path display="inline" fill="#97999C" d="M203.9,35.3c-0.5,0.5-1.1,1-1.6,1.4c-0.2,0-0.3,0.1-0.5,0.1c-2.4-2.9-3.7-6.3-3.3-10.1
-		c0.3-3.2,1.7-5.7,4.7-6.9c3.1-1.2,5.8-0.1,8.1,2c1.1,0.9,2,2.1,3.2,3.3c0.9-1.1,1.7-2.3,2.7-3.3c2.3-2.4,5.2-3.2,8.4-2.2
-		c3.1,1,4.9,3.6,5,6.7c0.1,3.2-0.8,6.3-1.3,9.5c-0.6-0.2-1.3-0.4-1.9-0.7c-0.3-0.3-0.7-0.6-1-1c1.4-2.8,2.2-5.7,0.9-8.8
-		c-1.3-3.2-4.3-4.3-6.8-2.1c-1.7,1.5-2.8,3.8-3.8,6c-0.3,0.7,0.4,2,0.7,3c0,0.2-0.1,0.3-0.3,0.3c-1.5,0-3,0-4.5,0
-		c1.1-3.3-0.6-5.7-2.6-8c-1.6-1.8-3.8-2.9-6-1.8c-2.3,1.1-2.9,3.5-2.4,5.8C202.1,31,203.1,33.1,203.9,35.3z"/>
-</g>
-<g id="Layer_7">
-</g>
-<g id="Layer_3" display="none">
-	<path display="inline" fill="#FEC111" d="M283.8,50.6c0,6-2.1,10.9-6.4,14.7c-4.3,3.8-9,5.8-14.1,5.8s-9.8-1.9-14.1-5.8
-		c-4.3-3.8-6.4-8.8-6.4-14.7c0-6,2.1-10.9,6.4-14.7c4.3-3.8,9-5.8,14.1-5.8s9.8,1.9,14.1,5.8C281.7,39.7,283.8,44.6,283.8,50.6z"/>
-	<path display="inline" d="M276.8,50.6c0,3.9-1.4,7.2-4.2,9.7c-2.8,2.5-5.9,3.8-9.3,3.8s-6.5-1.3-9.3-3.8c-2.8-2.5-4.2-5.8-4.2-9.7
-		c0-3.9,1.4-7.2,4.2-9.7c2.8-2.5,5.9-3.8,9.3-3.8s6.5,1.3,9.3,3.8C275.4,43.4,276.8,46.7,276.8,50.6z"/>
-	<path display="inline" fill="#FEC111" d="M269.3,50.6c0,1.7-0.6,3.2-1.9,4.3c-1.3,1.1-2.6,1.7-4.1,1.7s-2.9-0.6-4.1-1.7
-		c-1.2-1.1-1.9-2.6-1.9-4.3c0-1.8,0.6-3.2,1.9-4.3c1.3-1.1,2.6-1.7,4.1-1.7s2.9,0.6,4.1,1.7C268.7,47.4,269.3,48.9,269.3,50.6z"/>
-	<path display="inline" fill="#FEC111" d="M236.3,50.4c0,6-2.1,10.9-6.4,14.7c-4.3,3.8-9,5.8-14.1,5.8s-9.8-1.9-14.1-5.8
-		c-4.3-3.8-6.4-8.8-6.4-14.7c0-6,2.1-10.9,6.4-14.7c4.3-3.8,9-5.8,14.1-5.8s9.8,1.9,14.1,5.8C234.2,39.5,236.3,44.4,236.3,50.4z"/>
-	<path display="inline" d="M229.3,50.4c0,3.9-1.4,7.2-4.2,9.7c-2.8,2.5-5.9,3.8-9.3,3.8s-6.5-1.3-9.3-3.8c-2.8-2.5-4.2-5.8-4.2-9.7
-		c0-3.9,1.4-7.2,4.2-9.7c2.8-2.5,5.9-3.8,9.3-3.8s6.5,1.3,9.3,3.8C227.9,43.2,229.3,46.4,229.3,50.4z"/>
-	<path display="inline" fill="#FEC111" d="M221.8,50.4c0,1.7-0.6,3.2-1.9,4.3c-1.3,1.1-2.6,1.7-4.1,1.7s-2.9-0.6-4.1-1.7
-		c-1.2-1.1-1.9-2.6-1.9-4.3c0-1.8,0.6-3.2,1.9-4.3c1.3-1.1,2.6-1.7,4.1-1.7s2.9,0.6,4.1,1.7C221.2,47.2,221.8,48.6,221.8,50.4z"/>
-</g>
-<g id="Layer_5" display="none">
-	<path display="inline" fill="#FFFFFF" d="M166,155.2c0-37.7,0-75.3,0-113c37.7,0,75.3,0,113,0c0,37.7,0,75.3,0,113
-		C241.3,155.2,203.7,155.2,166,155.2z M202.4,84.5L202.4,84.5c-10.2,8.7-10.2,25.8,0.2,34.4c4.4,4.5,9.7,6.9,16,7.2
-		c3.9-0.4,7.8-0.7,11.8-1.1c4.8-1.2,8.8-3.6,12-7.5c8.5-8.5,8.7-21.9,0.4-31.7c4.4-6,10.6-6.6,17.4-5.4c0.2-1.1,0.4-2,0.6-3
-		c-7.3-2.1-13.6-0.2-19.6,4c2.6-6,4.1-12.5,10.6-15.7c0.7-0.3,0.8-1.9,1.2-2.9c-0.4-0.2-0.7-0.4-1.1-0.7c-9,2.8-10.9,11.5-14.6,18.8
-		c-1.5-0.8-3-1.6-4.5-2.3c0-3.6,0.5-7.2,0-10.7c-0.6-3.4-3-5.9-6.6-6.6c-3.7-0.6-6.7,0.8-8.9,3.7c-0.9,1.3-1.7,2.7-2.5,4
-		c-1.4-1.2-2.6-2.3-4-3.2c-2.9-1.8-6.1-2.7-9.3-0.9c-3.2,1.8-4.3,4.8-4.1,8.4c0.2,4.3,2.1,7.8,5.2,10.6
-		C202.2,84.3,202.2,84.4,202.4,84.5z"/>
-	<path display="inline" fill="#080707" d="M232.6,78.7c1.5,0.8,2.9,1.5,4.5,2.3c3.7-7.3,5.7-16,14.6-18.8c0.4,0.2,0.7,0.4,1.1,0.7
-		c-0.4,1-0.5,2.5-1.2,2.9c-6.5,3.2-8,9.6-10.6,15.7c6-4.1,12.3-6.1,19.6-4c-0.2,1-0.4,1.9-0.6,3c-6.8-1.2-13-0.6-17.4,5.4
-		c-0.2,0.5-0.6,0.9-0.7,1.4c-2.1,10.1-2,20.2,0.3,30.3c-3.1,3.8-7.1,6.3-12,7.5c-4.2-15.6-4.4-31.2,0.1-46.8
-		C231.1,78.4,231.9,78.5,232.6,78.7z"/>
-	<path display="inline" fill="#F7BD19" d="M230.4,78.2c-4.5,15.6-4.3,31.2-0.1,46.8c-3.9,0.4-7.8,0.7-11.8,1.1
-		c-1.2-5.2-2.7-10.4-3.6-15.6c-1.9-11.4,0.1-22.5,3.6-33.3c0.1-0.1,0.2-0.2,0.3-0.4c3.4,0.2,6.9,0.4,10.3,0.6
-		C229.5,77.6,230,77.9,230.4,78.2z"/>
-	<path display="inline" fill="#060706" d="M218.5,77.2c-3.5,10.9-5.5,21.9-3.6,33.3c0.9,5.3,2.4,10.4,3.6,15.6
-		c-6.3-0.3-11.6-2.8-16-7.2c-0.5-6.6-1.4-13.1-1.4-19.7c-0.1-4.9,0.8-9.8,1.3-14.7c0,0,0,0,0,0c0.1-0.2,0.3-0.4,0.4-0.6
-		c0.5-0.6,1-1.2,1.6-1.9c3.1-1.4,6.1-2.8,9.2-4.3C215.2,77.6,216.9,77.4,218.5,77.2z"/>
-	<path display="inline" fill="#97999C" d="M204.3,82.1c-0.5,0.6-1,1.2-1.6,1.9c-0.2,0.1-0.4,0.1-0.5,0.2c-3.1-2.9-5-6.3-5.2-10.6
-		c-0.1-3.5,0.9-6.6,4.1-8.4c3.2-1.8,6.4-1,9.3,0.9c1.4,0.9,2.6,2,4,3.2c0.8-1.3,1.6-2.8,2.5-4c2.2-3,5.3-4.4,8.9-3.7
-		c3.6,0.6,6,3.2,6.6,6.6c0.6,3.5,0.1,7.1,0,10.7c-0.7-0.1-1.5-0.3-2.2-0.4c-0.4-0.3-0.9-0.6-1.3-0.9c1.1-3.3,1.5-6.6-0.4-9.8
-		c-1.9-3.3-5.4-4.1-7.8-1.2c-1.7,2-2.5,4.7-3.3,7.2c-0.3,0.9,0.8,2.1,1.2,3.2c0,0.2-0.1,0.3-0.3,0.4c-1.7,0.2-3.3,0.4-5,0.7
-		c0.7-3.8-1.6-6.2-4.1-8.4c-2-1.8-4.6-2.6-7-1c-2.4,1.6-2.7,4.3-1.7,6.8C201.6,77.6,203.1,79.8,204.3,82.1z"/>
-	<path display="inline" fill="#F9BD1A" d="M242.3,117.6c-2.3-10.1-2.4-20.2-0.3-30.3c0.1-0.5,0.5-0.9,0.7-1.4
-		C250.9,95.7,250.8,109.1,242.3,117.6z"/>
-	<path display="inline" fill="#F7BE1B" d="M202.4,84.5c-0.5,4.9-1.3,9.8-1.3,14.7c0.1,6.6,0.9,13.1,1.4,19.7
-		C192.2,110.3,192.1,93.2,202.4,84.5z"/>
-	<path display="inline" fill="#F7BE1B" d="M202.3,84.2c0.2-0.1,0.3-0.1,0.5-0.2c-0.1,0.2-0.3,0.4-0.4,0.6
-		C202.2,84.4,202.2,84.3,202.3,84.2z"/>
-	<path display="inline" fill="#FDFEFD" d="M218.8,76.8c-0.4-1.1-1.5-2.4-1.2-3.2c0.8-2.5,1.6-5.2,3.3-7.2c2.4-2.9,5.9-2.1,7.8,1.2
-		c1.9,3.2,1.5,6.5,0.4,9.8C225.7,77.2,222.2,77,218.8,76.8z"/>
-	<path display="inline" fill="#FBFCFC" d="M204.3,82.1c-1.2-2.3-2.7-4.5-3.6-6.9c-0.9-2.5-0.7-5.2,1.7-6.8c2.4-1.5,4.9-0.7,7,1
-		c2.5,2.2,4.8,4.6,4.1,8.4C210.5,79.3,207.4,80.7,204.3,82.1z"/>
-</g>
-<g id="Layer_4" display="none">
-	<path display="inline" d="M283.8,50.3c0,6-2.1,10.9-6.4,14.7c-4.3,3.8-9,5.8-14.1,5.8s-9.8-1.9-14.1-5.8c-4.3-3.8-6.4-8.8-6.4-14.7
-		c0-6,2.1-10.9,6.4-14.7c4.3-3.8,9-5.8,14.1-5.8s9.8,1.9,14.1,5.8C281.7,39.4,283.8,44.4,283.8,50.3z"/>
-	<path display="inline" fill="#FEC111" d="M276.8,50.3c0,3.9-1.4,7.2-4.2,9.7c-2.8,2.5-5.9,3.8-9.3,3.8s-6.5-1.3-9.3-3.8
-		c-2.8-2.5-4.2-5.8-4.2-9.7c0-3.9,1.4-7.2,4.2-9.7c2.8-2.5,5.9-3.8,9.3-3.8s6.5,1.3,9.3,3.8C275.4,43.2,276.8,46.4,276.8,50.3z"/>
-	<path display="inline" d="M269.3,50.3c0,1.7-0.6,3.2-1.9,4.3c-1.3,1.1-2.6,1.7-4.1,1.7s-2.9-0.6-4.1-1.7c-1.2-1.1-1.9-2.6-1.9-4.3
-		c0-1.8,0.6-3.2,1.9-4.3c1.3-1.1,2.6-1.7,4.1-1.7s2.9,0.6,4.1,1.7C268.7,47.1,269.3,48.6,269.3,50.3z"/>
-</g>
+<!DOCTYPE html>
+<html class="" lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<link href="https://assets.gitlab-static.net" rel="dns-prefetch">
+<link crossorigin="" href="https://assets.gitlab-static.net" rel="preconnnect">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="kandoo/logo/Kandoo_white.svg · master · QuerixDemos / public" property="og:title">
+<meta content="GitLab.com" property="og:description">
+<meta content="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://gitlab.com/QuerixDemos/public/blob/master/kandoo/logo/Kandoo_white.svg" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="kandoo/logo/Kandoo_white.svg · master · QuerixDemos / public" property="twitter:title">
+<meta content="GitLab.com" property="twitter:description">
+<meta content="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
+
+<title>kandoo/logo/Kandoo_white.svg · master · QuerixDemos / public · GitLab</title>
+<meta content="GitLab.com" name="description">
+<link rel="shortcut icon" type="image/png" href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" id="favicon" data-original-href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" />
+<link rel="stylesheet" media="all" href="https://assets.gitlab-static.net/assets/application-76e59ad17a8438df5ab03d9d5ea0e161c5210773e7ffd24137f25d252de446da.css" />
+<link rel="stylesheet" media="print" href="https://assets.gitlab-static.net/assets/print-c8ff536271f8974b8a9a5f75c0ca25d2b8c1dceb4cff3c01d1603862a0bdcbfc.css" />
+
+
+<script>
+//<![CDATA[
+window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.gitlab-static.net/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=10;gon.asset_host="https://assets.gitlab-static.net";gon.webpack_public_path="https://assets.gitlab-static.net/assets/webpack/";gon.relative_url_root="";gon.shortcuts_path="/help/shortcuts";gon.user_color_scheme="white";gon.sentry_dsn="https://526a2f38a53d44e3a8e69bfa001d1e8b@sentry.gitlab.net/15";gon.gitlab_url="https://gitlab.com";gon.revision="e325c5f";gon.gitlab_logo="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png";gon.sprite_icons="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg";gon.sprite_file_icons="https://gitlab.com/assets/file_icons-7262fc6897e02f1ceaf8de43dc33afa5e4f9a2067f4f68ef77dcc87946575e9e.svg";gon.emoji_sprites_css_path="https://assets.gitlab-static.net/assets/emoji_sprites-289eccffb1183c188b630297431be837765d9ff4aed6130cf738586fb307c170.css";gon.test_env=false;gon.suggested_label_colors=["#0033CC","#428BCA","#44AD8E","#A8D695","#5CB85C","#69D100","#004E00","#34495E","#7F8C8D","#A295D6","#5843AD","#8E44AD","#FFECDB","#AD4363","#D10069","#CC0033","#FF0000","#D9534F","#D1D100","#F0AD4E","#AD8D43"];gon.current_user_id=683919;gon.current_username="HuHo";gon.current_user_fullname="Hubert Hölzl";gon.current_user_avatar_url="/uploads/-/system/user/avatar/683919/avatar.png";
+//]]>
+</script>
+
+<script src="https://assets.gitlab-static.net/assets/webpack/runtime.75694e58.bundle.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/main.be4d4a8d.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/raven.e9af3d48.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/commons~pages.projects~pages.projects.activity~pages.projects.artifacts.browse~pages.projects.artifa~0ddaebee.026323f1.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/commons~pages.groups.epics.show~pages.groups.milestones.edit~pages.groups.milestones.new~pages.proje~72f9ad42.ec8816e9.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/pages.projects.blob.show.7f796b9a.chunk.js" defer="defer"></script>
+<script>
+  window.uploads_path = "/QuerixDemos/public/uploads";
+</script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="dopvWLQAS/mqxOAFvwtqGWF5Z/oVYtFbkPQC2nftHKCamXAPzHyC5baopUy5Qc7sJBkfj8trI1KsEMSE6F3hcg==" />
+<meta content="origin-when-cross-origin" name="referrer">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<meta content="#474D57" name="theme-color">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-iphone-5a9cee0e8a51212e70b90c87c12f382c428870c0ff67d1eb034d884b78d2dae7.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-ipad-a6eec6aeb9da138e507593b464fdac213047e49d3093fc30e90d9a995df83ba3.png" sizes="76x76" />
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-iphone-retina-72e2aadf86513a56e050e7f0f2355deaa19cc17ed97bbe5147847f2748e5a3e3.png" sizes="120x120" />
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" sizes="152x152" />
+<link color="rgb(226, 67, 41)" href="https://assets.gitlab-static.net/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg" rel="mask-icon">
+<meta content="https://assets.gitlab-static.net/assets/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png" name="msapplication-TileImage">
+<meta content="#30353E" name="msapplication-TileColor">
+
+
+
+<script>
+  ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+  p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+  };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+  n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","https://assets.gitlab-static.net/assets/shared/snowplow/sp-438c6d3df8595dcbfe9a252fd3bacb37c189cc43f8c3770910e74c53721eb15c.js","snowplow"));
+  
+  window.snowplow('newTracker', 'cf', 'snowplow.trx.gitlab.net', {
+    appId: 'gitlab',
+    cookieDomain: '.gitlab.com',
+    userFingerprint: false,
+    respectDoNotTrack: true,
+    forceSecureTracker: true,
+    post: true,
+    contexts: {
+        webPage: true,
+    },
+    stateStorageStrategy: "localStorage"
+  });
+  
+  window.snowplow('enableActivityTracking', 30, 30);
+  window.snowplow('trackPageView');
+</script>
+
+</head>
+
+<body class="ui-indigo " data-find-file="/QuerixDemos/public/find_file/master" data-group="" data-page="projects:blob:show" data-project="public">
+
+
+
+<header class="navbar navbar-gitlab qa-navbar navbar-expand-sm navbar-gitlab-new">
+<a class="sr-only gl-accessibility" href="#content-body" tabindex="1">Skip to content</a>
+<div class="container-fluid">
+<div class="header-content">
+<div class="title-container">
+<h1 class="title">
+<a title="Dashboard" id="logo" href="/"><svg width="24" height="24" class="tanuki-logo" viewBox="0 0 36 36">
+  <path class="tanuki-shape tanuki-left-ear" fill="#e24329" d="M2 14l9.38 9v-9l-4-12.28c-.205-.632-1.176-.632-1.38 0z"/>
+  <path class="tanuki-shape tanuki-right-ear" fill="#e24329" d="M34 14l-9.38 9v-9l4-12.28c.205-.632 1.176-.632 1.38 0z"/>
+  <path class="tanuki-shape tanuki-nose" fill="#e24329" d="M18,34.38 3,14 33,14 Z"/>
+  <path class="tanuki-shape tanuki-left-eye" fill="#fc6d26" d="M18,34.38 11.38,14 2,14 6,25Z"/>
+  <path class="tanuki-shape tanuki-right-eye" fill="#fc6d26" d="M18,34.38 24.62,14 34,14 30,25Z"/>
+  <path class="tanuki-shape tanuki-left-cheek" fill="#fca326" d="M2 14L.1 20.16c-.18.565 0 1.2.5 1.56l17.42 12.66z"/>
+  <path class="tanuki-shape tanuki-right-cheek" fill="#fca326" d="M34 14l1.9 6.16c.18.565 0 1.2-.5 1.56L18 34.38z"/>
 </svg>
+
+<span class="logo-text d-none d-sm-block">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 617 169"><path d="M315.26 2.97h-21.8l.1 162.5h88.3v-20.1h-66.5l-.1-142.4M465.89 136.95c-5.5 5.7-14.6 11.4-27 11.4-16.6 0-23.3-8.2-23.3-18.9 0-16.1 11.2-23.8 35-23.8 4.5 0 11.7.5 15.4 1.2v30.1h-.1m-22.6-98.5c-17.6 0-33.8 6.2-46.4 16.7l7.7 13.4c8.9-5.2 19.8-10.4 35.5-10.4 17.9 0 25.8 9.2 25.8 24.6v7.9c-3.5-.7-10.7-1.2-15.1-1.2-38.2 0-57.6 13.4-57.6 41.4 0 25.1 15.4 37.7 38.7 37.7 15.7 0 30.8-7.2 36-18.9l4 15.9h15.4v-83.2c-.1-26.3-11.5-43.9-44-43.9M557.63 149.1c-8.2 0-15.4-1-20.8-3.5V70.5c7.4-6.2 16.6-10.7 28.3-10.7 21.1 0 29.2 14.9 29.2 39 0 34.2-13.1 50.3-36.7 50.3m9.2-110.6c-19.5 0-30 13.3-30 13.3v-21l-.1-27.8h-21.3l.1 158.5c10.7 4.5 25.3 6.9 41.2 6.9 40.7 0 60.3-26 60.3-70.9-.1-35.5-18.2-59-50.2-59M77.9 20.6c19.3 0 31.8 6.4 39.9 12.9l9.4-16.3C114.5 6 97.3 0 78.9 0 32.5 0 0 28.3 0 85.4c0 59.8 35.1 83.1 75.2 83.1 20.1 0 37.2-4.7 48.4-9.4l-.5-63.9V75.1H63.6v20.1h38l.5 48.5c-5 2.5-13.6 4.5-25.3 4.5-32.2 0-53.8-20.3-53.8-63-.1-43.5 22.2-64.6 54.9-64.6M231.43 2.95h-21.3l.1 27.3v94.3c0 26.3 11.4 43.9 43.9 43.9 4.5 0 8.9-.4 13.1-1.2v-19.1c-3.1.5-6.4.7-9.9.7-17.9 0-25.8-9.2-25.8-24.6v-65h35.7v-17.8h-35.7l-.1-38.5M155.96 165.47h21.3v-124h-21.3v124M155.96 24.37h21.3V3.07h-21.3v21.3"/></svg>
+
+</span>
+</a></h1>
+<ul class="list-unstyled navbar-sub-nav">
+<li id="nav-projects-dropdown" class="home dropdown header-projects qa-projects-dropdown"><button data-toggle="dropdown" type="button">
+Projects
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#angle-down"></use></svg>
+</button>
+<div class="dropdown-menu frequent-items-dropdown-menu">
+<div class="frequent-items-dropdown-container">
+<div class="frequent-items-dropdown-sidebar qa-projects-dropdown-sidebar">
+<ul>
+<li class=""><a class="qa-your-projects-link" href="/dashboard/projects">Your projects
+</a></li><li class=""><a href="/dashboard/projects/starred">Starred projects
+</a></li><li class=""><a href="/explore">Explore projects
+</a></li></ul>
+</div>
+<div class="frequent-items-dropdown-content">
+<div data-project-id="4470811" data-project-name="public" data-project-namespace="QuerixDemos / public" data-project-web-url="/QuerixDemos/public" data-user-name="HuHo" id="js-projects-dropdown"></div>
+</div>
+</div>
+
+</div>
+</li><li id="nav-groups-dropdown" class="home dropdown header-groups qa-groups-dropdown"><button data-toggle="dropdown" type="button">
+Groups
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#angle-down"></use></svg>
+</button>
+<div class="dropdown-menu frequent-items-dropdown-menu">
+<div class="frequent-items-dropdown-container">
+<div class="frequent-items-dropdown-sidebar qa-groups-dropdown-sidebar">
+<ul>
+<li class=""><a class="qa-your-groups-link" href="/dashboard/groups">Your groups
+</a></li><li class=""><a href="/explore/groups">Explore groups
+</a></li></ul>
+</div>
+<div class="frequent-items-dropdown-content">
+<div data-user-name="HuHo" id="js-groups-dropdown"></div>
+</div>
+</div>
+
+</div>
+</li><li class="d-none d-lg-block d-xl-block"><a class="dashboard-shortcuts-activity" title="Activity" href="/dashboard/activity">Activity
+</a></li><li class="d-none d-lg-block d-xl-block"><a class="dashboard-shortcuts-milestones" title="Milestones" href="/dashboard/milestones">Milestones
+</a></li><li class="d-none d-lg-block d-xl-block"><a class="dashboard-shortcuts-snippets" title="Snippets" href="/dashboard/snippets">Snippets
+</a></li><li class="header-more dropdown d-lg-none d-xl-none">
+<a data-toggle="dropdown" href="#">
+More
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#angle-down"></use></svg>
+</a>
+<div class="dropdown-menu">
+<ul>
+<li class=""><a title="Activity" href="/dashboard/activity">Activity
+</a></li><li class=""><a class="dashboard-shortcuts-milestones" title="Milestones" href="/dashboard/milestones">Milestones
+</a></li><li class=""><a class="dashboard-shortcuts-snippets" title="Snippets" href="/dashboard/snippets">Snippets
+</a></li></ul>
+</div>
+</li>
+<li class="hidden">
+<a title="Projects" class="dashboard-shortcuts-projects" href="/dashboard/projects">Projects
+</a></li>
+</ul>
+
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="header-new dropdown">
+<a class="header-new-dropdown-toggle has-tooltip qa-new-menu-toggle" title="New..." ref="tooltip" aria-label="New..." data-toggle="dropdown" data-placement="bottom" data-container="body" data-display="static" href="/projects/new"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#plus-square"></use></svg>
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#angle-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+<li class="dropdown-bold-header">
+This project
+</li>
+<li>
+<a href="/QuerixDemos/public/issues/new">New issue</a>
+</li>
+<li>
+<a href="/QuerixDemos/public/merge_requests/new">New merge request</a>
+</li>
+<li class="header-new-project-snippet">
+<a href="/QuerixDemos/public/snippets/new">New snippet</a>
+</li>
+<li class="divider"></li>
+<li class="dropdown-bold-header">GitLab</li>
+<li>
+<a class="qa-global-new-project-link" href="/projects/new">New project</a>
+</li>
+<li>
+<a href="/groups/new">New group</a>
+</li>
+<li>
+<a href="/snippets/new">New snippet</a>
+</li>
+</ul>
+</div>
+</li>
+
+<li class="nav-item d-none d-sm-none d-md-block m-auto">
+<div class="search search-form">
+<form class="form-inline" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><div class="search-input-container">
+<div class="search-input-wrap">
+<div class="dropdown" data-url="/search/autocomplete">
+<input type="search" name="search" id="search" placeholder="Search or jump to…" class="search-input dropdown-menu-toggle no-outline js-search-dashboard-options" spellcheck="false" tabindex="1" autocomplete="off" data-issues-path="/dashboard/issues" data-mr-path="/dashboard/merge_requests" aria-label="Search or jump to…" />
+<button class="hidden js-dropdown-search-toggle" data-toggle="dropdown" type="button"></button>
+<div class="dropdown-menu dropdown-select">
+<div class="dropdown-content"><ul>
+<li class="dropdown-menu-empty-item">
+<a>
+Loading...
+</a>
+</li>
+</ul>
+</div><div class="dropdown-loading"><i aria-hidden="true" data-hidden="true" class="fa fa-spinner fa-spin"></i></div>
+</div>
+<svg class="s16 search-icon"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#search"></use></svg>
+<svg class="s16 clear-icon js-clear-input"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#close"></use></svg>
+</div>
+</div>
+</div>
+<input type="hidden" name="group_id" id="group_id" class="js-search-group-options" />
+<input type="hidden" name="project_id" id="search_project_id" value="4470811" class="js-search-project-options" data-project-path="public" data-name="public" data-issues-path="/QuerixDemos/public/issues" data-mr-path="/QuerixDemos/public/merge_requests" data-issues-disabled="false" />
+<input type="hidden" name="search_code" id="search_code" value="true" />
+<input type="hidden" name="repository_ref" id="repository_ref" value="master" />
+
+<div class="search-autocomplete-opts hide" data-autocomplete-path="/search/autocomplete" data-autocomplete-project-id="4470811" data-autocomplete-project-ref="master"></div>
+</form></div>
+
+</li>
+<li class="nav-item d-inline-block d-sm-none d-md-none">
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search?project_id=4470811"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#search"></use></svg>
+</a></li>
+<li class="user-counter"><a title="Issues" class="dashboard-shortcuts-issues" aria-label="Issues" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/dashboard/issues?assignee_id=683919"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#issues"></use></svg>
+<span class="badge badge-pill hidden issues-count">
+0
+</span>
+</a></li><li class="user-counter"><a title="Merge requests" class="dashboard-shortcuts-merge_requests" aria-label="Merge requests" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/dashboard/merge_requests?assignee_id=683919"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#git-merge"></use></svg>
+<span class="badge badge-pill hidden merge-requests-count">
+0
+</span>
+</a></li><li class="user-counter"><a title="Todos" aria-label="Todos" class="shortcuts-todos" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/dashboard/todos"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#todo-done"></use></svg>
+<span class="badge badge-pill hidden todos-count">
+0
+</span>
+</a></li><li class="nav-item header-user dropdown">
+<a class="header-user-dropdown-toggle" data-toggle="dropdown" href="/HuHo"><img width="23" height="23" class="header-user-avatar qa-user-avatar lazy" data-src="https://assets.gitlab-static.net/uploads/-/system/user/avatar/683919/avatar.png?width=23" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#angle-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+<li class="current-user">
+<div class="user-name bold">
+Hubert Hölzl
+</div>
+@HuHo
+</li>
+<li class="divider"></li>
+<li>
+<div class="js-set-status-modal-trigger" data-has-status="false"></div>
+</li>
+<li>
+<a class="profile-link" data-user="HuHo" href="/HuHo">Profile</a>
+</li>
+<li>
+<a href="/profile">Settings</a>
+</li>
+<li>
+<a href="/help">Help</a>
+</li>
+<li class="divider"></li>
+<li>
+<a target="_blank" class="text-nowrap" href="https://about.gitlab.com/contributing">Contribute to GitLab
+<svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#external-link"></use></svg>
+</a></li>
+<li class="divider"></li>
+
+
+<li>
+<a class="sign-out-link" href="/users/sign_out">Sign out</a>
+</li>
+</ul>
+
+</div>
+</li>
+</ul>
+</div>
+<button class="navbar-toggler d-block d-sm-none" type="button">
+<span class="sr-only">Toggle navigation</span>
+<svg class="s12 more-icon js-navbar-toggle-right"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#ellipsis_h"></use></svg>
+<svg class="s12 close-icon js-navbar-toggle-left"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#close"></use></svg>
+</button>
+</div>
+</div>
+</header>
+<div class="js-set-status-modal-wrapper" data-current-emoji="" data-current-message=""></div>
+
+<div class="layout-page page-with-contextual-sidebar">
+<div class="nav-sidebar">
+<div class="nav-sidebar-inner-scroll">
+<div class="context-header">
+<a title="public" href="/QuerixDemos/public"><div class="avatar-container s40 project-avatar">
+<div class="avatar s40 avatar-tile identicon bg3">P</div>
+</div>
+<div class="sidebar-context-title">
+public
+</div>
+</a></div>
+<ul class="sidebar-top-level-items">
+<li class="home"><a class="shortcuts-project" href="/QuerixDemos/public"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#home"></use></svg>
+</div>
+<span class="nav-item-name">
+Project
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/QuerixDemos/public"><strong class="fly-out-top-item-name">
+Project
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Project details" class="shortcuts-project" href="/QuerixDemos/public"><span>Details</span>
+</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" href="/QuerixDemos/public/activity"><span>Activity</span>
+</a></li>
+<li class=""><a title="Cycle Analytics" class="shortcuts-project-cycle-analytics" href="/QuerixDemos/public/cycle_analytics"><span>Cycle Analytics</span>
+</a></li></ul>
+</li><li class="active"><a class="shortcuts-tree" href="/QuerixDemos/public/tree/master"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#doc-text"></use></svg>
+</div>
+<span class="nav-item-name">
+Repository
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item active"><a href="/QuerixDemos/public/tree/master"><strong class="fly-out-top-item-name">
+Repository
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class="active"><a href="/QuerixDemos/public/tree/master">Files
+</a></li><li class=""><a href="/QuerixDemos/public/commits/master">Commits
+</a></li><li class=""><a href="/QuerixDemos/public/branches">Branches
+</a></li><li class=""><a href="/QuerixDemos/public/tags">Tags
+</a></li><li class=""><a href="/QuerixDemos/public/graphs/master">Contributors
+</a></li><li class=""><a href="/QuerixDemos/public/network/master">Graph
+</a></li><li class=""><a href="/QuerixDemos/public/compare?from=master&amp;to=master">Compare
+</a></li><li class=""><a href="/QuerixDemos/public/graphs/master/charts">Charts
+</a></li>
+</ul>
+</li><li class=""><a class="shortcuts-issues" href="/QuerixDemos/public/issues"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#issues"></use></svg>
+</div>
+<span class="nav-item-name">
+Issues
+</span>
+<span class="badge badge-pill count issue_counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/QuerixDemos/public/issues"><strong class="fly-out-top-item-name">
+Issues
+</strong>
+<span class="badge badge-pill count issue_counter fly-out-badge">
+0
+</span>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Issues" href="/QuerixDemos/public/issues"><span>
+List
+</span>
+</a></li><li class=""><a title="Board" href="/QuerixDemos/public/boards"><span>
+Board
+</span>
+</a></li><li class=""><a title="Labels" href="/QuerixDemos/public/labels"><span>
+Labels
+</span>
+</a></li>
+<li class=""><a title="Milestones" class="qa-milestones-link" href="/QuerixDemos/public/milestones"><span>
+Milestones
+</span>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-merge_requests" href="/QuerixDemos/public/merge_requests"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#git-merge"></use></svg>
+</div>
+<span class="nav-item-name">
+Merge Requests
+</span>
+<span class="badge badge-pill count merge_counter js-merge-counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/QuerixDemos/public/merge_requests"><strong class="fly-out-top-item-name">
+Merge Requests
+</strong>
+<span class="badge badge-pill count merge_counter js-merge-counter fly-out-badge">
+0
+</span>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-pipelines qa-link-pipelines" href="/QuerixDemos/public/pipelines"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#rocket"></use></svg>
+</div>
+<span class="nav-item-name">
+CI / CD
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/QuerixDemos/public/pipelines"><strong class="fly-out-top-item-name">
+CI / CD
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Pipelines" class="shortcuts-pipelines" href="/QuerixDemos/public/pipelines"><span>
+Pipelines
+</span>
+</a></li><li class=""><a title="Jobs" class="shortcuts-builds" href="/QuerixDemos/public/-/jobs"><span>
+Jobs
+</span>
+</a></li><li class=""><a title="Schedules" class="shortcuts-builds" href="/QuerixDemos/public/pipeline_schedules"><span>
+Schedules
+</span>
+</a></li><li class=""><a title="Charts" class="shortcuts-pipelines-charts" href="/QuerixDemos/public/pipelines/charts"><span>
+Charts
+</span>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-operations" href="/QuerixDemos/public/environments/metrics"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#cloud-gear"></use></svg>
+</div>
+<span class="nav-item-name">
+Operations
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/QuerixDemos/public/environments/metrics"><strong class="fly-out-top-item-name">
+Operations
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Metrics" class="shortcuts-metrics" href="/QuerixDemos/public/environments/metrics"><span>
+Metrics
+</span>
+</a></li><li class=""><a title="Environments" class="shortcuts-environments" href="/QuerixDemos/public/environments"><span>
+Environments
+</span>
+</a></li><li class=""><a title="Kubernetes" class="shortcuts-kubernetes" href="/QuerixDemos/public/clusters"><span>
+Kubernetes
+</span>
+<div class="feature-highlight js-feature-highlight" data-container="body" data-dismiss-endpoint="/-/user_callouts" data-highlight="gke_cluster_integration" data-placement="right" data-toggle="popover" data-trigger="manual" disabled></div>
+</a><div class="feature-highlight-popover-content">
+<img class="feature-highlight-illustration lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/cluster_popover-9830388038d966d8d64d43576808f9d5ba05f639a78a40bae9a5ddc7cbf72f24.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+<div class="feature-highlight-popover-sub-content">
+<p>Allows you to add and manage Kubernetes clusters.</p>
+<p>
+Protip:
+<a href="/help/topics/autodevops/index.md">Auto DevOps</a>
+<span>uses Kubernetes clusters to deploy your code!</span>
+</p>
+<hr>
+<button class="btn btn-success btn-sm dismiss-feature-highlight" type="button">
+<span>Got it!</span>
+<svg><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#thumb-up"></use></svg>
+</button>
+</div>
+</div>
+</li></ul>
+</li><li class=""><a class="shortcuts-container-registry" href="/QuerixDemos/public/container_registry"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#disk"></use></svg>
+</div>
+<span class="nav-item-name">
+Registry
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/QuerixDemos/public/container_registry"><strong class="fly-out-top-item-name">
+Registry
+</strong>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-wiki" href="/QuerixDemos/public/wikis/home"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#book"></use></svg>
+</div>
+<span class="nav-item-name">
+Wiki
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/QuerixDemos/public/wikis/home"><strong class="fly-out-top-item-name">
+Wiki
+</strong>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-snippets" href="/QuerixDemos/public/snippets"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#snippet"></use></svg>
+</div>
+<span class="nav-item-name">
+Snippets
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/QuerixDemos/public/snippets"><strong class="fly-out-top-item-name">
+Snippets
+</strong>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-tree" href="/QuerixDemos/public/edit"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#settings"></use></svg>
+</div>
+<span class="nav-item-name qa-settings-item">
+Settings
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/QuerixDemos/public/edit"><strong class="fly-out-top-item-name">
+Settings
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="General" href="/QuerixDemos/public/edit"><span>
+General
+</span>
+</a></li><li class=""><a title="Members" href="/QuerixDemos/public/project_members"><span>
+Members
+</span>
+</a></li><li class=""><a title="Integrations" href="/QuerixDemos/public/settings/integrations"><span>
+Integrations
+</span>
+</a></li><li class=""><a title="Repository" href="/QuerixDemos/public/settings/repository"><span>
+Repository
+</span>
+</a></li><li class=""><a title="CI / CD" href="/QuerixDemos/public/settings/ci_cd"><span>
+CI / CD
+</span>
+</a></li><li class=""><a title="Pages" href="/QuerixDemos/public/pages"><span>
+Pages
+</span>
+</a></li><li class=""><a title="Audit Events" href="/QuerixDemos/public/audit_events">Audit Events
+</a></li>
+</ul>
+</li><a class="toggle-sidebar-button js-toggle-sidebar" role="button" title="Toggle sidebar" type="button">
+<svg class="icon-angle-double-left"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#angle-double-left"></use></svg>
+<svg class="icon-angle-double-right"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#angle-double-right"></use></svg>
+<span class="collapse-text">Collapse sidebar</span>
+</a>
+<button name="button" type="button" class="close-nav-button"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#close"></use></svg>
+<span class="collapse-text">Close sidebar</span>
+</button>
+<li class="hidden">
+<a title="Activity" class="shortcuts-project-activity" href="/QuerixDemos/public/activity"><span>
+Activity
+</span>
+</a></li>
+<li class="hidden">
+<a title="Network" class="shortcuts-network" href="/QuerixDemos/public/network/master">Graph
+</a></li>
+<li class="hidden">
+<a title="Charts" class="shortcuts-repository-charts" href="/QuerixDemos/public/graphs/master/charts">Charts
+</a></li>
+<li class="hidden">
+<a class="shortcuts-new-issue" href="/QuerixDemos/public/issues/new">Create a new issue
+</a></li>
+<li class="hidden">
+<a title="Jobs" class="shortcuts-builds" href="/QuerixDemos/public/-/jobs">Jobs
+</a></li>
+<li class="hidden">
+<a title="Commits" class="shortcuts-commits" href="/QuerixDemos/public/commits/master">Commits
+</a></li>
+<li class="hidden">
+<a title="Issue Boards" class="shortcuts-issue-boards" href="/QuerixDemos/public/boards">Issue Boards</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="content-wrapper">
+
+<div class="mobile-overlay"></div>
+<div class="alert-wrapper">
+
+
+
+
+
+
+
+<nav class="breadcrumbs container-fluid container-limited" role="navigation">
+<div class="breadcrumbs-container">
+<button name="button" type="button" class="toggle-mobile-nav"><span class="sr-only">Open sidebar</span>
+<i aria-hidden="true" data-hidden="true" class="fa fa-bars"></i>
+</button><div class="breadcrumbs-links js-title-container">
+<ul class="list-unstyled breadcrumbs-list js-breadcrumbs-list">
+<li><a class="group-path breadcrumb-item-text js-breadcrumb-item-text " href="/QuerixDemos"><img class="avatar-tile lazy" width="15" height="15" data-src="https://gitlab.com/uploads/-/system/group/avatar/1016793/Untitled.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />QuerixDemos</a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#angle-right"></use></svg></li> <li><a href="/QuerixDemos/public"><span class="breadcrumb-item-text js-breadcrumb-item-text">public</span></a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#angle-right"></use></svg></li>
+
+<li>
+<h2 class="breadcrumbs-sub-title"><a href="/QuerixDemos/public/blob/master/kandoo/logo/Kandoo_white.svg">Repository</a></h2>
+</li>
+</ul>
+</div>
+
+</div>
+</nav>
+
+<div class="flash-container flash-container-page">
+</div>
+
+</div>
+<div class=" ">
+<div class="content" id="content-body">
+<div class="js-signature-container" data-signatures-path="/QuerixDemos/public/commits/bdebde29a6fa573f02bb994db10fbe1c74eb47cd/signatures"></div>
+<div class="container-fluid container-limited">
+
+<div class="tree-holder" id="tree-holder">
+<div class="nav-block">
+<div class="tree-ref-container">
+<div class="tree-ref-holder">
+<form class="project-refs-form" action="/QuerixDemos/public/refs/switch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="destination" id="destination" value="blob" />
+<input type="hidden" name="path" id="path" value="kandoo/logo/Kandoo_white.svg" />
+<div class="dropdown">
+<button class="dropdown-menu-toggle js-project-refs-dropdown qa-branches-select" type="button" data-toggle="dropdown" data-selected="master" data-ref="master" data-refs-url="/QuerixDemos/public/refs?sort=updated_desc" data-field-name="ref" data-submit-form-on-click="true" data-visit="true"><span class="dropdown-toggle-text ">master</span><i aria-hidden="true" data-hidden="true" class="fa fa-chevron-down"></i></button>
+<div class="dropdown-menu dropdown-menu-paging dropdown-menu-selectable git-revision-dropdown qa-branches-dropdown">
+<div class="dropdown-page-one">
+<div class="dropdown-title"><span>Switch branch/tag</span><button class="dropdown-title-button dropdown-menu-close" aria-label="Close" type="button"><i aria-hidden="true" data-hidden="true" class="fa fa-times dropdown-menu-close-icon"></i></button></div>
+<div class="dropdown-input"><input type="search" id="" class="dropdown-input-field" placeholder="Search branches and tags" autocomplete="off" /><i aria-hidden="true" data-hidden="true" class="fa fa-search dropdown-input-search"></i><i role="button" aria-hidden="true" data-hidden="true" class="fa fa-times dropdown-input-clear js-dropdown-input-clear"></i></div>
+<div class="dropdown-content"></div>
+<div class="dropdown-loading"><i aria-hidden="true" data-hidden="true" class="fa fa-spinner fa-spin"></i></div>
+</div>
+</div>
+</div>
+</form>
+</div>
+<ul class="breadcrumb repo-breadcrumb">
+<li class="breadcrumb-item">
+<a href="/QuerixDemos/public/tree/master">public
+</a></li>
+<li class="breadcrumb-item">
+<a href="/QuerixDemos/public/tree/master/kandoo">kandoo</a>
+</li>
+<li class="breadcrumb-item">
+<a href="/QuerixDemos/public/tree/master/kandoo/logo">logo</a>
+</li>
+<li class="breadcrumb-item">
+<a href="/QuerixDemos/public/blob/master/kandoo/logo/Kandoo_white.svg"><strong>Kandoo_white.svg</strong>
+</a></li>
+</ul>
+</div>
+<div class="tree-controls">
+<a class="btn shortcuts-find-file" rel="nofollow" href="/QuerixDemos/public/find_file/master"><i aria-hidden="true" data-hidden="true" class="fa fa-search"></i>
+<span>Find file</span>
+</a>
+<div class="btn-group" role="group"><a class="btn js-blob-blame-link" href="/QuerixDemos/public/blame/master/kandoo/logo/Kandoo_white.svg">Blame</a><a class="btn" href="/QuerixDemos/public/commits/master/kandoo/logo/Kandoo_white.svg">History</a><a class="btn js-data-file-blob-permalink-url" href="/QuerixDemos/public/blob/eaee4a930bae48c70f48232022d83fed7f66460f/kandoo/logo/Kandoo_white.svg">Permalink</a></div>
+</div>
+</div>
+
+<div class="info-well d-none d-sm-block">
+<div class="well-segment">
+<ul class="blob-commit-info">
+<li class="commit flex-row js-toggle-container" id="commit-bdebde29">
+<div class="avatar-cell d-none d-sm-block">
+<a href="/HuHo"><img alt="Hubert Hölzl&#39;s avatar" src="/uploads/-/system/user/avatar/683919/avatar.png?width=36" class="avatar s36 d-none d-sm-inline" title="Hubert Hölzl" /></a>
+</div>
+<div class="commit-detail flex-list">
+<div class="commit-content qa-commit-content">
+<a class="commit-row-message item-title" href="/QuerixDemos/public/commit/bdebde29a6fa573f02bb994db10fbe1c74eb47cd">General update - maia has changed to kandoo</a>
+<span class="commit-row-message d-block d-sm-none">
+&middot;
+bdebde29
+</span>
+<div class="committer">
+<a class="commit-author-link" href="/HuHo">Hubert Hölzl</a> authored <time class="js-timeago" title="Jul 22, 2018 10:03am" datetime="2018-07-22T10:03:52Z" data-toggle="tooltip" data-placement="bottom" data-container="body">Jul 22, 2018</time>
+</div>
+</div>
+<div class="commit-actions flex-row d-none d-sm-flex">
+
+<div class="js-commit-pipeline-status" data-endpoint="/QuerixDemos/public/commit/bdebde29a6fa573f02bb994db10fbe1c74eb47cd/pipelines?ref=master"></div>
+<div class="commit-sha-group">
+<div class="label label-monospace">
+bdebde29
+</div>
+<button class="btn btn btn-default" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="Copy commit SHA to clipboard" data-class="btn btn-default" data-clipboard-text="bdebde29a6fa573f02bb994db10fbe1c74eb47cd" type="button" title="Copy commit SHA to clipboard" aria-label="Copy commit SHA to clipboard"><svg><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#duplicate"></use></svg></button>
+
+</div>
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+
+
+</div>
+<div class="blob-content-holder" id="blob-content-holder">
+<article class="file-holder">
+<div class="js-file-title file-title-flex-parent">
+<div class="file-header-content">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-image-o fa-fw"></i>
+<strong class="file-title-name">
+Kandoo_white.svg
+</strong>
+<button class="btn btn-clipboard btn-transparent prepend-left-5" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn-clipboard btn-transparent prepend-left-5" data-title="Copy file path to clipboard" data-clipboard-text="{&quot;text&quot;:&quot;kandoo/logo/Kandoo_white.svg&quot;,&quot;gfm&quot;:&quot;`kandoo/logo/Kandoo_white.svg`&quot;}" type="button" title="Copy file path to clipboard" aria-label="Copy file path to clipboard"><svg><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#duplicate"></use></svg></button>
+<small>
+13.4 KB
+</small>
+</div>
+
+<div class="file-actions">
+<div class="btn-group js-blob-viewer-switcher" role="group">
+<button aria-label="Display source" class="btn btn-default btn-sm js-blob-viewer-switch-btn has-tooltip" data-container="body" data-viewer="simple" title="Display source">
+<i aria-hidden="true" data-hidden="true" class="fa fa-code"></i>
+</button><button aria-label="Display image" class="btn btn-default btn-sm js-blob-viewer-switch-btn has-tooltip" data-container="body" data-viewer="rich" title="Display image">
+<i aria-hidden="true" data-hidden="true" class="fa fa-picture-o"></i>
+</button></div>
+
+<div class="btn-group" role="group"><button class="btn btn btn-sm js-copy-blob-source-btn" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn btn-sm js-copy-blob-source-btn" data-title="Copy source to clipboard" data-clipboard-target=".blob-content[data-blob-id=&#39;55611433ef627cb0b5ea33d673fe68e4f913172f&#39;]" type="button" title="Copy source to clipboard" aria-label="Copy source to clipboard"><svg><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#duplicate"></use></svg></button><a class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" title="Open raw" data-container="body" href="/QuerixDemos/public/raw/master/kandoo/logo/Kandoo_white.svg"><i aria-hidden="true" data-hidden="true" class="fa fa-file-code-o"></i></a><a download="kandoo/logo/Kandoo_white.svg" class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" title="Download" data-container="body" href="/QuerixDemos/public/raw/master/kandoo/logo/Kandoo_white.svg?inline=false"><svg><use xlink:href="https://gitlab.com/assets/icons-a4c44cec3432dd5838e58f1b4646b147758a25f6a1ea24c9966adb2bed136388.svg#download"></use></svg></a></div>
+<div class="btn-group" role="group">
+<a class="btn js-edit-blob  btn-sm" href="/QuerixDemos/public/edit/master/kandoo/logo/Kandoo_white.svg">Edit</a><a class="btn btn-default btn-sm" href="/-/ide/project/QuerixDemos/public/edit/master/-/kandoo/logo/Kandoo_white.svg">Web IDE</a><button name="button" type="submit" class="btn btn-default" data-target="#modal-upload-blob" data-toggle="modal">Replace</button><button name="button" type="submit" class="btn btn-remove" data-target="#modal-remove-blob" data-toggle="modal">Delete</button></div>
+</div>
+</div>
+<div class="js-file-fork-suggestion-section file-fork-suggestion hidden">
+<span class="file-fork-suggestion-note">
+You're not allowed to
+<span class="js-file-fork-suggestion-section-action">
+edit
+</span>
+files in this project directly. Please fork this project,
+make your changes there, and submit a merge request.
+</span>
+<a class="js-fork-suggestion-button btn btn-grouped btn-inverted btn-success" rel="nofollow" data-method="post" href="/QuerixDemos/public/blob/master/kandoo/logo/Kandoo_white.svg">Fork</a>
+<button class="js-cancel-fork-suggestion-button btn btn-grouped" type="button">
+Cancel
+</button>
+</div>
+
+
+
+<div class="blob-viewer hidden" data-type="simple" data-url="/QuerixDemos/public/blob/master/kandoo/logo/Kandoo_white.svg?format=json&amp;viewer=simple">
+<div class="text-center prepend-top-default append-bottom-default">
+<i aria-hidden="true" aria-label="Loading content…" class="fa fa-spinner fa-spin fa-2x"></i>
+</div>
+
+</div>
+
+<div class="blob-viewer" data-rich-type="svg" data-type="rich" data-url="/QuerixDemos/public/blob/master/kandoo/logo/Kandoo_white.svg?format=json&amp;viewer=rich">
+<div class="text-center prepend-top-default append-bottom-default">
+<i aria-hidden="true" aria-label="Loading content…" class="fa fa-spinner fa-spin fa-2x"></i>
+</div>
+
+</div>
+
+
+</article>
+</div>
+
+<div class="modal" id="modal-remove-blob">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="page-title">Delete Kandoo_white.svg</h3>
+<button aria-label="Close" class="close" data-dismiss="modal" type="button">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form class="js-delete-blob-form js-quick-submit js-requires-input" action="/QuerixDemos/public/blob/master/kandoo/logo/Kandoo_white.svg" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="ekPLYsNYlz8pRnjtU0E2Q0D85SeStJDCPeNegjtWZ42WUNQ1uyReIzUqPaRVC5K2BZydUky9YssBB5jcpOaaXw==" /><div class="form-group row commit_message-group">
+<label class="col-form-label col-sm-2" for="commit_message-e3450d77973b98749ab1f946b73d0f65">Commit message
+</label><div class="col-sm-10">
+<div class="commit-message-container">
+<div class="max-width-marker"></div>
+<textarea name="commit_message" id="commit_message-e3450d77973b98749ab1f946b73d0f65" class="form-control js-commit-message" placeholder="Delete Kandoo_white.svg" required="required" rows="3">
+Delete Kandoo_white.svg</textarea>
+</div>
+</div>
+</div>
+
+<div class="form-group row branch">
+<label class="col-form-label col-sm-2" for="branch_name">Target Branch</label>
+<div class="col-sm-10">
+<input type="text" name="branch_name" id="branch_name" value="master" required="required" class="form-control js-branch-name ref-name" />
+<div class="js-create-merge-request-container">
+<div class="form-check prepend-top-8">
+<input type="checkbox" name="create_merge_request" id="create_merge_request-7364b94ed6b9298ff363ad39d21b1a75" value="1" class="js-create-merge-request form-check-input" checked="checked" />
+<label class="form-check-label" for="create_merge_request-7364b94ed6b9298ff363ad39d21b1a75">Start a <strong>new merge request</strong> with these changes
+</label></div>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="original_branch" id="original_branch" value="master" class="js-original-branch" />
+
+<div class="form-group row">
+<div class="offset-sm-2 col-sm-10">
+<button name="button" type="submit" class="btn btn-remove btn-remove-file">Delete file</button>
+<a class="btn btn-cancel" data-dismiss="modal" href="#">Cancel</a>
+</div>
+</div>
+</form></div>
+</div>
+</div>
+</div>
+
+<div class="modal" id="modal-upload-blob">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="page-title">Replace Kandoo_white.svg</h3>
+<button aria-label="Close" class="close" data-dismiss="modal" type="button">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form class="js-quick-submit js-upload-blob-form" data-method="put" action="/QuerixDemos/public/update/master/kandoo/logo/Kandoo_white.svg" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="seMkeE+01xv1/SoOYGSXtwKpXiXAXVzubb8j+twvevVd8DsvN8geB+mRb0dmLjNCR8kmUB5UrudRW+WkQ5+HJw==" /><div class="dropzone">
+<div class="dropzone-previews blob-upload-dropzone-previews">
+<p class="dz-message light">
+Attach a file by drag &amp; drop or <a class="markdown-selector" href="#">click to upload</a>
+</p>
+</div>
+</div>
+<br>
+<div class="dropzone-alerts alert alert-danger data" style="display:none"></div>
+<div class="form-group row commit_message-group">
+<label class="col-form-label col-sm-2" for="commit_message-28d7d6a579416414b292dff0b16e9aff">Commit message
+</label><div class="col-sm-10">
+<div class="commit-message-container">
+<div class="max-width-marker"></div>
+<textarea name="commit_message" id="commit_message-28d7d6a579416414b292dff0b16e9aff" class="form-control js-commit-message" placeholder="Replace Kandoo_white.svg" required="required" rows="3">
+Replace Kandoo_white.svg</textarea>
+</div>
+</div>
+</div>
+
+<div class="form-group row branch">
+<label class="col-form-label col-sm-2" for="branch_name">Target Branch</label>
+<div class="col-sm-10">
+<input type="text" name="branch_name" id="branch_name" value="master" required="required" class="form-control js-branch-name ref-name" />
+<div class="js-create-merge-request-container">
+<div class="form-check prepend-top-8">
+<input type="checkbox" name="create_merge_request" id="create_merge_request-505b590235afa6f2f69b9f3b418fd867" value="1" class="js-create-merge-request form-check-input" checked="checked" />
+<label class="form-check-label" for="create_merge_request-505b590235afa6f2f69b9f3b418fd867">Start a <strong>new merge request</strong> with these changes
+</label></div>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="original_branch" id="original_branch" value="master" class="js-original-branch" />
+
+<div class="form-actions">
+<button name="button" type="button" class="btn btn-success btn-upload-file" id="submit-all"><i aria-hidden="true" data-hidden="true" class="fa fa-spin fa-spinner js-loading-icon hidden"></i>
+Replace file
+</button><a class="btn btn-cancel" data-dismiss="modal" href="#">Cancel</a>
+
+</div>
+</form></div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+</body>
+</html>
+

@@ -28,7 +28,7 @@
               <PropertyPath>
                 <PropertyName>ImageId</PropertyName>
               </PropertyPath>
-              <PropertyValue type="ResourceId" Uri="{CONTEXT}public/querix/icon/svg/24/ic_arrow_drop_down_white_24px.svg" />
+              <PropertyValue type="ResourceId" Uri="{CONTEXT}public/querix/icon/svg/24/ic_arrow_drop_down_24px.svg" />
             </SetProperty>
           </DoStyleAction>
           <DoStyleAction>
@@ -47,7 +47,7 @@
           <PropertyPath>
             <PropertyName>ImageId</PropertyName>
           </PropertyPath>
-          <PropertyValue type="ResourceId" Uri="{CONTEXT}public/querix/icon/svg/18/ic_arrow_drop_down_white_18px.svg" />
+          <PropertyValue type="ResourceId" Uri="{CONTEXT}public/querix/icon/svg/18/ic_arrow_drop_down_18px.svg" />
         </SetProperty>
       </DoStyleAction>
 -->
