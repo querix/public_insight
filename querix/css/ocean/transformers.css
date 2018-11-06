@@ -110,6 +110,7 @@ html,body {
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar label > img {
 	/*visibility: hidden;  huho 2017-12-10*/
 	display: block !important;
+	VISIBILITY: hidden;
 	width: 16px !important;
 }
 
@@ -205,15 +206,15 @@ html,body {
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu {
 	z-index: 1001;
 }
-/* .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu::before {
+.cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu::before {
 	content: "";
 	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
 	background: #3a597e url(/public/querix/css/images/logo.svg) no-repeat 20px center;
-	background-size: 40%;
-} */
+	background-size: 30%;
+}
 /*END left-side menu*/
 
 .qx-devicemode-desktop #qx-main-layout .qx-menu-type-tree.qx-mdi div#qx-container-menu {
@@ -292,7 +293,7 @@ html,body {
 	border: 1px solid #fff;
 }
 
-/* .cmsfb .cms-mainmenu-close {
+/*.cmsfb .cms-mainmenu-close {
 	font-size: 2em;
 	cursor: pointer;
 	color: #fff;
@@ -302,10 +303,10 @@ html,body {
 }
 .cmsfb .cms-mainmenu-close:active {
 	color: red;
-}
+}*/
 html.cmsfb:root .cms-mainmenu-close {
     display: none;
-} */
+}
 
 /*.cmsfb:root .qx-window-border,
 .cmsfb:root #qx-t-c {
@@ -330,18 +331,19 @@ html.cmsfb:root .cms-mainmenu-close {
 }
 
 .cmsfb .cms-button-mainmenu-close,
-.cmsfb .cms-button-mainmenu {
-	/* text-indent: -9999px; */
-	/* background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMyAxOGgxOHYtMkgzdjJ6bTAtNWgxOHYtMkgzdjJ6bTAtN3YyaDE4VjZIM3oiLz48L3N2Zz4=) no-repeat center center !important; */
+.cmsfb #cms-button-mainmenu {
+	text-indent: -9999px;
+	background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMyAxOGgxOHYtMkgzdjJ6bTAtNWgxOHYtMkgzdjJ6bTAtN3YyaDE4VjZIM3oiLz48L3N2Zz4=) no-repeat center center !important;
+	background-image: url('/public/querix/icon/svg/24/ic_transformer_menu_hide_24px.svg') !important; 
 	width: 32px;
 	height: 32px;
 	border: none;
 	margin: 0 1.5rem;
 	cursor: pointer;
-  align-self: center;
-  /* color: #fff; */
-  /* position: absolute; */
-  /* left: 1rem; */
+	align-self: center;
+	/* color: #fff; */
+	/* position: absolute; */
+	/* left: 1rem; */
 }
 
 .cmsfb .cms-button-mainmenu-close > svg,
