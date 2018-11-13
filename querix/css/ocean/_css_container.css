@@ -94,6 +94,11 @@ GroupBox Header can also have form class qx-c-fcls_detail_gb_cnt
 }
 
 
+/*GroupBox Icon to fold/unfold HuHo 13.11.2018*/
+.qx-aum.qx-aum-group-box.qx-display-grid > label > .qx-icon::after {
+ color: white;
+}
+
 /*Only groupBoxes with the form class .qx-c-fcls_detail_gb_cnt*/
 .qx-c-fcls_detail_gb_cnt.qx-aum-group-box .qx-groupbox-header
 {

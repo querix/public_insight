@@ -556,6 +556,8 @@ INPUT FOCUS (ALL Element Types with textBox(abstract text box)
 .qx-aum.qx-text-field.qx-aum-text-area.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
 .qx-aum.qx-aum-time-edit-field.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
 .qx-aum.qx-aum-calendar.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly input,
+.qx-aum.qx-aum-calendar.qx-has-focus, 
+.qx-aum.qx-aum-calendar.qx-has-focus *,
 .qx-aum-function-field-abs.qx-has-focus .qx-ff-text,
 .qx-aum-function-field-abs.qx-has-focus .qx-ff-text *
 {
