@@ -9,10 +9,17 @@
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_toolbar_menu.qxtheme"/>
   </DoStyleAction>
 
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_error_message.qxtheme"/>
+  </DoStyleAction> 
 
-
-  
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_report.qxtheme"/>
+  </DoStyleAction>   
 <!--
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_display_at_redirection.qxtheme"/>
+  </DoStyleAction> 
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_application_defaults.qxtheme"/>
   </DoStyleAction>
@@ -35,17 +42,7 @@
   </DoStyleAction>    
 
 
--->
-  <DoStyleAction>
-    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_display_at_redirection.qxtheme"/>
-  </DoStyleAction> 
-  <DoStyleAction>
-    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_error_message.qxtheme"/>
-  </DoStyleAction> 
-
-  <DoStyleAction>
-    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_report.qxtheme"/>
-  </DoStyleAction>    
+-->  
 <!--
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_menu_launcher.qxtheme"/>
