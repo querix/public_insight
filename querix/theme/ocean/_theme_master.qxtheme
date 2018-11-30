@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <StyleSheet xmlns="http://querix.com">
-
-      <WithClassFilter ClassName="fcls_align_left">
+  <WithClassFilter ClassName="fcls_align_left">
     <StyleSheet>
       <DoStyleAction>
         <SetProperty>
@@ -12,9 +11,8 @@
         </SetProperty>
       </DoStyleAction>
     </StyleSheet>
-  </WithClassFilter> 
-  
-    <WithClassFilter ClassName="fcls_align_right">
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_align_right">
     <StyleSheet>
       <DoStyleAction>
         <SetProperty>
@@ -25,9 +23,8 @@
         </SetProperty>
       </DoStyleAction>
     </StyleSheet>
-  </WithClassFilter>  
-  
-    <WithClassFilter ClassName="fcls_align_hcenter">
+  </WithClassFilter>
+  <WithClassFilter ClassName="fcls_align_hcenter">
     <StyleSheet>
       <DoStyleAction>
         <SetProperty>
@@ -38,8 +35,7 @@
         </SetProperty>
       </DoStyleAction>
     </StyleSheet>
-  </WithClassFilter>  
-  
+  </WithClassFilter>
   <WithClassFilter ClassName="fcls_align_top">
     <StyleSheet>
       <DoStyleAction>
@@ -51,8 +47,7 @@
         </SetProperty>
       </DoStyleAction>
     </StyleSheet>
-  </WithClassFilter>  
-  
+  </WithClassFilter>
   <WithClassFilter ClassName="fcls_align_bottom">
     <StyleSheet>
       <DoStyleAction>
@@ -65,7 +60,6 @@
       </DoStyleAction>
     </StyleSheet>
   </WithClassFilter>
-  
   <WithClassFilter ClassName="fcls_align_hstretch">
     <StyleSheet>
       <DoStyleAction>
@@ -90,7 +84,6 @@
       </DoStyleAction>
     </StyleSheet>
   </WithClassFilter>
-
   <ElementFilter ElementName="Label">
     <StyleSheet>
       <WithPseudoClassFilter PseudoClassName="Message">
@@ -118,21 +111,10 @@
         </StyleSheet>
       </WithPseudoClassFilter>
       <WithPseudoClassFilter>
-        <StyleSheet>
-          <DoStyleAction>
-            <SetProperty>
-              <PropertyPath>
-                <PropertyName>ForeColor</PropertyName>
-              </PropertyPath>
-              <PropertyValue type="CustomizedColor" RedColor="253" GreenColor="255" BlueColor="0" Alpha="94" />
-            </SetProperty>
-          </DoStyleAction>
-        </StyleSheet>
+        <StyleSheet />
       </WithPseudoClassFilter>
     </StyleSheet>
   </ElementFilter>
-  
-  
   <ElementFilter ElementName="ReportViewerConfig">
     <StyleSheet>
       <ElementIdFilter Identifier="screen">
@@ -217,8 +199,7 @@
       </ElementIdFilter>
     </StyleSheet>
   </ElementFilter>
-  
-    <ElementFilter ElementName="MenuBar">
+  <ElementFilter ElementName="MenuBar">
     <StyleSheet>
       <ElementIdFilter Identifier="demo">
         <StyleSheet>
@@ -259,7 +240,6 @@
           </DoStyleAction>
         </StyleSheet>
       </WithClassFilter>
-
       <DoStyleAction>
         <SetProperty>
           <PropertyPath>
@@ -283,7 +263,4 @@
       </DoStyleAction>
     </StyleSheet>
   </ElementFilter>
- 
-
-  
-  </StyleSheet>
+</StyleSheet>

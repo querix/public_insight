@@ -175,7 +175,10 @@
 .qx-c-fcls_length_20qch.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
 .qx-c-fcls_length_20qch.qx-aum.qx-aum-canvas.qx-aum-abstract-field /*Canvas*/
 {
-	width: 20rem !important;
+	min-width: 10em;
+	/*width: 20rem !important;*/
+	width: auto !important;
+	max-width: 20em;	
 }
 
 .qx-c-fcls_length_25qch.qx-aum.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field, /*textField*/
