@@ -112,31 +112,49 @@ background-color: rgb(58, 89, 126);
 /*##################### 
 MDI TAB 
 ##############*/
-
-
-.ui-widget-header .ui-state-default[role="tab"]
-{
-    height:2rem;
-    margin; 5px;
-    padding: 10px;
-    border-top: 5px;
+.ui-widget-header .ui-state-default[role="tab"] {
+  height:2.7rem;
+  display: flex;
+  min-width: 120px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background: #fff;
+  font-weight: 400;
+  padding: 0;
 }
 
-/*MDI tabbed_container unselected tab*/
-.ui-widget-header .ui-state-default[role="tab"] {
-    border: 1px solid #d3d3d3;
-    background: rgb(58, 89, 126);
-    font-weight: 400;
-    color: rgb(32, 53, 94);
+.ui-widget-header .ui-state-default[role="tab"] > a {
+  background: rgba(58, 89, 126,.75);
+  padding: 0 10px;
+  margin: 0;
+  display: flex;
+  align-self: stretch;
+  flex: 1;
+  border: none;
+  border-radius: 4px 4px 0 0;
+}
+
+.ui-widget-header .ui-state-default[role="tab"] > a > .qx-text-with-icon {
+  justify-content: center;
+  align-items: center;
+}
+
+.ui-widget-header .ui-state-default[role="tab"].qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255,255,255,.6);
 }
 
 /*MDI tabbed_container selected tab*/
 .ui-widget-header .ui-state-default.ui-state-active[role="tab"] {
-    border: 0px solid #aaa;
-	background:  rgb(148, 169, 186);
-    /*background: rgb(58, 89, 126);*/
-    font-weight: 400;
-    /*color: rgb(32, 53, 94);*/
-    color:red;
+    border: 2px solid #fff;
+    border-bottom: none;
+}
+.ui-widget-header .ui-state-default.ui-state-active[role="tab"] > a {
+  background: rgb(58, 89, 126);
 }
 
+.ui-widget-header .ui-state-default.ui-state-active[role="tab"].qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text {
+  color: #ededed;
+}

@@ -174,19 +174,7 @@ html,body {
 }
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu div.qx-aum-menu-bar li.menu-item-selected {
-	background-color: #4d6c82;
-	transition-duration: .3s;
-	transition-property: background-color;
-}
-.cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu div.qx-aum-menu-bar li.menu-item-selected > a:before {
-	z-index: -1;
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	width: .4em;
-	background-color: #1eaaf1;
+	background-color: #0397da;
 	transition-duration: .3s;
 	transition-property: background-color;
 }
