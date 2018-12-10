@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pie chart</title>
+</head>
+<svg width="400px" height="400px" id="s" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">
+    path:hover {
+      opacity: 0.8;
+    }
+  </style>
+</svg>
+<script>
+function clickHandler() { // we could add the event parameter if we needed it
+    alert("You clicked a pie piece!");
+}
+
+function makeSVG(tag, attrs) {
+    var el= document.createElementNS('http://www.w3.org/2000/svg', tag);
+    for (var k in attrs)
+        if (attrs.hasOwnProperty(k)) el.setAttribute(k, attrs[k]);
+    return el;
+}
+
+function drawArcs(paper, pieData){
+    var total = pieData.reduce(function (accu, that) { return that + accu; }, 0);
+    var sectorAngleArr = pieData.map(function (v) { return 360 * v / total; });
+
+    var startAngle = 0;
+    var endAngle = 0;
+    for (var i=0; i<sectorAngleArr.length; i++){
+        startAngle = endAngle;
+        endAngle = startAngle + sectorAngleArr[i];
+
+        var x1,x2,y1,y2 ;
+
+        x1 = parseInt(Math.round(200 + 195*Math.cos(Math.PI*startAngle/180)));
+        y1 = parseInt(Math.round(200 + 195*Math.sin(Math.PI*startAngle/180)));
+
+        x2 = parseInt(Math.round(200 + 195*Math.cos(Math.PI*endAngle/180)));
+        y2 = parseInt(Math.round(200 + 195*Math.sin(Math.PI*endAngle/180)));
+
+        var d = "M200,200  L" + x1 + "," + y1 + "  A195,195 0 " + ((endAngle-startAngle > 180) ? 1 : 0) + ",1 " + x2 + "," + y2 + " z";
+        //alert(d); // enable to see coords as they are displayed
+        var c = parseInt(i / sectorAngleArr.length * 360);
+        var arc = makeSVG("path", {d: d, fill: "hsl(" + c + ", 66%, 50%)"});
+        paper.appendChild(arc);
+        arc.onclick = clickHandler; // This is optional, of course
+    }
+}
+var svgdoc = document.getElementById("s");
+drawArcs(svgdoc, [52,15,20,80]); // here is the pie chart data
+
+// You can attach additional content (from e.g. AJAX) like this:
+var parser = new DOMParser();
+var docToEmbed = parser.parseFromString("<svg xmlns='http://www.w3.org/2000/svg'><text x='50' y='50' fill='black'>hi</text></svg>", "image/svg+xml");
+Array.prototype.slice.call(docToEmbed.documentElement.childNodes).forEach(function(elem) {
+  svgdoc.appendChild(document.importNode(elem, true));
+});
+</script>
