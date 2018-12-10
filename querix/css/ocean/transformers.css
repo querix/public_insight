@@ -179,6 +179,10 @@ html,body {
 	transition-property: background-color;
 }
 
+.cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu div.qx-aum-menu-bar li.menu-item-selected > a {
+	color: rgba(255,255,255);
+}
+
 .cmsfb:root #cms-topbar {
 	position: fixed;
 	top: 0;
