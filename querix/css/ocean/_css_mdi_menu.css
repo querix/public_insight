@@ -10,7 +10,8 @@ MDI-Container stuff
 /*Tab Handles */
 
 /* MDI-Container Root-Tab should be hidden without taking place / display:none */
-.qx-page-0-header
+/*modified for informix compatmode Victor 14.12.2018 */
+.ui-widget-header .ui-state-default[role="tab"].qx-page-0-header
 {
     /*visibility: hidden;*/
     display: none;
@@ -28,3 +29,55 @@ MDI-Container stuff
     border-bottom: 1px solid #5c9ccc !important; 
     
 }*/
+
+
+
+/*##################### 
+MDI TAB 
+##############*/
+.ui-widget-header .ui-state-default[role="tab"] {
+  height:2.7rem;
+  display: flex;
+  min-width: 120px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background: #fff;
+  font-weight: 400;
+  padding: 0;
+}
+
+.ui-widget-header .ui-state-default[role="tab"] > a {
+  background: rgba(58, 89, 126,.75);
+  padding: 0 10px;
+  margin: 0;
+  display: flex;
+  align-self: stretch;
+  flex: 1;
+  border: none;
+  border-radius: 4px 4px 0 0;
+}
+
+.ui-widget-header .ui-state-default[role="tab"] > a > .qx-text-with-icon {
+  justify-content: center;
+  align-items: center;
+}
+
+.ui-widget-header .ui-state-default[role="tab"].qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255,255,255,.6);
+}
+
+/*MDI tabbed_container selected tab*/
+.ui-widget-header .ui-state-default.ui-state-active[role="tab"] {
+    border: 2px solid #fff;
+    border-bottom: none;
+}
+.ui-widget-header .ui-state-default.ui-state-active[role="tab"] > a {
+  background: rgb(58, 89, 126);
+}
+
+.ui-widget-header .ui-state-default.ui-state-active[role="tab"].qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text {
+  color: #ededed;
+}

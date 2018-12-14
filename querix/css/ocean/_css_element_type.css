@@ -796,6 +796,7 @@ MARGIN ALL Elements MARGIN
   padding-left: 2px;
   padding-right: 2px;
 }
+/*Function Field*/
 .qx-aum.qx-c-fcls_data_widget.qx-aum-function-field-abs {
   padding-left: 0;
   padding-right: 0;
@@ -1251,7 +1252,7 @@ Element Type ComboBoxList Field with form element class fcls_data_widget
 	border: 1px solid rgba(92, 156, 204, .5) !important; 
 }
 */
-
+/*Function Field*/
 .qx-c-fcls_data_widget.qx-aum-function-field-abs {
 /*     border: 0px solid #A0F !important;  */
     background:transparent;
@@ -1500,7 +1501,7 @@ Fix size buttons
 /*###############################################
 images for icons/buttons
 ###############################################*/
-
+/*Function Field*/
 .qx-c-fcls_image_remove.qx-aum-function-field-abs
 {
 	color:red;
@@ -1508,8 +1509,24 @@ images for icons/buttons
 	background: none;
 }
 
-/* replace the functionField button image */
-.qx-c-fcls_image_remove.qx-aum-function-field-abs .qx-image.qx-image-scaling-none
+
+/* Trying to replace the default icon and center it on the button 12.12.2018 HuHo*/
+.qx-aum-function-field-abs
+.qx-aum.qx-aum-button.qx-aum-abstract-string-field.qx-has-image
+.qx-no-image.ui-button.ui-button-text-only
+.qx-image.qx-image-scaling-none
+{
+  /*display: block;*/
+align-self: center;  
+text-align: center !important;
+vertical-align:middle !important;
+horizontal-align:middle !important;
+	content: url(/public/querix/icon/svg/24/ic_sub_dialog_24px.svg);
+}	
+	
+
+/* replace the functionField button image ViOr */
+#.qx-c-fcls_image_remove.qx-aum-function-field-abs .qx-image.qx-image-scaling-none
 {
   display: block;
   width: 0px; /* Width of new image */

@@ -18,9 +18,28 @@
 
 /*
 #######################################################
+Legacy Compat Mode Informix panels  HuHO 14.12.2018
+#######################################################
+*/
+.qx-o-c-classic
+{
+	background-color: white;
+}
+
+
+.qx-o-c-classic:not(.qx-o-c-nativestyle)
+{
+	background-color: white !important;
+}
+
+
+/*
+#######################################################
 Legacy Coordinate Panel
 #######################################################
 */
+
+
 .qx-content.qx-display-grid.qx-root.qx-aum.qx-c-classic.qx-o-aum-window
 {
 	background-color: white;
