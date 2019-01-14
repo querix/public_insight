@@ -1,266 +1,52 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <StyleSheet xmlns="http://querix.com">
-  <WithClassFilter ClassName="fcls_align_left">
-    <StyleSheet>
-      <DoStyleAction>
-        <SetProperty>
-          <PropertyPath>
-            <PropertyName>HorizontalAlignment</PropertyName>
-          </PropertyPath>
-          <PropertyValue>Left</PropertyValue>
-        </SetProperty>
-      </DoStyleAction>
-    </StyleSheet>
-  </WithClassFilter>
-  <WithClassFilter ClassName="fcls_align_right">
-    <StyleSheet>
-      <DoStyleAction>
-        <SetProperty>
-          <PropertyPath>
-            <PropertyName>HorizontalAlignment</PropertyName>
-          </PropertyPath>
-          <PropertyValue>Right</PropertyValue>
-        </SetProperty>
-      </DoStyleAction>
-    </StyleSheet>
-  </WithClassFilter>
-  <WithClassFilter ClassName="fcls_align_hcenter">
-    <StyleSheet>
-      <DoStyleAction>
-        <SetProperty>
-          <PropertyPath>
-            <PropertyName>HorizontalAlignment</PropertyName>
-          </PropertyPath>
-          <PropertyValue>Center</PropertyValue>
-        </SetProperty>
-      </DoStyleAction>
-    </StyleSheet>
-  </WithClassFilter>
-  <WithClassFilter ClassName="fcls_align_top">
-    <StyleSheet>
-      <DoStyleAction>
-        <SetProperty>
-          <PropertyPath>
-            <PropertyName>VerticalAlignment</PropertyName>
-          </PropertyPath>
-          <PropertyValue>Top</PropertyValue>
-        </SetProperty>
-      </DoStyleAction>
-    </StyleSheet>
-  </WithClassFilter>
-  <WithClassFilter ClassName="fcls_align_bottom">
-    <StyleSheet>
-      <DoStyleAction>
-        <SetProperty>
-          <PropertyPath>
-            <PropertyName>VerticalAlignment</PropertyName>
-          </PropertyPath>
-          <PropertyValue>Bottom</PropertyValue>
-        </SetProperty>
-      </DoStyleAction>
-    </StyleSheet>
-  </WithClassFilter>
-  <WithClassFilter ClassName="fcls_align_hstretch">
-    <StyleSheet>
-      <DoStyleAction>
-        <SetProperty>
-          <PropertyPath>
-            <PropertyName>HorizontalAlignment</PropertyName>
-          </PropertyPath>
-          <PropertyValue>Stretch</PropertyValue>
-        </SetProperty>
-      </DoStyleAction>
-    </StyleSheet>
-  </WithClassFilter>
-  <WithClassFilter ClassName="fcls_align_hstretch">
-    <StyleSheet>
-      <DoStyleAction>
-        <SetProperty>
-          <PropertyPath>
-            <PropertyName>VerticalAlignment</PropertyName>
-          </PropertyPath>
-          <PropertyValue>Stretch</PropertyValue>
-        </SetProperty>
-      </DoStyleAction>
-    </StyleSheet>
-  </WithClassFilter>
-  <ElementFilter ElementName="Label">
-    <StyleSheet>
-      <WithPseudoClassFilter PseudoClassName="Message">
-        <StyleSheet>
-          <DoStyleAction>
-            <SetProperty>
-              <PropertyPath>
-                <PropertyName>Wrapper</PropertyName>
-              </PropertyPath>
-              <PropertyValue type="Wrapper" Name="popup" Parameter="5" />
-            </SetProperty>
-          </DoStyleAction>
-        </StyleSheet>
-      </WithPseudoClassFilter>
-      <WithPseudoClassFilter PseudoClassName="Error">
-        <StyleSheet>
-          <DoStyleAction>
-            <SetProperty>
-              <PropertyPath>
-                <PropertyName>Wrapper</PropertyName>
-              </PropertyPath>
-              <PropertyValue type="Wrapper" Name="popupError" Parameter=".qx-focused" />
-            </SetProperty>
-          </DoStyleAction>
-        </StyleSheet>
-      </WithPseudoClassFilter>
-      <WithPseudoClassFilter>
-        <StyleSheet />
-      </WithPseudoClassFilter>
-    </StyleSheet>
-  </ElementFilter>
-  <ElementFilter ElementName="ReportViewerConfig">
-    <StyleSheet>
-      <ElementIdFilter Identifier="screen">
-        <StyleSheet>
-          <DoStyleAction>
-            <SetProperty>
-              <PropertyPath>
-                <PropertyName>ViewerType</PropertyName>
-              </PropertyPath>
-              <PropertyValue>TextViewer</PropertyValue>
-            </SetProperty>
-          </DoStyleAction>
-          <DoStyleAction>
-            <SetProperty>
-              <PropertyPath>
-                <PropertyName>Parameter</PropertyName>
-              </PropertyPath>
-              <PropertyValue>Console report</PropertyValue>
-            </SetProperty>
-          </DoStyleAction>
-        </StyleSheet>
-      </ElementIdFilter>
-      <ElementIdFilter Identifier="printer">
-        <StyleSheet>
-          <DoStyleAction>
-            <SetProperty>
-              <PropertyPath>
-                <PropertyName>ViewerType</PropertyName>
-              </PropertyPath>
-              <PropertyValue>Print</PropertyValue>
-            </SetProperty>
-          </DoStyleAction>
-          <DoStyleAction>
-            <SetProperty>
-              <PropertyPath>
-                <PropertyName>Parameter</PropertyName>
-              </PropertyPath>
-              <PropertyValue>.txt</PropertyValue>
-            </SetProperty>
-          </DoStyleAction>
-        </StyleSheet>
-      </ElementIdFilter>
-      <ElementIdFilter Identifier="new_window">
-        <StyleSheet>
-          <DoStyleAction>
-            <SetProperty>
-              <PropertyPath>
-                <PropertyName>ViewerType</PropertyName>
-              </PropertyPath>
-              <PropertyValue>NewWindow</PropertyValue>
-            </SetProperty>
-          </DoStyleAction>
-          <DoStyleAction>
-            <SetProperty>
-              <PropertyPath>
-                <PropertyName>Parameter</PropertyName>
-              </PropertyPath>
-              <PropertyValue>New Tab</PropertyValue>
-            </SetProperty>
-          </DoStyleAction>
-        </StyleSheet>
-      </ElementIdFilter>
-      <ElementIdFilter Identifier="download">
-        <StyleSheet>
-          <DoStyleAction>
-            <SetProperty>
-              <PropertyPath>
-                <PropertyName>ViewerType</PropertyName>
-              </PropertyPath>
-              <PropertyValue>Download</PropertyValue>
-            </SetProperty>
-          </DoStyleAction>
-          <DoStyleAction>
-            <SetProperty>
-              <PropertyPath>
-                <PropertyName>Parameter</PropertyName>
-              </PropertyPath>
-              <PropertyValue>.txt</PropertyValue>
-            </SetProperty>
-          </DoStyleAction>
-        </StyleSheet>
-      </ElementIdFilter>
-    </StyleSheet>
-  </ElementFilter>
-  <ElementFilter ElementName="MenuBar">
-    <StyleSheet>
-      <ElementIdFilter Identifier="demo">
-        <StyleSheet>
-          <ChildFilter>
-            <StyleSheet>
-              <ElementFilter ElementName="MenuCommand">
-                <StyleSheet>
-                  <WithClassFilter ClassName="classic">
-                    <StyleSheet />
-                  </WithClassFilter>
-                </StyleSheet>
-              </ElementFilter>
-            </StyleSheet>
-          </ChildFilter>
-        </StyleSheet>
-      </ElementIdFilter>
-    </StyleSheet>
-  </ElementFilter>
-  <ElementFilter ElementName="MenuGroup">
-    <StyleSheet>
-      <WithClassFilter ClassName="expanded">
-        <StyleSheet>
-          <DoStyleAction>
-            <SetProperty>
-              <PropertyPath>
-                <PropertyName>ImageId</PropertyName>
-              </PropertyPath>
-              <PropertyValue type="ResourceId" Uri="{CONTEXT}public/querix/icon/svg/24/ic_arrow_drop_down_24px.svg" />
-            </SetProperty>
-          </DoStyleAction>
-          <DoStyleAction>
-            <SetProperty>
-              <PropertyPath>
-                <PropertyName>Wrapper</PropertyName>
-              </PropertyPath>
-              <PropertyValue type="Wrapper" Name="applyClass" Parameter="[&quot;ui-accordion ui-widget ui-helper-reset&quot;,&#xD;&#xA; {&#xD;&#xA;      &quot;find&quot;:&quot;&gt; a&quot;,&#xD;&#xA;      &quot;add&quot;: &quot;ui-accordion-header ui-state-default ui-accordion-header-active ui-state-active ui-corner-top&quot;&#xD;&#xA;  },&#xD;&#xA;{&#xD;&#xA;      &quot;find&quot;:&quot;&gt; ul&quot;,&#xD;&#xA;      &quot;add&quot;: &quot;ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active&quot;&#xD;&#xA;  }]&#xD;&#xA;" />
-            </SetProperty>
-          </DoStyleAction>
-        </StyleSheet>
-      </WithClassFilter>
-      <DoStyleAction>
-        <SetProperty>
-          <PropertyPath>
-            <PropertyName>Wrapper</PropertyName>
-          </PropertyPath>
-          <PropertyValue type="Wrapper" Name="applyClass" Parameter="[&quot;ui-accordion ui-widget ui-helper-reset&quot;,&#xD;&#xA; {&#xD;&#xA;      &quot;find&quot;:&quot;&gt; a&quot;,&#xD;&#xA;      &quot;add&quot;: &quot;ui-accordion-header ui-state-default ui-corner-all&quot;&#xD;&#xA;  }]" />
-        </SetProperty>
-      </DoStyleAction>
-    </StyleSheet>
-  </ElementFilter>
-  <ElementFilter ElementName="ToolbarButton">
-    <StyleSheet>
-      <DoStyleAction>
-        <SetProperty>
-          <PropertyPath>
-            <PropertyName>Image</PropertyName>
-            <PropertyName>ImagePosition</PropertyName>
-          </PropertyPath>
-          <PropertyValue>Top</PropertyValue>
-        </SetProperty>
-      </DoStyleAction>
-    </StyleSheet>
-  </ElementFilter>
-</StyleSheet>
+
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_alignment_size.qxtheme"/>
+  </DoStyleAction>
+
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_toolbar_menu.qxtheme"/>
+  </DoStyleAction>
+
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_error_message.qxtheme"/>
+  </DoStyleAction> 
+
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_report.qxtheme"/>
+  </DoStyleAction>   
+<!--
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_display_at_redirection.qxtheme"/>
+  </DoStyleAction> 
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_application_defaults.qxtheme"/>
+  </DoStyleAction>
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_button_form.qxtheme"/>
+  </DoStyleAction>  
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_color.qxtheme"/>
+  </DoStyleAction>  
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_container.qxtheme"/>
+  </DoStyleAction>  
+
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_default_data_widget.qxtheme"/>
+  </DoStyleAction> 
+
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_text_label.qxtheme"/>
+  </DoStyleAction>    
+
+
+-->  
+<!--
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_menu_launcher.qxtheme"/>
+  </DoStyleAction>
+-->
+
+  </StyleSheet>

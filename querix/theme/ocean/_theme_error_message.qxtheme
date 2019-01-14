@@ -27,13 +27,16 @@
         </StyleSheet>
       </WithPseudoClassFilter>
       <WithPseudoClassFilter>
+        <StyleSheet />
+      </WithPseudoClassFilter>
+      <WithPseudoClassFilter PseudoClassName="Comment">
         <StyleSheet>
           <DoStyleAction>
             <SetProperty>
               <PropertyPath>
-                <PropertyName>ForeColor</PropertyName>
+                <PropertyName>Wrapper</PropertyName>
               </PropertyPath>
-              <PropertyValue type="CustomizedColor" RedColor="253" GreenColor="255" BlueColor="0" Alpha="94" />
+              <PropertyValue type="Wrapper" Name="popup" Parameter="5" />
             </SetProperty>
           </DoStyleAction>
         </StyleSheet>
