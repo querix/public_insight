@@ -642,8 +642,7 @@ ALL Elements V-Size
 
 .qx-aum-progress-bar,
 .qx-horizontal.qx-aum.qx-aum-slider,
-.qx-aum-scroll-bar
-{
+.qx-horizontal.qx-aum-scroll-bar {
 	height: 2.2rem !important;
 	vertical-align: middle;
 }
@@ -661,12 +660,9 @@ ALL Elements V-Size
 .qx-single-row.qx-aum-button, /*button*/
 .qx-aum-progress-bar,
 .qx-horizontal.qx-aum.qx-aum-slider,
-.qx-aum-scroll-bar
-
-{
+.qx-horizontal.qx-aum-scroll-bar {
 	height: 2.2rem !important;
 	vertical-align: middle;
-	align:left; /*just for test*/
 }
 /*Special Case: only with button fit.content   qx-c-fcls_button_image_only  HuHo 03.11.2018*/
 .qx-c-fcls_button_image_only.qx-single-row.qx-aum-button
@@ -1776,7 +1772,26 @@ text-align: left;
 .qx-aum-coord-panel .qx-single-row.qx-aum-button, /*button*/
 .qx-aum-coord-panel .qx-aum-progress-bar,
 .qx-aum-coord-panel .qx-horizontal.qx-aum.qx-aum-slider,
-.qx-aum-coord-panel .qx-aum-scroll-bar {
+.qx-aum-coord-panel .qx-horizontal.qx-aum-scroll-bar 
+{
 	height: var(--qx-qch, 22px) !important;
 }
 /*END PREVENT WIDGETS IN COORDPANEL FROM THE SIZE AND POSITION CHANGES */
+
+/*FOR SCROLLBAR IN INFORMIX MODE*/
+.qx-compatibility-mode-informix4gl .qx-aum-coord-panel {
+	overflow: visible !important;
+}
+
+.qx-compatibility-mode-informix4gl .qx-aum-coord-panel > .qx-aum-scroll-bar.qx-vertical {
+  visibility: hidden;
+  transition: all .5s
+}
+
+.qx-compatibility-mode-informix4gl .qx-aum-coord-panel:hover > .qx-aum-scroll-bar.qx-vertical,
+.qx-compatibility-mode-informix4gl .qx-aum-coord-panel:focus-within > .qx-aum-scroll-bar.qx-vertical {
+	z-index: 1;
+	visibility: visible;
+}
+/*END FOR SCROLLBAR IN INFORMIX MODE*/
+
