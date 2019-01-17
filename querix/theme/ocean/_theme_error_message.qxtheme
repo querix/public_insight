@@ -26,9 +26,6 @@
           </DoStyleAction>
         </StyleSheet>
       </WithPseudoClassFilter>
-      <WithPseudoClassFilter>
-        <StyleSheet />
-      </WithPseudoClassFilter>
       <WithPseudoClassFilter PseudoClassName="Comment">
         <StyleSheet>
           <DoStyleAction>
@@ -36,7 +33,7 @@
               <PropertyPath>
                 <PropertyName>Wrapper</PropertyName>
               </PropertyPath>
-              <PropertyValue type="Wrapper" Name="popup" Parameter="5" />
+              <PropertyValue type="Wrapper" Name="popup" Parameter=".qx-focused" />
             </SetProperty>
           </DoStyleAction>
         </StyleSheet>
