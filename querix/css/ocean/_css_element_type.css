@@ -642,7 +642,8 @@ ALL Elements V-Size
 
 .qx-aum-progress-bar,
 .qx-horizontal.qx-aum.qx-aum-slider,
-.qx-horizontal.qx-aum-scroll-bar {
+.qx-aum-scroll-bar
+{
 	height: 2.2rem !important;
 	vertical-align: middle;
 }
@@ -660,9 +661,12 @@ ALL Elements V-Size
 .qx-single-row.qx-aum-button, /*button*/
 .qx-aum-progress-bar,
 .qx-horizontal.qx-aum.qx-aum-slider,
-.qx-horizontal.qx-aum-scroll-bar {
+.qx-aum-scroll-bar
+
+{
 	height: 2.2rem !important;
 	vertical-align: middle;
+	align:left; /*just for test*/
 }
 /*Special Case: only with button fit.content   qx-c-fcls_button_image_only  HuHo 03.11.2018*/
 .qx-c-fcls_button_image_only.qx-single-row.qx-aum-button
@@ -843,34 +847,114 @@ INPUT ELEMENTS WITHOUT FOCUS (ALL Element Types with textBox)
 INPUT FOCUS (ALL Element Types with textBox(abstract text box)
 ####################################################################
 */
-.qx-aum.qx-aum-combo-box.qx-has-focus, 
-.qx-aum.qx-aum-function-field-abs.qx-has-focus 
-.qx-aum.qx-ff-text, 
-.qx-aum.qx-aum-function-field-abs.qx-has-focus 
-.qx-aum.qx-ff-text *, 
-.qx-aum.qx-aum-spinner.qx-has-focus, 
-.qx-aum.qx-aum-spinner.qx-has-focus .qx-text, 
-.qx-aum.qx-aum-spinner.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
-.qx-aum.qx-aum-text-area.qx-has-focus, 
-.qx-aum.qx-aum-text-area.qx-has-focus *, 
-.qx-aum.qx-aum-text-field.qx-has-focus, 
-.qx-aum.qx-aum-text-field.qx-has-focus *, 
-.qx-aum.qx-aum-time-edit-field.qx-has-focus, 
-.qx-aum.qx-aum-time-edit-field.qx-has-focus *,
-.qx-aum.qx-aum-check-box.qx-has-focus,
-.qx-aum.qx-aum-blob-viewer.qx-blob-image.qx-active.qx-enabled.qx-not-readonly,
-.qx-aum.qx-aum-list-box.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
-.qx-aum.qx-text-field.qx-aum-text-area.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
-.qx-aum.qx-aum-time-edit-field.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
-.qx-aum.qx-aum-calendar.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly input,
-.qx-aum.qx-aum-calendar.qx-has-focus, 
-.qx-aum.qx-aum-calendar.qx-has-focus *,
-.qx-aum-function-field-abs.qx-has-focus .qx-ff-text,
-.qx-aum-function-field-abs.qx-has-focus .qx-ff-text *
+.qx-element-role-input.qx-aum.qx-aum-combo-box.qx-has-focus, 
+.qx-element-role-input.qx-aum.qx-aum-function-field-abs.qx-has-focus 
+.qx-element-role-input.qx-aum.qx-ff-text, 
+.qx-element-role-input.qx-aum.qx-aum-function-field-abs.qx-has-focus 
+.qx-element-role-input.qx-aum.qx-ff-text *, 
+.qx-element-role-input.qx-aum.qx-aum-spinner.qx-has-focus, 
+.qx-element-role-input.qx-aum.qx-aum-spinner.qx-has-focus .qx-text, 
+.qx-element-role-input.qx-aum.qx-aum-spinner.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
+.qx-element-role-input.qx-aum.qx-aum-text-area.qx-has-focus, 
+.qx-element-role-input.qx-aum.qx-aum-text-area.qx-has-focus *, 
+.qx-element-role-input.qx-aum.qx-aum-text-field.qx-has-focus, 
+.qx-element-role-input.qx-aum.qx-aum-text-field.qx-has-focus *, 
+.qx-element-role-input.qx-aum.qx-aum-time-edit-field.qx-has-focus, 
+.qx-element-role-input.qx-aum.qx-aum-time-edit-field.qx-has-focus *,
+.qx-element-role-input.qx-aum.qx-aum-check-box.qx-has-focus,
+.qx-element-role-input.qx-aum.qx-aum-blob-viewer.qx-blob-image.qx-active.qx-enabled.qx-not-readonly,
+.qx-element-role-input.qx-aum.qx-aum-list-box.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
+.qx-element-role-input.qx-aum.qx-text-field.qx-aum-text-area.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
+.qx-element-role-input.qx-aum.qx-aum-time-edit-field.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
+.qx-element-role-input.qx-aum.qx-aum-calendar.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly input,
+.qx-element-role-input.qx-aum.qx-aum-calendar.qx-has-focus, 
+.qx-element-role-input.qx-aum.qx-aum-calendar.qx-has-focus *,
+.qx-element-role-input.qx-aum-function-field-abs.qx-has-focus .qx-ff-text,
+.qx-element-role-input.qx-aum-function-field-abs.qx-has-focus .qx-ff-text *
 {
 background-color:rgba(208,229,245,0.2) !important;
 background-image: none;
 }
+
+
+/*
+####################################################################
+DISPLAY FOCUS (ALL Element Types with textBox(abstract text box)
+####################################################################
+*/
+.qx-element-role-display.qx-aum.qx-aum-combo-box.qx-has-focus, 
+.qx-element-role-display.qx-aum.qx-aum-function-field-abs.qx-has-focus 
+.qx-element-role-display.qx-aum.qx-ff-text, 
+.qx-element-role-display.qx-aum.qx-aum-function-field-abs.qx-has-focus 
+.qx-element-role-display.qx-aum.qx-ff-text *, 
+.qx-element-role-display.qx-aum.qx-aum-spinner.qx-has-focus, 
+.qx-element-role-display.qx-aum.qx-aum-spinner.qx-has-focus .qx-text, 
+.qx-element-role-display.qx-aum.qx-aum-spinner.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
+.qx-element-role-display.qx-aum.qx-aum-text-area.qx-has-focus, 
+.qx-element-role-display.qx-aum.qx-aum-text-area.qx-has-focus *, 
+.qx-element-role-display.qx-aum.qx-aum-text-field.qx-has-focus, 
+.qx-element-role-display.qx-aum.qx-aum-text-field.qx-has-focus *, 
+.qx-element-role-display.qx-aum.qx-aum-time-edit-field.qx-has-focus, 
+.qx-element-role-display.qx-aum.qx-aum-time-edit-field.qx-has-focus *,
+.qx-element-role-display.qx-aum.qx-aum-check-box.qx-has-focus,
+.qx-element-role-display.qx-aum.qx-aum-blob-viewer.qx-blob-image.qx-active.qx-enabled.qx-not-readonly,
+.qx-element-role-display.qx-aum.qx-aum-list-box.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
+.qx-element-role-display.qx-aum.qx-text-field.qx-aum-text-area.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
+.qx-element-role-display.qx-aum.qx-aum-time-edit-field.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly,
+.qx-element-role-display.qx-aum.qx-aum-calendar.qx-element-role-input.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly input,
+.qx-element-role-display.qx-aum.qx-aum-calendar.qx-has-focus, 
+.qx-element-role-display.qx-aum.qx-aum-calendar.qx-has-focus *,
+.qx-element-role-display.qx-aum-function-field-abs.qx-has-focus .qx-ff-text,
+.qx-element-role-display.qx-aum-function-field-abs.qx-has-focus .qx-ff-text *
+{
+background-color:  rgb(46, 110, 158) !important;
+background-image: none !important;
+}
+
+/* ######################################## DISPLAY ARRAY ########################################################## */
+/* ### background ### 18.01.2019 HuHo*/
+/*label*/           .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-label.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-has-text.qx-not-readonly.qx-c-activefield.qx-c-fcls_fieldlabel,
+/*textField*/       .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-disabled.qx-readonly.qx-active.ui-state-active.qx-has-text.qx-c-activefield,
+/*functionField*/   .qx-c-lycia_currentrow.qx-element-role-display.qx-aum-function-field-abs.qx-aum-abstract-field.ui-state-active.qx-c-activefield.qx-disabled.qx-readonly,
+/*functionField*/   .qx-c-attribute_blue.qx-c-attribute_reverse.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-disabled.qx-readonly.ui-state-active.qx-c-activefield.qx-has-text,
+/*button bg*/       .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-button.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-c-activefield.qx-focusable-field.qx-enabled.qx-not-readonly,
+/*button face*/     .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-button.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-c-activefield.qx-focusable-field.qx-enabled.qx-not-readonly .qx-no-image.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only .ui-button-text .qx-text-with-icon,
+/*CheckBox*/        .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-bool-widget.qx-aum-check-box.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-has-title.qx-readonly.qx-has-text.qx-active.qx-c-activefield,
+/*Radio*/           .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-radio-group.qx-aum-abstract-field.qx-disabled.qx-readonly.qx-focused.ui-state-focus.qx-has-focus.qx-c-activefield,
+/*RadioButtonList*/ .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-radio-group.qx-aum-abstract-field,
+/*Radio*/           .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-radio-group.qx-aum-abstract-field.qx-readonly.qx-c-activefield,
+/*Combo*/           .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-combo-box.qx-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-disabled.qx-readonly.ui-state-active.qx-c-activefield,
+/*textArea*/        .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-text-field.qx-main-cell.qx-aum-text-area.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-active,
+/*Calendar*/        .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-single-row.qx-aum-calendar.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-disabled.qx-readonly.qx-active.ui-state-active.qx-has-text,
+/*Spinner*/         .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-single-row.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field.qx-aum-abstract-field.ui-qspinner-disabled.qx-active,
+/*TimeEdit*/        .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-active,
+/*ListBox*/         .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-list-box.qx-aum-abstract-field.qx-disabled.qx-readonly.qx-active,
+/*wildcard*/        .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-abstract-field.qx-readonly.qx-c-activefield
+{
+background-color:  rgb(46, 110, 158) !important;
+background-image: none !important;
+color: red !important;   /*just to spot bugs*/
+}
+
+/* ### foreground ### 18.01.2019 HuHo */
+/*label*/.qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-label.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-has-text.qx-not-readonly.qx-c-activefield.qx-c-fcls_fieldlabel .qx-text,
+/*textField*/       .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-text-field.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-disabled.qx-readonly.qx-active.ui-state-active.qx-has-text.qx-c-activefield .qx-text,
+/*textArea*/      .qx-text-field.qx-main-cell.qx-aum-text-area.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-element-role-display.qx-active.qx-c-lycia_currentrow.qx-c-attribute_blue.qx-c-attribute_reverse .qx-text,
+/*Combo*/           .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-combo-box.qx-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-disabled.qx-readonly.ui-state-active.qx-c-activefield .qx-text,
+/*radioButtonLabel*/ .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-radio-group.qx-aum-abstract-field .qx-bool-widget.qx-aum-radio.qx-content.qx-has-text.qx-content.qx-not-readonly .qx-text,
+/*CheckBox*/        .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-bool-widget.qx-aum-check-box.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-has-title.qx-readonly.qx-has-text.qx-active.qx-c-activefield .qx-text,
+/*functionField*/   .qx-c-lycia_currentrow.qx-element-role-display.qx-aum-function-field-abs.qx-aum-abstract-field.ui-state-active.qx-c-activefield.qx-disabled.qx-readonly  .qx-text,
+/*Calendar*/        .qx-single-row.qx-aum-calendar.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-disabled.qx-readonly.qx-element-role-display.qx-active.ui-state-active.qx-has-text.qx-c-lycia_currentrow.qx-c-attribute_blue.qx-c-attribute_reverse .qx-text,
+/*Spinner*/         .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-single-row.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field.qx-aum-abstract-field.ui-qspinner-disabled.qx-active .qx-text,
+/*TimeEdit*/        .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-single-row.qx-aum-time-edit-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-active .qx-text,
+/*ListBox*/         .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-list-box.qx-aum-abstract-field.qx-disabled.qx-readonly.qx-active .qx-text,
+/*button face*/     .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-button.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-c-activefield.qx-focusable-field.qx-enabled.qx-not-readonly .qx-no-image.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only .ui-button-text .qx-text-with-icon .qx-text
+{
+color: white !important;	
+}
+/* #################################### END OF DISPLAY ARRAY ################################ */
+
+
 
 /*Special Case RadioButton */
 
@@ -953,14 +1037,15 @@ background-color:rgba(208,229,245,0.2) !important;
 
 }
 
-.qx-text-field input.qx-text
-{
+/* huho removed  17.01.2019 */
+/*.qx-text-field input.qx-text*/
+/*{*/
 /*border:2px solid #69a7d7;
 border-radius: 3px;
 color:#3a597e;*/
-background-color:rgba(208,229,245,0.2) !important;
+/*background-color:rgba(208,229,245,0.2) !important;*/
 
-}
+/*}*/
 
 /***************************************************/
 
@@ -1772,26 +1857,7 @@ text-align: left;
 .qx-aum-coord-panel .qx-single-row.qx-aum-button, /*button*/
 .qx-aum-coord-panel .qx-aum-progress-bar,
 .qx-aum-coord-panel .qx-horizontal.qx-aum.qx-aum-slider,
-.qx-aum-coord-panel .qx-horizontal.qx-aum-scroll-bar 
-{
+.qx-aum-coord-panel .qx-aum-scroll-bar {
 	height: var(--qx-qch, 22px) !important;
 }
 /*END PREVENT WIDGETS IN COORDPANEL FROM THE SIZE AND POSITION CHANGES */
-
-/*FOR SCROLLBAR IN INFORMIX MODE*/
-.qx-compatibility-mode-informix4gl .qx-aum-coord-panel {
-	overflow: visible !important;
-}
-
-.qx-compatibility-mode-informix4gl .qx-aum-coord-panel > .qx-aum-scroll-bar.qx-vertical {
-  visibility: hidden;
-  transition: all .5s
-}
-
-.qx-compatibility-mode-informix4gl .qx-aum-coord-panel:hover > .qx-aum-scroll-bar.qx-vertical,
-.qx-compatibility-mode-informix4gl .qx-aum-coord-panel:focus-within > .qx-aum-scroll-bar.qx-vertical {
-	z-index: 1;
-	visibility: visible;
-}
-/*END FOR SCROLLBAR IN INFORMIX MODE*/
-
