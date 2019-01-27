@@ -652,7 +652,6 @@ ALL Elements V-Size
 .qx-aum.qx-aum-text-field, /*textField*/
 .qx-single-row.qx-aum.qx-aum-function-field-abs,  /*functionField*/
 .qx-aum.qx-aum-combo-box,  /*ComboList*/
-.qx-aum.qx-aum-calendar,  /*Calendar*/
 .qx-single-row.ui-spinner.qx-aum-spinner, /*Spinner*/
 .qx-single-row.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
 .qx-aum.qx-aum-check-box,  /*CheckBox*/
@@ -661,12 +660,17 @@ ALL Elements V-Size
 .qx-single-row.qx-aum-button, /*button*/
 .qx-aum-progress-bar,
 .qx-horizontal.qx-aum.qx-aum-slider,
+
+.qx-aum.qx-aum-calendar,  /*Calendar*/
+.qx-aum-calendar,
+.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
+
 .qx-aum-scroll-bar
 
 {
 	height: 2.2rem !important;
-	vertical-align: middle;
-	align:left; /*just for test*/
+	vertical-align: middle !important;
+	/*align:left; *//*just for test*/
 }
 /*Special Case: only with button fit.content   qx-c-fcls_button_image_only  HuHo 03.11.2018*/
 .qx-c-fcls_button_image_only.qx-single-row.qx-aum-button
@@ -928,7 +932,8 @@ background-image: none !important;
 /*Calendar*/        .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-single-row.qx-aum-calendar.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-disabled.qx-readonly.qx-active.ui-state-active.qx-has-text,
 /*Spinner*/         .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-single-row.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field.qx-aum-abstract-field.ui-qspinner-disabled.qx-active,
 /*TimeEdit*/        .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-active,
-/*ListBox*/         .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-list-box.qx-aum-abstract-field.qx-disabled.qx-readonly.qx-active,
+/*ListBox*/         .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-list-box.qx-aum-abstract-field.qx-disabled.qx-readonly.qx-active .qx-text,
+
 /*wildcard*/        .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-abstract-field.qx-readonly.qx-c-activefield
 {
 background-color:  rgb(46, 110, 158) !important;
@@ -947,8 +952,8 @@ color: red !important;   /*just to spot bugs*/
 /*Calendar*/        .qx-single-row.qx-aum-calendar.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-disabled.qx-readonly.qx-element-role-display.qx-active.ui-state-active.qx-has-text.qx-c-lycia_currentrow.qx-c-attribute_blue.qx-c-attribute_reverse .qx-text,
 /*Spinner*/         .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-single-row.ui-spinner.qx-aum-spinner.qx-aum-abstract-range-field.qx-aum-abstract-field.ui-qspinner-disabled.qx-active .qx-text,
 /*TimeEdit*/        .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-single-row.qx-aum-time-edit-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-active .qx-text,
-/*ListBox*/         .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-list-box.qx-aum-abstract-field.qx-disabled.qx-readonly.qx-active .qx-text,
-/*button face*/     .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-button.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-c-activefield.qx-focusable-field.qx-enabled.qx-not-readonly .qx-no-image.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only .ui-button-text .qx-text-with-icon .qx-text
+/*button face*/     .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-button.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-c-activefield.qx-focusable-field.qx-enabled.qx-not-readonly .qx-no-image.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only .ui-button-text .qx-text-with-icon .qx-text,
+/*ListBox*/         .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-list-box.qx-aum-abstract-field.qx-disabled.qx-readonly.qx-active .qx-text 
 {
 color: white !important;	
 }
