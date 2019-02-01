@@ -1655,6 +1655,7 @@ background-size: contain;
 .qx-c-fcls_button_lookup.qx-aum-button .qx-text-with-icon, 
 .qx-c-fcls_button_remove.qx-aum-button .qx-text-with-icon, 
 .qx-c-fcls_button_add.qx-aum-button .qx-text-with-icon, 
+.qx-c-fcls_button_attach.qx-aum-button .qx-text-with-icon, 
 .qx-c-fcls_button_edit.qx-aum-button.ui-button-text .qx-text-with-icon,
 .qx-c-fcls_button_done.qx-aum-button .qx-text-with-icon,
 .qx-c-fcls_button_cancel.qx-aum-button.ui-button-text .qx-text-with-icon,
@@ -1705,6 +1706,11 @@ background-image: url(/public/querix/icon/svg/24/ic_remove_24px.svg);
 background-image: url(/public/querix/icon/svg/24/ic_add_24px.svg);
 }
 
+/*Add Button*/
+.qx-c-fcls_button_attach.qx-aum-button .ui-button-text .qx-text-with-icon 
+{
+background-image: url(/public/querix/icon/svg/24/ic_attach_file_24px.svg);
+}
 
 /*Edit Button*/
 .qx-c-fcls_button_edit .qx-text-with-icon
