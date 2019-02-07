@@ -1,0 +1,4 @@
+Material icons are free for everyone to use. Please don’t try to sell them.
+Available under Apache license version 2.0.
+
+https://material.io
