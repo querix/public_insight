@@ -716,7 +716,7 @@ ALL Elements V-Size
  height: auto !important;
 }
 /*Was added to give the user some feedback on current row in INPUT ARRAY */
-.qx-aum-wtf.ui-row-ltr.qx-focusable.qx-table-row.qx-selected
+.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected
 {
 	background-color: #6a89ae;
 	color: white;

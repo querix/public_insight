@@ -178,7 +178,7 @@ background-color: transparent;
 	background: rgba(137,210,255, 0.2);
 	}
 
-.qx-aum-wtf.qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle), .qx-aum-wtf.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse:not(.qx-c-nativestyle) *
+.qx-aum-some.qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle), .qx-aum-some.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse:not(.qx-c-nativestyle) *
 {
 	background: #fbec88;
 }
@@ -209,7 +209,7 @@ Table Column
 */
 
 /*Table column and gridHeader padding/margin/border */
-.qx-aum-table-column.ui-widget-header > div
+.qx-aum-table-column.ui-widget-header > label
 {
   padding-left: 4px !important;
   padding-right: 4px !important;
