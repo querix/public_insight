@@ -24,7 +24,7 @@ Toolbar Button Label
 {
      /*font: bold 0.7rem  "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;*/
      width: 100px;
-     color: white;
+     color: var(--toolbar-fg-color);
 }
 
 
@@ -32,7 +32,7 @@ Toolbar Button Label
 {
     /*border: 1px solid #5c9ccc !important;  */
     border: 1px solid rgb(58, 89, 126);   
-    background: rgb(58, 89, 126);;    
+    background: var(--toolbar-bg-color); /*rgb(58, 89, 126);    */
     margin: 2px;
     padding: 2px;
     /*border-radius: 5px;*/
@@ -48,10 +48,10 @@ Toolbar Button Label
 {
     border:transparent;
     background-image: none;
-    /*color: red;*/
     background:transparent;
 }
 
+/*what was this ?... removal proposal */
 .qx-menu.qx-aum.qx-aum-menu-bar.qx-aum-abstract-container.qx-identifier-topmenu.ui-menubar
 {
     color:red;
@@ -87,24 +87,4 @@ Toolbar button
     width: 10rem;
     color:transparent;
     border:transparent;
-}
-
-/*#####################################
-FORM TabContainer
-#######################################*/
-/*TabContainer unselected tab*/
-.qx-aum-tab.qx-display-grid > :first-child label,
-.qx-aum-tab.qx-display-grid > :first-child label:hover {
-background-image: none;
-background-color: rgb(58, 89, 126);
-}
-
-/*TabContainer selected tab*/
-.qx-aum-tab.qx-display-grid > :first-child [type="radio"]:checked + label {
-    border: 1px solid #aaa;
-    border-bottom: 0;
-    background: rgb(32, 53, 94);
-    font-weight: 400;
-    color: #212121;
-    cursor: default;
 }

@@ -1,3 +1,9 @@
+
+/*
+#######################################################
+Form Class - fcls_detail_cnt
+#######################################################
+*/
 .qx-c-fcls_detail_cnt.qx-aum-items-container.qx-aum-abstract-container
 {
     margin-top: 8px;
@@ -5,14 +11,26 @@
 	
 }
 
+/*
+#######################################################
+Form Class - fcls_container_margin
+Margin for containers with this class
+#######################################################
+*/
 .qx-c-fcls_container_margin.qx-aum-items-container.qx-aum-abstract-container
 {
-    margin: 2px;
+    margin: 6px;
 }
 
+/*
+#######################################################
+Form Class - fcls_container_padding
+Padding for containers with this class
+#######################################################
+*/
 .qx-c-fcls_container_padding.qx-aum-items-container.qx-aum-abstract-container
 {
-    padding: 2px;
+    padding: 6px;
 }
 
 
@@ -23,13 +41,13 @@ Legacy Compat Mode Informix panels  HuHO 14.12.2018
 */
 .qx-o-c-classic
 {
-	background-color: white;
+	background-color: var(--main-bg-color); /*white;*/
 }
 
 
 .qx-o-c-classic:not(.qx-o-c-nativestyle)
 {
-	background-color: white !important;
+	background-color: var(--main-bg-color) !important; /* white ; */
 }
 
 
@@ -42,25 +60,29 @@ Legacy Coordinate Panel
 
 .qx-content.qx-display-grid.qx-root.qx-aum.qx-c-classic.qx-o-aum-window
 {
-	background-color: white;
+	background-color: var(--main-bg-color); /*white; */
 }
 
-
+/* What was this selector about ??????? HuHo*/
 /*.qx-text.qx-focus-target ~ .qx-aum-text-field.qx-has-focus*/
+/*should it ever select, I want to see it to address this issue*/
 .qx-content.qx-display-grid.qx-root.qx-aum.qx-c-classic.qx-o-aum-window > 
 .ui-widget-content .ui-state-highlight
 {
-border:5px solid #69a7d7;
-border-radius: 3px;
-color:red !important;
+border:15px solid red;
+border-radius: 10px;
+color:red !important;  
 background-color:red !important;
 
 }
 
+/*Legacy Coordinate panel baed forms*/
 .qx-aum-coord-panel > .qx-aum
  {
 /* 	padding: 0 !important; */
 /* 	margin: 0 !important; */
+color:red !important;  /*should it ever select, I want to see it to address this issue*/
+background-color: var(--main-bg-color) !important; 
 }
 
 /*
@@ -107,31 +129,28 @@ GroupBox Header can also have form class qx-c-fcls_detail_gb_cnt
 /*Select ALL GroupBoxes */
 .qx-aum-group-box.qx-aum.qx-aum-group-box.qx-aum-element-container 
 {
-	background-color: white;
+	background-color: var(--cnt_gb-bg-color); /* white*/
 	background-image: none;
 	margin: 2px
 }
 
 
 /*GroupBox Icon to fold/unfold HuHo 13.11.2018*/
-.qx-aum.qx-aum-group-box.qx-display-grid > label > .qx-icon::after {
- color: white;
+.qx-aum.qx-aum-group-box.qx-display-grid > label > .qx-icon::after 
+{
+ color: var(--cnt_gb-bg-color); /*white;*/
 }
 
 /*Only groupBoxes with the form class .qx-c-fcls_detail_gb_cnt*/
+/*TitleBar of the groupBoxes */
 .qx-c-fcls_detail_gb_cnt.qx-aum-group-box .qx-groupbox-header
 {
-	border: 1px solid #5c9ccc;
-	background: #3a597e;
-        background-image: none;
-	color: #ffffff;
-	#font-weight: bold;
-	padding: 2px;	
-	/*
-	border-radius: 4px;
 
-	margin: 0; 
-	*/	
+	background: var(--cnt_gb_titlebar-bg-color); 
+    background-image: none;
+	color: var(--cnt_gb_titlebar-bg-color); 
+
+	padding: 2px;	
 }
 
 
@@ -140,20 +159,36 @@ GroupBox Header LABEL with form class fcls_detail_gb_cnt
 */
 .qx-c-fcls_detail_gb_cnt .ui-accordion-header .qx-text
 {
-	color: white;
+	color: var(--cnt_gb_titlebar-fg-color) /* white;*/
 }
 
+
+
+/*#######################################################
+StackPanel container
+#######################################################*/
 .qx-aum-stack-panel
 {
     align-items:center;
 }
 
+/*should it ever select, I want to see it to address this issue*/
 .qx-table-cell.qx-c-activefield.qx-aum.qx-aum-abstract-field.qx-content.qx-has-text.qx-c-attribute_reverse >
 .qx-text-with-icon.qx-vtal.qx-htal >
 .qx-text.qx-has-text
 {
 	color: #cd0a0a;
 }
+
+/*#######################################################
+Table container
+#######################################################*/
+
+
+.ui-widget-header {
+  background: var(--cnt_tb_header-bg-color);
+}
+
 .qx-table.qx-aum-table.qx-aum-abstract-data-table.qx-aum-abstract-container
 {
   
@@ -164,28 +199,49 @@ GroupBox Header LABEL with form class fcls_detail_gb_cnt
 	padding-right: 0;
 }
 
-
-.qx-tbody tr
-{ 
-background-color: transparent; 
+/*Was added to give the user some feedback on current row in INPUT ARRAY */
+/*currently selected row */
+.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected
+{
+	background-color: var(--cnt_tb_curr_row-bg-color);
+	color:  var(--cnt_tb_curr_row-fg-color);
 }
 
+/* Different colors for the alternate (even/odd) rows in a table container */
 .qx-tbody .qx-table-row:nth-child(even) {
-	background: rgba(137,210,255, 0.2);
+	background: var(--cnt_tb_row_even-bg-color); 
 	}
 
 .qx-c-activefield .qx-tbody .qx-table-row:nth-child(even) {
-	background: rgba(137,210,255, 0.2);
+	background: var(--cnt_tb_row_even-bg-color); 
 	}
+
+/*label / text */
+.qx-c-activefield .qx-tbody tr {
+    color:  var(--main-fg-color);
+    background-color: var(--main-bg-color);
+}	
+
+/* default background-color of table rows*/
+.qx-tbody tr
+{ 
+background-color: transparent;  
+}
+
+/*#######################################################
+Misc
+#######################################################*/
+
+
 
 .qx-aum-some.qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle), .qx-aum-some.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse:not(.qx-c-nativestyle) *
 {
-	background: #fbec88;
+	background: cyan;
 }
 
 .qx-c-activefield .qx-tbody  tr .qx-text.qx-has-text {
     font: normal 1rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
-    color: #2e6e9e; 
+    color: magenta;/*  #2e6e9e; */
 }
 /*Row Selection */
 .qx-c-activefield .qx-tbody .qx-table-row.qx-c-highlight_str
@@ -244,8 +300,27 @@ div.qx-aum-label.qx-aum.qx-aum-abstract-field.qx-c-nativestyle .qx-vtal{
 
 
 /*###########################################
-Tab Page Container 
+Tab Page Container (form container NOT MDI menu container)
 #############################################*/
+
+
+/*TabContainer unselected tab*/
+.qx-aum-tab.qx-display-grid > :first-child label,
+.qx-aum-tab.qx-display-grid > :first-child label:hover {
+background-image: none;
+background-color: var(--cnt_tab_handle_not_selected-bg-color);
+}
+
+/*TabContainer selected tab*/
+.qx-aum-tab.qx-display-grid > :first-child [type="radio"]:checked + label {
+    border: 1px solid #aaa;
+    border-bottom: 0;
+    background: var(--cnt_tab_handle_selected-bg-color); 
+    font-weight: 400;
+    color: #212121;
+    cursor: default;
+}
+
 
 /* labels in the tabPage handles */
 .qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text
@@ -254,6 +329,35 @@ Tab Page Container
     text-align: left;
 	align-items: flex-start;
 }
+
+
+/*########################################
+Tab Handles 
+##########################################*/
+/*Note, we need a different/unique class name for MDI-container tab-handles*/
+/*at the moment, this class will select ALL tab handles normal form AND mdi-container */
+
+/*tabHandel area for form tabPage container AND MDI-container*/
+.ui-tabs-nav 
+{
+    min-width: 150px;
+    color: white;
+    background-color: var(--cnt_tab_handle_area-bg-color);
+	/*background:transparent; */
+}
+
+
+
+
+.ui-tabs-nav .qx-text 
+{
+	
+    min-width: 150px;
+    color: white;
+    /*background-color: re; */
+
+}
+
 
 
 .qx-thead th > label {
@@ -275,6 +379,8 @@ Tab Page Container
 .qx-table-row > td.qx-table-cell {
 	padding: 0 3px;
 }
+
+/* border for containers */
 
 .qx-c-fcls_container_border {
   border: 1px solid #3a597e;

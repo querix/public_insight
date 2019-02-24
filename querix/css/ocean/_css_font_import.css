@@ -25,7 +25,80 @@
 /*Size of the root element to define 1rem */
 /* You can also see it as a global screen scaling option */
 :root {
-font-size: 12px;
+/*font-size: 12px; */
+font: normal 12px "Open Sans","Noto Sans","Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif !important; 
+--default-font: normal 1rem "Open Sans","Noto Sans","Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif !important; 
+
+
+
+--main-bg-color: white;
+--main-fg-color: black;
+--label-fg-color: #3a597e;
+--label_rev-fg-color: white;
+--label_rev-bg-color: #3a597e; 
+--label_comment-fg-color: grey;
+
+--titlebar-bg-color: yellow;
+--titlebar-fg-color: orange;
+
+--toolbar-fg-color: white;  
+--toolbar-bg-color: rgb(58, 89, 126); 
+
+--cnt_titlebar-fg-color: pink;
+--cnt_titlebar-bg-color: blue;
+--cnt-fg-color: pink;
+--cnt-bg-color: blue;
+
+
+--cnt_gb-fg-color: yellow;
+--cnt_gb-bg-color: white;
+--cnt_gb_titlebar-fg-color: white;
+--cnt_gb_titlebar-bg-color: #3a597e;
+
+--cnt_tb_header-fg-color: pink;
+--cnt_tb_header-bg-color: #3a597e;  
+--cnt_tb_curr_row-fg-color: white; 
+--cnt_tb_curr_row-bg-color: #6a89ae; 
+--cnt_tb_row_odd-fg-color: rgba(137,210,255, 0.2); 
+--cnt_tb_row_even-bg-color: rgba(137,210,255, 0.2); 
+
+
+
+--root_cnt_titlebar-fg-color: pink;
+--root_cnt_titlebar-bg-color: blue;  
+--root_cnt_header-fg-color: white;
+--root_cnt_header-bg-color: #3a597e;
+--root_cnt_footer-fg-color: white;
+--root_cnt_footer-bg-color: blue;
+
+--root_cnt-fg-color: pink;
+--root_cnt-bg-color: blue;
+
+--cnt_tab_handle_not_selected-bg-color: rgb(58, 89, 126);  
+--cnt_tab_handle_selected-bg-color: rgb(32, 53, 94);  
+--cnt_tab_handle_area-bg-color: #3a597e;
+
+/* mdi menu container transformer*/
+--cnt_mdi_menu_header-bg-color: red; 
+--cnt_mdi_menu_button_area-bg-color: #324873 !important; 
+--cnt_mdi_header-bg-color: #3a597e; 
+
+--cnt_mdi_tab_handle_not_selected-bg-color: rgba(58, 89, 126,.75);  
+--cnt_mdi_tab_handle_selected-bg-color: rgb(58, 89, 126);  
+
+
+--widg_button-fg-color: white; 
+--widg_button-bg-color: rgb(58, 89, 126); 
+
+--4gl-color-green: green;
+--4gl-color-red: red;
+--4gl-color-blue: blue;
+--4gl-color-yellow: yellow;
+--4gl-color-cyan: cyan;
+--4gl-color-magenta: magenta;
+
+
+
 }
 
 
@@ -37,7 +110,7 @@ font-size: 12px;
 .ui-spinner.ui-widget.ui-widget-content.qx-aum.qx-aum-spinner.qx-aum-abstract-field.qx-c-fcls_data_widget .qx-text,
 .qx-text-field.qx-aum-text-field .qx-text
 {
-	font: normal 1rem "Noto Sans","Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif !important;  
+	font: normal 1rem "Open Sans","Noto Sans","Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif !important;  
 
 }
 
@@ -47,122 +120,121 @@ font-size: 12px;
 /*font test case font1 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_01 .qx-text{
     font: normal 1rem Montserrat !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 /*font test case font2 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_02 .qx-text{
     font: normal 1rem "Noto Sans" !important;  
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 /*font test case font3 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_03 .qx-text{
     font: normal 1rem "Helvetica Neue" !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 /*font test case font4 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_04 .qx-text{
     font: normal 1rem Sans-Serif !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 /*font test case font5 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_05 .qx-text{
     font: normal 1rem "Roboto Mono" !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 /*font test case font6 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_06 .qx-text{
     font: normal 1rem "Droid Sans Mono" !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 /*font test case font7 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_07 .qx-text{
     font: normal 1rem "Space Mono" !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 /*font test case font8 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_08 .qx-text{
     font: normal 1rem Monospace !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 /*font test case font9 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_09 .qx-text{
     font: normal 1rem "Open Sans" !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 /*font test case font10 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_10 .qx-text{
     font: normal 1rem "Fira Sans" !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 /*font test case font11 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_11 .qx-text{
     font: normal 1rem "Josefin Sans" !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 /*font test case font12 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_12 .qx-text{
     font: normal 1rem "Open Sans Condensed" !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 /*font test case font13 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_13 .qx-text{
     font: normal 1rem Roboto !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 /*font test case font14 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_14 .qx-text{
     font: normal 1rem Lato !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 
 /*font test case font15 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_15 .qx-text{
     font: normal 1rem "Roboto Condensed" !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
-} 
+    color: var(--label-fg-color)} 
 
 /*font test case font16 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_16 .qx-text{
     font: normal 1rem Raleway !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 /*font test case font17 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_17 .qx-text{
     font: normal 1rem "Droid Sans" !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 /*font test case font18 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_18 .qx-text{
     font: normal 1rem Ubuntu !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 /*font test case font19 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_19 .qx-text{
     font: normal 1rem Arimo !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 
 /*font test case font20 - normal form text label -class fcls_fieldlabel*/
 .qx-c-fcls_fieldlabel.qx-c-fcls_font_20 .qx-text{
     font: normal 1rem Abel !important;
-    color: #2e6e9e; /*now:2e6e9e was #3a597e and before #2e6e9e;*/
+    color: var(--label-fg-color)
 } 
 
 

@@ -47,7 +47,7 @@ html,body {
 }
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu {
-	background-color: #324873 !important;
+	background-color: var(--cnt_mdi_menu_button_area-bg-color) !important; 
 	font-family: Montserrat;
 	font-size: 13px;
 	border-right-color: #324873 !important;
@@ -194,7 +194,7 @@ html,body {
 	display: flex;
 	padding-left: 0;
 	z-index: 1000;
-	background-color: #3a597e;
+	background-color: var(--cnt_mdi_header-bg-color); 
 	transition: padding-left .8s;
 }
 

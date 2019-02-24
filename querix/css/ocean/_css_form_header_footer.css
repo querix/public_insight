@@ -11,14 +11,15 @@ fcls_title_lb
 .qx-c-fcls_title_lb .qx-text {
     padding: 2px;
     padding: 5px 10px;
-    color: white !important;
+    color: var(--root_cnt_header-fg-color)!important;
     font: bold 14px "Roboto","Calibri","Helvetica Neue", Sans-Serif;
 } 
 .qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-c-fcls_title_cnt {
-	background: #3a597e;
+	background: var(--root_cnt_header-bg-color); /*#3a597e*/
+
 	background-image: none;
 	font-weight: bold;
-	#border-radius: 4px;
+	/*border-radius: 4px;*/
 	padding: 2px; 
 	margin: 2px;
 }
@@ -34,10 +35,16 @@ fcls_sblabel
 */
 
 .qx-c-fcls_statusbar_cnt {
-	background: #3a597e;
+	background: var(--root_cnt_header-bg-color);
         background-image: none;
 	/*border-radius: 4px;*/
 	padding: 0;
 	margin-top:5px;
 }
 
+.fcls_sblabel .qx-text {
+    padding: 2px;
+    padding: 5px 10px;
+    color: var(--root_cnt_header-fg-color)!important;
+    font: bold 14px "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+} 
