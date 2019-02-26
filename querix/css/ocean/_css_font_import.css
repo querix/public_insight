@@ -79,6 +79,12 @@ font: normal 12px "Open Sans","Noto Sans","Roboto",Montserrat,Calibri,"Helvetica
 --cnt_tab_handle_area-bg-color: #3a597e;
 
 /* mdi menu container transformer*/
+--cnt_mdi_menu_col1-color: #3a597e;  /* menubar */
+--cnt_mdi_menu_col2-color: #324873; /*sidebar*/
+--cnt_mdi_menu_col3-color: #20355e; /* sub-items */
+--cnt_mdi_menu_col4-color: rgba(255,255,255); /* selection foreground*/
+--cnt_mdi_menu_col5-color: #0397da;; /* selection background */
+
 --cnt_mdi_menu_header-bg-color: red; 
 --cnt_mdi_menu_button_area-bg-color: #324873 !important; 
 --cnt_mdi_header-bg-color: #3a597e; 

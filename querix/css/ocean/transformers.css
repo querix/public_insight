@@ -46,11 +46,12 @@ html,body {
 	font-weight: normal !important;
 }
 
+/* Sidebar */
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu {
 	background-color: var(--cnt_mdi_menu_button_area-bg-color) !important; 
 	font-family: Montserrat;
 	font-size: 13px;
-	border-right-color: #324873 !important;
+	border-right-color: var(--cnt_mdi_menu_col2-color) !important;
 }
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu,
@@ -74,9 +75,10 @@ html,body {
 	border: none;
 }
 
+/* Sub-Items */
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu > div.qx-menu-inner::before,
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu ul ul {
-	background-color: #20355e;
+	background-color: var(--cnt_mdi_menu_col3-color);
 }
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar li,
@@ -173,8 +175,9 @@ html,body {
 	transform: rotate(90deg);
 }
 
+/* selection background */
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu div.qx-aum-menu-bar li.menu-item-selected {
-	background-color: #0397da;
+	background-color: var(--cnt_mdi_menu_col5-color); 
 	transition-duration: .3s;
 	transition-property: background-color;
 }
@@ -182,8 +185,10 @@ html,body {
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu li.qx-aum-menu-group.menu-item-selected > a:after {
         border-left-color: #fff;
 }
+
+/* selection color */
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu div.qx-aum-menu-bar li.menu-item-selected > a {
-	color: rgba(255,255,255);
+	color: var(--cnt_mdi_menu_col4-color);
 }
 
 .cmsfb:root #cms-topbar {
@@ -201,13 +206,14 @@ html,body {
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu {
 	z-index: 1001;
 }
+/*Logo area*/
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu::before {
 	content: "";
 	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #3a597e url(/public/querix/css/images/logo.svg) no-repeat 20px center;
+	background: var(--cnt_mdi_menu_col1-color) url(/public/querix/css/images/logo.svg) no-repeat 20px center;
 	background-size: 30%;
 }
 /*END left-side menu*/
