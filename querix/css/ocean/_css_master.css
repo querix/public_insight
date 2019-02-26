@@ -1,4 +1,4 @@
-/*@import url("/public/querix/css/jquery-ui.min.css");*/
+@import url("/public/querix/css/ocean/_css_font_and_color.css");
 @import url("/public/querix/css/jquery-tooltipster.css");
 @import url("/public/querix/css/ocean/_css_flexbox.css");
 @import url("/public/querix/css/ocean/_css_form_class_selector-blue.css");
@@ -11,7 +11,6 @@
 @import url("/public/querix/css/ocean/_css_container.css");
 @import url("/public/querix/css/ocean/_css_mdi_menu.css");
 @import url("/public/querix/css/ocean/_css_dialog_box.css");
-@import url("/public/querix/css/ocean/_css_font_import.css");
 @import url("/public/querix/css/ocean/_css_qx-text-console.css");
 @import url("/public/querix/css/ocean/_css_messages.css");
 @import url("/public/querix/css/ocean/_css_alignment.css");

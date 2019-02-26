@@ -96,12 +96,40 @@ font: normal 12px "Open Sans","Noto Sans","Roboto",Montserrat,Calibri,"Helvetica
 --widg_button-fg-color: white; 
 --widg_button-bg-color: rgb(58, 89, 126); 
 
+/* default 4gl colours */
+--4gl-color-black: black;
+--4gl-color-white: white;
 --4gl-color-green: green;
 --4gl-color-red: red;
 --4gl-color-blue: blue;
 --4gl-color-yellow: yellow;
 --4gl-color-cyan: cyan;
 --4gl-color-magenta: magenta;
+
+/* default 4gl colours with REVERSED*/
+--4gl-color-rev-black-fg: white;
+--4gl-color-rev-black-bg: black;
+
+--4gl-color-rev-white-fg: black;
+--4gl-color-rev-white-bg: white;
+
+--4gl-color-rev-green-fg: white;
+--4gl-color-rev-green-bg: green;
+
+--4gl-color-rev-red-fg: white;
+--4gl-color-rev-red-bg: red;
+
+--4gl-color-rev-blue-fg: white;
+--4gl-color-rev-blue-bg: blue;
+
+--4gl-color-rev-yellow-fg: white;
+--4gl-color-rev-yellow-bg: yellow;
+
+--4gl-color-rev-cyan-fg: white;
+--4gl-color-rev-cyan-bg: cyan;
+
+--4gl-color-rev-magenta-fg: white;
+--4gl-color-rev-magenta-bg: magenta;
 
 
 
