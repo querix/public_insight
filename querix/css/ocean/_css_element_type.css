@@ -831,7 +831,7 @@ ALL Element Types with textBox
 
 /*
 ####################################################################
-INPUT ELEMENTS WITHOUT FOCUS (ALL Element Types with textBox)
+INPUT ELEMENTS WITHOUT FOCUS The actual TEXT (ALL Element Types with textBox)
 ####################################################################
 */
 .ui-widget-content .qx-aum-abstract-field.ui-state-active, 
@@ -843,12 +843,13 @@ INPUT ELEMENTS WITHOUT FOCUS (ALL Element Types with textBox)
 {
 	font-weight: normal;
 	color: #3a597e;  
+
 }
 
 
 /*
 ####################################################################
-INPUT FOCUS (ALL Element Types with textBox(abstract text box)
+INPUT FOCUS (ALL Element Types with textBox(abstract text box) = inner field in textField
 ####################################################################
 */
 .qx-element-role-input.qx-aum.qx-aum-combo-box.qx-has-focus, 
@@ -878,6 +879,7 @@ INPUT FOCUS (ALL Element Types with textBox(abstract text box)
 {
 background-color:rgba(208,229,245,0.2) !important;
 background-image: none;
+
 }
 
 
@@ -1030,17 +1032,30 @@ background-image: none;
 /* EOL - Special for CheckBox - Tester Feedback Anna - remove visible box when focusing a check box */
 
 
-
-
+/*qx-read_only*/
+/* ######################################################################################################*/
+/* ### INPUT -> FOCUS - currently selected field                                        #################*/
 /*.qx-text.qx-focus-target ~ .qx-aum-text-field.qx-has-focus*/
-.ui-widget-content .ui-state-highlight
+.ui-widget-content .ui-state-highlight.qx-element-role-input
 {
 border:2px solid #69a7d7;
 border-radius: 3px;
 color:#3a597e;
 background-color:rgba(208,229,245,0.2) !important;
-
 }
+
+/* ######################################################################################################*/
+/* ### INPUT -> BUT NO FOCUS                                                            #################*/
+.ui-widget-content .qx-element-role-input
+{
+border:0.5px solid #69a7d7;
+/*border-radius: 0px;*/
+color:#3a597e;
+background-color:rgba(208,229,245,0.2) !important;
+}
+/* ######################################################################################################*/
+
+
 
 /* huho removed  17.01.2019 */
 /*.qx-text-field input.qx-text*/
@@ -1120,10 +1135,9 @@ color:#3a597e;;
 background-color:rgba(208,229,245,0.0) !important;
    opacity: 1;
    filter: Alpha(Opacity=00);
+   border: 1px solid rgba(255, 255, 255, .0); /*huho 15.3.2019 hide(remove) border for inactive fields */
+   
 }
-
-
-
 
 
 /*
@@ -1255,14 +1269,16 @@ functionField
 } */
 
 
+/* huho removed 15.03.2019 */
 /************************************
 comboListBox
 *************************************/
+/*
 .qx-text-field.qx-aum.qx-aum-combo-box.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly.qx-has-text
 {
 border: 1px solid rgba(92, 156, 204, .5);	
 }
-
+*/
 
 /************************************
 xxxxxxxxxxxxxxxx
