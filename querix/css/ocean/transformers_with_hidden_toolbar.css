@@ -11,29 +11,7 @@ html,body {
 * {
   box-sizing: border-box;
 }
-
-#qx-container-toolbars {
-    position: fixed;
-    right: 0;
-    display: block !important;
-    z-index: 1001;
-    width: auto !important;
-    height: auto;
-}
-#qx-container-toolbars #qx-container-toolbars-inner {
-    display: block;
-}
-#qx-container-toolbars .qx-top-toolbar-cell .qx-aum-toolbar, #qx-container-toolbars .qx-aum-toolbar {
-    height: 60px;
-    margin: 0;
-}
-#qx-container-toolbars .qx-scroll-content 
-{
-position: relative;
-}
-
- 
-
+#qx-container-toolbars,
 #qx-container-body > .qx-o-c-screen {
     display: none !important;
 }
