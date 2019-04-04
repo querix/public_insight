@@ -1868,8 +1868,9 @@ text-align: left;
 	padding-right: 0;
 }
 
+/* text field padding for legacy coorindate panels huho 04.04.2019*/
 .qx-aum-coord-panel .qx-text.qx-focus-target {
-	padding: 0;
+	padding: 2;
 }
 
 .qx-aum-coord-panel .qx-aum.qx-aum-text-field, /*textField*/
