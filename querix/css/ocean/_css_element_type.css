@@ -1041,11 +1041,13 @@ background-image: none;
 border:2px solid #69a7d7;
 border-radius: 3px;
 color:#3a597e;
-background-color:rgba(208,229,245,0.2) !important;
+/*background-color: green !important;*/ /*rgba(208,229,245,0.2) !important;*/
+image: none !important;
+
 }
 
 /* ######################################################################################################*/
-/* ### INPUT -> BUT NO FOCUS                                                            #################*/
+/* ### INPUT -> BUT NO FOCUS ALL WIDGETS                                                           #################*/
 .ui-widget-content .qx-element-role-input
 {
 border:0.5px solid #69a7d7;
@@ -1053,6 +1055,21 @@ border:0.5px solid #69a7d7;
 color:#3a597e;
 background-color:rgba(208,229,245,0.2) !important;
 }
+/*-----------------------------------------------------------------------------*/
+/* ### INPUT -> BUT NO FOCUS for widgets without textBox / frames                                                          #################*/
+.ui-widget-content .qx-element-role-input.qx-aum-check-box,
+.ui-widget-content .qx-element-role-input.qx-aum-radio-group,
+.ui-widget-content .qx-element-role-input.qx-aum-slider,
+.ui-widget-content .qx-element-role-input.qx-aum-label,
+.ui-widget-content .qx-element-role-input.qx-aum-progress-bar,
+.ui-widget-content .qx-element-role-input.qx-aum-button
+{
+border:0.0px solid #69a7d7;
+/*border-radius: 0px;*/
+color:#3a597e;
+background-color:var(--transparent) !important; /*rgba(208,229,245,0.2) !important;*/
+}
+
 /* ######################################################################################################*/
 
 
@@ -1868,7 +1885,7 @@ text-align: left;
 	padding-right: 0;
 }
 
-/* text field padding for legacy coorindate panels huho 04.04.2019*/
+/* text field padding for legacy coorindate panels */
 .qx-aum-coord-panel .qx-text.qx-focus-target {
 	padding: 2;
 }

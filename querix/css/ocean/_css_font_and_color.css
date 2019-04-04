@@ -29,7 +29,7 @@
 font: normal 12px "Open Sans","Noto Sans","Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif !important; 
 --default-font: normal 1rem "Open Sans","Noto Sans","Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif !important; 
 
-
+--transparent: rgba(255,255,255,0.0)
 
 --main-bg-color: white;
 --main-fg-color: black;
