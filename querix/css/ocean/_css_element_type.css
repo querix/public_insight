@@ -1131,7 +1131,7 @@ NOT IN INPUT
 .qx-aum-browser 
 {
 
-color:#3a597e;;
+color:var(--tf-label-enabled_fg-color) !important; /* #3a597e;*/
 background-color:rgba(208,229,245,0.0) !important;
    opacity: 1;
    filter: Alpha(Opacity=00);

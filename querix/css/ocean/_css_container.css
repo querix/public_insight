@@ -76,12 +76,12 @@ background-color:red !important;
 
 }
 
-/*Legacy Coordinate panel baed forms*/
+/*Legacy Coordinate panel based forms*/
 .qx-aum-coord-panel > .qx-aum
  {
 /* 	padding: 0 !important; */
 /* 	margin: 0 !important; */
-color:red !important;  /*should it ever select, I want to see it to address this issue*/
+color:var(--tf-label-disabled_fg-color) !important; 
 background-color: var(--main-bg-color) !important; 
 }
 

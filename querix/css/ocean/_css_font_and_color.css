@@ -33,10 +33,17 @@ font: normal 12px "Open Sans","Noto Sans","Roboto",Montserrat,Calibri,"Helvetica
 
 --main-bg-color: white;
 --main-fg-color: black;
+
 --label-fg-color: #3a597e;
 --label_rev-fg-color: white;
 --label_rev-bg-color: #3a597e; 
 --label_comment-fg-color: grey;
+
+--tf-label-enabled_fg-color: #3a597e;
+--tf-label-disabled_fg-color: #3a597e;
+--tf-label_rev-fg-color: white;
+--tf-label_rev-bg-color: #3a597e; 
+--tf-label_comment-fg-color: grey;
 
 --titlebar-bg-color: yellow;
 --titlebar-fg-color: orange;
@@ -101,7 +108,7 @@ font: normal 12px "Open Sans","Noto Sans","Roboto",Montserrat,Calibri,"Helvetica
 --4gl-color-white: white;
 --4gl-color-green: green;
 --4gl-color-red: red;
---4gl-color-blue: blue;
+--4gl-color-blue: #3a597e; /* blue;*/
 --4gl-color-yellow: yellow;
 --4gl-color-cyan: cyan;
 --4gl-color-magenta: magenta;
