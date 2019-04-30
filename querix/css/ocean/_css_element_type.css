@@ -961,10 +961,22 @@ color: white !important;
 }
 /* #################################### END OF DISPLAY ARRAY ################################ */
 
+.ui-state-focus, 
+.ui-state-hover, 
+.ui-widget-content .ui-state-focus.qx-aum-table, 
+.ui-widget-content .ui-state-hover.qx-aum-table, 
+.ui-widget-header .ui-state-focus.qx-aum-table, 
+.ui-widget-header .ui-state-hover.qx-aum-table 
+{
+    border: 1px solid #3a597e;
+    background:none;
+    font-weight: 400;
+    color:red;/* #212121;*/
+}
 
 
 /*Special Case RadioButton */
-
+.qx-aum-radio 
 .ui-state-focus, 
 .ui-state-hover, 
 .ui-widget-content 
@@ -1111,40 +1123,50 @@ background-color:rgba(208,229,245,0.2) !important;
 }
 
 
-
 /*
 ####################################################################
 Inactive Fields (ALL Element Types with textBox)
+qx-inactive, qx-readonly, ui-state-disabled
 NOT IN INPUT
 ####################################################################
 */
 
 .qx-aum-calendar.qx-inactive.ui-state-disabled,
-
 .qx-aum-calendar.qx-inactive.ui-state-disabled *,
+.qx-aum-calendar.qx-readonly,
+.qx-aum-calendar.qx-readonly *,
 
 .qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
-
 .qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+.qx-aum-function-field-abs.qx-readonly .qx-ff-text,
+.qx-aum-function-field-abs.qx-readonly .qx-ff-text *,
 
 .qx-aum-spinner.qx-inactive.ui-state-disabled,
-
 .qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+.qx-aum-spinner.qx-readonly,
+.qx-aum-spinner.qx-readonly .qx-text,
 
 .qx-aum-text-field.qx-inactive.ui-state-disabled,
-
 .qx-aum-text-field.qx-inactive.ui-state-disabled *,
+.qx-aum-text-field.qx-readonly,
+.qx-aum-text-field.qx-readonly *,
 
 .qx-aum-text-area.qx-inactive.ui-state-disabled,
-
 .qx-aum-text-area.qx-inactive.ui-state-disabled *,
+.qx-aum-text-area.qx-readonly,
+.qx-aum-text-area.qx-readonly *,
 
 .qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
-
 .qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+.qx-aum-time-edit-field.qx-readonly,
+.qx-aum-time-edit-field.qx-readonly *,
 
 .qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
 .qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+.qx-aum-combo-box.qx-readonly, /*outer ComboBoxList*/
+.qx-aum-combo-box.qx-readonly .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+
+
 .qx-aum-browser 
 {
 
@@ -1592,6 +1614,12 @@ background-color:rgb(58, 89, 126);
 Fix size buttons
 ###############################################*/
 
+.qx-c-fcls_button_icon
+{
+	width:2rem;
+	height:2rem; 
+}
+
 .qx-c-fcls_button_1
 {
 	width:5rem;
@@ -1680,11 +1708,14 @@ background-size: contain;
 }
 */
 
-
+/*#############################################*/
+/* Note: Common properties for all image buttons incl size
+/*#############################################*/
 .qx-aum-button .ui-button {
 	border:none;
 }
 
+.qx-c-fcls_button_search.qx-aum-button .qx-text-with-icon, 
 .qx-c-fcls_button_lookup.qx-aum-button .qx-text-with-icon, 
 .qx-c-fcls_button_remove.qx-aum-button .qx-text-with-icon, 
 .qx-c-fcls_button_add.qx-aum-button .qx-text-with-icon, 
@@ -1692,7 +1723,15 @@ background-size: contain;
 .qx-c-fcls_button_edit.qx-aum-button.ui-button-text .qx-text-with-icon,
 .qx-c-fcls_button_done.qx-aum-button .qx-text-with-icon,
 .qx-c-fcls_button_cancel.qx-aum-button.ui-button-text .qx-text-with-icon,
-.qx-c-fcls_button_help.qx-aum-button.ui-button-text .qx-text-with-icon
+.qx-c-fcls_button_clear.qx-aum-button.ui-button-text .qx-text-with-icon,
+.qx-c-fcls_button_clear.qx-aum-button .qx-text-with-icon, 
+.qx-c-fcls_button_filter.qx-aum-button .qx-text-with-icon, 
+.qx-c-fcls_button_help.qx-aum-button.ui-button-text .qx-text-with-icon,
+
+.qx-c-fcls_button_left.qx-aum-button .qx-text-with-icon, 
+.qx-c-fcls_button_right.qx-aum-button .qx-text-with-icon, 
+.qx-c-fcls_button_left_move.qx-aum-button .qx-text-with-icon, 
+.qx-c-fcls_button_right_move.qx-aum-button .qx-text-with-icon
 {
 color:white;
 background-color:rgb(58, 89, 126);
@@ -1739,7 +1778,7 @@ background-image: url(/public/querix/icon/svg/24/ic_remove_24px.svg);
 background-image: url(/public/querix/icon/svg/24/ic_add_24px.svg);
 }
 
-/*Add Button*/
+/*Attach Button*/
 .qx-c-fcls_button_attach.qx-aum-button .ui-button-text .qx-text-with-icon 
 {
 background-image: url(/public/querix/icon/svg/24/ic_attach_file_24px.svg);
@@ -1762,11 +1801,25 @@ background-image: url(/public/querix/icon/svg/24/ic_done_24px.svg);
 {
 background-image: url(/public/querix/icon/svg/24/ic_cancel_24px.svg);
 }
+/*CLEAR Button*/
+.qx-c-fcls_button_clear.qx-aum-button .ui-button-text .qx-text-with-icon
+{
+background-image: url(/public/querix/icon/svg/24/ic_clear_24px.svg);
+}
+/*Filter Button*/
+.qx-c-fcls_button_filter.qx-aum-button .ui-button-text .qx-text-with-icon
+{
+background-image: url(/public/querix/icon/svg/24/ic_filter_list_24px.svg);
+}
+
+
 /*HELP Button*/
 .qx-c-fcls_button_help.qx-aum-button .ui-button-text .qx-text-with-icon
 {
 background-image: url(/public/querix/icon/svg/24/ic_help_outline_24px.svg);
 }
+
+
 
 /*LEFT ARROW Button*/
 .qx-c-fcls_button_left.qx-aum-button .ui-button-text .qx-text-with-icon
@@ -1785,6 +1838,22 @@ background-repeat: no-repeat;
 background-position: center;
 }
 
+
+
+/*LEFT MOVE double ARROW Button*/
+.qx-c-fcls_button_left.qx-aum-button .ui-button-text .qx-text-with-icon
+{
+background-image: url(/public/querix/icon/svg/24/ic_arrow_back_24px.svg);
+
+}
+
+
+/*RIGHT MOVE double ARROW Button*/
+.qx-c-fcls_button_right.qx-aum-button .ui-button-text .qx-text-with-icon
+{
+background-image: url(/public/querix/icon/svg/24/ic_arrow_forward_24px.svg);
+
+}
 
 /*hide image when inactive*/
 .qx-inactive.ui-state-disabled.qx-aum.qx-aum-button.qx-c-fcls_button_lookup .ui-button-text .qx-text-with-icon
