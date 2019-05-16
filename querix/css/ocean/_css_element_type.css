@@ -1183,6 +1183,71 @@ background-color:rgba(208,229,245,0.0) !important;
 ####################################################################
 Inactive Fields (ALL Element Types with textBox)
 NOT IN INPUT
+BLACK ATTRIBUTE set in 4gl .qx-c-attribute_black
+####################################################################
+*/
+
+.qx-c-attribute_black.qx-aum-calendar.qx-inactive.ui-state-disabled,
+.qx-c-attribute_black.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_black.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+.qx-c-attribute_black.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+.qx-c-attribute_black.qx-aum-spinner.qx-inactive.ui-state-disabled,
+.qx-c-attribute_black.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+.qx-c-attribute_black.qx-aum-text-field.qx-inactive.ui-state-disabled,
+.qx-c-attribute_black.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_black.qx-aum-text-area.qx-inactive.ui-state-disabled,
+.qx-c-attribute_black.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_black.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+.qx-c-attribute_black.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_black.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+.qx-c-attribute_black.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+.qx-c-attribute_black.qx-aum-browser 
+{
+
+color:var(--4gl-color-black) !important;
+background-color: transparent;
+   opacity: 1;
+   filter: Alpha(Opacity=00);
+}
+
+
+/*
+####################################################################
+Inactive Fields (ALL Element Types with textBox)
+NOT IN INPUT
+WHITE ATTRIBUTE set in 4gl .qx-c-attribute_white
+####################################################################
+*/
+
+.qx-c-attribute_white.qx-aum-calendar.qx-inactive.ui-state-disabled,
+.qx-c-attribute_white.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_white.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+.qx-c-attribute_white.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+.qx-c-attribute_white.qx-aum-spinner.qx-inactive.ui-state-disabled,
+.qx-c-attribute_white.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+.qx-c-attribute_white.qx-aum-text-field.qx-inactive.ui-state-disabled,
+.qx-c-attribute_white.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_white.qx-aum-text-area.qx-inactive.ui-state-disabled,
+.qx-c-attribute_white.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_white.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+.qx-c-attribute_white.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_white.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+.qx-c-attribute_white.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+.qx-c-attribute_white.qx-aum-browser 
+{
+
+color:var(--4gl-color-white) !important;
+background-color: transparent;
+   opacity: 1;
+   filter: Alpha(Opacity=00);
+}
+
+
+
+/*
+####################################################################
+Inactive Fields (ALL Element Types with textBox)
+NOT IN INPUT
 GREEN ATTRIBUTE set in 4gl .qx-c-attribute_green
 ####################################################################
 */
@@ -1204,11 +1269,12 @@ GREEN ATTRIBUTE set in 4gl .qx-c-attribute_green
 .qx-c-attribute_green.qx-aum-browser 
 {
 
-color:#3a597e;;
-background-color:rgba(176, 255, 151, 0.15) !important;
+color:var(--4gl-color-green) !important;
+background-color: transparent;
    opacity: 1;
    filter: Alpha(Opacity=00);
 }
+
 
 
 /*
@@ -1236,8 +1302,136 @@ RED ATTRIBUTE set in 4gl .qx-c-attribute_red
 .qx-c-attribute_red.qx-aum-browser 
 {
 
-color:#3a597e;;
-background-color:rgba(255, 151, 151, 0.15) !important;
+color:var(--4gl-color-red) !important;
+background-color: transparent;
+   opacity: 1;
+   filter: Alpha(Opacity=00);
+}
+
+
+/*
+####################################################################
+Inactive Fields (ALL Element Types with textBox)
+NOT IN INPUT
+BLUE ATTRIBUTE set in 4gl .qx-c-attribute_blue
+####################################################################
+*/
+
+.qx-c-attribute_blue.qx-aum-calendar.qx-inactive.ui-state-disabled,
+.qx-c-attribute_blue.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_blue.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+.qx-c-attribute_blue.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+.qx-c-attribute_blue.qx-aum-spinner.qx-inactive.ui-state-disabled,
+.qx-c-attribute_blue.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+.qx-c-attribute_blue.qx-aum-text-field.qx-inactive.ui-state-disabled,
+.qx-c-attribute_blue.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_blue.qx-aum-text-area.qx-inactive.ui-state-disabled,
+.qx-c-attribute_blue.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_blue.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+.qx-c-attribute_blue.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_blue.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+.qx-c-attribute_blue.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+.qx-c-attribute_blue.qx-aum-browser 
+{
+
+color:var(--4gl-color-blue) !important;
+background-color: transparent;
+   opacity: 1;
+   filter: Alpha(Opacity=00);
+}
+
+
+/*
+####################################################################
+Inactive Fields (ALL Element Types with textBox)
+NOT IN INPUT
+YELLOW ATTRIBUTE set in 4gl .qx-c-attribute_yellow
+####################################################################
+*/
+
+.qx-c-attribute_yellow.qx-aum-calendar.qx-inactive.ui-state-disabled,
+.qx-c-attribute_yellow.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_yellow.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+.qx-c-attribute_yellow.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+.qx-c-attribute_yellow.qx-aum-spinner.qx-inactive.ui-state-disabled,
+.qx-c-attribute_yellow.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+.qx-c-attribute_yellow.qx-aum-text-field.qx-inactive.ui-state-disabled,
+.qx-c-attribute_yellow.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_yellow.qx-aum-text-area.qx-inactive.ui-state-disabled,
+.qx-c-attribute_yellow.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_yellow.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+.qx-c-attribute_yellow.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_yellow.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+.qx-c-attribute_yellow.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+.qx-c-attribute_yellow.qx-aum-browser 
+{
+
+color:var(--4gl-color-yellow) !important;
+background-color: transparent;
+   opacity: 1;
+   filter: Alpha(Opacity=00);
+}
+
+
+/*
+####################################################################
+Inactive Fields (ALL Element Types with textBox)
+NOT IN INPUT
+CYAN ATTRIBUTE set in 4gl .qx-c-attribute_cyan
+####################################################################
+*/
+
+.qx-c-attribute_cyan.qx-aum-calendar.qx-inactive.ui-state-disabled,
+.qx-c-attribute_cyan.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_cyan.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+.qx-c-attribute_cyan.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+.qx-c-attribute_cyan.qx-aum-spinner.qx-inactive.ui-state-disabled,
+.qx-c-attribute_cyan.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+.qx-c-attribute_cyan.qx-aum-text-field.qx-inactive.ui-state-disabled,
+.qx-c-attribute_cyan.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_cyan.qx-aum-text-area.qx-inactive.ui-state-disabled,
+.qx-c-attribute_cyan.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_cyan.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+.qx-c-attribute_cyan.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_cyan.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+.qx-c-attribute_cyan.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+.qx-c-attribute_cyan.qx-aum-browser 
+{
+
+color:var(--4gl-color-cyan) !important;
+background-color: transparent;
+   opacity: 1;
+   filter: Alpha(Opacity=00);
+}
+
+
+/*
+####################################################################
+Inactive Fields (ALL Element Types with textBox)
+NOT IN INPUT
+MAGENTA ATTRIBUTE set in 4gl .qx-c-attribute_magenta
+####################################################################
+*/
+
+.qx-c-attribute_magenta.qx-aum-calendar.qx-inactive.ui-state-disabled,
+.qx-c-attribute_magenta.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_magenta.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+.qx-c-attribute_magenta.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+.qx-c-attribute_magenta.qx-aum-spinner.qx-inactive.ui-state-disabled,
+.qx-c-attribute_magenta.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+.qx-c-attribute_magenta.qx-aum-text-field.qx-inactive.ui-state-disabled,
+.qx-c-attribute_magenta.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_magenta.qx-aum-text-area.qx-inactive.ui-state-disabled,
+.qx-c-attribute_magenta.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_magenta.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+.qx-c-attribute_magenta.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+.qx-c-attribute_magenta.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+.qx-c-attribute_magenta.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+.qx-c-attribute_magenta.qx-aum-browser 
+{
+
+color:var(--4gl-color-magenta) !important;
+background-color: transparent;
    opacity: 1;
    filter: Alpha(Opacity=00);
 }
