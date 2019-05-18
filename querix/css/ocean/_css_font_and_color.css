@@ -34,7 +34,7 @@ font: normal 12px "Open Sans","Noto Sans","Roboto",Montserrat,Calibri,"Helvetica
 --main-bg-color: white;
 --main-fg-color: black;
 
---label-fg-color: #3a597e;
+--label-fg-color: #3a597e;   /*default label color */
 --label_rev-fg-color: white;
 --label_rev-bg-color: #3a597e; 
 --label_comment-fg-color: grey;
@@ -53,8 +53,12 @@ font: normal 12px "Open Sans","Noto Sans","Roboto",Montserrat,Calibri,"Helvetica
 
 --cnt_titlebar-fg-color: pink;
 --cnt_titlebar-bg-color: blue;
---cnt-fg-color: pink;
---cnt-bg-color: blue;
+--cnt-color-fg: pink;
+--cnt-color-bg: blue;
+--cnt-color-border-light-fg: rgb(170, 170, 170); /*used*/
+--cnt-color-border-medium-fg: #3a597e; /*used*/
+--cnt-color-border-strong-fg: rgb(204,0,0); 
+
 
 
 --cnt_gb-fg-color: yellow;
@@ -104,16 +108,47 @@ font: normal 12px "Open Sans","Noto Sans","Roboto",Montserrat,Calibri,"Helvetica
 --widg_button-bg-color: rgb(58, 89, 126); 
 
 /* default 4gl colours */
+--4gl-color-default: rgb(58, 89, 126); 
+--4gl-color-default-fg: rgb(58, 89, 126); 
+--4gl-color-default-bg: rgba(203, 215, 231,1); 
+
 --4gl-color-black: black;
+--4gl-color-black-fg: black;
+--4gl-color-black-bg: rgba(217, 217, 217,1);
+
 --4gl-color-white: white;
+--4gl-color-white-fg: white;
+--4gl-color-white-bg: rgba(89, 89, 89,1);
+
 --4gl-color-green: rgb(51, 153, 51);
+--4gl-color-green-fg: rgb(51, 153, 51);
+--4gl-color-green-bg: rgba(214, 245, 214,1);
+
 --4gl-color-red: rgb(204,0,0);
+--4gl-color-red-fg: rgb(204,0,0);
+--4gl-color-red-bg: rgba(255, 204, 204,1);
+
 --4gl-color-blue: rgb(58, 89, 126); 
---4gl-color-yellow: rgb(255, 204, 0);
+--4gl-color-blue-fg: rgb(58, 89, 126); 
+--4gl-color-blue-bg: rgba(203, 215, 231,1); 
+
 --4gl-color-cyan: rgb(51,204,255);
+--4gl-color-cyan-fg: rgb(51,204,255);
+--4gl-color-cyan-bg: rgba(179, 236, 255,1);
+
+--4gl-color-yellow: rgb(255, 204, 0);
+--4gl-color-yellow-fg: rgb(255,204,0);
+--4gl-color-yellow-bg: rgba(255,240,179,1);
+
 --4gl-color-magenta: rgb(191,0,255);
+--4gl-color-magenta-fg: rgb(191,0,255);
+--4gl-color-magenta-bg: rgba(236, 179, 255,1);
 
 /* default 4gl colours with REVERSED*/
+
+--4gl-color-default-rev-fg: white;
+--4gl-color-default-rev-bg: rgb(58, 89, 126);
+
 --4gl-color-black-rev-fg: white;
 --4gl-color-black-rev-bg: black;
 
@@ -141,18 +176,28 @@ font: normal 12px "Open Sans","Noto Sans","Roboto",Montserrat,Calibri,"Helvetica
 /* default 4gl DIM colours */
 /*--4gl-color-dim-bg-label: rgba(225,225,225,0.3);*/
 --4gl-color-dim-bg-label: transparent;
---4gl-color-black-dim: rgb(100,100,100);
---4gl-color-white-dim: rgb(150,150,150);
---4gl-color-green-dim: rgb(38, 115, 38);
---4gl-color-red-dim: rgb(153,0,0);
---4gl-color-blue-dim: rgb(40, 61, 87);
---4gl-color-yellow-dim: rgb(255, 153, 0);
---4gl-color-cyan-dim: rgb(0,115,153);
---4gl-color-magenta-dim: rgb(115, 0, 153);
-
+--4gl-color-default-dim-fg: rgb(40, 61, 87);
+--4gl-color-default-dim-bg: transparent;
+--4gl-color-black-dim-fg: rgb(100,100,100);
+--4gl-color-black-dim-bg: transparent;
+--4gl-color-white-dim-fg: rgb(150,150,150);
+--4gl-color-white-dim-bg: transparent;
+--4gl-color-green-dim-fg: rgb(38, 115, 38);
+--4gl-color-green-dim-bg: transparent;
+--4gl-color-red-dim-fg: rgb(153,0,0);
+--4gl-color-red-dim-bg: transparent;
+--4gl-color-blue-dim-fg: rgb(40, 61, 87);
+--4gl-color-blue-dim-bg: transparent;
+--4gl-color-yellow-dim-fg: rgb(255, 153, 0);
+--4gl-color-yellow-dim-bg: transparent;
+--4gl-color-cyan-dim-fg: rgb(0,115,153);
+--4gl-color-cyan-dim-bg: transparent;
+--4gl-color-magenta-dim-fg: rgb(115, 0, 153);
+--4gl-color-magenta-dim-bg: transparent;
 /* default 4gl BLINK colours */
 /*--4gl-color-blink-bg-label: rgba(235,235,100,0.3);*/
 --4gl-color-blink-bg-label: transparent;
+--4gl-color-default-blink-fg: rgb(98, 136, 183);
 --4gl-color-black-blink-fg: rgb(100,100,100);
 --4gl-color-white-blink-fg: rgb(150,150,150);
 --4gl-color-green-blink-fg: rgb(64, 191, 64);

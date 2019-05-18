@@ -180,9 +180,272 @@ StackPanel container
 	color: #cd0a0a;
 }
 
-/*#######################################################
-Table container
-#######################################################*/
+/*######################################################################*/
+/*                                                                      */
+/* Table container                                                      */
+/*                                                                      */
+/*######################################################################*/
+
+
+
+
+/*#################################################################*/
+/* Supporting 4gl color attributes for tables display/ipnut array  */
+/*#################################################################*/
+
+
+/*Table (Disp/Inp Array) */
+/*normal color*/
+/*default*/
+.qx-aum-some:not(.qx-c-nativestyle),
+.qx-aum-some.qx-aum:not(.qx-c-nativestyle) *
+{
+	color: var(--4gl-color-default-fg); 
+	background: var(--4gl-color-default-bg);
+}
+qx-aum:not(.qx-c-nativestyle) .md-input,
+qx-aum.:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-default-fg); /*text face color fg */
+}
+/*black*/
+.qx-aum-some.qx-c-attribute_black:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_black.qx-aum:not(.qx-c-nativestyle) *
+{
+	color: var(--4gl-color-black-fg); 
+	background: var(--4gl-color-black-bg);
+}
+.qx-c-attribute_black:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_black:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-black-fg); /*text face color fg */
+}
+/*white*/
+.qx-aum-some.qx-c-attribute_white:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_white.qx-aum:not(.qx-c-nativestyle) *
+{
+	color: var(--4gl-color-white-fg); 	
+	background: var(--4gl-color-white-bg);
+}
+.qx-c-attribute_white:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_white:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-white-fg); /*text face color fg */
+}
+
+/*green*/
+.qx-aum-some.qx-c-attribute_green:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_green:not(.qx-c-nativestyle) *
+{
+	background: var(--4gl-color-green-bg);
+}
+.qx-c-attribute_green:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_green:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-green-fg); /*text face color fg */
+}
+
+/*red*/
+.qx-aum-some.qx-c-attribute_red:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_red.qx-aum:not(.qx-c-nativestyle) *
+{
+	background: var(--4gl-color-red-bg);
+}
+.qx-c-attribute_red:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_red:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-red-fg); /*text face color fg */
+}
+
+
+/*blue*/
+.qx-aum-some.qx-c-attribute_blue:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_blue.qx-aum:not(.qx-c-nativestyle) *
+{
+	background: var(--4gl-color-blue-bg);
+}
+.qx-c-attribute_blue:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_blue:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-blue-fg); /*text face color fg */
+}
+
+/*cyan*/
+.qx-aum-some.qx-c-attribute_cyan:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_cyan.qx-aum:not(.qx-c-nativestyle) *
+{
+	background: var(--4gl-color-cyan-bg);
+}
+.qx-c-attribute_cyan:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_cyan:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-cyan-fg); /*text face color fg */
+}
+
+/*yellow*/
+.qx-aum-some.qx-c-attribute_yellow:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_yellow.qx-aum:not(.qx-c-nativestyle) *
+{
+	background: var(--4gl-color-yellow-bg);
+}
+.qx-c-attribute_yellow:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_yellow:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-yellow-fg); /*text face color fg */
+}
+
+
+/*magenta*/
+.qx-aum-some.qx-c-attribute_magenta:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_magenta.qx-aum:not(.qx-c-nativestyle) *
+{
+	background: var(--4gl-color-magenta-bg);
+}
+.qx-c-attribute_magenta:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_magenta:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-magenta-fg); /*text face color fg */
+}
+
+/* ******************************************************* */
+/*REVERSED color*/
+/*default-reversed*/
+.qx-aum-some.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
+{
+	/*color: var(--4gl-color-black-bg); */
+	background: var(--4gl-color-default-fg);
+}
+.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-default-bg);/*text face color fg */
+    background-color: var(--4gl-color-default-fg); 
+}
+
+/*black-reversed*/
+.qx-aum-some.qx-c-attribute_black.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_black.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
+{
+	/*color: var(--4gl-color-black-bg); */
+	background: var(--4gl-color-black-fg);
+}
+.qx-c-attribute_black.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_black.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-black-bg);/*text face color fg */
+    background-color: var(--4gl-color-black-fg); 
+}
+
+/*white-reversed*/
+.qx-aum-some.qx-c-attribute_white.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_white.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
+{
+	background: var(--4gl-color-white-fg);
+}
+.qx-c-attribute_white.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_white.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-white-bg); /*text face color fg */
+    background-color: var(--4gl-color-white-fg);    
+}
+
+/*green-reversed*/
+.qx-aum-some.qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle) *
+{
+	background: var(--4gl-color-green-fg);
+}
+.qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-green-bg); /*text face color fg */
+    background-color: var(--4gl-color-green-fg);    
+}
+
+
+/*red-reversed*/
+.qx-aum-some.qx-c-attribute_red.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_red.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
+{
+	background: var(--4gl-color-red-fg);
+}
+.qx-c-attribute_red.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_red.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-red-bg); /*text face color fg */
+    background-color: var(--4gl-color-red-fg);    
+}
+
+
+/*blue-reversed*/
+.qx-aum-some.qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
+{
+	background: var(--4gl-color-blue-fg);
+}
+.qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-blue-bg); /*text face color fg */
+    background-color: var(--4gl-color-blue-fg);    
+}
+
+/*cyan-reversed*/
+.qx-aum-some.qx-c-attribute_cyan.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
+{
+	background: var(--4gl-color-cyan-fg);
+}
+.qx-c-attribute_cyan.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_cyan.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-cyan-bg); /*text face color fg */
+    background-color: var(--4gl-color-cyan-fg);    
+}
+
+/*yellow-reversed*/
+.qx-aum-some.qx-c-attribute_yellow.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
+{
+	background: var(--4gl-color-yellow-fg);
+}
+.qx-c-attribute_yellow.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_yellow.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-yellow-bg); /*text face color fg */
+    background-color: var(--4gl-color-yellow-fg);    
+}
+
+
+/*magenta-reversed*/
+.qx-aum-some.qx-c-attribute_magenta.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
+{
+	background: var(--4gl-color-magenta-fg);
+}
+.qx-c-attribute_magenta.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_magenta.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
+{
+    color: var(--4gl-color-magenta-bg); /*text face color fg */
+    background-color: var(--4gl-color-magenta-fg);    
+}
+/*#################################################################*/
+/* END OF table 4gl color support definition                       */
+/* Supporting 4gl color attributes for tables display/ipnut array  */
+/*#################################################################*/
+
+
+/*
+.qx-c-attribute_green:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_green:not(.qx-c-nativestyle)
+{ color: rgb(0, 97, 0); }
+.qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+.qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle)
+{ background-color: rgb(190, 240, 200); color: rgb(125, 125, 125); }
+*/
+
+
 
 
 .ui-widget-header {
@@ -217,8 +480,9 @@ Table container
 	}
 
 /*label / text */
+
 .qx-c-activefield .qx-tbody tr {
-    color:  var(--main-fg-color);
+    color: var(--main-fg-color);
     background-color: var(--main-bg-color);
 }	
 
@@ -233,11 +497,12 @@ Misc
 #######################################################*/
 
 
-
-.qx-aum-some.qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle), .qx-aum-some.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse:not(.qx-c-nativestyle) *
+/*Table (Disp/Inp Array) */
+/*.qx-aum-some.qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle), .qx-aum-some.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse:not(.qx-c-nativestyle) *
 {
 	background: cyan;
 }
+*/
 
 .qx-c-activefield .qx-tbody  tr .qx-text.qx-has-text {
     font: normal 1rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
@@ -382,6 +647,27 @@ Tab Handles
 
 /* border for containers */
 
-.qx-c-fcls_container_border {
-  border: 1px solid #3a597e;
+.qx-c-fcls_container_border {  /*for legacy css support only! - do not use*/
+  border: 1px solid var(--cnt-color-border-medium-fg);
 }
+
+.qx-c-fcls_container_border_l1 {
+  border: 1px solid var(--cnt-color-border-light-fg);
+}
+.qx-c-fcls_container_border_l2 {
+  border: 2px solid var(--cnt-color-border-light-fg);
+}
+
+.qx-c-fcls_container_border_m1 {
+  border: 1px solid var(--cnt-color-border-medium-fg);
+}
+.qx-c-fcls_container_border_m2 {
+  border: 2px solid var(--cnt-color-border-medium-fg);
+}
+.qx-c-fcls_container_border_s1 {
+  border: 1px solid var(--cnt-color-border-strong-fg);
+}
+.qx-c-fcls_container_border_s2 {
+  border: 2px solid var(--cnt-color-border-strong-fg);
+}
+

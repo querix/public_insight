@@ -14,5 +14,7 @@
 @import url("/public/querix/css/ocean/_css_qx-text-console.css");
 @import url("/public/querix/css/ocean/_css_messages.css");
 @import url("/public/querix/css/ocean/_css_alignment.css");
-@import url("/public/querix/css/ocean/_css_4gl_attribute.css");
+@import url("/public/querix/css/ocean/_css_color_default.css");
+@import url("/public/querix/css/ocean/_css_color_attribute_4gl.css");
 @import url("/public/querix/css/ocean/_css_custom.css");
+
