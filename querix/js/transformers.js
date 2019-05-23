@@ -145,7 +145,13 @@
 
   querix.plugins.wrappers.containermenu_transformer = {
     wrap: function (childId, el, sel) {
-      !el[0].ownerDocument.defaultView.$('html').hasClass('cmsfb') && el[0].ownerDocument.defaultView.$('html').addClass('cmsfb');
+      var $$ = el[0].ownerDocument.defaultView.$;
+      !$$('html').hasClass('cmsfb') && $$('html').addClass('cmsfb');
+      var cuscId = 'custom-scrollbar';
+      var $topbar = $$('#cms-topbar');
+      if ($topbar.length == 0) {
+        topbar.attach();
+      }
 
       return {
         remove: function () {
@@ -155,11 +161,6 @@
           this.removeClass('MENU-ITEM-TRANSFORMED');
         },
         attach: function (to) {
-          var $$ = this.getWindow().$, cuscId = 'custom-scrollbar';
-          var $topbar = $$('#cms-topbar');
-          if ($topbar.length == 0) {
-            topbar.attach();
-          }
           this.find('a').on('click', function () {
             $$('#qx-container-menu li').removeClass('menu-item-selected');
             $$(this).parent().addClass('menu-item-selected');
