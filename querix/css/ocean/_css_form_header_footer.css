@@ -35,7 +35,7 @@ fcls_sblabel
 */
 
 .qx-c-fcls_statusbar_cnt {
-	background: var(--root_cnt_header-bg-color);
+	background: var(--root_cnt_footer-bg-color);
         background-image: none;
 	/*border-radius: 4px;*/
 	padding: 0;
@@ -45,6 +45,6 @@ fcls_sblabel
 .fcls_sblabel .qx-text {
     padding: 2px;
     padding: 5px 10px;
-    color: var(--root_cnt_header-fg-color)!important;
+    color: var(--root_cnt_footer-fg-color)!important;
     font: bold 14px "Roboto","Calibri","Helvetica Neue", Sans-Serif;
 } 

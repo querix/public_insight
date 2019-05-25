@@ -1,23 +1,61 @@
+
+/* DIALOG boxes like fgl_winmessage */
 .qx-mb-dialog.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable{
-min-width: 300px;
+/*min-width: 300px; */
+	min-width: 35rem;
+	min-height: 15rem;
+	background-color: var(--dialog-box-color-bg);
 }
 
+
+/* ***************************************** */
+/* Titlebar                                  */
+/* ***************************************** */
+
+.ui-dialog-titlebar
+{
+	background-color: var(--dialog-box-titlebar-color-bg);
+}
 /* text in the titlebar of dialog boxes i.e. fgl_winmessage() */
 .ui-dialog-titlebar .ui-dialog-title
 {
-	color: white;
+	color: var(--dialog-box-titlebar-color-fg); /* white; */
+	/*background: default is transparent */
 	font: normal 1.0rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
 }
 
+/* Actual message text/area */
 .qx-message-box.ui-dialog-content.ui-widget-content {
-	color: #495797;	
-	background: #ffffff;	
+	color: var(--dialog-box-message-color-fg); /* #495797;	*/
+	background: transparent; /* #ffffff;	*/
 }	
 
 /* text/message are within the dialog box */
 .qx-message-box.ui-dialog-content.ui-widget-content .qx-text-wrapper {
 	background: transparent;	
 }
+/* Button Area in dialog boxes */
+.ui-dialog-buttonpane
+{
+	background-color: var(--dialog-box-color-bg);
+}
+
+/* Button in dialog boxes i.e.OK; Cancel, Done */
+.ui-dialog-buttonpane .ui-dialog-buttonset .ui-button.ui-widget.ui-state-default
+{
+	color: var(--dialog-box-button-color-fg);
+	background-color: var(--dialog-box-button-color-bg);
+}
+
+/*.qx-winmessage-button:focus*/
+.ui-dialog-buttonpane .ui-dialog-buttonset .ui-button.ui-widget.ui-state-default:focus
+{
+color:var(--main-dialog-button-focus-color-fg);
+background-color: var(--dialog-box-button-focus-color-bg);
+border: 1px solid var(--main-focus-border-color);
+
+}
+
 
 img[src="/LyciaWeb/pack/exclamation.ico"] {
   box-sizing: border-box;

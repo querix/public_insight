@@ -103,6 +103,135 @@ MARGIN ALL Elements MARGIN
 
 	padding:4px;
 }
+
+/*
+######################################################################################################
+LABEL Widget Element
+######################################################################################################
+*/
+
+/* ************************************************/
+/* gridPanel Cell label REVERSED                  */
+/* ************************************************/
+/*FormClass: fcls_columnlabel_rev - selects just the label*/
+.qx-c-fcls_columnlabel_rev.qx-aum-label .qx-text{
+    /*font: normal 1rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;*/
+    color: var(--label_rev-fg-color); /*white;   */
+    background: var(--label_rev-bg-color); /* #3a597e;*/
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;    
+    /*margin: 5px;*/
+}	
+
+/*FormClass: fcls_columnlabel_rev_cell - selects the entire cell*/
+:not(.ui-widget-content).qx-aum-label.qx-c-fcls_columnlabel_rev_cell{
+    background: var(--label_rev-bg-color) !important; 
+	flex: 1;
+}	
+
+.qx-c-fcls_columnlabel_rev_cell.qx-aum-label .qx-text-with-icon{
+    font: normal 1rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+    color: var(--label_rev-fg-color); 
+    background:var(--label_rev-bg-color);
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;    
+    /*margin: 5px;*/
+}	
+
+.qx-c-fcls_columnlabel_rev_cell.qx-aum-label .qx-text{
+    font: normal 1rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+    color: var(--label_rev-fg-color); 
+    background:var(--label_rev-bg-color);
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;    
+    /*margin: 5px;*/
+}	
+
+/* Labels which show available key press/information i.e. [F1][F5][F12][Esc] */
+/*FormClass: fcls_key_usage - selects the entire cell*/
+:not(.ui-widget-content).qx-aum-label.qx-c-fcls_key_usage{
+    background:var(--label_rev-bg-color);
+	flex: 1;
+}	
+.qx-c-fcls_key_usage .qx-text{
+    color: var(--label_rev-fg-color);  
+    background: var(--label_rev-bg-color);
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;    
+    /*margin: 5px;*/
+}	
+
+
+/*FormClass: fcls_menulabel - used in hand-made 4gl menu's (not the menu statement)*/
+.qx-c-fcls_menulabel .qx-text{
+    color: var(--label-fg-color);
+} 
+
+/*FormClass: fcls_title_lb for FORM TitleBar/Header*/
+.qx-c-fcls_title_lb .qx-text {
+    padding: 2px;
+    padding: 5px 10px;
+    color: var(--root_cnt_footer-fg-color) !important;
+	font-weight:bold;
+} 
+
+/*FormClass: fcls_sblabel for FORM statusbar*/
+.qx-c-fcls_sblabel .qx-text {
+	color: #ffffff;
+    padding: 5px 10px 2px;
+} 
+
+/*dynamic menu label - initial draw */
+.qx-c-fcls_menulabel.qx-no-image.qx-has-text.qx-hta-l.qx-aum.qx-aum-label.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-inactive {
+	color: var(--label-fg-color); 
+}
+
+/* Text Block of description/information */
+/* FormClass: fcls_font_description */
+.qx-c-fcls_font_description .qx-text-with-icon  .qx-text{
+	color: var(--label_comment-fg-color);
+	font-style: italic;
+}
+
+/* 4 Additional Header Styles to be used in forms */
+/* FormClass: fcls_font_h1, fcls_font_h2, fcls_font_h3, fcls_font_h4 */
+.qx-c-fcls_font_h1 .qx-text-with-icon{
+	font-size: 2rem;
+	font-weight:bold;
+	color: var(--label-fg-color); 
+}
+
+.qx-c-fcls_font_h2 .qx-text-with-icon{
+	font-size: 1.6rem;
+	font-weight:bold;
+	color: var(--label-fg-color); 
+}
+
+.qx-c-fcls_font_h3 .qx-text-with-icon{
+	font-size: 1.2rem;
+	font-weight:bold;
+	color: var(--label-fg-color); 
+}
+
+.qx-c-fcls_font_h4 .qx-text-with-icon{
+	font-size: 1rem;
+	font-weight:bold;
+	color: var(--label-fg-color); 
+}
+/*
+######################################################################################################
+END OF Label Widget Selectors/Classes
+######################################################################################################
+*/
+
 /*
 ######################################################################################################
 ALL Element Types with textBox
@@ -158,7 +287,7 @@ INPUT FOCUS (ALL Element Types with textBox(abstract text box) = inner field in 
 .qx-element-role-input.qx-aum-function-field-abs.qx-has-focus .qx-ff-text,
 .qx-element-role-input.qx-aum-function-field-abs.qx-has-focus .qx-ff-text *
 {
-background-color:rgba(208,229,245,0.2) !important;
+background-color:var(--main-textfield-enabled-color-bg) !important;
 background-image: none;
 
 }
@@ -331,7 +460,7 @@ background-image: none;
 /*.qx-text.qx-focus-target ~ .qx-aum-text-field.qx-has-focus*/
 .ui-widget-content .ui-state-highlight.qx-element-role-input
 {
-border:2px solid #69a7d7;
+border:2px solid var(--tf-border-color); /* #69a7d7; */
 border-radius: 3px;
 color:#3a597e;
 /*background-color: green !important;*/ /*rgba(208,229,245,0.2) !important;*/
@@ -340,13 +469,20 @@ image: none !important;
 }
 
 /* ######################################################################################################*/
-/* ### INPUT -> BUT NO FOCUS ALL WIDGETS                                                           #################*/
+/* ### INPUT -> "BUT NO FOCUS" FOR ALL WIDGETS                                                           #################*/
 .ui-widget-content .qx-element-role-input
 {
-border:0.5px solid #69a7d7;
+border:0.5px solid var(--tf-border-color);  /* #69a7d7; */
 /*border-radius: 0px;*/
 color:#3a597e;
 background-color:rgba(208,229,245,0.2) !important;
+}
+/* ### INPUT -> "BUT NO FOCUS" FOR ALL WIDGETS                                                           #################*/
+.ui-widget-content .qx-element-role-input:hover
+{
+border:0.5px solid var(--tf-border-hover-color);
+/*border-radius: 0px;*/
+/*color:#3a597e;*/
 }
 /*-----------------------------------------------------------------------------*/
 /* ### INPUT -> BUT NO FOCUS for widgets without textBox / frames                                                          #################*/
@@ -357,7 +493,7 @@ background-color:rgba(208,229,245,0.2) !important;
 .ui-widget-content .qx-element-role-input.qx-aum-progress-bar,
 .ui-widget-content .qx-element-role-input.qx-aum-button
 {
-border:0.0px solid #69a7d7;
+border:0.0px solid var(--tf-border-color); /* #69a7d7; */
 /*border-radius: 0px;*/
 color:#3a597e;
 background-color:var(--transparent) !important; /*rgba(208,229,245,0.2) !important;*/
@@ -370,7 +506,7 @@ background-color:var(--transparent) !important; /*rgba(208,229,245,0.2) !importa
 /* huho removed  17.01.2019 */
 /*.qx-text-field input.qx-text*/
 /*{*/
-/*border:2px solid #69a7d7;
+/*border:2px solid var(--tf-border-color);
 border-radius: 3px;
 color:#3a597e;*/
 /*background-color:rgba(208,229,245,0.2) !important;*/
@@ -388,18 +524,10 @@ background-color:rgba(208,229,245,0.2) !important;
 }
 
 /*Outer calendar widget - parent container */
-/* .qx-aum-calendar.qx-element-role-input.qx-active.ui-state-active.qx-focused.ui-state-focus.qx-has-focus
-{border-color: rgba(208,229,245,0.2);} */
 .qx-aum-function-field-abs.qx-has-focus,
 .qx-aum-calendar.qx-has-focus/* .qx-text.qx-htal.hasDatepicker */
 {
-/* url("images/ui-bg_inset-hard_100_f5f8f9_1x100.png") 50% 50% repeat-x; */
-/* border-left:1px solid #69a7d7;
-border-top:1px solid #69a7d7;
-border-bottom:1px solid #69a7d7;
- */
 border-radius: 3px;
-
 background-color:rgba(208,229,245,0.2) !important;
 }
 
@@ -790,6 +918,14 @@ Tab Handles
 /*Note, we need a different/unique class name for MDI-container tab-handles*/
 /*at the moment, this class will select ALL tab handles normal form AND mdi-container */
 
+/* Tab-Page Form Container */
+
+.qx-aum.qx-aum-tab.qx-aum-abstract-container .qx-tabcontrol-header.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header 
+{
+	color: red;
+	background-color: blue;
+}
+
 .ui-tabs-nav 
 {
     min-width: 150px;
@@ -816,14 +952,24 @@ Tab Handles
 	justify-content:flex-start;
 	}
 
-/*BUTTON ######################################################*/
+/*########################################################*/
+/* BUTTON                                                 */
+/*########################################################*/
 
 /*Any general button*/
 .qx-no-image.ui-button.ui-widget .ui-button-text .qx-text-with-icon
 {
 
-color:white;
-background-color:rgb(58, 89, 126);
+color: var(--widg_button-fg-color); /*white;*/
+background-color: var(--widg_button-bg-color); /*rgb(58, 89, 126);*/
+
+}
+/* Hover button color changes */
+.qx-no-image.ui-button.ui-widget .ui-button-text .qx-text-with-icon:hover
+{
+
+color: var(--main-hover-button-color-fg);
+background-color: var(--main-hover-button-color-bg);
 
 }
 
@@ -888,82 +1034,7 @@ horizontal-align:middle !important;
 	content: url(/public/querix/icon/svg/24/ic_sub_dialog_24px.svg);
 }	
 	
-
-/* replace the functionField button image ViOr */
-#.qx-c-fcls_image_remove.qx-aum-function-field-abs .qx-image.qx-image-scaling-none
-{
-  display: block;
-  width: 0px; /* Width of new image */
-  height: 0px; /* Height of new image */
-}
-
-
-.qx-c-fcls_image_remove .qx-text-with-icon
-{
-	color:red;
-	border-color: green;
-background-image: url(/public/querix/icon/svg/24/ic_remove_24px.svg);	
-}
-
-
-/*###############################################
-add to form class buttons an images
-###############################################*/
-
-/*.qx-c-fcls_button_done .qx-text-with-icon
-{
-	background-image: url(/public/querix/icon/svg/24/ic_done_24px.svg);
-color:white;
-background-color:rgb(58, 89, 126);
-
-width: 100%;
-height: auto;
-min-width:2rem;
-background-repeat: no-repeat;
-background-size: contain;
-
-}
-*/
-
-/*#############################################*/
-/* Note: Common properties for all image buttons incl size
-/*#############################################*/
-.qx-aum-button .ui-button {
-	border:none;
-}
-
-.qx-c-fcls_button_search.qx-aum-button .qx-text-with-icon, 
-.qx-c-fcls_button_lookup.qx-aum-button .qx-text-with-icon, 
-.qx-c-fcls_button_remove.qx-aum-button .qx-text-with-icon, 
-.qx-c-fcls_button_add.qx-aum-button .qx-text-with-icon, 
-.qx-c-fcls_button_attach.qx-aum-button .qx-text-with-icon, 
-.qx-c-fcls_button_edit.qx-aum-button.ui-button-text .qx-text-with-icon,
-.qx-c-fcls_button_done.qx-aum-button .qx-text-with-icon,
-.qx-c-fcls_button_cancel.qx-aum-button.ui-button-text .qx-text-with-icon,
-.qx-c-fcls_button_clear.qx-aum-button.ui-button-text .qx-text-with-icon,
-.qx-c-fcls_button_clear.qx-aum-button .qx-text-with-icon, 
-.qx-c-fcls_button_filter.qx-aum-button .qx-text-with-icon, 
-.qx-c-fcls_button_help.qx-aum-button.ui-button-text .qx-text-with-icon,
-
-.qx-c-fcls_button_left.qx-aum-button .qx-text-with-icon, 
-.qx-c-fcls_button_right.qx-aum-button .qx-text-with-icon, 
-.qx-c-fcls_button_left_move.qx-aum-button .qx-text-with-icon, 
-.qx-c-fcls_button_right_move.qx-aum-button .qx-text-with-icon
-{
-color:white;
-background-color:rgb(58, 89, 126);
-
-width: 100%;
-height: auto;
-min-width:2rem;
-background-repeat: no-repeat;
-background-size: contain;
-border:none;
-}
-
-*/
-/*************************************************************/
-
+	
 
 /******************************/
 .qx-aum-label  /*2017-12-09*/  /*qx-aum-label*/

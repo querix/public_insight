@@ -1,4 +1,18 @@
 
+
+/* ROOT CONTAINER */
+/* By form class */
+.fcls_rootContainer {
+	margin: 1rem;
+}
+/* By default root container identifier */
+/*.qx-identifier-rootcontainer {
+	margin: 1rem;
+} */
+
+
+
+
 /*
 #######################################################
 Form Class - fcls_detail_cnt
@@ -171,13 +185,14 @@ StackPanel container
 {
     align-items:center;
 }
-
+/* up for removal - no idea what it does*/
 /*should it ever select, I want to see it to address this issue*/
 .qx-table-cell.qx-c-activefield.qx-aum.qx-aum-abstract-field.qx-content.qx-has-text.qx-c-attribute_reverse >
 .qx-text-with-icon.qx-vtal.qx-htal >
 .qx-text.qx-has-text
 {
 	color: #cd0a0a;
+	background-color: pink;
 }
 
 /*######################################################################*/
@@ -186,311 +201,40 @@ StackPanel container
 /*                                                                      */
 /*######################################################################*/
 
+/* ********************* */
+/* Outer table container */
+/* ********************* */
 
-
-
-/*#################################################################*/
-/* Supporting 4gl color attributes for tables display/ipnut array  */
-/*#################################################################*/
-
-
-/*Table (Disp/Inp Array) */
-/*normal color*/
-/*default*/
-.qx-aum-some:not(.qx-c-nativestyle),
-.qx-aum-some.qx-aum:not(.qx-c-nativestyle) *
-{
-	color: var(--4gl-color-default-fg); 
-	background: var(--4gl-color-default-bg);
-}
-qx-aum:not(.qx-c-nativestyle) .md-input,
-qx-aum.:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-default-fg); /*text face color fg */
-}
-/*black*/
-.qx-aum-some.qx-c-attribute_black:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_black.qx-aum:not(.qx-c-nativestyle) *
-{
-	color: var(--4gl-color-black-fg); 
-	background: var(--4gl-color-black-bg);
-}
-.qx-c-attribute_black:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_black:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-black-fg); /*text face color fg */
-}
-/*white*/
-.qx-aum-some.qx-c-attribute_white:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_white.qx-aum:not(.qx-c-nativestyle) *
-{
-	color: var(--4gl-color-white-fg); 	
-	background: var(--4gl-color-white-bg);
-}
-.qx-c-attribute_white:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_white:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-white-fg); /*text face color fg */
-}
-
-/*green*/
-.qx-aum-some.qx-c-attribute_green:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_green:not(.qx-c-nativestyle) *
-{
-	background: var(--4gl-color-green-bg);
-}
-.qx-c-attribute_green:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_green:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-green-fg); /*text face color fg */
-}
-
-/*red*/
-.qx-aum-some.qx-c-attribute_red:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_red.qx-aum:not(.qx-c-nativestyle) *
-{
-	background: var(--4gl-color-red-bg);
-}
-.qx-c-attribute_red:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_red:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-red-fg); /*text face color fg */
-}
-
-
-/*blue*/
-.qx-aum-some.qx-c-attribute_blue:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_blue.qx-aum:not(.qx-c-nativestyle) *
-{
-	background: var(--4gl-color-blue-bg);
-}
-.qx-c-attribute_blue:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_blue:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-blue-fg); /*text face color fg */
-}
-
-/*cyan*/
-.qx-aum-some.qx-c-attribute_cyan:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_cyan.qx-aum:not(.qx-c-nativestyle) *
-{
-	background: var(--4gl-color-cyan-bg);
-}
-.qx-c-attribute_cyan:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_cyan:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-cyan-fg); /*text face color fg */
-}
-
-/*yellow*/
-.qx-aum-some.qx-c-attribute_yellow:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_yellow.qx-aum:not(.qx-c-nativestyle) *
-{
-	background: var(--4gl-color-yellow-bg);
-}
-.qx-c-attribute_yellow:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_yellow:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-yellow-fg); /*text face color fg */
-}
-
-
-/*magenta*/
-.qx-aum-some.qx-c-attribute_magenta:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_magenta.qx-aum:not(.qx-c-nativestyle) *
-{
-	background: var(--4gl-color-magenta-bg);
-}
-.qx-c-attribute_magenta:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_magenta:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-magenta-fg); /*text face color fg */
-}
-
-/* ******************************************************* */
-/*REVERSED color*/
-/*default-reversed*/
-.qx-aum-some.qx-c-attribute_reverse:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
-{
-	/*color: var(--4gl-color-black-bg); */
-	background: var(--4gl-color-default-fg);
-}
-.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-default-bg);/*text face color fg */
-    background-color: var(--4gl-color-default-fg); 
-}
-
-/*black-reversed*/
-.qx-aum-some.qx-c-attribute_black.qx-c-attribute_reverse:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_black.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
-{
-	/*color: var(--4gl-color-black-bg); */
-	background: var(--4gl-color-black-fg);
-}
-.qx-c-attribute_black.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_black.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-black-bg);/*text face color fg */
-    background-color: var(--4gl-color-black-fg); 
-}
-
-/*white-reversed*/
-.qx-aum-some.qx-c-attribute_white.qx-c-attribute_reverse:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_white.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
-{
-	background: var(--4gl-color-white-fg);
-}
-.qx-c-attribute_white.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_white.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-white-bg); /*text face color fg */
-    background-color: var(--4gl-color-white-fg);    
-}
-
-/*green-reversed*/
-.qx-aum-some.qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle) *
-{
-	background: var(--4gl-color-green-fg);
-}
-.qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-green-bg); /*text face color fg */
-    background-color: var(--4gl-color-green-fg);    
-}
-
-
-/*red-reversed*/
-.qx-aum-some.qx-c-attribute_red.qx-c-attribute_reverse:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_red.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
-{
-	background: var(--4gl-color-red-fg);
-}
-.qx-c-attribute_red.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_red.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-red-bg); /*text face color fg */
-    background-color: var(--4gl-color-red-fg);    
-}
-
-
-/*blue-reversed*/
-.qx-aum-some.qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
-{
-	background: var(--4gl-color-blue-fg);
-}
-.qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-blue-bg); /*text face color fg */
-    background-color: var(--4gl-color-blue-fg);    
-}
-
-/*cyan-reversed*/
-.qx-aum-some.qx-c-attribute_cyan.qx-c-attribute_reverse:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
-{
-	background: var(--4gl-color-cyan-fg);
-}
-.qx-c-attribute_cyan.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_cyan.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-cyan-bg); /*text face color fg */
-    background-color: var(--4gl-color-cyan-fg);    
-}
-
-/*yellow-reversed*/
-.qx-aum-some.qx-c-attribute_yellow.qx-c-attribute_reverse:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
-{
-	background: var(--4gl-color-yellow-fg);
-}
-.qx-c-attribute_yellow.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_yellow.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-yellow-bg); /*text face color fg */
-    background-color: var(--4gl-color-yellow-fg);    
-}
-
-
-/*magenta-reversed*/
-.qx-aum-some.qx-c-attribute_magenta.qx-c-attribute_reverse:not(.qx-c-nativestyle),
-.qx-aum-some.qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) *
-{
-	background: var(--4gl-color-magenta-fg);
-}
-.qx-c-attribute_magenta.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_magenta.qx-c-attribute_reverse:not(.qx-c-nativestyle) 
-{
-    color: var(--4gl-color-magenta-bg); /*text face color fg */
-    background-color: var(--4gl-color-magenta-fg);    
-}
-/*#################################################################*/
-/* END OF table 4gl color support definition                       */
-/* Supporting 4gl color attributes for tables display/ipnut array  */
-/*#################################################################*/
-
-
-/*
-.qx-c-attribute_green:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_green:not(.qx-c-nativestyle)
-{ color: rgb(0, 97, 0); }
-.qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
-.qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle)
-{ background-color: rgb(190, 240, 200); color: rgb(125, 125, 125); }
-*/
-
-
-
-
-.ui-widget-header {
-  background: var(--cnt_tb_header-bg-color);
-}
-
+/* Outer margin/Padding for table container */
 .qx-table.qx-aum-table.qx-aum-abstract-data-table.qx-aum-abstract-container
 {
-  
     margin: 2px;
     padding: 2px;
 }	
+
+
+
+/* ********************* */
+/* grid column header */
+/* ********************* */
+.ui-widget-header {
+  background: var(--cnt_tb_header-bg-color); 
+}
+/* Note: gridHeader formats like padding need to be set for header and column data */
+.qx-aum-table-column.ui-widget-header > label
+{
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+
+  color: var(--cnt_tb_header-fg-color);  /* white;	*/ 
+}
+
+
+/* Table ROW */
 .qx-table.qx-aum-table.qx-aum-abstract-data-table .qx-aum-combo-box {
 	padding-right: 0;
 }
 
-/*Was added to give the user some feedback on current row in INPUT ARRAY */
-/*currently selected row */
-.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected
-{
-	background-color: var(--cnt_tb_curr_row-bg-color);
-	color:  var(--cnt_tb_curr_row-fg-color);
-}
-
-/* Different colors for the alternate (even/odd) rows in a table container */
-.qx-tbody .qx-table-row:nth-child(even) {
-	background: var(--cnt_tb_row_even-bg-color); 
-	}
-
-.qx-c-activefield .qx-tbody .qx-table-row:nth-child(even) {
-	background: var(--cnt_tb_row_even-bg-color); 
-	}
-
-/*label / text */
-
-.qx-c-activefield .qx-tbody tr {
-    color: var(--main-fg-color);
-    background-color: var(--main-bg-color);
-}	
-
-/* default background-color of table rows*/
-.qx-tbody tr
-{ 
-background-color: transparent;  
-}
 
 /*#######################################################
 Misc
@@ -498,20 +242,17 @@ Misc
 
 
 /*Table (Disp/Inp Array) */
-/*.qx-aum-some.qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle), .qx-aum-some.qx-c-attribute_blue.qx-aum.qx-c-attribute_reverse:not(.qx-c-nativestyle) *
-{
-	background: cyan;
-}
-*/
 
 .qx-c-activefield .qx-tbody  tr .qx-text.qx-has-text {
     font: normal 1rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
     color: magenta;/*  #2e6e9e; */
+    background-color: yellow;/*  #2e6e9e; */    
 }
 /*Row Selection */
 .qx-c-activefield .qx-tbody .qx-table-row.qx-c-highlight_str
 {
-	background-color:rgba(255, 200, 200, 0.3);
+	background-color: var(--main-color-203);  /* rgba(255, 200, 200, 0.3); */
+
 } 
 
 /*Field Selection */
@@ -530,14 +271,6 @@ Table Column
 */
 
 /*Table column and gridHeader padding/margin/border */
-.qx-aum-table-column.ui-widget-header > label
-{
-  padding-left: 4px !important;
-  padding-right: 4px !important;
-
-  color: white;	
-
-}
 
 
 
@@ -570,19 +303,36 @@ Tab Page Container (form container NOT MDI menu container)
 
 
 /*TabContainer unselected tab*/
-.qx-aum-tab.qx-display-grid > :first-child label,
+.qx-aum-tab.qx-display-grid > :first-child label
+{
+background-image: none;
+background-color: var(--cnt_tab_handle_not_selected-bg-color) !important;
+
+}
+
+/*TabContainer unselected tab*/
 .qx-aum-tab.qx-display-grid > :first-child label:hover {
 background-image: none;
-background-color: var(--cnt_tab_handle_not_selected-bg-color);
+background-color: var(--cnt_tab_handle_area-hover-bg-color) !important;
+
 }
+
+/* Tab-Page Form Container */
+
+.qx-aum.qx-aum-tab.qx-aum-abstract-container .qx-tabcontrol-header.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header 
+{
+	color: red;
+	background-color: var(--cnt-tab-handle-container-area-bg);
+}
+
 
 /*TabContainer selected tab*/
 .qx-aum-tab.qx-display-grid > :first-child [type="radio"]:checked + label {
     border: 1px solid #aaa;
     border-bottom: 0;
-    background: var(--cnt_tab_handle_selected-bg-color); 
+    background: var(--cnt_tab_handle_selected-bg-color) !important; 
     font-weight: 400;
-    color: #212121;
+    color: orange; /* #212121;*/
     cursor: default;
 }
 
@@ -595,6 +345,30 @@ background-color: var(--cnt_tab_handle_not_selected-bg-color);
 	align-items: flex-start;
 }
 
+/*###########################################*/
+/* Background/Container of Tab Handles       */
+/* ##########################################*/
+/*tabHandel area for form tabPage container AND MDI-container*/
+.ui-tabs-nav 
+{
+    min-width: 150px;
+    color: white;
+    background-color: red; var(--cnt_tab_handle_area-bg-color);
+
+	/*background:transparent; */
+	
+}
+.qx-tabs-container.ui-tabs.ui-widget.ui-widget-content.ui-corner-all 
+.qx-t-h.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header
+{
+	color: pink;
+	background-color: var(--cnt-mdi-tab-handle-container-area-bg);
+	/*border-width: 5px;
+	border-color: white;
+	border-style: solid;*/
+}
+
+
 
 /*########################################
 Tab Handles 
@@ -602,25 +376,10 @@ Tab Handles
 /*Note, we need a different/unique class name for MDI-container tab-handles*/
 /*at the moment, this class will select ALL tab handles normal form AND mdi-container */
 
-/*tabHandel area for form tabPage container AND MDI-container*/
-.ui-tabs-nav 
-{
-    min-width: 150px;
-    color: white;
-    background-color: var(--cnt_tab_handle_area-bg-color);
-	/*background:transparent; */
-}
-
-
-
-
 .ui-tabs-nav .qx-text 
 {
-	
     min-width: 150px;
     color: white;
-    /*background-color: re; */
-
 }
 
 
