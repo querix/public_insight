@@ -331,7 +331,7 @@ qx-aum.:not(.qx-c-nativestyle)
 
 .qx-c-activefield .qx-tbody tr {
     color: var(--main-fg-color); 
-    background-color: var(--main-bg-color) !important;
+    background-color: var(--main-bg-color);
 }	
 
 /* default background-color of table rows*/
