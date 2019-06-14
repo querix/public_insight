@@ -637,8 +637,7 @@ ALL Elements V-Size
  /*button*/
 
 .qx-aum-progress-bar,
-.qx-horizontal.qx-aum.qx-aum-slider,
-.qx-aum-scroll-bar
+.qx-horizontal.qx-aum.qx-aum-slider
 {
 	height: 2.2rem !important;
 	vertical-align: middle;
@@ -659,10 +658,7 @@ ALL Elements V-Size
 
 .qx-aum.qx-aum-calendar,  /*Calendar*/
 .qx-aum-calendar,
-.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field,
-
-.qx-aum-scroll-bar
-
+.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field
 {
 	height: 2.2rem !important;
 	vertical-align: middle !important;
