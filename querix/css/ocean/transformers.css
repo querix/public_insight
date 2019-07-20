@@ -131,11 +131,11 @@ position: relative;
 	padding: 10px 0;
 }
 
+.cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar label {
+  padding-left: 16px !important;
+}
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar label > img {
-	/*visibility: hidden;  huho 2017-12-10*/
-	display: block !important;
-	VISIBILITY: hidden;
-	width: 16px !important;
+	display: none !important;
 }
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar li > a.ui-state-hover,
@@ -242,7 +242,7 @@ position: relative;
 
 .qx-devicemode-desktop #qx-main-layout .qx-menu-type-tree.qx-mdi div#qx-container-menu {
 	width: 300px;
-    min-width: 300px;
+ min-width: 300px;
 }
 
 .qx-devicemode-desktop.cms-mainmenu-visible #cms-topbar {
