@@ -1,0 +1,56 @@
+/*BEGIN toolbar.css*/
+.qx-jquery-ui {
+  .qx-scroll.qx-aum-toolbar.qx-aum-abstract-container.qx-identifier-toolbar.qx-c-lycia_actionstoolbar {
+    border: 1px solid rgb(58, 89, 126);   
+    border-top-style: solid;
+    background: var(--toolbar-bg-color);
+    margin-top: 2px;
+    margin-left: 2px;    
+    margin-right: 2px;        
+    margin-bottom: 2px;
+    padding: 2px;
+
+    .qx-aum-toolbar-button {
+      width: 100px;
+      color: var(--toolbar-fg-color);
+      &:hover {
+        color: var(--toolbar-button-hover-fg-color);
+      }
+    }
+  }
+
+  .qx-top-toolbar-cell .qx-aum-toolbar, 
+  #qx-container-toolbars .qx-aum-toolbar {
+    height: 70px;
+  }
+
+  .qx-aum.qx-aum-toolbar-button.qx-aum-toolbar-item.ui-button.ui-widget {
+    &.qx-has-text.qx-has-image {
+      &.ui-button-text-only {
+        background-image: none;
+        background-color: transparent;
+        border:transparent;
+    
+        &.ui-state-default.ui-corner-all {
+          border:transparent;
+          background-image: none;
+          background:transparent;
+          background-color: var(--toolbar-bg-color);
+    
+          &:hover {
+            background-color: var(--toolbar-button-hover-bg-color);
+          }
+        }
+      }
+    }
+
+    &.qx-no-image {
+      background-image: none;
+      background-color: transparent;
+      width: 10rem;
+      color:transparent;
+      border:transparent;
+    }
+  }
+}
+/*END toolbar.css*/

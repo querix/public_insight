@@ -1,0 +1,60 @@
+/*BEGIN fcls_font_test.css*/
+/* I need the following font form classes only for demo purpose demo_samples/font_viewer... may be we can find a better way to demonstrate this */
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Arimo");
+@import url("https://fonts.googleapis.com/css?family=Abel");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+@import url("https://fonts.googleapis.com/css?family=Cousine");
+@import url("https://fonts.googleapis.com/css?family=Space+Mono");
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+
+%fcls_fieldlabel_font {
+  color: var(--label-fg-color);
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.qx-c-fcls_fieldlabel.qx-aum,
+.qx-c-fcls_data_widget.qx-aum {
+  @extend %fcls_fieldlabel_font;
+}
+
+$fonts: (
+  1: Montserrat, 
+  2: "Noto Sans", 
+  3: "Helvetica Neue", 
+  4: sans-serif, 
+  5: "Roboto Mono",
+  6: "Droid Sans Mono",
+  7: "Space Mono",
+  8: Monospace,
+  9: "Open Sans",
+  10: "Fira Sans", 
+  11: "Josefin Sans",
+  12: "Open Sans Condensed",
+  13: Roboto,
+  14: Lato,
+  15: "Roboto Condensed",
+  16: "Raleway",
+  17: "Droid Sans",
+  18: Ubuntu,
+  19: Arimo,
+  20: Abel
+);
+
+@each $counter, $f in $fonts {
+  .qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_#{$counter},
+  .qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_#{$counter} {
+    font-family: $f;
+  }
+}
+/*END fcls_font_test.css*/

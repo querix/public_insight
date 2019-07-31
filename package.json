@@ -1,0 +1,43 @@
+{
+  "name": "lycia_public",
+  "version": "1.0.0",
+  "description": "Lycia custom styles and plugins",
+  "main": "index.js",
+  "scripts": {
+    "ocean:noimport": "node build.js sourceDir=querix/scss/ocean targetDir=querix/css/ocean",
+    "ocean:dev": "node build.js sourceDir=querix/scss/ocean targetDir=querix/css/ocean masterCss=_css_master.css",
+    "ocean:pro": "set NODE_ENV=production&& node build.js sourceDir=querix/scss/ocean targetDir=querix/css/ocean masterCss=_css_master.css",
+    "ocean": "npm run ocean:pro",
+    "ocean:postcss": "postcss querix/scss/ocean/_css_master.scss -o querix/css/ocean/_css_master.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/QuerixDemos/public.git"
+  },
+  "keywords": [
+    "Lycia",
+    "public"
+  ],
+  "author": "Querix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/QuerixDemos/public/issues"
+  },
+  "homepage": "https://gitlab.com/QuerixDemos/public#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
+    "fs-extra": "^8.1.0",
+    "fs-readdir-recursive": "^1.1.0",
+    "postcss": "^7.0.17",
+    "postcss-cli": "^6.1.3",
+    "postcss-combine-duplicated-selectors": "^8.0.2",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-custom-properties": "^9.0.2",
+    "postcss-discard-empty": "^4.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-prettify": "^0.3.4",
+    "sass": "^1.22.9"
+  }
+}

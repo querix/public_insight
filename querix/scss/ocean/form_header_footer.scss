@@ -1,0 +1,23 @@
+/*BEGIN form_header_footer.css*/
+.qx-jquery-ui {
+  .qx-c-fcls_title_lb .qx-text {
+    padding: 2px;
+    padding: 5px 10px;
+    color: var(--root_cnt_header-fg-color);
+    font: bold 14px "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+  } 
+  .qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-c-fcls_title_cnt {
+    background: var(--root_cnt_header-bg-color);
+    background-image: none;
+    font-weight: bold;
+    padding: 2px; 
+    margin: 2px;
+  }
+  .qx-c-fcls_statusbar_cnt {
+    background: var(--root_cnt_footer-bg-color);
+    background-image: none;
+    padding: 0;
+    margin-top:5px;
+  }
+}
+/*END form_header_footer.css*/

@@ -1,0 +1,605 @@
+/*BEGIN element_type.css*/
+%element-role-display-bkg {
+  background-color:  rgb(46, 110, 158) ;
+  background-image: none ;
+}
+%element-role-input-bkg {
+  background-color:var(--main-textfield-enabled-color-bg) ;
+  background-image: none;
+}
+
+.qx-jquery-ui {
+  /*Disabled ComboBox - Special Case huho 18.09.2018*/
+  .qx-aum-combo-box.qx-disabled .ui-button,
+  #qx-container-status-bar {
+    display: none;
+  }
+  .qx-aum-grid-panel.qx-display-grid > .qx-va-t {
+    align-self: stretch;
+    vertical-align: middle;
+  }
+  .qx-c-fcls_menulabel .qx-text{
+    color: var(--label-fg-color);
+  } 
+  .qx-c-fcls_title_lb .qx-text {
+    padding: 5px 10px;
+    color: var(--root_cnt_footer-fg-color);
+    font-weight:bold;
+  } 
+  .qx-c-fcls_sblabel .qx-text {
+    color: #ffffff;
+    padding: 5px 10px 2px;
+  } 
+  .qx-c-fcls_font_description .qx-text-with-icon  .qx-text{
+    color: var(--label_comment-fg-color);
+    font-style: italic;
+  }
+  .ui-widget-content .qx-aum-abstract-field.ui-state-active,
+  .ui-widget-header .qx-aum-abstract-field.ui-state-active, 
+  .qx-aum-abstract-field.ui-state-active,
+  .ui-widget-content .qx-aum-abstract-field.ui-state-active > select, 
+  .ui-widget-header .qx-aum-abstract-field.ui-state-active > select, 
+  .qx-aum-abstract-field.ui-state-active > select
+  {
+    font-weight: normal;
+    color: #3a597e;  
+  
+  }
+  // .ui-state-focus, 
+  // .ui-state-hover, 
+  .ui-widget-content .ui-state-focus.qx-aum-table, 
+  .ui-widget-content .ui-state-hover.qx-aum-table, 
+  .ui-widget-header .ui-state-focus.qx-aum-table, 
+  .ui-widget-header .ui-state-hover.qx-aum-table {
+    border: 1px solid #3a597e;
+    background:none;
+    font-weight: 400;
+    color:red;
+  }
+      
+  /*margin textFields*/
+  .qx-aum {
+    &.qx-aum-abstract-text-field,
+    &.qx-aum-abstract-range-field,
+    &.qx-aum-blob-viewer,
+    &.qx-aum-button,
+    &.qx-aum-canvas,
+    &.qx-aum-combo-box,
+    &.qx-aum-check-box,
+    &.qx-aum-function-field-abs, 
+    &.qx-aum-list-box,
+    &.qx-aum-radio,
+    &.qx-aum-radio-group,
+    &.qx-aum-spinner {
+      margin: 2px;
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+    &.qx-aum-function-field-abs,
+    &.qx-aum-calendar,
+    &.qx-aum-combo-box,
+    &.qx-aum-spinner {
+      padding-right: 0;
+    }
+  }
+
+  .qx-grid-cell {
+    padding: 1px;
+  }
+
+  /*margin/padding for text box TEXT area ( i.e. INNER listBox)*/
+  .qx-text.qx-focus-target {
+    padding:4px;
+  }
+
+  .qx-aum-label {
+    vertical-align: middle;
+    text-align: left;
+  }
+
+  /*Function Field*/
+  .qx-c-fcls_image_remove.qx-aum-function-field-abs {
+    color:red;
+    background: none;
+  }
+
+  .qx-aum.qx-c-fcls_data_widget {
+    padding-left: 2px;
+    padding-right: 2px;
+
+    &.qx-aum.qx-aum-spinner,
+    &.qx-aum.qx-aum-combo-box,
+    &.qx-aum.qx-aum-calendar {
+      padding-right: 0;
+    }
+    
+    &.qx-aum-combo-box {
+      background: none; 
+    }
+
+    &.qx-aum-function-field-abs {
+      padding-left: 0;
+      padding-right: 0;
+      background:transparent;
+    }
+
+    .qx-aum-check-box,
+    .qx-aum-radio {
+      &.qx-aum-abstract-field {
+        .qx-text-with-icon .qx-text,
+        &.qx-active.qx-c-activefield,
+        &.qx-inactive.qx-disabled.qx-readonly .qx-text-with-icon .qx-text {
+          color: #3a597e;   
+          font-size: 1rem;    
+        }
+  
+        .qx-text-with-icon {
+          .qx-text {
+            font: normal 1rem "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;
+          }          
+        }        
+      }
+    }
+    
+    &.qx-aum-spinner {
+      > input {
+        background: none;
+        background-color: transparent;
+      }
+      &.qx-aum-abstract-field.ui-state-active.qx-focused .qx-text {
+        font-weight: normal;
+      }
+    }
+
+    /*textField widget - fcls_active_widget  widgets should show active but not be selectable */ 
+    &.qx-text-field.qx-c-fcls_active_widget .qx-text {
+      opacity: 1;
+      margin-bottom: 4px;
+    }
+  } 
+
+  .qx-aum {
+    &.qx-aum-text-area,
+    &.qx-aum-text-field,
+    &.qx-aum-calendar,
+    &.qx-aum-time-edit-field {
+      &.qx-element-role-input {
+        &.qx-has-focus,
+        &.qx-has-focus * {
+          @extend %element-role-input-bkg;
+        }
+      }
+      &.qx-element-role-display {
+        &.qx-has-focus,
+        &.qx-has-focus * {
+          @extend %element-role-display-bkg;
+        }
+      }
+    }
+
+    &.qx-aum-function-field-abs {
+      &.qx-element-role-input {
+        &.qx-has-focus,
+        &.qx-has-focus .qx-ff-text,
+        &.qx-has-focus .qx-ff-text * {
+          @extend %element-role-input-bkg;
+        }
+      }
+      &.qx-element-role-display {
+        &.qx-has-focus,
+        &.qx-has-focus .qx-ff-text,
+        &.qx-has-focus .qx-ff-text * {
+          @extend %element-role-display-bkg;
+        }
+      }
+    }
+
+    &.qx-aum-spinner {
+      &.qx-element-role-input {
+        &.qx-has-focus,
+        &.qx-has-focus .qx-text {
+          @extend %element-role-input-bkg;
+        }
+      }
+      &.qx-element-role-display {
+        &.qx-has-focus,
+        &.qx-has-focus .qx-text {
+          @extend %element-role-display-bkg;
+        }
+      }
+    }
+
+    &.qx-aum-blob-viewer,
+    &.qx-aum-check-box,
+    &.qx-aum-combo-box,
+    &.qx-aum-list-box {
+      &.qx-element-role-input {
+        &.qx-has-focus {
+          @extend %element-role-input-bkg;
+        }
+      }
+      &.qx-element-role-display {
+        &.qx-has-focus {
+          @extend %element-role-display-bkg;
+        }
+      }
+    }
+  }
+
+  /*Fix size buttons*/
+  $fix_size_buttons: (1: '5rem', 2: '10rem', 3: '15rem', 4: '20rem', 5: '25rem');
+  .qx-c-fcls_button_icon {
+    width:2rem;
+    height:2rem; 
+  }
+  @each $key, $val in $fix_size_buttons {
+    .qx-c-fcls_button_#{$key} {
+      width: #{$val};
+    }
+  }
+
+  /*FormClass: fcls_columnlabel_rev - selects just the label*/
+  .qx-c-fcls_columnlabel_rev.qx-aum-label .qx-text{
+    color: var(--label_rev-fg-color); /*white;   */
+    background: var(--label_rev-bg-color);
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;    
+  }  
+
+  .qx-c-fcls_columnlabel_rev_cell.qx-aum-label {
+    /*FormClass: fcls_columnlabel_rev_cell - selects the entire cell*/
+    &:not(.ui-widget-content),
+    .qx-text-with-icon,
+    .qx-text {
+      background: var(--label_rev-bg-color);
+    }
+
+    &:not(.ui-widget-content) {
+      flex: 1;
+    }
+    .qx-text,
+    .qx-text-with-icon {
+      font: normal 1rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+      color: var(--label_rev-fg-color); 
+      padding: 2px 5px 2px 5px;
+    }
+  }
+
+  /*Additional Header Styles to be used in forms*/
+  %fcls_font_h_style {
+    font-weight:bold;
+    color: var(--label-fg-color); 
+  }
+  $fcls_font_h: (1: '2rem', 2: '1.6rem', 3: '1.2rem', 4: '1rem');
+  @each $key, $val in $fcls_font_h {
+    .qx-c-fcls_font_h#{$key} .qx-text-with-icon {
+      @extend %fcls_font_h_style;
+      font-size: #{$val};
+    }
+  }
+
+  /*FormClass: fcls_key_usage - selects the entire cell*/
+  .qx-c-fcls_key_usage {
+    .qx-text,
+    &.qx-aum-label:not(.ui-widget-content) {
+      background: var(--label_rev-bg-color);
+    }
+    &.qx-aum-label:not(.ui-widget-content) {
+      flex: 1;
+    }
+    .qx-text {
+      color: var(--label_rev-fg-color);  
+      padding: 2px 5px 2px 5px;
+    }
+  }
+
+  .qx-c-lycia_currentrow {
+    &.qx-element-role-display {
+      &.qx-c-attribute_blue.qx-c-attribute_reverse {
+        &.qx-aum-blob-viewer,
+        &.qx-aum-check-box,
+        &.qx-aum-combo-box,
+        &.qx-aum-function-field-abs,
+        &.qx-aum-list-box,
+        &.qx-aum-spinner,
+        &.qx-aum-abstract-text-field {
+          background-color: rgb(46, 110, 158);
+          background-image: none;
+          color: #fff;
+        }
+      }
+    }
+  }
+  
+  /*===Not optimized===*/
+  /*Special Case RadioButton */
+  .qx-aum-radio .ui-state-focus,
+  .ui-state-hover,
+  .ui-widget-content .ui-state-focus,
+  .ui-widget-content .ui-state-hover,
+  .ui-widget-header .ui-state-focus,
+  .ui-widget-header .ui-state-hover 
+  {
+    border-color: transparent;
+    background: none;
+  }
+  .qx-aum-combo-box .ui-button.ui-state-hover {
+    background: #e6e6e6 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+  }
+
+  /*Special Case Blob Viewer - 30.10.2018*/
+  // .ui-state-focus,
+  // .ui-state-hover,
+  .ui-widget-content .ui-state-focus.qx-aum-blob-viewer,
+  .ui-widget-content .ui-state-hover.qx-aum-blob-viewer,
+  .ui-widget-header .ui-state-focus.qx-aum-blob-viewer,
+  .ui-widget-header .ui-state-hover.qx-aum-blob-viewer {
+    border: 1px solid #3a597e;
+    background: none;
+    font-weight: 400;
+    color: red;
+  }
+  iframe {
+    border: none;
+  }
+  /* Special for CheckBox - Tester Feedback Anna - remove visible box when focusing a check box */
+  .qx-aum-check-box.qx-has-focus {
+    border-width: 0px;
+    background-color: white ;
+    background-image: none;
+  }
+  .qx-bool-widget.qx-focused label {
+    outline-width: 0
+  }
+  .qx-aum-check-box input+label>span,
+  .qx-aum-radio input+label>span {
+    border: 1px dashed transparent;
+  }
+  .qx-aum-check-box input:focus+label>span,
+  .qx-aum-radio input:focus+label>span {
+    border-color: #aaa;
+  }
+  .qx-aum-radio-group.qx-focused {
+    outline-width: 0px;
+  }
+  .ui-widget-content .ui-state-highlight.qx-element-role-input {
+    border-color: var(--tf-border-color);
+    box-shadow: 0 0 0 1px var(--tf-border-color);
+    // border-radius: 3px;
+    color: #3a597e;
+    background-image: none ;
+  }
+
+  .ui-widget-content .qx-element-role-input {
+    border: 0.5px solid var(--tf-border-color);
+    color: #3a597e;
+    background-color: rgba(208, 229, 245, 0.2) ;
+  }
+
+  .ui-widget-content .qx-element-role-input:hover {
+    border: 0.5px solid var(--tf-border-hover-color);
+  }
+  /* ### INPUT -> BUT NO FOCUS for widgets without textBox / frames                                                          #################*/
+  .ui-widget-content .qx-element-role-input.qx-aum-check-box,
+  .ui-widget-content .qx-element-role-input.qx-aum-radio-group,
+  .ui-widget-content .qx-element-role-input.qx-aum-slider,
+  .ui-widget-content .qx-element-role-input.qx-aum-label,
+  .ui-widget-content .qx-element-role-input.qx-aum-progress-bar,
+  .ui-widget-content .qx-element-role-input.qx-aum-button {
+    border: 0.0px solid var(--tf-border-color);
+    color: #3a597e;
+    background-color: var(--transparent) ;
+  }
+  .qx-aum-calendar.qx-has-focus {
+    background-color: rgba(208, 229, 245, 0.2) ;
+  }
+  /*Outer calendar widget - parent container */
+  .qx-aum-function-field-abs.qx-has-focus,
+  .qx-aum-calendar.qx-has-focus {
+    // border-radius: 3px;
+    background-color: rgba(208, 229, 245, 0.2) ;
+  }
+  /*Inactive Fields (ALL Element Types with textBox) qx-inactive, qx-readonly, ui-state-disabled NOT IN INPUT*/
+  .qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-aum-calendar.qx-readonly,
+  .qx-aum-calendar.qx-readonly *,
+  .qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-aum-function-field-abs.qx-readonly .qx-ff-text,
+  .qx-aum-function-field-abs.qx-readonly .qx-ff-text *,
+  .qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-aum-spinner.qx-readonly,
+  .qx-aum-spinner.qx-readonly .qx-text,
+  .qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-aum-text-field.qx-readonly,
+  .qx-aum-text-field.qx-readonly *,
+  .qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-aum-text-area.qx-readonly,
+  .qx-aum-text-area.qx-readonly *,
+  .qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-aum-time-edit-field.qx-readonly,
+  .qx-aum-time-edit-field.qx-readonly *,
+  .qx-aum-combo-box.qx-inactive.ui-state-disabled,
+  .qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target,
+  .qx-aum-combo-box.qx-readonly,
+  .qx-aum-combo-box.qx-readonly .qx-text.qx-text-edit.qx-focus-target,
+  .qx-aum-browser {
+    color: var(--tf-label-enabled_fg-color) ;
+    background-color: rgba(208, 229, 245, 0.0) ;
+    opacity: 1;
+    filter: Alpha(Opacity=00);
+    border: 1px solid rgba(255, 255, 255, .0);
+  }
+  /*Inactive State - kind of global for all elements*/
+  .ui-state-disabled,
+  .ui-widget-content .ui-state-disabled {
+    opacity: .7;
+    filter: Alpha(Opacity=70);
+    border: 1px solid rgba(92, 156, 204, .5);
+    color: #3a597e;
+  }
+  /*disabled button */
+  .qx-aum-button.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly {
+    opacity: .7;
+    filter: Alpha(Opacity=70);
+    border-color: transparent;
+    color: #3a597e;
+  }
+  .qx-aum-text-field.qx-inactive {
+    border: 1px solid rgba(92, 156, 204, .5);
+  }
+  .qx-aum-function-field-abs.qx-inactive.ui-state-active.qx-aum.qx-aum-abstract-field.qx-active {
+    border: 10px solid rgba(92, 156, 204, .5);
+  }
+  .qx-aum-text-area.qx-inactive,
+  .qx-aum-time-edit-field.qx-inactive,
+  .qx-aum-browser.qx-inactive,
+  .qx-aum-calendar.qx-inactive,
+  .qx-aum-list-box.qx-inactive,
+  .qx-aum-canvas.qx-inactive {
+    border: 1px solid rgba(92, 156, 204, .5);
+  }
+  .qx-aum-list-box .qx-text {
+    border: none;
+  }
+  /*Enabled/Disabled fields - Input/not in Input*/
+  /*Overwrite opacity for disabled fields */
+  .ui-widget-header .ui-state-active,
+  .ui-state-disabled,
+  .ui-widget-content .ui-state-disabled,
+  .ui-state-disabled {
+    opacity: 1;
+  }
+  /*Overwrite opacity for disabled fields */
+  .qx-c-fcls_show_enabled.ui-widget-header .qx-c-fcls_show_enabled.ui-state-active,
+  .ui-state-disabled,
+  .qx-c-fcls_show_enabled.ui-widget-content .ui-state-disabled,
+  .ui-state-disabled {
+    opacity: 1;
+  }
+  .qx-bool-widget.qx-aum.qx-aum-radio.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-has-title.qx-has-text.qx-focusable-field {
+    color: #3a597e;
+    font-size: 1rem;
+  }
+  .qx-aum-radio-group * {
+    color: #3a597e;
+    font-size: 1rem;
+  }
+  .qx-c-fcls_field .qx-aum-radio {
+    color: #3a597e;
+    font-size: 1rem;
+  }
+  .aum-text-field {
+    color: #3a597e;
+    font-size: 2.8rem;
+  }
+  .qx-aum-radio-group .qx-content,
+  .qx-c-nativestyle .qx-content {
+    color: #3a597e;
+    font-size: 2.8rem;
+  }
+  qx-aum-abstract-field.ui-state-active .qx-aum-abstract-field.ui-state-active .qx-aum-radio-group .qx-content,
+  .qx-c-nativestyle .qx-content {
+    color: black;
+    font-size: 1rem;
+  }
+  .qx-aum-radio-group.ui-state-focus,
+  .qx-aum-radio-group.ui-widget-content,
+  .qx-aum-radio-group.ui-widget-header,
+  .qx-aum-radio-group.ui-state-hover {
+    background-color: transparent;
+    // border-radius: 3px;
+  }
+  // .ui-state-hover:hover {
+  //   background-color: transparent;
+  //   border: 1px solid white;
+  //   border-radius: 3px;
+  // }
+  .qx-aum-radio .qx-text {
+    color: #3a597e;
+  }
+  /*checkBox label*/
+  .qx-bool-widget.qx-aum.qx-aum-check-box.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-has-title.qx-has-text {
+    font-size: 1rem;
+    font-weight: normal;
+    font: normal 1rem "Roboto", Montserrat, Calibri, "Helvetica Neue", Sans-Serif;
+    color: #3a597e;
+  }
+  .qx-aum.qx-aum-tab.qx-aum-abstract-container .qx-tabcontrol-header.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header {
+    color: red;
+    background-color: blue;
+  }
+  .ui-tabs-nav {
+    min-width: 150px;
+    color: white;
+    background-color: #3a597e;
+  }
+  .ui-tabs-nav .qx-text {
+    min-width: 150px;
+    color: white;
+  }
+  /*All button-labels (from any button) in forms with the (rootfolder) class name fcls_container_menu*/
+  .qx-c-fcls_container_menu .qx-aum-button .qx-text-with-icon {
+    justify-content: flex-start;
+  }
+  /*Any general button*/
+  .qx-no-image.ui-button.ui-widget .ui-button-text .qx-text-with-icon {
+    color: var(--widg_button-fg-color);
+    background-color: var(--widg_button-bg-color);
+  }
+  /* Hover button color changes */
+  .qx-no-image.ui-button.ui-widget .ui-button-text .qx-text-with-icon:hover {
+    color: var(--main-hover-button-color-fg);
+    background-color: var(--main-hover-button-color-bg);
+  }  
+
+  /* Trying to replace the default icon and center it on the button 12.12.2018 HuHo*/
+  .qx-aum.qx-aum-function-field-abs {
+    padding-right: 0;
+    .qx-aum-button {
+      padding: 0;
+      margin: 0;
+      .qx-image {
+        content: url(/public/querix/icon/svg/24/ic_sub_dialog_24px.svg);
+      }
+    }
+  }
+
+  .qx-aum.qx-has-focus,
+  .qx-aum:hover {
+    border-radius: 0;
+  }
+
+  .qx-aum .qx-text:empty {
+    padding: 0;
+  }
+
+  .ui-datepicker.ui-widget-content {
+    .ui-widget-header {
+      .ui-icon {
+        background-image: url(images/jquery-ui/ui-icons_ffffff_256x240.png);
+      }    
+      .ui-datepicker-prev-hover .ui-icon,
+      .ui-datepicker-next-hover .ui-icon {
+        opacity: .6;
+      }
+    }
+  }
+  
+  // .qx-aum.qx-aum-button.qx-has-image .qx-image {
+  //   content: url(/public/querix/icon/svg/24/ic_sub_dialog_24px.svg);
+  // }	
+
+  // .qx-aum-function-field-abs .qx-ff-text > .qx-aum.qx-aum-button {
+  //   padding: 0;
+  //   margin: 0;
+  // }
+}
+/*END element_type.css*/
