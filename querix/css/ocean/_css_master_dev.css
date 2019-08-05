@@ -1,0 +1,4387 @@
+@import url("https: //fonts.googleapis.com/css?family=Noto+Sans");
+
+@import url("https: //fonts.googleapis.com/css?family=Roboto");
+
+@import url("https: //fonts.googleapis.com/css?family=Roboto+Mono");
+
+@import url("https: //fonts.googleapis.com/css?family=Montserrat");
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed: 300");
+
+@import url("https: //fonts.googleapis.com/css?family=Lato");
+
+@import url("https: //fonts.googleapis.com/css?family=Roboto+Condensed");
+
+@import url("https: //fonts.googleapis.com/css?family=Raleway");
+
+@import url("https: //fonts.googleapis.com/css?family=Droid+Sans");
+
+@import url("https: //fonts.googleapis.com/css?family=Ubuntu");
+
+@import url("https: //fonts.googleapis.com/css?family=Arimo");
+
+@import url("https: //fonts.googleapis.com/css?family=Abel");
+
+@import url("https: //fonts.googleapis.com/css?family=Open+Sans");
+
+@import url("https: //fonts.googleapis.com/css?family=Josefin+Sans");
+
+@import url("https: //fonts.googleapis.com/css?family=Fira+Sans");
+
+@import url("https: //fonts.googleapis.com/css?family=Cousine");
+
+@import url("https: //fonts.googleapis.com/css?family=Space+Mono");
+
+@import url("https: //fonts.googleapis.com/css?family=Droid+Sans+Mono");
+
+@import url("https: //fonts.googleapis.com/css?family=Source+Code+Pro");
+
+:root {
+  --default-font-style: normal;
+  --default-font-size: 1rem;
+  --default-font-family: "Open Sans", "Noto Sans", "Roboto", Montserrat, Calibri, "Helvetica Neue", Sans-Serif;
+  /* BEGIN COLORS */
+  --main-color-000: rgba(255, 255, 255, 1.00);
+  --main-color-001: rgba(255, 255, 255, 1.00);
+  /* i.e. reversed text fg, tab-handle border */
+  --main-color-002: rgba(255, 255, 255, 0.4);
+  /* i.e. text partially transparent */
+  --main-color-003: rgba(255, 255, 255, 0.6);
+  /* i.e. mdi tab label fg text partially transparent */
+  --main-color-004: rgba(255, 255, 255, 0.8);
+  /* i.e. text partially transparent */
+  --main-color-010: rgba(032, 053, 094, 1.00);
+  /*i.e. main text label color */
+  --main-color-011: rgba(000, 000, 000, 1.00);
+  --main-color-012: rgba(000, 000, 000, 1.00);
+  --main-color-013: rgba(000, 000, 000, 1.00);
+  --main-color-014: rgba(000, 000, 000, 1.00);
+  --main-color-020: rgba(000, 000, 000, 1.00);
+  --main-color-030: rgba(000, 000, 000, 1.00);
+  --main-color-040: rgba(000, 000, 000, 1.00);
+  --main-color-050: rgba(000, 000, 000, 1.00);
+  --main-color-060: rgba(000, 000, 000, 1.00);
+  --main-color-070: rgba(016, 025, 035, 1.00);
+  --main-color-071: rgba(032, 049, 070, 1.00);
+  /*mdi sub-menu items*/
+  --main-color-072: rgba(048, 074, 105, 1.00);
+  /*mdi menu bg*/
+  --main-color-073: rgba(058, 089, 126, 1.00);
+  /* rgba(058,089,126,1) #3a597e */
+  --main-color-074: rgba(064, 098, 140, 1.00);
+  --main-color-075: rgba(080, 123, 175, 1.00);
+  --main-color-076: rgba(115, 149, 191, 1.00);
+  --main-color-077: rgba(150, 176, 207, 1.00);
+  --main-color-078: rgba(185, 202, 223, 1.00);
+  --main-color-079: rgba(220, 229, 239, 1.00);
+  --main-color-080: rgba(107, 130, 158, 1.00);
+  /* #6B829E */
+  --main-color-081: rgba(058, 089, 126, 0.75);
+  --main-color-082: rgba(105, 167, 215, 1.00);
+  /*field border #69a7d7 */
+  --main-color-083: rgba(003, 151, 218, 1.00);
+  /*mdi highlight*/
+  --main-color-084: rgba(153, 221, 255, 1.00);
+  /*i.e. focus-border focused*/
+  --main-color-085: rgba(208, 229, 245, 0.20);
+  /*i.e. enabled text field bg*/
+  --main-color-086: rgba(058, 089, 126, 0.20);
+  /*light transparent background color*/
+  --main-color-087: rgba(058, 089, 126, 0.40);
+  /*light transparent background color*/
+  --main-color-088: rgba(058, 089, 126, 0.60);
+  /*light transparent background color*/
+  --main-color-089: rgba(058, 089, 126, 0.80);
+  /*light transparent background color*/
+  --main-color-100: rgba(000, 000, 000, 1.00);
+  --main-color-200: rgba(158, 046, 053, 1.00);
+  /*Error*/
+  --main-color-201: rgba(251, 236, 136, 1.00);
+  /*Warning*/
+  --main-color-202: rgba(179, 217, 255, 1.00);
+  /*Info*/
+  --main-color-203: rgba(255, 200, 200, 0.3);
+  /* Conditional row highlight in display array */
+  /* END COLORS */
+  --main-color-fg: black;
+  --main-color-bg: var(--main-color-000);
+  --main-focus-color-fg: black;
+  --main-focus-color-bg: var(--main-color-000);
+  --main-focus-border-color: var(--main-color-071);
+  --main-hover-button-color-fg: var(--main-color-072);
+  --main-hover-button-color-bg: var(--main-color-078);
+  --main-label-color-fg: var(--main-color-010);
+  --main-label-rev-color-fg: var(--main-color-000);
+  --main-label-color-bg: transparent;
+  --main-textfield-enabled-color-fg: var(--4gl-color-default);
+  --main-textfield-enabled-color-bg: var(--main-color-085);
+  --main-textfield-disabled-color-fg: var(--main-color-010);
+  --main-textfield-disabled-color-bg: var(--main-color-010);
+  --main-panel-color-fg: var(--main-color-000);
+  --main-panel-color-bg: var(--main-color-073);
+  --main-form-button-color-fg: black;
+  --main-form-button-color-bg: white;
+  --main-dialog-button-color-fg: black;
+  --main-dialog-button-color-bg: white;
+  --main-dialog-button-focus-color-fg: black;
+  --main-dialog-button-focus-color-bg: rgba(233, 251, 255, 1.00);
+  
+  /* default 4gl attribute colours */
+  --4gl-color-default: var(--main-color-073);
+  /*rgb(58, 89, 126); */
+  --4gl-color-default-fg: var(--main-color-073);
+  /*rgb(58, 89, 126); */
+  --4gl-color-default-bg: rgba(203, 215, 231, 1);
+  --4gl-color-black: black;
+  --4gl-color-black-fg: black;
+  --4gl-color-black-bg: rgba(217, 217, 217, 1);
+  --4gl-color-white: white;
+  --4gl-color-white-fg: white;
+  --4gl-color-white-bg: rgba(89, 89, 89, 1);
+  --4gl-color-green: rgb(51, 153, 51);
+  --4gl-color-green-fg: rgb(51, 153, 51);
+  --4gl-color-green-bg: rgba(214, 245, 214, 1);
+  --4gl-color-red: rgb(204, 0, 0);
+  --4gl-color-red-fg: rgb(204, 0, 0);
+  --4gl-color-red-bg: rgba(255, 204, 204, 1);
+  --4gl-color-blue: rgb(58, 89, 126);
+  --4gl-color-blue-fg: rgb(58, 89, 126);
+  --4gl-color-blue-bg: rgba(203, 215, 231, 1);
+  --4gl-color-cyan: rgb(51, 204, 255);
+  --4gl-color-cyan-fg: rgb(51, 204, 255);
+  --4gl-color-cyan-bg: rgba(179, 236, 255, 1);
+  --4gl-color-yellow: rgb(255, 204, 0);
+  --4gl-color-yellow-fg: rgb(255, 204, 0);
+  --4gl-color-yellow-bg: rgba(255, 240, 179, 1);
+  --4gl-color-magenta: rgb(191, 0, 255);
+  --4gl-color-magenta-fg: rgb(191, 0, 255);
+  --4gl-color-magenta-bg: rgba(236, 179, 255, 1);
+  /* default 4gl colours with REVERSED*/
+  --4gl-color-default-rev-fg: white;
+  --4gl-color-default-rev-bg: rgb(58, 89, 126);
+  --4gl-color-black-rev-fg: white;
+  --4gl-color-black-rev-bg: black;
+  --4gl-color-white-rev-fg: black;
+  --4gl-color-white-rev-bg: white;
+  --4gl-color-green-rev-fg: white;
+  --4gl-color-green-rev-bg: rgb(51, 153, 51);
+  --4gl-color-red-rev-fg: white;
+  --4gl-color-red-rev-bg: rgb(204, 0, 0);
+  --4gl-color-blue-rev-fg: white;
+  --4gl-color-blue-rev-bg: rgb(58, 89, 126);
+  --4gl-color-yellow-rev-fg: white;
+  --4gl-color-yellow-rev-bg: rgb(255, 204, 0);
+  --4gl-color-cyan-rev-fg: white;
+  --4gl-color-cyan-rev-bg: rgb(51, 204, 255);
+  --4gl-color-magenta-rev-fg: white;
+  --4gl-color-magenta-rev-bg: rgb(191, 0, 255);
+  /* default 4gl DIM colours */
+  --4gl-color-dim-bg-label: transparent;
+  --4gl-color-default-dim-fg: rgb(40, 61, 87);
+  --4gl-color-default-dim-bg: transparent;
+  --4gl-color-black-dim-fg: rgb(100, 100, 100);
+  --4gl-color-black-dim-bg: transparent;
+  --4gl-color-white-dim-fg: rgb(150, 150, 150);
+  --4gl-color-white-dim-bg: transparent;
+  --4gl-color-green-dim-fg: rgb(38, 115, 38);
+  --4gl-color-green-dim-bg: transparent;
+  --4gl-color-red-dim-fg: rgb(153, 0, 0);
+  --4gl-color-red-dim-bg: transparent;
+  --4gl-color-blue-dim-fg: rgb(40, 61, 87);
+  --4gl-color-blue-dim-bg: transparent;
+  --4gl-color-yellow-dim-fg: rgb(255, 153, 0);
+  --4gl-color-yellow-dim-bg: transparent;
+  --4gl-color-cyan-dim-fg: rgb(0, 115, 153);
+  --4gl-color-cyan-dim-bg: transparent;
+  --4gl-color-magenta-dim-fg: rgb(115, 0, 153);
+  --4gl-color-magenta-dim-bg: transparent;
+  /* default 4gl BLINK colours */
+  /*--fgl-color-blink-bg-label: rgba(235,235,100,0.3);*/
+  --4gl-color-blink-bg-label: transparent;
+  --4gl-color-default-blink-fg: rgb(98, 136, 183);
+  --4gl-color-black-blink-fg: rgb(100, 100, 100);
+  --4gl-color-white-blink-fg: rgb(150, 150, 150);
+  --4gl-color-green-blink-fg: rgb(64, 191, 64);
+  --4gl-color-red-blink-fg: rgb(255, 102, 102);
+  --4gl-color-blue-blink-fg: rgb(98, 136, 183);
+  --4gl-color-yellow-blink-fg: rgb(255, 255, 0);
+  --4gl-color-cyan-blink-fg: rgb(102, 217, 255);
+  --4gl-color-magenta-blink-fg: rgb(217, 102, 255);
+  
+  /*var(--main-color-084);*/
+  /*remove/replace below it's old */
+  --main-bg-color: white;
+  --main-fg-color: black;
+  /* mdi menu container transformer*/
+  --cnt_mdi_menu_col1-color: var(--main-color-073);
+  /*  #3a597e; rgb(58, 89, 126) */
+  /* top/left titlebar logo bg  */
+  --cnt_mdi_header-bg-color: var(--main-color-073);
+  /* #3a597e rgb(58, 89, 126) ; */
+  /*top-right main titlebar bg */
+  --cnt_mdi_menu_col2-color: var(--main-color-073);
+  /* #324873 */
+  ;
+  /*margin between menu/scroll area and app canvas */
+  --cnt_mdi_menu_col3-color: var(--main-color-071);
+  /*   #20355e; */
+  /* sub-items */
+  --cnt_mdi_menu_col4-color: var(--main-color-000);
+  /*rgba(255,255,255); */
+  /* focused/selected menu item label fg*/
+  --cnt_mdi_menu_col5-color: var(--main-color-083);
+  /* #0397da; */
+  /* selection background */
+  --cnt_mdi_menu_header-bg-color: orange;
+  --cnt_mdi_menu_button_area-bg-color: var(--main-color-072);
+  /* #324873  */
+  ;
+  /* Tab-Page Form Container */
+  --cnt-mdi-tab-handle-container-area-bg: var(--main-color-073);
+  /*rgb(58, 89, 126);  */
+  --cnt_mdi_tab_handle_selected-color-fg: var(--main-label-rev-color-fg);
+  --cnt_mdi_tab_handle_selected-color-bg: var(--main-color-073);
+  /*rgb(58, 89, 126);  */
+  --cnt_mdi_tab_handle_selected-border-color-bg: var(--main-color-001);
+  /*rgb(58, 89, 126);  */
+  --cnt_mdi_tab_handle_not_selected-color-fg: var(--main-label-rev-color-fg);
+  --cnt_mdi_tab_handle_not_selected-color-bg: var(--main-color-081);
+  /*rgba(58, 89, 126,.75); */
+  --cnt_mdi_tab_handle_not_selected-border-color-bg: var(--main-color-078);
+  /*rgb(58, 89, 126);  */
+  --cnt-mdi-tab-handle-hover-color-fg: var(--main-label-rev-color-fg);
+  /* let's keep it the same  */
+  --cnt-mdi-tab-handle-hover-color-bg: transparent;
+  /*var(--main-hover-button-color-bg);*/
+  --cnt_mdi_tab_handle_not_selected-bg-color: rgba(58, 89, 126, .75);
+  /* Toolbar */
+  --toolbar-fg-color: var(--main-color-001);
+  /* white;   */
+  --toolbar-bg-color: var(--main-color-073);
+  /* rgb(58, 89, 126);  */
+  --toolbar-button-fg-color: var(--main-color-001);
+  /* white;   */
+  --toolbar-button-bg-color: var(--main-color-073);
+  /* rgb(58, 89, 126);  */
+  --toolbar-button-hover-fg-color: var(--main-hover-button-color-fg);
+  /* white;   */
+  --toolbar-button-hover-bg-color: var(--main-hover-button-color-bg);
+  /* rgb(58, 89, 126);  */
+  --cnt_titlebar-fg-color: pink;
+  --cnt_titlebar-bg-color: blue;
+  --cnt-color-fg: pink;
+  --cnt-color-bg: blue;
+  --cnt-color-border-light-fg: rgb(170, 170, 170);
+  /*used*/
+  --cnt-color-border-medium-fg: #3a597e;
+  /*used*/
+  --cnt-color-border-strong-fg: rgb(204, 0, 0);
+  /* Tab Page Container */
+  --cnt-tab-handle-container-area-bg: var(--main-color-073);
+  /*rgb(58, 89, 126);  */
+  --cnt_tab_handle_not_selected-bg-color: var(--main-color-074);
+  --cnt_tab_handle_selected-bg-color: var(--main-color-072);
+  /* rgb(32, 53, 94);  */
+  --cnt_tab_handle_area-bg-color: var(--main-color-073);
+  /* #3a597e; */
+  --cnt_tab_handle_area-hover-bg-color: var(--main-hover-button-color-bg);
+  /* Label */
+  --label-fg-color: var(--4gl-color-default);
+  /* #3a597e; */
+  /*default label color */
+  --label_rev-fg-color: var(--main-color-001);
+  /*white;*/
+  --label_rev-bg-color: var(--main-color-073);
+  /*#3a597e; */
+  --label_comment-fg-color: grey;
+  --tf-label-enabled_fg-color: #3a597e;
+  --tf-label-disabled_fg-color: #3a597e;
+  --tf-label_rev-fg-color: white;
+  --tf-label_rev-bg-color: #3a597e;
+  --tf-label_comment-fg-color: grey;
+  --tf-border-color: var(--main-color-082);
+  --tf-border-hover-color: var(--main-color-083);
+  --titlebar-bg-color: yellow;
+  --titlebar-fg-color: orange;
+  /* GroupBox container */
+  --cnt_gb-fg-color: yellow;
+  --cnt_gb-bg-color: var(--main-color-001);
+  /*white;*/
+  --cnt_gb_titlebar-fg-color: var(--main-color-001);
+  /*white;*/
+  --cnt_gb_titlebar-bg-color: var(--main-color-073);
+  /*#3a597e; */
+  /* Table container display/input array */
+  --cnt_tb_header-fg-color: var(--main-color-001);
+  /*yellow; */
+  --cnt_tb_header-bg-color: var(--main-color-073);
+  /*#3a597e;  */
+  --cnt_tb_curr_row-fg-color: white;
+  --cnt_tb_curr_row-bg-color: #6a89ae;
+  --cnt_tb_row_odd-fg-color: rgba(137, 210, 255, 0.2);
+  --cnt_tb_row_even-bg-color: rgba(137, 210, 255, 0.2);
+  --cnt-tb-color-curr-row-inp-field-fg: var(--main-color-001);
+  /* white; */
+  --cnt-tb-color-curr-row-inp-field-bg: var(--main-color-076);
+  /* #6a89ae; */
+  /* RootContainer colors */
+  --root_cnt_titlebar-fg-color: pink;
+  --root_cnt_titlebar-bg-color: blue;
+  --root_cnt_header-fg-color: var(--main-color-001);
+  /*white; */
+  --root_cnt_header-bg-color: var(--main-color-073);
+  /*#3a597e;*/
+  --root_cnt_footer-fg-color: var(--main-color-001);
+  /*white; */
+  --root_cnt_footer-bg-color: var(--main-color-073);
+  /*#3a597e;*/
+  --root_cnt-fg-color: pink;
+  --root_cnt-bg-color: blue;
+  /* Button Widget */
+  --widg_button-fg-color: var(--main-color-001);
+  /*white; */
+  --widg_button-bg-color: var(--main-color-073);
+  /*rgb(58, 89, 126); */
+  /* Dialog Boxes */
+  --dialog-box-color-fg: pink;
+  --dialog-box-color-bg: var(--main-color-bg);
+  --dialog-box-titlebar-color-fg: var(--main-panel-color-fg);
+  --dialog-box-titlebar-color-bg: var(--main-panel-color-bg);
+  --dialog-box-message-color-fg: var(--main-label-color-fg);
+  --dialog-box-message-color-bg: transparent;
+  --dialog-box-button-color-fg: var(--main-dialog-button-color-fg);
+  --dialog-box-button-color-bg: var(--main-dialog-button-color-bg);
+  --dialog-box-button-focus-color-fg: var(--main-dialog-button-color-fg);
+  --dialog-box-button-focus-color-bg: var(--main-dialog-button-focus-color-bg);
+  --qx-menu-hover: #f0f8ff;
+}
+
+/*Default font for elements, if it does not get overwritten by other css selectors*/
+
+.qx-text,
+.qx-has-text .qx-text,
+.qx-c-fcls_data_widget.qx-has-text .qx-text,
+.qx-bcell .qx-tbody.qx-tbody-flex-experimental,
+.ui-spinner.ui-widget.ui-widget-content.qx-aum.qx-aum-spinner.qx-aum-abstract-field.qx-c-fcls_data_widget .qx-text,
+.qx-text-field.qx-aum-text-field .qx-text {
+  font-size: 1rem;
+  font-size: var(--default-font-size);
+  font-family: "Open Sans"
+,
+"Noto Sans"
+,
+"Roboto"
+,
+Montserrat
+,
+Calibri
+,
+"Helvetica Neue"
+,
+Sans-Serif;
+  font-family: var(--default-font-family);
+  font-style: normal;
+  font-style: var(--default-font-style);
+}
+
+/*BEGIN fcls_font_test.css*/
+
+/* I need the following font form classes only for demo purpose demo_samples/font_viewer... may be we can find a better way to demonstrate this */
+
+.qx-c-fcls_fieldlabel.qx-aum,
+.qx-c-fcls_data_widget.qx-aum {
+  color: rgba(058, 089, 126, 1.00);
+  color: var(--label-fg-color);
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_1,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_1 {
+  font-family: Montserrat;
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_2,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_2 {
+  font-family: "Noto Sans";
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_3,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_3 {
+  font-family: "Helvetica Neue";
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_4,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_4 {
+  font-family: sans-serif;
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_5,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_5 {
+  font-family: "Roboto Mono";
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_6,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_6 {
+  font-family: "Droid Sans Mono";
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_7,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_7 {
+  font-family: "Space Mono";
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_8,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_8 {
+  font-family: Monospace;
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_9,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_9 {
+  font-family: "Open Sans";
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_10,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_10 {
+  font-family: "Fira Sans";
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_11,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_11 {
+  font-family: "Josefin Sans";
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_12,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_12 {
+  font-family: "Open Sans Condensed";
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_13,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_13 {
+  font-family: Roboto;
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_14,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_14 {
+  font-family: Lato;
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_15,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_15 {
+  font-family: "Roboto Condensed";
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_16,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_16 {
+  font-family: "Raleway";
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_17,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_17 {
+  font-family: "Droid Sans";
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_18,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_18 {
+  font-family: Ubuntu;
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_19,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_19 {
+  font-family: Arimo;
+}
+
+.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_20,
+.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_20 {
+  font-family: Abel;
+}
+
+/*END fcls_font_test.css*/
+
+/*BEGIN flextbox.css*/
+
+.qx-jquery-ui .qx-c-fcls_flexbox .qx-tbody {
+  display: block;
+}
+
+.qx-jquery-ui .qx-c-fcls_flexbox .qx-tbody > tbody {
+  display: block;
+  padding-top: 1em;
+}
+
+.qx-jquery-ui .qx-c-fcls_flexbox .qx-tbody > tbody > tr {
+  float: left;
+  display: flex;
+  flex-flow: column;
+  flex: 1 1 30%;
+  align-self: flex-start;
+  margin: 1%;
+  min-width: 170px;
+  border: none;
+  background: none;
+}
+
+.qx-jquery-ui .qx-c-fcls_flexbox .qx-tbody > tbody > tr.qx-scroll-space {
+  flex: 0 0 100%;
+}
+
+.qx-jquery-ui .qx-c-fcls_flexbox .qx-tbody > tbody > tr > td {
+  height: auto;
+  border: none;
+  align-self: center;
+}
+
+.qx-jquery-ui .qx-c-fcls_flexbox .qx-tbody > tbody > tr > td:nth-child(1) img {
+  height: 120px;
+}
+
+.qx-jquery-ui .qx-c-fcls_flexbox .qx-tbody > tbody > tr > td:nth-child(2) {
+  display: none;
+}
+
+.qx-jquery-ui .qx-c-fcls_flexbox .qx-tbody > tbody > tr > td img:first-child {
+  border-radius: 1em;
+}
+
+.qx-jquery-ui .qx-c-fcls_flexbox .qx-tbody > tbody > tr * {
+  background: none;
+}
+
+.qx-jquery-ui .qx-c-fcls_flexbox.qx-aum-table.qx-table {
+  background-image: none;
+  background-color: #ffffff;
+}
+
+.qx-jquery-ui .qx-c-fcls_flexbox .qx-hrow,
+.qx-jquery-ui .qx-c-fcls_flexbox .qx-frow,
+.qx-jquery-ui .qx-c-fcls_flexbox .qx-tbody > thead {
+  display: none;
+}
+
+.qx-jquery-ui .qx-c-fcls_flexbox .qx-brow {
+  padding-top: 0;
+}
+
+/*END flextbox.css*/
+
+/*BEGIN form_class_selector-blue.css*/
+
+.qx-jquery-ui #lbValueUserPicture {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.qx-jquery-ui .qx-c-fcls_length_01 {
+  width: 66rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_length_05 {
+  width: 4rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_length_10 {
+  width: 8rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_length_15 {
+  width: 12rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_length_20 {
+  width: 16rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_length_30 {
+  width: 24rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_length_40 {
+  width: 32rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_length_50 {
+  width: 40rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_length_60 {
+  width: 48rem;
+}
+
+.qx-jquery-ui .ui-accordion-header .qx-text {
+  font-size: 1rem;
+  color: #3a597e;
+}
+
+.qx-jquery-ui .qx-menu-group-header {
+  border: none;
+  background: transparent;
+  border-radius: 0;
+}
+
+.qx-jquery-ui .qx-menu-group-header:hover,
+.qx-jquery-ui .qx-aum-menu-command:hover {
+  background: #f0f8ff;
+  background: var(--qx-menu-hover);
+}
+
+.qx-jquery-ui .qx-aum-menu-group .ui-widget-content,
+.qx-jquery-ui .ui-state-default.qx-aum-menu-item {
+  background: transparent;
+  border: none;
+}
+
+.qx-jquery-ui .qx-aum-menu-item .ui-state-default {
+  font-weight: initial !important;
+}
+
+/*END form_class_selector-blue.css*/
+
+/*BEGIN menu.css*/
+
+.qx-jquery-ui .qx-mdi.qx-menu-type-tree #qx-container-menu {
+  width: 300px;
+}
+
+.qx-jquery-ui #qx-container-menu .treeview ul.ui-accordion-content {
+  padding: 0px;
+  margin: 0px;
+}
+
+.qx-jquery-ui #qx-container-menu .treeview li {
+  padding: 3px;
+}
+
+.qx-jquery-ui #qx-container-toolbars .qx-scroll-viewport {
+  height: auto !important;
+}
+
+.qx-jquery-ui #qx-container-toolbars .qx-scroll-viewport > .qx-content {
+  width: 100%;
+  position: relative;
+}
+
+.qx-jquery-ui #qx-container-toolbars .qx-scroll-viewport .qx-scroll-target {
+  padding: 2px;
+  height: 50px;
+}
+
+.qx-material-design .qx-aum-menu-group > a > label > img[src*=TIPlus],
+.qx-material-design .qx-aum-menu-group > a > label > img[src*=TIMinus] {
+  visibility: hidden;
+}
+
+/*END menu.css*/
+
+/*BEGIN text_label.css*/
+
+.qx-jquery-ui .qx-c-fcls_columnlabel.qx-aum-label .qx-text {
+  font-weight: bold;
+}
+
+/*END text_label.css*/
+
+/*BEGIN toolbar.css*/
+
+.qx-jquery-ui .qx-scroll.qx-aum-toolbar.qx-aum-abstract-container.qx-identifier-toolbar.qx-c-lycia_actionstoolbar {
+  border: 1px solid #3a597e;
+  border-top-style: solid;
+  background: rgba(058, 089, 126, 1.00);
+  background: var(--toolbar-bg-color);
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  padding: 2px;
+}
+
+.qx-jquery-ui .qx-scroll.qx-aum-toolbar.qx-aum-abstract-container.qx-identifier-toolbar.qx-c-lycia_actionstoolbar .qx-aum-toolbar-button {
+  width: 100px;
+  color: rgba(255, 255, 255, 1.00);
+  color: var(--toolbar-fg-color);
+}
+
+.qx-jquery-ui .qx-scroll.qx-aum-toolbar.qx-aum-abstract-container.qx-identifier-toolbar.qx-c-lycia_actionstoolbar .qx-aum-toolbar-button:hover {
+  color: rgba(048, 074, 105, 1.00);
+  color: var(--toolbar-button-hover-fg-color);
+}
+
+.qx-jquery-ui .qx-top-toolbar-cell .qx-aum-toolbar,
+.qx-jquery-ui #qx-container-toolbars .qx-aum-toolbar {
+  height: 70px;
+}
+
+.qx-jquery-ui .qx-aum.qx-aum-toolbar-button.qx-aum-toolbar-item.ui-button.ui-widget.qx-has-text.qx-has-image.ui-button-text-only {
+  background-image: none;
+  background-color: transparent;
+  border: transparent;
+}
+
+.qx-jquery-ui .qx-aum.qx-aum-toolbar-button.qx-aum-toolbar-item.ui-button.ui-widget.qx-has-text.qx-has-image.ui-button-text-only.ui-state-default.ui-corner-all {
+  border: transparent;
+  background-image: none;
+  background: transparent;
+  background-color: rgba(058, 089, 126, 1.00);
+  background-color: var(--toolbar-bg-color);
+}
+
+.qx-jquery-ui .qx-aum.qx-aum-toolbar-button.qx-aum-toolbar-item.ui-button.ui-widget.qx-has-text.qx-has-image.ui-button-text-only.ui-state-default.ui-corner-all:hover {
+  background-color: rgba(185, 202, 223, 1.00);
+  background-color: var(--toolbar-button-hover-bg-color);
+}
+
+.qx-jquery-ui .qx-aum.qx-aum-toolbar-button.qx-aum-toolbar-item.ui-button.ui-widget.qx-no-image {
+  background-image: none;
+  background-color: transparent;
+  width: 10rem;
+  color: transparent;
+  border: transparent;
+}
+
+/*END toolbar.css*/
+
+/*BEGIN tooltips.css*/
+
+.qx-jquery-ui .tooltipster-default {
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #4c4c4c;
+  color: #fff;
+}
+
+.qx-jquery-ui .tooltipster-default .tooltipster-content {
+  font-family: "Roboto", Montserrat, Calibri, "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+  font-size: 9pt;
+  line-height: normal;
+  padding: 6px 10px;
+}
+
+.qx-jquery-ui .tooltipster-message,
+.qx-jquery-ui .tooltipster-usage,
+.qx-jquery-ui .tooltipster-other {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.qx-jquery-ui .tooltipster-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+
+.qx-jquery-ui .tooltipster-error {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.qx-jquery-ui .tooltipster-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+/*END tooltips.css*/
+
+/*BEGIN form_header_footer.css*/
+
+.qx-jquery-ui .qx-c-fcls_title_lb .qx-text {
+  padding: 2px;
+  padding: 5px 10px;
+  color: rgba(255, 255, 255, 1.00);
+  color: var(--root_cnt_header-fg-color);
+  font: bold 14px "Roboto", "Calibri", "Helvetica Neue", Sans-Serif;
+  padding: 5px 10px;
+  color: rgba(255, 255, 255, 1.00);
+  color: var(--root_cnt_footer-fg-color);
+  font-weight: bold;
+}
+
+.qx-jquery-ui .qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-c-fcls_title_cnt {
+  background: rgba(058, 089, 126, 1.00);
+  background: var(--root_cnt_header-bg-color);
+  background-image: none;
+  font-weight: bold;
+  padding: 2px;
+  margin: 2px;
+}
+
+.qx-jquery-ui .qx-c-fcls_statusbar_cnt {
+  background: rgba(058, 089, 126, 1.00);
+  background: var(--root_cnt_footer-bg-color);
+  background-image: none;
+  padding: 0;
+  margin-top: 5px;
+}
+
+/*END form_header_footer.css*/
+
+/*BEGIN element_type.css*/
+
+.qx-jquery-ui .qx-aum.qx-aum-blob-viewer.qx-element-role-display.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-check-box.qx-element-role-display.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-combo-box.qx-element-role-display.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-list-box.qx-element-role-display.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-spinner.qx-element-role-display.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-spinner.qx-element-role-display.qx-has-focus .qx-text,
+.qx-jquery-ui .qx-aum.qx-aum-function-field-abs.qx-element-role-display.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-function-field-abs.qx-element-role-display.qx-has-focus .qx-ff-text,
+.qx-jquery-ui .qx-aum.qx-aum-function-field-abs.qx-element-role-display.qx-has-focus .qx-ff-text *,
+.qx-jquery-ui .qx-aum.qx-aum-text-area.qx-element-role-display.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-text-area.qx-element-role-display.qx-has-focus *,
+.qx-jquery-ui .qx-aum.qx-aum-text-field.qx-element-role-display.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-text-field.qx-element-role-display.qx-has-focus *,
+.qx-jquery-ui .qx-aum.qx-aum-calendar.qx-element-role-display.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-calendar.qx-element-role-display.qx-has-focus *,
+.qx-jquery-ui .qx-aum.qx-aum-time-edit-field.qx-element-role-display.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-time-edit-field.qx-element-role-display.qx-has-focus * {
+  background-color: #2e6e9e;
+  background-image: none;
+}
+
+.qx-jquery-ui .qx-aum.qx-aum-blob-viewer.qx-element-role-input.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-check-box.qx-element-role-input.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-combo-box.qx-element-role-input.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-list-box.qx-element-role-input.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-spinner.qx-element-role-input.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-spinner.qx-element-role-input.qx-has-focus .qx-text,
+.qx-jquery-ui .qx-aum.qx-aum-function-field-abs.qx-element-role-input.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-function-field-abs.qx-element-role-input.qx-has-focus .qx-ff-text,
+.qx-jquery-ui .qx-aum.qx-aum-function-field-abs.qx-element-role-input.qx-has-focus .qx-ff-text *,
+.qx-jquery-ui .qx-aum.qx-aum-text-area.qx-element-role-input.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-text-area.qx-element-role-input.qx-has-focus *,
+.qx-jquery-ui .qx-aum.qx-aum-text-field.qx-element-role-input.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-text-field.qx-element-role-input.qx-has-focus *,
+.qx-jquery-ui .qx-aum.qx-aum-calendar.qx-element-role-input.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-calendar.qx-element-role-input.qx-has-focus *,
+.qx-jquery-ui .qx-aum.qx-aum-time-edit-field.qx-element-role-input.qx-has-focus,
+.qx-jquery-ui .qx-aum.qx-aum-time-edit-field.qx-element-role-input.qx-has-focus * {
+  background-color: rgba(208, 229, 245, 0.20);
+  background-color: var(--main-textfield-enabled-color-bg);
+  background-image: none;
+}
+
+.qx-jquery-ui {
+  /*Disabled ComboBox - Special Case huho 18.09.2018*/
+  /*margin textFields*/
+  /*margin/padding for text box TEXT area ( i.e. INNER listBox)*/
+  /*Function Field*/
+  /*Fix size buttons*/
+  /*FormClass: fcls_columnlabel_rev - selects just the label*/
+  /*Additional Header Styles to be used in forms*/
+  /*FormClass: fcls_key_usage - selects the entire cell*/
+  /*===Not optimized===*/
+  /*Special Case RadioButton */
+  /*Special Case Blob Viewer - 30.10.2018*/
+  /* Special for CheckBox - Tester Feedback Anna - remove visible box when focusing a check box */
+  /* ### INPUT -> BUT NO FOCUS for widgets without textBox / frames                                                          #################*/
+  /*Outer calendar widget - parent container */
+  /*Inactive Fields (ALL Element Types with textBox) qx-inactive, qx-readonly, ui-state-disabled NOT IN INPUT*/
+  /*Inactive State - kind of global for all elements*/
+  /*disabled button */
+  /*Enabled/Disabled fields - Input/not in Input*/
+  /*Overwrite opacity for disabled fields */
+  /*Overwrite opacity for disabled fields */
+  /*checkBox label*/
+  /*All button-labels (from any button) in forms with the (rootfolder) class name fcls_container_menu*/
+  /*Any general button*/
+  /* Hover button color changes */
+  /* Trying to replace the default icon and center it on the button 12.12.2018 HuHo*/
+  /* ROOT CONTAINER */
+  /*GroupBox Icon to fold/unfold HuHo 13.11.2018*/
+  /*Only groupBoxes with the form class .qx-c-fcls_detail_gb_cnt*/
+  /*TitleBar of the groupBoxes */
+  /*GroupBox Header LABEL with form class fcls_detail_gb_cnt*/
+  /*StackPanel container*/
+  /* up for removal - no idea what it does*/
+  /*should it ever select, I want to see it to address this issue*/
+  /* Outer margin/Padding for table container */
+  /* grid column header */
+  /* Note: gridHeader formats like padding need to be set for header and column data */
+  /* Table ROW */
+  /*Field Selection */
+  /*Table Column (Display Array / Input Array)*/
+  /*Table column and gridHeader padding/margin/border */
+  /*tableWidget container - HEADER row - i.e 5px top/bottom and 0px right/left*/
+  /*Tab Page Container (form container NOT MDI menu container)*/
+  /*TabContainer unselected tab*/
+  /*TabContainer unselected tab*/
+  /* Tab-Page Form Container */
+  /*TabContainer selected tab*/
+  /* labels in the tabPage handles */
+  /* Background/Container of Tab Handles       */
+  /*tabHandel area for form tabPage container AND MDI-container*/
+  /*Tab Handles*/
+  /* border for containers */
+  /* INNER tab-handle area */
+  /* Hover tab-handle */
+  /* @check - does this do anything ? */
+  /* **************************** */
+  /* MDI Tab NOT Selected/Focused */
+  /* **************************** */
+  /* MDI tab-label text */
+  /* Background Color - NOT selected/focused */
+  /* ************************ */
+  /* MDI Tab Selected/Focused */
+  /* ************************ */
+  /*MDI tabbed_container selected tab*/
+  /* MDI tab-label text */
+  /*text bg color of focused mdi-tab handle */
+  /*text fg color of focused mdi-tab handle */
+  /* DIALOG boxes like fgl_winmessage */
+  /* Titlebar                                  */
+  /* text in the titlebar of dialog boxes i.e. fgl_winmessage() */
+  /* Actual message text/area */
+  /* text/message are within the dialog box */
+  /* Button Area in dialog boxes */
+  /* Button in dialog boxes i.e.OK; Cancel, Done */
+  /*.qx-winmessage-button:focus*/
+  /*Calendar popup buttons*/
+  /*Used to select/manipulate the contents of the qx_console_window (report, DISPLAY, Log)*/
+  /* need to check the css from here onward/below */
+  /* Note: Common properties for all image buttons incl size*/
+  /*Search Button*/
+  /*Lookup Button*/
+  /*enabled*/
+  /*disabled*/
+  /*Remove Button*/
+  /*Delete Button*/
+  /*Add Button*/
+  /*Attach Button*/
+  /*Edit Button*/
+  /*DONE (accept) Button*/
+  /*CANCEL Button*/
+  /*CLEAR Button*/
+  /*Filter Button*/
+  /*HELP Button*/
+  /*LEFT ARROW Button*/
+  /*RIGHT ARROW Button*/
+  /*LEFT MOVE double ARROW Button*/
+  /*RIGHT MOVE double ARROW Button*/
+  /*hide image when inactive*/
+}
+
+.qx-jquery-ui .qx-aum-combo-box.qx-disabled .ui-button,
+.qx-jquery-ui #qx-container-status-bar {
+  display: none;
+}
+
+.qx-jquery-ui .qx-aum-grid-panel.qx-display-grid > .qx-va-t {
+  align-self: stretch;
+  vertical-align: middle;
+}
+
+.qx-jquery-ui .qx-c-fcls_menulabel .qx-text {
+  color: rgba(058, 089, 126, 1.00);
+  color: var(--label-fg-color);
+}
+
+.qx-jquery-ui .qx-c-fcls_sblabel .qx-text {
+  color: #ffffff;
+  padding: 5px 10px 2px;
+}
+
+.qx-jquery-ui .qx-c-fcls_font_description .qx-text-with-icon .qx-text {
+  color: grey;
+  color: var(--label_comment-fg-color);
+  font-style: italic;
+}
+
+.qx-jquery-ui .ui-widget-content .qx-aum-abstract-field.ui-state-active,
+.qx-jquery-ui .ui-widget-header .qx-aum-abstract-field.ui-state-active,
+.qx-jquery-ui .qx-aum-abstract-field.ui-state-active,
+.qx-jquery-ui .ui-widget-content .qx-aum-abstract-field.ui-state-active > select,
+.qx-jquery-ui .ui-widget-header .qx-aum-abstract-field.ui-state-active > select,
+.qx-jquery-ui .qx-aum-abstract-field.ui-state-active > select {
+  font-weight: normal;
+  color: #3a597e;
+}
+
+.qx-jquery-ui .ui-widget-content .ui-state-focus.qx-aum-table,
+.qx-jquery-ui .ui-widget-content .ui-state-hover.qx-aum-table,
+.qx-jquery-ui .ui-widget-header .ui-state-focus.qx-aum-table,
+.qx-jquery-ui .ui-widget-header .ui-state-hover.qx-aum-table {
+  border: 1px solid #3a597e;
+  background: none;
+  font-weight: 400;
+  color: red;
+}
+
+.qx-jquery-ui .qx-aum.qx-aum-abstract-text-field,
+.qx-jquery-ui .qx-aum.qx-aum-abstract-range-field,
+.qx-jquery-ui .qx-aum.qx-aum-blob-viewer,
+.qx-jquery-ui .qx-aum.qx-aum-button,
+.qx-jquery-ui .qx-aum.qx-aum-canvas,
+.qx-jquery-ui .qx-aum.qx-aum-combo-box,
+.qx-jquery-ui .qx-aum.qx-aum-check-box,
+.qx-jquery-ui .qx-aum.qx-aum-function-field-abs,
+.qx-jquery-ui .qx-aum.qx-aum-list-box,
+.qx-jquery-ui .qx-aum.qx-aum-radio,
+.qx-jquery-ui .qx-aum.qx-aum-radio-group,
+.qx-jquery-ui .qx-aum.qx-aum-spinner {
+  margin: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.qx-jquery-ui .qx-aum.qx-aum-function-field-abs,
+.qx-jquery-ui .qx-aum.qx-aum-calendar,
+.qx-jquery-ui .qx-aum.qx-aum-combo-box,
+.qx-jquery-ui .qx-aum.qx-aum-spinner {
+  padding-right: 0;
+}
+
+.qx-jquery-ui .qx-grid-cell {
+  padding: 1px;
+}
+
+.qx-jquery-ui .qx-text.qx-focus-target {
+  padding: 4px;
+}
+
+.qx-jquery-ui .qx-aum-label {
+  vertical-align: middle;
+  text-align: left;
+}
+
+.qx-jquery-ui .qx-c-fcls_image_remove.qx-aum-function-field-abs {
+  color: red;
+  background: none;
+}
+
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget {
+  padding-left: 2px;
+  padding-right: 2px;
+  /*textField widget - fcls_active_widget  widgets should show active but not be selectable */
+}
+
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget.qx-aum.qx-aum-spinner,
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget.qx-aum.qx-aum-combo-box,
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget.qx-aum.qx-aum-calendar {
+  padding-right: 0;
+}
+
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget.qx-aum-combo-box {
+  background: none;
+}
+
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget.qx-aum-function-field-abs {
+  padding-left: 0;
+  padding-right: 0;
+  background: transparent;
+}
+
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget .qx-aum-check-box.qx-aum-abstract-field .qx-text-with-icon .qx-text,
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget .qx-aum-check-box.qx-aum-abstract-field.qx-active.qx-c-activefield,
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget .qx-aum-check-box.qx-aum-abstract-field.qx-inactive.qx-disabled.qx-readonly .qx-text-with-icon .qx-text,
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget .qx-aum-radio.qx-aum-abstract-field .qx-text-with-icon .qx-text,
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget .qx-aum-radio.qx-aum-abstract-field.qx-active.qx-c-activefield,
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget .qx-aum-radio.qx-aum-abstract-field.qx-inactive.qx-disabled.qx-readonly .qx-text-with-icon .qx-text {
+  color: #3a597e;
+  font-size: 1rem;
+}
+
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget .qx-aum-check-box.qx-aum-abstract-field .qx-text-with-icon .qx-text,
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget .qx-aum-radio.qx-aum-abstract-field .qx-text-with-icon .qx-text {
+  font: normal 1rem "Roboto", Montserrat, Calibri, "Helvetica Neue", Sans-Serif;
+}
+
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget.qx-aum-spinner > input {
+  background: none;
+  background-color: transparent;
+}
+
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget.qx-aum-spinner.qx-aum-abstract-field.ui-state-active.qx-focused .qx-text {
+  font-weight: normal;
+}
+
+.qx-jquery-ui .qx-aum.qx-c-fcls_data_widget.qx-text-field.qx-c-fcls_active_widget .qx-text {
+  opacity: 1;
+  margin-bottom: 4px;
+}
+
+.qx-jquery-ui .qx-c-fcls_button_icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_button_1 {
+  width: 5rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_button_2 {
+  width: 10rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_button_3 {
+  width: 15rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_button_4 {
+  width: 20rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_button_5 {
+  width: 25rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_columnlabel_rev.qx-aum-label .qx-text {
+  color: rgba(255, 255, 255, 1.00);
+  color: var(--label_rev-fg-color);
+  /*white;   */
+  background: rgba(058, 089, 126, 1.00);
+  background: var(--label_rev-bg-color);
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.qx-jquery-ui .qx-c-fcls_columnlabel_rev_cell.qx-aum-label {
+  /*FormClass: fcls_columnlabel_rev_cell - selects the entire cell*/
+}
+
+.qx-jquery-ui .qx-c-fcls_columnlabel_rev_cell.qx-aum-label:not(.ui-widget-content),
+.qx-jquery-ui .qx-c-fcls_columnlabel_rev_cell.qx-aum-label .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_columnlabel_rev_cell.qx-aum-label .qx-text {
+  background: rgba(058, 089, 126, 1.00);
+  background: var(--label_rev-bg-color);
+}
+
+.qx-jquery-ui .qx-c-fcls_columnlabel_rev_cell.qx-aum-label:not(.ui-widget-content) {
+  flex: 1;
+}
+
+.qx-jquery-ui .qx-c-fcls_columnlabel_rev_cell.qx-aum-label .qx-text,
+.qx-jquery-ui .qx-c-fcls_columnlabel_rev_cell.qx-aum-label .qx-text-with-icon {
+  font: normal 1rem "Roboto", "Calibri", "Helvetica Neue", Sans-Serif;
+  color: rgba(255, 255, 255, 1.00);
+  color: var(--label_rev-fg-color);
+  padding: 2px 5px 2px 5px;
+}
+
+.qx-jquery-ui .qx-c-fcls_font_h4 .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_font_h3 .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_font_h2 .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_font_h1 .qx-text-with-icon {
+  font-weight: bold;
+  color: rgba(058, 089, 126, 1.00);
+  color: var(--label-fg-color);
+}
+
+.qx-jquery-ui .qx-c-fcls_font_h1 .qx-text-with-icon {
+  font-size: 2rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_font_h2 .qx-text-with-icon {
+  font-size: 1.6rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_font_h3 .qx-text-with-icon {
+  font-size: 1.2rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_font_h4 .qx-text-with-icon {
+  font-size: 1rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_key_usage .qx-text,
+.qx-jquery-ui .qx-c-fcls_key_usage.qx-aum-label:not(.ui-widget-content) {
+  background: rgba(058, 089, 126, 1.00);
+  background: var(--label_rev-bg-color);
+}
+
+.qx-jquery-ui .qx-c-fcls_key_usage.qx-aum-label:not(.ui-widget-content) {
+  flex: 1;
+}
+
+.qx-jquery-ui .qx-c-fcls_key_usage .qx-text {
+  color: rgba(255, 255, 255, 1.00);
+  color: var(--label_rev-fg-color);
+  padding: 2px 5px 2px 5px;
+}
+
+.qx-jquery-ui .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-blob-viewer,
+.qx-jquery-ui .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-check-box,
+.qx-jquery-ui .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-jquery-ui .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-function-field-abs,
+.qx-jquery-ui .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-list-box,
+.qx-jquery-ui .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-jquery-ui .qx-c-lycia_currentrow.qx-element-role-display.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-abstract-text-field {
+  background-color: #2e6e9e;
+  background-image: none;
+  color: #fff;
+}
+
+.qx-jquery-ui .qx-aum-radio .ui-state-focus,
+.qx-jquery-ui .ui-state-hover,
+.qx-jquery-ui .ui-widget-content .ui-state-focus,
+.qx-jquery-ui .ui-widget-content .ui-state-hover,
+.qx-jquery-ui .ui-widget-header .ui-state-focus,
+.qx-jquery-ui .ui-widget-header .ui-state-hover {
+  border-color: transparent;
+  background: none;
+}
+
+.qx-jquery-ui .qx-aum-combo-box .ui-button.ui-state-hover {
+  background: #e6e6e6 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+}
+
+.qx-jquery-ui .ui-widget-content .ui-state-focus.qx-aum-blob-viewer,
+.qx-jquery-ui .ui-widget-content .ui-state-hover.qx-aum-blob-viewer,
+.qx-jquery-ui .ui-widget-header .ui-state-focus.qx-aum-blob-viewer,
+.qx-jquery-ui .ui-widget-header .ui-state-hover.qx-aum-blob-viewer {
+  border: 1px solid #3a597e;
+  background: none;
+  font-weight: 400;
+  color: red;
+}
+
+.qx-jquery-ui iframe {
+  border: none;
+}
+
+.qx-jquery-ui .qx-aum-check-box.qx-has-focus {
+  border-width: 0px;
+  background-color: white;
+  background-image: none;
+}
+
+.qx-jquery-ui .qx-bool-widget.qx-focused label {
+  outline-width: 0;
+}
+
+.qx-jquery-ui .qx-aum-check-box input + label > span,
+.qx-jquery-ui .qx-aum-radio input + label > span {
+  border: 1px dashed transparent;
+}
+
+.qx-jquery-ui .qx-aum-check-box input:focus + label > span,
+.qx-jquery-ui .qx-aum-radio input:focus + label > span {
+  border-color: #aaa;
+}
+
+.qx-jquery-ui .qx-aum-radio-group.qx-focused {
+  outline-width: 0px;
+}
+
+.qx-jquery-ui .ui-widget-content .ui-state-highlight.qx-element-role-input {
+  border-color: rgba(105, 167, 215, 1.00);
+  border-color: var(--tf-border-color);
+  box-shadow: 0 0 0 1px rgba(105, 167, 215, 1.00);
+  box-shadow: 0 0 0 1px var(--tf-border-color);
+  color: #3a597e;
+  background-image: none;
+}
+
+.qx-jquery-ui .ui-widget-content .qx-element-role-input {
+  border: 0.5px solid rgba(105, 167, 215, 1.00);
+  border: 0.5px solid var(--tf-border-color);
+  color: #3a597e;
+  background-color: rgba(208, 229, 245, 0.2);
+}
+
+.qx-jquery-ui .ui-widget-content .qx-element-role-input:hover {
+  border: 0.5px solid rgba(003, 151, 218, 1.00);
+  border: 0.5px solid var(--tf-border-hover-color);
+}
+
+.qx-jquery-ui .ui-widget-content .qx-element-role-input.qx-aum-check-box,
+.qx-jquery-ui .ui-widget-content .qx-element-role-input.qx-aum-radio-group,
+.qx-jquery-ui .ui-widget-content .qx-element-role-input.qx-aum-slider,
+.qx-jquery-ui .ui-widget-content .qx-element-role-input.qx-aum-label,
+.qx-jquery-ui .ui-widget-content .qx-element-role-input.qx-aum-progress-bar,
+.qx-jquery-ui .ui-widget-content .qx-element-role-input.qx-aum-button {
+  border: 0px solid rgba(105, 167, 215, 1.00);
+  border: 0px solid var(--tf-border-color);
+  color: #3a597e;
+  background-color: var(--transparent);
+}
+
+.qx-jquery-ui .qx-aum-calendar.qx-has-focus {
+  background-color: rgba(208, 229, 245, 0.2);
+}
+
+.qx-jquery-ui .qx-aum-function-field-abs.qx-has-focus,
+.qx-jquery-ui .qx-aum-calendar.qx-has-focus {
+  background-color: rgba(208, 229, 245, 0.2);
+}
+
+.qx-jquery-ui .qx-aum-calendar.qx-inactive.ui-state-disabled,
+.qx-jquery-ui .qx-aum-calendar.qx-inactive.ui-state-disabled *,
+.qx-jquery-ui .qx-aum-calendar.qx-readonly,
+.qx-jquery-ui .qx-aum-calendar.qx-readonly *,
+.qx-jquery-ui .qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+.qx-jquery-ui .qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+.qx-jquery-ui .qx-aum-function-field-abs.qx-readonly .qx-ff-text,
+.qx-jquery-ui .qx-aum-function-field-abs.qx-readonly .qx-ff-text *,
+.qx-jquery-ui .qx-aum-spinner.qx-inactive.ui-state-disabled,
+.qx-jquery-ui .qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+.qx-jquery-ui .qx-aum-spinner.qx-readonly,
+.qx-jquery-ui .qx-aum-spinner.qx-readonly .qx-text,
+.qx-jquery-ui .qx-aum-text-field.qx-inactive.ui-state-disabled,
+.qx-jquery-ui .qx-aum-text-field.qx-inactive.ui-state-disabled *,
+.qx-jquery-ui .qx-aum-text-field.qx-readonly,
+.qx-jquery-ui .qx-aum-text-field.qx-readonly *,
+.qx-jquery-ui .qx-aum-text-area.qx-inactive.ui-state-disabled,
+.qx-jquery-ui .qx-aum-text-area.qx-inactive.ui-state-disabled *,
+.qx-jquery-ui .qx-aum-text-area.qx-readonly,
+.qx-jquery-ui .qx-aum-text-area.qx-readonly *,
+.qx-jquery-ui .qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+.qx-jquery-ui .qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+.qx-jquery-ui .qx-aum-time-edit-field.qx-readonly,
+.qx-jquery-ui .qx-aum-time-edit-field.qx-readonly *,
+.qx-jquery-ui .qx-aum-combo-box.qx-inactive.ui-state-disabled,
+.qx-jquery-ui .qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target,
+.qx-jquery-ui .qx-aum-combo-box.qx-readonly,
+.qx-jquery-ui .qx-aum-combo-box.qx-readonly .qx-text.qx-text-edit.qx-focus-target,
+.qx-jquery-ui .qx-aum-browser {
+  color: #3a597e;
+  color: var(--tf-label-enabled_fg-color);
+  background-color: rgba(208, 229, 245, 0);
+  opacity: 1;
+  filter: Alpha(Opacity=0);
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.qx-jquery-ui .ui-state-disabled,
+.qx-jquery-ui .ui-widget-content .ui-state-disabled {
+  opacity: 0.7;
+  filter: Alpha(Opacity=70);
+  border: 1px solid rgba(92, 156, 204, 0.5);
+  color: #3a597e;
+}
+
+.qx-jquery-ui .qx-aum-button.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly {
+  opacity: 0.7;
+  filter: Alpha(Opacity=70);
+  border-color: transparent;
+  color: #3a597e;
+}
+
+.qx-jquery-ui .qx-aum-text-field.qx-inactive {
+  border: 1px solid rgba(92, 156, 204, 0.5);
+}
+
+.qx-jquery-ui .qx-aum-function-field-abs.qx-inactive.ui-state-active.qx-aum.qx-aum-abstract-field.qx-active {
+  border: 10px solid rgba(92, 156, 204, 0.5);
+}
+
+.qx-jquery-ui .qx-aum-text-area.qx-inactive,
+.qx-jquery-ui .qx-aum-time-edit-field.qx-inactive,
+.qx-jquery-ui .qx-aum-browser.qx-inactive,
+.qx-jquery-ui .qx-aum-calendar.qx-inactive,
+.qx-jquery-ui .qx-aum-list-box.qx-inactive,
+.qx-jquery-ui .qx-aum-canvas.qx-inactive {
+  border: 1px solid rgba(92, 156, 204, 0.5);
+}
+
+.qx-jquery-ui .qx-aum-list-box .qx-text {
+  border: none;
+}
+
+.qx-jquery-ui .ui-widget-header .ui-state-active,
+.qx-jquery-ui .ui-state-disabled,
+.qx-jquery-ui .ui-widget-content .ui-state-disabled,
+.qx-jquery-ui .ui-state-disabled {
+  opacity: 1;
+}
+
+.qx-jquery-ui .qx-c-fcls_show_enabled.ui-widget-header .qx-c-fcls_show_enabled.ui-state-active,
+.qx-jquery-ui .ui-state-disabled,
+.qx-jquery-ui .qx-c-fcls_show_enabled.ui-widget-content .ui-state-disabled,
+.qx-jquery-ui .ui-state-disabled {
+  opacity: 1;
+}
+
+.qx-jquery-ui .qx-bool-widget.qx-aum.qx-aum-radio.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-has-title.qx-has-text.qx-focusable-field {
+  color: #3a597e;
+  font-size: 1rem;
+}
+
+.qx-jquery-ui .qx-aum-radio-group * {
+  color: #3a597e;
+  font-size: 1rem;
+}
+
+.qx-jquery-ui .qx-c-fcls_field .qx-aum-radio {
+  color: #3a597e;
+  font-size: 1rem;
+}
+
+.qx-jquery-ui .aum-text-field {
+  color: #3a597e;
+  font-size: 2.8rem;
+}
+
+.qx-jquery-ui .qx-aum-radio-group .qx-content,
+.qx-jquery-ui .qx-c-nativestyle .qx-content {
+  color: #3a597e;
+  font-size: 2.8rem;
+}
+
+.qx-jquery-ui qx-aum-abstract-field.ui-state-active .qx-aum-abstract-field.ui-state-active .qx-aum-radio-group .qx-content,
+.qx-jquery-ui .qx-c-nativestyle .qx-content {
+  color: black;
+  font-size: 1rem;
+}
+
+.qx-jquery-ui .qx-aum-radio-group.ui-state-focus,
+.qx-jquery-ui .qx-aum-radio-group.ui-widget-content,
+.qx-jquery-ui .qx-aum-radio-group.ui-widget-header,
+.qx-jquery-ui .qx-aum-radio-group.ui-state-hover {
+  background-color: transparent;
+}
+
+.qx-jquery-ui .qx-aum-radio .qx-text {
+  color: #3a597e;
+}
+
+.qx-jquery-ui .qx-bool-widget.qx-aum.qx-aum-check-box.qx-aum-abstract-bool-field.qx-aum-abstract-field.qx-has-title.qx-has-text {
+  font-size: 1rem;
+  font-weight: normal;
+  font: normal 1rem "Roboto", Montserrat, Calibri, "Helvetica Neue", Sans-Serif;
+  color: #3a597e;
+}
+
+.qx-jquery-ui .qx-aum.qx-aum-tab.qx-aum-abstract-container .qx-tabcontrol-header.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header {
+  color: red;
+  background-color: blue;
+  color: red;
+  background-color: rgba(058, 089, 126, 1.00);
+  background-color: var(--cnt-tab-handle-container-area-bg);
+}
+
+.qx-jquery-ui .ui-tabs-nav {
+  min-width: 150px;
+  color: white;
+  background-color: #3a597e;
+  min-width: 150px;
+  color: white;
+  background-color: rgba(058, 089, 126, 1.00);
+  background-color: var(--cnt_tab_handle_area-bg-color);
+}
+
+.qx-jquery-ui .ui-tabs-nav .qx-text {
+  min-width: 150px;
+  color: white;
+  min-width: 150px;
+  color: white;
+  min-width: 80px;
+}
+
+.qx-jquery-ui .qx-c-fcls_container_menu .qx-aum-button .qx-text-with-icon {
+  justify-content: flex-start;
+}
+
+.qx-jquery-ui .qx-no-image.ui-button.ui-widget .ui-button-text .qx-text-with-icon {
+  color: rgba(255, 255, 255, 1.00);
+  color: var(--widg_button-fg-color);
+  background-color: rgba(058, 089, 126, 1.00);
+  background-color: var(--widg_button-bg-color);
+}
+
+.qx-jquery-ui .qx-no-image.ui-button.ui-widget .ui-button-text .qx-text-with-icon:hover {
+  color: rgba(048, 074, 105, 1.00);
+  color: var(--main-hover-button-color-fg);
+  background-color: rgba(185, 202, 223, 1.00);
+  background-color: var(--main-hover-button-color-bg);
+}
+
+.qx-jquery-ui .qx-aum.qx-aum-function-field-abs {
+  padding-right: 0;
+}
+
+.qx-jquery-ui .qx-aum.qx-aum-function-field-abs .qx-aum-button {
+  padding: 0;
+  margin: 0;
+}
+
+.qx-jquery-ui .qx-aum.qx-aum-function-field-abs .qx-aum-button .qx-image {
+  content: url(/public/querix/icon/svg/24/ic_sub_dialog_24px.svg);
+}
+
+.qx-jquery-ui .qx-aum.qx-has-focus,
+.qx-jquery-ui .qx-aum:hover {
+  border-radius: 0;
+}
+
+.qx-jquery-ui .qx-aum .qx-text:empty {
+  padding: 0;
+}
+
+.qx-jquery-ui .ui-datepicker.ui-widget-content .ui-widget-header .ui-icon {
+  background-image: url(images/jquery-ui/ui-icons_ffffff_256x240.png);
+}
+
+.qx-jquery-ui .ui-datepicker.ui-widget-content .ui-widget-header .ui-datepicker-prev-hover .ui-icon,
+.qx-jquery-ui .ui-datepicker.ui-widget-content .ui-widget-header .ui-datepicker-next-hover .ui-icon {
+  opacity: 0.6;
+}
+
+/*END element_type.css*/
+
+/*BEGIN container.css*/
+
+.qx-jquery-ui .qx-c-fcls_rootcontainer {
+  margin: 1rem;
+}
+
+.qx-jquery-ui .qx-aum-items-container.qx-aum-abstract-container.qx-c-fcls_detail_cnt {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.qx-jquery-ui .qx-aum-items-container.qx-aum-abstract-container.qx-c-fcls_container_margin {
+  margin: 6px;
+}
+
+.qx-jquery-ui .qx-aum-items-container.qx-aum-abstract-container.qx-c-fcls_container_padding {
+  padding: 6px;
+}
+
+.qx-jquery-ui .qx-content.qx-display-grid.qx-root.qx-aum.qx-c-classic.qx-o-aum-window,
+.qx-jquery-ui .qx-o-c-classic,
+.qx-jquery-ui .qx-o-c-classic:not(.qx-o-c-nativestyle) {
+  background-color: white;
+  background-color: var(--main-bg-color);
+}
+
+.qx-jquery-ui .qx-content.qx-display-grid.qx-root.qx-aum.qx-c-classic.qx-o-aum-window > .ui-widget-content .ui-state-highlight {
+  border: 15px solid red;
+  border-radius: 10px;
+  color: red;
+  background-color: red;
+}
+
+.qx-jquery-ui .qx-aum-coord-panel > .qx-aum {
+  color: #3a597e;
+  color: var(--tf-label-disabled_fg-color);
+  background-color: white;
+  background-color: var(--main-bg-color);
+}
+
+.qx-jquery-ui .qx-wrap.qx-ha-l > .qx-bound > * {
+  align-self: stretch;
+}
+
+.qx-jquery-ui .qx-aum-group-box.qx-aum.qx-aum-group-box.qx-aum-element-container {
+  background-color: rgba(255, 255, 255, 1.00);
+  background-color: var(--cnt_gb-bg-color);
+  background-image: none;
+  margin: 2px;
+}
+
+.qx-jquery-ui .qx-aum.qx-aum-group-box.qx-display-grid > label > .qx-icon::after {
+  color: rgba(255, 255, 255, 1.00);
+  color: var(--cnt_gb-bg-color);
+}
+
+.qx-jquery-ui .qx-c-fcls_detail_gb_cnt.qx-aum-group-box .qx-groupbox-header {
+  background: rgba(058, 089, 126, 1.00);
+  background: var(--cnt_gb_titlebar-bg-color);
+  background-image: none;
+  color: rgba(058, 089, 126, 1.00);
+  color: var(--cnt_gb_titlebar-bg-color);
+  padding: 2px;
+}
+
+.qx-jquery-ui .qx-c-fcls_detail_gb_cnt .ui-accordion-header .qx-text {
+  color: rgba(255, 255, 255, 1.00);
+  color: var(--cnt_gb_titlebar-fg-color);
+}
+
+.qx-jquery-ui .qx-aum-stack-panel {
+  align-items: center;
+}
+
+.qx-jquery-ui .qx-table-cell.qx-c-activefield.qx-aum.qx-aum-abstract-field.qx-content.qx-has-text.qx-c-attribute_reverse > .qx-text-with-icon.qx-vtal.qx-htal > .qx-text.qx-has-text {
+  color: #cd0a0a;
+  background-color: pink;
+}
+
+.qx-jquery-ui .qx-table.qx-aum-table.qx-aum-abstract-data-table.qx-aum-abstract-container {
+  margin: 2px;
+  padding: 2px;
+}
+
+.qx-jquery-ui .ui-widget-header {
+  background: rgba(058, 089, 126, 1.00);
+  background: var(--cnt_tb_header-bg-color);
+}
+
+.qx-jquery-ui .qx-aum-table-column.ui-widget-header > label {
+  padding-left: 4px;
+  padding-right: 4px;
+  color: rgba(255, 255, 255, 1.00);
+  color: var(--cnt_tb_header-fg-color);
+}
+
+.qx-jquery-ui .qx-table.qx-aum-table.qx-aum-abstract-data-table .qx-aum-combo-box {
+  padding-right: 0;
+}
+
+.qx-jquery-ui .qx-c-activefield .qx-tbody tr .qx-text.qx-has-text {
+  font: normal 1rem "Roboto", "Calibri", "Helvetica Neue", Sans-Serif;
+  color: magenta;
+  background-color: yellow;
+}
+
+.qx-jquery-ui .qx-c-activefield .qx-tbody .qx-table-row.qx-c-highlight_str {
+  background-color: rgba(255, 200, 200, 0.3);
+  background-color: var(--main-color-203);
+}
+
+.qx-jquery-ui .qx-c-activefield .qx-tbody .qx-table-row.qx-c-highlight_str .qx-text.qx-has-text {
+  color: #7a0006;
+}
+
+.qx-jquery-ui div.qx-aum-label.qx-aum.qx-aum-abstract-field.qx-c-nativestyle .qx-vtal {
+  vertical-align: middle;
+}
+
+.qx-jquery-ui .qx-table td,
+.qx-jquery-ui .qx-table-cell .ui-state-active {
+  border: none;
+  font-size: 1rem;
+}
+
+.qx-jquery-ui .qx-aum-table-column {
+  border-left: 1px solid #fff;
+}
+
+.qx-jquery-ui .qx-aum-table-column .qx-text {
+  margin: 5px 0px;
+}
+
+.qx-jquery-ui .qx-aum-tab.qx-display-grid > :first-child label {
+  background-image: none;
+  background-color: rgba(064, 098, 140, 1.00);
+  background-color: var(--cnt_tab_handle_not_selected-bg-color);
+}
+
+.qx-jquery-ui .qx-aum-tab.qx-display-grid > :first-child label:hover {
+  background-image: none;
+  background-color: rgba(185, 202, 223, 1.00);
+  background-color: var(--cnt_tab_handle_area-hover-bg-color);
+}
+
+.qx-jquery-ui .qx-aum-tab.qx-display-grid > :first-child [type=radio]:checked + label {
+  border: 1px solid #aaa;
+  border-bottom: 0;
+  background: rgba(048, 074, 105, 1.00);
+  background: var(--cnt_tab_handle_selected-bg-color);
+  font-weight: 400;
+  color: orange;
+  cursor: default;
+}
+
+.qx-jquery-ui .qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text {
+  justify-content: left;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.qx-jquery-ui .qx-tabs-container.ui-tabs.ui-widget.ui-widget-content.ui-corner-all .qx-t-h.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header {
+  color: pink;
+  background-color: rgba(058, 089, 126, 1.00);
+  background-color: var(--cnt-mdi-tab-handle-container-area-bg);
+}
+
+.qx-jquery-ui .qx-thead th > label {
+  left: 0;
+  right: 0;
+}
+
+.qx-jquery-ui .qx-table-row > td.qx-table-cell,
+.qx-jquery-ui .qx-thead-row > th.qx-aum-table-column.ui-widget-header {
+  border: none;
+  border-left: 1px solid transparent;
+}
+
+.qx-jquery-ui .qx-thead-row > th.qx-aum-table-column.ui-widget-header:nth-child(1),
+.qx-jquery-ui .qx-table-row > td.qx-table-cell:nth-child(1) {
+  border-left: none;
+}
+
+.qx-jquery-ui .qx-thead-row > th.qx-aum-table-column.ui-widget-header > label,
+.qx-jquery-ui .qx-table-row > td.qx-table-cell {
+  padding: 0 3px;
+}
+
+.qx-jquery-ui .qx-c-fcls_container_border {
+  border: 1px solid #3a597e;
+  border: 1px solid var(--cnt-color-border-medium-fg);
+}
+
+.qx-jquery-ui .qx-c-fcls_container_border_l1 {
+  border: 1px solid rgb(170, 170, 170);
+  border: 1px solid var(--cnt-color-border-light-fg);
+}
+
+.qx-jquery-ui .qx-c-fcls_container_border_l2 {
+  border: 2px solid rgb(170, 170, 170);
+  border: 2px solid var(--cnt-color-border-light-fg);
+}
+
+.qx-jquery-ui .qx-c-fcls_container_border_m1 {
+  border: 1px solid #3a597e;
+  border: 1px solid var(--cnt-color-border-medium-fg);
+}
+
+.qx-jquery-ui .qx-c-fcls_container_border_m2 {
+  border: 2px solid #3a597e;
+  border: 2px solid var(--cnt-color-border-medium-fg);
+}
+
+.qx-jquery-ui .qx-c-fcls_container_border_s1 {
+  border: 1px solid rgb(204, 0, 0);
+  border: 1px solid var(--cnt-color-border-strong-fg);
+}
+
+.qx-jquery-ui .qx-c-fcls_container_border_s2 {
+  border: 2px solid rgb(204, 0, 0);
+  border: 2px solid var(--cnt-color-border-strong-fg);
+}
+
+/*END container.css*/
+
+/*BEGIN mdi_menu.css*/
+
+.qx-jquery-ui .ui-widget-header .ui-state-default[role=tab].qx-page-0-header {
+  display: none;
+}
+
+.qx-jquery-ui .ui-widget-header .ui-state-default[role=tab] {
+  height: 3.7rem;
+  min-width: 120px;
+  display: flex;
+  background: rgba(032, 049, 070, 1.00);
+  background: var(--cnt_mdi_menu_col3-color);
+  font-weight: 400;
+  padding: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 5px;
+  border-width: 2px;
+  border-color: rgba(185, 202, 223, 1.00);
+  border-color: var(--cnt_mdi_tab_handle_not_selected-border-color-bg);
+  border-left-color: rgba(185, 202, 223, 1.00);
+  border-left-color: var(--cnt_mdi_tab_handle_not_selected-border-color-bg);
+  border-top-color: rgba(185, 202, 223, 1.00);
+  border-top-color: var(--cnt_mdi_tab_handle_not_selected-border-color-bg);
+  border-right-color: rgba(185, 202, 223, 1.00);
+  border-right-color: var(--cnt_mdi_tab_handle_not_selected-border-color-bg);
+  border-image-width: 0px;
+  border-bottom: none;
+}
+
+.qx-jquery-ui .ui-widget-header .ui-state-default[role=tab] > a {
+  padding: 0 10px;
+  display: flex;
+  align-self: stretch;
+  flex: 1;
+  border: none;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 4px;
+  border-image-width: 0px;
+  background-color: rgba(107, 130, 158, 1.00);
+  background-color: var(--main-color-080);
+  border-image-width: 0px;
+}
+
+.qx-jquery-ui .ui-widget-header .ui-state-default[role=tab] > a:hover {
+  background-color: transparent;
+  background-color: var(--cnt-mdi-tab-handle-hover-color-bg);
+}
+
+.qx-jquery-ui .ui-widget-header .ui-state-default[role=tab].qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text:hover {
+  color: rgba(255, 255, 255, 1.00);
+  color: var(--cnt-mdi-tab-handle-hover-color-fg);
+}
+
+.qx-jquery-ui .ui-widget-header .ui-state-default[role=tab] > a > .qx-text-with-icon {
+  justify-content: center;
+  align-items: center;
+  border-image-width: 0px;
+}
+
+.qx-jquery-ui .ui-widget-header .ui-state-default[role=tab].qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 1.00);
+  color: var(--cnt_mdi_tab_handle_not_selected-color-fg);
+  border-image-width: 0px;
+}
+
+.qx-jquery-ui .ui-widget-header .ui-state-default.ui-state-active[role=tab] {
+  border-color: rgba(255, 255, 255, 1.00);
+  border-color: var(--cnt_mdi_tab_handle_selected-border-color-bg);
+  border-left-width: 2px;
+  border-top-width: 2px;
+  border-right-width: 23x;
+  border-style: solid;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 5px;
+  border-image-width: 0px;
+  margin-right: 1px;
+}
+
+.qx-jquery-ui .ui-widget-header .ui-state-default.ui-state-active[role=tab] > a {
+  background: rgba(058, 089, 126, 1.00);
+  background: var(--cnt_mdi_tab_handle_selected-color-bg);
+  /* rgb(58, 89, 126);*/
+  border-image-width: 0px;
+}
+
+.qx-jquery-ui .ui-widget-header .ui-state-default.ui-state-active[role=tab].qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text {
+  background: none;
+  color: rgba(255, 255, 255, 1.00);
+  color: var(--cnt_mdi_tab_handle_selected-color-fg);
+  /* #ededed; */
+  border-image-width: 0px;
+}
+
+/*END mdi_menu.css*/
+
+/*BEGIN dialog_box.css*/
+
+.qx-jquery-ui .qx-mb-dialog.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable {
+  min-width: 35rem;
+  min-height: 15rem;
+  background-color: rgba(255, 255, 255, 1.00);
+  background-color: var(--dialog-box-color-bg);
+}
+
+.qx-jquery-ui .ui-dialog-titlebar {
+  background-color: rgba(058, 089, 126, 1.00);
+  background-color: var(--dialog-box-titlebar-color-bg);
+}
+
+.qx-jquery-ui .ui-dialog-titlebar .ui-dialog-title {
+  color: rgba(255, 255, 255, 1.00);
+  color: var(--dialog-box-titlebar-color-fg);
+  font: normal 1rem "Roboto", "Calibri", "Helvetica Neue", Sans-Serif;
+}
+
+.qx-jquery-ui .qx-message-box.ui-dialog-content.ui-widget-content {
+  color: rgba(032, 053, 094, 1.00);
+  color: var(--dialog-box-message-color-fg);
+  background: transparent;
+}
+
+.qx-jquery-ui .qx-message-box.ui-dialog-content.ui-widget-content .qx-text-wrapper {
+  background: transparent;
+}
+
+.qx-jquery-ui .ui-dialog-buttonpane {
+  background-color: rgba(255, 255, 255, 1.00);
+  background-color: var(--dialog-box-color-bg);
+}
+
+.qx-jquery-ui .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button.ui-widget.ui-state-default {
+  color: black;
+  color: var(--dialog-box-button-color-fg);
+  background-color: white;
+  background-color: var(--dialog-box-button-color-bg);
+}
+
+.qx-jquery-ui .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button.ui-widget.ui-state-default:focus {
+  color: black;
+  color: var(--main-dialog-button-focus-color-fg);
+  background-color: rgba(233, 251, 255, 1.00);
+  background-color: var(--dialog-box-button-focus-color-bg);
+  border: 1px solid rgba(032, 049, 070, 1.00);
+  border: 1px solid var(--main-focus-border-color);
+}
+
+.qx-jquery-ui img[src="/LyciaWeb/pack/exclamation.ico"] {
+  box-sizing: border-box;
+  content: url(/public/querix/icon/svg/24/ic_error_outline_24px_blue.svg);
+  margin-left: 2px;
+  /* Equal to width of new image */
+  margin-right: 2px;
+  /* Equal to width of new image */
+}
+
+.qx-jquery-ui img[src="/LyciaWeb/pack/info.ico"] {
+  box-sizing: border-box;
+  content: url(/public/querix/icon/svg/24/ic_info_outline_24px_blue.svg);
+  margin-left: 2px;
+  /* Equal to width of new image */
+  margin-right: 2px;
+  /* Equal to width of new image */
+}
+
+.qx-jquery-ui img[src="/LyciaWeb/pack/question.ico"] {
+  box-sizing: border-box;
+  content: url(/public/querix/icon/svg/24/ic_question_mark_outline_24px_blue.svg);
+  margin-left: 2px;
+  /* Equal to width of new image */
+  margin-right: 2px;
+}
+
+.qx-jquery-ui .qx-find-form.ui-dialog-content.ui-widget-content * {
+  font: normal 1rem "Roboto", "Calibri", "Helvetica Neue", Sans-Serif;
+  color: #2e6e9e;
+  margin: 4px;
+}
+
+.qx-jquery-ui .qx-find-form.ui-dialog-content.ui-widget-content #qx-find-val,
+.qx-jquery-ui .qx-find-form.ui-dialog-content.ui-widget-content #qx-find-column {
+  font: normal 1rem "Roboto", "Calibri", "Helvetica Neue", Sans-Serif;
+  color: #2e6e9e;
+  margin: 4px;
+}
+
+.qx-jquery-ui .qx-aum-calendar .ui-widget-header a,
+.qx-jquery-ui .qx-aum-calendar .ui-widget-content a,
+.qx-jquery-ui .ui-widget-header {
+  color: white;
+}
+
+/*END dialog_box.css*/
+
+/*BEGIN text-console.css*/
+
+.qx-jquery-ui .qx-text-console .ui-widget-content textarea {
+  font: normal 0.8rem "Roboto Mono", Courier, Sans-Serif;
+  color: black;
+}
+
+/*END text-console.css*/
+
+/*BEGIN messages.css*/
+
+.qx-material-design .qx-wrapper-popup,
+.qx-material-design .qx-wrapper-popuperror,
+.qx-material-design .qx-wrapper-textto,
+.qx-material-design .qx-wrapper-attachto,
+.qx-material-design .qx-wrapper-console,
+.qx-material-design .qx-wrapper-displayatredir {
+  display: none !important;
+}
+
+.qx-material-design .qx-messages-popup {
+  position: fixed;
+  z-index: 100000;
+  background-color: #34474f;
+  color: #ccc;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  white-space: pre-wrap;
+  max-width: 200px;
+  max-height: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0;
+  transform: scale(0);
+  transform-origin: center;
+  transition: all 0.15s;
+}
+
+.qx-material-design .qx-messages-popup-error {
+  background-color: #D32F2F;
+}
+
+.qx-jquery-ui .qx-aum-popup-menu {
+  background-color: #3a597e;
+}
+
+.qx-jquery-ui .qx-aum-popup-menu .qx-text {
+  color: white;
+}
+
+.qx-jquery-ui #message-popup.ui-widget-content {
+  color: #2e6e9e;
+  background-color: #fbec88;
+  border: none;
+  background-image: none;
+  font: normal 1rem "Roboto", Montserrat, Calibri, "Helvetica Neue", Sans-Serif;
+  max-width: 200px;
+}
+
+.qx-jquery-ui #message-popup.ui-widget-content.error {
+  color: white;
+  background-color: #9e2e35;
+  border: none;
+  background-image: none;
+  font: normal 1rem "Roboto", Montserrat, Calibri, "Helvetica Neue", Sans-Serif;
+}
+
+/*END messages.css*/
+
+/*BEGIN alignment.css*/
+
+.qx-jquery-ui .qx-c-fcls_align_left .qx-text-with-icon .qx-text {
+  text-align: left;
+  float: left;
+}
+
+.qx-jquery-ui .qx-c-fcls_align_right .qx-text-with-icon .qx-text {
+  text-align: right;
+  float: right;
+}
+
+.qx-jquery-ui .qx-c-fcls_align_vcenter .qx-text-with-icon .qx-text {
+  vertical-align: middle;
+}
+
+/*END alignment.css*/
+
+/*LOOKS LIKE DUPLICATE OF THE color_attribute_4gl.css*/
+
+/* @import url("color_default.css"); */
+
+/*BEGIN color_attribute_4gl.css*/
+
+.qx-active.qx-aum-calendar,
+.qx-active.qx-aum-calendar *,
+.qx-active.qx-aum-text-field,
+.qx-active.qx-aum-text-field *,
+.qx-active.qx-aum-text-area,
+.qx-active.qx-aum-text-area *,
+.qx-active.qx-aum-time-edit-field,
+.qx-active.qx-aum-time-edit-field *,
+.qx-active.qx-aum-spinner,
+.qx-active.qx-aum-spinner .qx-text,
+.qx-active.qx-aum-combo-box,
+.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-active.qx-aum-function-field-abs .qx-ff-text,
+.qx-active.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(58, 89, 126);
+  color: var(--4gl-color-blue);
+  background-color: transparent;
+}
+
+.qx-active.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-active.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-active.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-active.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-active.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-active.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-blue-rev-fg);
+  background-color: rgb(58, 89, 126);
+  background-color: var(--4gl-color-blue-rev-bg);
+}
+
+.qx-aum-some.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) * {
+  /*color: var(--fgl-color-black-bg); */
+  background: rgba(058, 089, 126, 1.00);
+  background: var(--4gl-color-default-fg);
+}
+
+.qx-c-attribute_reverse[data-md-widget]:not(.qx-c-nativestyle),
+.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
+  color: rgba(203, 215, 231, 1);
+  color: var(--4gl-color-default-bg);
+  background-color: rgba(058, 089, 126, 1.00);
+  background-color: var(--4gl-color-default-fg);
+}
+
+/* Need to check this with Victor - hightlight is always sending color blue */
+
+/*Check color_default and size_length for duplicates*/
+
+.qx-c-attribute_black {
+  /*Supporting 4gl color attributes for tables display/ipnut array*/
+}
+
+.qx-c-attribute_black.qx-aum-label {
+  color: black;
+  color: var(--4gl-color-black-fg);
+  /*fgl color black-reverse huho: 03.11.2018 */
+  /*fgl color black-Dim huho: 03.11.2018 */
+}
+
+.qx-c-attribute_black.qx-aum-label.qx-c-attribute_reverse {
+  background-color: black;
+  background-color: var(--4gl-color-black-rev-bg);
+  color: white;
+  color: var(--4gl-color-black-rev-fg);
+}
+
+.qx-c-attribute_black.qx-aum-label.qx-c-attribute_dim {
+  color: transparent;
+  color: var(--4gl-color-black-dim-bg);
+  background-color: transparent;
+  background-color: var(--4gl-color-black-dim-bg);
+}
+
+.qx-c-attribute_black.qx-aum-label.qx-c-attribute_blink {
+  background-color: transparent;
+  background-color: var(--4gl-color-blink-bg-label);
+  color: rgb(100, 100, 100);
+  color: var(--4gl-color-black-blink-fg);
+}
+
+.qx-c-attribute_black.qx-inactive.qx-aum-calendar,
+.qx-c-attribute_black.qx-inactive.qx-aum-calendar *,
+.qx-c-attribute_black.qx-inactive.qx-aum-text-field,
+.qx-c-attribute_black.qx-inactive.qx-aum-text-field *,
+.qx-c-attribute_black.qx-inactive.qx-aum-text-area,
+.qx-c-attribute_black.qx-inactive.qx-aum-text-area *,
+.qx-c-attribute_black.qx-inactive.qx-aum-time-edit-field,
+.qx-c-attribute_black.qx-inactive.qx-aum-time-edit-field *,
+.qx-c-attribute_black.qx-inactive.qx-aum-spinner,
+.qx-c-attribute_black.qx-inactive.qx-aum-spinner .qx-text,
+.qx-c-attribute_black.qx-inactive.qx-aum-combo-box,
+.qx-c-attribute_black.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_black.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_black.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
+  color: black;
+  color: var(--4gl-color-black-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-black-rev-fg);
+  background-color: black;
+  background-color: var(--4gl-color-black-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(100, 100, 100);
+  color: var(--4gl-color-black-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-black-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(100, 100, 100);
+  color: var(--4gl-color-black-blink-fg);
+  background-color: var(--4gl-color-black-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_black.qx-active.qx-aum-calendar,
+.qx-c-attribute_black.qx-active.qx-aum-calendar *,
+.qx-c-attribute_black.qx-active.qx-aum-text-field,
+.qx-c-attribute_black.qx-active.qx-aum-text-field *,
+.qx-c-attribute_black.qx-active.qx-aum-text-area,
+.qx-c-attribute_black.qx-active.qx-aum-text-area *,
+.qx-c-attribute_black.qx-active.qx-aum-time-edit-field,
+.qx-c-attribute_black.qx-active.qx-aum-time-edit-field *,
+.qx-c-attribute_black.qx-active.qx-aum-spinner,
+.qx-c-attribute_black.qx-active.qx-aum-spinner .qx-text,
+.qx-c-attribute_black.qx-active.qx-aum-combo-box,
+.qx-c-attribute_black.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_black.qx-active.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_black.qx-active.qx-aum-function-field-abs .qx-ff-text * {
+  color: black;
+  color: var(--4gl-color-black-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-black-rev-fg);
+  background-color: black;
+  background-color: var(--4gl-color-black-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(100, 100, 100);
+  color: var(--4gl-color-black-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-black-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(100, 100, 100);
+  color: var(--4gl-color-black-blink-fg);
+  background-color: var(--4gl-color-black-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_black.qx-aum-browser {
+  color: black;
+  color: var(--4gl-color-black-fg);
+  background-color: rgba(217, 217, 217, 1);
+  background-color: var(--4gl-color-black-bg);
+}
+
+.qx-c-attribute_black.qx-aum-browser.qx-c-attribute_reverse {
+  color: white;
+  color: var(--4gl-color-black-rev-fg);
+  background-color: black;
+  background-color: var(--4gl-color-black-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_black.qx-aum-browser.qx-c-attribute_dim {
+  color: rgb(100, 100, 100);
+  color: var(--4gl-color-black-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-black-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_black.qx-aum-browser.qx-c-attribute_blink {
+  color: rgb(100, 100, 100);
+  color: var(--4gl-color-black-blink-fg);
+  background-color: var(--4gl-color-black-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_black:not(.qx-c-nativestyle) {
+  color: black;
+  color: var(--4gl-color-black-fg);
+  /*ABRA*/
+}
+
+.qx-c-attribute_black:not(.qx-c-nativestyle)[data-md-widget],
+.qx-aum-some.qx-c-attribute_black:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_black:not(.qx-c-nativestyle) * {
+  color: black;
+  color: var(--4gl-color-black-fg);
+  background: rgba(217, 217, 217, 1);
+  background: var(--4gl-color-black-bg);
+}
+
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_black:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_black:not(.qx-c-nativestyle) * {
+  color: rgba(217, 217, 217, 1);
+  color: var(--4gl-color-black-bg);
+  background: black;
+  background: var(--4gl-color-black-fg);
+}
+
+.qx-c-attribute_white {
+  /*Supporting 4gl color attributes for tables display/ipnut array*/
+}
+
+.qx-c-attribute_white.qx-aum-label {
+  color: white;
+  color: var(--4gl-color-white-fg);
+  /*fgl color white-reverse huho: 03.11.2018 */
+  /*fgl color white-Dim huho: 03.11.2018 */
+}
+
+.qx-c-attribute_white.qx-aum-label.qx-c-attribute_reverse {
+  background-color: white;
+  background-color: var(--4gl-color-white-rev-bg);
+  color: black;
+  color: var(--4gl-color-white-rev-fg);
+}
+
+.qx-c-attribute_white.qx-aum-label.qx-c-attribute_dim {
+  color: transparent;
+  color: var(--4gl-color-white-dim-bg);
+  background-color: transparent;
+  background-color: var(--4gl-color-white-dim-bg);
+}
+
+.qx-c-attribute_white.qx-aum-label.qx-c-attribute_blink {
+  background-color: transparent;
+  background-color: var(--4gl-color-blink-bg-label);
+  color: rgb(150, 150, 150);
+  color: var(--4gl-color-white-blink-fg);
+}
+
+.qx-c-attribute_white.qx-inactive.qx-aum-calendar,
+.qx-c-attribute_white.qx-inactive.qx-aum-calendar *,
+.qx-c-attribute_white.qx-inactive.qx-aum-text-field,
+.qx-c-attribute_white.qx-inactive.qx-aum-text-field *,
+.qx-c-attribute_white.qx-inactive.qx-aum-text-area,
+.qx-c-attribute_white.qx-inactive.qx-aum-text-area *,
+.qx-c-attribute_white.qx-inactive.qx-aum-time-edit-field,
+.qx-c-attribute_white.qx-inactive.qx-aum-time-edit-field *,
+.qx-c-attribute_white.qx-inactive.qx-aum-spinner,
+.qx-c-attribute_white.qx-inactive.qx-aum-spinner .qx-text,
+.qx-c-attribute_white.qx-inactive.qx-aum-combo-box,
+.qx-c-attribute_white.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_white.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_white.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-white-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: black;
+  color: var(--4gl-color-white-rev-fg);
+  background-color: white;
+  background-color: var(--4gl-color-white-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(150, 150, 150);
+  color: var(--4gl-color-white-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-white-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(150, 150, 150);
+  color: var(--4gl-color-white-blink-fg);
+  background-color: var(--4gl-color-white-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_white.qx-active.qx-aum-calendar,
+.qx-c-attribute_white.qx-active.qx-aum-calendar *,
+.qx-c-attribute_white.qx-active.qx-aum-text-field,
+.qx-c-attribute_white.qx-active.qx-aum-text-field *,
+.qx-c-attribute_white.qx-active.qx-aum-text-area,
+.qx-c-attribute_white.qx-active.qx-aum-text-area *,
+.qx-c-attribute_white.qx-active.qx-aum-time-edit-field,
+.qx-c-attribute_white.qx-active.qx-aum-time-edit-field *,
+.qx-c-attribute_white.qx-active.qx-aum-spinner,
+.qx-c-attribute_white.qx-active.qx-aum-spinner .qx-text,
+.qx-c-attribute_white.qx-active.qx-aum-combo-box,
+.qx-c-attribute_white.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_white.qx-active.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_white.qx-active.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-white-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: black;
+  color: var(--4gl-color-white-rev-fg);
+  background-color: white;
+  background-color: var(--4gl-color-white-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(150, 150, 150);
+  color: var(--4gl-color-white-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-white-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(150, 150, 150);
+  color: var(--4gl-color-white-blink-fg);
+  background-color: var(--4gl-color-white-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_white.qx-aum-browser {
+  color: white;
+  color: var(--4gl-color-white-fg);
+  background-color: rgba(89, 89, 89, 1);
+  background-color: var(--4gl-color-white-bg);
+}
+
+.qx-c-attribute_white.qx-aum-browser.qx-c-attribute_reverse {
+  color: black;
+  color: var(--4gl-color-white-rev-fg);
+  background-color: white;
+  background-color: var(--4gl-color-white-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_white.qx-aum-browser.qx-c-attribute_dim {
+  color: rgb(150, 150, 150);
+  color: var(--4gl-color-white-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-white-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_white.qx-aum-browser.qx-c-attribute_blink {
+  color: rgb(150, 150, 150);
+  color: var(--4gl-color-white-blink-fg);
+  background-color: var(--4gl-color-white-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_white:not(.qx-c-nativestyle) {
+  color: white;
+  color: var(--4gl-color-white-fg);
+  /*ABRA*/
+}
+
+.qx-c-attribute_white:not(.qx-c-nativestyle)[data-md-widget],
+.qx-aum-some.qx-c-attribute_white:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_white:not(.qx-c-nativestyle) * {
+  color: white;
+  color: var(--4gl-color-white-fg);
+  background: rgba(89, 89, 89, 1);
+  background: var(--4gl-color-white-bg);
+}
+
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_white:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_white:not(.qx-c-nativestyle) * {
+  color: rgba(89, 89, 89, 1);
+  color: var(--4gl-color-white-bg);
+  background: white;
+  background: var(--4gl-color-white-fg);
+}
+
+.qx-c-attribute_green {
+  /*Supporting 4gl color attributes for tables display/ipnut array*/
+}
+
+.qx-c-attribute_green.qx-aum-label {
+  color: rgb(51, 153, 51);
+  color: var(--4gl-color-green-fg);
+  /*fgl color green-reverse huho: 03.11.2018 */
+  /*fgl color green-Dim huho: 03.11.2018 */
+}
+
+.qx-c-attribute_green.qx-aum-label.qx-c-attribute_reverse {
+  background-color: rgb(51, 153, 51);
+  background-color: var(--4gl-color-green-rev-bg);
+  color: white;
+  color: var(--4gl-color-green-rev-fg);
+}
+
+.qx-c-attribute_green.qx-aum-label.qx-c-attribute_dim {
+  color: transparent;
+  color: var(--4gl-color-green-dim-bg);
+  background-color: transparent;
+  background-color: var(--4gl-color-green-dim-bg);
+}
+
+.qx-c-attribute_green.qx-aum-label.qx-c-attribute_blink {
+  background-color: transparent;
+  background-color: var(--4gl-color-blink-bg-label);
+  color: rgb(64, 191, 64);
+  color: var(--4gl-color-green-blink-fg);
+}
+
+.qx-c-attribute_green.qx-inactive.qx-aum-calendar,
+.qx-c-attribute_green.qx-inactive.qx-aum-calendar *,
+.qx-c-attribute_green.qx-inactive.qx-aum-text-field,
+.qx-c-attribute_green.qx-inactive.qx-aum-text-field *,
+.qx-c-attribute_green.qx-inactive.qx-aum-text-area,
+.qx-c-attribute_green.qx-inactive.qx-aum-text-area *,
+.qx-c-attribute_green.qx-inactive.qx-aum-time-edit-field,
+.qx-c-attribute_green.qx-inactive.qx-aum-time-edit-field *,
+.qx-c-attribute_green.qx-inactive.qx-aum-spinner,
+.qx-c-attribute_green.qx-inactive.qx-aum-spinner .qx-text,
+.qx-c-attribute_green.qx-inactive.qx-aum-combo-box,
+.qx-c-attribute_green.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_green.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_green.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(51, 153, 51);
+  color: var(--4gl-color-green-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-green-rev-fg);
+  background-color: rgb(51, 153, 51);
+  background-color: var(--4gl-color-green-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(38, 115, 38);
+  color: var(--4gl-color-green-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-green-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(64, 191, 64);
+  color: var(--4gl-color-green-blink-fg);
+  background-color: var(--4gl-color-green-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_green.qx-active.qx-aum-calendar,
+.qx-c-attribute_green.qx-active.qx-aum-calendar *,
+.qx-c-attribute_green.qx-active.qx-aum-text-field,
+.qx-c-attribute_green.qx-active.qx-aum-text-field *,
+.qx-c-attribute_green.qx-active.qx-aum-text-area,
+.qx-c-attribute_green.qx-active.qx-aum-text-area *,
+.qx-c-attribute_green.qx-active.qx-aum-time-edit-field,
+.qx-c-attribute_green.qx-active.qx-aum-time-edit-field *,
+.qx-c-attribute_green.qx-active.qx-aum-spinner,
+.qx-c-attribute_green.qx-active.qx-aum-spinner .qx-text,
+.qx-c-attribute_green.qx-active.qx-aum-combo-box,
+.qx-c-attribute_green.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_green.qx-active.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_green.qx-active.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(51, 153, 51);
+  color: var(--4gl-color-green-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-green-rev-fg);
+  background-color: rgb(51, 153, 51);
+  background-color: var(--4gl-color-green-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(38, 115, 38);
+  color: var(--4gl-color-green-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-green-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(64, 191, 64);
+  color: var(--4gl-color-green-blink-fg);
+  background-color: var(--4gl-color-green-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_green.qx-aum-browser {
+  color: rgb(51, 153, 51);
+  color: var(--4gl-color-green-fg);
+  background-color: rgba(214, 245, 214, 1);
+  background-color: var(--4gl-color-green-bg);
+}
+
+.qx-c-attribute_green.qx-aum-browser.qx-c-attribute_reverse {
+  color: white;
+  color: var(--4gl-color-green-rev-fg);
+  background-color: rgb(51, 153, 51);
+  background-color: var(--4gl-color-green-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_green.qx-aum-browser.qx-c-attribute_dim {
+  color: rgb(38, 115, 38);
+  color: var(--4gl-color-green-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-green-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_green.qx-aum-browser.qx-c-attribute_blink {
+  color: rgb(64, 191, 64);
+  color: var(--4gl-color-green-blink-fg);
+  background-color: var(--4gl-color-green-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_green:not(.qx-c-nativestyle) {
+  color: rgb(51, 153, 51);
+  color: var(--4gl-color-green-fg);
+  /*ABRA*/
+}
+
+.qx-c-attribute_green:not(.qx-c-nativestyle)[data-md-widget],
+.qx-aum-some.qx-c-attribute_green:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_green:not(.qx-c-nativestyle) * {
+  color: rgb(51, 153, 51);
+  color: var(--4gl-color-green-fg);
+  background: rgba(214, 245, 214, 1);
+  background: var(--4gl-color-green-bg);
+}
+
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_green:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_green:not(.qx-c-nativestyle) * {
+  color: rgba(214, 245, 214, 1);
+  color: var(--4gl-color-green-bg);
+  background: rgb(51, 153, 51);
+  background: var(--4gl-color-green-fg);
+}
+
+.qx-c-attribute_red {
+  /*Supporting 4gl color attributes for tables display/ipnut array*/
+}
+
+.qx-c-attribute_red.qx-aum-label {
+  color: rgb(204, 0, 0);
+  color: var(--4gl-color-red-fg);
+  /*fgl color red-reverse huho: 03.11.2018 */
+  /*fgl color red-Dim huho: 03.11.2018 */
+}
+
+.qx-c-attribute_red.qx-aum-label.qx-c-attribute_reverse {
+  background-color: rgb(204, 0, 0);
+  background-color: var(--4gl-color-red-rev-bg);
+  color: white;
+  color: var(--4gl-color-red-rev-fg);
+}
+
+.qx-c-attribute_red.qx-aum-label.qx-c-attribute_dim {
+  color: transparent;
+  color: var(--4gl-color-red-dim-bg);
+  background-color: transparent;
+  background-color: var(--4gl-color-red-dim-bg);
+}
+
+.qx-c-attribute_red.qx-aum-label.qx-c-attribute_blink {
+  background-color: transparent;
+  background-color: var(--4gl-color-blink-bg-label);
+  color: rgb(255, 102, 102);
+  color: var(--4gl-color-red-blink-fg);
+}
+
+.qx-c-attribute_red.qx-inactive.qx-aum-calendar,
+.qx-c-attribute_red.qx-inactive.qx-aum-calendar *,
+.qx-c-attribute_red.qx-inactive.qx-aum-text-field,
+.qx-c-attribute_red.qx-inactive.qx-aum-text-field *,
+.qx-c-attribute_red.qx-inactive.qx-aum-text-area,
+.qx-c-attribute_red.qx-inactive.qx-aum-text-area *,
+.qx-c-attribute_red.qx-inactive.qx-aum-time-edit-field,
+.qx-c-attribute_red.qx-inactive.qx-aum-time-edit-field *,
+.qx-c-attribute_red.qx-inactive.qx-aum-spinner,
+.qx-c-attribute_red.qx-inactive.qx-aum-spinner .qx-text,
+.qx-c-attribute_red.qx-inactive.qx-aum-combo-box,
+.qx-c-attribute_red.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_red.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_red.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(204, 0, 0);
+  color: var(--4gl-color-red-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-red-rev-fg);
+  background-color: rgb(204, 0, 0);
+  background-color: var(--4gl-color-red-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(153, 0, 0);
+  color: var(--4gl-color-red-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-red-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(255, 102, 102);
+  color: var(--4gl-color-red-blink-fg);
+  background-color: var(--4gl-color-red-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_red.qx-active.qx-aum-calendar,
+.qx-c-attribute_red.qx-active.qx-aum-calendar *,
+.qx-c-attribute_red.qx-active.qx-aum-text-field,
+.qx-c-attribute_red.qx-active.qx-aum-text-field *,
+.qx-c-attribute_red.qx-active.qx-aum-text-area,
+.qx-c-attribute_red.qx-active.qx-aum-text-area *,
+.qx-c-attribute_red.qx-active.qx-aum-time-edit-field,
+.qx-c-attribute_red.qx-active.qx-aum-time-edit-field *,
+.qx-c-attribute_red.qx-active.qx-aum-spinner,
+.qx-c-attribute_red.qx-active.qx-aum-spinner .qx-text,
+.qx-c-attribute_red.qx-active.qx-aum-combo-box,
+.qx-c-attribute_red.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_red.qx-active.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_red.qx-active.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(204, 0, 0);
+  color: var(--4gl-color-red-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-red-rev-fg);
+  background-color: rgb(204, 0, 0);
+  background-color: var(--4gl-color-red-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(153, 0, 0);
+  color: var(--4gl-color-red-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-red-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(255, 102, 102);
+  color: var(--4gl-color-red-blink-fg);
+  background-color: var(--4gl-color-red-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_red.qx-aum-browser {
+  color: rgb(204, 0, 0);
+  color: var(--4gl-color-red-fg);
+  background-color: rgba(255, 204, 204, 1);
+  background-color: var(--4gl-color-red-bg);
+}
+
+.qx-c-attribute_red.qx-aum-browser.qx-c-attribute_reverse {
+  color: white;
+  color: var(--4gl-color-red-rev-fg);
+  background-color: rgb(204, 0, 0);
+  background-color: var(--4gl-color-red-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_red.qx-aum-browser.qx-c-attribute_dim {
+  color: rgb(153, 0, 0);
+  color: var(--4gl-color-red-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-red-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_red.qx-aum-browser.qx-c-attribute_blink {
+  color: rgb(255, 102, 102);
+  color: var(--4gl-color-red-blink-fg);
+  background-color: var(--4gl-color-red-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_red:not(.qx-c-nativestyle) {
+  color: rgb(204, 0, 0);
+  color: var(--4gl-color-red-fg);
+  /*ABRA*/
+}
+
+.qx-c-attribute_red:not(.qx-c-nativestyle)[data-md-widget],
+.qx-aum-some.qx-c-attribute_red:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_red:not(.qx-c-nativestyle) * {
+  color: rgb(204, 0, 0);
+  color: var(--4gl-color-red-fg);
+  background: rgba(255, 204, 204, 1);
+  background: var(--4gl-color-red-bg);
+}
+
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_red:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_red:not(.qx-c-nativestyle) * {
+  color: rgba(255, 204, 204, 1);
+  color: var(--4gl-color-red-bg);
+  background: rgb(204, 0, 0);
+  background: var(--4gl-color-red-fg);
+}
+
+.qx-c-attribute_blue {
+  /*Supporting 4gl color attributes for tables display/ipnut array*/
+}
+
+.qx-c-attribute_blue.qx-aum-label {
+  color: rgb(58, 89, 126);
+  color: var(--4gl-color-blue-fg);
+  /*fgl color blue-reverse huho: 03.11.2018 */
+  /*fgl color blue-Dim huho: 03.11.2018 */
+}
+
+.qx-c-attribute_blue.qx-aum-label.qx-c-attribute_reverse {
+  background-color: rgb(58, 89, 126);
+  background-color: var(--4gl-color-blue-rev-bg);
+  color: white;
+  color: var(--4gl-color-blue-rev-fg);
+}
+
+.qx-c-attribute_blue.qx-aum-label.qx-c-attribute_dim {
+  color: transparent;
+  color: var(--4gl-color-blue-dim-bg);
+  background-color: transparent;
+  background-color: var(--4gl-color-blue-dim-bg);
+}
+
+.qx-c-attribute_blue.qx-aum-label.qx-c-attribute_blink {
+  background-color: transparent;
+  background-color: var(--4gl-color-blink-bg-label);
+  color: rgb(98, 136, 183);
+  color: var(--4gl-color-blue-blink-fg);
+}
+
+.qx-c-attribute_blue.qx-inactive.qx-aum-calendar,
+.qx-c-attribute_blue.qx-inactive.qx-aum-calendar *,
+.qx-c-attribute_blue.qx-inactive.qx-aum-text-field,
+.qx-c-attribute_blue.qx-inactive.qx-aum-text-field *,
+.qx-c-attribute_blue.qx-inactive.qx-aum-text-area,
+.qx-c-attribute_blue.qx-inactive.qx-aum-text-area *,
+.qx-c-attribute_blue.qx-inactive.qx-aum-time-edit-field,
+.qx-c-attribute_blue.qx-inactive.qx-aum-time-edit-field *,
+.qx-c-attribute_blue.qx-inactive.qx-aum-spinner,
+.qx-c-attribute_blue.qx-inactive.qx-aum-spinner .qx-text,
+.qx-c-attribute_blue.qx-inactive.qx-aum-combo-box,
+.qx-c-attribute_blue.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_blue.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_blue.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(58, 89, 126);
+  color: var(--4gl-color-blue-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-blue-rev-fg);
+  background-color: rgb(58, 89, 126);
+  background-color: var(--4gl-color-blue-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(40, 61, 87);
+  color: var(--4gl-color-blue-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-blue-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(98, 136, 183);
+  color: var(--4gl-color-blue-blink-fg);
+  background-color: var(--4gl-color-blue-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_blue.qx-active.qx-aum-calendar,
+.qx-c-attribute_blue.qx-active.qx-aum-calendar *,
+.qx-c-attribute_blue.qx-active.qx-aum-text-field,
+.qx-c-attribute_blue.qx-active.qx-aum-text-field *,
+.qx-c-attribute_blue.qx-active.qx-aum-text-area,
+.qx-c-attribute_blue.qx-active.qx-aum-text-area *,
+.qx-c-attribute_blue.qx-active.qx-aum-time-edit-field,
+.qx-c-attribute_blue.qx-active.qx-aum-time-edit-field *,
+.qx-c-attribute_blue.qx-active.qx-aum-spinner,
+.qx-c-attribute_blue.qx-active.qx-aum-spinner .qx-text,
+.qx-c-attribute_blue.qx-active.qx-aum-combo-box,
+.qx-c-attribute_blue.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_blue.qx-active.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_blue.qx-active.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(58, 89, 126);
+  color: var(--4gl-color-blue-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-blue-rev-fg);
+  background-color: rgb(58, 89, 126);
+  background-color: var(--4gl-color-blue-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(40, 61, 87);
+  color: var(--4gl-color-blue-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-blue-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(98, 136, 183);
+  color: var(--4gl-color-blue-blink-fg);
+  background-color: var(--4gl-color-blue-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_blue.qx-aum-browser {
+  color: rgb(58, 89, 126);
+  color: var(--4gl-color-blue-fg);
+  background-color: rgba(203, 215, 231, 1);
+  background-color: var(--4gl-color-blue-bg);
+}
+
+.qx-c-attribute_blue.qx-aum-browser.qx-c-attribute_reverse {
+  color: white;
+  color: var(--4gl-color-blue-rev-fg);
+  background-color: rgb(58, 89, 126);
+  background-color: var(--4gl-color-blue-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_blue.qx-aum-browser.qx-c-attribute_dim {
+  color: rgb(40, 61, 87);
+  color: var(--4gl-color-blue-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-blue-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_blue.qx-aum-browser.qx-c-attribute_blink {
+  color: rgb(98, 136, 183);
+  color: var(--4gl-color-blue-blink-fg);
+  background-color: var(--4gl-color-blue-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_blue:not(.qx-c-nativestyle) {
+  color: rgb(58, 89, 126);
+  color: var(--4gl-color-blue-fg);
+  /*ABRA*/
+}
+
+.qx-c-attribute_blue:not(.qx-c-nativestyle)[data-md-widget],
+.qx-aum-some.qx-c-attribute_blue:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_blue:not(.qx-c-nativestyle) * {
+  color: rgb(58, 89, 126);
+  color: var(--4gl-color-blue-fg);
+  background: rgba(203, 215, 231, 1);
+  background: var(--4gl-color-blue-bg);
+}
+
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_blue:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_blue:not(.qx-c-nativestyle) * {
+  color: rgba(203, 215, 231, 1);
+  color: var(--4gl-color-blue-bg);
+  background: rgb(58, 89, 126);
+  background: var(--4gl-color-blue-fg);
+}
+
+.qx-c-attribute_magenta {
+  /*Supporting 4gl color attributes for tables display/ipnut array*/
+}
+
+.qx-c-attribute_magenta.qx-aum-label {
+  color: rgb(191, 0, 255);
+  color: var(--4gl-color-magenta-fg);
+  /*fgl color magenta-reverse huho: 03.11.2018 */
+  /*fgl color magenta-Dim huho: 03.11.2018 */
+}
+
+.qx-c-attribute_magenta.qx-aum-label.qx-c-attribute_reverse {
+  background-color: rgb(191, 0, 255);
+  background-color: var(--4gl-color-magenta-rev-bg);
+  color: white;
+  color: var(--4gl-color-magenta-rev-fg);
+}
+
+.qx-c-attribute_magenta.qx-aum-label.qx-c-attribute_dim {
+  color: transparent;
+  color: var(--4gl-color-magenta-dim-bg);
+  background-color: transparent;
+  background-color: var(--4gl-color-magenta-dim-bg);
+}
+
+.qx-c-attribute_magenta.qx-aum-label.qx-c-attribute_blink {
+  background-color: transparent;
+  background-color: var(--4gl-color-blink-bg-label);
+  color: rgb(217, 102, 255);
+  color: var(--4gl-color-magenta-blink-fg);
+}
+
+.qx-c-attribute_magenta.qx-inactive.qx-aum-calendar,
+.qx-c-attribute_magenta.qx-inactive.qx-aum-calendar *,
+.qx-c-attribute_magenta.qx-inactive.qx-aum-text-field,
+.qx-c-attribute_magenta.qx-inactive.qx-aum-text-field *,
+.qx-c-attribute_magenta.qx-inactive.qx-aum-text-area,
+.qx-c-attribute_magenta.qx-inactive.qx-aum-text-area *,
+.qx-c-attribute_magenta.qx-inactive.qx-aum-time-edit-field,
+.qx-c-attribute_magenta.qx-inactive.qx-aum-time-edit-field *,
+.qx-c-attribute_magenta.qx-inactive.qx-aum-spinner,
+.qx-c-attribute_magenta.qx-inactive.qx-aum-spinner .qx-text,
+.qx-c-attribute_magenta.qx-inactive.qx-aum-combo-box,
+.qx-c-attribute_magenta.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_magenta.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_magenta.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(191, 0, 255);
+  color: var(--4gl-color-magenta-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-magenta-rev-fg);
+  background-color: rgb(191, 0, 255);
+  background-color: var(--4gl-color-magenta-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(115, 0, 153);
+  color: var(--4gl-color-magenta-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-magenta-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(217, 102, 255);
+  color: var(--4gl-color-magenta-blink-fg);
+  background-color: var(--4gl-color-magenta-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_magenta.qx-active.qx-aum-calendar,
+.qx-c-attribute_magenta.qx-active.qx-aum-calendar *,
+.qx-c-attribute_magenta.qx-active.qx-aum-text-field,
+.qx-c-attribute_magenta.qx-active.qx-aum-text-field *,
+.qx-c-attribute_magenta.qx-active.qx-aum-text-area,
+.qx-c-attribute_magenta.qx-active.qx-aum-text-area *,
+.qx-c-attribute_magenta.qx-active.qx-aum-time-edit-field,
+.qx-c-attribute_magenta.qx-active.qx-aum-time-edit-field *,
+.qx-c-attribute_magenta.qx-active.qx-aum-spinner,
+.qx-c-attribute_magenta.qx-active.qx-aum-spinner .qx-text,
+.qx-c-attribute_magenta.qx-active.qx-aum-combo-box,
+.qx-c-attribute_magenta.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_magenta.qx-active.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_magenta.qx-active.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(191, 0, 255);
+  color: var(--4gl-color-magenta-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-magenta-rev-fg);
+  background-color: rgb(191, 0, 255);
+  background-color: var(--4gl-color-magenta-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(115, 0, 153);
+  color: var(--4gl-color-magenta-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-magenta-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(217, 102, 255);
+  color: var(--4gl-color-magenta-blink-fg);
+  background-color: var(--4gl-color-magenta-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_magenta.qx-aum-browser {
+  color: rgb(191, 0, 255);
+  color: var(--4gl-color-magenta-fg);
+  background-color: rgba(236, 179, 255, 1);
+  background-color: var(--4gl-color-magenta-bg);
+}
+
+.qx-c-attribute_magenta.qx-aum-browser.qx-c-attribute_reverse {
+  color: white;
+  color: var(--4gl-color-magenta-rev-fg);
+  background-color: rgb(191, 0, 255);
+  background-color: var(--4gl-color-magenta-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_magenta.qx-aum-browser.qx-c-attribute_dim {
+  color: rgb(115, 0, 153);
+  color: var(--4gl-color-magenta-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-magenta-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_magenta.qx-aum-browser.qx-c-attribute_blink {
+  color: rgb(217, 102, 255);
+  color: var(--4gl-color-magenta-blink-fg);
+  background-color: var(--4gl-color-magenta-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_magenta:not(.qx-c-nativestyle) {
+  color: rgb(191, 0, 255);
+  color: var(--4gl-color-magenta-fg);
+  /*ABRA*/
+}
+
+.qx-c-attribute_magenta:not(.qx-c-nativestyle)[data-md-widget],
+.qx-aum-some.qx-c-attribute_magenta:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_magenta:not(.qx-c-nativestyle) * {
+  color: rgb(191, 0, 255);
+  color: var(--4gl-color-magenta-fg);
+  background: rgba(236, 179, 255, 1);
+  background: var(--4gl-color-magenta-bg);
+}
+
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_magenta:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_magenta:not(.qx-c-nativestyle) * {
+  color: rgba(236, 179, 255, 1);
+  color: var(--4gl-color-magenta-bg);
+  background: rgb(191, 0, 255);
+  background: var(--4gl-color-magenta-fg);
+}
+
+.qx-c-attribute_yellow {
+  /*Supporting 4gl color attributes for tables display/ipnut array*/
+}
+
+.qx-c-attribute_yellow.qx-aum-label {
+  color: rgb(255, 204, 0);
+  color: var(--4gl-color-yellow-fg);
+  /*fgl color yellow-reverse huho: 03.11.2018 */
+  /*fgl color yellow-Dim huho: 03.11.2018 */
+}
+
+.qx-c-attribute_yellow.qx-aum-label.qx-c-attribute_reverse {
+  background-color: rgb(255, 204, 0);
+  background-color: var(--4gl-color-yellow-rev-bg);
+  color: white;
+  color: var(--4gl-color-yellow-rev-fg);
+}
+
+.qx-c-attribute_yellow.qx-aum-label.qx-c-attribute_dim {
+  color: transparent;
+  color: var(--4gl-color-yellow-dim-bg);
+  background-color: transparent;
+  background-color: var(--4gl-color-yellow-dim-bg);
+}
+
+.qx-c-attribute_yellow.qx-aum-label.qx-c-attribute_blink {
+  background-color: transparent;
+  background-color: var(--4gl-color-blink-bg-label);
+  color: rgb(255, 255, 0);
+  color: var(--4gl-color-yellow-blink-fg);
+}
+
+.qx-c-attribute_yellow.qx-inactive.qx-aum-calendar,
+.qx-c-attribute_yellow.qx-inactive.qx-aum-calendar *,
+.qx-c-attribute_yellow.qx-inactive.qx-aum-text-field,
+.qx-c-attribute_yellow.qx-inactive.qx-aum-text-field *,
+.qx-c-attribute_yellow.qx-inactive.qx-aum-text-area,
+.qx-c-attribute_yellow.qx-inactive.qx-aum-text-area *,
+.qx-c-attribute_yellow.qx-inactive.qx-aum-time-edit-field,
+.qx-c-attribute_yellow.qx-inactive.qx-aum-time-edit-field *,
+.qx-c-attribute_yellow.qx-inactive.qx-aum-spinner,
+.qx-c-attribute_yellow.qx-inactive.qx-aum-spinner .qx-text,
+.qx-c-attribute_yellow.qx-inactive.qx-aum-combo-box,
+.qx-c-attribute_yellow.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_yellow.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_yellow.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(255, 204, 0);
+  color: var(--4gl-color-yellow-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-yellow-rev-fg);
+  background-color: rgb(255, 204, 0);
+  background-color: var(--4gl-color-yellow-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(255, 153, 0);
+  color: var(--4gl-color-yellow-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-yellow-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(255, 255, 0);
+  color: var(--4gl-color-yellow-blink-fg);
+  background-color: var(--4gl-color-yellow-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_yellow.qx-active.qx-aum-calendar,
+.qx-c-attribute_yellow.qx-active.qx-aum-calendar *,
+.qx-c-attribute_yellow.qx-active.qx-aum-text-field,
+.qx-c-attribute_yellow.qx-active.qx-aum-text-field *,
+.qx-c-attribute_yellow.qx-active.qx-aum-text-area,
+.qx-c-attribute_yellow.qx-active.qx-aum-text-area *,
+.qx-c-attribute_yellow.qx-active.qx-aum-time-edit-field,
+.qx-c-attribute_yellow.qx-active.qx-aum-time-edit-field *,
+.qx-c-attribute_yellow.qx-active.qx-aum-spinner,
+.qx-c-attribute_yellow.qx-active.qx-aum-spinner .qx-text,
+.qx-c-attribute_yellow.qx-active.qx-aum-combo-box,
+.qx-c-attribute_yellow.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_yellow.qx-active.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_yellow.qx-active.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(255, 204, 0);
+  color: var(--4gl-color-yellow-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-yellow-rev-fg);
+  background-color: rgb(255, 204, 0);
+  background-color: var(--4gl-color-yellow-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(255, 153, 0);
+  color: var(--4gl-color-yellow-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-yellow-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(255, 255, 0);
+  color: var(--4gl-color-yellow-blink-fg);
+  background-color: var(--4gl-color-yellow-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_yellow.qx-aum-browser {
+  color: rgb(255, 204, 0);
+  color: var(--4gl-color-yellow-fg);
+  background-color: rgba(255, 240, 179, 1);
+  background-color: var(--4gl-color-yellow-bg);
+}
+
+.qx-c-attribute_yellow.qx-aum-browser.qx-c-attribute_reverse {
+  color: white;
+  color: var(--4gl-color-yellow-rev-fg);
+  background-color: rgb(255, 204, 0);
+  background-color: var(--4gl-color-yellow-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_yellow.qx-aum-browser.qx-c-attribute_dim {
+  color: rgb(255, 153, 0);
+  color: var(--4gl-color-yellow-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-yellow-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_yellow.qx-aum-browser.qx-c-attribute_blink {
+  color: rgb(255, 255, 0);
+  color: var(--4gl-color-yellow-blink-fg);
+  background-color: var(--4gl-color-yellow-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_yellow:not(.qx-c-nativestyle) {
+  color: rgb(255, 204, 0);
+  color: var(--4gl-color-yellow-fg);
+  /*ABRA*/
+}
+
+.qx-c-attribute_yellow:not(.qx-c-nativestyle)[data-md-widget],
+.qx-aum-some.qx-c-attribute_yellow:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_yellow:not(.qx-c-nativestyle) * {
+  color: rgb(255, 204, 0);
+  color: var(--4gl-color-yellow-fg);
+  background: rgba(255, 240, 179, 1);
+  background: var(--4gl-color-yellow-bg);
+}
+
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_yellow:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_yellow:not(.qx-c-nativestyle) * {
+  color: rgba(255, 240, 179, 1);
+  color: var(--4gl-color-yellow-bg);
+  background: rgb(255, 204, 0);
+  background: var(--4gl-color-yellow-fg);
+}
+
+.qx-c-attribute_cyan {
+  /*Supporting 4gl color attributes for tables display/ipnut array*/
+}
+
+.qx-c-attribute_cyan.qx-aum-label {
+  color: rgb(51, 204, 255);
+  color: var(--4gl-color-cyan-fg);
+  /*fgl color cyan-reverse huho: 03.11.2018 */
+  /*fgl color cyan-Dim huho: 03.11.2018 */
+}
+
+.qx-c-attribute_cyan.qx-aum-label.qx-c-attribute_reverse {
+  background-color: rgb(51, 204, 255);
+  background-color: var(--4gl-color-cyan-rev-bg);
+  color: white;
+  color: var(--4gl-color-cyan-rev-fg);
+}
+
+.qx-c-attribute_cyan.qx-aum-label.qx-c-attribute_dim {
+  color: transparent;
+  color: var(--4gl-color-cyan-dim-bg);
+  background-color: transparent;
+  background-color: var(--4gl-color-cyan-dim-bg);
+}
+
+.qx-c-attribute_cyan.qx-aum-label.qx-c-attribute_blink {
+  background-color: transparent;
+  background-color: var(--4gl-color-blink-bg-label);
+  color: rgb(102, 217, 255);
+  color: var(--4gl-color-cyan-blink-fg);
+}
+
+.qx-c-attribute_cyan.qx-inactive.qx-aum-calendar,
+.qx-c-attribute_cyan.qx-inactive.qx-aum-calendar *,
+.qx-c-attribute_cyan.qx-inactive.qx-aum-text-field,
+.qx-c-attribute_cyan.qx-inactive.qx-aum-text-field *,
+.qx-c-attribute_cyan.qx-inactive.qx-aum-text-area,
+.qx-c-attribute_cyan.qx-inactive.qx-aum-text-area *,
+.qx-c-attribute_cyan.qx-inactive.qx-aum-time-edit-field,
+.qx-c-attribute_cyan.qx-inactive.qx-aum-time-edit-field *,
+.qx-c-attribute_cyan.qx-inactive.qx-aum-spinner,
+.qx-c-attribute_cyan.qx-inactive.qx-aum-spinner .qx-text,
+.qx-c-attribute_cyan.qx-inactive.qx-aum-combo-box,
+.qx-c-attribute_cyan.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_cyan.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_cyan.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(51, 204, 255);
+  color: var(--4gl-color-cyan-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-cyan-rev-fg);
+  background-color: rgb(51, 204, 255);
+  background-color: var(--4gl-color-cyan-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(0, 115, 153);
+  color: var(--4gl-color-cyan-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-cyan-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(102, 217, 255);
+  color: var(--4gl-color-cyan-blink-fg);
+  background-color: var(--4gl-color-cyan-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_cyan.qx-active.qx-aum-calendar,
+.qx-c-attribute_cyan.qx-active.qx-aum-calendar *,
+.qx-c-attribute_cyan.qx-active.qx-aum-text-field,
+.qx-c-attribute_cyan.qx-active.qx-aum-text-field *,
+.qx-c-attribute_cyan.qx-active.qx-aum-text-area,
+.qx-c-attribute_cyan.qx-active.qx-aum-text-area *,
+.qx-c-attribute_cyan.qx-active.qx-aum-time-edit-field,
+.qx-c-attribute_cyan.qx-active.qx-aum-time-edit-field *,
+.qx-c-attribute_cyan.qx-active.qx-aum-spinner,
+.qx-c-attribute_cyan.qx-active.qx-aum-spinner .qx-text,
+.qx-c-attribute_cyan.qx-active.qx-aum-combo-box,
+.qx-c-attribute_cyan.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_cyan.qx-active.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_cyan.qx-active.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(51, 204, 255);
+  color: var(--4gl-color-cyan-fg);
+  background-color: transparent;
+}
+
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-calendar,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-calendar *,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-text-field,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-text-field *,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-text-area,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-text-area *,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-time-edit-field *,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-cyan-rev-fg);
+  background-color: rgb(51, 204, 255);
+  background-color: var(--4gl-color-cyan-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-calendar,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-calendar *,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-text-field,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-text-field *,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-text-area,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-text-area *,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-time-edit-field *,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-spinner,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(0, 115, 153);
+  color: var(--4gl-color-cyan-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-cyan-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-calendar,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-calendar *,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-text-field,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-text-field *,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-text-area,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-text-area *,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-time-edit-field *,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-spinner,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
+.qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
+  color: rgb(102, 217, 255);
+  color: var(--4gl-color-cyan-blink-fg);
+  background-color: var(--4gl-color-cyan-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_cyan.qx-aum-browser {
+  color: rgb(51, 204, 255);
+  color: var(--4gl-color-cyan-fg);
+  background-color: rgba(179, 236, 255, 1);
+  background-color: var(--4gl-color-cyan-bg);
+}
+
+.qx-c-attribute_cyan.qx-aum-browser.qx-c-attribute_reverse {
+  color: white;
+  color: var(--4gl-color-cyan-rev-fg);
+  background-color: rgb(51, 204, 255);
+  background-color: var(--4gl-color-cyan-rev-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_cyan.qx-aum-browser.qx-c-attribute_dim {
+  color: rgb(0, 115, 153);
+  color: var(--4gl-color-cyan-dim-fg);
+  background-color: transparent;
+  background-color: var(--4gl-color-cyan-dim-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_cyan.qx-aum-browser.qx-c-attribute_blink {
+  color: rgb(102, 217, 255);
+  color: var(--4gl-color-cyan-blink-fg);
+  background-color: var(--4gl-color-cyan-blink-bg);
+  opacity: 1;
+}
+
+.qx-c-attribute_cyan:not(.qx-c-nativestyle) {
+  color: rgb(51, 204, 255);
+  color: var(--4gl-color-cyan-fg);
+  /*ABRA*/
+}
+
+.qx-c-attribute_cyan:not(.qx-c-nativestyle)[data-md-widget],
+.qx-aum-some.qx-c-attribute_cyan:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_cyan:not(.qx-c-nativestyle) * {
+  color: rgb(51, 204, 255);
+  color: var(--4gl-color-cyan-fg);
+  background: rgba(179, 236, 255, 1);
+  background: var(--4gl-color-cyan-bg);
+}
+
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_cyan:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_reverse.qx-c-attribute_cyan:not(.qx-c-nativestyle) * {
+  color: rgba(179, 236, 255, 1);
+  color: var(--4gl-color-cyan-bg);
+  background: rgb(51, 204, 255);
+  background: var(--4gl-color-cyan-fg);
+}
+
+/*END color_attribute_4gl.css*/
+
+/*BEGIN button_library.css*/
+
+.qx-jquery-ui .qx-aum-button .ui-button {
+  border: none;
+}
+
+.qx-jquery-ui .qx-c-fcls_button_search.qx-aum-button .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_lookup.qx-aum-button .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_remove.qx-aum-button .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_delete.qx-aum-button .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_edit.qx-aum-button .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_add.qx-aum-button .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_attach.qx-aum-button .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_done.qx-aum-button .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_cancel.qx-aum-button.ui-button-text .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_clear.qx-aum-button.ui-button-text .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_clear.qx-aum-button .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_filter.qx-aum-button .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_help.qx-aum-button.ui-button-text .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_left.qx-aum-button .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_right.qx-aum-button .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_left_move.qx-aum-button .qx-text-with-icon,
+.qx-jquery-ui .qx-c-fcls_button_right_move.qx-aum-button .qx-text-with-icon {
+  color: white;
+  background-color: #3a597e;
+  width: 100%;
+  height: auto;
+  min-width: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+}
+
+.qx-jquery-ui .qx-c-fcls_button_search.qx-aum-button .ui-button-text .qx-text-with-icon {
+  background-image: url(/public/querix/icon/svg/24/ic_search_24px.svg);
+}
+
+.qx-jquery-ui .qx-c-fcls_button_lookup.qx-aum-button .ui-button-text .qx-text-with-icon {
+  background-image: url(/public/querix/icon/svg/24/ic_search_24px.svg);
+}
+
+.qx-jquery-ui .qx-c-fcls_button_lookup.qx-aum-button .ui-button.ui-widget.ui-state-default.ui-button-disabled.ui-state-disabled .qx-text-with-icon {
+  background-image: url(/public/querix/icon/svg/24/ic_search_24px.svg);
+}
+
+.qx-jquery-ui .qx-c-fcls_button_remove.qx-aum-button .ui-button-text .qx-text-with-icon {
+  background-image: url(/public/querix/icon/svg/24/ic_remove_24px.svg);
+}
+
+.qx-jquery-ui .qx-c-fcls_button_delete.qx-aum-button .ui-button-text .qx-text-with-icon {
+  background-image: url(/public/querix/icon/svg/24/ic_remove_24px.svg);
+}
+
+.qx-jquery-ui .qx-c-fcls_button_add.qx-aum-button .ui-button-text .qx-text-with-icon {
+  background-image: url(/public/querix/icon/svg/24/ic_add_24px.svg);
+}
+
+.qx-jquery-ui .qx-c-fcls_button_attach.qx-aum-button .ui-button-text .qx-text-with-icon {
+  background-image: url(/public/querix/icon/svg/24/ic_attach_file_24px.svg);
+}
+
+.qx-jquery-ui .qx-c-fcls_button_edit.qx-aum-button .ui-button-text .qx-text-with-icon {
+  background-image: url(/public/querix/icon/svg/24/ic_create_24px.svg);
+}
+
+.qx-jquery-ui .qx-c-fcls_button_done .qx-text-with-icon {
+  background-image: url(/public/querix/icon/svg/24/ic_done_24px.svg);
+}
+
+.qx-jquery-ui .qx-c-fcls_button_cancel.qx-aum-button .ui-button-text .qx-text-with-icon {
+  background-image: url(/public/querix/icon/svg/24/ic_cancel_24px.svg);
+}
+
+.qx-jquery-ui .qx-c-fcls_button_clear.qx-aum-button .ui-button-text .qx-text-with-icon {
+  background-image: url(/public/querix/icon/svg/24/ic_clear_24px.svg);
+}
+
+.qx-jquery-ui .qx-c-fcls_button_filter.qx-aum-button .ui-button-text .qx-text-with-icon {
+  background-image: url(/public/querix/icon/svg/24/ic_filter_list_24px.svg);
+}
+
+.qx-jquery-ui .qx-c-fcls_button_help.qx-aum-button .ui-button-text .qx-text-with-icon {
+  background-image: url(/public/querix/icon/svg/24/ic_help_outline_24px.svg);
+}
+
+.qx-jquery-ui .qx-c-fcls_button_left.qx-aum-button .ui-button-text .qx-text-with-icon {
+  background-image: url(/public/querix/icon/svg/24/ic_arrow_back_24px.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/public/querix/icon/svg/24/ic_arrow_back_24px.svg);
+}
+
+.qx-jquery-ui .qx-c-fcls_button_right.qx-aum-button .ui-button-text .qx-text-with-icon {
+  background-image: url(/public/querix/icon/svg/24/ic_arrow_forward_24px.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/public/querix/icon/svg/24/ic_arrow_forward_24px.svg);
+}
+
+.qx-jquery-ui .qx-inactive.ui-state-disabled.qx-aum.qx-aum-button.qx-c-fcls_button_lookup .ui-button-text .qx-text-with-icon {
+  background-image: none;
+}
+
+/*END button_library.css*/
+
+/*BEGIN size_length.css*/
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_01qch {
+  width: 2rem;
+}
+
+/* More flexible range Length defined using form classes */
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_flex_01qch {
+  min-width: 2rem;
+  width: auto;
+  max-width: 2rem;
+}
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_05qch {
+  width: 5rem;
+}
+
+/* More flexible range Length defined using form classes */
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_flex_05qch {
+  min-width: 5rem;
+  width: auto;
+  max-width: 5rem;
+}
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_10qch {
+  width: 10rem;
+}
+
+/* More flexible range Length defined using form classes */
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_flex_10qch {
+  min-width: 5rem;
+  width: auto;
+  max-width: 10rem;
+}
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_15qch {
+  width: 15rem;
+}
+
+/* More flexible range Length defined using form classes */
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_flex_15qch {
+  min-width: 10rem;
+  width: auto;
+  max-width: 15rem;
+}
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_20qch {
+  width: 20rem;
+}
+
+/* More flexible range Length defined using form classes */
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_flex_20qch {
+  min-width: 10rem;
+  width: auto;
+  max-width: 20rem;
+}
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_25qch {
+  width: 25rem;
+}
+
+/* More flexible range Length defined using form classes */
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_flex_25qch {
+  min-width: 10rem;
+  width: auto;
+  max-width: 25rem;
+}
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_30qch {
+  width: 30rem;
+}
+
+/* More flexible range Length defined using form classes */
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_flex_30qch {
+  min-width: 10rem;
+  width: auto;
+  max-width: 30rem;
+}
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_35qch {
+  width: 35rem;
+}
+
+/* More flexible range Length defined using form classes */
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_flex_35qch {
+  min-width: 10rem;
+  width: auto;
+  max-width: 35rem;
+}
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_40qch {
+  width: 40rem;
+}
+
+/* More flexible range Length defined using form classes */
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_flex_40qch {
+  min-width: 10rem;
+  width: auto;
+  max-width: 40rem;
+}
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_50qch {
+  width: 50rem;
+}
+
+/* More flexible range Length defined using form classes */
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_flex_50qch {
+  min-width: 10rem;
+  width: auto;
+  max-width: 50rem;
+}
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_60qch {
+  width: 60rem;
+}
+
+/* More flexible range Length defined using form classes */
+
+.qx-aum.qx-aum-abstract-field.qx-c-fcls_length_flex_60qch {
+  min-width: 10rem;
+  width: auto;
+  max-width: 60rem;
+}
+
+/*ALL Elements V-Size*/
+
+/*Single Line Widgets / textField based*/
+
+.qx-aum.qx-aum-text-field,
+.qx-single-row.qx-aum.qx-aum-function-field-abs,
+.qx-aum.qx-aum-combo-box,
+.qx-single-row.ui-spinner.qx-aum-spinner,
+.qx-single-row.qx-aum.qx-aum-time-edit-field,
+.qx-aum.qx-aum-check-box,
+.qx-aum.qx-aum-radio,
+.qx-bool-widget.qx-aum.qx-aum-radio,
+.qx-single-row.qx-aum-button,
+.qx-aum-progress-bar,
+.qx-horizontal.qx-aum.qx-aum-slider,
+.qx-aum.qx-aum-calendar,
+.qx-aum-calendar,
+.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field {
+  height: 2.2rem;
+  vertical-align: middle;
+}
+
+/*Special Case: only with button fit.content   qx-c-fcls_button_image_only  HuHo 03.11.2018*/
+
+.qx-c-fcls_button_image_only.qx-single-row.qx-aum-button {
+  height: fit-content;
+}
+
+/*Multi Line Widgets / textField based*/
+
+/*.qx-aum.qx-aum-radio-group  /*RadioButtonList GROUP*/
+
+.qx-aum.qx-aum-list-box,
+.qx-aum.qx-aum-list-box.qx-aum-abstract-field {
+  height: 4.4rem;
+}
+
+/*Image Area Widgets / i.e. canvas, browser*/
+
+.qx-aum.qx-aum-web-component,
+.qx-aum.qx-aum-browser.qx-aum-abstract-text-field,
+.qx-aum.qx-aum-blob-viewer.qx-blob-image,
+.qx-aum.qx-aum-canvas.qx-aum-abstract-field {
+  height: 10.6rem;
+}
+
+/*Navigation/ScrollBar*/
+
+.qx-aum.qx-aum-slider.qx-horizontal.qx-aum-abstract-range-field.qx-aum-abstract-field {
+  height: 1.4rem;
+}
+
+.qx-aum.qx-aum-slider.qx-vertical.qx-aum-abstract-range-field.qx-aum-abstract-field {
+  width: 1.4rem;
+}
+
+/*Table for DISPLAY & INPUT ARRAY*/
+
+.qx-table-cell > .qx-aum {
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+/*Was added to give the user some feedback on current row in INPUT ARRAY */
+
+.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected,
+.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected > .qx-table-cell {
+  background-color: #6a89ae;
+  color: white;
+}
+
+/*END size_length.css*/
