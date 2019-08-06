@@ -199,4 +199,13 @@
     border: 2px solid var(--cnt-color-border-strong-fg);
   }
 }
+
+.qx-material-design {
+  .qx-aum-group-box.qx-aum.qx-aum-group-box.qx-aum-element-container {
+    background-color: var(--cnt_gb-bg-color);
+    background-image: none;
+    margin: 2px;
+  }
+}
+
 /*END container.css*/

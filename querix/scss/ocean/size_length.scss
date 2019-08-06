@@ -60,12 +60,15 @@ $maxsizeFlex: ('2','5','10','15','20','25','30','35','40','50','60');
 	height: 4.4rem;
 }
 
-/*Image Area Widgets / i.e. canvas, browser*/
-.qx-aum.qx-aum-web-component,  /*WebComponent*/
-.qx-aum.qx-aum-browser.qx-aum-abstract-text-field, /*Browser*/
-.qx-aum.qx-aum-blob-viewer.qx-blob-image,  /*blobViewer*/
-.qx-aum.qx-aum-canvas.qx-aum-abstract-field {
-	height: 10.6rem;
+.qx-aum.qx-window-root .qx-va-s {
+  &.qx-aum {
+    &.qx-aum-web-component,
+    &.qx-aum-browser.qx-aum-abstract-text-field,
+    &.qx-aum-blob-viewer.qx-blob-image,
+    &.qx-aum-canvas.qx-aum-abstract-field {
+      height: 10.6rem !important;
+    }
+  }
 }
 
 /*Navigation/ScrollBar*/
