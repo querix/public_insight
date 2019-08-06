@@ -15,7 +15,7 @@
 @import url("messages.css");
 @import url("alignment.css");
 /*LOOKS LIKE DUPLICATE OF THE color_attribute_4gl.css*/
-/* @import url("color_default.css"); */
+@import url("color_default.css");
 @import url("color_attribute_4gl.css");
 @import url("button_library.css");
 @import url("size_length.css");

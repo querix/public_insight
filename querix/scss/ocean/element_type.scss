@@ -316,12 +316,11 @@
   /*===Not optimized===*/
   /*Special Case RadioButton */
   .qx-aum-radio .ui-state-focus,
-  .ui-state-hover,
-  .ui-widget-content .ui-state-focus,
-  .ui-widget-content .ui-state-hover,
-  .ui-widget-header .ui-state-focus,
-  .ui-widget-header .ui-state-hover 
-  {
+  .ui-state-hover:not(.ui-slider-handle),
+  .ui-widget-content .ui-state-focus:not(.ui-slider-handle),
+  .ui-widget-content .ui-state-hover:not(.ui-slider-handle),
+  .ui-widget-header .ui-state-focus:not(.ui-slider-handle),
+  .ui-widget-header .ui-state-hover:not(.ui-slider-handle) {
     border-color: transparent;
     background: none;
   }
@@ -572,10 +571,10 @@
     }
   }
 
-  .qx-aum.qx-has-focus,
-  .qx-aum:hover {
-    border-radius: 0;
-  }
+  // .qx-aum.qx-has-focus,
+  // .qx-aum:hover {
+  //   border-radius: 0;
+  // }
 
   .qx-aum .qx-text:empty {
     padding: 0;

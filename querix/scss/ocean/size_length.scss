@@ -19,22 +19,35 @@ $maxsizeFlex: ('2','5','10','15','20','25','30','35','40','50','60');
 
 /*ALL Elements V-Size*/
 /*Single Line Widgets / textField based*/
-.qx-aum.qx-aum-text-field, /*textField*/
-.qx-single-row.qx-aum.qx-aum-function-field-abs,  /*functionField*/
-.qx-aum.qx-aum-combo-box,  /*ComboList*/
-.qx-single-row.ui-spinner.qx-aum-spinner, /*Spinner*/
-.qx-single-row.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
-.qx-aum.qx-aum-check-box,  /*CheckBox*/
-.qx-aum.qx-aum-radio, /*Single RadioButton *special widget*/
-.qx-bool-widget.qx-aum.qx-aum-radio,
-.qx-single-row.qx-aum-button, /*button*/
-.qx-aum-progress-bar,
-.qx-horizontal.qx-aum.qx-aum-slider,
-.qx-aum.qx-aum-calendar,  /*Calendar*/
-.qx-aum-calendar,
-.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field {
-	height: 2.2rem;
-	vertical-align: middle;
+/*Must override !important on default qx-va-s*/
+.qx-aum.qx-aum-abstract-container {
+  .qx-aum {
+    &.qx-aum-text-field,
+    &.qx-aum-function-field-abs,
+    &.qx-aum-combo-box,
+    &.ui-spinner.qx-aum-spinner,
+    &.qx-aum-time-edit-field,
+    &.qx-aum-check-box,
+    &.qx-aum-radio,
+    &.qx-bool-widget.qx-aum.qx-aum-radio,
+    &.qx-aum-button,
+    &.qx-aum-progress-bar,
+    &.qx-horizontal.qx-aum.qx-aum-slider,
+    &.qx-aum-calendar {
+      &,
+      &.qx-va-s {
+        height: 2.2rem !important;
+        vertical-align: middle;
+      }
+    }
+    &.qx-aum-function-field-abs .qx-aum-button {
+      flex: 1;
+      align-self: stretch;
+      height: auto !important;
+      border: none;
+    }
+
+  }
 }
 /*Special Case: only with button fit.content   qx-c-fcls_button_image_only  HuHo 03.11.2018*/
 .qx-c-fcls_button_image_only.qx-single-row.qx-aum-button {
