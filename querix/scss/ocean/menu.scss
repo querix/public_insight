@@ -35,7 +35,7 @@
 .qx-material-design {
   .qx-aum-menu-group > a > label > img[src*="TIPlus"],
   .qx-aum-menu-group > a > label > img[src*="TIMinus"] {
-    visibility: hidden;
+    display: none;
   }
 }
 /*END menu.css*/

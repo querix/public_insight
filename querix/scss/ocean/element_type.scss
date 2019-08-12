@@ -609,8 +609,18 @@
     margin-top: 2px;
   }
 
-  .qx-aum-abstract-string-field:not([data-helper-text]) {
+  .qx-aum-abstract-field:not([data-helper-text]):not(.qx-table-cell) {
     margin-bottom: 2px;
+  }
+
+  .qx-aum > iframe {
+    border: none;
+  }
+
+  .qx-aum-browser,
+  .qx-aum-canvas,
+  .qx-aum-web-component {
+    border: 1px solid rgba(92, 156, 204, .5);
   }
 }
 

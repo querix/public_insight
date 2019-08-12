@@ -4,38 +4,6 @@
 
 @import url("https: //fonts.googleapis.com/css?family=Roboto+Mono");
 
-@import url("https: //fonts.googleapis.com/css?family=Montserrat");
-
-@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed: 300");
-
-@import url("https: //fonts.googleapis.com/css?family=Lato");
-
-@import url("https: //fonts.googleapis.com/css?family=Roboto+Condensed");
-
-@import url("https: //fonts.googleapis.com/css?family=Raleway");
-
-@import url("https: //fonts.googleapis.com/css?family=Droid+Sans");
-
-@import url("https: //fonts.googleapis.com/css?family=Ubuntu");
-
-@import url("https: //fonts.googleapis.com/css?family=Arimo");
-
-@import url("https: //fonts.googleapis.com/css?family=Abel");
-
-@import url("https: //fonts.googleapis.com/css?family=Open+Sans");
-
-@import url("https: //fonts.googleapis.com/css?family=Josefin+Sans");
-
-@import url("https: //fonts.googleapis.com/css?family=Fira+Sans");
-
-@import url("https: //fonts.googleapis.com/css?family=Cousine");
-
-@import url("https: //fonts.googleapis.com/css?family=Space+Mono");
-
-@import url("https: //fonts.googleapis.com/css?family=Droid+Sans+Mono");
-
-@import url("https: //fonts.googleapis.com/css?family=Source+Code+Pro");
-
 :root {
   --default-font-style: normal;
   --default-font-size: 1rem;
@@ -384,119 +352,7 @@ Sans-Serif;
   font-style: var(--default-font-style);
 }
 
-/*BEGIN fcls_font_test.css*/
-
-/* I need the following font form classes only for demo purpose demo_samples/font_viewer... may be we can find a better way to demonstrate this */
-
-.qx-c-fcls_fieldlabel.qx-aum,
-.qx-c-fcls_data_widget.qx-aum {
-  color: rgba(058, 089, 126, 1.00);
-  color: var(--label-fg-color);
-  font-style: normal;
-  font-size: 1rem;
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_1,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_1 {
-  font-family: Montserrat;
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_2,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_2 {
-  font-family: "Noto Sans";
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_3,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_3 {
-  font-family: "Helvetica Neue";
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_4,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_4 {
-  font-family: sans-serif;
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_5,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_5 {
-  font-family: "Roboto Mono";
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_6,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_6 {
-  font-family: "Droid Sans Mono";
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_7,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_7 {
-  font-family: "Space Mono";
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_8,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_8 {
-  font-family: Monospace;
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_9,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_9 {
-  font-family: "Open Sans";
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_10,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_10 {
-  font-family: "Fira Sans";
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_11,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_11 {
-  font-family: "Josefin Sans";
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_12,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_12 {
-  font-family: "Open Sans Condensed";
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_13,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_13 {
-  font-family: Roboto;
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_14,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_14 {
-  font-family: Lato;
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_15,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_15 {
-  font-family: "Roboto Condensed";
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_16,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_16 {
-  font-family: "Raleway";
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_17,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_17 {
-  font-family: "Droid Sans";
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_18,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_18 {
-  font-family: Ubuntu;
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_19,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_19 {
-  font-family: Arimo;
-}
-
-.qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_20,
-.qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_20 {
-  font-family: Abel;
-}
-
-/*END fcls_font_test.css*/
+/* @import url("fcls_font_test.css"); */
 
 /*BEGIN flextbox.css*/
 
@@ -669,7 +525,7 @@ Sans-Serif;
 
 .qx-material-design .qx-aum-menu-group > a > label > img[src*=TIPlus],
 .qx-material-design .qx-aum-menu-group > a > label > img[src*=TIMinus] {
-  visibility: hidden;
+  display: none;
 }
 
 /*END menu.css*/
@@ -787,31 +643,33 @@ Sans-Serif;
 
 /*BEGIN form_header_footer.css*/
 
-.qx-jquery-ui .qx-c-fcls_title_lb .qx-text {
-  padding: 2px;
-  padding: 5px 10px;
+.qx-aum.qx-c-fcls_statusbar_cnt,
+.qx-aum.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-c-fcls_title_cnt > .qx-aum-label .qx-text,
+.qx-aum.qx-c-fcls_title_lb .qx-text {
   color: rgba(255, 255, 255, 1.00);
   color: var(--root_cnt_header-fg-color);
-  font: bold 14px "Roboto", "Calibri", "Helvetica Neue", Sans-Serif;
-  padding: 5px 10px;
-  color: rgba(255, 255, 255, 1.00);
-  color: var(--root_cnt_footer-fg-color);
-  font-weight: bold;
 }
 
-.qx-jquery-ui .qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-c-fcls_title_cnt {
+.qx-aum.qx-c-fcls_statusbar_cnt,
+.qx-aum.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-c-fcls_title_cnt {
   background: rgba(058, 089, 126, 1.00);
   background: var(--root_cnt_header-bg-color);
   background-image: none;
+}
+
+.qx-aum.qx-c-fcls_title_lb .qx-text {
+  padding: 2px;
+  padding: 5px 10px;
+  font: bold 14px "Roboto", "Calibri", "Helvetica Neue", Sans-Serif;
+}
+
+.qx-aum.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-c-fcls_title_cnt {
   font-weight: bold;
   padding: 2px;
   margin: 2px;
 }
 
-.qx-jquery-ui .qx-c-fcls_statusbar_cnt {
-  background: rgba(058, 089, 126, 1.00);
-  background: var(--root_cnt_footer-bg-color);
-  background-image: none;
+.qx-aum.qx-c-fcls_statusbar_cnt {
   padding: 0;
   margin-top: 5px;
 }
@@ -975,6 +833,13 @@ Sans-Serif;
 .qx-jquery-ui .qx-c-fcls_menulabel .qx-text {
   color: rgba(058, 089, 126, 1.00);
   color: var(--label-fg-color);
+}
+
+.qx-jquery-ui .qx-c-fcls_title_lb .qx-text {
+  padding: 5px 10px;
+  color: rgba(255, 255, 255, 1.00);
+  color: var(--root_cnt_footer-fg-color);
+  font-weight: bold;
 }
 
 .qx-jquery-ui .qx-c-fcls_sblabel .qx-text {
@@ -1515,6 +1380,26 @@ Sans-Serif;
   opacity: 0.6;
 }
 
+.qx-material-design .qx-aum-grid-panel > :not(.qx-aum-abstract-container) {
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 2px;
+}
+
+.qx-material-design .qx-aum-abstract-field:not([data-helper-text]):not(.qx-table-cell) {
+  margin-bottom: 2px;
+}
+
+.qx-material-design .qx-aum > iframe {
+  border: none;
+}
+
+.qx-material-design .qx-aum-browser,
+.qx-material-design .qx-aum-canvas,
+.qx-material-design .qx-aum-web-component {
+  border: 1px solid rgba(92, 156, 204, 0.5);
+}
+
 /*END element_type.css*/
 
 /*BEGIN container.css*/
@@ -1734,6 +1619,13 @@ Sans-Serif;
 .qx-jquery-ui .qx-c-fcls_container_border_s2 {
   border: 2px solid rgb(204, 0, 0);
   border: 2px solid var(--cnt-color-border-strong-fg);
+}
+
+.qx-material-design .qx-aum-group-box.qx-aum.qx-aum-group-box.qx-aum-element-container {
+  background-color: rgba(255, 255, 255, 1.00);
+  background-color: var(--cnt_gb-bg-color);
+  background-image: none;
+  margin: 2px;
 }
 
 /*END container.css*/
@@ -4566,12 +4458,10 @@ Sans-Serif;
   height: 4.4rem;
 }
 
-/*Image Area Widgets / i.e. canvas, browser*/
-
-.qx-aum.qx-aum-web-component,
-.qx-aum.qx-aum-browser.qx-aum-abstract-text-field,
-.qx-aum.qx-aum-blob-viewer.qx-blob-image,
-.qx-aum.qx-aum-canvas.qx-aum-abstract-field {
+.qx-aum.qx-window-root .qx-va-s.qx-aum.qx-aum-web-component,
+.qx-aum.qx-window-root .qx-va-s.qx-aum.qx-aum-browser.qx-aum-abstract-text-field,
+.qx-aum.qx-window-root .qx-va-s.qx-aum.qx-aum-blob-viewer.qx-blob-image,
+.qx-aum.qx-window-root .qx-va-s.qx-aum.qx-aum-canvas.qx-aum-abstract-field {
   height: 10.6rem;
 }
 
