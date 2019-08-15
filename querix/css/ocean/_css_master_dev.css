@@ -4408,35 +4408,35 @@ Sans-Serif;
 
 /*Must override !important on default qx-va-s*/
 
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-text-field,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-text-field.qx-va-s,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-function-field-abs,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-function-field-abs.qx-va-s,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-combo-box,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-combo-box.qx-va-s,
-.qx-aum.qx-aum-abstract-container .qx-aum.ui-spinner.qx-aum-spinner,
-.qx-aum.qx-aum-abstract-container .qx-aum.ui-spinner.qx-aum-spinner.qx-va-s,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-time-edit-field,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-time-edit-field.qx-va-s,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-check-box,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-check-box.qx-va-s,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-radio,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-radio.qx-va-s,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-bool-widget.qx-aum.qx-aum-radio,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-bool-widget.qx-aum.qx-aum-radio.qx-va-s,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-button,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-button.qx-va-s,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-progress-bar,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-progress-bar.qx-va-s,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-horizontal.qx-aum.qx-aum-slider,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-horizontal.qx-aum.qx-aum-slider.qx-va-s,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-calendar,
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-calendar.qx-va-s {
-  height: 2.2rem !important;
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-text-field,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-text-field.qx-va-s,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-function-field-abs,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-function-field-abs.qx-va-s,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-combo-box,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-combo-box.qx-va-s,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.ui-spinner.qx-aum-spinner,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.ui-spinner.qx-aum-spinner.qx-va-s,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-time-edit-field,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-time-edit-field.qx-va-s,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-check-box,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-check-box.qx-va-s,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-radio,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-radio.qx-va-s,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-bool-widget.qx-aum.qx-aum-radio,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-bool-widget.qx-aum.qx-aum-radio.qx-va-s,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-button,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-button.qx-va-s,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-progress-bar,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-progress-bar.qx-va-s,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-horizontal.qx-aum.qx-aum-slider,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-horizontal.qx-aum.qx-aum-slider.qx-va-s,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-calendar,
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-calendar.qx-va-s {
+  height: 2.2rem;
   vertical-align: middle;
 }
 
-.qx-aum.qx-aum-abstract-container .qx-aum.qx-aum-function-field-abs .qx-aum-button {
+.qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-function-field-abs .qx-aum-button {
   flex: 1;
   align-self: stretch;
   height: auto !important;

@@ -20,8 +20,8 @@ $maxsizeFlex: ('2','5','10','15','20','25','30','35','40','50','60');
 /*ALL Elements V-Size*/
 /*Single Line Widgets / textField based*/
 /*Must override !important on default qx-va-s*/
-.qx-aum.qx-aum-abstract-container {
-  .qx-aum {
+.qx-aum.qx-aum-abstract-container.qx-display-grid {
+  > .qx-aum {
     &.qx-aum-text-field,
     &.qx-aum-function-field-abs,
     &.qx-aum-combo-box,
@@ -36,7 +36,7 @@ $maxsizeFlex: ('2','5','10','15','20','25','30','35','40','50','60');
     &.qx-aum-calendar {
       &,
       &.qx-va-s {
-        height: 2.2rem !important;
+        height: 2.2rem;
         vertical-align: middle;
       }
     }
@@ -46,7 +46,6 @@ $maxsizeFlex: ('2','5','10','15','20','25','30','35','40','50','60');
       height: auto !important;
       border: none;
     }
-
   }
 }
 /*Special Case: only with button fit.content   qx-c-fcls_button_image_only  HuHo 03.11.2018*/
