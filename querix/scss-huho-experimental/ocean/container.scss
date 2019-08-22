@@ -34,7 +34,7 @@ Legacy Compat Mode Informix panels  HuHO 14.12.2018
   background-color: var(--main-color-bg);
 }
 .qx-o-c-classic:not(.qx-o-c-nativestyle) {
-  background-color: var(--main-color-bg) !important;
+  background-color: var(--main-color-bg) ;
 }
 /*
 #######################################################
@@ -47,8 +47,8 @@ Legacy Coordinate Panel
 }
 /*Legacy Coordinate panel based forms*/
 .qx-aum-coord-panel>.qx-aum {
-  color: var(--tf-label-disabled-color-fg) !important;
-  background-color: var(--main-color-bg) !important;
+  color: var(--tf-label-disabled-color-fg) ;
+  background-color: var(--main-color-bg) ;
 }
 .qx-wrap.qx-ha-l>.qx-bound>* {
   align-self: stretch;
@@ -93,8 +93,14 @@ qx-groupbox-header ui-accordion-header ui-state-default qx-vta-c qx-hta-c ui-acc
 .qx-c-fcls_detail_gb_cnt.qx-aum-group-box .qx-groupbox-header {
   background: var(--cnt-gb-titlebar-color-bg);
   background-image: none;
-  color: var(--cnt-gb-titlebar-color-bg);
+  color: var(--cnt-gb-titlebar-color-fg);
+}
+.qx-jquery-ui {
   padding: 2px;
+}
+
+.qx-material-design .qx-aum-group-box.qx-display-grid[data-vdom-component] > .qx-groupbox-header > .qx-icon {
+  color: var(--cnt-gb-titlebar-color-fg);
 }
 /*
 GroupBox Header LABEL with form class fcls_detail_gb_cnt
@@ -125,39 +131,27 @@ StackPanel container
   background: var(--cnt-tb-header-color-bg);
 }
 
-
-/* Note: gridHeader formats like padding need to be set for header and column data */
-.qx-table.qx-aum.qx-aum-table.qx-aum-abstract-data-table.qx-aum-abstract-container.qx-has-header .qx-hrow .qx-thead .qx-thead-row.ui-widget-header {
-  min-height: 1.6rem !important;
-  height: 1.6rem !important;
-}
-
-.qx-aum-table .qx-thead-row,
-.qx-aum-table .qx-thead-row>th,
-.qx-aum-table .qx-table-row>td {
-  min-height: 1.6rem !important;
-  height: 1.6rem !important;
-}
-
-.qx-aum-table-column.ui-widget-header>label {
-  padding-left: 4px !important;
-  padding-right: 4px !important;
+.qx-jquery-ui th.qx-aum-table-column > label,
+.qx-material-design th.qx-aum-table-column > .qx-text-wrapper {
+  padding-left: 4px ;
+  padding-right: 4px ;
   color: var(--cnt-tb-header-color-fg);
 }
-.qx-thead th>label {
+
+.qx-thead th > label {
   left: 0;
   right: 0;
 }
 .qx-table-row>td.qx-table-cell,
-.qx-thead-row>th.qx-aum-table-column.ui-widget-header {
+.qx-thead-row>th.qx-aum-table-column {
   border: none;
-  border-left: 1px solid transparent !important;
+  border-left: 1px solid transparent ;
 }
-.qx-thead-row>th.qx-aum-table-column.ui-widget-header:nth-child(1),
+.qx-thead-row>th.qx-aum-table-column:nth-child(1),
 .qx-table-row>td.qx-table-cell:nth-child(1) {
-  border-left: none !important;
+  border-left: none ;
 }
-.qx-thead-row>th.qx-aum-table-column.ui-widget-header>label,
+.qx-thead-row>th.qx-aum-table-column>label,
 .qx-table-row>td.qx-table-cell {
   padding: 0 3px;
 }
@@ -173,30 +167,46 @@ Misc
 /* ###############################################*/
 /*conditional row highlight ALL ROWs */
 .qx-c-activefield .qx-tbody .qx-table-row.qx-c-highlight_str {
-  background-color: var(--cnt-tb-conditional-row-color-bg) !important;
+  background-color: var(--cnt-tb-conditional-row-color-bg) ;
 }
 /*conditional row highlight CURRENT/SELECTED ROW */
 .qx-table.qx-aum.qx-aum-table .qx-brow.qx-isc .qx-bcell .qx-tbody .qx-c-highlight_str.qx-selected.qx-table-row.qx-aum-some.ui-row-ltr.qx-focusable .qx-table-cell.qx-c-activefield.qx-content.qx-aum-some.qx-aum-abstract-field.qx-has-text {
-  color: var(--cnt-tb-conditional-current-row-color-fg) !important;
+  color: var(--cnt-tb-conditional-current-row-color-fg) ;
 }
 /* CURRENT ROW row highlight background-color */
-.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected {
-  background-color: var(--cnt-tb-curr-row-color-bg) !important;
+.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected,
+.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected td {
+  background-color: var(--cnt-tb-curr-row-color-bg) ;
 }
 /* CURRENT ROW FOCUS field background-color */
 .qx-table-cell .qx-aum.qx-aum-abstract-field.qx-column-edit-control.qx-element-role-input.qx-active.qx-focused.qx-has-focus,
 .qx-table-cell .qx-aum.qx-aum-abstract-field.qx-column-edit-control.qx-element-role-input.qx-active.qx-focused.qx-has-focus {
-  background-color: var(--cnt-tb-curr-row-inp-field-color-bg) !important;
+  background-color: var(--cnt-tb-curr-row-inp-field-color-bg) ;
 }
 
 /* TABLE CELL */
-.qx-table-cell.qx-c-activefield.qx-content {
-  height: 2rem !important;
-  margin-left: 2px !important;
-  margin-right: 2px !important;
-  padding-right: 2px !important;
-  padding-left: 2px !important;
-  background-color: transparent!important;
+.qx-jquery-ui {
+  /* Note: gridHeader formats like padding need to be set for header and column data */
+  .qx-table.qx-aum.qx-aum-table.qx-aum-abstract-data-table.qx-aum-abstract-container.qx-has-header .qx-hrow .qx-thead .qx-thead-row.ui-widget-header {
+    min-height: 1.6rem ;
+    height: 1.6rem ;
+  }
+
+  .qx-aum-table .qx-thead-row,
+  .qx-aum-table .qx-thead-row>th,
+  .qx-aum-table .qx-table-row>td {
+    min-height: 1.6rem ;
+    height: 1.6rem ;
+  }
+
+  .qx-table-cell.qx-c-activefield.qx-content {
+    height: 2rem ;
+    margin-left: 2px ;
+    margin-right: 2px ;
+    padding-right: 2px ;
+    padding-left: 2px ;
+    background-color: transparent;
+  }
 }
 /*
 ######################################
@@ -224,7 +234,7 @@ Table Column
 /*label / text */
 .qx-c-activefield .qx-tbody tr {
   color: var(--fgl-field-color-default-enabled-fg);
-  background-color: var(--fgl-field-color-default-enabled-bg) !important;
+  background-color: var(--fgl-field-color-default-enabled-bg) ;
 }
 /* default background-color of table rows*/
 .qx-tbody tr {
@@ -234,59 +244,59 @@ Table Column
 /* table row */
 /* INPUT ARRAY default font for field in current table  row - field focus*/
 .qx-table-row.qx-selected .qx-table-cell.qx-content.qx-c-activefield .qx-aum .qx-text {
-  font-size: var(--qx-display-array-font) !important;
+  font-size: var(--qx-display-array-font) ;
   padding-left: 2px;
 }
 /*##############################*/
 /* table - row                  */
 /*##############################*/
 .qx-table .qx-brow.qx-isc .qx-bcell .qx-tbody .qx-table-row {
-  /*width: 10px !important;*/
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
+  /*width: 10px ;*/
+  margin-left: 0px ;
+  margin-right: 0px ;
+  margin-top: 0px ;
+  margin-bottom: 0px ;
+  padding-left: 0px ;
+  padding-right: 0px ;
+  padding-top: 0px ;
+  padding-bottom: 0px ;
 }
 
 /* table - row - cell - .qx-text-field */
 .qx-table .qx-brow.qx-isc .qx-bcell .qx-tbody .qx-table-row .qx-table-cell.qx-c-activefield.qx-content .qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field,
 .qx-table .qx-brow.qx-isc .qx-bcell .qx-tbody .qx-table-row .qx-table-cell.qx-c-activefield.qx-content .qx-text-field.qx-single-row.qx-aum.qx-aum-combo-box.qx-aum-abstract-string-field.qx-aum-abstract-field {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
+  margin-left: 0px ;
+  margin-right: 0px ;
+  margin-top: 0px ;
+  margin-bottom: 0px ;
+  padding-left: 0px ;
+  padding-right: 0px ;
+  padding-top: 0px ;
+  padding-bottom: 0px ;
 }
 
 /* table - row - cell - .qx-text-field .qx-text */
 .qx-table .qx-brow.qx-isc .qx-bcell .qx-tbody .qx-table-row .qx-table-cell.qx-c-activefield.qx-content .qx-text-field .qx-text,
 .qx-table .qx-brow.qx-isc .qx-bcell .qx-tbody .qx-table-row .qx-table-cell.qx-c-activefield.qx-content .qx-text-field.qx-single-row.qx-aum.qx-aum-combo-box.qx-aum-abstract-string-field.qx-aum-abstract-field .qx-text {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-  padding-left: 2px !important;
-  padding-right: 2px !important;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
+  margin-left: 0px ;
+  margin-right: 0px ;
+  margin-top: 0px ;
+  margin-bottom: 0px ;
+  padding-left: 2px ;
+  padding-right: 2px ;
+  padding-top: 0px ;
+  padding-bottom: 0px ;
 }
 
 .qx-table-cell.qx-c-activefield.qx-content .qx-aum.qx-column-edit-control.qx-element-role-input.qx-focused.qx-has-focus {
-  margin-left: 1px !important;
-  margin-right: 1px !important;
-  margin-top: 2px !important;
-  margin-bottom: 2px !important;
-  padding-left: 1px !important;
-  padding-right: 2px !important;
-  padding-top: 2px !important;
-  padding-bottom: 2px !important;
+  margin-left: 1px ;
+  margin-right: 1px ;
+  margin-top: 2px ;
+  margin-bottom: 2px ;
+  padding-left: 1px ;
+  padding-right: 2px ;
+  padding-top: 2px ;
+  padding-bottom: 2px ;
 }
 
 
@@ -296,12 +306,12 @@ Tab Page Container (form container NOT MDI menu container)
 /*TabContainer unselected tab*/
 .qx-aum-tab.qx-display-grid> :first-child label {
   background-image: none;
-  background-color: var(--cnt-tab-handle-not-selected-color-bg) !important;
+  background-color: var(--cnt-tab-handle-not-selected-color-bg) ;
 }
 /*TabContainer unselected tab*/
 .qx-aum-tab.qx-display-grid> :first-child label:hover {
   background-image: none;
-  background-color: var(--cnt-tab-handle-area-hover-bg-color) !important;
+  background-color: var(--cnt-tab-handle-area-hover-bg-color) ;
 }
 /* Tab-Page Form Container */
 .qx-aum.qx-aum-tab.qx-aum-abstract-container .qx-tabcontrol-header.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header {
@@ -312,13 +322,13 @@ Tab Page Container (form container NOT MDI menu container)
 .qx-aum-tab.qx-display-grid> :first-child [type="radio"]:checked+label {
   border: 1px solid #aaa;
   border-bottom: 0;
-  background: var(--cnt-tab-handle-selected-color-bg) !important;
+  background: var(--cnt-tab-handle-selected-color-bg) ;
   font-weight: 400;
   color: orange;
   cursor: default;
 }
 /* labels in the tabPage handles */
-.qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text {
+.qx-has-text .ui-tabs-anchor.qx-aum-abstract-field .qx-text {
   justify-content: left;
   text-align: left;
   align-items: flex-start;
@@ -377,4 +387,12 @@ Tab Handles
 .qx-c-fcls_container_border_s2 {
   border: 2px solid var(--cnt-color-border-strong-fg);
   border-radius: 7px;
+}
+
+.qx-material-design {
+  .qx-aum-group-box.qx-aum.qx-aum-group-box.qx-aum-element-container {
+    background-color: var(--cnt_gb-bg-color);
+    background-image: none;
+    margin: 2px;
+  }
 }

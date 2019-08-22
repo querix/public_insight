@@ -26,7 +26,7 @@ MDI-Container stuff
 
 /*.qx-t-h.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header
 {
-    border-bottom: 1px solid #5c9ccc !important; 
+    border-bottom: 1px solid #5c9ccc ; 
     
 }*/
 
@@ -89,7 +89,7 @@ MDI-Container stuff
 {
   background-color: var(--cnt-mdi-tab-handle-hover-color-bg);
 }
-.ui-widget-header .ui-state-default[role="tab"].qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text:hover
+.ui-widget-header .ui-state-default[role="tab"].qx-has-text .ui-tabs-anchor .qx-text:hover
 {
     color:var(--cnt-mdi-tab-handle-hover-color-fg);
 }
@@ -105,7 +105,7 @@ MDI-Container stuff
 /* MDI Tab NOT Selected/Focused */
 /* **************************** */
 /* MDI tab-label text */
-.ui-widget-header .ui-state-default[role="tab"].qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text {
+.ui-widget-header .ui-state-default[role="tab"].qx-has-text .ui-tabs-anchor .qx-text {
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -161,7 +161,7 @@ MDI-Container stuff
 
 }
 /*text fg color of focused mdi-tab handle */
-.ui-widget-header .ui-state-default.ui-state-active[role="tab"].qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text {
+.ui-widget-header .ui-state-default.ui-state-active[role="tab"].qx-has-text .ui-tabs-anchor .qx-text {
   background: none;
   color: var(--cnt-mdi-tab-handle-selected-color-fg); /* #ededed; */
   /*background-color: yellow; */

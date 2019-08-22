@@ -12,13 +12,13 @@ fcls_title_lb
 /*FormClass: fcls_title_lb for FORM TitleBar/Header*/
 .qx-c-fcls_title_lb
 {
-    color: var(--root-cnt-header-color-fg)!important;
+    color: var(--root-cnt-header-color-fg);
     background-color: transparent;    
 } 
 
-.qx-c-fcls_title_lb .qx-text-with-icon .qx-text {
+.qx-c-fcls_title_lb.qx-aum.qx-aum-abstract-field .qx-text {
     padding: 5px 10px;
-    color: var(--root-cnt-header-color-fg)!important; 
+    color: var(--root-cnt-header-color-fg); 
     background-color: transparent;
 	font: var(--qx-header-font);
 } 
@@ -52,7 +52,7 @@ fcls_sblabel
 
 
 /*FormClass: fcls_sblabel for FORM statusbar*/
-.qx-c-fcls_sblabel .qx-text-with-icon .qx-text {
+.qx-c-fcls_sblabel.qx-aum-abstract-field .qx-text {
 	color: var(--root-cnt-footer-color-fg);
     padding: 5px 10px;
    font: var(--qx-footer-font);

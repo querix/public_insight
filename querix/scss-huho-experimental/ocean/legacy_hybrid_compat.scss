@@ -1,6 +1,6 @@
 .qx-c-custom-cell-dimensions {
-width: var(--main-hybrid-legacy-cell-width) !important;
-height: var(--main-hybrid-legacy-cell-height) !important;
+width: var(--main-hybrid-legacy-cell-width) ;
+height: var(--main-hybrid-legacy-cell-height) ;
 }
 
 /*################################################################################################################*/
@@ -32,34 +32,34 @@ height: var(--main-hybrid-legacy-cell-height) !important;
 .qx-aum-coord-panel .qx-aum-button,
 .qx-aum-coord-panel .qx-aum-check-box, 
 .qx-aum-coord-panel .qx-aum.qx-aum-button.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-has-text {
-	margin-top:0px !important;
-	margin-bottom:0px  !important;	
-	margin-right: 0px !important;
-	margin-left: 0px !important;
-	padding-left: 0px !important;
-	padding-right: 0px !important;
-	padding-top: 0px !important;
-	padding-bottom: 0px !important;	
+	margin-top:0px ;
+	margin-bottom:0px  ;	
+	margin-right: 0px ;
+	margin-left: 0px ;
+	padding-left: 0px ;
+	padding-right: 0px ;
+	padding-top: 0px ;
+	padding-bottom: 0px ;	
 }
 
 /* minor padding for inner text fields in PER legacy */
 .qx-aum-coord-panel .qx-aum-text-field .qx-text
 {
-	padding-left: var(--main-hybrid-legacy-padding) !important;
-	padding-right: var(--main-hybrid-legacy-padding) !important;
+	padding-left: var(--main-hybrid-legacy-padding) ;
+	padding-right: var(--main-hybrid-legacy-padding) ;
 }
 
 /*Focus field in input array*/
 .qx-aum-coord-panel .qx-aum.qx-element-role-input.qx-active.ui-state-active.qx-focusable-field.qx-focused.qx-has-focus.qx-c-activefield.qx-c-lycia_currentrow
 {
-	margin-top:0px !important;
-	margin-bottom:0px  !important;	
-	margin-right: 0px !important;
-	margin-left: 0px !important;
-	padding-left: 0px !important;
-	padding-right: 0px !important;
-	padding-top: 0px !important;
-	padding-bottom: 0px !important;	
+	margin-top:0px ;
+	margin-bottom:0px  ;	
+	margin-right: 0px ;
+	margin-left: 0px ;
+	padding-left: 0px ;
+	padding-right: 0px ;
+	padding-top: 0px ;
+	padding-bottom: 0px ;	
 }
 
 
@@ -67,7 +67,7 @@ height: var(--main-hybrid-legacy-cell-height) !important;
 
 /* text field padding for legacy coorindate panels */
 .qx-aum-coord-panel .qx-text.qx-focus-target {
-	padding: var(--main-hybrid-legacy-padding) !important;
+	padding: var(--main-hybrid-legacy-padding) ;
 }
 
 
@@ -88,7 +88,7 @@ height: var(--main-hybrid-legacy-cell-height) !important;
 .qx-aum-coord-panel .qx-horizontal.qx-aum.qx-aum-slider,
 .qx-aum-coord-panel .qx-aum.qx-aum-radio-group
 {
-	height: var(--qx-qch, 2.2rem) !important;
+	height: var(--qx-qch, 2.2rem) ;
 }
 /*END PREVENT WIDGETS IN COORDPANEL FROM THE SIZE AND POSITION CHANGES */
 
@@ -101,7 +101,7 @@ height: var(--main-hybrid-legacy-cell-height) !important;
 	display: none;
 }
 
-.qx-aum-menu-command.qx-aum-menu-item.qx-element-role-ringmenu .qx-no-image.qx-focus-target.ui-button .ui-button-text .qx-text-with-icon .qx-text
+.qx-aum-menu-command.qx-aum-menu-item.qx-element-role-ringmenu .qx-no-image.qx-focus-target.ui-button .ui-button-text .qx-text
 {
  font: var(--qx-toolbar-font);
 }
@@ -118,13 +118,13 @@ height: var(--main-hybrid-legacy-cell-height) !important;
 .qx-aum-coord-panel .qx-aum.qx-aum-abstract-field.qx-focused.qx-has-focus
 
 {
- border-width: var(--main-focus-border-width) !important;
- border-radius: var(--main-focus-border-radius)  !important;
- border-color: var(--main-focus-border-color)  !important; 
- border-style: solid !important;
- margin: 0px !important;
- padding: 0px !important; 
- padding-left: 2px !important;	
- background-color: var(--main-focus-color-bg) !important;
+ border-width: var(--main-focus-border-width) ;
+ border-radius: var(--main-focus-border-radius)  ;
+ border-color: var(--main-focus-border-color)  ; 
+ border-style: solid ;
+ margin: 0px ;
+ padding: 0px ; 
+ padding-left: 2px ;	
+ background-color: var(--main-focus-color-bg) ;
 
 }

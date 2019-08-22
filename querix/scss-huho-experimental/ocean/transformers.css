@@ -15,9 +15,9 @@ html,body {
 #qx-container-toolbars {
     position: fixed;
     right: 0;
-    display: block !important;
+    display: block ;
     z-index: 1001;
-    width: auto !important;
+    width: auto ;
     height: auto;
 }
 #qx-container-toolbars #qx-container-toolbars-inner {
@@ -35,7 +35,7 @@ position: relative;
  
 
 #qx-container-body > .qx-o-c-screen {
-    display: none !important;
+    display: none ;
 }
 
 #qx-container-body {
@@ -52,27 +52,27 @@ position: relative;
 
 
 #qx-t-c {
-    padding-top: 60px !important;
+    padding-top: 60px ;
 }
 
 /*changed by huho  background-color: #d6d6d6 -> background-color: #white*/
 .cmsfb .qx-child-page, .cmsfb .qx-window-border {
-    /*background-color: #f0f3f4 !important;*/
-    background-color: #white; /*!important;*/
+    /*background-color: #f0f3f4 ;*/
+    background-color: #white; /*;*/
     padding: 0;
 }
 /*BEGIN left-side menu*/
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu a
 {
-	font-weight: normal !important;
+	font-weight: normal ;
 }
 
 /* Sidebar -thin area between left menu scoll bar and main child-app area*/
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu {
-	background-color: var(--cnt_mdi_menu_button_area-bg-color) !important; 
-	font: var(--qx-menu-font) !important; /*Montserrat;*/
-	border-right-color: var(--cnt-mdi-menu-scrollbar-right-silly-area-color-bg) !important;
+	background-color: var(--cnt_mdi_menu_button_area-bg-color) ; 
+	font: var(--qx-menu-font) ; /*Montserrat;*/
+	border-right-color: var(--cnt-mdi-menu-scrollbar-right-silly-area-color-bg) ;
 }
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu,
@@ -132,14 +132,14 @@ position: relative;
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar label > img {
 	/*visibility: hidden;  huho 2017-12-10*/
-	display: block !important;
+	display: block ;
 	VISIBILITY: hidden;
-	width: 16px !important;
+	width: 16px ;
 }
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar li > a.ui-state-hover,
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .treeview .hover {
-	color: #fff !important;
+	color: #fff ;
 }
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu ul,
@@ -214,7 +214,7 @@ position: relative;
 }
 
 .li.ui-state-hover:{
-	color:red !important;
+	color:red ;
 }
 
 /* mdi header area */
@@ -268,8 +268,8 @@ position: relative;
 	box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.0);
 }
 .cmsfb #qx-container-menu {
-	transition-duration: .5s !important;
-	transition-property: width !important;
+	transition-duration: .5s ;
+	transition-property: width ;
 }
 
 .cmsfb #cms-topbar > p {
@@ -338,7 +338,7 @@ html.cmsfb:root .cms-mainmenu-close {
 
 /*.cmsfb:root .qx-window-border,
 .cmsfb:root #qx-t-c {
-    border: none !important;
+    border: none ;
 }*/
 
 /*Topbar height*/
@@ -361,8 +361,8 @@ html.cmsfb:root .cms-mainmenu-close {
 .cmsfb .cms-button-mainmenu-close,
 .cmsfb #cms-button-mainmenu {
 	text-indent: -9999px;
-	background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMyAxOGgxOHYtMkgzdjJ6bTAtNWgxOHYtMkgzdjJ6bTAtN3YyaDE4VjZIM3oiLz48L3N2Zz4=) no-repeat center center !important;
-	background-image: url('/public/querix/icon/svg/24/ic_transformer_menu_hide_24px.svg') !important; 
+	background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMyAxOGgxOHYtMkgzdjJ6bTAtNWgxOHYtMkgzdjJ6bTAtN3YyaDE4VjZIM3oiLz48L3N2Zz4=) no-repeat center center ;
+	background-image: url('/public/querix/icon/svg/24/ic_transformer_menu_hide_24px.svg') ; 
 	width: 32px;
 	height: 32px;
 	border: none;

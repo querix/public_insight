@@ -14,7 +14,7 @@ display:none;
 */
 
 .qx-c-fcls_flexbox.qx-aum-table.qx-table {
-  background-image: none !important;
+  background-image: none ;
   /*background-color: #d0e5f5;*/
   background-color: #ffffff;
 }
@@ -24,10 +24,10 @@ display:none;
 .qx-c-fcls_flexbox .qx-hrow,
 .qx-c-fcls_flexbox .qx-frow,
 .qx-c-fcls_flexbox .qx-tbody > thead {
-  display: none !important;
+  display: none ;
 }
 .qx-c-fcls_flexbox .qx-brow {
-  padding-top:0 !important;
+  padding-top:0 ;
 }
 .qx-c-fcls_flexbox .qx-tbody > tbody {
   display: block;
@@ -45,7 +45,7 @@ display:none;
   margin: 1%;
   min-width: 170px;
   border: none;
-  background: none !important;
+  background: none ;
 }
 .qx-c-fcls_flexbox .qx-tbody > tbody > tr.qx-scroll-space {
     flex: 0 0 100%;
@@ -55,12 +55,12 @@ display:none;
 /*qx-table qx-aum qx-aum-table qx-aum-abstract-data-table qx-aum-abstract-container qx-has-header qx-c-activefield qx-c-fcls_flexbox*/
 
 .qx-c-fcls_flexbox.qx-table .qx-tbody > tbody > tr > td {
-  height: auto !important;
+  height: auto ;
   border: none;
   align-self: center;
 }
 .qx-c-fcls_flexbox .qx-tbody > tbody > tr * {
-  background: none !important;
+  background: none ;
 }
 .qx-c-fcls_flexbox .qx-tbody > tbody > tr > td img:first-child {
   border-radius: 1em;

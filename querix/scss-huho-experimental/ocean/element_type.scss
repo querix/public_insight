@@ -7,7 +7,7 @@
   /* ########################*/
   .qx-aum.qx-aum-abstract-field {
     background: none;
-    background-image: none !important;
+    background-image: none ;
     padding-left: 2px;
   }
   /*################################################
@@ -38,11 +38,11 @@
   /* DEFAULT / DISABLED     */
   /* ###################### */
   .qx-aum-scroll-bar {
-    margin: 0px !important;
-    padding: 0px !important;
-    background-color: var(--main-scrollbar-color-bg) !important;
+    margin: 0px ;
+    padding: 0px ;
+    background-color: var(--main-scrollbar-color-bg) ;
     border-width: 0.5px;
-    border-color: var(--main-scrollbar-disabled-border-color) !important;
+    border-color: var(--main-scrollbar-disabled-border-color) ;
   }
   
   
@@ -55,38 +55,38 @@
   /* ###################### */
   
   .qx-aum-scroll-bar.qx-active.qx-enabled {
-    /*margin: 2px !important;*/
-    /*padding: 0px !important;*/
-    background-color: var(--main-scrollbar-color-bg) !important;
+    /*margin: 2px ;*/
+    /*padding: 0px ;*/
+    background-color: var(--main-scrollbar-color-bg) ;
     border-width: 0.5px;
-    border-color: var(--main-scrollbar-enabled-border-color) !important;
-    border-style: solid !important;
+    border-color: var(--main-scrollbar-enabled-border-color) ;
+    border-style: solid ;
   }
   
   .qx-aum-scroll-bar.qx-horizontal {
-    height: 14px !important;
+    height: 14px ;
   }
   
   .qx-aum-scroll-bar.qx-vertical {
-    width: 14px !important;
+    width: 14px ;
   }
   
   .qx-aum-scroll-bar.qx-element-role-input.qx-active.qx-c-activefield {
-    background-color: var(--main-scrollbar-color-bg) !important;
+    background-color: var(--main-scrollbar-color-bg) ;
     border-width: 0.5px;
-    border-color: var(--main-scrollbar-enabled-border-color) !important;
+    border-color: var(--main-scrollbar-enabled-border-color) ;
   }
   
   .qx-aum-scroll-bar.qx-element-role-input.qx-active.qx-c-activefield:hover {
-    background-color: var(--main-scrollbar-color-bg) !important;
+    background-color: var(--main-scrollbar-color-bg) ;
     border-width: 0.5px;
-    border-color: var(--main-scrollbar-hover-border-color) !important;
+    border-color: var(--main-scrollbar-hover-border-color) ;
   }
   
   /* scrollbar button */
   .qx-aum-scroll-bar.qx-element-role-input.qx-active.qx-c-activefield .qx-scb-up,
   .qx-aum-scroll-bar.qx-element-role-input.qx-active.qx-c-activefield .qx-scb-down {
-    background-color: var(--main-scrollbar-button-color-bg) !important;
+    background-color: var(--main-scrollbar-button-color-bg) ;
   }
   
   .qx-grid-cell {
@@ -116,7 +116,7 @@
     padding-top: 1px;
   }
   
-  .qx-no-image.qx-aum-label.qx-aum-abstract-text-field.qx-aum-abstract-string-field .qx-text-with-icon.qx-vtal.qx-htal {
+  .qx-no-image.qx-aum-label .qx-text-with-icon {
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 1px;
@@ -127,7 +127,7 @@
     padding-top: 1px;
   }
   
-  .qx-no-image.qx-aum-label.qx-aum-abstract-text-field.qx-aum-abstract-string-field .qx-text-with-icon.qx-vtal.qx-htal .qx-text {
+  .qx-no-image.qx-aum-label .qx-text {
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 1px;
@@ -154,8 +154,8 @@
   .qx-c-fcls_columnlabel_rev.qx-aum-label .qx-text {
     color: var(--label-rev-color-fg);
     background: var(--label-rev-color-bg);
-    padding-right: var(--main-disabled-border-padding)!important;
-    padding-left: var(--main-disabled-border-padding)!important;
+    padding-right: var(--main-disabled-border-padding);
+    padding-left: var(--main-disabled-border-padding);
     padding-top: 2px;
     padding-bottom: 2px;
   }
@@ -164,7 +164,7 @@
   /*FormClass: fcls_columnlabel_rev_cell - selects the entire cell*/
   
   :not(.ui-widget-content).qx-aum-label.qx-c-fcls_columnlabel_rev_cell {
-    background: var(--label-rev-color-bg) !important;
+    background: var(--label-rev-color-bg) ;
     flex: 1;
   }
   
@@ -178,16 +178,16 @@
   /* .qx-c-fcls_columnlabel_rev_cell  Form Class  */
   
   .qx-c-fcls_columnlabel_rev_cell {
-    border-radius: 0px !important;
+    border-radius: 0px ;
   }
   
   .qx-c-fcls_columnlabel_rev_cell .qx-text-with-icon {
-    border-radius: 0px !important;
+    border-radius: 0px ;
   }
   
-  .qx-c-fcls_columnlabel_rev_cell .qx-text-with-icon .qx-text {
-    color: var(--label-rev-color-fg) !important;
-    border-radius: 0px !important;
+  .qx-c-fcls_columnlabel_rev_cell.qx-aum-abstract-field .qx-text {
+    color: var(--label-rev-color-fg) ;
+    border-radius: 0px ;
   }
   
   
@@ -195,10 +195,10 @@
   
   .qx-c-fcls_columnlabel_rev_cell.qx-aum-label .qx-text-with-icon {
     font: normal 1rem "Roboto", "Calibri", "Helvetica Neue", Sans-Serif;
-    color: var(--label-rev-color-fg) !important;
+    color: var(--label-rev-color-fg) ;
     background: var(--label-rev-color-bg);
-    padding-right: var(--main-disabled-border-padding)!important;
-    padding-left: var(--main-disabled-border-padding)!important;
+    padding-right: var(--main-disabled-border-padding);
+    padding-left: var(--main-disabled-border-padding);
     padding-top: 2px;
     padding-bottom: 2px;
   }
@@ -207,8 +207,8 @@
     font: normal 1rem "Roboto", "Calibri", "Helvetica Neue", Sans-Serif;
     color: var(--label-rev-color-fg);
     background: var(--label-rev-color-bg);
-    padding-right: var(--main-disabled-border-padding)!important;
-    padding-left: var(--main-disabled-border-padding)!important;
+    padding-right: var(--main-disabled-border-padding);
+    padding-left: var(--main-disabled-border-padding);
     padding-top: 2px;
     padding-bottom: 2px;
   }
@@ -227,8 +227,8 @@
   .qx-c-fcls_key_usage .qx-text {
     color: var(--label-rev-color-fg);
     background: var(--label-rev-color-bg);
-    padding-right: var(--main-disabled-border-padding)!important;
-    padding-left: var(--main-disabled-border-padding)!important;
+    padding-right: var(--main-disabled-border-padding);
+    padding-left: var(--main-disabled-border-padding);
     padding-top: 2px;
     padding-bottom: 2px;
   }
@@ -253,7 +253,7 @@
   
   /* FormClass: fcls_font_description */
   
-  .qx-c-fcls_font_description .qx-text-with-icon .qx-text {
+  .qx-c-fcls_font_description.qx-aum-abstract-field .qx-text {
     color: var(--label-comment-color-fg);
     font-style: italic;
   }
@@ -308,7 +308,7 @@
   /* ########################*/
   
   .hasDatepicker.qx-focus-target.qx-text.ui-state-focus {
-    border-style: none !important;
+    border-style: none ;
   }
   
   
@@ -321,11 +321,11 @@
   /* ########################*/
   
   .qx-aum-label.qx-aum-abstract-text-field {
-    border-width: var(--main-disabled-border-width) !important;
-    border-radius: var(--main-disabled-border-radius) !important;
-    border-color: transparent !important;
-    background-color: var(--main-label-color-bg) !important;
-    border-style: solid !important;
+    border-width: var(--main-disabled-border-width) ;
+    border-radius: var(--main-disabled-border-radius) ;
+    border-color: transparent ;
+    background-color: var(--main-label-color-bg) ;
+    border-style: solid ;
     margin: var(--main-disabled-border-margin);
     padding: var(--main-disabled-border-padding);
   }
@@ -351,11 +351,11 @@
   /* ########################*/
   
   .qx-aum-browser {
-    border-width: var(--main-disabled-border-width) !important;
-    border-radius: var(--main-disabled-border-radius) !important;
-    border-color: var(--main-disabled-border-color) !important;
-    background-color: var(--main-disabled-color-bg) !important;
-    border-style: solid !important;
+    border-width: var(--main-disabled-border-width) ;
+    border-radius: var(--main-disabled-border-radius) ;
+    border-color: var(--main-disabled-border-color) ;
+    background-color: var(--main-disabled-color-bg) ;
+    border-style: solid ;
     margin: var(--main-disabled-border-margin);
     padding: var(--main-disabled-border-padding);
   }
@@ -371,16 +371,16 @@
   
   .qx-aum-combo-box.qx-inactive.qx-readonly,
   .qx-aum-calendar.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly {
-    border-width: var(--main-disabled-border-width) !important;
-    border-radius: var(--main-disabled-border-radius) !important;
-    border-left-color: transparent !important;
-    border-top-color: transparent !important;
-    border-right-color: transparent !important;
-    border-bottom-color: var(--main-disabled-border-color) !important;
-    background-color: var(--main-disabled-color-bg) !important;
-    border-style: solid !important;
-    margin: var(--main-disabled-border-margin) !important;
-    padding: var(--main-disabled-border-padding) !important;
+    border-width: var(--main-disabled-border-width) ;
+    border-radius: var(--main-disabled-border-radius) ;
+    border-left-color: transparent ;
+    border-top-color: transparent ;
+    border-right-color: transparent ;
+    border-bottom-color: var(--main-disabled-border-color) ;
+    background-color: var(--main-disabled-color-bg) ;
+    border-style: solid ;
+    margin: var(--main-disabled-border-margin) ;
+    padding: var(--main-disabled-border-padding) ;
   }
   
   
@@ -404,11 +404,11 @@
   
   .qx-active.qx-c-activefield.qx-aum-combo-box.qx-not-readonly,
   .qx-active.qx-c-activefield.qx-aum-calendar.qx-not-readonly {
-    border-width: var(--main-enabled-border-width) !important;
-    border-radius: var(--main-enabled-border-radius) !important;
-    border-color: var(--main-enabled-border-color) !important;
-    background-color: var(--main-enabled-color-bg) !important;
-    border-style: solid !important;
+    border-width: var(--main-enabled-border-width) ;
+    border-radius: var(--main-enabled-border-radius) ;
+    border-color: var(--main-enabled-border-color) ;
+    background-color: var(--main-enabled-color-bg) ;
+    border-style: solid ;
     margin: var(--main-enabled-border-margin);
     padding: var(--main-enabled-border-padding);
   }
@@ -430,13 +430,13 @@
   
   .qx-focused.qx-has-focus.qx-aum-combo-box.qx-active.qx-not-readonly,
   .qx-focused.qx-has-focus.qx-aum-calendar.qx-active.qx-not-readonly {
-    border-width: var(--main-focus-border-width) !important;
-    border-radius: var(--main-focus-border-radius) !important;
-    border-color: var(--main-focus-border-color) !important;
-    border-style: solid !important;
-    margin: var(--main-focus-border-margin) !important;
-    padding: var(--main-focus-border-padding) !important;
-    background-color: var(--main-focus-color-bg) !important;
+    border-width: var(--main-focus-border-width) ;
+    border-radius: var(--main-focus-border-radius) ;
+    border-color: var(--main-focus-border-color) ;
+    border-style: solid ;
+    margin: var(--main-focus-border-margin) ;
+    padding: var(--main-focus-border-padding) ;
+    background-color: var(--main-focus-color-bg) ;
   }
   
   
@@ -446,8 +446,8 @@
   /* START  Hide any background formating done by jQuery */
   
   .qx-text.qx-focus-target {
-    background: none !important;
-    background-color: transparent !important;
+    background: none ;
+    background-color: transparent ;
   }
   
   .qx-aum-calendar.qx-has-focus,
@@ -457,16 +457,16 @@
   .qx-aum-text-area.qx-has-focus,
   .qx-aum-text-area.qx-has-focus textarea,
   .qx-aum-combo-box.qx-has-focus {
-    background: none !important;
-    background-image: none !important;
-    background-position-x: initial !important;
-    background-position-y: initial !important;
-    background-size: initial !important;
-    background-repeat: initial !important;
-    background-attachment: initial !important;
-    background-origin: initial !important;
-    background-clip: initial !important;
-    background-color: transparent !important;
+    background: none ;
+    background-image: none ;
+    background-position-x: initial ;
+    background-position-y: initial ;
+    background-size: initial ;
+    background-repeat: initial ;
+    background-attachment: initial ;
+    background-origin: initial ;
+    background-clip: initial ;
+    background-color: transparent ;
   }
   
   
@@ -488,10 +488,10 @@
   .qx-aum-text-field.qx-focusable-field.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly:not(.qx-c-qx-function-text-field):hover,
   .qx-aum-combo-box.qx-focusable-field.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly:hover,
   .qx-aum-calendar.qx-focusable-field.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly:hover {
-    border-width: var(--main-hover-border-width) !important;
-    border-radius: var(--main-hover-border-radius) !important;
-    border-color: var(--main-hover-border-color) !important;
-    border-style: solid !important;
+    border-width: var(--main-hover-border-width) ;
+    border-radius: var(--main-hover-border-radius) ;
+    border-color: var(--main-hover-border-color) ;
+    border-style: solid ;
     margin: var(--main-hover-border-margin);
     padding: var(--main-hover-border-padding);
   }
@@ -528,29 +528,29 @@
   
   /*.qx-aum-radio-button *,*/
   
-  .qx-aum-check-box .qx-clickable .qx-text-with-icon .qx-text {
+  .qx-aum-check-box .qx-clickable.qx-aum-abstract-field .qx-text {
     font: var(--chb-font);
-    background-color: var(--chb-disabled-color-bg) !important;
+    background-color: var(--chb-disabled-color-bg) ;
     color: var(--chb-disabled-color-fg);
   }
   
-  .qx-aum-check-box .qx-text-with-icon .qx-text,
+  .qx-aum-check-box.qx-aum-abstract-field .qx-text,
   .qx-text-with-icon {
-    border-color: transparent !important;
-    outline-color: transparent !important;
+    border-color: transparent ;
+    outline-color: transparent ;
   }
   
   .qx-aum-check-box .qx-text,
-  .qx-aum-check-box .qx-text-with-icon .qx-text,
+  .qx-aum-check-box.qx-aum-abstract-field .qx-text,
   .qx-aum-check-box {
-    color: var(--data-widget-label-disabled-color-fg) !important;
-    font: var(--qx-data-widget-label-font) !important;
+    color: var(--data-widget-label-disabled-color-fg) ;
+    font: var(--qx-data-widget-label-font) ;
   }
   
   .qx-aum-check-box.qx-aum.qx-aum-abstract-field {
-    font: var(--chb-font) !important;
-    background-color: var(--chb-disabled-color-bg) !important;
-    color: var(--chb-disabled-color-fg) !important;
+    font: var(--chb-font) ;
+    background-color: var(--chb-disabled-color-bg) ;
+    color: var(--chb-disabled-color-fg) ;
   }
   
   
@@ -564,24 +564,24 @@
   
   .qx-aum-check-box.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly {
     font: var(--chb-font);
-    background-color: var(--chb-disabled-color-bg) !important;
+    background-color: var(--chb-disabled-color-bg) ;
     color: var(--chb-disabled-color-fg);
-    border-width: var(--main-disabled-border-width) !important;
-    border-radius: var(--main-disabled-border-radius) !important;
-    border-left-color: transparent !important;
-    border-top-color: transparent !important;
-    border-right-color: transparent !important;
-    border-bottom-color: var(--main-disabled-border-color) !important;
-    border-style: solid !important;
-    margin: var(--main-disabled-border-margin) !important;
-    padding: var(--main-disabled-border-padding) !important;
+    border-width: var(--main-disabled-border-width) ;
+    border-radius: var(--main-disabled-border-radius) ;
+    border-left-color: transparent ;
+    border-top-color: transparent ;
+    border-right-color: transparent ;
+    border-bottom-color: var(--main-disabled-border-color) ;
+    border-style: solid ;
+    margin: var(--main-disabled-border-margin) ;
+    padding: var(--main-disabled-border-padding) ;
   }
   
   .qx-aum-check-box.qx-active.qx-not-readonly .qx-text,
-  .qx-aum-check-box.qx-active.qx-not-readonly .qx-text-with-icon .qx-text,
+  .qx-aum-check-box.qx-active.qx-not-readonly.qx-aum-abstract-field .qx-text,
   .qx-aum-check-box {
-    color: var(--cb-disabled-color-fg) !important;
-    /*font: var(--qx-data-widget-label-font) !important;  */
+    color: var(--cb-disabled-color-fg) ;
+    /*font: var(--qx-data-widget-label-font) ;  */
   }
   
   
@@ -608,12 +608,12 @@
   .qx-aum-check-box.qx-active.qx-c-activefield.qx-not-readonly {
     color: var(--chb-enabled-color-fg);
     background-color: var(--chb-enabled-color-bg);
-    border-color: var(--chb-enabled-border-color) !important;
-    border-width: var(--main-enabled-border-width) !important;
-    border-radius: var(--main-enabled-border-radius) !important;
-    background-color: var(--main-enabled-color-bg) !important;
-    border-style: solid !important;
-    border-color: transparent !important;
+    border-color: var(--chb-enabled-border-color) ;
+    border-width: var(--main-enabled-border-width) ;
+    border-radius: var(--main-enabled-border-radius) ;
+    background-color: var(--main-enabled-color-bg) ;
+    border-style: solid ;
+    border-color: transparent ;
     margin: var(--main-enabled-border-margin);
     padding: var(--main-enabled-border-padding);
   }
@@ -638,13 +638,13 @@
   
   .qx-aum-check-box.qx-focused.qx-has-focus.qx-aum.qx-not-readonly {
     color: var(--chb-focus-color-fg);
-    background-color: var(--chb-focus-color-bg) !important;
-    border-color: var(--chb-focus-border-color) !important;
-    border-width: var(--main-focus-border-width) !important;
-    border-radius: var(--main-focus-border-radius) !important;
-    border-style: solid !important;
-    margin: var(--main-focus-border-margin) !important;
-    padding: var(--main-focus-border-padding) !important;
+    background-color: var(--chb-focus-color-bg) ;
+    border-color: var(--chb-focus-border-color) ;
+    border-width: var(--main-focus-border-width) ;
+    border-radius: var(--main-focus-border-radius) ;
+    border-style: solid ;
+    margin: var(--main-focus-border-margin) ;
+    padding: var(--main-focus-border-padding) ;
   }
   
   .qx-bool-widget.qx-focused label {
@@ -664,10 +664,10 @@
   .qx-aum-check-box.qx-focusable-field.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly:hover {
     color: var(--chb-hover-color-fg);
     background-color: var(--chb-hover-color-bg);
-    border-color: var(--cb-hover-border-color) !important;
-    border-width: var(--main-hover-border-width) !important;
-    border-radius: var(--main-hover-border-radius) !important;
-    border-style: solid !important;
+    border-color: var(--cb-hover-border-color) ;
+    border-width: var(--main-hover-border-width) ;
+    border-radius: var(--main-hover-border-radius) ;
+    border-style: solid ;
     margin: var(--main-hover-border-margin);
     padding: var(--main-hover-border-padding);
   }
@@ -691,16 +691,16 @@
   /* #########################*/
   
   .qx-aum-text-field.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly:not(.qx-c-qx-function-text-field) {
-    border-width: var(--main-disabled-border-width) !important;
-    border-radius: var(--main-disabled-border-radius) !important;
-    border-left-color: transparent !important;
-    border-top-color: transparent !important;
-    border-right-color: transparent !important;
-    border-bottom-color: var(--main-disabled-border-color) !important;
-    background-color: var(--main-disabled-color-bg) !important;
-    border-style: solid !important;
-    margin: var(--main-disabled-border-margin) !important;
-    padding: var(--main-disabled-border-padding) !important;
+    border-width: var(--main-disabled-border-width) ;
+    border-radius: var(--main-disabled-border-radius) ;
+    border-left-color: transparent ;
+    border-top-color: transparent ;
+    border-right-color: transparent ;
+    border-bottom-color: var(--main-disabled-border-color) ;
+    background-color: var(--main-disabled-color-bg) ;
+    border-style: solid ;
+    margin: var(--main-disabled-border-margin) ;
+    padding: var(--main-disabled-border-padding) ;
   }
   
   .qx-aum-text-field.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly .qx-text:not(.qx-c-qx-function-text-field) {
@@ -717,13 +717,13 @@
   /* ####################*/
   
   .qx-aum-text-field.qx-focused.qx-has-focus.qx-not-readonly.qx-c-activefield:not(.qx-c-qx-function-text-field) {
-    border-width: var(--main-focus-border-width) !important;
-    border-radius: var(--main-focus-border-radius) !important;
-    border-color: var(--main-focus-border-color) !important;
-    border-style: solid !important;
-    margin: var(--main-focus-border-margin) !important;
-    padding: var(--main-focus-border-padding) !important;
-    background-color: var(--main-focus-color-bg) !important;
+    border-width: var(--main-focus-border-width) ;
+    border-radius: var(--main-focus-border-radius) ;
+    border-color: var(--main-focus-border-color) ;
+    border-style: solid ;
+    margin: var(--main-focus-border-margin) ;
+    padding: var(--main-focus-border-padding) ;
+    background-color: var(--main-focus-color-bg) ;
   }
   
   
@@ -743,10 +743,10 @@
   /* ##################################*/
   
   .qx-aum-text-area.qx-text-field.qx-main-cell.qx-aum.qx-aum-abstract-string-field.qx-has-text {
-    border-width: var(--main-disabled-border-width) !important;
-    border-radius: var(--main-disabled-border-radius) !important;
-    border-color: var(--main-disabled-border-color) !important;
-    background-color: var(--main-disabled-color-bg) !important;
+    border-width: var(--main-disabled-border-width) ;
+    border-radius: var(--main-disabled-border-radius) ;
+    border-color: var(--main-disabled-border-color) ;
+    background-color: var(--main-disabled-color-bg) ;
     margin: var(--main-disabled-border-margin);
     padding: var(--main-disabled-border-padding);
   }
@@ -767,11 +767,11 @@
   /*elements enabled with border */
   
   .qx-active.qx-c-activefield.qx-aum-text-area.qx-not-readonly {
-    border-width: var(--main-enabled-border-width) !important;
-    border-radius: var(--main-enabled-border-radius) !important;
-    border-color: var(--main-enabled-border-color) !important;
-    background-color: var(--main-enabled-color-bg) !important;
-    border-style: solid !important;
+    border-width: var(--main-enabled-border-width) ;
+    border-radius: var(--main-enabled-border-radius) ;
+    border-color: var(--main-enabled-border-color) ;
+    background-color: var(--main-enabled-color-bg) ;
+    border-style: solid ;
     margin: var(--main-enabled-border-margin);
     padding: var(--main-enabled-border-padding);
   }
@@ -786,13 +786,13 @@
   /* ####################*/
   
   .qx-focused.qx-has-focus.qx-aum-text-area.qx-active.qx-not-readonly {
-    border-width: var(--main-focus-border-width) !important;
-    border-radius: var(--main-focus-border-radius) !important;
-    border-color: var(--main-focus-border-color) !important;
-    border-style: solid !important;
-    margin: var(--main-focus-border-margin) !important;
-    padding: var(--main-focus-border-padding) !important;
-    background-color: var(--main-focus-color-bg) !important;
+    border-width: var(--main-focus-border-width) ;
+    border-radius: var(--main-focus-border-radius) ;
+    border-color: var(--main-focus-border-color) ;
+    border-style: solid ;
+    margin: var(--main-focus-border-margin) ;
+    padding: var(--main-focus-border-padding) ;
+    background-color: var(--main-focus-color-bg) ;
   }
   
   
@@ -805,10 +805,10 @@
   /* ##################*/
   
   .qx-aum-text-area.qx-focusable-field.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly:hover {
-    border-width: var(--main-hover-border-width) !important;
-    border-radius: var(--main-hover-border-radius) !important;
-    border-color: var(--main-hover-border-color) !important;
-    border-style: solid !important;
+    border-width: var(--main-hover-border-width) ;
+    border-radius: var(--main-hover-border-radius) ;
+    border-color: var(--main-hover-border-color) ;
+    border-style: solid ;
     margin: var(--main-hover-border-margin);
     padding: var(--main-hover-border-padding);
   }
@@ -830,36 +830,36 @@
   /* ##################################*/
   
   .qx-aum.qx-aum-blob-viewer.qx-active.qx-not-readonly.qx-element-role-input.qx-blob-text.qx-blob-editable.qx-c-activefield {
-    margin: 0px !important;
-    padding: 0px !important;
+    margin: 0px ;
+    padding: 0px ;
     /*
-   border-width: var(--main-focus-border-width) !important;
-   border-radius: var(--main-focus-border-radius)  !important;
-   border-color: var(--main-focus-border-color)  !important; 
-   border-style: solid !important;
-   margin: var(--main-focus-border-margin) !important;
-   padding: var(--main-focus-border-padding) !important; 
+   border-width: var(--main-focus-border-width) ;
+   border-radius: var(--main-focus-border-radius)  ;
+   border-color: var(--main-focus-border-color)  ; 
+   border-style: solid ;
+   margin: var(--main-focus-border-margin) ;
+   padding: var(--main-focus-border-padding) ; 
    */
-    /*background-color: var(--main-focus-color-bg) !important;*/
+    /*background-color: var(--main-focus-color-bg) ;*/
   }
   
   .qx-aum.qx-aum-blob-viewer .qx-blob-content {
     /*
-   border-width: var(--main-focus-border-width) !important;
-   border-radius: var(--main-focus-border-radius)  !important;
-   border-color: var(--main-focus-border-color)  !important; 
-   border-style: solid !important;
+   border-width: var(--main-focus-border-width) ;
+   border-radius: var(--main-focus-border-radius)  ;
+   border-color: var(--main-focus-border-color)  ; 
+   border-style: solid ;
    */
-    margin: var(--main-focus-border-margin) !important;
-    margin: 0px !important;
-    padding: 0px !important;
-    /* padding: var(--main-focus-border-padding) !important; */
-    background-color: var(--main-focus-color-bg) !important;
+    margin: var(--main-focus-border-margin) ;
+    margin: 0px ;
+    padding: 0px ;
+    /* padding: var(--main-focus-border-padding) ; */
+    background-color: var(--main-focus-color-bg) ;
   }
   
   .qx-blob-content>#document {
-    font: var(--qx-textfield-font) !important;
-    color: red !important;
+    font: var(--qx-textfield-font) ;
+    color: red ;
   }
   
   
@@ -904,45 +904,45 @@
   
   
   /*
-  .qx-aum-radio-group.qx-inactive.qx-disabled.qx-readonly .qx-aum-radio .qx-text-with-icon .qx-text,
+  .qx-aum-radio-group.qx-inactive.qx-disabled.qx-readonly .qx-aum-radio.qx-aum-abstract-field .qx-text,
   .qx-aum-check-box .qx-text,
-  .qx-aum-check-box .qx-text-with-icon .qx-text,
+  .qx-aum-check-box.qx-aum-abstract-field .qx-text,
   .qx-aum-check-box 
   {
-   color: var(--data-widget-label-disabled-color-fg)  !important;
-   font: var(--qx-data-widget-label-font) !important;  
+   color: var(--data-widget-label-disabled-color-fg)  ;
+   font: var(--qx-data-widget-label-font) ;  
   }
   
   */
   
-  .qx-aum-radio-group .qx-aum-radio .qx-text-with-icon .qx-text {
-    color: var(--rb-disabled-color-fg) !important;
-    font: var(--rb-font) !important;
+  .qx-aum-radio-group .qx-aum-radio.qx-aum-abstract-field .qx-text {
+    color: var(--rb-disabled-color-fg) ;
+    font: var(--rb-font) ;
   }
   
   .qx-aum-radio-group {
-    background-color: var(--rb-disabled-color-bg) !important;
+    background-color: var(--rb-disabled-color-bg) ;
   }
   
   .qx-aum-radio-group .qx-aum-radio {
-    background-color: var(--rb-disabled-color-bg) !important;
+    background-color: var(--rb-disabled-color-bg) ;
   }
   .qx-aum-radio-group .qx-aum-radio .qx-text-with-icon {
-    color: var(--rb-disabled-color-fg) !important;
-    background-color: var(--rb-disabled-color-bg) !important;
-    font: var(--rb-font) !important;
+    color: var(--rb-disabled-color-fg) ;
+    background-color: var(--rb-disabled-color-bg) ;
+    font: var(--rb-font) ;
   }
-  .qx-bool-widget.qx-aum-radio .qx-text-with-icon .qx-text {
-    color: var(--rb-disabled-color-fg) !important;
-    background-color: transparent !important;
-    /*var(--rb-disabled-color-bg) !important;*/
+  .qx-bool-widget.qx-aum-radio.qx-aum-abstract-field .qx-text {
+    color: var(--rb-disabled-color-fg) ;
+    background-color: transparent ;
+    /*var(--rb-disabled-color-bg) ;*/
     
-    font: var(--rb-font) !important;
+    font: var(--rb-font) ;
   }
   .qx-aum-radio-group.qx-aum.qx-aum-abstract-field {
-    color: var(--rb-disabled-color-fg) !important;
-    background-color: var(--rb-disabled-color-bg) !important;
-    background-image: none !important;
+    color: var(--rb-disabled-color-fg) ;
+    background-color: var(--rb-disabled-color-bg) ;
+    background-image: none ;
     padding-left: 0.5rem;
   }
   
@@ -951,9 +951,9 @@
   Radio Group / Button
   ######################################################################################################
   */
-  .qx-aum-radio-group .qx-text-with-icon .qx-text {
-    color: var(--rb-disabled-color-fg) !important;
-    background-color: var(--rb-disabled-color-bg) !important;
+  .qx-aum-radio-group.qx-aum-abstract-field .qx-text {
+    color: var(--rb-disabled-color-fg) ;
+    background-color: var(--rb-disabled-color-bg) ;
   }
   
   /* #########################*/
@@ -964,13 +964,13 @@
   .qx-aum-radio-group
   /*,.qx-aum-radio.qx-aum-abstract-component*/
   {
-    background-color: var(--rb-disabled-border-color) !important;
-    border-width: var(--main-disabled-border-width) !important;
-    border-radius: var(--main-disabled-border-radius) !important;
-    border-color: transparent !important;
-    border-style: solid !important;
-    margin: var(--main-disabled-border-margin) !important;
-    padding: var(--main-disabled-border-padding) !important;
+    background-color: var(--rb-disabled-border-color) ;
+    border-width: var(--main-disabled-border-width) ;
+    border-radius: var(--main-disabled-border-radius) ;
+    border-color: transparent ;
+    border-style: solid ;
+    margin: var(--main-disabled-border-margin) ;
+    padding: var(--main-disabled-border-padding) ;
   }
   
   /* ##################################*/
@@ -979,40 +979,40 @@
   
   /* ##################################*/
   .qx-aum-radio-group {
-    background-color: var(--rb-disabled-color-bg) !important;
-    border-style: solid !important;
-    border: none !important;
-    margin: var(--main-disabled-border-margin) !important;
-    padding: var(--main-disabled-border-padding) !important;
+    background-color: var(--rb-disabled-color-bg) ;
+    border-style: solid ;
+    border: none ;
+    margin: var(--main-disabled-border-margin) ;
+    padding: var(--main-disabled-border-padding) ;
   }
   
   /*container for one radiobutton*/
   .qx-aum-radio-group .qx-aum-radio {
-    border: none !important;
-    margin: 0px !important;
-    padding-left: 2px !important;
-    padding-right: 2px !important;
-    padding-top: 1px !important;
-    padding-bottom: 1px !important;
+    border: none ;
+    margin: 0px ;
+    padding-left: 2px ;
+    padding-right: 2px ;
+    padding-top: 1px ;
+    padding-bottom: 1px ;
   }
   
   /*image*/
   .qx-aum-radio-group .qx-aum-radio .qx-text-with-icon {
-    color: var(--rb-disabled-color-fg) !important;
-    background-color: transparent !important;
-    /*var(--rb-disabled-color-bg) !important;*/
+    color: var(--rb-disabled-color-fg) ;
+    background-color: transparent ;
+    /*var(--rb-disabled-color-bg) ;*/
     
-    border: none !important;
-    margin-left: var(--main-disabled-border-margin) !important;
+    border: none ;
+    margin-left: var(--main-disabled-border-margin) ;
   }
   
   /*text label */
-  .qx-aum-radio-group .qx-aum-radio .qx-text-with-icon .qx-text {
+  .qx-aum-radio-group .qx-aum-radio.qx-aum-abstract-field .qx-text {
     font: var(--rb-font);
-    color: var(--rb-disabled-color-fg) !important;
-    border: none !important;
-    margin: 0px !important;
-    padding: 0px !important;
+    color: var(--rb-disabled-color-fg) ;
+    border: none ;
+    margin: 0px ;
+    padding: 0px ;
   }
   
   /* ##########################################################*/
@@ -1021,12 +1021,12 @@
   
   /* ##########################################################*/
   .qx-table-cell.qx-c-activefield.qx-content .qx-aum-radio-group {
-    margin: 0px !important;
-    vertical-align: center !important;
+    margin: 0px ;
+    vertical-align: center ;
   }
   .qx-table-cell.qx-c-activefield.qx-content .qx-aum-radio-group .qx-bool-widget.qx-aum-radio.qx-active {
-    margin: 0px !important;
-    height: 2rem !important;
+    margin: 0px ;
+    height: 2rem ;
   }
   
   /* ##################################*/
@@ -1035,15 +1035,15 @@
   
   /* ##################################*/
   .qx-aum-radio-group.qx-active.qx-c-activefield.qx-not-readonly {
-    color: var(--rb-enabled-color-fg) !important;
-    background-color: var(--rb-enabled-color-fg) !important;
-    border-color: var(--rb-enabled-border-color) !important;
-    /*border-color: transparent  !important; */
+    color: var(--rb-enabled-color-fg) ;
+    background-color: var(--rb-enabled-color-fg) ;
+    border-color: var(--rb-enabled-border-color) ;
+    /*border-color: transparent  ; */
     
-    border-width: var(--main-enabled-border-width) !important;
-    border-radius: var(--main-enabled-border-radius) !important;
-    background-color: var(--main-enabled-color-bg) !important;
-    border-style: solid !important;
+    border-width: var(--main-enabled-border-width) ;
+    border-radius: var(--main-enabled-border-radius) ;
+    background-color: var(--main-enabled-color-bg) ;
+    border-style: solid ;
     margin: var(--main-enabled-border-margin);
     padding: var(--main-enabled-border-padding);
   }
@@ -1054,14 +1054,14 @@
   
   /* ##################################*/
   .qx-aum-radio-group.qx-focused.qx-has-focus.qx-not-readonly {
-    color: var(--rb-focus-color-fg) !important;
-    background-color: var(--rb-focus-color-bg) !important;
-    border-color: var(--rb-focus-border-color) !important;
-    border-width: var(--main-focus-border-width) !important;
-    border-radius: var(--main-focus-border-radius) !important;
-    border-style: solid !important;
-    margin: var(--main-focus-border-margin) !important;
-    padding: var(--main-focus-border-padding) !important;
+    color: var(--rb-focus-color-fg) ;
+    background-color: var(--rb-focus-color-bg) ;
+    border-color: var(--rb-focus-border-color) ;
+    border-width: var(--main-focus-border-width) ;
+    border-radius: var(--main-focus-border-radius) ;
+    border-style: solid ;
+    margin: var(--main-focus-border-margin) ;
+    padding: var(--main-focus-border-padding) ;
   }
   
   /* ##################################*/
@@ -1070,12 +1070,12 @@
   
   /* ##################################*/
   .qx-aum-radio-group.qx-focusable-field.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly:hover {
-    color: var(--rb-hover-color-fg) !important;
-    background-color: var(--rb-hover-color-bg) !important;
-    border-color: var(--rb-hover-border-color) !important;
-    border-width: var(--main-hover-border-width) !important;
-    border-radius: var(--main-hover-border-radius) !important;
-    border-style: solid !important;
+    color: var(--rb-hover-color-fg) ;
+    background-color: var(--rb-hover-color-bg) ;
+    border-color: var(--rb-hover-border-color) ;
+    border-width: var(--main-hover-border-width) ;
+    border-radius: var(--main-hover-border-radius) ;
+    border-style: solid ;
     margin: var(--main-hover-border-margin);
     padding: var(--main-hover-border-padding);
   }
@@ -1109,11 +1109,11 @@
   /* #########################*/
   
   /*.qx-aum-radio-button *,*/
-  .qx-aum-spinner .qx-clickable .qx-text-with-icon .qx-text,
-  .qx-aum-spinner .qx-text-with-icon .qx-text,
+  .qx-aum-spinner .qx-clickable.qx-aum-abstract-field .qx-text,
+  .qx-aum-spinner.qx-aum-abstract-field .qx-text,
   .qx-aum-spinner * {
     font: var(--chb-font);
-    background-color: var(--chb-disabled-color-bg) !important;
+    background-color: var(--chb-disabled-color-bg) ;
     color: var(--chb-disabled-color-fg);
   }
   
@@ -1123,21 +1123,21 @@
   
   /* ########################*/
   .qx-aum-spinner {
-    background-color: var(--sp-disabled-color-bg) !important;
-    border-bottom-color: var(--sp-disabled-border-color) !important;
-    border-left-color: transparent !important;
-    border-top-color: transparent !important;
-    border-right-color: transparent !important;
-    border-width: var(--main-disabled-border-width) !important;
-    border-radius: var(--main-disabled-border-radius) !important;
-    border-style: solid !important;
-    margin: var(--main-disabled-border-margin) !important;
-    padding: var(--main-disabled-border-padding) !important;
+    background-color: var(--sp-disabled-color-bg) ;
+    border-bottom-color: var(--sp-disabled-border-color) ;
+    border-left-color: transparent ;
+    border-top-color: transparent ;
+    border-right-color: transparent ;
+    border-width: var(--main-disabled-border-width) ;
+    border-radius: var(--main-disabled-border-radius) ;
+    border-style: solid ;
+    margin: var(--main-disabled-border-margin) ;
+    padding: var(--main-disabled-border-padding) ;
   }
   
   /* hide border of inner textField */
   .qx-aum-spinner .qx-text.ui-spinner-input {
-    border: none !important;
+    border: none ;
   }
   
   /* Hide buttons on inactive fields */
@@ -1146,16 +1146,16 @@
   }
   .qx-aum-spinner.qx-has-focus,
   .qx-aum-spinner.qx-has-focus .qx-text {
-    background: none !important;
-    background-image: none !important;
-    background-position-x: initial !important;
-    background-position-y: initial !important;
-    background-size: initial !important;
-    background-repeat: initial !important;
-    background-attachment: initial !important;
-    background-origin: initial !important;
-    background-clip: initial !important;
-    background-color: transparent !important;
+    background: none ;
+    background-image: none ;
+    background-position-x: initial ;
+    background-position-y: initial ;
+    background-size: initial ;
+    background-repeat: initial ;
+    background-attachment: initial ;
+    background-origin: initial ;
+    background-clip: initial ;
+    background-color: transparent ;
   }
   
   /* ########################*/
@@ -1164,11 +1164,11 @@
   
   /* ########################*/
   .qx-aum-spinner.qx-active.qx-c-activefield.qx-not-readonly {
-    background-color: var(--sp-enabled-color-bg) !important;
-    border-color: var(--sp-enabled-border-color) !important;
-    border-width: var(--main-enabled-border-width) !important;
-    border-radius: var(--main-enabled-border-radius) !important;
-    border-style: solid !important;
+    background-color: var(--sp-enabled-color-bg) ;
+    border-color: var(--sp-enabled-border-color) ;
+    border-width: var(--main-enabled-border-width) ;
+    border-radius: var(--main-enabled-border-radius) ;
+    border-style: solid ;
     margin: var(--main-enabled-border-margin);
     padding: var(--main-enabled-border-padding);
   }
@@ -1181,13 +1181,13 @@
   .qx-aum-spinner.qx-focused
   /*.qx-aum-spinner.qx-active.ui-state-active.qx-c-activefield.qx-focusable-field.qx-enabled.qx-not-readonly.qx-focused.ui-state-focus.qx-has-focus*/
   {
-    background-color: var(--sp-focus-color-bg) !important;
-    border-color: var(--sp-focus-border-color) !important;
-    border-width: var(--main-focus-border-width) !important;
-    border-radius: var(--main-focus-border-radius) !important;
-    border-style: solid !important;
-    margin: var(--main-focus-border-margin) !important;
-    padding: var(--main-focus-border-padding) !important;
+    background-color: var(--sp-focus-color-bg) ;
+    border-color: var(--sp-focus-border-color) ;
+    border-width: var(--main-focus-border-width) ;
+    border-radius: var(--main-focus-border-radius) ;
+    border-style: solid ;
+    margin: var(--main-focus-border-margin) ;
+    padding: var(--main-focus-border-padding) ;
   }
   
   /* ########################*/
@@ -1196,11 +1196,11 @@
   
   /* ########################*/
   .qx-aum-spinner.qx-active.qx-c-activefield.qx-not-readonly:hover {
-    background-color: var(--sp-hover-color-bg) !important;
-    border-color: var(--sp-hover-border-color) !important;
-    border-width: var(--main-hover-border-width) !important;
-    border-radius: var(--main-hover-border-radius) !important;
-    border-style: solid !important;
+    background-color: var(--sp-hover-color-bg) ;
+    border-color: var(--sp-hover-border-color) ;
+    border-width: var(--main-hover-border-width) ;
+    border-radius: var(--main-hover-border-radius) ;
+    border-style: solid ;
     margin: var(--main-hover-border-margin);
     padding: var(--main-hover-border-padding);
   }
@@ -1248,8 +1248,8 @@
     /*display: block;*/
     
     align-self: center;
-    text-align: center !important;
-    vertical-align: middle !important;
+    text-align: center ;
+    vertical-align: middle ;
     content: url(/public/querix/icon/svg/24/ic_sub_dialog_24px.svg);
   }
   
@@ -1260,8 +1260,8 @@
   /*
   .qx-text.qx-focus-target
   {
-   background: none !important;
-   background-color: transparent !important;
+   background: none ;
+   background-color: transparent ;
   
   }
   */
@@ -1275,26 +1275,26 @@
   /* This needs to be done because this legacy functionField widget is a functionField with nested textField and button *
   /*Generally, one should NOT use any functionField anymore.. would save a lot of CSS code */
   .qx-aum-function-field-abs {
-    background-color: var(--ff-disabled-color-bg) !important;
-    border-width: var(--main-disabled-border-width) !important;
-    border-radius: var(--main-disabled-border-radius) !important;
-    border-left-color: transparent !important;
-    border-top-color: transparent !important;
-    border-right-color: transparent !important;
-    border-bottom-color: var(--ff-disabled-border-color) !important;
-    border-style: solid !important;
-    margin: var(--main-disabled-border-margin) !important;
-    padding: var(--main-disabled-border-padding) !important;
+    background-color: var(--ff-disabled-color-bg) ;
+    border-width: var(--main-disabled-border-width) ;
+    border-radius: var(--main-disabled-border-radius) ;
+    border-left-color: transparent ;
+    border-top-color: transparent ;
+    border-right-color: transparent ;
+    border-bottom-color: var(--ff-disabled-border-color) ;
+    border-style: solid ;
+    margin: var(--main-disabled-border-margin) ;
+    padding: var(--main-disabled-border-padding) ;
   }
   
   /* inner textField container*/
   .qx-aum-function-field-abs .qx-ff-text .qx-aum-text-field .qx-text {
-    margin: 0px !important;
-    padding: 0px !important;
+    margin: 0px ;
+    padding: 0px ;
     border-style: hidden;
-    border: none !important;
-    border-color: transparent !important;
-    border-image-width: 0px !important;
+    border: none ;
+    border-color: transparent ;
+    border-image-width: 0px ;
     vertical-align: center;
   }
   
@@ -1306,11 +1306,11 @@
   
   /*elements enabled with border */
   .qx-active.qx-c-activefield.qx-aum-function-field-abs.qx-not-readonly {
-    background-color: var(--ff-enabled-color-bg) !important;
-    border-color: var(--ff-enabled-border-color) !important;
-    border-width: var(--main-enabled-border-width) !important;
-    border-radius: var(--main-enabled-border-radius) !important;
-    border-style: solid !important;
+    background-color: var(--ff-enabled-color-bg) ;
+    border-color: var(--ff-enabled-border-color) ;
+    border-width: var(--main-enabled-border-width) ;
+    border-radius: var(--main-enabled-border-radius) ;
+    border-style: solid ;
     margin: var(--main-enabled-border-margin);
     padding: var(--main-enabled-border-padding);
   }
@@ -1321,11 +1321,11 @@
   
   /* ##########################################################*/
   .qx-table-cell.qx-c-activefield.qx-content .qx-aum-function-field-abs {
-    margin: 0 !important;
+    margin: 0 ;
   }
   .qx-table-cell.qx-c-activefield.qx-content .qx-aum-function-field-abs .qx-ff-text.qx-focus-element {
-    margin: 0px !important;
-    vertical-align: center !important;
+    margin: 0px ;
+    vertical-align: center ;
   }
   
   /* ########################*/
@@ -1334,28 +1334,28 @@
   
   /* ########################*/
   .qx-focused.qx-has-focus.qx-aum-function-field-abs.qx-active.qx-not-readonly {
-    background-color: var(--ff-focus-color-bg) !important;
-    border-color: var(--ff-focus-border-color) !important;
-    border-width: var(--main-focus-border-width) !important;
-    border-radius: var(--main-focus-border-radius) !important;
-    border-style: solid !important;
-    margin: var(--main-focus-border-margin) !important;
-    padding: var(--main-focus-border-padding) !important;
+    background-color: var(--ff-focus-color-bg) ;
+    border-color: var(--ff-focus-border-color) ;
+    border-width: var(--main-focus-border-width) ;
+    border-radius: var(--main-focus-border-radius) ;
+    border-style: solid ;
+    margin: var(--main-focus-border-margin) ;
+    padding: var(--main-focus-border-padding) ;
   }
   
   /*focus on child inner textField*/
   .qx-aum-function-field-abs.qx-has-focus .qx-ff-text,
   .qx-aum-function-field-abs.qx-has-focus .qx-ff-text * {
-    background: none !important;
-    background-image: none !important;
-    background-position-x: initial !important;
-    background-position-y: initial !important;
-    background-size: initial !important;
-    background-repeat: initial !important;
-    background-attachment: initial !important;
-    background-origin: initial !important;
-    background-clip: initial !important;
-    background-color: transparent !important;
+    background: none ;
+    background-image: none ;
+    background-position-x: initial ;
+    background-position-y: initial ;
+    background-size: initial ;
+    background-repeat: initial ;
+    background-attachment: initial ;
+    background-origin: initial ;
+    background-clip: initial ;
+    background-color: transparent ;
   }
   
   /* ########################*/
@@ -1364,11 +1364,11 @@
   
   /* ########################*/
   .qx-aum-function-field-abs.qx-active.qx-not-readonly:hover {
-    background-color: var(--ff-hover-color-bg) !important;
-    border-color: var(--ff-hover-border-color) !important;
-    border-width: var(--main-hover-border-width) !important;
-    border-style: solid !important;
-    border-radius: var(--main-hover-border-radius) !important;
+    background-color: var(--ff-hover-color-bg) ;
+    border-color: var(--ff-hover-border-color) ;
+    border-width: var(--main-hover-border-width) ;
+    border-style: solid ;
+    border-radius: var(--main-hover-border-radius) ;
     margin: var(--main-hover-border-margin);
     padding: var(--main-hover-border-padding);
   }
@@ -1403,28 +1403,28 @@
   
   /* #################*/
   .qx-aum-time-edit-field {
-    background-color: var(--main-disabled-color-bg) !important;
-    border-width: var(--main-disabled-border-width) !important;
-    border-radius: var(--main-disabled-border-radius) !important;
-    border-left-color: transparent !important;
-    border-top-color: transparent !important;
-    border-right-color: transparent !important;
-    border-bottom-color: var(--te-disabled-border-color) !important;
-    border-style: solid !important;
-    margin: var(--main-disabled-border-margin) !important;
-    padding: var(--main-disabled-border-padding) !important;
+    background-color: var(--main-disabled-color-bg) ;
+    border-width: var(--main-disabled-border-width) ;
+    border-radius: var(--main-disabled-border-radius) ;
+    border-left-color: transparent ;
+    border-top-color: transparent ;
+    border-right-color: transparent ;
+    border-bottom-color: var(--te-disabled-border-color) ;
+    border-style: solid ;
+    margin: var(--main-disabled-border-margin) ;
+    padding: var(--main-disabled-border-padding) ;
   }
   .qx-aum-time-edit-field .timepicker.qx-text {
     color: var(--te-text-disabled-color-fg);
-    border-style: hidden !important;
+    border-style: hidden ;
     margin: 0px;
     padding: 0px;
   }
   
   /* START  Hide any background formating done by jQuery */
   .qx-aum-time-edit-field .qx-text.qx-focus-target {
-    background: none !important;
-    background-color: transparent !important;
+    background: none ;
+    background-color: transparent ;
   }
   
   /* ####################*/
@@ -1433,17 +1433,17 @@
   
   /* ####################*/
   .qx-aum-time-edit-field.qx-active.qx-not-readonly {
-    background-color: var(--te-text-enabled-color-bg) !important;
-    border-width: var(--main-enabled-border-width) !important;
-    border-radius: var(--main-enabled-border-radius) !important;
-    border-color: var(--te-enabled-border-color) !important;
-    border-style: solid !important;
+    background-color: var(--te-text-enabled-color-bg) ;
+    border-width: var(--main-enabled-border-width) ;
+    border-radius: var(--main-enabled-border-radius) ;
+    border-color: var(--te-enabled-border-color) ;
+    border-style: solid ;
     margin: var(--main-enabled-border-margin);
     padding: var(--main-enabled-border-padding);
   }
   .qx-aum-time-edit-field.qx-active.qx-not-readonly .timepicker.qx-text {
     color: var(--te-text-enabled-color-fg);
-    border-style: hidden !important;
+    border-style: hidden ;
     margin: 0px;
     padding: 0px;
   }
@@ -1454,13 +1454,13 @@
   
   /* ####################*/
   .qx-aum-time-edit-field.qx-focused {
-    background-color: var(--te-text-focus-color-bg) !important;
-    border-width: var(--main-focus-border-width) !important;
-    border-radius: var(--main-focus-border-radius) !important;
-    border-color: var(--te-focus-border-color) !important;
-    border-style: solid !important;
-    margin: var(--main-focus-border-margin) !important;
-    padding: var(--main-focus-border-padding) !important;
+    background-color: var(--te-text-focus-color-bg) ;
+    border-width: var(--main-focus-border-width) ;
+    border-radius: var(--main-focus-border-radius) ;
+    border-color: var(--te-focus-border-color) ;
+    border-style: solid ;
+    margin: var(--main-focus-border-margin) ;
+    padding: var(--main-focus-border-padding) ;
   }
   .qx-aum-time-edit-field.qx-focused .timepicker.qx-text {
     color: var(--te-text-focus-color-fg);
@@ -1469,16 +1469,16 @@
   /* ------------------------------------------------------ */
   .qx-aum-time-edit-field.qx-has-focus,
   .qx-aum-time-edit-field.qx-has-focus * {
-    background: none !important;
-    background-image: none !important;
-    background-position-x: initial !important;
-    background-position-y: initial !important;
-    background-size: initial !important;
-    background-repeat: initial !important;
-    background-attachment: initial !important;
-    background-origin: initial !important;
-    background-clip: initial !important;
-    background-color: transparent !important;
+    background: none ;
+    background-image: none ;
+    background-position-x: initial ;
+    background-position-y: initial ;
+    background-size: initial ;
+    background-repeat: initial ;
+    background-attachment: initial ;
+    background-origin: initial ;
+    background-clip: initial ;
+    background-color: transparent ;
   }
   
   /* ##################*/
@@ -1487,11 +1487,11 @@
   
   /* ##################*/
   .qx-aum-time-edit-field.qx-active.qx-enabled.qx-not-readonly:hover {
-    background-color: var(--te-text-hover-color-bg) !important;
-    border-width: var(--main-hover-border-width) !important;
-    border-radius: var(--main-hover-border-radius) !important;
-    border-color: var(--te-hover-border-color) !important;
-    border-style: solid !important;
+    background-color: var(--te-text-hover-color-bg) ;
+    border-width: var(--main-hover-border-width) ;
+    border-radius: var(--main-hover-border-radius) ;
+    border-color: var(--te-hover-border-color) ;
+    border-style: solid ;
     margin: var(--main-hover-border-margin);
     padding: var(--main-hover-border-padding);
   }
@@ -1530,54 +1530,54 @@
   
   /* Default - Outer container */
   .qx-aum.qx-aum-list-box.qx-aum-abstract-field {
-    margin: 30px !important;
-    padding: 30px !important;
+    margin: 30px ;
+    padding: 30px ;
   }
   .qx-aum.qx-aum-list-box.qx-aum-abstract-field .qx-text.qx-focus-target {
-    margin-left: 1px !important;
-    margin-right: 2px !important;
-    margin-top: 2px !important;
-    margin-bottom: 2px !important;
-    padding-left: 1px !important;
-    padding-right: 2px !important;
-    padding-top: 2px !important;
-    padding-bottom: 2px !important;
+    margin-left: 1px ;
+    margin-right: 2px ;
+    margin-top: 2px ;
+    margin-bottom: 2px ;
+    padding-left: 1px ;
+    padding-right: 2px ;
+    padding-top: 2px ;
+    padding-bottom: 2px ;
   }
   .qx-aum.qx-aum-list-box.qx-aum-abstract-field .qx-text.qx-focus-target .qx-option {
-    margin-left: 1px !important;
-    margin-right: 2px !important;
-    margin-top: 2px !important;
-    margin-bottom: 2px !important;
-    padding-left: 1px !important;
-    padding-right: 2px !important;
-    padding-top: 2px !important;
-    padding-bottom: 2px !important;
+    margin-left: 1px ;
+    margin-right: 2px ;
+    margin-top: 2px ;
+    margin-bottom: 2px ;
+    padding-left: 1px ;
+    padding-right: 2px ;
+    padding-top: 2px ;
+    padding-bottom: 2px ;
   }
   
   /* --------------------------------------------------------------*/
   .qx-aum-list-box {
-    font: var(--qx-listfield-font) !important;
-    background-color: var(--lbox-disabled-color-bg) !important;
-    border-color: var(--lbox-disabled-border-color) !important;
-    border-width: var(--main-disabled-border-width) !important;
-    border-radius: var(--main-disabled-border-radius) !important;
-    border-style: solid !important;
-    margin: 30px !important;
-    /*var(--main-disabled-border-margin) !important;*/
-    padding: var(--main-disabled-border-padding) !important;
+    font: var(--qx-listfield-font) ;
+    background-color: var(--lbox-disabled-color-bg) ;
+    border-color: var(--lbox-disabled-border-color) ;
+    border-width: var(--main-disabled-border-width) ;
+    border-radius: var(--main-disabled-border-radius) ;
+    border-style: solid ;
+    margin: 30px ;
+    /*var(--main-disabled-border-margin) ;*/
+    padding: var(--main-disabled-border-padding) ;
   }
   
   /* listbox - pseudo container */
   .qx-aum-list-box,
   .qx-aum-list-box.qx-aum-abstract-field.ui-state-disabled.qx-disabled.qx-readonly {
-    font: var(--qx-listfield-font) !important;
-    background-color: var(--lbox-disabled-color-bg) !important;
-    border-color: var(--lbox-disabled-border-color) !important;
-    border-width: var(--main-disabled-border-width) !important;
-    border-radius: var(--main-disabled-border-radius) !important;
-    border-style: solid !important;
-    margin: var(--main-disabled-border-margin) !important;
-    padding: var(--main-disabled-border-padding) !important;
+    font: var(--qx-listfield-font) ;
+    background-color: var(--lbox-disabled-color-bg) ;
+    border-color: var(--lbox-disabled-border-color) ;
+    border-width: var(--main-disabled-border-width) ;
+    border-radius: var(--main-disabled-border-radius) ;
+    border-style: solid ;
+    margin: var(--main-disabled-border-margin) ;
+    padding: var(--main-disabled-border-padding) ;
   }
   
   /* list item - container*/
@@ -1591,9 +1591,9 @@
   /* qx-aum-list-box.qx-inactive.qx-disabled .qx-text.qx-focus-target .qx-option */
   .qx-aum-list-box .qx-text.qx-focus-target .qx-option,
   .qx-aum-list-box.qx-aum-abstract-field.ui-state-disabled.qx-disabled.qx-readonly .qx-text.qx-focus-target .qx-option {
-    background:none !important;
-    background-image: none !important;
-    /*    color: var(--lbox-item-disabled-color-fg) !important;
+    background:none ;
+    background-image: none ;
+    /*    color: var(--lbox-item-disabled-color-fg) ;
       background-color: var(--lbox-item-disabled-color-bg);
   */
     border: none;
@@ -1607,13 +1607,13 @@
   
   /* listbox container */
   .qx-aum-list-box.qx-active.qx-c-activefield.qx-not-readonly {
-    background-color: var(--lbox-enabled-color-bg) !important;
-    border-color: var(--lbox-enabled-border-color) !important;
-    border-width: var(--main-enabled-border-width) !important;
-    border-radius: var(--main-enabled-border-radius) !important;
-    border-style: solid !important;
-    margin: var(--main-enabled-border-margin) !important;
-    padding: var(--main-enabled-border-padding) !important;
+    background-color: var(--lbox-enabled-color-bg) ;
+    border-color: var(--lbox-enabled-border-color) ;
+    border-width: var(--main-enabled-border-width) ;
+    border-radius: var(--main-enabled-border-radius) ;
+    border-style: solid ;
+    margin: var(--main-enabled-border-margin) ;
+    padding: var(--main-enabled-border-padding) ;
   }
   
   /* #################*/
@@ -1622,13 +1622,13 @@
   
   /* #################*/
   .qx-focused.qx-has-focus.qx-aum-list-box.qx-active.qx-not-readonly {
-    background-color: var(--lbox-focus-color-bg) !important;
-    border-color: var(--lbox-focus-border-color) !important;
-    border-width: var(--main-focus-border-width) !important;
-    border-radius: var(--main-focus-border-radius) !important;
-    border-style: solid !important;
-    margin: var(--main-focus-border-margin) !important;
-    padding: var(--main-focus-border-padding) !important;
+    background-color: var(--lbox-focus-color-bg) ;
+    border-color: var(--lbox-focus-border-color) ;
+    border-width: var(--main-focus-border-width) ;
+    border-radius: var(--main-focus-border-radius) ;
+    border-style: solid ;
+    margin: var(--main-focus-border-margin) ;
+    padding: var(--main-focus-border-padding) ;
   }
   
   /* #################*/
@@ -1637,13 +1637,13 @@
   
   /* #################*/
   .qx-aum-list-box.qx-active.qx-c-activefield.qx-not-readonly:hover {
-    background-color: var(--lbox-hover-color-bg) !important;
-    border-color: var(--lbox-hover-border-color) !important;
-    border-width: var(--main-hover-border-width) !important;
-    border-radius: var(--main-hover-border-radius) !important;
-    border-style: solid !important;
-    margin: var(--main-hover-border-margin) !important;
-    padding: var(--main-hover-border-padding) !important;
+    background-color: var(--lbox-hover-color-bg) ;
+    border-color: var(--lbox-hover-border-color) ;
+    border-width: var(--main-hover-border-width) ;
+    border-radius: var(--main-hover-border-radius) ;
+    border-style: solid ;
+    margin: var(--main-hover-border-margin) ;
+    padding: var(--main-hover-border-padding) ;
   }
   
   /*##############################################################################################################
@@ -1684,7 +1684,7 @@
   
   /* #################*/
   .qx-aum-button .qx-no-image .qx-text {
-    font: var(--btf-font) !important;
+    font: var(--btf-font) ;
   }
   
   /* #################*/
@@ -1705,20 +1705,20 @@
   /* ########################*/
   .qx-aum-button.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly,
   .qx-aum-button {
-    color: var(--btf-disabled-color-fg) !important;
-    background-color: var(--btf-disabled-color-bg) !important;
-    border-color : var(--btf-disabled-border-color) !important;
-    border-width: var(--main-button-disabled-border-width) !important;
-    border-radius: var(--main-button-disabled-border-radius) !important;
-    border-style: solid !important;
-    margin: var(--main-button-disabled-border-margin) !important;
-    padding: var(--main-button-disabled-border-padding) !important;
+    color: var(--btf-disabled-color-fg) ;
+    background-color: var(--btf-disabled-color-bg) ;
+    border-color : var(--btf-disabled-border-color) ;
+    border-width: var(--main-button-disabled-border-width) ;
+    border-radius: var(--main-button-disabled-border-radius) ;
+    border-style: solid ;
+    margin: var(--main-button-disabled-border-margin) ;
+    padding: var(--main-button-disabled-border-padding) ;
   }
   .qx-aum.qx-aum-button .qx-no-image.ui-button {
-    background-color: transparent !important;
+    background-color: transparent ;
   }
   .qx-aum.qx-aum-button .qx-no-image.ui-button.ui-widget .ui-button-text .qx-text-with-icon {
-    background-color: transparent !important;
+    background-color: transparent ;
   }
   
   /* #########################*/
@@ -1729,20 +1729,20 @@
   /* ########################*/
   .qx-aum-button.qx-active,
   .qx-aum-button {
-    color: var(--btf-enabled-color-fg) !important;
-    background-color: var(--btf-enabled-color-bg) !important;
-    border-color : var(--btf-enabled-border-color) !important;
-    border-width: var(--main-button-enabled-border-width) !important;
-    border-radius: var(--main-button-enabled-border-radius) !important;
-    border-style: solid !important;
-    margin: var(--main-button-enabled-border-margin) !important;
-    padding: var(--main-button-enabled-border-padding) !important;
+    color: var(--btf-enabled-color-fg) ;
+    background-color: var(--btf-enabled-color-bg) ;
+    border-color : var(--btf-enabled-border-color) ;
+    border-width: var(--main-button-enabled-border-width) ;
+    border-radius: var(--main-button-enabled-border-radius) ;
+    border-style: solid ;
+    margin: var(--main-button-enabled-border-margin) ;
+    padding: var(--main-button-enabled-border-padding) ;
   }
   .qx-aum-button.qx-active .qx-no-image.ui-button {
-    background-color: transparent !important;
+    background-color: transparent ;
   }
   .qx-aum.qx-aum-button.qx-active .qx-no-image.ui-button.ui-widget .ui-button-text .qx-text-with-icon {
-    background-color: transparent !important;
+    background-color: transparent ;
   }
   
   /* #########################*/
@@ -1753,14 +1753,14 @@
   /* ########################*/
   .qx-aum-button.qx-focused,
   .qx-aum-button {
-    color: var(--btf-focus-color-fg) !important;
-    background-color: var(--btf-focus-color-bg) !important;
-    border-color : var(--btf-focus-border-color) !important;
-    border-width: var(--main-button-focus-border-width) !important;
-    border-radius: var(--main-button-focus-border-radius) !important;
-    border-style: solid !important;
-    margin: var(--main-button-focus-border-margin) !important;
-    padding: var(--main-button-focus-border-padding) !important;
+    color: var(--btf-focus-color-fg) ;
+    background-color: var(--btf-focus-color-bg) ;
+    border-color : var(--btf-focus-border-color) ;
+    border-width: var(--main-button-focus-border-width) ;
+    border-radius: var(--main-button-focus-border-radius) ;
+    border-style: solid ;
+    margin: var(--main-button-focus-border-margin) ;
+    padding: var(--main-button-focus-border-padding) ;
   }
   
   /* #########################*/
@@ -1771,14 +1771,14 @@
   /* ########################*/
   .qx-aum-button.qx-active:hover,
   .qx-aum-button:hover {
-    color: var(--btf-hover-color-fg) !important;
-    background-color: var(--btf-hover-color-bg) !important;
-    border-color : var(--btf-hover-border-color) !important;
-    border-width: var(--main-button-hover-border-width) !important;
-    border-radius: var(--main-button-hover-border-radius) !important;
-    border-style: solid !important;
-    margin: var(--main-button-hover-border-margin) !important;
-    padding: var(--main-button-hover-border-padding) !important;
+    color: var(--btf-hover-color-fg) ;
+    background-color: var(--btf-hover-color-bg) ;
+    border-color : var(--btf-hover-border-color) ;
+    border-width: var(--main-button-hover-border-width) ;
+    border-radius: var(--main-button-hover-border-radius) ;
+    border-style: solid ;
+    margin: var(--main-button-hover-border-margin) ;
+    padding: var(--main-button-hover-border-padding) ;
   }
   
   /*########################################################*/
@@ -1789,17 +1789,17 @@
   
   /*Any general button*/
   .qx-no-image.ui-button.ui-widget .ui-button-text .qx-text-with-icon {
-    font: var(--qx-widget-button-label-font) !important;
-    color: var(--main-button-on-brbg-color-fg) !important;
-    background-color: var(--main-button-on-brbg-color-bg) !important;
-    border: 1px solid var(--main-button-on-brbg-border-color) !important;
+    font: var(--qx-widget-button-label-font) ;
+    color: var(--main-button-on-brbg-color-fg) ;
+    background-color: var(--main-button-on-brbg-color-bg) ;
+    border: 1px solid var(--main-button-on-brbg-border-color) ;
   }
   
   /* Hover button color changes */
   .qx-no-image.ui-button.ui-widget .ui-button-text .qx-text-with-icon:hover {
-    color: var(--main-button-on-brbg-hover-color-fg) !important;
+    color: var(--main-button-on-brbg-hover-color-fg) ;
     background-color: var(--main-button-on-brbg-hover-color-bg);
-    border: 1px solid var(--main-button-on-brbg-hover-border-color) !important;
+    border: 1px solid var(--main-button-on-brbg-hover-border-color) ;
   }
   
   /*
@@ -1864,7 +1864,29 @@
   }  
 
   .qx-aum-function-field-abs .qx-aum-text-field {
+    border: none !important;
+    background: transparent !important;
+  }
+}
+
+.qx-material-design {
+  .qx-aum-grid-panel > :not(.qx-aum-abstract-container) {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+  }
+
+  .qx-aum-abstract-field:not([data-helper-text]):not(.qx-table-cell) {
+    margin-bottom: 2px;
+  }
+
+  .qx-aum > iframe {
     border: none;
-    background: transparent;
+  }
+
+  .qx-aum-browser,
+  .qx-aum-canvas,
+  .qx-aum-web-component {
+    border: 1px solid rgba(92, 156, 204, .5);
   }
 }

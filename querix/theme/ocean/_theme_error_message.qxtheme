@@ -26,18 +26,6 @@
           </DoStyleAction>
         </StyleSheet>
       </WithPseudoClassFilter>
-      <WithPseudoClassFilter PseudoClassName="Comment">
-        <StyleSheet>
-          <DoStyleAction>
-            <SetProperty>
-              <PropertyPath>
-                <PropertyName>Wrapper</PropertyName>
-              </PropertyPath>
-              <PropertyValue type="Wrapper" Name="popup" Parameter=".qx-focused" />
-            </SetProperty>
-          </DoStyleAction>
-        </StyleSheet>
-      </WithPseudoClassFilter>
     </StyleSheet>
   </ElementFilter>
 </StyleSheet>

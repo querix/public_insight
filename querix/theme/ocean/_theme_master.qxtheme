@@ -16,6 +16,24 @@
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_report.qxtheme"/>
   </DoStyleAction>   
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_element_classname.qxtheme"/>
+  </DoStyleAction>   
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_comboBox_linked_field.qxtheme"/>
+  </DoStyleAction>   
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_container.qxtheme"/>
+  </DoStyleAction>  
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_legacy_hybrid_compat.qxtheme"/>
+  </DoStyleAction>   
+<!--
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_legacy_i4gl_compat.qxtheme"/>
+  </DoStyleAction>    
+-->  
+  
 <!--
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_display_at_redirection.qxtheme"/>

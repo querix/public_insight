@@ -12,7 +12,7 @@
 }
 
 #qx-container-toolbars .qx-scroll-viewport {
-    height: auto !important;
+    height: auto ;
 }
 
 #qx-container-toolbars .qx-scroll-viewport > .qx-content {
@@ -26,5 +26,11 @@
 }
 
 
+.qx-material-design {
+  .qx-aum-menu-group > a > label > img[src*="TIPlus"],
+  .qx-aum-menu-group > a > label > img[src*="TIMinus"] {
+    display: none;
+  }
+}
 
 
