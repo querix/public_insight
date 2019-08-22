@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <ElementIdFilter Identifier="part_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="product.desc_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>
+  <ElementIdFilter Identifier="ware_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="desc_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>
+  <ElementIdFilter Identifier="dept_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="desc_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>
+  <ElementIdFilter Identifier="type_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="type_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>
+
+  <ElementIdFilter Identifier="currency_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="currency.desc_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>    
+
+
+  <ElementIdFilter Identifier="vendor.type_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="vendortype.type_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>
+
+  <ElementIdFilter Identifier="term_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="term.desc_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>  
+
+
+  <ElementIdFilter Identifier="hold_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="hold_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>  
+
+
+  <ElementIdFilter Identifier="tax_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="tax.desc_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>  
+
+
+  <ElementIdFilter Identifier="ware_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="warehouse.desc_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter> 
+ 
+
+  <ElementIdFilter Identifier="usual_ware_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="warehouse.desc_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter> 
+ 
+  <ElementIdFilter Identifier="usual_ware_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="warehouse.desc_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter> 
+
+  <ElementIdFilter Identifier="withhold_tax_ind">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="withhold_tax_ind_desc_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>   
+
+
+  <ElementIdFilter Identifier="tax_vend_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="vendor.name_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>   
+
+
+  <ElementIdFilter Identifier="pay_acct_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="desc_text2" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>   
+
+
+
+
+  <ElementIdFilter Identifier="pay_meth_ind">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="method_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>   
+
+
+  <ElementIdFilter Identifier="waregrp_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="waregrp.name_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>   
+
+  <ElementIdFilter Identifier="sale_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="salesperson.name_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>   
+
+ 
+</StyleSheet>

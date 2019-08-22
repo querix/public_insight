@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <ElementFilter ElementName="Table">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>RowHeight</PropertyName>
+          </PropertyPath>
+          <PropertyValue>33</PropertyValue>
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementFilter>
+  <ElementFilter ElementName="TableColumn">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Margin</PropertyName>
+            <PropertyName>Right</PropertyName>
+          </PropertyPath>
+          <PropertyValue>5</PropertyValue>
+        </SetProperty>
+      </DoStyleAction>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Margin</PropertyName>
+            <PropertyName>Left</PropertyName>
+          </PropertyPath>
+          <PropertyValue>5</PropertyValue>
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementFilter>
+</StyleSheet>

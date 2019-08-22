@@ -1,0 +1,30 @@
+#qx-container-menu .treeview ul.ui-accordion-content {
+    padding: 0px;
+    margin: 0px;
+}
+
+.qx-mdi.qx-menu-type-tree #qx-container-menu {
+   width: 300px;
+}
+
+#qx-container-menu .treeview li {
+    padding: 3px;
+}
+
+#qx-container-toolbars .qx-scroll-viewport {
+    height: auto !important;
+}
+
+#qx-container-toolbars .qx-scroll-viewport > .qx-content {
+    width: 100%;
+    position: relative;
+}
+
+#qx-container-toolbars .qx-scroll-viewport .qx-scroll-target {
+    padding: 2px;
+    height: 50px;
+}
+
+
+
+

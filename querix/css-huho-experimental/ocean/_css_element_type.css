@@ -1,0 +1,1983 @@
+#qx-container-status-bar {
+	display: none;
+}
+
+/* #########################*/
+/* GENERAL - FOR ALL STATES  */
+/* ########################*/
+.qx-aum.qx-aum-abstract-field
+{
+	background: none;
+	background-image: none !important;
+	padding-left: 2px;
+}
+
+/*################################################
+Alignment - in GridPanel Cell -> Vertical-Center Elements
+##################################################*/
+.qx-aum-grid-panel.qx-display-grid > .qx-va-t {
+    -ms-flex-item-align: start;
+    align-self: stretch;
+    -ms-grid-row-align: start;
+    vertical-align: middle;
+}
+
+
+
+
+/*################################################
+Progressbar widget
+##################################################*/
+.qx-aum-progress-bar
+{
+	margin: 2px;
+}
+
+.qx-aum-progress-bar .ui-progressbar.ui-widget.ui-widget-content.ui-corner-all
+{
+	background-color: var(--main-progressbar-color-bg); 
+}
+.qx-aum-progress-bar .ui-progressbar.ui-widget.ui-widget-content.ui-corner-all .ui-progressbar-value
+{
+	background-color: var(--main-progressbar-color-fg);
+}
+
+
+/*################################################
+Scrollbar widget
+##################################################*/
+
+/* ###################### */
+/* DEFAULT / DISABLED     */
+/* ###################### */
+.qx-aum-scroll-bar
+{
+	margin: 0px !important;
+	padding: 0px !important;
+	background-color:  var(--main-scrollbar-color-bg) !important;
+	border-width: 0.5px;	
+	border-color: var(--main-scrollbar-disabled-border-color) !important;	
+}
+
+/* ###################### */
+/* ENABLED / Active       */
+/* ###################### */
+
+.qx-aum-scroll-bar.qx-active.qx-enabled
+{
+	/*margin: 2px !important;*/
+	/*padding: 0px !important;*/
+	background-color:  var(--main-scrollbar-color-bg) !important;
+	border-width: 0.5px;	
+	border-color: var(--main-scrollbar-enabled-border-color) !important;	
+	border-style: solid !important;
+}
+
+
+
+.qx-aum-scroll-bar.qx-horizontal
+{
+	height: 14px !important;	
+}
+
+.qx-aum-scroll-bar.qx-vertical
+{
+
+		width: 14px !important;	
+}
+
+
+.qx-aum-scroll-bar.qx-element-role-input.qx-active.qx-c-activefield
+{
+	background-color:  var(--main-scrollbar-color-bg) !important;
+	border-width: 0.5px;	
+	border-color: var(--main-scrollbar-enabled-border-color) !important;	
+}
+
+.qx-aum-scroll-bar.qx-element-role-input.qx-active.qx-c-activefield:hover
+{
+	background-color:  var(--main-scrollbar-color-bg) !important;
+	border-width: 0.5px;	
+	border-color: var(--main-scrollbar-hover-border-color) !important;	
+}
+
+
+
+
+
+/* vertical */
+.qx-aum-scroll-bar.qx-vertical.qx-element-role-input.qx-active.qx-c-activefield
+{
+}
+/* horizontal */
+.qx-aum-scroll-bar.qx-horizontal.qx-element-role-input.qx-active.qx-c-activefield
+{
+}
+
+/* scrollbar button */
+.qx-aum-scroll-bar.qx-element-role-input.qx-active.qx-c-activefield .qx-scb-up,
+.qx-aum-scroll-bar.qx-element-role-input.qx-active.qx-c-activefield .qx-scb-down
+{
+	background-color: var(--main-scrollbar-button-color-bg) !important;
+}
+
+/*horizontal scrollbar button left */
+.qx-aum-scroll-bar.qx-horizontal.qx-element-role-input.qx-active.qx-c-activefield .qx-scb-up
+{
+}
+
+/*horizontal scrollbar button right */
+.qx-aum-scroll-bar.qx-horizontal.qx-element-role-input.qx-active.qx-c-activefield .qx-scb-down
+{
+}
+
+/*vertical scrollbar button up */
+.qx-aum-scroll-bar.qx-vertical.qx-element-role-input.qx-active.qx-c-activefield .qx-scb-up
+{
+}
+/*vertical scrollbar button down */
+.qx-aum-scroll-bar.qx-vertical.qx-element-role-input.qx-active.qx-c-activefield .qx-scb-down
+{
+}
+.qx-scb-bcell
+{
+}
+.qx-scb-down.ui-button.ui-widget.ui-state-default.ui-button-icon-only
+{
+}
+.ui-button-icon-primary.ui-icon.ui-icon-triangle-1-e
+{
+}
+
+
+
+
+.qx-grid-cell {
+  padding: 1px;
+}
+
+.qx-aum.qx-c-fcls_data_widget {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+
+
+/*
+######################################################################################################
+LABEL Widget Element
+######################################################################################################
+*/
+
+
+
+/*dynamic label - OUTER FRAME*/
+.qx-no-image.qx-aum-label.qx-aum-abstract-text-field.qx-aum-abstract-string-field.not(.qx-c-fcls_columnlabel_rev_cell)
+
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+.qx-no-image.qx-aum-label.qx-aum-abstract-text-field.qx-aum-abstract-string-field
+.qx-text-with-icon.qx-vtal.qx-htal
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+
+.qx-no-image.qx-aum-label.qx-aum-abstract-text-field.qx-aum-abstract-string-field
+.qx-text-with-icon.qx-vtal.qx-htal
+.qx-text
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+
+	color: var(--label-fg-color); 
+}
+
+/* ************************************************/
+/* gridPanel Cell label REVERSED                  */
+/* ************************************************/
+/*FormClass: fcls_columnlabel_rev - selects just the label*/
+.qx-c-fcls_columnlabel_rev.qx-aum-label .qx-text{
+    color: var(--label-rev-color-fg); 
+    background: var(--label-rev-color-bg); 
+    padding-right: var(--main-disabled-border-padding)!important;
+    padding-left: var(--main-disabled-border-padding)!important;
+    padding-top: 2px;
+    padding-bottom: 2px;    
+
+}	
+
+/*FormClass: fcls_columnlabel_rev_cell - selects the entire cell*/
+:not(.ui-widget-content).qx-aum-label.qx-c-fcls_columnlabel_rev_cell{
+    background: var(--label-rev-color-bg) !important; 
+	flex: 1;
+}	
+/* 18.06.2019 */
+/* REVERSED LABEL */
+/* .qx-c-fcls_columnlabel_rev_cell  Form Class  */
+.qx-c-fcls_columnlabel_rev_cell 
+{
+  border-radius: 0px !important;
+}
+
+.qx-c-fcls_columnlabel_rev_cell 
+.qx-text-with-icon
+{
+  border-radius: 0px !important;
+}
+
+.qx-c-fcls_columnlabel_rev_cell 
+.qx-text-with-icon
+.qx-text
+{
+  color: var(--label-rev-color-fg) !important;
+    border-radius: 0px !important;
+}
+
+/* ***************************** */
+
+.qx-c-fcls_columnlabel_rev_cell.qx-aum-label .qx-text-with-icon{
+    font: normal 1rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+    color: var(--label-rev-color-fg) !important; 
+    background:var(--label-rev-color-bg);
+    padding-right: var(--main-disabled-border-padding)!important;
+    padding-left: var(--main-disabled-border-padding)!important;
+    padding-top: 2px;
+    padding-bottom: 2px;    
+
+}	
+
+.qx-c-fcls_columnlabel_rev_cell.qx-aum-label .qx-text{
+    font: normal 1rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+    color: var(--label-rev-color-fg); 
+    background:var(--label-rev-color-bg);
+    padding-right: var(--main-disabled-border-padding)!important;
+    padding-left: var(--main-disabled-border-padding)!important;
+    padding-top: 2px;
+    padding-bottom: 2px;    
+}	
+
+/* Labels which show available key press/information i.e. [F1][F5][F12][Esc] */
+/*FormClass: fcls_key_usage - selects the entire cell*/
+:not(.ui-widget-content).qx-aum-label.qx-c-fcls_key_usage{
+    background:var(--label-rev-color-bg);
+	flex: 1;
+}	
+.qx-c-fcls_key_usage .qx-text{
+    color: var(--label-rev-color-fg);  
+    background: var(--label-rev-color-bg);
+    padding-right: var(--main-disabled-border-padding)!important;
+    padding-left: var(--main-disabled-border-padding)!important;
+    padding-top: 2px;
+    padding-bottom: 2px;    
+}	
+
+
+/*FormClass: fcls_menulabel - used in hand-made 4gl menu's (not the menu statement)*/
+.qx-c-fcls_menulabel .qx-text{
+    color: var(--label-fg-color);
+} 
+
+
+/*dynamic menu label - initial draw .qx-c-fcls_menulabel*/
+.qx-c-fcls_menulabel.qx-aum-label.qx-no-image.qx-has-text.qx-aum.qx-aum-abstract-text-field.qx-inactive {
+	color: var(--label-fg-color); 
+}
+
+/* Text Block of description/information */
+/* FormClass: fcls_font_description */
+.qx-c-fcls_font_description .qx-text-with-icon  .qx-text{
+	color: var(--label-comment-color-fg);
+	font-style: italic;
+}
+
+/* 4 Additional Header Styles to be used in forms */
+/* FormClass: fcls_font_h1, fcls_font_h2, fcls_font_h3, fcls_font_h4 */
+.qx-c-fcls_font_h1 .qx-text-with-icon{
+	font-size: 2rem;
+	font-weight:bold;
+	color: var(--label-fg-color); 
+}
+
+.qx-c-fcls_font_h2 .qx-text-with-icon{
+	font-size: 1.6rem;
+	font-weight:bold;
+	color: var(--label-fg-color); 
+}
+
+.qx-c-fcls_font_h3 .qx-text-with-icon{
+	font-size: 1.2rem;
+	font-weight:bold;
+	color: var(--label-fg-color); 
+}
+
+.qx-c-fcls_font_h4 .qx-text-with-icon{
+	font-size: 1rem;
+	font-weight:bold;
+	color: var(--label-fg-color); 
+}
+/*
+######################################################################################################
+END OF Label Widget Selectors/Classes
+######################################################################################################
+*/
+
+/* ######################################################################################################*/
+
+
+
+
+
+
+
+
+/* #########################*/
+/* DISABLED - NOT IN INPUT -  elements without border, margin, padding.. in disabled state */
+/* ########################*/
+.hasDatepicker.qx-focus-target.qx-text.ui-state-focus
+{
+	 border-style: none !important;
+}
+
+/* #########################*/
+/* DISABLED - element background:yes border: no  */
+/* ########################*/
+.qx-aum-label.qx-aum-abstract-text-field
+{
+ border-width: var(--main-disabled-border-width) !important;	
+ border-radius: var(--main-disabled-border-radius)  !important;
+ border-color:  transparent  !important; 
+ background-color: var(--main-label-color-bg) !important;
+ border-style: solid !important;
+ margin: var(--main-disabled-border-margin);
+ padding: var(--main-disabled-border-padding); 	
+}
+
+
+
+
+/* Hide buttons on inactive fields */
+.qx-aum-combo-box.qx-disabled .ui-button,
+.qx-aum-calendar.qx-disabled .ui-datepicker-trigger
+
+{
+	display: none;
+}	
+
+
+
+/* #########################*/
+/* DISABLED - NOT IN INPUT -  elements WITH FULL BORDER in disabled state */
+/* usually list type elements */
+/* ########################*/
+
+.qx-aum-browser
+{
+ border-width: var(--main-disabled-border-width) !important;	
+ border-radius: var(--main-disabled-border-radius)  !important;
+ border-color: var(--main-disabled-border-color) !important; 
+ background-color: var(--main-disabled-color-bg) !important;
+ border-style: solid !important;
+ margin: var(--main-disabled-border-margin);
+ padding: var(--main-disabled-border-padding); 	
+  	
+}
+
+
+
+/* #########################*/
+/* DISABLED - NOT IN INPUT  */
+/* ########################*/
+.qx-aum-combo-box.qx-inactive.qx-readonly,
+.qx-aum-calendar.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly
+{
+ border-width: var(--main-disabled-border-width) !important;	
+ border-radius: var(--main-disabled-border-radius)  !important;
+ border-left-color: transparent !important;
+ border-top-color: transparent !important;
+ border-right-color: transparent !important;
+ border-bottom-color: var(--main-disabled-border-color) !important; 
+
+ background-color: var(--main-disabled-color-bg) !important;
+ border-style: solid !important;
+ margin: var(--main-disabled-border-margin) !important;
+ padding: var(--main-disabled-border-padding) !important; 	
+}
+
+
+/* ####################*/
+/* ENABLED - in input  */
+/* ####################*/
+
+/*elements enabled without border */
+
+/*elements enabled with border */
+.qx-active.qx-c-activefield.qx-aum-text-field:not(.qx-c-qx-function-text-field), /*real textField widget WITHOUT FunctionField */
+.qx-active.qx-c-activefield.qx-aum-combo-box.qx-not-readonly,
+.qx-active.qx-c-activefield.qx-aum-calendar.qx-not-readonly
+{
+ border-width: var(--main-enabled-border-width) !important;	
+ border-radius: var(--main-enabled-border-radius)  !important;
+ border-color: var(--main-enabled-border-color)  !important;  
+ background-color: var(--main-enabled-color-bg) !important;
+ border-style: solid !important;
+ margin: var(--main-enabled-border-margin);
+ padding: var(--main-enabled-border-padding); 
+}
+
+/* ####################*/
+/* FOCUS - in input    */
+/* ####################*/
+/*.qx-aum-text-field.qx-focused.qx-has-focus.qx-not-readonly.qx-c-activefield:not(.qx-c-qx-function-text-field),*/ /*real textField widget WITHOUT FunctionField */
+.qx-focused.qx-has-focus.qx-aum-combo-box.qx-active.qx-not-readonly,
+.qx-focused.qx-has-focus.qx-aum-calendar.qx-active.qx-not-readonly
+{
+ border-width: var(--main-focus-border-width) !important;
+ border-radius: var(--main-focus-border-radius)  !important;
+ border-color: var(--main-focus-border-color)  !important; 
+ border-style: solid !important;
+ margin: var(--main-focus-border-margin) !important;
+ padding: var(--main-focus-border-padding) !important; 
+ background-color: var(--main-focus-color-bg) !important;
+
+}
+
+/* ------------------------------------------------------ */
+/* START  Hide any background formating done by jQuery */
+.qx-text.qx-focus-target
+{
+ background: none !important;
+ background-color: transparent !important;
+
+}
+.qx-aum-calendar.qx-has-focus, 
+.qx-aum-calendar.qx-has-focus *, 
+.qx-aum-text-field.qx-has-focus, 
+.qx-aum-text-field.qx-has-focus input, 
+.qx-aum-text-area.qx-has-focus, 
+.qx-aum-text-area.qx-has-focus textarea, 
+.qx-aum-combo-box.qx-has-focus 
+{
+    background: none !important;
+    background-image: none !important;
+    background-position-x: initial !important;
+    background-position-y: initial !important;
+    background-size: initial !important;
+    background-repeat-x: initial !important;
+    background-repeat-y: initial !important;
+    background-attachment: initial !important;
+    background-origin: initial !important;
+    background-clip: initial !important;
+    background-color: transparent !important;
+ 
+}
+/* END  Hide any background formating done by jQuery */
+/* ------------------------------------------------------ */
+
+
+
+
+
+
+/* ##################*/
+/* HOVER - in input  */
+/* ##################*/
+/*
+.qx-focused.qx-has-focus.qx-aum-combo-box.qx-active.qx-not-readonly,
+.qx-focused.qx-has-focus.qx-aum-calendar.qx-active.qx-not-readonly,
+*/
+.qx-aum-text-field.qx-focusable-field.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly:not(.qx-c-qx-function-text-field):hover,
+.qx-aum-combo-box.qx-focusable-field.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly:hover,
+.qx-aum-calendar.qx-focusable-field.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly:hover
+{
+ border-width: var(--main-hover-border-width) !important;
+ border-radius: var(--main-hover-border-radius)  !important;
+ border-color: var(--main-hover-border-color)  !important;
+ border-style: solid !important;
+ margin: var(--main-hover-border-margin);
+ padding: var(--main-hover-border-padding);  
+}
+
+.qx-aum-text-field:not(.qx-c-qx-function-text-field)
+{
+	color: red;
+	background-color:pink;
+	margin:20px,
+	padding: 20px;
+
+}
+
+
+.qx-aum-text-field:not(.qx-c-qx-function-text-field):hover
+{
+	color: red;
+	background-color:pink;
+	margin:20px,
+	padding: 20px;
+
+}
+
+/*##############################################################################################################
+# 
+# Checkbox
+#
+##############################################################################################################*/
+/*
+/*
+--cb-font: var(--qx-data-widget-label-font);
+--cb-disabled-color-fg: var(--main-textfield-disabled-color-fg);
+--cb-disabled-color-bg: var(--main-textfield-disabled-color-bg);
+--cb-enabled-color-fg: var(--main-textfield-enabled-color-fg);
+--cb-enabled-color-bg: var(--main-textfield-enabled-color-bg);
+--cb-focus-color-fg: var(--main-textfield-focus-color-fg);
+--cb-focus-color-bg: var(--main-textfield-focus-color-bg);
+--cb-hover-color-fg: var(--main-textfield-hover-color-fg);
+--cb-hover-color-bg: var(--main-textfield-hover-color-bg);
+--cb-disabled-border-color: var(--main-disabled-border-color);
+--cb-enabled-border-color: var(--main-enabled-border-color);
+--cb-focus-border-color: var(--main-focus-border-color);
+--cb-hover-border-color: var(--main-hover-border-color);
+*/
+/* not(.qx-has-title) */
+/* #########################*/
+/* DEFAULT                 */
+/* #########################*/
+/*.qx-aum-radio-button *,*/
+.qx-aum-check-box .qx-clickable .qx-text-with-icon .qx-text,
+
+.XXXXqx-aum-check-box *
+{
+ font: var(--chb-font);
+ background-color: var(--chb-disabled-color-bg) !important;
+ color:  var(--chb-disabled-color-fg);
+
+}
+
+.qx-aum-check-box .qx-text-with-icon .qx-text,
+qx-text-with-icon
+{
+	border-color: transparent !important;
+	outline-color: transparent !important;
+}
+
+
+
+
+.qx-aum-check-box .qx-text,
+.qx-aum-check-box .qx-text-with-icon .qx-text,
+.qx-aum-check-box 
+{
+ color: var(--data-widget-label-disabled-color-fg)  !important;
+ font: var(--qx-data-widget-label-font) !important;  
+}
+
+.qx-aum-check-box.qx-aum.qx-aum-abstract-field{
+ font: var(--chb-font) !important;
+ background-color: var(--chb-disabled-color-bg) !important;
+ color:  var(--chb-disabled-color-fg) !important;
+}
+
+/* #########################*/
+/* DISABLED                 */
+/* #########################*/
+.qx-aum-check-box.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly
+{
+ font: var(--chb-font);
+ background-color: var(--chb-disabled-color-bg) !important;
+color:  var(--chb-disabled-color-fg);
+ border-width: var(--main-disabled-border-width) !important;	
+ border-radius: var(--main-disabled-border-radius)  !important;
+ border-left-color: transparent !important;
+ border-top-color: transparent !important;
+ border-right-color: transparent !important;
+ border-bottom-color: var(--main-disabled-border-color) !important; 
+ border-style: solid !important;
+ margin: var(--main-disabled-border-margin) !important;
+ padding: var(--main-disabled-border-padding) !important; 	
+}
+
+
+
+.qx-aum-check-box.qx-active.qx-not-readonly .qx-text,
+.qx-aum-check-box.qx-active.qx-not-readonly .qx-text-with-icon .qx-text,
+.qx-aum-check-box 
+{
+ color: var(--cb-disabled-color-fg)  !important;
+ /*font: var(--qx-data-widget-label-font) !important;  */
+}
+
+/* #########################*/
+/* ENABLED                  */
+/* #########################*/
+/* ####################*/
+/* ENABLED - in input  */
+/* ####################*/
+
+/*elements enabled without border */
+.qx-aum-check-box.qx-active.qx-c-activefield.qx-not-readonly
+{
+ color: var(--chb-enabled-color-fg);
+ background-color: var(--chb-enabled-color-bg);
+
+ border-color: var(--chb-enabled-border-color)  !important; 
+ border-width: var(--main-enabled-border-width) !important;	
+ border-radius: var(--main-enabled-border-radius)  !important;
+ background-color: var(--main-enabled-color-bg) !important;
+ border-style: solid !important;
+ border-color: transparent  !important; 
+
+ margin: var(--main-enabled-border-margin);
+ padding: var(--main-enabled-border-padding); 
+}
+
+/* #########################*/
+/* FOCUS                  */
+/* #########################*/
+/* ####################*/
+/* FOCUS - in input    */
+/* ####################*/
+.qx-aum-check-box.qx-focused.qx-has-focus.qx-aum.qx-not-readonly
+{
+ color: var(--chb-focus-color-fg);
+ background-color: var(--chb-focus-color-bg) !important;
+
+ border-color: var(--chb-focus-border-color)  !important; 
+ border-width: var(--main-focus-border-width) !important;
+ border-radius: var(--main-focus-border-radius)  !important;
+ border-style: solid !important;
+
+ margin: var(--main-focus-border-margin) !important;
+ padding: var(--main-focus-border-padding) !important; 
+
+}
+
+
+
+.qx-bool-widget.qx-focused label {
+    outline: 0px none;
+    outline-color: transparent;
+}
+
+/* #########################*/
+/* HOVER                  */
+/* #########################*/
+.qx-aum-check-box.qx-focusable-field.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly:hover
+{
+ color: var(--chb-hover-color-fg);
+ background-color: var(--chb-hover-color-bg);
+
+ border-color: var(--cb-hover-border-color)  !important;
+ border-width: var(--main-hover-border-width) !important;
+ border-radius: var(--main-hover-border-radius)  !important;
+ border-style: solid !important;
+
+ margin: var(--main-hover-border-margin);
+ padding: var(--main-hover-border-padding);  
+}
+
+/*##############################################################################################################
+# 
+# TextField 
+#
+##############################################################################################################*/
+/*
+
+/* #########################*/
+/* DEFAULT / DISABLED       */
+/* #########################*/
+.qx-aum-text-field.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly:not(.qx-c-qx-function-text-field) 
+{
+ border-width: var(--main-disabled-border-width) !important;	
+ border-radius: var(--main-disabled-border-radius)  !important;
+ border-left-color: transparent !important;
+ border-top-color: transparent !important;
+ border-right-color: transparent !important;
+ border-bottom-color: var(--main-disabled-border-color) !important; 
+
+ background-color: var(--main-disabled-color-bg) !important;
+ border-style: solid !important;
+ margin: var(--main-disabled-border-margin) !important;
+ padding: var(--main-disabled-border-padding) !important; 
+}
+
+.qx-aum-text-field.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly .qx-text:not(.qx-c-qx-function-text-field)
+{
+ font: var(--tf-font);
+}
+
+
+
+/* ####################*/
+/* FOCUS - in input    */
+/* ####################*/
+.qx-aum-text-field.qx-focused.qx-has-focus.qx-not-readonly.qx-c-activefield:not(.qx-c-qx-function-text-field)
+{
+ border-width: var(--main-focus-border-width) !important;
+ border-radius: var(--main-focus-border-radius)  !important;
+ border-color: var(--main-focus-border-color)  !important; 
+ border-style: solid !important;
+ margin: var(--main-focus-border-margin) !important;
+ padding: var(--main-focus-border-padding) !important; 
+ background-color: var(--main-focus-color-bg) !important;
+
+}
+
+
+/*##############################################################################################################
+# 
+# TextArea 
+#
+##############################################################################################################*/
+
+/* ##################################*/
+/* DEFAULT - TextArea (disabled)     */
+/* ##################################*/
+
+.qx-aum-text-area.qx-text-field.qx-main-cell.qx-aum.qx-aum-abstract-string-field.qx-has-text
+{
+ border-width: var(--main-disabled-border-width) !important;	
+ border-radius: var(--main-disabled-border-radius)  !important;
+ border-color: var(--main-disabled-border-color)  !important;
+ background-color: var(--main-disabled-color-bg) !important;
+ margin: var(--main-disabled-border-margin);
+ padding: var(--main-disabled-border-padding); 
+}
+
+/* ####################*/
+/* ENABLED - in input  */
+/* ####################*/
+
+/*elements enabled without border */
+
+/*elements enabled with border */
+.qx-active.qx-c-activefield.qx-aum-text-area.qx-not-readonly
+{
+ border-width: var(--main-enabled-border-width) !important;	
+ border-radius: var(--main-enabled-border-radius)  !important;
+ border-color: var(--main-enabled-border-color)  !important;  
+ background-color: var(--main-enabled-color-bg) !important;
+ border-style: solid !important;
+ margin: var(--main-enabled-border-margin);
+ padding: var(--main-enabled-border-padding); 
+}
+
+/* ####################*/
+/* FOCUS - in input    */
+/* ####################*/
+.qx-focused.qx-has-focus.qx-aum-text-area.qx-active.qx-not-readonly
+{
+ border-width: var(--main-focus-border-width) !important;
+ border-radius: var(--main-focus-border-radius)  !important;
+ border-color: var(--main-focus-border-color)  !important; 
+ border-style: solid !important;
+ margin: var(--main-focus-border-margin) !important;
+ padding: var(--main-focus-border-padding) !important; 
+ background-color: var(--main-focus-color-bg) !important;
+}
+
+
+/* ##################*/
+/* HOVER - in input  */
+/* ##################*/
+.qx-aum-text-area.qx-focusable-field.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly:hover
+{
+ border-width: var(--main-hover-border-width) !important;
+ border-radius: var(--main-hover-border-radius)  !important;
+ border-color: var(--main-hover-border-color)  !important;
+ border-style: solid !important;
+ margin: var(--main-hover-border-margin);
+ padding: var(--main-hover-border-padding);  
+}
+
+
+
+/*##############################################################################################################
+# 
+# BLOB-Viewer 
+#
+##############################################################################################################*/
+
+/* ##################################*/
+/* DEFAULT - BLOB-Viewer (disabled)     */
+/* ##################################*/
+
+.qx-aum.qx-aum-blob-viewer.qx-active.qx-not-readonly.qx-element-role-input.qx-blob-text.qx-blob-editable.qx-c-activefield
+{
+	margin: 0px !important;
+	padding: 0px !important;
+	/*
+ border-width: var(--main-focus-border-width) !important;
+ border-radius: var(--main-focus-border-radius)  !important;
+ border-color: var(--main-focus-border-color)  !important; 
+ border-style: solid !important;
+ margin: var(--main-focus-border-margin) !important;
+ padding: var(--main-focus-border-padding) !important; 
+ */
+ /*background-color: var(--main-focus-color-bg) !important;*/
+}
+
+.qx-aum.qx-aum-blob-viewer
+.qx-blob-content 
+{
+	/*
+ border-width: var(--main-focus-border-width) !important;
+ border-radius: var(--main-focus-border-radius)  !important;
+ border-color: var(--main-focus-border-color)  !important; 
+ border-style: solid !important;
+ */
+ margin: var(--main-focus-border-margin) !important;
+ margin: 0px !important;
+ padding: 0px !important;
+/* padding: var(--main-focus-border-padding) !important; */
+ background-color: var(--main-focus-color-bg) !important;
+}
+
+.qx-blob-content > #document
+{
+ font: var(--qx-textfield-font) !important;
+ color: red !important;
+}
+
+
+
+/*##############################################################################################################
+# 
+# Radiogroup / Radiobutton 
+#
+##############################################################################################################*/
+/*
+/*
+--rb-font: var(--qx-data-widget-label-font);
+
+--rb-disabled-color-fg: var(--main-textfield-disabled-color-fg);
+--rb-disabled-color-bg: var(--main-textfield-disabled-color-bg);
+--rb-enabled-color-fg: var(--main-textfield-enabled-color-fg);
+--rb-enabled-color-bg: var(--main-textfield-enabled-color-bg);
+
+--rb-focus-color-fg: var(--main-textfield-focus-color-fg);
+--rb-focus-color-bg: var(--main-textfield-focus-color-bg);
+--rb-hover-color-fg: var(--main-textfield-hover-color-fg);
+--rb-hover-color-bg: var(--main-textfield-hover-color-bg);
+
+--rb-disabled-border-color: var(--main-disabled-border-color);
+--rb-enabled-border-color: var(--main-enabled-border-color);
+--rb-focus-border-color: var(--main-focus-border-color);
+--rb-hover-border-color: var(--main-hover-border-color);
+*/
+
+
+/* ##################################*/
+/* DEFAULT - Radiogroup             */
+/* ##################################*/
+
+/* disabled */
+/*
+.qx-aum-radio-group.qx-inactive.qx-disabled.qx-readonly .qx-aum-radio .qx-text-with-icon .qx-text,
+.qx-aum-check-box .qx-text,
+.qx-aum-check-box .qx-text-with-icon .qx-text,
+.qx-aum-check-box 
+{
+ color: var(--data-widget-label-disabled-color-fg)  !important;
+ font: var(--qx-data-widget-label-font) !important;  
+}
+
+*/
+
+.qx-aum-radio-group .qx-aum-radio .qx-text-with-icon .qx-text
+{
+ color: var(--rb-disabled-color-fg)  !important;
+ font: var(--rb-font) !important;
+
+}
+
+
+.qx-aum-radio-group 
+{
+	 background-color: var(--rb-disabled-color-bg) !important;
+}
+}
+.qx-aum-radio-group .qx-aum-radio{
+	 background-color: var(--rb-disabled-color-bg) !important;
+}
+
+.qx-aum-radio-group .qx-aum-radio .qx-text-with-icon
+{
+ color: var(--rb-disabled-color-fg)  !important;
+ background-color: var(--rb-disabled-color-bg) !important;
+ font: var(--rb-font) !important;
+
+}
+
+.qx-bool-widget.qx-aum-radio .qx-text-with-icon .qx-text{
+ color: var(--rb-disabled-color-fg)  !important;
+ background-color: transparent !important; /*var(--rb-disabled-color-bg) !important;*/
+ font: var(--rb-font) !important;	
+}
+
+.qx-aum-radio-group.qx-aum.qx-aum-abstract-field
+{
+ color: var(--rb-disabled-color-fg)  !important;
+ background-color: var(--rb-disabled-color-bg) !important;
+	background-image: none !important;
+	padding-left: 0.5rem;
+}
+
+
+/*
+######################################################################################################
+Radio Group / Button
+######################################################################################################
+*/
+
+.qx-aum-radio-group .qx-text-with-icon .qx-text
+{
+	color: var(--rb-disabled-color-fg)  !important;
+	background-color: var(--rb-disabled-color-bg) !important;	
+}
+/* #########################*/
+/* DISABLED - element background:yes border: no  */
+/* ########################*/
+
+.qx-aum-radio-group
+/*,.qx-aum-radio.qx-aum-abstract-component*/
+
+{
+ background-color: var(--rb-disabled-border-color) !important;
+
+ border-width: var(--main-disabled-border-width) !important;	
+ border-radius: var(--main-disabled-border-radius)  !important;
+ border-color:  transparent  !important; 
+ border-style: solid !important;
+
+ margin: var(--main-disabled-border-margin) !important;
+ padding: var(--main-disabled-border-padding) !important; 	
+}
+
+
+
+
+/* ##################################*/
+/* Radiogroup/Radiobutton Disabled   */
+/* ##################################*/
+.qx-aum-radio-group
+{
+ background-color: var(--rb-disabled-color-bg) !important;
+
+ border-style: solid !important;
+ border: none !important;
+ margin: var(--main-disabled-border-margin) !important;
+ padding: var(--main-disabled-border-padding) !important; 	
+}
+
+/*container for one radiobutton*/
+.qx-aum-radio-group .qx-aum-radio 
+{
+	border: none !important;
+	margin: 0px !important;
+	padding-left: 2px !important;
+	padding-right: 2px !important;
+	padding-top: 1px !important;
+	padding-bottom: 1px !important;			
+}
+
+/*image*/
+.qx-aum-radio-group .qx-aum-radio .qx-text-with-icon
+{
+	color: var(--rb-disabled-color-fg)  !important;
+	background-color: transparent !important; /*var(--rb-disabled-color-bg) !important;*/
+	border: none !important;
+	margin-left: var(--main-disabled-border-margin) !important;
+
+}
+
+/*text label */
+.qx-aum-radio-group .qx-aum-radio .qx-text-with-icon .qx-text
+{
+	 font: var(--rb-font);
+	color: var(--rb-disabled-color-fg) !important;
+	border: none !important;
+	margin: 0px !important;
+	padding: 0px !important;
+
+}
+
+
+/* ##########################################################*/
+/* Radiogroup/Radiobutton ENABLED  in TABLE / DISPLAY ARRAY */
+/* ##########################################################*/
+
+
+.qx-table-cell.qx-c-activefield.qx-content .qx-aum-radio-group
+{
+	margin: 0px !important;
+	vertical-align: center  !important;
+}
+.qx-table-cell.qx-c-activefield.qx-content .qx-aum-radio-group .qx-bool-widget.qx-aum-radio.qx-active
+{
+	margin: 0px !important;
+			height: 2rem !important;
+
+}
+
+
+
+/* ##################################*/
+/* ENABLED - radioGroup   */
+/* ##################################*/
+.qx-aum-radio-group.qx-active.qx-c-activefield.qx-not-readonly
+{
+ color: var(--rb-enabled-color-fg) !important;
+ background-color: var(--rb-enabled-color-fg) !important;
+
+ border-color: var(--rb-enabled-border-color)  !important; 
+ /*border-color: transparent  !important; */
+ border-width: var(--main-enabled-border-width) !important;	
+ border-radius: var(--main-enabled-border-radius)  !important;
+ background-color: var(--main-enabled-color-bg) !important;
+ border-style: solid !important;
+
+ margin: var(--main-enabled-border-margin);
+ padding: var(--main-enabled-border-padding); 
+}
+
+
+/* ##################################*/
+/* FOCUS - radioGroup                */
+/* ##################################*/
+.qx-aum-radio-group.qx-focused.qx-has-focus.qx-not-readonly
+{
+ color: var(--rb-focus-color-fg) !important;
+ background-color: var(--rb-focus-color-bg) !important;
+ border-color: var(--rb-focus-border-color)  !important; 
+
+ border-width: var(--main-focus-border-width) !important;
+ border-radius: var(--main-focus-border-radius)  !important;
+ border-style: solid !important;
+
+ margin: var(--main-focus-border-margin) !important;
+ padding: var(--main-focus-border-padding) !important; 
+
+}
+
+/* ##################################*/
+/* HOVER  - radioGroup               */
+/* ##################################*/
+
+.qx-aum-radio-group.qx-focusable-field.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly:hover
+{
+ color: var(--rb-hover-color-fg) !important;
+ background-color: var(--rb-hover-color-bg) !important;
+ border-color: var(--rb-hover-border-color)  !important;
+
+ border-width: var(--main-hover-border-width) !important;
+ border-radius: var(--main-hover-border-radius)  !important;
+ border-style: solid !important;
+
+ margin: var(--main-hover-border-margin);
+ padding: var(--main-hover-border-padding);  
+}
+
+/*##############################################################################################################
+# 
+# SPINNER 
+#
+##############################################################################################################*/
+/*
+/*
+--sp-disabled-color-fg: var(--main-textfield-disabled-color-fg);
+--sp-disabled-color-bg: var(--main-textfield-disabled-color-bg);
+--sp-enabled-color-fg: var(--main-textfield-enabled-color-fg);
+--sp-enabled-color-bg: var(--main-textfield-enabled-color-bg);
+--sp-focus-color-fg: var(--main-textfield-focus-color-fg);
+--sp-focus-color-bg: var(--main-textfield-focus-color-bg);
+--sp-hover-color-fg: var(--main-textfield-hover-color-fg);
+--sp-hover-color-bg: var(--main-textfield-hover-color-bg);
+--sp-disabled-border-color: var(--main-disabled-border-color);
+--sp-enabled-border-color: var(--main-enabled-border-color);
+--sp-focus-border-color: var(--main-focus-border-color);
+--sp-hover-border-color: var(--main-hover-border-color);
+*/
+
+/* #########################*/
+/* DEFAULT                 */
+/* #########################*/
+/*.qx-aum-radio-button *,*/
+.qx-aum-spinner .qx-clickable .qx-text-with-icon .qx-text,
+.qx-aum-spinner .qx-text-with-icon .qx-text,
+.qx-aum-spinner *
+{
+ font: var(--chb-font);
+ background-color: var(--chb-disabled-color-bg) !important;
+ color:  var(--chb-disabled-color-fg);
+
+}
+
+
+/* ########################*/
+/* SPINNER Disabled        */
+/* ########################*/
+.qx-aum-spinner
+{
+ background-color: var(--sp-disabled-color-bg) !important;
+
+ border-bottom-color: var(--sp-disabled-border-color) !important; 
+ border-left-color: transparent !important;
+ border-top-color: transparent !important;
+ border-right-color: transparent !important;
+ border-width: var(--main-disabled-border-width) !important;	
+ border-radius: var(--main-disabled-border-radius)  !important;
+ border-style: solid !important;
+ 
+ margin: var(--main-disabled-border-margin) !important;
+ padding: var(--main-disabled-border-padding) !important; 	
+}
+
+/* hide border of inner textField */
+.qx-aum-spinner .qx-text.ui-spinner-input
+{
+	border: none !important;
+}
+
+/* Hide buttons on inactive fields */
+.qx-aum-spinner.qx-disabled .ui-button
+{
+	display: none;
+}	
+.qx-aum-spinner.qx-has-focus, 
+.qx-aum-spinner.qx-has-focus .qx-text
+{
+    background: none !important;
+    background-image: none !important;
+    background-position-x: initial !important;
+    background-position-y: initial !important;
+    background-size: initial !important;
+    background-repeat-x: initial !important;
+    background-repeat-y: initial !important;
+    background-attachment: initial !important;
+    background-origin: initial !important;
+    background-clip: initial !important;
+    background-color: transparent !important;
+ 
+}
+
+/* ########################*/
+/* SPINNER Enabled        */
+/* ########################*/
+.qx-aum-spinner.qx-active.qx-c-activefield.qx-not-readonly
+{
+ background-color: var(--sp-enabled-color-bg) !important;
+ border-color: var(--sp-enabled-border-color)  !important;  
+
+ border-width: var(--main-enabled-border-width) !important;	
+ border-radius: var(--main-enabled-border-radius)  !important;
+ border-style: solid !important;
+
+ margin: var(--main-enabled-border-margin);
+ padding: var(--main-enabled-border-padding); 
+}
+
+/* ########################*/
+/* SPINNER Focus        */
+/* ########################*/
+.qx-aum-spinner.qx-focused
+/*.qx-aum-spinner.qx-active.ui-state-active.qx-c-activefield.qx-focusable-field.qx-enabled.qx-not-readonly.qx-focused.ui-state-focus.qx-has-focus*/
+{
+ background-color: var(--sp-focus-color-bg) !important; 
+ border-color: var(--sp-focus-border-color)  !important; 
+ border-width: var(--main-focus-border-width) !important; 
+ border-radius: var(--main-focus-border-radius)  !important;
+ border-style: solid !important;
+ 
+ margin: var(--main-focus-border-margin) !important;
+ padding: var(--main-focus-border-padding) !important; 
+}
+
+/* ########################*/
+/* SPINNER Hover        */
+/* ########################*/
+.qx-aum-spinner.qx-active.qx-c-activefield.qx-not-readonly:hover
+{
+ background-color: var(--sp-hover-color-bg) !important;
+ border-color: var(--sp-hover-border-color)  !important;  
+
+ border-width: var(--main-hover-border-width) !important;	
+ border-radius: var(--main-hover-border-radius)  !important;
+ border-style: solid !important;
+
+ margin: var(--main-hover-border-margin);
+ padding: var(--main-hover-border-padding); 
+}
+
+/*##############################################################################################################
+# 
+# FUNCTIONFIELD 
+#
+##############################################################################################################*/
+/*
+/*
+--ff-disabled-color-fg: var(--main-textfield-disabled-color-fg);
+--ff-disabled-color-bg: var(--main-textfield-disabled-color-bg);
+--ff-enabled-color-fg: var(--main-textfield-enabled-color-fg);
+--ff-enabled-color-bg: var(--main-textfield-enabled-color-bg);
+--ff-focus-color-fg: var(--main-textfield-focus-color-fg);
+--ff-focus-color-bg: var(--main-textfield-focus-color-bg);
+--ff-hover-color-fg: var(--main-textfield-hover-color-fg);
+--ff-hover-color-bg: var(--main-textfield-hover-color-bg);
+--ff-disabled-border-color: var(--main-disabled-border-color);
+--ff-enabled-border-color: var(--main-enabled-border-color);
+--ff-focus-border-color: var(--main-focus-border-color);
+--ff-hover-border-color: var(--main-hover-border-color);
+*/
+
+/* ######################################*/
+/* FunctionField Button                  */
+/* disabled - button event does not exist*/
+/* ######################################*/
+.qx-aum-function-field-abs .qx-aum-button.qx-inactive.qx-disabled
+{
+	display: none;
+}
+/*remove background image from Function Field set by jq*/
+.qx-aum-function-field-abs.qx-c-fcls_image_remove
+{
+	background: none;
+}
+
+
+/* Replace the default icon and center it on the button 12.12.2018 HuHo*/
+.qx-aum-function-field-abs .qx-aum-button .qx-no-image .qx-image
+{
+ /*display: block;*/
+ align-self: center;  
+ text-align: center !important;
+ vertical-align:middle !important;
+ horizontal-align:middle !important;
+ content: url(/public/querix/icon/svg/24/ic_sub_dialog_24px.svg);
+}	
+
+/* ------------------------------------------------------ */
+/* START  Hide any background formating done by jQuery */
+/*
+.qx-text.qx-focus-target
+{
+ background: none !important;
+ background-color: transparent !important;
+
+}
+*/
+
+
+
+
+
+/* ########################*/
+/* FUNCTIONFIELD DISABLED  */
+/* ########################*/
+
+/* This needs to be done because this legacy functionField widget is a functionField with nested textField and button *
+/*Generally, one should NOT use any functionField anymore.. would save a lot of CSS code */
+
+.qx-aum-function-field-abs
+{
+ background-color: var(--ff-disabled-color-bg) !important;
+
+ border-width: var(--main-disabled-border-width) !important;	
+ border-radius: var(--main-disabled-border-radius)  !important;
+ border-left-color: transparent !important;
+ border-top-color: transparent !important;
+ border-right-color: transparent !important;
+ border-bottom-color: var(--ff-disabled-border-color) !important; 
+ border-style: solid !important;
+
+ margin: var(--main-disabled-border-margin) !important;
+ padding: var(--main-disabled-border-padding) !important; 	
+}
+
+/* inner textField container*/
+.qx-aum-function-field-abs .qx-ff-text .qx-aum-text-field .qx-text
+{
+	margin: 0px !important;
+	padding: 0px !important;
+	border-style: hidden;
+	border: none !important;
+	border-color: transparent !important;
+	border-image-width: 0px  !important;
+	vertical-align: center;
+}
+
+/* ########################*/
+/* FUNCTIONFIELD Enabled   */
+/* ########################*/
+/*elements enabled with border */
+.qx-active.qx-c-activefield.qx-aum-function-field-abs.qx-not-readonly
+{
+ background-color: var(--ff-enabled-color-bg) !important;
+
+ border-color: var(--ff-enabled-border-color)  !important;  
+ border-width: var(--main-enabled-border-width) !important;	
+ border-radius: var(--main-enabled-border-radius)  !important;
+ border-style: solid !important;
+
+ margin: var(--main-enabled-border-margin);
+ padding: var(--main-enabled-border-padding); 
+}
+
+
+/* ##########################################################*/
+/* FUNCTIONFIELD ENABLED  in TABLE / DISPLAY ARRAY */
+/* ##########################################################*/
+.qx-table-cell.qx-c-activefield.qx-content .qx-aum-function-field-abs
+{
+	margin: 0 !important;
+
+}
+.qx-table-cell.qx-c-activefield.qx-content .qx-aum-function-field-abs .qx-ff-text.qx-focus-element
+{
+	margin: 0px !important;
+	vertical-align: center  !important;
+}
+}
+
+
+
+/* ########################*/
+/* FUNCTIONFIELD Focused   */
+/* ########################*/
+.qx-focused.qx-has-focus.qx-aum-function-field-abs.qx-active.qx-not-readonly
+{
+ background-color: var(--ff-focus-color-bg) !important;
+
+ border-color: var(--ff-focus-border-color)  !important; 
+ border-width: var(--main-focus-border-width) !important;
+ border-radius: var(--main-focus-border-radius)  !important;
+ border-style: solid !important;
+
+ margin: var(--main-focus-border-margin) !important;
+ padding: var(--main-focus-border-padding) !important; 
+
+}	
+
+/*focus on child inner textField*/
+.qx-aum-function-field-abs.qx-has-focus .qx-ff-text, 
+.qx-aum-function-field-abs.qx-has-focus .qx-ff-text *
+{
+    background: none !important;
+    background-image: none !important;
+    background-position-x: initial !important;
+    background-position-y: initial !important;
+    background-size: initial !important;
+    background-repeat-x: initial !important;
+    background-repeat-y: initial !important;
+    background-attachment: initial !important;
+    background-origin: initial !important;
+    background-clip: initial !important;
+    background-color: transparent !important; 
+}
+
+
+
+/* ########################*/
+/* FUNCTIONFIELD Hover     */
+/* ########################*/
+
+.qx-aum-function-field-abs.qx-active.qx-not-readonly:hover
+{
+ background-color: var(--ff-hover-color-bg) !important;
+
+ border-color: var(--ff-hover-border-color)  !important; 
+ border-width: var(--main-hover-border-width) !important;
+ border-style: solid !important;
+ border-radius: var(--main-hover-border-radius)  !important;
+ margin: var(--main-hover-border-margin);
+ padding: var(--main-hover-border-padding);  
+}
+
+.qx-aum-function-field-abs.qx-active.qx-not-readonly .qx-ff-tex .qx-aum-text-field.qx-active.qx-c-qx-function-text-field:hover 
+{
+ color: var(--ff-hover-color-fg);
+}
+
+
+/*##############################################################################################################
+# 
+# TIMEEDIT
+#
+##############################################################################################################*/
+/*
+--te-text-disabled-color-fg: var(--main-textfield-disabled-color-fg);
+--te-text-disabled-color-bg: var(--main-textfield-disabled-color-bg);
+--te-text-enabled-color-fg: var(--main-textfield-enabled-color-fg);
+--te-text-enabled-color-bg: var(--main-textfield-enabled-color-bg);
+--te-text-focus-color-fg: var(--main-textfield-focus-color-fg);
+--te-text-focus-color-bg: var(--main-textfield-focus-color-bg);
+--te-text-hover-color-fg: var(--main-textfield-hover-color-fg);
+--te-text-hover-color-bg: var(--main-textfield-hover-color-bg);
+--te-disabled-border-color: var(--main-disabled-border-color);
+--te-enabled-border-color: var(--main-enabled-border-color);
+--te-focus-border-color: var(--main-focus-border-color);
+--te-hover-border-color: var(--main-hover-border-color);
+*/
+
+/* #################*/
+/* Timeedit DISABLED */
+/* #################*/
+
+.qx-aum-time-edit-field
+{
+ background-color: var(--main-disabled-color-bg) !important;
+
+ border-width: var(--main-disabled-border-width) !important;	
+ border-radius: var(--main-disabled-border-radius)  !important;
+ border-left-color: transparent !important;
+ border-top-color: transparent !important;
+ border-right-color: transparent !important;
+ border-bottom-color: var(--te-disabled-border-color) !important; 
+ border-style: solid !important;
+ margin: var(--main-disabled-border-margin) !important;
+ padding: var(--main-disabled-border-padding) !important; 	
+}
+
+
+.qx-aum-time-edit-field .timepicker.qx-text
+{
+
+ color: var(--te-text-disabled-color-fg);
+ border-style: hidden !important;
+ margin: 0px;
+ padding: 0px;
+}
+
+/* START  Hide any background formating done by jQuery */
+.qx-aum-time-edit-field .qx-text.qx-focus-target
+{
+ background: none !important;
+ background-color: transparent !important;
+
+}
+
+/* ####################*/
+/* Timeedit ENABLED    */
+/* ####################*/
+
+.qx-aum-time-edit-field.qx-active.qx-not-readonly
+{
+ background-color: var(--te-text-enabled-color-bg !important);		
+ border-width: var(--main-enabled-border-width) !important;	
+ border-radius: var(--main-enabled-border-radius)  !important;
+ border-color: var(--te-enabled-border-color)  !important;  
+ border-style: solid !important;
+ margin: var(--main-enabled-border-margin);
+ padding: var(--main-enabled-border-padding); 
+}
+
+
+.qx-aum-time-edit-field.qx-active.qx-not-readonly .timepicker.qx-text
+{
+
+ color: var(--te-text-enabled-color-fg);
+ border-style: hidden !important;
+ margin: 0px;
+ padding: 0px;
+}
+
+
+/* ####################*/
+/* Timeedit FOCUS      */
+/* ####################*/
+.qx-aum-time-edit-field.qx-focused
+{
+ background-color: var(--te-text-focus-color-bg) !important;	
+ border-width: var(--main-focus-border-width) !important;
+ border-radius: var(--main-focus-border-radius)  !important;
+ border-color: var(--te-focus-border-color)  !important; 
+ border-style: solid !important;
+ margin: var(--main-focus-border-margin) !important;
+ padding: var(--main-focus-border-padding) !important; 
+}
+
+.qx-aum-time-edit-field.qx-focused .timepicker.qx-text
+{
+ color: var(--te-text-focus-color-fg);
+}
+
+/* ------------------------------------------------------ */
+
+.qx-aum-time-edit-field.qx-has-focus, 
+.qx-aum-time-edit-field.qx-has-focus *
+{
+    background: none !important;
+    background-image: none !important;
+    background-position-x: initial !important;
+    background-position-y: initial !important;
+    background-size: initial !important;
+    background-repeat-x: initial !important;
+    background-repeat-y: initial !important;
+    background-attachment: initial !important;
+    background-origin: initial !important;
+    background-clip: initial !important;
+    background-color: transparent !important; 
+}
+
+
+/* ##################*/
+/* HOVER - in input  */
+/* ##################*/
+.qx-aum-time-edit-field.qx-active.qx-enabled.qx-not-readonly:hover
+{
+ background-color: var(--te-text-hover-color-bg) !important;
+ border-width: var(--main-hover-border-width) !important;
+ border-radius: var(--main-hover-border-radius)  !important;
+ border-color: var(--te-hover-border-color)  !important;
+ border-style: solid !important;
+ margin: var(--main-hover-border-margin);
+ padding: var(--main-hover-border-padding);  
+}
+.qx-aum-time-edit-field.qx-active.qx-not-readonly .timepicker.qx-text:hover
+{
+ color: var(--te-text-hover-color-fg);
+}
+
+/*##############################################################################################################
+# 
+# LISTBOX
+#
+##############################################################################################################*/
+
+/*
+--lbox-disabled-color-bg: var(--main-list-disabled-color-bg);
+--lbox-enabled-color-bg: var(--main-list-enabled-color-bg);
+--lbox-focus-color-bg: var(--main-list-focus-color-bg);
+--lbox-hover-color-bg: var(--main-list-hover-color-bg);
+
+--lbox-disabled-border-color: var(--main-disabled-border-color);
+--lbox-enabled-border-color: var(--main-enabled-border-color);
+--lbox-focus-border-color: var(--main-focus-border-color);
+--lbox-hover-border-color: var(--main-hover-border-color);
+
+--lbox-item-disabled-color-fg: var(--main-list-item-disabled-color-fg);
+--lbox-item-enabled-color-fg: var(--main-list-item-enabled-color-fg);
+--lbox-item-focus-color-fg: var(--main-list-item-focus-color-fg);
+--lbox-item-hover-color-fg: var(--main-list-item-hover-color-fg);
+*/
+
+/* #################*/
+/* Listbox DISABLED */
+/* #################*/
+
+/* Default - Outer container */
+
+.qx-aum.qx-aum-list-box.qx-aum-abstract-field
+{
+	margin: 30px !important;
+	padding: 30px !important;
+
+}
+
+
+.qx-aum.qx-aum-list-box.qx-aum-abstract-field
+.qx-text.qx-focus-target
+{
+	margin-left: 1px !important;
+	margin-right: 2px !important;
+	margin-top: 2px !important;
+	margin-bottom: 2px !important;			
+	padding-left: 1px !important;
+	padding-right: 2px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+}
+
+.qx-aum.qx-aum-list-box.qx-aum-abstract-field
+.qx-text.qx-focus-target
+.qx-option
+{
+	margin-left: 1px !important;
+	margin-right: 2px !important;
+	margin-top: 2px !important;
+	margin-bottom: 2px !important;			
+	padding-left: 1px !important;
+	padding-right: 2px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+}
+
+/* --------------------------------------------------------------*/
+
+.qx-aum-list-box
+{
+ font: var(--qx-listfield-font) !important;	
+ background-color: var(--lbox-disabled-color-bg) !important;
+ border-color: var(--lbox-disabled-border-color) !important; 
+ border-width: var(--main-disabled-border-width) !important;	
+ border-radius: var(--main-disabled-border-radius)  !important;
+ border-style: solid !important;
+ margin: 30px !important; /*var(--main-disabled-border-margin) !important;*/
+ padding: var(--main-disabled-border-padding) !important; 	
+}
+
+
+/* listbox - pseudo container */
+.qx-aum-list-box,
+.qx-aum-list-box.qx-aum-abstract-field.ui-state-disabled.qx-disabled.qx-readonly
+{
+ font: var(--qx-listfield-font) !important;	
+ background-color: var(--lbox-disabled-color-bg) !important;
+ border-color: var(--lbox-disabled-border-color) !important; 
+ border-width: var(--main-disabled-border-width) !important;	
+ border-radius: var(--main-disabled-border-radius)  !important;
+ border-style: solid !important;
+ margin: var(--main-disabled-border-margin) !important;
+ padding: var(--main-disabled-border-padding) !important; 	
+}
+
+/* list item - container*/
+.qx-aum-list-box .qx-text.qx-focus-target,
+.qx-aum-list-box.qx-aum-abstract-field.ui-state-disabled.qx-disabled.qx-readonly .qx-text.qx-focus-target
+{
+ border: none;
+}
+
+/* List item */
+/* qx-aum-list-box.qx-inactive.qx-disabled .qx-text.qx-focus-target .qx-option */
+.qx-aum-list-box .qx-text.qx-focus-target .qx-option,
+.qx-aum-list-box.qx-aum-abstract-field.ui-state-disabled.qx-disabled.qx-readonly .qx-text.qx-focus-target .qx-option
+{
+ background:none !important;		
+ background-image: none !important;
+
+/*    color: var(--lbox-item-disabled-color-fg) !important;
+    background-color: var(--lbox-item-disabled-color-bg);
+*/    
+    border: none;
+}
+
+
+
+/* #################*/
+/* Listbox ENABLED */
+/* #################*/
+
+/* listbox container */
+.qx-aum-list-box.qx-active.qx-c-activefield.qx-not-readonly
+{
+ background-color: var(--lbox-enabled-color-bg) !important;
+ border-color: var(--lbox-enabled-border-color) !important; 
+ border-width: var(--main-enabled-border-width) !important;	
+ border-radius: var(--main-enabled-border-radius)  !important;
+ border-style: solid !important;
+ margin: var(--main-enabled-border-margin) !important;
+ padding: var(--main-enabled-border-padding) !important; 	
+}
+
+
+
+
+
+/* #################*/
+/* Listbox FOCUS */
+/* #################*/
+.qx-focused.qx-has-focus.qx-aum-list-box.qx-active.qx-not-readonly
+{
+ background-color: var(--lbox-focus-color-bg) !important;
+ border-color: var(--lbox-focus-border-color) !important; 
+ border-width: var(--main-focus-border-width) !important;	
+ border-radius: var(--main-focus-border-radius)  !important;
+ border-style: solid !important;
+ margin: var(--main-focus-border-margin) !important;
+ padding: var(--main-focus-border-padding) !important; 	
+}
+
+
+/* #################*/
+/* Listbox HOVER */
+/* #################*/
+.qx-aum-list-box.qx-active.qx-c-activefield.qx-not-readonly:hover
+{
+ background-color: var(--lbox-hover-color-bg) !important;
+ border-color: var(--lbox-hover-border-color) !important; 
+ border-width: var(--main-hover-border-width) !important;	
+ border-radius: var(--main-hover-border-radius)  !important;
+ border-style: solid !important;
+ margin: var(--main-hover-border-margin) !important;
+ padding: var(--main-hover-border-padding) !important; 	
+}
+
+
+
+
+
+
+/*##############################################################################################################
+# 
+# END LISTBOX
+#
+##############################################################################################################*/
+
+/*##############################################################################################################
+# 
+# BUTTON
+#
+##############################################################################################################*/
+/*
+--bt-disabled-color-fg: var(--main-button-on-dabg-disabled-color-fg);
+--bt-disabled-color-bg: var(--main-button-on-dabg-disabled-color-bg);
+--bt-disabled-border-color: var(--main-button-on-dabg-disabled-border-color);
+
+--bt-enabled-color-fg: var(--main-button-on-dabg-enabled-color-fg);
+--bt-enabled-color-bg: var(--main-button-on-dabg-enabled-color-bg);
+--bt-enabled-border-color: var(--main-button-on-dabg-enabled-border-color);
+
+--bt-focus-color-fg: var(--main-button-on-dabg-focus-color-fg);
+--bt-focus-color-bg: var(--main-button-on-dabg-focus-color-bg);
+--bt-focus-border-color: var(--main-button-on-dabg-focus-border-color);
+
+--bt-hover-color-fg: var(--main-button-on-dabg-hover-color-fg);
+--bt-hover-color-bg: var(--main-button-on-dabg-hover-color-bg);
+--bt-hover-border-color: var(--main-button-on-dabg-hover-border-color);
+
+--bt-font: var(--qx-widget-button-font);
+*/
+
+/* #################*/
+/* BUTTON Label Font */
+/* #################*/
+.qx-aum-button .qx-no-image .qx-text
+{
+ font: var(--btf-font) !important;
+}
+
+/* #################*/
+/* BUTTON Default */
+/* #################*/
+
+.qx-aum-button .ui-state-default, 
+.qx-aum-button.ui-widget-content .ui-state-default, 
+.qx-aum-button.ui-widget-header .ui-state-default 
+{
+    border: none;
+}
+
+/* #########################*/
+/* DISABLED - element background:yes border: no  */
+/* ########################*/
+
+.qx-aum-button.qx-inactive.ui-state-disabled.qx-disabled.qx-readonly,
+.qx-aum-button
+{
+ color: var(--btf-disabled-color-fg) !important;
+ background-color: var(--btf-disabled-color-bg) !important;
+
+ border-color:  var(--btf-disabled-border-color)  !important; 
+
+ border-width: var(--main-button-disabled-border-width) !important;	
+ border-radius: var(--main-button-disabled-border-radius)  !important;
+ border-style: solid !important;
+
+ margin: var(--main-button-disabled-border-margin) !important;
+ padding: var(--main-button-disabled-border-padding) !important; 	
+}
+
+.qx-aum.qx-aum-button .qx-no-image.ui-button 
+{
+	background-color: transparent !important;
+}
+.qx-aum.qx-aum-button .qx-no-image.ui-button.ui-widget .ui-button-text .qx-text-with-icon
+{
+	background-color: transparent !important;
+
+}
+
+/* #########################*/
+/* ENABLED Button           /*
+/* element background:yes border: no  */
+/* ########################*/
+.qx-aum-button.qx-active,
+.qx-aum-button
+{
+ color: var(--btf-enabled-color-fg) !important;
+ background-color: var(--btf-enabled-color-bg) !important;
+ border-color:  var(--btf-enabled-border-color)  !important; 
+
+ border-width: var(--main-button-enabled-border-width) !important;	
+ border-radius: var(--main-button-enabled-border-radius)  !important;
+ border-style: solid !important;
+
+ margin: var(--main-button-enabled-border-margin) !important;
+ padding: var(--main-button-enabled-border-padding) !important; 	
+
+}
+
+.qx-aum-button.qx-active .qx-no-image.ui-button 
+{
+	background-color: transparent !important;
+}
+.qx-aum.qx-aum-button.qx-active .qx-no-image.ui-button.ui-widget .ui-button-text .qx-text-with-icon
+{
+	background-color: transparent !important;
+
+}
+
+
+
+
+/* #########################*/
+/* FOCUS Button           /*
+/* element background:yes border: no  */
+/* ########################*/
+.qx-aum-button.qx-focused,
+.qx-aum-button
+{
+ color: var(--btf-focus-color-fg) !important;
+ background-color: var(--btf-focus-color-bg) !important;
+ border-color:  var(--btf-focus-border-color)  !important; 
+
+ border-width: var(--main-button-focus-border-width) !important;	
+ border-radius: var(--main-button-focus-border-radius)  !important;
+ border-style: solid !important;
+
+ margin: var(--main-button-focus-border-margin) !important;
+ padding: var(--main-button-focus-border-padding) !important; 	
+}
+
+/* #########################*/
+/* HOVER Button           /*
+/* element background:yes border: no  */
+/* ########################*/
+.qx-aum-button.qx-active:hover,
+.qx-aum-button:hover
+{
+ color: var(--btf-hover-color-fg) !important;
+ background-color: var(--btf-hover-color-bg) !important;
+ border-color:  var(--btf-hover-border-color)  !important; 
+
+ border-width: var(--main-button-hover-border-width) !important;	
+ border-radius: var(--main-button-hover-border-radius)  !important;
+ border-style: solid !important;
+
+ margin: var(--main-button-hover-border-margin) !important;
+ padding: var(--main-button-hover-border-padding) !important; 	
+}
+
+/*########################################################*/
+/* BUTTON General                                         */
+/*########################################################*/
+
+/*Any general button*/
+
+.qx-no-image.ui-button.ui-widget .ui-button-text .qx-text-with-icon
+{
+	font: var(--qx-widget-button-label-font) !important; 
+color: var(--main-button-on-brbg-color-fg) !important;
+background-color: var(--main-button-on-brbg-color-bg) !important;
+border: 1px solid var(--main-button-on-brbg-border-color) !important;
+
+}
+
+/* Hover button color changes */
+.qx-no-image.ui-button.ui-widget .ui-button-text .qx-text-with-icon:hover
+{
+
+color: var(--main-button-on-brbg-hover-color-fg) !important;
+background-color: var(--main-button-on-brbg-hover-color-bg);
+border: 1px solid var(--main-button-on-brbg-hover-border-color) !important;
+
+}
+
+/*
+--bt-color-fg: var(--main-button-color-fg); 
+--bt-color-bg: var(--main-button-color-bg); 
+--bt-border-color: var(--main-button-border-color);
+--bt-hover-color-fg: var(--main-color-001); 
+--bt-hover-color-bg: var(--main-color-073); 
+--bt-hover-border-color: var(--main-button-hover-border-color);
+*/
+
+
+/*All button-labels (from any button) in forms with the (rootfolder) class name fcls_container_menu*/
+.qx-c-fcls_container_menu .qx-aum-button .qx-text-with-icon {
+	justify-content:flex-start;
+	}
+/*###############################################
+Fix size buttons
+/* Do not use these - they are possibly going to be removed later */
+/*###############################################*/
+
+.qx-c-fcls_button_icon
+{
+	width:2rem;
+	height:2rem; 
+}
+
+.qx-c-fcls_button_1
+{
+	width:5rem;
+}
+
+.qx-c-fcls_button_2
+{
+	width:10rem;
+}
+
+.qx-c-fcls_button_3
+{
+	width:15rem;
+}
+.qx-c-fcls_button_4
+{
+	width:20rem;
+}
+.qx-c-fcls_button_5
+{
+	width:25rem;
+}
+
+
+
+/*########################################
+Tab Handles 
+##########################################*/
+/*Note, we need a different/unique class name for MDI-container tab-handles*/
+/*at the moment, this class will select ALL tab handles normal form AND mdi-container */
+
+/* Tab-Page Form Container */
+
+.qx-aum.qx-aum-tab.qx-aum-abstract-container .qx-tabcontrol-header.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header 
+{
+	background-color: var(--cnt-tab-handle-container-area-bg);
+}
+
+.ui-tabs-nav 
+{
+    min-width: 150px;
+    color: white;
+    background-color: #3a597e;
+}
+
+.ui-tabs-nav .qx-text 
+{
+	
+    min-width: 150px;
+    color: white;
+}
+

@@ -1,0 +1,157 @@
+/*BEGIN color_attribute_4gl.css*/
+
+$colorlist: ('black', 'white', 'green', 'red', 'blue', 'magenta', 'yellow', 'cyan');
+$widgetSelectors: ".qx-aum-calendar, .qx-aum-calendar *,"+
+".qx-aum-text-field, .qx-aum-text-field *,"+
+".qx-aum-text-area, .qx-aum-text-area *,"+
+".qx-aum-time-edit-field, .qx-aum-time-edit-field *,"+
+".qx-aum-spinner, .qx-aum-spinner .qx-text,"+
+".qx-aum-combo-box, .qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,"+
+".qx-aum-function-field-abs .qx-ff-text, .qx-aum-function-field-abs .qx-ff-text *";
+
+#{selector-append('.qx-active', $widgetSelectors)} {
+  color: var(--fgl-color-blue);
+  background-color: transparent;
+}
+#{selector-append('.qx-active.qx-c-attribute_reverse', $widgetSelectors)} {
+  color: var(--fgl-color-blue-rev-fg);
+  background-color: var(--fgl-color-blue-rev-bg);
+}
+
+.qx-aum-some.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) * {
+  /*color: var(--fgl-color-black-bg); */
+  background: var(--fgl-color-default-fg);
+}
+.qx-c-attribute_reverse[data-md-widget]:not(.qx-c-nativestyle),
+.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
+  color: var(--fgl-color-default-bg);
+  background-color: var(--fgl-color-default-fg); 
+}
+
+/* Need to check this with Victor - hightlight is always sending color blue */
+/*Check color_default and size_length for duplicates*/
+// .qx-c-attribute_green.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected .qx-table-cell.qx-c-activefield.qx-aum-some.qx-aum-abstract-field.qx-has-text {
+//   background-color: var(--fgl-color-green-fg);
+//   color: var(--fgl-color-green-bg);
+// }
+
+@each $color in $colorlist {
+  .qx-c-attribute_#{$color} {
+    &.qx-aum-label {
+      color: var(--fgl-color-#{$color}-fg);	
+      /*fgl color #{$color}-reverse huho: 03.11.2018 */
+      &.qx-c-attribute_reverse {
+        background-color: var(--fgl-color-#{$color}-rev-bg);    
+        color: var(--fgl-color-#{$color}-rev-fg);	
+      }    
+      // &.qx-c-attribute_reverse .qx-text{
+      //   color: var(--fgl-color-#{$color}-rev-fg);	
+      // }    
+      /*fgl color #{$color}-Dim huho: 03.11.2018 */
+      &.qx-c-attribute_dim {
+        color: var(--fgl-color-#{$color}-dim-bg);
+        background-color: var(--fgl-color-#{$color}-dim-bg);
+      }
+  
+      &.qx-c-attribute_blink {
+        background-color: var(--fgl-color-blink-bg-label);
+        color: var(--fgl-color-#{$color}-blink-fg);
+      }
+    } 
+
+    &.qx-inactive {
+      @at-root #{selector-append(&, $widgetSelectors)} {
+        color: var(--fgl-color-#{$color}-fg);
+        background-color: transparent;
+      }
+      &.qx-c-attribute_reverse {
+        @at-root #{selector-append(&, $widgetSelectors)} {
+          color: var(--fgl-color-#{$color}-rev-fg);
+          background-color: var(--fgl-color-#{$color}-rev-bg);
+          opacity: 1;
+        }
+      }
+      &.qx-c-attribute_dim {
+        @at-root #{selector-append(&, $widgetSelectors)} {
+          color: var(--fgl-color-#{$color}-dim-fg);
+          background-color: var(--fgl-color-#{$color}-dim-bg);
+          opacity: 1;
+        }
+      }
+      &.qx-c-attribute_blink {
+        @at-root #{selector-append(&, $widgetSelectors)} {
+          color: var(--fgl-color-#{$color}-blink-fg);
+          background-color: var(--fgl-color-#{$color}-blink-bg);
+          opacity: 1;
+        }
+      }
+    }
+
+    &.qx-active {
+      @at-root #{selector-append(&, $widgetSelectors)} {
+        color: var(--fgl-color-#{$color}-fg);
+        background-color: transparent;
+      }
+      &.qx-c-attribute_reverse {
+        @at-root #{selector-append(&, $widgetSelectors)} {
+          color: var(--fgl-color-#{$color}-rev-fg);
+          background-color: var(--fgl-color-#{$color}-rev-bg);
+          opacity: 1;
+        }
+      }
+      &.qx-c-attribute_dim {
+        @at-root #{selector-append(&, $widgetSelectors)} {
+          color: var(--fgl-color-#{$color}-dim-fg);
+          background-color: var(--fgl-color-#{$color}-dim-bg);
+          opacity: 1;
+        }
+      }
+      &.qx-c-attribute_blink {
+        @at-root #{selector-append(&, $widgetSelectors)} {
+          color: var(--fgl-color-#{$color}-blink-fg);
+          background-color: var(--fgl-color-#{$color}-blink-bg);
+          opacity: 1;
+        }
+      }
+    }
+
+    &.qx-aum-browser {
+      color: var(--fgl-color-#{$color}-fg);
+      background-color: var(--fgl-color-#{$color}-bg);
+    }
+    &.qx-aum-browser.qx-c-attribute_reverse {
+      color: var(--fgl-color-#{$color}-rev-fg);
+      background-color: var(--fgl-color-#{$color}-rev-bg);
+      opacity: 1;
+    }
+    &.qx-aum-browser.qx-c-attribute_dim {
+      color: var(--fgl-color-#{$color}-dim-fg);
+      background-color: var(--fgl-color-#{$color}-dim-bg);
+      opacity: 1;
+    }
+    &.qx-aum-browser.qx-c-attribute_blink {
+      color: var(--fgl-color-#{$color}-blink-fg);
+      background-color: var(--fgl-color-#{$color}-blink-bg);
+      opacity: 1;
+    }
+
+    /*Supporting 4gl color attributes for tables display/ipnut array*/
+    &:not(.qx-c-nativestyle) {
+      color: var(--fgl-color-#{$color}-fg);
+      /*ABRA*/
+      @at-root &[data-md-widget],
+      .qx-aum-some#{&},
+      .qx-aum-some#{&} * {
+        color: var(--fgl-color-#{$color}-fg);
+        background: var(--fgl-color-#{$color}-bg);
+      }
+      @at-root .qx-aum-some.qx-c-attribute_reverse#{&},
+      .qx-aum-some.qx-c-attribute_reverse#{&} * {
+        color: var(--fgl-color-#{$color}-bg);
+        background: var(--fgl-color-#{$color}-fg);
+      }
+    }
+  }
+}
+/*END color_attribute_4gl.css*/

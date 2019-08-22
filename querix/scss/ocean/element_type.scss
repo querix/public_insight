@@ -45,8 +45,6 @@
     color: #3a597e;  
   
   }
-  // .ui-state-focus, 
-  // .ui-state-hover, 
   .ui-widget-content .ui-state-focus.qx-aum-table, 
   .ui-widget-content .ui-state-hover.qx-aum-table, 
   .ui-widget-header .ui-state-focus.qx-aum-table, 
@@ -74,6 +72,12 @@
       margin: 2px;
       padding-left: 2px;
       padding-right: 2px;
+      &.qx-inactive {
+        border: 1px solid rgba(92, 156, 204, .5);
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-top-color: transparent;
+      }
     }
     &.qx-aum-function-field-abs,
     &.qx-aum-calendar,
@@ -431,17 +435,13 @@
   .qx-aum-combo-box.qx-readonly .qx-text.qx-text-edit.qx-focus-target,
   .qx-aum-browser {
     color: var(--tf-label-enabled_fg-color) ;
-    background-color: rgba(208, 229, 245, 0.0) ;
+    background-color: transparent;
     opacity: 1;
-    filter: Alpha(Opacity=00);
-    border: 1px solid rgba(255, 255, 255, .0);
   }
   /*Inactive State - kind of global for all elements*/
   .ui-state-disabled,
   .ui-widget-content .ui-state-disabled {
     opacity: .7;
-    filter: Alpha(Opacity=70);
-    border: 1px solid rgba(92, 156, 204, .5);
     color: #3a597e;
   }
   /*disabled button */
@@ -451,20 +451,7 @@
     border-color: transparent;
     color: #3a597e;
   }
-  .qx-aum-text-field.qx-inactive {
-    border: 1px solid rgba(92, 156, 204, .5);
-  }
-  .qx-aum-function-field-abs.qx-inactive.ui-state-active.qx-aum.qx-aum-abstract-field.qx-active {
-    border: 10px solid rgba(92, 156, 204, .5);
-  }
-  .qx-aum-text-area.qx-inactive,
-  .qx-aum-time-edit-field.qx-inactive,
-  .qx-aum-browser.qx-inactive,
-  .qx-aum-calendar.qx-inactive,
-  .qx-aum-list-box.qx-inactive,
-  .qx-aum-canvas.qx-inactive {
-    border: 1px solid rgba(92, 156, 204, .5);
-  }
+
   .qx-aum-list-box .qx-text {
     border: none;
   }
@@ -514,13 +501,7 @@
   .qx-aum-radio-group.ui-widget-header,
   .qx-aum-radio-group.ui-state-hover {
     background-color: transparent;
-    // border-radius: 3px;
   }
-  // .ui-state-hover:hover {
-  //   background-color: transparent;
-  //   border: 1px solid white;
-  //   border-radius: 3px;
-  // }
   .qx-aum-radio .qx-text {
     color: #3a597e;
   }
@@ -571,11 +552,6 @@
     }
   }
 
-  // .qx-aum.qx-has-focus,
-  // .qx-aum:hover {
-  //   border-radius: 0;
-  // }
-
   .qx-aum .qx-text:empty {
     padding: 0;
   }
@@ -591,15 +567,6 @@
       }
     }
   }
-  
-  // .qx-aum.qx-aum-button.qx-has-image .qx-image {
-  //   content: url(/public/querix/icon/svg/24/ic_sub_dialog_24px.svg);
-  // }	
-
-  // .qx-aum-function-field-abs .qx-ff-text > .qx-aum.qx-aum-button {
-  //   padding: 0;
-  //   margin: 0;
-  // }
 }
 
 .qx-material-design {

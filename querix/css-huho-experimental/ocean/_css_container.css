@@ -1,0 +1,832 @@
+
+
+/* 
+#######################################################
+ROOT CONTAINER
+####################################################### 
+*/
+/* By form class */
+.fcls_rootContainer {
+	margin: 1rem;
+}
+/* By default root container identifier */
+/*.qx-identifier-rootcontainer {
+	margin: 1rem;
+} */
+
+
+
+
+/*
+#######################################################
+Form Class - fcls_detail_cnt
+#######################################################
+*/
+.qx-c-fcls_detail_cnt.qx-aum-items-container.qx-aum-abstract-container
+{
+    margin-top: 8px;
+    margin-bottom: 8px;
+	
+}
+
+/*
+#######################################################
+Form Class - fcls_container_margin
+Margin for containers with this class
+#######################################################
+*/
+.qx-c-fcls_container_margin.qx-aum-items-container.qx-aum-abstract-container
+{
+    margin: 6px;
+}
+
+/*
+#######################################################
+Form Class - fcls_container_padding
+Padding for containers with this class
+#######################################################
+*/
+.qx-c-fcls_container_padding.qx-aum-items-container.qx-aum-abstract-container
+{
+    padding: 6px;
+}
+
+
+/*
+#######################################################
+Legacy Compat Mode Informix panels  HuHO 14.12.2018
+#######################################################
+*/
+.qx-o-c-classic
+{
+	background-color: var(--main-color-bg); /*white;*/
+}
+
+
+.qx-o-c-classic:not(.qx-o-c-nativestyle)
+{
+	background-color: var(--main-color-bg) !important; /* white ; */
+}
+
+
+/*
+#######################################################
+Legacy Coordinate Panel
+#######################################################
+*/
+
+
+.qx-content.qx-display-grid.qx-root.qx-aum.qx-c-classic.qx-o-aum-window
+{
+	background-color: var(--main-color-bg); /*white; */
+}
+
+/*Legacy Coordinate panel based forms*/
+.qx-aum-coord-panel > .qx-aum
+{
+	color:var(--tf-label-disabled-color-fg) !important; 
+	background-color: var(--main-color-bg) !important; 
+}
+
+/*
+#######################################################
+Gridpanel
+#######################################################
+*/
+
+.qx-identifier-rootcontainer.qx-c-fcls_rootcontainer.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container,
+.qx-c-fcls_rootcontainer.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container,
+.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container,
+.qx-aum.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-root-form.qx-window-root
+{
+    /*padding: 2px;*/
+}
+
+.qx-wrap.qx-ha-l > .qx-bound > *{
+    align-self: stretch;
+}
+
+/*All cells in rootContainer descendants -  vertical element alignment top*/
+.qx-c-fcls_rootcontainer.qx-aum-grid-panel .qx-grid-cell 
+{
+    vertical-align: top;
+    overflow: hidden;
+}
+
+/*All descendant cells in gridPanels with class fcls_data_cnt -  vertical element middle */
+.qx-aum-grid-panel.qx-c-fcls_data_cnt .qx-grid-cell 
+{
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+
+
+/*#######################################################
+GroupBox
+#######################################################*/
+/* GroupBox container 
+--cnt-gb-color-fg: yellow; 
+--cnt-gb-color-bg: var(--main-color-001); 
+--cnt-gb-titlebar-color-fg: var(--main-color-001); 
+--cnt-gb-titlebar-color-bg: var(--main-color-073); 
+--cnt-gb-titlebar-font: var(--qx-group-title-font);
+/*
+
+GroupBox Header can also have form class qx-c-fcls_detail_gb_cnt
+*/
+
+/*Select ALL GroupBoxes */
+.qx-aum-group-box.qx-aum.qx-aum-group-box.qx-aum-element-container 
+{
+	background-color: var(--cnt-gb-color-bg); /* white*/
+	background-image: none;
+
+	margin: 2px
+}
+
+/* Button fixes 25.05.2019 
+qx-groupbox-header ui-accordion-header ui-state-default qx-vta-c qx-hta-c ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top
+*/
+.qx-aum-group-box.qx-aum.qx-aum-group-box.qx-aum-element-container .ui-widget-content,
+.qx-groupbox-header.ui-accordion-header.ui-accordion-icons.ui-accordion-header-active.ui-state-active
+{
+    /*border: 1px solid #d3d3d3;*/
+    /*background: none !important;*/
+    /*font-weight: 400;*/
+	color: var(--cnt-gb-titlebar-color-fg); /* var(--dialog-box-button-color-fg); */
+	background-color: var(--cnt-gb-titlebar-color-bg); /*var(--dialog-box-button-color-bg);*/
+}
+
+.qx-groupbox-header.ui-accordion-header.ui-accordion-icons.ui-accordion-header-active.ui-state-active .qx-text
+{
+	font: var(--cnt-gb-titlebar-font);
+	/*color: var(--cnt-gb-titlebar-color-fg);
+	background-color: var(--cnt-gb-titlebar-color-fg);*/
+
+}
+
+
+
+
+/*qx-text*/
+
+
+/*GroupBox Icon to fold/unfold HuHo 13.11.2018*/
+.qx-aum.qx-aum-group-box.qx-display-grid > label > .qx-icon::after 
+{
+ color: var(--cnt-gb-color-bg); /*white;*/
+
+}
+
+/*Only groupBoxes with the form class .qx-c-fcls_detail_gb_cnt*/
+/*TitleBar of the groupBoxes */
+.qx-c-fcls_detail_gb_cnt.qx-aum-group-box .qx-groupbox-header
+{
+
+	background: var(--cnt-gb-titlebar-color-bg); 
+    background-image: none;
+	color: var(--cnt-gb-titlebar-color-bg); 
+
+	padding: 2px;	
+}
+
+
+/*
+GroupBox Header LABEL with form class fcls_detail_gb_cnt
+*/
+.qx-c-fcls_detail_gb_cnt .ui-accordion-header .qx-text
+{
+	color: var(--cnt-gb-titlebar-color-fg); /* white;*/
+}
+
+.qx-aum-group-box.qx-aum-abstract-container .qx-groupbox-header.ui-accordion-header .qx-text
+{
+ font: var(--qx-group-title-font);
+
+}
+
+
+
+
+/*#######################################################
+StackPanel container
+#######################################################*/
+.qx-aum-stack-panel
+{
+    align-items:center;
+}
+/* up for removal - no idea what it does*/
+/*should it ever select, I want to see it to address this issue*/
+/*
+.qx-table-cell.qx-c-activefield.qx-aum.qx-aum-abstract-field.qx-content.qx-has-text.qx-c-attribute_reverse >
+.qx-text-with-icon.qx-vtal.qx-htal >
+.qx-text.qx-has-text
+{
+	color: #cd0a0a;
+	background-color: pink;
+}
+
+*/
+/*######################################################################*/
+/*                                                                      */
+/* Table container                                                      */
+/*                                                                      */
+/*######################################################################*/
+
+/* ********************* */
+/* Outer table container */
+/* ********************* */
+.qx-table.qx-aum-table,
+.qx-table.qx-aum-tree-table
+{
+    margin: 2px;
+    padding: 2px;
+    background-image: none;
+    background: none;
+}	
+
+
+/* ********************* */
+/* grid column header */
+/* ********************* */
+.ui-widget-header {
+  background: var(--cnt-tb-header-color-bg); 
+}
+/* Note: gridHeader formats like padding need to be set for header and column data */
+
+
+.qx-table.qx-aum.qx-aum-table.qx-aum-abstract-data-table.qx-aum-abstract-container.qx-has-header
+.qx-hrow
+.qx-thead
+.qx-thead-row.ui-widget-header
+{
+    min-height: 1.6rem !important;
+    height: 1.6rem !important;
+}
+/*
+.qx-aum-table-column.ui-widget-header,
+.qx-thead-row.ui-widget-header,
+.qx-thead,
+.qx-hrow
+{
+	height: 10px !important;
+}
+*/
+.qx-aum-table .qx-thead-row, 
+.qx-aum-table .qx-thead-row > th, 
+.qx-aum-table .qx-table-row > td 
+{
+    min-height: 1.6rem !important;
+    height: 1.6rem !important;
+}
+
+
+
+
+.qx-aum-table-column.ui-widget-header > label
+{
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+  color: var(--cnt-tb-header-color-fg);  /* white;	*/ 
+}
+
+/* ############################### */
+/* table field/column border       */
+/* ############################### */
+
+.qx-thead th > label {
+ left: 0;
+ right: 0;
+}
+
+.qx-table-row > td.qx-table-cell,
+.qx-thead-row > th.qx-aum-table-column.ui-widget-header {
+	border: none;
+    border-left: 1px solid transparent !important;
+}
+
+.qx-thead-row > th.qx-aum-table-column.ui-widget-header:nth-child(1),
+.qx-table-row > td.qx-table-cell:nth-child(1) {
+	border-left: none !important;
+}
+
+.qx-thead-row > th.qx-aum-table-column.ui-widget-header > label,
+.qx-table-row > td.qx-table-cell {
+	padding: 0 3px;
+}
+
+
+
+
+/* Table ROW */
+/*
+.qx-table.qx-aum-table.qx-aum-abstract-data-table .qx-aum-combo-box {
+	padding-right: 0;
+}
+*/
+
+/*#######################################################
+Misc
+#######################################################*/
+
+
+/*Table (Disp/Inp Array) */
+/*
+.qx-c-activefield .qx-tbody  tr .qx-text.qx-has-text {
+    color: magenta;
+    background-color: yellow;
+}
+*/
+/*Row Selection */
+
+/* ###############################################*/
+/* Conditional Row-Highlight controlled by 4gl */
+/* ###############################################*/
+/*conditional row highlight ALL ROWs */
+.qx-c-activefield .qx-tbody .qx-table-row.qx-c-highlight_str
+{
+	background-color: var(--cnt-tb-conditional-row-color-bg) !important;  
+
+} 
+/*conditional row highlight CURRENT/SELECTED ROW */
+.qx-table.qx-aum.qx-aum-table
+.qx-brow.qx-isc
+.qx-bcell
+.qx-tbody
+.qx-c-highlight_str.qx-selected.qx-table-row.qx-aum-some.ui-row-ltr.qx-focusable
+.qx-table-cell.qx-c-activefield.qx-content.qx-aum-some.qx-aum-abstract-field.qx-has-text
+{
+	color: var(--cnt-tb-conditional-current-row-color-fg) !important;
+} 
+
+/*
+--cnt-tb-conditional-row-color-fg: var(--main-color-301);
+--cnt-tb-conditional-row-color-bg: var(--main-color-302);
+--cnt-tb-conditional-current-row-color-fg: var(--main-color-303);
+--cnt-tb-conditional-current-row-color-bg: var(--main-color-304);*/
+
+/* ###################################### */
+/* Display AND INPUT Array table */
+/* Currently selected row*/
+/* ###################################### */
+/* CURRENT ROW row highlight background-color */
+.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected
+{
+	background-color: var(--cnt-tb-curr-row-color-bg) !important;
+}
+/* CURRENT ROW FOCUS field background-color */
+.qx-table-cell .qx-aum.qx-aum-abstract-field.qx-column-edit-control.qx-element-role-input.qx-active.qx-focused.qx-has-focus,
+.qx-table-cell .qx-aum.qx-aum-abstract-field.qx-column-edit-control.qx-element-role-input.qx-active.qx-focused.qx-has-focus /*.qx-single-row.ui-spinner.ui-widget.ui-widget-content.qx-aum-spinner.qx-aum-abstract-field.qx-column-edit-control.qx-element-role-input.qx-c-activefield.qx-focused.ui-state-focus.ui-state-highlight.qx-has-focus*/
+{
+	background-color: var(--cnt-tb-curr-row-inp-field-color-bg) !important;
+}
+/* ###################################### */
+/* TABLE CELL */
+/* ###################################### */
+
+.qx-table-cell.qx-c-activefield.qx-content
+{
+	height: 2rem !important;
+	margin-left: 2px !important;
+	margin-right: 2px !important;
+	padding-right: 2px !important;
+	padding-left: 2px !important;	
+	background-color: transparent!important;
+}	
+
+/*
+######################################
+Table Column
+(Display Array / Input Array)
+######################################
+*/
+
+/*Table column and gridHeader padding/margin/border */
+
+
+/*
+div.qx-aum-label.qx-aum.qx-aum-abstract-field.qx-c-nativestyle .qx-vtal{
+	vertical-align: middle;
+}
+*/
+
+/* ###################################### */
+/* ROW HEIGHT */
+
+/*, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active*/
+
+
+/* row height table header */
+/*
+.qx-table-cell  {
+
+	border: none;
+	height: 2rem !important;
+	margin: 0px;
+	padding: 0px;
+}
+*/
+/* row height table row (not header) */
+/*
+.qx-table-cell.qx-content.qx-c-activefield {
+
+	border: none;
+	height: 3rem !important;
+	margin: 0px;
+	padding: 0px;
+}
+*/
+
+
+/* INPUT */
+#.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected 
+{
+
+	background-color: var(--cnt-tb-curr-row-color-bg); 
+	color: var(--cnt-tb-curr-row-color-fg);
+	
+}
+/*
+.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected
+{
+	
+	background-color: red; 
+	color: red !important;
+	
+}
+*/
+.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected
+.qx-table-cell.qx-c-activefield.qx-content.qx-htal.qx-htal.qx-aum-some.qx-aum-abstract-field.qx-has-text  
+{
+	
+	background-color: var(--cnt-tb-curr-row-color-bg); 
+	color: var(--cnt-tb-curr-row-color-fg);
+	
+}
+
+.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected 
+.qx-table-cell.qx-c-activefield.qx-aum-some.qx-aum-abstract-field.qx-has-text
+{
+	
+	background-color: var(--cnt-tb-curr-row-inp-field-color-bg); 
+	color: var(--cnt-tb-curr-row-color-fg);
+	
+}
+
+/* Different colors for the alternate (even/odd) rows in a table container */
+.qx-tbody .qx-table-row:nth-child(even) {
+	background:var(--cnt-tb-row-even-color-bg);
+	/*color: orange; */
+
+	}
+.qx-c-activefield .qx-tbody .qx-table-row:nth-child(even) {
+	background: var(--cnt-tb-row-even-color-bg);  
+	}
+
+/*label / text */
+
+.qx-c-activefield .qx-tbody tr {
+    color: var(--4gl-field-color-default-enabled-fg); 
+    background-color: var(--4gl-field-color-default-enabled-bg) !important;
+}	
+
+/* default background-color of table rows*/
+.qx-tbody tr
+{ 
+background-color: transparent;  
+}
+
+
+
+
+/*tableWidget container - HEADER row - i.e 5px top/bottom and 0px right/left*/
+/*
+.qx-aum-table-column .qx-text { 
+	margin: 5px 0px; 
+
+}
+
+
+.qx-aum-table-column {
+	 border-left: 1px solid #fff !important;
+}
+
+
+.qx-aum-table .qx-frow .qx-tfoot .qx-tfoot .qx-tfoot-row .qx-table-footer-cell
+{ 
+color:red !mportant;
+border: none !mportant;
+border-color: red !mportant;
+}
+
+.qx-aum-table .qx-frow .qx-tfoot .qx-tfoot .qx-tfoot-row
+{ 
+color:red !mportant;
+border: none !mportant;
+border-color: red !mportant;
+}
+
+.qx-aum-table .qx-frow .qx-tfoot .qx-tfoot 
+{ 
+color:red !mportant;
+border: none !mportant;
+border-color: red !mportant;
+}
+
+.qx-frow
+{ 
+color:red !mportant;
+border: none !mportant;
+border-color: red !mportant;
+}
+
+.qx-table-footer-cell
+{ 
+color:red !mportant;
+border: none !mportant;
+border-color: red !mportant;
+}
+
+.qx-table td, .qx-tfoot th {
+    border: solid #aaa 1px;
+    border-top-color: red !mportant;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: red !mportant;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: red !mportant;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: red !mportant;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+*/
+
+
+/*####################################################*/
+/*                                                    */
+/* TABLE - ROW                                        */
+/*                                                    */
+/*####################################################*/
+
+
+
+/* table row */
+/* INPUT ARRAY default font for field in current table  row - field focus*/
+.qx-table-row.qx-selected .qx-table-cell.qx-content.qx-c-activefield .qx-aum .qx-text
+{
+    font-size: var(--qx-display-array-font) !important;
+    padding-left: 2px;    
+}
+/*##############################*/
+/* table - row                  */
+/*##############################*/
+.qx-table
+.qx-brow.qx-isc
+.qx-bcell
+.qx-tbody
+.qx-table-row 
+{
+		/*width: 10px !important;*/
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;	
+}
+
+
+
+
+
+/*
+.qx-table td, 
+.qx-table-cell.qx-content.qx-c-activefield .ui-state-active {
+
+	border: none;
+	height: 2rem !important;
+	margin: 0px;
+	padding: 0px;
+}
+*/
+/*##############################*/
+/* table - row - cell           */
+/*##############################*/
+.qx-table
+.qx-brow.qx-isc
+.qx-bcell
+.qx-tbody
+.qx-table-row 
+.qx-table-cell.qx-c-activefield.qx-content
+
+{
+/*
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;	
+	*/
+}
+
+/*##############################*/
+/* table - row - cell - .qx-text-field */
+/*##############################*/
+.qx-table
+.qx-brow.qx-isc
+.qx-bcell
+.qx-tbody
+.qx-table-row 
+.qx-table-cell.qx-c-activefield.qx-content
+.qx-text-field.qx-aum.qx-aum-text-field.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field,
+.qx-table
+.qx-brow.qx-isc
+.qx-bcell
+.qx-tbody
+.qx-table-row 
+.qx-table-cell.qx-c-activefield.qx-content
+.qx-text-field.qx-single-row.qx-aum.qx-aum-combo-box.qx-aum-abstract-string-field.qx-aum-abstract-field 
+{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;	
+}
+
+/*##############################*/
+/* table - row - cell - .qx-text-field .qx-text */
+/*##############################*/
+.qx-table
+.qx-brow.qx-isc
+.qx-bcell
+.qx-tbody
+.qx-table-row 
+.qx-table-cell.qx-c-activefield.qx-content
+.qx-text-field
+.qx-text,
+.qx-table
+.qx-brow.qx-isc
+.qx-bcell
+.qx-tbody
+.qx-table-row 
+.qx-table-cell.qx-c-activefield.qx-content
+.qx-text-field.qx-single-row.qx-aum.qx-aum-combo-box.qx-aum-abstract-string-field.qx-aum-abstract-field
+.qx-text
+{
+		/*width: 10px !important;*/
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	padding-left: 2px !important;
+	padding-right: 2px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;	
+}
+
+.qx-table-cell.qx-c-activefield.qx-content
+.qx-aum.qx-column-edit-control.qx-element-role-input.qx-focused.qx-has-focus
+/*.qx-text.qx-focus-target*/
+{
+	margin-left: 1px !important;
+	margin-right: 1px !important;
+	margin-top: 2px !important;
+	margin-bottom: 2px !important;
+	padding-left: 1px !important;
+	padding-right: 2px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;	
+}
+
+/*###########################################
+Tab Page Container (form container NOT MDI menu container)
+#############################################*/
+
+
+/*TabContainer unselected tab*/
+.qx-aum-tab.qx-display-grid > :first-child label
+{
+background-image: none;
+background-color: var(--cnt-tab-handle-not-selected-color-bg) !important;
+
+}
+
+/*TabContainer unselected tab*/
+.qx-aum-tab.qx-display-grid > :first-child label:hover {
+background-image: none;
+background-color: var(--cnt-tab-handle-area-hover-bg-color) !important;
+
+}
+
+/* Tab-Page Form Container */
+
+.qx-aum.qx-aum-tab.qx-aum-abstract-container .qx-tabcontrol-header.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header 
+{
+	color: red;
+	background-color: var(--cnt-tab-handle-container-area-bg);
+}
+
+
+/*TabContainer selected tab*/
+.qx-aum-tab.qx-display-grid > :first-child [type="radio"]:checked + label {
+    border: 1px solid #aaa;
+    border-bottom: 0;
+    background: var(--cnt-tab-handle-selected-color-bg) !important; 
+    font-weight: 400;
+    color: orange; /* #212121;*/
+    cursor: default;
+}
+
+
+/* labels in the tabPage handles */
+.qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text
+{
+    justify-content: left;
+    text-align: left;
+	align-items: flex-start;
+}
+
+/*###########################################*/
+/* Background/Container of Tab Handles       */
+/* ##########################################*/
+/*tabHandel area for form tabPage container AND MDI-container*/
+.ui-tabs-nav 
+{
+    min-width: 150px;
+    color: white;
+    background-color: red; var(--cnt-tab-handle-area-color-bg);
+}
+.qx-tabs-container.ui-tabs.ui-widget.ui-widget-content.ui-corner-all 
+.qx-t-h.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header
+{
+	color: pink;
+	background-color: var(--cnt-mdi-tab-handle-container-area-bg);
+}
+
+
+
+/*########################################
+Tab Handles 
+##########################################*/
+/*Note, we need a different/unique class name for MDI-container tab-handles*/
+/*at the moment, this class will select ALL tab handles normal form AND mdi-container */
+
+.ui-tabs-nav .qx-text 
+{
+    min-width: 150px;
+    color: white;
+}
+
+
+
+/* ########################################*/
+/* border for containers */
+/* ########################################*/
+.qx-c-fcls_container_border {  /*for legacy css support only! - do not use*/
+  border: 1px solid var(--cnt-color-border-medium-fg);
+}
+
+.qx-c-fcls_container_border_l1 {
+  border: 1px solid var(--cnt-color-border-light-fg);
+  border-radius: 5px;  
+}
+.qx-c-fcls_container_border_l2 {
+  border: 2px solid var(--cnt-color-border-light-fg);
+  border-radius: 7px;  
+}
+
+.qx-c-fcls_container_border_m1 {
+  border: 1px solid var(--cnt-color-border-medium-fg);
+  border-radius: 5px;
+}
+.qx-c-fcls_container_border_m2 {
+  border: 2px solid var(--cnt-color-border-medium-fg);
+  border-radius: 7px;    
+}
+.qx-c-fcls_container_border_s1 {
+  border: 1px solid var(--cnt-color-border-strong-fg);
+  border-radius: 5px;  
+}
+.qx-c-fcls_container_border_s2 {
+  border: 2px solid var(--cnt-color-border-strong-fg);
+  border-radius: 7px;    
+}
+
