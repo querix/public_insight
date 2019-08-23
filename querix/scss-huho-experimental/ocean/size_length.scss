@@ -666,26 +666,60 @@ ALL Elements V-Size
 }
 
 /*Single Line Widgets / textField based*/
-.qx-aum > .qx-aum.qx-aum-text-field:not(.qx-c-qx-function-text-field), /*textField BUT WITHOUT functionField inner textField*/
-.qx-aum > .qx-aum.qx-aum-text-field,
-.qx-aum > .qx-aum.qx-single-row.qx-aum.qx-aum-function-field-abs, 
-.qx-aum > .qx-aum.qx-aum.qx-aum-combo-box, 
-.qx-aum > .qx-aum.qx-single-row.ui-spinner.qx-aum-spinner, 
-.qx-aum > .qx-aum.qx-single-row.qx-aum.qx-aum-time-edit-field, 
-.qx-aum > .qx-aum.qx-aum.qx-aum-check-box, 
-.qx-aum > .qx-aum.qx-aum-radio-group .qx-aum-radio:not(.qx-aum-radio-group),
-.qx-aum > .qx-aum.qx-aum-button.qx-single-row:not(.qx-c-fcls_button_fit_to_image), 
-.qx-aum > .qx-aum.qx-aum-slider.qx-horizontal.qx-aum,
-.qx-aum > .qx-aum.qx-aum.qx-aum-calendar, 
-.qx-aum > .qx-aum.qx-aum-calendar,
-.qx-aum > .qx-aum.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field
-{
-	height: var(--main-height-1_0) !important;
-	vertical-align: middle ;
-	/*align:left; *//*just for test*/
+// .qx-aum > .qx-aum.qx-aum-text-field:not(.qx-c-qx-function-text-field), /*textField BUT WITHOUT functionField inner textField*/
+// .qx-aum > .qx-aum.qx-aum-text-field,
+// .qx-aum > .qx-aum.qx-single-row.qx-aum.qx-aum-function-field-abs, 
+// .qx-aum > .qx-aum.qx-aum.qx-aum-combo-box, 
+// .qx-aum > .qx-aum.qx-single-row.ui-spinner.qx-aum-spinner, 
+// .qx-aum > .qx-aum.qx-single-row.qx-aum.qx-aum-time-edit-field, 
+// .qx-aum > .qx-aum.qx-aum.qx-aum-check-box, 
+// .qx-aum > .qx-aum.qx-aum-radio-group .qx-aum-radio:not(.qx-aum-radio-group),
+// .qx-aum > .qx-aum.qx-aum-button.qx-single-row:not(.qx-c-fcls_button_fit_to_image), 
+// .qx-aum > .qx-aum.qx-aum-slider.qx-horizontal.qx-aum,
+// .qx-aum > .qx-aum.qx-aum.qx-aum-calendar, 
+// .qx-aum > .qx-aum.qx-aum-calendar,
+// .qx-aum > .qx-aum.qx-aum.qx-aum-calendar.qx-aum-abstract-text-field
+// {
+// 	height: var(--main-height-1_0) !important;
+// 	vertical-align: middle ;
+// }
+
+/*
+Added as the replacement of the above.
+This style has been created for the initial version of /public[v7+vdom] join.
+It prevents height changes for the widget residing in CoordPanel
+*/
+.qx-aum.qx-aum-abstract-container.qx-display-grid {
+  > .qx-aum {
+    &.qx-aum-text-field,
+    &.qx-aum-function-field-abs,
+    &.qx-aum-combo-box,
+    &.ui-spinner.qx-aum-spinner,
+    &.qx-aum-time-edit-field,
+    &.qx-aum-check-box,
+    &.qx-aum-radio,
+    &.qx-bool-widget.qx-aum.qx-aum-radio,
+    &.qx-aum-button,
+    &.qx-aum-progress-bar,
+    &.qx-horizontal.qx-aum.qx-aum-slider,
+    &.qx-aum-calendar {
+      &,
+      &.qx-va-s {
+        height: 2.2rem !important;
+        vertical-align: middle;
+      }
+    }
+    &.qx-aum-function-field-abs .qx-aum-button {
+      flex: 1;
+      align-self: stretch;
+      height: auto !important;
+      border: none;
+    }
+  }
 }
-
-
+.qx-aum-coord-panel > .qx-aum-abstract-field {
+  transition: none !important;
+}
 
 /*special cases for height */
 .qx-aum-progress-bar.qx-aum
@@ -732,3 +766,4 @@ qx-aum-radio-group qx-aum-abstract-field qx-s-on-0 qx-identifier-f7 qx-va-c qx-o
 {
   width: var(--main-height-0_3) !important;
 }
+

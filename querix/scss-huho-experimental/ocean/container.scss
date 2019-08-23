@@ -95,8 +95,9 @@ qx-groupbox-header ui-accordion-header ui-state-default qx-vta-c qx-hta-c ui-acc
   background-image: none;
   color: var(--cnt-gb-titlebar-color-fg);
 }
-.qx-jquery-ui {
+.qx-jquery-ui .qx-aum-abstract-field {
   padding: 2px;
+  margin: 2px;
 }
 
 .qx-material-design .qx-aum-group-box.qx-display-grid[data-vdom-component] > .qx-groupbox-header > .qx-icon {
@@ -338,9 +339,9 @@ Tab Page Container (form container NOT MDI menu container)
 /* ##########################################*/
 /*tabHandel area for form tabPage container AND MDI-container*/
 .ui-tabs-nav {
-  min-width: 150px;
+  // min-width: 150px;
   color: white;
-  background-color: red;
+  // background-color: red;
 }
 
 .qx-tabs-container.ui-tabs.ui-widget.ui-widget-content.ui-corner-all .qx-t-h.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header {
@@ -354,7 +355,7 @@ Tab Handles
 /*Note, we need a different/unique class name for MDI-container tab-handles*/
 /*at the moment, this class will select ALL tab handles normal form AND mdi-container */
 .ui-tabs-nav .qx-text {
-  min-width: 150px;
+  // min-width: 150px;
   color: white;
 }
 /* ########################################*/

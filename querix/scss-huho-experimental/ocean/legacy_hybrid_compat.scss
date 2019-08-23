@@ -72,24 +72,27 @@ height: var(--main-hybrid-legacy-cell-height) ;
 
 
 
-
-.qx-aum-coord-panel .qx-aum-label,
-.qx-aum-coord-panel .qx-aum.qx-aum-text-field, /*textField*/
-.qx-aum-coord-panel .qx-single-row.qx-aum.qx-aum-function-field-abs,  /*functionField*/
-.qx-aum-coord-panel .qx-aum.qx-aum-combo-box,  /*ComboList*/
-.qx-aum-coord-panel .qx-aum.qx-aum-calendar,  /*Calendar*/
-.qx-aum-coord-panel .qx-single-row.ui-spinner.qx-aum-spinner, /*Spinner*/
-.qx-aum-coord-panel .qx-single-row.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
-.qx-aum-coord-panel .qx-aum.qx-aum-check-box,  /*CheckBox*/
-.qx-aum-coord-panel .qx-aum.qx-aum-radio, /*Single RadioButton *special widget*/
-.qx-aum-coord-panel .qx-bool-widget.qx-aum.qx-aum-radio,
-.qx-aum-coord-panel .qx-single-row.qx-aum-button, /*button*/
-.qx-aum-coord-panel .qx-aum-progress-bar,
-.qx-aum-coord-panel .qx-horizontal.qx-aum.qx-aum-slider,
-.qx-aum-coord-panel .qx-aum.qx-aum-radio-group
-{
-	height: var(--qx-qch, 2.2rem) ;
-}
+/*
+vior@Aug23.2019
+Looks wrong, since widgets in the coord panel have sizes present by the server
+*/
+// .qx-aum-coord-panel .qx-aum-label,
+// .qx-aum-coord-panel .qx-aum.qx-aum-text-field, /*textField*/
+// .qx-aum-coord-panel .qx-single-row.qx-aum.qx-aum-function-field-abs,  /*functionField*/
+// .qx-aum-coord-panel .qx-aum.qx-aum-combo-box,  /*ComboList*/
+// .qx-aum-coord-panel .qx-aum.qx-aum-calendar,  /*Calendar*/
+// .qx-aum-coord-panel .qx-single-row.ui-spinner.qx-aum-spinner, /*Spinner*/
+// .qx-aum-coord-panel .qx-single-row.qx-aum.qx-aum-time-edit-field,  /*TimeEdit*/
+// .qx-aum-coord-panel .qx-aum.qx-aum-check-box,  /*CheckBox*/
+// .qx-aum-coord-panel .qx-aum.qx-aum-radio, /*Single RadioButton *special widget*/
+// .qx-aum-coord-panel .qx-bool-widget.qx-aum.qx-aum-radio,
+// .qx-aum-coord-panel .qx-single-row.qx-aum-button, /*button*/
+// .qx-aum-coord-panel .qx-aum-progress-bar,
+// .qx-aum-coord-panel .qx-horizontal.qx-aum.qx-aum-slider,
+// .qx-aum-coord-panel .qx-aum.qx-aum-radio-group
+// {
+// 	height: var(--qx-qch, 2.2rem) ;
+// }
 /*END PREVENT WIDGETS IN COORDPANEL FROM THE SIZE AND POSITION CHANGES */
 
 
@@ -128,3 +131,5 @@ height: var(--main-hybrid-legacy-cell-height) ;
  background-color: var(--main-focus-color-bg) ;
 
 }
+
+
