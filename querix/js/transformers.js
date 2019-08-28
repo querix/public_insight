@@ -102,11 +102,13 @@
         if (hidden) {
           setCss(cm, 'width', sp['menuWidth']);
           setCss(cm, 'min-width', sp['menuWidth']);
+          setCss(cm, 'overflow', 'auto');
           setCss(tb, 'padding-left', sp['topbarPadding']);
           topmost.addClass('cms-mainmenu-visible');
         } else {
           cm.css('width', '1px');
           cm.css('min-width', '1px');
+          cm.css('overflow', 'hidden');
           tb.css('padding-left', 0);
           topmost.removeClass('cms-mainmenu-visible');
         }
