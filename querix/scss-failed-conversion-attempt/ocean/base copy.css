@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
+:root {
+  --default-font-style: normal;
+  --default-font-size: 1rem;
+  --default-font-family: "Open Sans", "Noto Sans", "Roboto", Montserrat, Calibri, "Helvetica Neue", Sans-Serif;
+  /* BEGIN COLORS */
+  --main-color-000: rgba(255, 255, 255, 1.00);
+  --main-color-001: rgba(255, 255, 255, 1.00);
+  /* i.e. reversed text fg, tab-handle border */
+  --main-color-002: rgba(255, 255, 255, 0.4);
+  /* i.e. text partially transparent */
+  --main-color-003: rgba(255, 255, 255, 0.6);
+  /* i.e. mdi tab label fg text partially transparent */
+  --main-color-004: rgba(255, 255, 255, 0.8);
+  /* i.e. text partially transparent */
+  --main-color-010: rgba(032, 053, 094, 1.00);
+  /*i.e. main text label color */
+  --main-color-011: rgba(000, 000, 000, 1.00);
+  --main-color-012: rgba(000, 000, 000, 1.00);
+  --main-color-013: rgba(000, 000, 000, 1.00);
+  --main-color-014: rgba(000, 000, 000, 1.00);
+  --main-color-020: rgba(000, 000, 000, 1.00);
+  --main-color-030: rgba(000, 000, 000, 1.00);
+  --main-color-040: rgba(000, 000, 000, 1.00);
+  --main-color-050: rgba(000, 000, 000, 1.00);
+  --main-color-060: rgba(000, 000, 000, 1.00);
+  --main-color-070: rgba(016, 025, 035, 1.00);
+  --main-color-071: rgba(032, 049, 070, 1.00);
+  /*mdi sub-menu items*/
+  --main-color-072: rgba(048, 074, 105, 1.00);
+  /*mdi menu bg*/
+  --main-color-073: rgba(058, 089, 126, 1.00);
+  /* rgba(058,089,126,1) #3a597e */
+  --main-color-074: rgba(064, 098, 140, 1.00);
+  --main-color-075: rgba(080, 123, 175, 1.00);
+  --main-color-076: rgba(115, 149, 191, 1.00);
+  --main-color-077: rgba(150, 176, 207, 1.00);
+  --main-color-078: rgba(185, 202, 223, 1.00);
+  --main-color-079: rgba(220, 229, 239, 1.00);
+  --main-color-080: rgba(107, 130, 158, 1.00);
+  /* #6B829E */
+  --main-color-081: rgba(058, 089, 126, 0.75);
+  --main-color-082: rgba(105, 167, 215, 1.00);
+  /*field border #69a7d7 */
+  --main-color-083: rgba(003, 151, 218, 1.00);
+  /*mdi highlight*/
+  --main-color-084: rgba(153, 221, 255, 1.00);
+  /*i.e. focus-border focused*/
+  --main-color-085: rgba(208, 229, 245, 0.20);
+  /*i.e. enabled text field bg*/
+  --main-color-086: rgba(058, 089, 126, 0.20);
+  /*light transparent background color*/
+  --main-color-087: rgba(058, 089, 126, 0.40);
+  /*light transparent background color*/
+  --main-color-088: rgba(058, 089, 126, 0.60);
+  /*light transparent background color*/
+  --main-color-089: rgba(058, 089, 126, 0.80);
+  /*light transparent background color*/
+  --main-color-100: rgba(000, 000, 000, 1.00);
+  --main-color-200: rgba(158, 046, 053, 1.00);
+  /*Error*/
+  --main-color-201: rgba(251, 236, 136, 1.00);
+  /*Warning*/
+  --main-color-202: rgba(179, 217, 255, 1.00);
+  /*Info*/
+  --main-color-203: rgba(255, 200, 200, 0.3);
+  /* Conditional row highlight in display array */
+  /* END COLORS */
+  --main-color-fg: black;
+  --main-color-bg: var(--main-color-000);
+  --main-focus-color-fg: black;
+  --main-focus-color-bg: var(--main-color-000);
+  --main-focus-border-color: var(--main-color-071);
+  --main-hover-button-color-fg: var(--main-color-072);
+  --main-hover-button-color-bg: var(--main-color-078);
+  --main-label-color-fg: var(--main-color-010);
+  --main-label-rev-color-fg: var(--main-color-000);
+  --main-label-color-bg: transparent;
+  --main-textfield-enabled-color-fg: var(--fgl-color-default);
+  --main-textfield-enabled-color-bg: var(--main-color-085);
+  --main-textfield-disabled-color-fg: var(--main-color-010);
+  --main-textfield-disabled-color-bg: var(--main-color-010);
+  --main-panel-color-fg: var(--main-color-000);
+  --main-panel-color-bg: var(--main-color-073);
+  --main-form-button-color-fg: black;
+  --main-form-button-color-bg: white;
+  --main-dialog-button-color-fg: black;
+  --main-dialog-button-color-bg: white;
+  --main-dialog-button-focus-color-fg: black;
+  --main-dialog-button-focus-color-bg: rgba(233, 251, 255, 1.00);
+  
+  /* default 4gl attribute colours */
+  --fgl-color-default: var(--main-color-073);
+  /*rgb(58, 89, 126); */
+  --fgl-color-default-fg: var(--main-color-073);
+  /*rgb(58, 89, 126); */
+  --fgl-color-default-bg: rgba(203, 215, 231, 1);
+  --fgl-color-black: black;
+  --fgl-color-black-fg: black;
+  --fgl-color-black-bg: rgba(217, 217, 217, 1);
+  --fgl-color-white: white;
+  --fgl-color-white-fg: white;
+  --fgl-color-white-bg: rgba(89, 89, 89, 1);
+  --fgl-color-green: rgb(51, 153, 51);
+  --fgl-color-green-fg: rgb(51, 153, 51);
+  --fgl-color-green-bg: rgba(214, 245, 214, 1);
+  --fgl-color-red: rgb(204, 0, 0);
+  --fgl-color-red-fg: rgb(204, 0, 0);
+  --fgl-color-red-bg: rgba(255, 204, 204, 1);
+  --fgl-color-blue: rgb(58, 89, 126);
+  --fgl-color-blue-fg: rgb(58, 89, 126);
+  --fgl-color-blue-bg: rgba(203, 215, 231, 1);
+  --fgl-color-cyan: rgb(51, 204, 255);
+  --fgl-color-cyan-fg: rgb(51, 204, 255);
+  --fgl-color-cyan-bg: rgba(179, 236, 255, 1);
+  --fgl-color-yellow: rgb(255, 204, 0);
+  --fgl-color-yellow-fg: rgb(255, 204, 0);
+  --fgl-color-yellow-bg: rgba(255, 240, 179, 1);
+  --fgl-color-magenta: rgb(191, 0, 255);
+  --fgl-color-magenta-fg: rgb(191, 0, 255);
+  --fgl-color-magenta-bg: rgba(236, 179, 255, 1);
+  /* default 4gl colours with REVERSED*/
+  --fgl-color-default-rev-fg: white;
+  --fgl-color-default-rev-bg: rgb(58, 89, 126);
+  --fgl-color-black-rev-fg: white;
+  --fgl-color-black-rev-bg: black;
+  --fgl-color-white-rev-fg: black;
+  --fgl-color-white-rev-bg: white;
+  --fgl-color-green-rev-fg: white;
+  --fgl-color-green-rev-bg: rgb(51, 153, 51);
+  --fgl-color-red-rev-fg: white;
+  --fgl-color-red-rev-bg: rgb(204, 0, 0);
+  --fgl-color-blue-rev-fg: white;
+  --fgl-color-blue-rev-bg: rgb(58, 89, 126);
+  --fgl-color-yellow-rev-fg: white;
+  --fgl-color-yellow-rev-bg: rgb(255, 204, 0);
+  --fgl-color-cyan-rev-fg: white;
+  --fgl-color-cyan-rev-bg: rgb(51, 204, 255);
+  --fgl-color-magenta-rev-fg: white;
+  --fgl-color-magenta-rev-bg: rgb(191, 0, 255);
+  /* default 4gl DIM colours */
+  --fgl-color-dim-bg-label: transparent;
+  --fgl-color-default-dim-fg: rgb(40, 61, 87);
+  --fgl-color-default-dim-bg: transparent;
+  --fgl-color-black-dim-fg: rgb(100, 100, 100);
+  --fgl-color-black-dim-bg: transparent;
+  --fgl-color-white-dim-fg: rgb(150, 150, 150);
+  --fgl-color-white-dim-bg: transparent;
+  --fgl-color-green-dim-fg: rgb(38, 115, 38);
+  --fgl-color-green-dim-bg: transparent;
+  --fgl-color-red-dim-fg: rgb(153, 0, 0);
+  --fgl-color-red-dim-bg: transparent;
+  --fgl-color-blue-dim-fg: rgb(40, 61, 87);
+  --fgl-color-blue-dim-bg: transparent;
+  --fgl-color-yellow-dim-fg: rgb(255, 153, 0);
+  --fgl-color-yellow-dim-bg: transparent;
+  --fgl-color-cyan-dim-fg: rgb(0, 115, 153);
+  --fgl-color-cyan-dim-bg: transparent;
+  --fgl-color-magenta-dim-fg: rgb(115, 0, 153);
+  --fgl-color-magenta-dim-bg: transparent;
+  /* default 4gl BLINK colours */
+  /*--fgl-color-blink-bg-label: rgba(235,235,100,0.3);*/
+  --fgl-color-blink-bg-label: transparent;
+  --fgl-color-default-blink-fg: rgb(98, 136, 183);
+  --fgl-color-black-blink-fg: rgb(100, 100, 100);
+  --fgl-color-white-blink-fg: rgb(150, 150, 150);
+  --fgl-color-green-blink-fg: rgb(64, 191, 64);
+  --fgl-color-red-blink-fg: rgb(255, 102, 102);
+  --fgl-color-blue-blink-fg: rgb(98, 136, 183);
+  --fgl-color-yellow-blink-fg: rgb(255, 255, 0);
+  --fgl-color-cyan-blink-fg: rgb(102, 217, 255);
+  --fgl-color-magenta-blink-fg: rgb(217, 102, 255);
+  
+  /*var(--main-color-084);*/
+  /*remove/replace below it's old */
+  --main-bg-color: white;
+  --main-fg-color: black;
+  /* mdi menu container transformer*/
+  --cnt_mdi_menu_col1-color: var(--main-color-073);
+  /*  #3a597e; rgb(58, 89, 126) */
+  /* top/left titlebar logo bg  */
+  --cnt_mdi_header-bg-color: var(--main-color-073);
+  /* #3a597e rgb(58, 89, 126) ; */
+  /*top-right main titlebar bg */
+  --cnt_mdi_menu_col2-color: var(--main-color-073);
+  /* #324873 */
+  ;
+  /*margin between menu/scroll area and app canvas */
+  --cnt_mdi_menu_col3-color: var(--main-color-071);
+  /*   #20355e; */
+  /* sub-items */
+  --cnt_mdi_menu_col4-color: var(--main-color-000);
+  /*rgba(255,255,255); */
+  /* focused/selected menu item label fg*/
+  --cnt_mdi_menu_col5-color: var(--main-color-083);
+  /* #0397da; */
+  /* selection background */
+  --cnt_mdi_menu_header-bg-color: orange;
+  --cnt_mdi_menu_button_area-bg-color: var(--main-color-072);
+  /* #324873  */
+  ;
+  /* Tab-Page Form Container */
+  --cnt-mdi-tab-handle-container-area-bg: var(--main-color-073);
+  /*rgb(58, 89, 126);  */
+  --cnt_mdi_tab_handle_selected-color-fg: var(--main-label-rev-color-fg);
+  --cnt_mdi_tab_handle_selected-color-bg: var(--main-color-073);
+  /*rgb(58, 89, 126);  */
+  --cnt_mdi_tab_handle_selected-border-color-bg: var(--main-color-001);
+  /*rgb(58, 89, 126);  */
+  --cnt_mdi_tab_handle_not_selected-color-fg: var(--main-label-rev-color-fg);
+  --cnt_mdi_tab_handle_not_selected-color-bg: var(--main-color-081);
+  /*rgba(58, 89, 126,.75); */
+  --cnt_mdi_tab_handle_not_selected-border-color-bg: var(--main-color-078);
+  /*rgb(58, 89, 126);  */
+  --cnt-mdi-tab-handle-hover-color-fg: var(--main-label-rev-color-fg);
+  /* let's keep it the same  */
+  --cnt-mdi-tab-handle-hover-color-bg: transparent;
+  /*var(--main-hover-button-color-bg);*/
+  --cnt_mdi_tab_handle_not_selected-bg-color: rgba(58, 89, 126, .75);
+  /* Toolbar */
+  --toolbar-fg-color: var(--main-color-001);
+  /* white;   */
+  --toolbar-bg-color: var(--main-color-073);
+  /* rgb(58, 89, 126);  */
+  --toolbar-button-fg-color: var(--main-color-001);
+  /* white;   */
+  --toolbar-button-bg-color: var(--main-color-073);
+  /* rgb(58, 89, 126);  */
+  --toolbar-button-hover-fg-color: var(--main-hover-button-color-fg);
+  /* white;   */
+  --toolbar-button-hover-bg-color: var(--main-hover-button-color-bg);
+  /* rgb(58, 89, 126);  */
+  --cnt_titlebar-fg-color: pink;
+  --cnt_titlebar-bg-color: blue;
+  --cnt-color-fg: pink;
+  --cnt-color-bg: blue;
+  --cnt-color-border-light-fg: rgb(170, 170, 170);
+  /*used*/
+  --cnt-color-border-medium-fg: #3a597e;
+  /*used*/
+  --cnt-color-border-strong-fg: rgb(204, 0, 0);
+  /* Tab Page Container */
+  --cnt-tab-handle-container-area-bg: var(--main-color-073);
+  /*rgb(58, 89, 126);  */
+  --cnt_tab_handle_not_selected-bg-color: var(--main-color-074);
+  --cnt_tab_handle_selected-bg-color: var(--main-color-072);
+  /* rgb(32, 53, 94);  */
+  --cnt_tab_handle_area-bg-color: var(--main-color-073);
+  /* #3a597e; */
+  --cnt_tab_handle_area-hover-bg-color: var(--main-hover-button-color-bg);
+  /* Label */
+  --label-fg-color: var(--fgl-color-default);
+  /* #3a597e; */
+  /*default label color */
+  --label_rev-fg-color: var(--main-color-001);
+  /*white;*/
+  --label_rev-bg-color: var(--main-color-073);
+  /*#3a597e; */
+  --label_comment-fg-color: grey;
+  --tf-label-enabled_fg-color: #3a597e;
+  --tf-label-disabled_fg-color: #3a597e;
+  --tf-label_rev-fg-color: white;
+  --tf-label_rev-bg-color: #3a597e;
+  --tf-label_comment-fg-color: grey;
+  --tf-border-color: var(--main-color-082);
+  --tf-border-hover-color: var(--main-color-083);
+  --titlebar-bg-color: yellow;
+  --titlebar-fg-color: orange;
+  /* GroupBox container */
+  --cnt_gb-fg-color: yellow;
+  --cnt_gb-bg-color: var(--main-color-001);
+  /*white;*/
+  --cnt_gb_titlebar-fg-color: var(--main-color-001);
+  /*white;*/
+  --cnt_gb_titlebar-bg-color: var(--main-color-073);
+  /*#3a597e; */
+  /* Table container display/input array */
+  --cnt_tb_header-fg-color: var(--main-color-001);
+  /*yellow; */
+  --cnt_tb_header-bg-color: var(--main-color-073);
+  /*#3a597e;  */
+  --cnt_tb_curr_row-fg-color: white;
+  --cnt_tb_curr_row-bg-color: #6a89ae;
+  --cnt_tb_row_odd-fg-color: rgba(137, 210, 255, 0.2);
+  --cnt_tb_row_even-bg-color: rgba(137, 210, 255, 0.2);
+  --cnt-tb-color-curr-row-inp-field-fg: var(--main-color-001);
+  /* white; */
+  --cnt-tb-color-curr-row-inp-field-bg: var(--main-color-076);
+  /* #6a89ae; */
+  /* RootContainer colors */
+  --root_cnt_titlebar-fg-color: pink;
+  --root_cnt_titlebar-bg-color: blue;
+  --root_cnt_header-fg-color: var(--main-color-001);
+  /*white; */
+  --root_cnt_header-bg-color: var(--main-color-073);
+  /*#3a597e;*/
+  --root_cnt_footer-fg-color: var(--main-color-001);
+  /*white; */
+  --root_cnt_footer-bg-color: var(--main-color-073);
+  /*#3a597e;*/
+  --root_cnt-fg-color: pink;
+  --root_cnt-bg-color: blue;
+  /* Button Widget */
+  --widg_button-fg-color: var(--main-color-001);
+  /*white; */
+  --widg_button-bg-color: var(--main-color-073);
+  /*rgb(58, 89, 126); */
+  /* Dialog Boxes */
+  --dialog-box-color-fg: pink;
+  --dialog-box-color-bg: var(--main-color-bg);
+  --dialog-box-titlebar-color-fg: var(--main-panel-color-fg);
+  --dialog-box-titlebar-color-bg: var(--main-panel-color-bg);
+  --dialog-box-message-color-fg: var(--main-label-color-fg);
+  --dialog-box-message-color-bg: transparent;
+  --dialog-box-button-color-fg: var(--main-dialog-button-color-fg);
+  --dialog-box-button-color-bg: var(--main-dialog-button-color-bg);
+  --dialog-box-button-focus-color-fg: var(--main-dialog-button-color-fg);
+  --dialog-box-button-focus-color-bg: var(--main-dialog-button-focus-color-bg);
+
+  --qx-menu-hover: #f0f8ff;
+}
+
+/*Default font for elements, if it does not get overwritten by other css selectors*/
+.qx-text,
+.qx-has-text .qx-text,
+.qx-c-fcls_data_widget.qx-has-text .qx-text,
+.qx-bcell .qx-tbody.qx-tbody-flex-experimental,
+.ui-spinner.ui-widget.ui-widget-content.qx-aum.qx-aum-spinner.qx-aum-abstract-field.qx-c-fcls_data_widget .qx-text,
+.qx-text-field.qx-aum-text-field .qx-text {
+  font-size: var(--default-font-size);
+  font-family: var(--default-font-family);
+  font-style: var(--default-font-style);
+}

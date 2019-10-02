@@ -161,15 +161,10 @@
           this.removeClass('MENU-ITEM-TRANSFORMED');
         },
         attach: function (to) {
-          var menuBar = this;
-          var domMenu = menuBar[0];
-          domMenu.addEventListener('click', function (e) {
-            menuBar.find('.menu-item-selected').removeClass('menu-item-selected');
-            var menuItem = $(e.target).closest('.qx-aum-menu-item');
-            if (menuItem.length === 1) {
-              menuItem.addClass('menu-item-selected');
-            }
-          }, true);
+          this.find('a').on('click', function () {
+            $$('#qx-container-menu li').removeClass('menu-item-selected');
+            $$(this).parent().addClass('menu-item-selected');
+          });
           this.addClass('MENU-ITEM-TRANSFORMED');
           var closeButton = this.parent().find('.cms-mainmenu-close');
           if (closeButton.length == 0) {

@@ -1,0 +1,9 @@
+/*BEGIN text-console.css*/
+.qx-jquery-ui {
+  /*Used to select/manipulate the contents of the qx_console_window (report, DISPLAY, Log)*/
+  .qx-text-console .ui-widget-content textarea{
+    font: normal 0.8rem "Roboto Mono", Courier, Sans-Serif;
+    color: black;
+  }   
+}
+/*END text-console.css*/

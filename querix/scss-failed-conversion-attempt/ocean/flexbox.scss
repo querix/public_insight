@@ -1,0 +1,60 @@
+/*BEGIN flextbox.css*/
+.qx-jquery-ui .qx-c-fcls_flexbox {
+  .qx-tbody {
+    display: block;
+    
+    > tbody {
+      display: block;
+      padding-top: 1em;
+      
+      > tr {
+        float: left;
+        display: flex;
+        flex-flow: column;
+        flex: 1 1 30%;
+        align-self: flex-start;
+        margin: 1%;
+        min-width: 170px;
+        border: none;
+        background: none;
+        
+        &.qx-scroll-space {
+          flex: 0 0 100%;
+        }
+        
+        > td {
+          height: auto;
+          border: none;
+          align-self: center;
+
+          &:nth-child(1) img {
+            height: 120px;
+          }
+          &:nth-child(2) {
+            display: none;
+          }
+          img:first-child {
+            border-radius: 1em;
+          }          
+        }
+        
+        * {
+          background: none;
+        }        
+      }
+    }
+  }
+  &.qx-aum-table.qx-table {
+    background-image: none;
+    background-color: #ffffff;
+  }
+  .qx-hrow,
+  .qx-frow,
+  .qx-tbody > thead {
+    display: none;
+  }
+  .qx-brow {
+    padding-top:0;
+  }
+}
+/*END flextbox.css*/

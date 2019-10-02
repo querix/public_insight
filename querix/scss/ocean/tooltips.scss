@@ -1,40 +1,45 @@
 /*BEGIN tooltips.css*/
 .qx-jquery-ui {
   .tooltipster-default {
-    border-radius: 5px; 
-    border: 1px solid #000;
-    background: #4c4c4c;
-    color: #fff;
-
-    .tooltipster-content {
-      font-family: "Roboto",Montserrat,Calibri,"Trebuchet MS",Tahoma,Verdana,Arial,sans-serif;
-      font-size: 9pt;
-      line-height: normal;
-      padding: 6px 10px;
-    }
+    border-radius: var(--main-tooltip-default-border-radius); 
+    border: var(--main-tooltip-default-border-width) solid var(--main-tooltip-default-border-color); /* #000; */
+    background: var(--main-tooltip-default-color-bg); /*#4c4c4c;*/
+    color: var(--main-tooltip-default-color-fg); /* #fff;*/
   }
-
+  
+  .tooltipster-default .tooltipster-content {
+    font: var(--main-tooltip-default-border-font);
+    /*font-family: "Roboto",Montserrat,Calibri,"Trebuchet MS",Tahoma,Verdana,Arial,sans-serif;*/
+    /*font-size: 9pt;*/
+    line-height: normal;
+    padding: 6px 10px;
+    /*overflow: hidden;*/
+  }
+  
   .tooltipster-message,.tooltipster-usage,.tooltipster-other {
-    color: #3c763d;
-    background-color: #dff0d8;
-    border-color: #d6e9c6;
+      color: var(--main-tooltip-message-color-fg);
+      background-color: var(--main-tooltip-message-color-bg);
+      border-color: var(--main-tooltip-message-border-color);
   }
-
+  
   .tooltipster-warning {
-    color: #8a6d3b;
-    background-color: #fcf8e3;
-    border-color: #faebcc;
+      color: var(--main-tooltip-warning-color-fg);
+      background-color: var(--main-tooltip-warning-color-bg);
+      border-color: var(--main-tooltip-warning-border-color);
   }
   .tooltipster-error {
-    color: #a94442;
-    background-color: #f2dede;
-    border-color: #ebccd1;
+      color: var(--main-tooltip-error-color-fg);
+      background-color: var(--main-tooltip-error-color-bg);
+      border-color: var(--main-tooltip-error-border-color);
   }
   .tooltipster-info {
-    color: #31708f;
-    background-color: #d9edf7;
-    border-color: #bce8f1;
+      color: var(--main-tooltip-info-color-fg);
+      background-color: var(--main-tooltip-info-color-bg);
+      border-color: var(--main-tooltip-info-border-color);
   }
+}
+
+.qx-material-design {
 }
 /*END tooltips.css*/
 

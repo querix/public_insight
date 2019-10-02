@@ -1,0 +1,21 @@
+@import url("base.css");
+@import url("fcls_font_test.css");
+@import url("flexbox.css");
+@import url("form_class_selector-blue.css");
+@import url("menu.css");
+@import url("text_label.css");
+@import url("toolbar.css");
+@import url("tooltips.css");
+@import url("form_header_footer.css");
+@import url("element_type.css");
+@import url("container.css");
+@import url("mdi_menu.css");
+@import url("dialog_box.css");
+@import url("text-console.css");
+@import url("messages.css");
+@import url("alignment.css");
+/*LOOKS LIKE DUPLICATE OF THE color_attribute_4gl.css*/
+@import url("color_default.css");
+@import url("color_attribute_4gl.css");
+@import url("button_library.css");
+@import url("size_length.css");
