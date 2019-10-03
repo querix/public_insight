@@ -1,4 +1,159 @@
 /*BEGIN color_attribute_fgl.css*/
+$colorlist: ('black', 'white', 'green', 'red', 'blue', 'magenta', 'yellow', 'cyan');
+$widgetSelectors: ".qx-aum-calendar, .qx-aum-calendar *,"+
+".qx-aum-text-field, .qx-aum-text-field *,"+
+".qx-aum-text-area, .qx-aum-text-area *,"+
+".qx-aum-time-edit-field, .qx-aum-time-edit-field *,"+
+".qx-aum-spinner, .qx-aum-spinner .qx-text,"+
+".qx-aum-combo-box, .qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,"+
+".qx-aum-function-field-abs .qx-ff-text, .qx-aum-function-field-abs .qx-ff-text *";
+
+#{selector-append('.qx-active', $widgetSelectors)} {
+  color: var(--fgl-color-blue);
+  background-color: transparent;
+}
+#{selector-append('.qx-active.qx-c-attribute_reverse', $widgetSelectors)} {
+  color: var(--fgl-color-blue-rev-fg);
+  background-color: var(--fgl-color-blue-rev-bg);
+}
+
+.qx-aum-some.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+.qx-aum-some.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) * {
+  /*color: var(--fgl-color-black-bg); */
+  background: var(--fgl-color-default-fg);
+}
+.qx-c-attribute_reverse[data-md-widget]:not(.qx-c-nativestyle),
+.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
+  color: var(--fgl-color-default-bg);
+  background-color: var(--fgl-color-default-fg); 
+}
+
+/* Need to check this with Victor - hightlight is always sending color blue */
+/*Check color_default and size_length for duplicates*/
+// .qx-c-attribute_green.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected .qx-table-cell.qx-c-activefield.qx-aum-some.qx-aum-abstract-field.qx-has-text {
+//   background-color: var(--fgl-color-green-fg);
+//   color: var(--fgl-color-green-bg);
+// }
+
+@each $color in $colorlist {
+  .qx-c-attribute_#{$color} {
+    &.qx-aum-label {
+      color: var(--fgl-color-#{$color}-fg);	
+      /*fgl color #{$color}-reverse huho: 03.11.2018 */
+      &.qx-c-attribute_reverse {
+        background-color: var(--fgl-color-#{$color}-rev-bg);    
+        color: var(--fgl-color-#{$color}-rev-fg);	
+      }    
+      // &.qx-c-attribute_reverse .qx-text{
+      //   color: var(--fgl-color-#{$color}-rev-fg);	
+      // }    
+      /*fgl color #{$color}-Dim huho: 03.11.2018 */
+      &.qx-c-attribute_dim {
+        color: var(--fgl-color-#{$color}-dim-bg);
+        background-color: var(--fgl-color-#{$color}-dim-bg);
+      }
+  
+      &.qx-c-attribute_blink {
+        background-color: var(--fgl-color-blink-bg-label);
+        color: var(--fgl-color-#{$color}-blink-fg);
+      }
+    } 
+
+    &.qx-inactive {
+      @at-root #{selector-append(&, $widgetSelectors)} {
+        color: var(--fgl-color-#{$color}-fg);
+        background-color: transparent;
+      }
+      &.qx-c-attribute_reverse {
+        @at-root #{selector-append(&, $widgetSelectors)} {
+          color: var(--fgl-color-#{$color}-rev-fg);
+          background-color: var(--fgl-color-#{$color}-rev-bg);
+          opacity: 1;
+        }
+      }
+      &.qx-c-attribute_dim {
+        @at-root #{selector-append(&, $widgetSelectors)} {
+          color: var(--fgl-color-#{$color}-dim-fg);
+          background-color: var(--fgl-color-#{$color}-dim-bg);
+          opacity: 1;
+        }
+      }
+      &.qx-c-attribute_blink {
+        @at-root #{selector-append(&, $widgetSelectors)} {
+          color: var(--fgl-color-#{$color}-blink-fg);
+          background-color: var(--fgl-color-#{$color}-blink-bg);
+          opacity: 1;
+        }
+      }
+    }
+
+    &.qx-active {
+      @at-root #{selector-append(&, $widgetSelectors)} {
+        color: var(--fgl-color-#{$color}-fg);
+        background-color: transparent;
+      }
+      &.qx-c-attribute_reverse {
+        @at-root #{selector-append(&, $widgetSelectors)} {
+          color: var(--fgl-color-#{$color}-rev-fg);
+          background-color: var(--fgl-color-#{$color}-rev-bg);
+          opacity: 1;
+        }
+      }
+      &.qx-c-attribute_dim {
+        @at-root #{selector-append(&, $widgetSelectors)} {
+          color: var(--fgl-color-#{$color}-dim-fg);
+          background-color: var(--fgl-color-#{$color}-dim-bg);
+          opacity: 1;
+        }
+      }
+      &.qx-c-attribute_blink {
+        @at-root #{selector-append(&, $widgetSelectors)} {
+          color: var(--fgl-color-#{$color}-blink-fg);
+          background-color: var(--fgl-color-#{$color}-blink-bg);
+          opacity: 1;
+        }
+      }
+    }
+
+    &.qx-aum-browser {
+      color: var(--fgl-color-#{$color}-fg);
+      background-color: var(--fgl-color-#{$color}-bg);
+    }
+    &.qx-aum-browser.qx-c-attribute_reverse {
+      color: var(--fgl-color-#{$color}-rev-fg);
+      background-color: var(--fgl-color-#{$color}-rev-bg);
+      opacity: 1;
+    }
+    &.qx-aum-browser.qx-c-attribute_dim {
+      color: var(--fgl-color-#{$color}-dim-fg);
+      background-color: var(--fgl-color-#{$color}-dim-bg);
+      opacity: 1;
+    }
+    &.qx-aum-browser.qx-c-attribute_blink {
+      color: var(--fgl-color-#{$color}-blink-fg);
+      background-color: var(--fgl-color-#{$color}-blink-bg);
+      opacity: 1;
+    }
+
+    /*Supporting 4gl color attributes for tables display/ipnut array*/
+    &:not(.qx-c-nativestyle) {
+      color: var(--fgl-color-#{$color}-fg);
+      /*ABRA*/
+      @at-root &[data-md-widget],
+      .qx-aum-some#{&},
+      .qx-aum-some#{&} * {
+        color: var(--fgl-color-#{$color}-fg);
+        background: var(--fgl-color-#{$color}-bg);
+      }
+      @at-root .qx-aum-some.qx-c-attribute_reverse#{&},
+      .qx-aum-some.qx-c-attribute_reverse#{&} * {
+        color: var(--fgl-color-#{$color}-bg);
+        background: var(--fgl-color-#{$color}-fg);
+      }
+    }
+  }
+}
+
 .qx-jquery-ui {
   .qx-c-attribute_black.qx-aum-label .qx-text {
     color: var(--fgl-color-black);
@@ -381,7 +536,7 @@
     color: var(--fgl-color-black) !important;
     background-color: transparent;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /* BLACK REVERSE*/
   .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
@@ -402,7 +557,7 @@
     color: var(--fgl-color-black-rev-fg) !important;
     background-color: var(--fgl-color-black-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* BLACK DIM*/
@@ -424,7 +579,7 @@
     color: var(--fgl-color-black-dim-fg) !important;
     background-color: var(--fgl-color-black-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -447,7 +602,7 @@
     color: var(--fgl-color-black-blink-fg) !important;
     background-color: var(--fgl-color-black-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -477,7 +632,7 @@
     color: var(--fgl-color-white) !important;
     background-color: transparent;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /* WHITE REVERSE*/
   .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
@@ -498,7 +653,7 @@
     color: var(--fgl-color-white-rev-fg) !important;
     background-color: var(--fgl-color-white-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* WHITE DIM*/
@@ -520,7 +675,7 @@
     color: var(--fgl-color-white-dim-fg) !important;
     background-color: var(--fgl-color-white-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -543,7 +698,7 @@
     color: var(--fgl-color-white-blink-fg) !important;
     background-color: var(--fgl-color-white-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /*
@@ -572,7 +727,7 @@
     color: var(--fgl-color-green) !important;
     background-color: transparent;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /* GREEN REVERSE*/
   .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
@@ -593,7 +748,7 @@
     color: var(--fgl-color-green-rev-fg) !important;
     background-color: var(--fgl-color-green-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* GREEN DIM*/
@@ -615,7 +770,7 @@
     color: var(--fgl-color-green-dim-fg) !important;
     background-color: var(--fgl-color-green-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -638,7 +793,7 @@
     color: var(--fgl-color-green-blink-fg) !important;
     background-color: var(--fgl-color-green-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /*
@@ -667,7 +822,7 @@
     color: var(--fgl-color-red) !important;
     background-color: transparent;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /* RED REVERSE*/
   .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
@@ -688,7 +843,7 @@
     color: var(--fgl-color-red-rev-fg) !important;
     background-color: var(--fgl-color-red-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* RED DIM*/
@@ -710,7 +865,7 @@
     color: var(--fgl-color-red-dim-fg) !important;
     background-color: var(--fgl-color-red-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -733,7 +888,7 @@
     color: var(--fgl-color-red-blink-fg) !important;
     background-color: var(--fgl-color-red-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /*
   ####################################################################
@@ -762,7 +917,7 @@
     color: var(--fgl-color-blue) !important;
     background-color: transparent !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* BLUE REVERSE*/
@@ -784,7 +939,7 @@
     color: var(--fgl-color-blue-rev-fg) !important;
     background-color: var(--fgl-color-blue-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* BLUE DIM*/
@@ -806,7 +961,7 @@
     color: var(--fgl-color-blue-dim-fg) !important;
     background-color: var(--fgl-color-blue-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -829,7 +984,7 @@
     color: var(--fgl-color-blue-blink-fg) !important;
     background-color: var(--fgl-color-blue-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /*
@@ -858,7 +1013,7 @@
     color: var(--fgl-color-yellow) !important;
     background-color: transparent;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /* YELLOW REVERSE*/
   .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
@@ -879,7 +1034,7 @@
     color: var(--fgl-color-yellow-rev-fg) !important;
     background-color: var(--fgl-color-yellow-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* yellow DIM*/
@@ -901,7 +1056,7 @@
     color: var(--fgl-color-yellow-dim-fg) !important;
     background-color: var(--fgl-color-yellow-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -924,7 +1079,7 @@
     color: var(--fgl-color-yellow-blink-fg) !important;
     background-color: var(--fgl-color-yellow-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /*
   ####################################################################
@@ -952,7 +1107,7 @@
     color: var(--fgl-color-cyan) !important;
     background-color: transparent;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /* CYAN REVERSE*/
   .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
@@ -973,7 +1128,7 @@
     color: var(--fgl-color-cyan-rev-fg) !important;
     background-color: var(--fgl-color-cyan-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* CYAN DIM*/
@@ -995,7 +1150,7 @@
     color: var(--fgl-color-cyan-dim-fg) !important;
     background-color: var(--fgl-color-cyan-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -1018,7 +1173,7 @@
     color: var(--fgl-color-cyan-blink-fg) !important;
     background-color: var(--fgl-color-cyan-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /*
   ####################################################################
@@ -1046,7 +1201,7 @@
     color: var(--fgl-color-magenta) !important;
     background-color: transparent;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /* MAGENTA REVERSE*/
   .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
@@ -1067,7 +1222,7 @@
     color: var(--fgl-color-magenta-rev-fg) !important;
     background-color: var(--fgl-color-magenta-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* MAGENTA DIM*/
@@ -1089,7 +1244,7 @@
     color: var(--fgl-color-magenta-dim-fg) !important;
     background-color: var(--fgl-color-magenta-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -1112,7 +1267,7 @@
     color: var(--fgl-color-magenta-blink-fg) !important;
     background-color: var(--fgl-color-magenta-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /*##############################################################################################################*/
@@ -1145,7 +1300,7 @@
     color: var(--fgl-color-black) !important;
     background-color: transparent;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /* BLACK REVERSE*/
   .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
@@ -1166,7 +1321,7 @@
     color: var(--fgl-color-black-rev-fg) !important;
     background-color: var(--fgl-color-black-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* BLACK DIM*/
@@ -1188,7 +1343,7 @@
     color: var(--fgl-color-black-dim-fg) !important;
     background-color: var(--fgl-color-black-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -1211,7 +1366,7 @@
     color: var(--fgl-color-black-blink-fg) !important;
     background-color: var(--fgl-color-black-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -1241,7 +1396,7 @@
     color: var(--fgl-color-white) !important;
     background-color: transparent;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /* WHITE REVERSE*/
   .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
@@ -1262,7 +1417,7 @@
     color: var(--fgl-color-white-rev-fg) !important;
     background-color: var(--fgl-color-white-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* WHITE DIM*/
@@ -1284,7 +1439,7 @@
     color: var(--fgl-color-white-dim-fg) !important;
     background-color: var(--fgl-color-white-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -1307,7 +1462,7 @@
     color: var(--fgl-color-white-blink-fg) !important;
     background-color: var(--fgl-color-white-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /*
@@ -1336,7 +1491,7 @@
     color: var(--fgl-color-green) !important;
     background-color: transparent;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /* GREEN REVERSE*/
   .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
@@ -1357,7 +1512,7 @@
     color: var(--fgl-color-green-rev-fg) !important;
     background-color: var(--fgl-color-green-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* GREEN DIM*/
@@ -1379,7 +1534,7 @@
     color: var(--fgl-color-green-dim-fg) !important;
     background-color: var(--fgl-color-green-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -1402,7 +1557,7 @@
     color: var(--fgl-color-green-blink-fg) !important;
     background-color: var(--fgl-color-green-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /*
@@ -1431,7 +1586,7 @@
     color: var(--fgl-color-red) !important;
     background-color: transparent;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /* RED REVERSE*/
   .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
@@ -1452,7 +1607,7 @@
     color: var(--fgl-color-red-rev-fg) !important;
     background-color: var(--fgl-color-red-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* RED DIM*/
@@ -1474,7 +1629,7 @@
     color: var(--fgl-color-red-dim-fg) !important;
     background-color: var(--fgl-color-red-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -1497,7 +1652,7 @@
     color: var(--fgl-color-red-blink-fg) !important;
     background-color: var(--fgl-color-red-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /*
   ####################################################################
@@ -1526,7 +1681,7 @@
     color: var(--fgl-color-blue) !important;
     background-color: transparent !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* BLUE REVERSE*/
@@ -1548,7 +1703,7 @@
     color: var(--fgl-color-blue-rev-fg) !important;
     background-color: var(--fgl-color-blue-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* BLUE DIM*/
@@ -1570,7 +1725,7 @@
     color: var(--fgl-color-blue-dim-fg) !important;
     background-color: var(--fgl-color-blue-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -1593,7 +1748,7 @@
     color: var(--fgl-color-blue-blink-fg) !important;
     background-color: var(--fgl-color-blue-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /*
@@ -1622,7 +1777,7 @@
     color: var(--fgl-color-yellow) !important;
     background-color: transparent;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /* YELLOW REVERSE*/
   .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
@@ -1643,7 +1798,7 @@
     color: var(--fgl-color-yellow-rev-fg) !important;
     background-color: var(--fgl-color-yellow-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* yellow DIM*/
@@ -1665,7 +1820,7 @@
     color: var(--fgl-color-yellow-dim-fg) !important;
     background-color: var(--fgl-color-yellow-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -1688,7 +1843,7 @@
     color: var(--fgl-color-yellow-blink-fg) !important;
     background-color: var(--fgl-color-yellow-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /*
   ####################################################################
@@ -1716,7 +1871,7 @@
     color: var(--fgl-color-cyan) !important;
     background-color: transparent;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /* CYAN REVERSE*/
   .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
@@ -1737,7 +1892,7 @@
     color: var(--fgl-color-cyan-rev-fg) !important;
     background-color: var(--fgl-color-cyan-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* CYAN DIM*/
@@ -1759,7 +1914,7 @@
     color: var(--fgl-color-cyan-dim-fg) !important;
     background-color: var(--fgl-color-cyan-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -1782,7 +1937,7 @@
     color: var(--fgl-color-cyan-blink-fg) !important;
     background-color: var(--fgl-color-cyan-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /*
   ####################################################################
@@ -1810,7 +1965,7 @@
     color: var(--fgl-color-magenta) !important;
     background-color: transparent;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   /* MAGENTA REVERSE*/
   .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
@@ -1831,7 +1986,7 @@
     color: var(--fgl-color-magenta-rev-fg) !important;
     background-color: var(--fgl-color-magenta-rev-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /* MAGENTA DIM*/
@@ -1853,7 +2008,7 @@
     color: var(--fgl-color-magenta-dim-fg) !important;
     background-color: var(--fgl-color-magenta-dim-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   
@@ -1876,7 +2031,7 @@
     color: var(--fgl-color-magenta-blink-fg) !important;
     background-color: var(--fgl-color-magenta-blink-bg) !important;
     opacity: 1;
-    filter: Alpha(Opacity=00);
+    
   }
   
   /*##############################################################################################################*/
@@ -1902,7 +2057,7 @@
   .qx-c-attribute_black:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_black:not(.qx-c-nativestyle) {
     color: var(--fgl-color-black-fg);
-   /*text face color fg */;
+   ;
   }
   /*white*/
   .qx-aum-some.qx-c-attribute_white:not(.qx-c-nativestyle),
@@ -1914,7 +2069,7 @@
   .qx-c-attribute_white:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_white:not(.qx-c-nativestyle) {
     color: var(--fgl-color-white-fg);
-   /*text face color fg */;
+   ;
   }
   
   /*green*/
@@ -1926,7 +2081,7 @@
   .qx-c-attribute_green:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_green:not(.qx-c-nativestyle) {
     color: var(--fgl-color-green-fg);
-   /*text face color fg */;
+   ;
   }
   /* Need to check this with Victor - hightlight is always sending color blue */
   .qx-c-attribute_green.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected .qx-table-cell.qx-c-activefield.qx-aum-some.qx-aum-abstract-field.qx-has-text {
@@ -1943,7 +2098,7 @@
   .qx-c-attribute_red:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_red:not(.qx-c-nativestyle) {
     color: var(--fgl-color-red-fg);
-   /*text face color fg */;
+   ;
   }
   
   
@@ -1956,7 +2111,7 @@
   .qx-c-attribute_blue:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_blue:not(.qx-c-nativestyle) {
     color: var(--fgl-color-blue-fg);
-   /*text face color fg */;
+   ;
   }
   
   /*cyan*/
@@ -1968,7 +2123,7 @@
   .qx-c-attribute_cyan:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_cyan:not(.qx-c-nativestyle) {
     color: var(--fgl-color-cyan-fg);
-   /*text face color fg */;
+   ;
   }
   
   /*yellow*/
@@ -1980,7 +2135,7 @@
   .qx-c-attribute_yellow:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_yellow:not(.qx-c-nativestyle) {
     color: var(--fgl-color-yellow-fg);
-   /*text face color fg */;
+   ;
   }
   
   
@@ -1993,7 +2148,7 @@
   .qx-c-attribute_magenta:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_magenta:not(.qx-c-nativestyle) {
     color: var(--fgl-color-magenta-fg);
-   /*text face color fg */;
+   ;
   }
   
   /* ******************************************************* */
@@ -2011,7 +2166,7 @@
   .qx-c-attribute_black.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_black.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
     color: var(--fgl-color-black-bg);
-  /*text face color fg */
+  
     background-color: var(--fgl-color-black-fg);
   }
   
@@ -2024,7 +2179,7 @@
   .qx-c-attribute_white.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_white.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
     color: var(--fgl-color-white-bg);
-   /*text face color fg */
+   
     background-color: var(--fgl-color-white-fg);
   }
   
@@ -2037,7 +2192,7 @@
   .qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
     color: var(--fgl-color-green-bg);
-   /*text face color fg */
+   
     background-color: var(--fgl-color-green-fg);
   }
   
@@ -2051,7 +2206,7 @@
   .qx-c-attribute_red.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_red.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
     color: var(--fgl-color-red-bg);
-   /*text face color fg */
+   
     background-color: var(--fgl-color-red-fg);
   }
   
@@ -2065,8 +2220,6 @@
   .qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
     color: var(--fgl-color-blue-bg);
-   /*text face color fg */
-      /* background-color: var(--fgl-color-blue-fg);  */;
   }
   
   /*cyan-reversed*/
@@ -2078,7 +2231,7 @@
   .qx-c-attribute_cyan.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_cyan.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
     color: var(--fgl-color-cyan-bg);
-   /*text face color fg */
+   
     background-color: var(--fgl-color-cyan-fg);
   }
   
@@ -2091,7 +2244,7 @@
   .qx-c-attribute_yellow.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_yellow.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
     color: var(--fgl-color-yellow-bg);
-   /*text face color fg */
+   
     background-color: var(--fgl-color-yellow-fg);
   }
   
@@ -2105,7 +2258,7 @@
   .qx-c-attribute_magenta.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
   .qx-c-attribute_magenta.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
     color: var(--fgl-color-magenta-bg);
-   /*text face color fg */
+   
     background-color: var(--fgl-color-magenta-fg);
   }
   /*#################################################################*/
