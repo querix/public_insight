@@ -1,21 +1,22 @@
 /*BEGIN fcls_font_test.css*/
 /* I need the following font form classes only for demo purpose demo_samples/font_viewer... may be we can find a better way to demonstrate this */
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
-@import url("https://fonts.googleapis.com/css?family=Lato");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Droid+Sans");
-@import url("https://fonts.googleapis.com/css?family=Ubuntu");
-@import url("https://fonts.googleapis.com/css?family=Arimo");
-@import url("https://fonts.googleapis.com/css?family=Abel");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
-@import url("https://fonts.googleapis.com/css?family=Cousine");
-@import url("https://fonts.googleapis.com/css?family=Space+Mono");
-@import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono");
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+@import url("//fonts.googleapis.com/css?family=Montserrat");
+// SCSS converter breaks url
+// @import url("//fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+@import url("//fonts.googleapis.com/css?family=Lato");
+@import url("//fonts.googleapis.com/css?family=Roboto+Condensed");
+@import url("//fonts.googleapis.com/css?family=Raleway");
+@import url("//fonts.googleapis.com/css?family=Droid+Sans");
+@import url("//fonts.googleapis.com/css?family=Ubuntu");
+@import url("//fonts.googleapis.com/css?family=Arimo");
+@import url("//fonts.googleapis.com/css?family=Abel");
+@import url("//fonts.googleapis.com/css?family=Open+Sans");
+@import url("//fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("//fonts.googleapis.com/css?family=Fira+Sans");
+@import url("//fonts.googleapis.com/css?family=Cousine");
+@import url("//fonts.googleapis.com/css?family=Space+Mono");
+@import url("//fonts.googleapis.com/css?family=Droid+Sans+Mono");
+@import url("//fonts.googleapis.com/css?family=Source+Code+Pro");
 
 %fcls_fieldlabel_font {
   color: var(--label-fg-color);
