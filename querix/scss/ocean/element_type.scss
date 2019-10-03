@@ -644,7 +644,7 @@
     border-color: var(--chb-enabled-border-color) !important;
     border-width: var(--main-enabled-border-width) !important;
     border-radius: var(--main-enabled-border-radius) !important;
-    background-color: var(--main-enabled-color-bg) !important;
+    // background-color: var(--main-enabled-color-bg) !important; @huho duplicate
     border-style: solid !important;
     border-color: transparent !important;
     margin: var(--main-enabled-border-margin);
@@ -957,9 +957,9 @@
   }
   
   
-  .qx-aum-radio-group .qx-aum-radio {
-    background-color: var(--rb-disabled-color-bg) !important;
-  }
+  // .qx-aum-radio-group .qx-aum-radio {
+  //   background-color: var(--rb-disabled-color-bg) !important;
+  // }
   .qx-aum-radio-group .qx-aum-radio .qx-text-with-icon {
     color: var(--rb-disabled-color-fg) !important;
     background-color: var(--rb-disabled-color-bg) !important;
@@ -1069,13 +1069,13 @@
   /* ##################################*/
   .qx-aum-radio-group.qx-active.qx-c-activefield.qx-not-readonly {
     color: var(--rb-enabled-color-fg) !important;
-    background-color: var(--rb-enabled-color-fg) !important;
+    background-color: var(--rb-enabled-color-bg) !important;
     border-color: var(--rb-enabled-border-color) !important;
     /*border-color: transparent  !important; */
     
     border-width: var(--main-enabled-border-width) !important;
     border-radius: var(--main-enabled-border-radius) !important;
-    background-color: var(--main-enabled-color-bg) !important;
+    // background-color: var(--main-enabled-color-bg) !important; @huho duplicate
     border-style: solid !important;
     margin: var(--main-enabled-border-margin);
     padding: var(--main-enabled-border-padding);
