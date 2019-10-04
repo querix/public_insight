@@ -229,12 +229,9 @@
   /* Note: gridHeader formats like padding need to be set for header and column data */
 
 
-  .qx-table.qx-aum.qx-aum-table.qx-aum-abstract-data-table.qx-aum-abstract-container.qx-has-header
-  .qx-hrow
-  .qx-thead
-  .qx-thead-row.ui-widget-header {
-    min-height: 1.6rem !important;
-    height: 1.6rem !important;
+  .qx-table.qx-aum.qx-aum-table.qx-aum-abstract-data-table.qx-aum-abstract-container.qx-has-header .qx-hrow .qx-thead .qx-thead-row.ui-widget-header {
+    min-height: 1.6rem;
+    height: 1.6rem;
   }
   /*
   .qx-aum-table-column.ui-widget-header,
@@ -245,12 +242,14 @@
     height: 10px !important;
   }
   */
-  .qx-aum-table .qx-thead-row, 
-  .qx-aum-table .qx-thead-row > th, 
-  .qx-aum-table .qx-table-row > td {
-    min-height: 1.6rem !important;
-    height: 1.6rem !important;
-  }
+
+  // @huho PLEASE TRY TO USE Table.RowHeight FOR THIS
+  // .qx-aum-table .qx-thead-row, 
+  // .qx-aum-table .qx-thead-row > th, 
+  // .qx-aum-table .qx-table-row > td {
+  //   min-height: 1.6rem !important;
+  //   height: 1.6rem !important;
+  // }
 
   .qx-aum-table-column.ui-widget-header > label {
     padding-left: 4px !important;
@@ -349,13 +348,13 @@
   /* ###################################### */
 
   .qx-table-cell.qx-c-activefield.qx-content {
-    height: 2rem !important;
+    // height: 2rem; - breaks Table.RowHeight logic 
     margin-left: 2px !important;
     margin-right: 2px !important;
     padding-right: 2px !important;
     padding-left: 2px !important;
     background-color: transparent!important;
-  }	
+  }
 
   /*
   ######################################
