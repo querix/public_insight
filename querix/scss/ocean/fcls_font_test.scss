@@ -18,15 +18,9 @@
 @import url("//fonts.googleapis.com/css?family=Droid+Sans+Mono");
 @import url("//fonts.googleapis.com/css?family=Source+Code+Pro");
 
-%fcls_fieldlabel_font {
-  color: var(--label-fg-color);
-  font-style: normal;
-  font-size: 1rem;
-}
-
 .qx-c-fcls_fieldlabel.qx-aum,
 .qx-c-fcls_data_widget.qx-aum {
-  @extend %fcls_fieldlabel_font;
+  color: var(--label-fg-color);
 }
 
 $fonts: (
@@ -55,7 +49,7 @@ $fonts: (
 @each $counter, $f in $fonts {
   .qx-c-fcls_fieldlabel.qx-aum.qx-c-fcls_font_#{$counter},
   .qx-c-fcls_data_widget.qx-aum.qx-c-fcls_font_#{$counter} {
-    font-family: $f;
+    font: normal 1rem #{$f};
   }
 }
 /*END fcls_font_test.css*/
