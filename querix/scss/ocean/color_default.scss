@@ -394,7 +394,7 @@
     color: var(--fgl-color-default-fg);
   }
   
-  .qx-inactive.ui-state-disabled {
+  .qx-inactive.qx-disabled {
     &.qx-aum-calendar, &.qx-aum-calendar *,
     &.qx-aum-function-field-abs .qx-ff-text, &.qx-aum-function-field-abs .qx-ff-text *,
     &.qx-aum-spinner, &.qx-aum-spinner .qx-text,
@@ -409,7 +409,7 @@
     @extend %disabled_color;
   }
   
-  .qx-inactive.ui-state-disabled.qx-c-attribute_reverse {
+  .qx-inactive.qx-disabled.qx-c-attribute_reverse {
     &.qx-aum-calendar, &.qx-aum-calendar *,
     &.qx-aum-function-field-abs .qx-ff-text, &.qx-aum-function-field-abs .qx-ff-text *,
     &.qx-aum-spinner, &.qx-aum-spinner .qx-text,
@@ -424,7 +424,7 @@
     @extend %disabled_reverse_color;
   }
   
-  .qx-inactive.ui-state-disabled.qx-c-attribute_dim {
+  .qx-inactive.qx-disabled.qx-c-attribute_dim {
     &.qx-aum-calendar, &.qx-aum-calendar *,
     &.qx-aum-function-field-abs .qx-ff-text, &.qx-aum-function-field-abs .qx-ff-text *,
     &.qx-aum-spinner, &.qx-aum-spinner .qx-text,
@@ -439,7 +439,7 @@
     @extend %disabled_dim_color;
   }
   
-  .qx-inactive.ui-state-disabled.qx-c-attribute_blink {
+  .qx-inactive.qx-disabled.qx-c-attribute_blink {
     &.qx-aum-calendar, &.qx-aum-calendar *,
     &.qx-aum-function-field-abs .qx-ff-text, &.qx-aum-function-field-abs .qx-ff-text *,
     &.qx-aum-spinner, &.qx-aum-spinner .qx-text,
@@ -462,21 +462,13 @@
     color: var(--fgl-color-default-fg);
   }
   
-  .qx-aum[data-md-widget]:not(.qx-c-nativestyle),
-  .qx-aum[data-md-widget]:not(.qx-c-nativestyle) {
+  .qx-aum[data-md-widget]:not(.qx-c-nativestyle):not(.qx-disabled) {
     color: var(--fgl-color-default-fg);
   }
   /* Table ROW */
   .qx-table.qx-aum-table.qx-aum-abstract-data-table .qx-aum-combo-box {
     padding-right: 0;
   }
-  /*Was added to give the user some feedback on current row in INPUT ARRAY */
-  /*currently selected row */
-  /* field fg/bg color of he currently focused/input field in row*/
-  // .qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected .qx-table-cell.qx-c-activefield.qx-aum-some.qx-aum-abstract-field.qx-has-text {
-  //   background-color: var(--cnt-tb-color-curr-row-inp-field-bg);
-  //   color: var(--cnt-tb-color-curr-row-inp-field-fg);
-  // }
   /* Different colors for the alternate (even/odd) rows in a table container */
   .qx-tbody .qx-table-row:nth-child(even) {
     background: var(--cnt_tb_row_even-bg-color);
@@ -493,5 +485,6 @@
   .qx-tbody tr {
     background-color: transparent;
   }  
+
 }
 /*END color_default.css*/
