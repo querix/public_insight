@@ -1,9 +1,13 @@
 /*BEGIN form_header_footer.css*/
+.qx-c-fcls_title_cnt.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container {
+  background: var(--root-cnt-header-color-bg);
+  background-image: none;
+  font-weight: bold;
+  padding: 2px;
+  margin: 2px;
+}
+
 .qx-jquery-ui {
-  .qx-c-fcls_title_lb {
-    color: var(--root-cnt-header-color-fg)!important;
-    background-color: transparent;
-  }
   
   .qx-c-fcls_title_lb .qx-text-with-icon .qx-text {
     padding: 5px 10px;
@@ -11,16 +15,6 @@
     background-color: transparent;
     font: var(--qx-header-font);
   }
-  
-  .qx-c-fcls_title_cnt.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container {
-    background: var(--root-cnt-header-color-bg);
-   /*#3a597e*/
-    background-image: none;
-    font-weight: bold;
-    padding: 2px;
-    margin: 2px;
-  }
-  
   
   
   /*
@@ -51,5 +45,28 @@
 }
 
 .qx-material-design {
+  %frg {
+    color: var(--root-cnt-header-color-fg);
+  }
+  %bkg {
+    background: var(--root-cnt-header-color-bg);
+    background-image: none;
+  }
+  
+  .qx-aum.qx-c-fcls_title_lb {
+    @extend %frg;
+    padding: 5px 10px;
+    font: var(--qx-header-font);
+    // font: bold 14px "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+  } 
+  .qx-aum.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-c-fcls_title_cnt > .qx-aum-label .qx-text {
+    @extend %frg;
+  }
+  .qx-aum.qx-c-fcls_statusbar_cnt {
+    @extend %bkg;
+    @extend %frg;
+    padding: 0;
+    margin-top:5px;
+  }
 }
 /*END form_header_footer.css*/

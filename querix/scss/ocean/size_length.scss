@@ -694,5 +694,96 @@
 }
 
 .qx-material-design {
+  $sizeLabel: ('01','05','10','15','20','25','30','35','40','50','60');
+  $sizeFixed: ('2','5','10','15','20','25','30','35','40','50','60');
+  $minsizeFlex: ('2','5','5','10','10','10','10','10','10','10','10');
+  $maxsizeFlex: ('2','5','10','15','20','25','30','35','40','50','60');
+  
+  @for $i from 1 through length($sizeLabel) {
+    .qx-aum.qx-aum-abstract-field.qx-c-fcls_length_#{nth($sizeLabel, $i)}qch {
+      width: #{nth($sizeFixed, $i)}rem;
+    }
+  
+    /* More flexible range Length defined using form classes */
+    .qx-aum.qx-aum-abstract-field.qx-c-fcls_length_flex_#{nth($sizeLabel, $i)}qch {
+      min-width: #{nth($minsizeFlex, $i)}rem;
+      width: auto;
+      max-width: #{nth($maxsizeFlex, $i)}rem;
+    }
+  }
+  
+  /*ALL Elements V-Size*/
+  /*Single Line Widgets / textField based*/
+  /*Must override !important on default qx-va-s*/
+  .qx-aum.qx-aum-abstract-container.qx-display-grid {
+    > .qx-aum {
+      &.qx-aum-text-field,
+      &.qx-aum-function-field-abs,
+      &.qx-aum-combo-box,
+      &.ui-spinner.qx-aum-spinner,
+      &.qx-aum-time-edit-field,
+      &.qx-aum-check-box,
+      &.qx-aum-radio,
+      &.qx-bool-widget.qx-aum.qx-aum-radio,
+      &.qx-aum-button,
+      &.qx-aum-progress-bar,
+      &.qx-horizontal.qx-aum.qx-aum-slider,
+      &.qx-aum-calendar {
+        &,
+        &.qx-va-s {
+          height: 2.2rem;
+          vertical-align: middle;
+        }
+      }
+      &.qx-aum-function-field-abs .qx-aum-button {
+        flex: 1;
+        align-self: stretch;
+        height: auto !important;
+        border: none;
+      }
+    }
+  }
+  /*Special Case: only with button fit.content   qx-c-fcls_button_image_only  HuHo 03.11.2018*/
+  .qx-c-fcls_button_image_only.qx-single-row.qx-aum-button {
+    height: fit-content;
+  }
+  /*Multi Line Widgets / textField based*/
+  /*.qx-aum.qx-aum-radio-group  /*RadioButtonList GROUP*/
+  .qx-aum.qx-aum-list-box,  /*ListBox*/
+  .qx-aum.qx-aum-list-box.qx-aum-abstract-field {
+    height: 4.4rem;
+  }
+  
+  .qx-aum.qx-window-root .qx-va-s {
+    &.qx-aum {
+      &.qx-aum-web-component,
+      &.qx-aum-browser.qx-aum-abstract-text-field,
+      &.qx-aum-blob-viewer.qx-blob-image,
+      &.qx-aum-canvas.qx-aum-abstract-field {
+        height: 10.6rem;
+      }
+    }
+  }
+  
+  /*Navigation/ScrollBar*/
+  .qx-aum.qx-aum-slider.qx-horizontal.qx-aum-abstract-range-field.qx-aum-abstract-field {
+    height: 1.4rem;
+  }
+  .qx-aum.qx-aum-slider.qx-vertical.qx-aum-abstract-range-field.qx-aum-abstract-field {
+    width: 1.4rem;
+  }
+  
+  /*Table for DISPLAY & INPUT ARRAY*/
+  .qx-table-cell > .qx-aum {
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+  /*Was added to give the user some feedback on current row in INPUT ARRAY */
+  .qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected,
+  .qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected > .qx-table-cell {
+    background-color: #6a89ae;
+    color: white;
+  }
 }
 /*END size_length.css*/
