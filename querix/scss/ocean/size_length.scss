@@ -729,10 +729,9 @@
       &.qx-aum-progress-bar,
       &.qx-horizontal.qx-aum.qx-aum-slider,
       &.qx-aum-calendar {
-        &,
+        height: var(--main-height-1_0);
         &.qx-va-s {
-          height: 2.2rem;
-          vertical-align: middle;
+          height: var(--main-height-1_0) !important;
         }
       }
       &.qx-aum-function-field-abs .qx-aum-button {
