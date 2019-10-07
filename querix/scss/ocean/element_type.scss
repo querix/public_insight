@@ -1911,6 +1911,10 @@
   .qx-aum-web-component {
     border: 1px solid rgba(92, 156, 204, .5);
   }
+
+  .qx-bool-widget {
+    height: var(--bool-widget-height)
+  }
 }
 
 /*END element_type.css*/

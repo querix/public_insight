@@ -704,6 +704,8 @@
   --fgl-color-yellow-blink-fg: rgb(255, 255, 0);
   --fgl-color-cyan-blink-fg: rgb(102,217,255);
   --fgl-color-magenta-blink-fg: rgb(217, 102, 255);
+
+  --bool-widget-height: 40px;
 }
 
 
