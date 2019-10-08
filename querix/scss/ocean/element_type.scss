@@ -1915,6 +1915,10 @@
   .qx-bool-widget {
     height: var(--bool-widget-height)
   }
+
+  .qx-table-cell[data-edit-control-id] {
+    padding: 2px;
+  }  
 }
 
 /*END element_type.css*/
