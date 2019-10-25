@@ -38,7 +38,7 @@ position: relative;
     display: none !important;
 }
 
-#qx-container-body {
+.qx-jquery-ui #qx-container-body {
     overflow: hidden;
 }
 
