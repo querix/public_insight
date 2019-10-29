@@ -12,26 +12,4 @@
       </DoStyleAction>
     </StyleSheet>
   </ElementFilter>
-  <ElementFilter ElementName="TableColumn">
-    <StyleSheet>
-      <DoStyleAction>
-        <SetProperty>
-          <PropertyPath>
-            <PropertyName>Margin</PropertyName>
-            <PropertyName>Right</PropertyName>
-          </PropertyPath>
-          <PropertyValue>5</PropertyValue>
-        </SetProperty>
-      </DoStyleAction>
-      <DoStyleAction>
-        <SetProperty>
-          <PropertyPath>
-            <PropertyName>Margin</PropertyName>
-            <PropertyName>Left</PropertyName>
-          </PropertyPath>
-          <PropertyValue>5</PropertyValue>
-        </SetProperty>
-      </DoStyleAction>
-    </StyleSheet>
-  </ElementFilter>
 </StyleSheet>

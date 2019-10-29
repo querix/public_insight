@@ -338,11 +338,19 @@
 
   .qx-table-cell.qx-c-activefield.qx-content {
     // height: 2rem; - breaks Table.RowHeight logic 
-    margin-left: 2px !important;
-    margin-right: 2px !important;
+    //Theme had TableColumn margin = 5 - commented there
+    //Margins both for the cells and column headers are set below
+    // margin-left: 2px !important;
+    // margin-right: 2px !important;
     padding-right: 2px !important;
     padding-left: 2px !important;
     background-color: transparent!important;
+  }
+
+  .qx-aum-table-column,
+  .qx-table-cell.qx-content {
+    margin-left: 2px !important;
+    margin-right: 2px !important;
   }
 
   /*
