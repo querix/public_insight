@@ -7,6 +7,14 @@
   margin: 2px;
 }
 
+/*FormClass: fcls_sblabel for FORM statusbar*/
+.qx-c-fcls_sblabel .qx-text-with-icon .qx-text {
+  color: var(--root-cnt-footer-color-fg);
+  padding: 5px 10px;
+  font: var(--qx-footer-font);
+} 
+   
+
 .qx-jquery-ui {
   
   .qx-c-fcls_title_lb .qx-text-with-icon .qx-text {
@@ -35,13 +43,6 @@
   }
   
   
-  /*FormClass: fcls_sblabel for FORM statusbar*/
-  .qx-c-fcls_sblabel .qx-text-with-icon .qx-text {
-    color: var(--root-cnt-footer-color-fg);
-    padding: 5px 10px;
-    font: var(--qx-footer-font);
-  } 
-   
 }
 
 .qx-material-design {

@@ -423,7 +423,7 @@ html.cmsfb:root .cms-mainmenu-close {
 padding-bottom: 1rem;
 }*/
 
-.qx-aum-status-bar > .qx-aum-template-instance {
+.qx-jquery-ui .qx-aum-status-bar > .qx-aum-template-instance {
     height: 48px;
     padding-bottom: 24px;
 }

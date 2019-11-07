@@ -729,7 +729,7 @@
       &.qx-aum-progress-bar,
       &.qx-horizontal.qx-aum.qx-aum-slider,
       &.qx-aum-calendar {
-        height: var(--main-height-1_0);
+        height: var(--main-height-1_0) !important;
         &.qx-va-s {
           height: var(--main-height-1_0) !important;
         }
