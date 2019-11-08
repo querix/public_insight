@@ -1912,8 +1912,12 @@
     border: 1px solid rgba(92, 156, 204, .5);
   }
 
-  .qx-bool-widget {
+  .qx-bool-widget:not(.qx-table-cell) {
     height: var(--bool-widget-height)
+  }
+
+  .qx-table-cell > .qx-bool-widget > .wrapper {
+    margin: 0;
   }
 
   .qx-table-cell[data-edit-control-id] {
