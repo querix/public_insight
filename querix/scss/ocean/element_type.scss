@@ -1922,7 +1922,11 @@
 
   .qx-table-cell[data-edit-control-id] {
     padding: 2px;
-  }  
+  }
+
+  .qx-inactive.qx-disabled.md-tf .md-text-trailing-button {
+    opacity: 0;
+  }
 }
 
 /*END element_type.css*/

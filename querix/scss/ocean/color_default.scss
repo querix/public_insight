@@ -355,6 +355,11 @@
     background-color: var(--fgl-color-default-blink-bg);
     opacity: 1;
   }
+  %disabled_field_color {
+    color: var(--fgl-field-color-default-disabled-fg) !important;
+    background-color: transparent;
+    opacity: 1;
+  }
   
   /* CSS is used for label/text properties                    */
   /*DEFAULT Label color*/
@@ -398,15 +403,15 @@
     &.qx-aum-calendar, &.qx-aum-calendar *,
     &.qx-aum-function-field-abs .qx-ff-text, &.qx-aum-function-field-abs .qx-ff-text *,
     &.qx-aum-spinner, &.qx-aum-spinner .qx-text,
-    &.qx-aum-text-field, &.qx-aum-text-field *,
+    &.qx-aum-text-field, &.qx-aum-text-field .md-input,
     &.qx-aum-text-area, &.qx-aum-text-area *,
     &.qx-aum-time-edit-field, &.qx-aum-time-edit-field *,
-    &.qx-aum-combo-box, &.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target {
-      @extend %disabled_color;
+    &.qx-aum-combo-box, &.qx-aum-combo-box .md-input.qx-text {
+      @extend %disabled_field_color;
     }
   }
   .qx-aum-browser {
-    @extend %disabled_color;
+    @extend %disabled_field_color;
   }
   
   .qx-inactive.qx-disabled.qx-c-attribute_reverse {
