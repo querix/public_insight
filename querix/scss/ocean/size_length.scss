@@ -701,7 +701,7 @@
   
   @for $i from 1 through length($sizeLabel) {
     .qx-aum.qx-aum-abstract-field.qx-c-fcls_length_#{nth($sizeLabel, $i)}qch {
-      width: #{nth($sizeFixed, $i)}rem;
+      width: #{nth($sizeFixed, $i)}rem !important;
     }
   
     /* More flexible range Length defined using form classes */
