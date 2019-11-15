@@ -1920,6 +1920,11 @@
     margin: 0;
   }
 
+  .qx-table-cell.qx-bool-widget {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
   .qx-table-cell[data-edit-control-id] {
     padding: 2px;
   }
