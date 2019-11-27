@@ -135,6 +135,8 @@ position: relative;
 	display: block !important;
 	VISIBILITY: hidden;
 	width: 16px !important;
+	min-width: 16px !important;
+	max-width: 16px !important;
 }
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar li > a.ui-state-hover,
