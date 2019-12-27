@@ -3,10 +3,9 @@
   /*Tab Handles */
   /* MDI-Container Root-Tab should be hidden without taking place / display:none */
   /*modified for informix compatmode Victor 14.12.2018 */
-  .ui-widget-header .ui-state-default[role="tab"].qx-page-0-header {
-    /*visibility: hidden;*/
-    display: none;
-  }
+  // .ui-widget-header .ui-state-default[role="tab"].qx-page-0-header {
+  //   display: none;
+  // }
 
   /*Note, we need a different/unique class name for MDI-container tab-handles*/
   /*at the moment, this class will select ALL tab handles normal form AND mdi-container */
