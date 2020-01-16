@@ -377,6 +377,8 @@
 }
 
 .qx-material-design {
-  
+  .qx-aum-button:not(.qx-disabled) .qx-text {
+    color: rgb(3, 151, 218);
+  }
 }
 /*END button_library.css*/

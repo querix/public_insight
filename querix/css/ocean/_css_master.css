@@ -2535,6 +2535,10 @@ sans-serif !important;
   background-image: url(/public/querix/icon/svg/24/ic_view_list_24px.svg);
 }
 
+.qx-material-design .qx-aum-button:not(.qx-disabled) .qx-text {
+  color: #0397da;
+}
+
 
 /*END button_library.css*/
 
