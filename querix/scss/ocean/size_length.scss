@@ -730,8 +730,14 @@
       &.qx-horizontal.qx-aum.qx-aum-slider,
       &.qx-aum-calendar {
         height: var(--main-height-1_0) !important;
+        &.md-tf-normal {
+          height: auto !important;
+        }  
         &.qx-va-s {
           height: var(--main-height-1_0) !important;
+          &.md-tf-normal {
+            height: auto !important;
+          }    
         }
       }
       &.qx-aum-function-field-abs .qx-aum-button {
@@ -783,6 +789,10 @@
   .qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected > .qx-table-cell {
     background-color: #6a89ae;
     color: white;
+  }
+
+  .qx-aum-text-area.md-tf-normal {
+    padding: 4px 0;
   }
 }
 /*END size_length.css*/

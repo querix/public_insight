@@ -10206,6 +10206,21 @@ sans-Serif;
   height: var(--main-height-1_0) !important;
 }
 
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-text-field.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-function-field-abs.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-combo-box.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.ui-spinner.qx-aum-spinner.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-time-edit-field.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-check-box.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-radio.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-bool-widget.qx-aum.qx-aum-radio.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-button.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-progress-bar.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-horizontal.qx-aum.qx-aum-slider.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-calendar.md-tf-normal {
+  height: auto !important;
+}
+
 .qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-text-field.qx-va-s,
 .qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-function-field-abs.qx-va-s,
 .qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-combo-box.qx-va-s,
@@ -10220,6 +10235,21 @@ sans-Serif;
 .qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-calendar.qx-va-s {
   height: 2.2rem !important;
   height: var(--main-height-1_0) !important;
+}
+
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-text-field.qx-va-s.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-function-field-abs.qx-va-s.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-combo-box.qx-va-s.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.ui-spinner.qx-aum-spinner.qx-va-s.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-time-edit-field.qx-va-s.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-check-box.qx-va-s.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-radio.qx-va-s.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-bool-widget.qx-aum.qx-aum-radio.qx-va-s.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-button.qx-va-s.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-progress-bar.qx-va-s.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-horizontal.qx-aum.qx-aum-slider.qx-va-s.md-tf-normal,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-calendar.qx-va-s.md-tf-normal {
+  height: auto !important;
 }
 
 .qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-function-field-abs .qx-aum-button {
@@ -10263,6 +10293,10 @@ sans-Serif;
 .qx-material-design .qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected > .qx-table-cell {
   background-color: #6a89ae;
   color: white;
+}
+
+.qx-material-design .qx-aum-text-area.md-tf-normal {
+  padding: 4px 0;
 }
 
 
