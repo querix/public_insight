@@ -243,7 +243,7 @@ position: relative;
 	top: 0;
 	left: 0;
 	background: var(--cnt-mdi-menu-logo-area-color-bg) url(/public/querix/css/images/logo.svg) no-repeat 20px center;
-	background-size: 30%;
+	background-size: 100px;
 }
 /*END left-side menu*/
 
