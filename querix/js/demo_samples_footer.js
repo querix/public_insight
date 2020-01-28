@@ -25,6 +25,7 @@ var mdSpecificStyles = '#qx-main-layout > input.qx-drawer-toggle:checked ~ [data
   margin-left: 300px; \
   margin-left: var(--qx-drawer-width);  \
   width: auto; \
+  background-color: #ccc; \
 }';
 
 querix.plugins.frontCallModuleList.sample = {
