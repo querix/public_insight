@@ -21,12 +21,17 @@ var footerStyles = '#FooterTable {display:table;width:100%;font-size:.8em;}\n \
 #FooterTable td:first-child {padding-left:50px;}\n \
 #FooterTable td:nth-child(2) {width:100%;}\n';
 
-var mdSpecificStyles = '#qx-main-layout > input.qx-drawer-toggle:checked ~ [data-demo-samples-footer] { \
-  margin-left: 300px; \
-  margin-left: var(--qx-drawer-width);  \
-  width: auto; \
-  background-color: #ccc; \
-}';
+var mdSpecificStyles = ' \
+  #qx-main-layout > input.qx-drawer-toggle ~ [data-demo-samples-footer] { \
+    margin-left: var(--qx-sidebar-width); \
+    background-color: #ccc; \
+    width: auto; \
+  } \
+  #qx-main-layout > input.qx-drawer-toggle:checked ~ [data-demo-samples-footer] { \
+    margin-left: 300px; \
+    margin-left: calc(var(--qx-sidebar-width) + var(--qx-drawer-width)); \
+  } \
+';
 
 querix.plugins.frontCallModuleList.sample = {
   changeFrameTemplate: function () {
