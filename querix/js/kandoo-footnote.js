@@ -3,7 +3,7 @@ var footnoteHtml = 'KandooERP is a community-supported Modular, Multi-Company, M
 'To access the source code, please contact <a href="mailto:ericv@kandooerp.org">Eric Vercelletto</a>';
 
 var mdSpecificStyles = ' \
-#qx-main-layout #qx-maia-footnote { \
+#qx-main-layout > input.qx-drawer-toggle ~ #qx-maia-footnote { \
   margin-left: 300px; \
   margin-left: var(--qx-sidebar-width); \
   width: auto; \

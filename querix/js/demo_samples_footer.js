@@ -14,7 +14,8 @@ var footerHtml =
 '</tr></tbody>' +
 '</table>';
 
-var footerStyles = '#FooterTable {display:table;width:100%;font-size:.8em;}\n \
+var footerStyles = '.qx-status-bar {display:none;}\n \
+#FooterTable {display:table;width:100%;font-size:.8em;}\n \
 #FooterTable thead *{font-weight:bold;}\n \
 #FooterTable td{white-space: nowrap;padding:0 .3em;text-align:left}\n \
 #FooterTable td:first-child, #FooterTable td:last-child{width:5%}\n \
