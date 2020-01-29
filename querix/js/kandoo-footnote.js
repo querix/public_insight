@@ -2,9 +2,16 @@ var footnoteHtml = 'KandooERP is a community-supported Modular, Multi-Company, M
 'Multi-Currency, Fully Analytical ERP. Courtesy of <a href="http://www.kandooerp.org" target="_blank">Maia Associates</a>. '+
 'To access the source code, please contact <a href="mailto:ericv@kandooerp.org">Eric Vercelletto</a>';
 
-var mdSpecificStyles = '#qx-main-layout > input.qx-drawer-toggle:checked ~ #qx-maia-footnote { \
+var mdSpecificStyles = ' \
+#qx-main-layout #qx-maia-footnote { \
+  margin-left: 300px; \
+  margin-left: var(--qx-sidebar-width); \
+  width: auto; \
+} \
+#qx-main-layout > input.qx-drawer-toggle:checked ~ #qx-maia-footnote { \
   margin-left: 300px; \
   margin-left: var(--qx-drawer-width);  \
+  margin-left: calc(var(--qx-sidebar-width) + var(--qx-drawer-width)); \
   width: auto; \
 } \
 #qx-main-layout > #qx-maia-footnote { \
