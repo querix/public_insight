@@ -130,6 +130,10 @@ position: relative;
 	padding: 10px 0;
 }
 
+.cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar label::before {
+	display: none;
+}
+
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar label > img {
 	/*visibility: hidden;  huho 2017-12-10*/
 	display: block !important;
