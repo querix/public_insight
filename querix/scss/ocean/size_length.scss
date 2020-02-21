@@ -726,7 +726,7 @@
       &.qx-aum-radio,
       &.qx-bool-widget.qx-aum.qx-aum-radio,
       &.qx-aum-button,
-      &.qx-aum-progress-bar,
+      &.qx-aum-progress-bar, 
       &.qx-horizontal.qx-aum.qx-aum-slider,
       &.qx-aum-calendar {
         height: var(--main-height-1_0) !important;
@@ -765,7 +765,7 @@
       &.qx-aum-browser.qx-aum-abstract-text-field,
       &.qx-aum-blob-viewer.qx-blob-image,
       &.qx-aum-canvas.qx-aum-abstract-field {
-        height: 10.6rem;
+        min-height: var(--main-height-3_0) !important;
       }
     }
   }

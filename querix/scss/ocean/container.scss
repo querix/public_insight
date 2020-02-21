@@ -1,5 +1,9 @@
 /*BEGIN container.css*/
-// .qx-jquery-ui {
+.qx-jquery-ui {
+  .qx-c-fcls_detail_gb_cnt.qx-aum-group-box .qx-groupbox-header {
+    padding: 2px;
+  }
+}
   /* 
   #######################################################
   ROOT CONTAINER
@@ -153,8 +157,7 @@
   .qx-c-fcls_detail_gb_cnt.qx-aum-group-box .qx-groupbox-header {
     background: var(--cnt-gb-titlebar-color-bg);
     background-image: none;
-    color: var(--cnt-gb-titlebar-color-bg);
-    padding: 2px;
+    color: var(--cnt-gb-titlebar-color-fg);
   }
 
 
