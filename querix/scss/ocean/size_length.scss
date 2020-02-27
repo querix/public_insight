@@ -787,7 +787,8 @@
   /*Was added to give the user some feedback on current row in INPUT ARRAY */
   .qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected,
   .qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected > .qx-table-cell {
-    background-color: #6a89ae;
+    // background-color: #6a89ae;
+    background-color: var(--main-color-076);
     color: white;
   }
 

@@ -752,4 +752,6 @@
 .qx-material-design:root {
   --main-color-073: rgba(83, 112, 124, 1);
   --main-color-074: rgba(83, 112, 124, 1);
+  --main-color-076: rgba(83, 112, 124, .7);
+  --md-table-header-frg: var(--main-color-038);
 }
