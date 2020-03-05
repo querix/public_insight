@@ -540,5 +540,14 @@
   .qx-c-fcls_image_view_detail.qx-aum-button > .wrapper::before {
     content: url(/public/querix/icon/svg/24/ic_view_list_24px.svg );
   }
+
+  .md-button.qx-c-contained.qx-aum[data-md-widget]:not(.qx-c-nativestyle):not(.qx-disabled) {
+    .qx-text {
+      color: white;
+    }
+    svg {
+      fill: white;
+    }
+  }
 }
 /*END button_library.css*/
