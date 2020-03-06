@@ -2620,8 +2620,8 @@ qx-groupbox-header ui-accordion-header ui-state-default qx-vta-c qx-hta-c ui-acc
 
 .qx-groupbox-header.ui-accordion-header.ui-accordion-icons.ui-accordion-header-active.ui-state-active .qx-text {
   font: var(--cnt-gb-titlebar-font);
-  /*color: var(--cnt-gb-titlebar-color-fg);
-  background-color: var(--cnt-gb-titlebar-color-fg);*/
+  color: rgba(255,255,255,1.00);
+  color: var(--cnt-gb-titlebar-color-fg);
 }
 
 
