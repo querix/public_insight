@@ -15,4 +15,11 @@
       </ChildFilter>
     </StyleSheet>
   </ElementFilter>
+  <ElementFilter ElementName="Button">
+    <StyleSheet>
+      <DoStyleAction>
+        <ApplyClass Name="contained" />
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementFilter>
 </StyleSheet>

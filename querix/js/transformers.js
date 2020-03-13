@@ -157,8 +157,8 @@ if (window.top.document.querySelector('html.qx-jquery-ui')) {
         return {
           remove: function () {
             var $$ = this.getWindow().$;
-            topbar.remove();
-            this.parent().find('.cms-mainmenu-close').remove();
+            // topbar.remove();
+            // this.parent().find('.cms-mainmenu-close').remove();
             this.removeClass('MENU-ITEM-TRANSFORMED');
           },
           attach: function (to) {

@@ -1,4 +1,14 @@
 /*BEGIN element_type.css*/
+.qx-aum-label.qx-aum-abstract-text-field {
+  border-width: var(--main-disabled-border-width);
+  border-radius: var(--main-disabled-border-radius);
+  border-color: transparent;
+  background-color: var(--main-label-color-bg);
+  border-style: solid !important;
+  margin: var(--main-disabled-border-margin);
+  padding: var(--main-disabled-border-padding);
+}
+
 .qx-jquery-ui {
   #qx-container-status-bar {
     display: none;
@@ -156,7 +166,6 @@
   
   
   /*FormClass: fcls_columnlabel_rev_cell - selects the entire cell*/
-  
   :not(.ui-widget-content).qx-aum-label.qx-c-fcls_columnlabel_rev_cell {
     background: var(--label-rev-color-bg) !important;
     flex: 1;
@@ -312,15 +321,6 @@
   
   /* ########################*/
   
-  .qx-aum-label.qx-aum-abstract-text-field {
-    border-width: var(--main-disabled-border-width);
-    border-radius: var(--main-disabled-border-radius);
-    border-color: transparent;
-    background-color: var(--main-label-color-bg);
-    border-style: solid !important;
-    margin: var(--main-disabled-border-margin);
-    padding: var(--main-disabled-border-padding);
-  }
   
   
   /* Hide buttons on inactive fields */
@@ -1892,6 +1892,19 @@
 }
 
 .qx-material-design {
+  .qx-aum-label.qx-c-fcls_columnlabel_rev_cell {
+    background: var(--label-rev-color-bg) !important;
+    .qx-text {
+      font: normal 1rem "Roboto", "Calibri", "Helvetica Neue", Sans-Serif;
+      color: var(--label-rev-color-fg);
+      // background: var(--label-rev-color-bg);
+      padding-right: var(--main-disabled-border-padding)!important;
+      padding-left: var(--main-disabled-border-padding)!important;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+  }
+
   .qx-aum-grid-panel > :not(.qx-aum-abstract-container) {
     margin-left: 2px;
     margin-right: 2px;

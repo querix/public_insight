@@ -76,7 +76,8 @@
   --main-color-072b: rgba(050,072,115,1.00);
  /*mdi menu bg*/
   --main-color-073: rgba(058,089,126,1.00);
- /* rgba(058,089,126,1) #3a597e */
+  
+   /* rgba(058,089,126,1) #3a597e */
   --main-color-074: rgba(064,098,140,1.00);
   --main-color-075: rgba(080,123,175,1.00);
   --main-color-076: rgba(115,149,191,1.00);
@@ -746,4 +747,11 @@
   /* One define a fix row highlight color here */
   /* color: blue  !important;                */
   /* background-color: pink !important;      */;
+}
+
+.qx-material-design:root {
+  --main-color-073: rgba(83, 112, 124, 1);
+  --main-color-074: rgba(83, 112, 124, 1);
+  --main-color-076: rgba(83, 112, 124, .7);
+  --md-table-header-frg: var(--main-color-038);
 }

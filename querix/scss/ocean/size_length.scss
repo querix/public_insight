@@ -726,12 +726,18 @@
       &.qx-aum-radio,
       &.qx-bool-widget.qx-aum.qx-aum-radio,
       &.qx-aum-button,
-      &.qx-aum-progress-bar,
+      &.qx-aum-progress-bar, 
       &.qx-horizontal.qx-aum.qx-aum-slider,
       &.qx-aum-calendar {
         height: var(--main-height-1_0) !important;
+        &.md-tf-normal {
+          height: auto !important;
+        }  
         &.qx-va-s {
           height: var(--main-height-1_0) !important;
+          &.md-tf-normal {
+            height: auto !important;
+          }    
         }
       }
       &.qx-aum-function-field-abs .qx-aum-button {
@@ -759,7 +765,7 @@
       &.qx-aum-browser.qx-aum-abstract-text-field,
       &.qx-aum-blob-viewer.qx-blob-image,
       &.qx-aum-canvas.qx-aum-abstract-field {
-        height: 10.6rem;
+        min-height: var(--main-height-3_0) !important;
       }
     }
   }
@@ -781,8 +787,13 @@
   /*Was added to give the user some feedback on current row in INPUT ARRAY */
   .qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected,
   .qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected > .qx-table-cell {
-    background-color: #6a89ae;
+    // background-color: #6a89ae;
+    background-color: var(--main-color-076);
     color: white;
+  }
+
+  .qx-aum-text-area.md-tf-normal {
+    padding: 4px 0;
   }
 }
 /*END size_length.css*/

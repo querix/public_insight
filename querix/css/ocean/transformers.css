@@ -130,6 +130,10 @@ position: relative;
 	padding: 10px 0;
 }
 
+.cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar label::before {
+	display: none;
+}
+
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar label > img {
 	/*visibility: hidden;  huho 2017-12-10*/
 	display: block !important;
@@ -243,7 +247,7 @@ position: relative;
 	top: 0;
 	left: 0;
 	background: var(--cnt-mdi-menu-logo-area-color-bg) url(/public/querix/css/images/logo.svg) no-repeat 20px center;
-	background-size: 30%;
+	background-size: 100px;
 }
 /*END left-side menu*/
 

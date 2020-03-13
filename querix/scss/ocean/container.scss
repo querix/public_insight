@@ -1,5 +1,9 @@
 /*BEGIN container.css*/
 .qx-jquery-ui {
+  .qx-c-fcls_detail_gb_cnt.qx-aum-group-box .qx-groupbox-header {
+    padding: 2px;
+  }
+}
   /* 
   #######################################################
   ROOT CONTAINER
@@ -132,15 +136,11 @@
 
   .qx-groupbox-header.ui-accordion-header.ui-accordion-icons.ui-accordion-header-active.ui-state-active .qx-text {
     font: var(--cnt-gb-titlebar-font);
-    /*color: var(--cnt-gb-titlebar-color-fg);
-    background-color: var(--cnt-gb-titlebar-color-fg);*/;
+    color: var(--cnt-gb-titlebar-color-fg);
+    // background-color: var(--cnt-gb-titlebar-color-fg);
   }
 
-
-
-
   /*qx-text*/
-
 
   /*GroupBox Icon to fold/unfold HuHo 13.11.2018*/
   .qx-aum.qx-aum-group-box.qx-display-grid > label > .qx-icon::after {
@@ -153,8 +153,7 @@
   .qx-c-fcls_detail_gb_cnt.qx-aum-group-box .qx-groupbox-header {
     background: var(--cnt-gb-titlebar-color-bg);
     background-image: none;
-    color: var(--cnt-gb-titlebar-color-bg);
-    padding: 2px;
+    color: var(--cnt-gb-titlebar-color-fg);
   }
 
 
@@ -743,9 +742,7 @@
     border: 2px solid var(--cnt-color-border-strong-fg);
     border-radius: 7px;
   }
-
-
-}
+// }
 
 .qx-material-design {
   .qx-aum-group-box.qx-aum.qx-aum-group-box.qx-aum-element-container {
