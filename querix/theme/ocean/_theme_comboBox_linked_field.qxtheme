@@ -171,7 +171,20 @@
     </StyleSheet>
   </ElementIdFilter>   
 
-
+  <ElementIdFilter Identifier="acct_code">
+    <StyleSheet>
+      <DoStyleAction>
+        <SetProperty>
+          <PropertyPath>
+            <PropertyName>Wrapper</PropertyName>
+          </PropertyPath>
+          <PropertyValue type="Wrapper" Name="combo_linked_field" Parameter="acct_code_desc_text" />
+        </SetProperty>
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementIdFilter>  
+  
+  
   <ElementIdFilter Identifier="tax_vend_code">
     <StyleSheet>
       <DoStyleAction>
