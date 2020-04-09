@@ -2259,7 +2259,7 @@
         .qx-aum-some#{&},
         .qx-aum-some#{&} * {
           color: var(--fgl-color-#{$color}-fg);
-          background: var(--fgl-color-#{$color}-bg);
+          // background: var(--fgl-color-#{$color}-bg);
         }
         @at-root .qx-aum-some.qx-c-attribute_reverse#{&},
         .qx-aum-some.qx-c-attribute_reverse#{&} * {
