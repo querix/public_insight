@@ -739,6 +739,9 @@
             height: auto !important;
           }    
         }
+        &[data-helper-text] {
+          height: auto !important;
+        }
       }
       &.qx-aum-function-field-abs .qx-aum-button {
         flex: 1;

@@ -9,6 +9,14 @@
   padding: var(--main-disabled-border-padding);
 }
 
+/* Text Block of description/information */
+/* FormClass: fcls_font_description */
+.qx-c-fcls_font_description .qx-text-with-icon .qx-text {
+  color: var(--label-comment-color-fg);
+  font-style: italic;
+}
+
+
 .qx-jquery-ui {
   #qx-container-status-bar {
     display: none;
@@ -247,18 +255,6 @@
   .qx-c-fcls_menulabel.qx-aum-label.qx-no-image.qx-has-text.qx-aum.qx-aum-abstract-text-field.qx-inactive {
     color: var(--label-fg-color);
   }
-  
-  
-  /* Text Block of description/information */
-  
-  
-  /* FormClass: fcls_font_description */
-  
-  .qx-c-fcls_font_description .qx-text-with-icon .qx-text {
-    color: var(--label-comment-color-fg);
-    font-style: italic;
-  }
-  
   
   /* 4 Additional Header Styles to be used in forms */
   

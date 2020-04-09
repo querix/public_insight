@@ -956,8 +956,6 @@ sans-serif !important;
   /*FormClass: fcls_key_usage - selects the entire cell*/
   /*FormClass: fcls_menulabel - used in hand-made 4gl menu's (not the menu statement)*/
   /*dynamic menu label - initial draw .qx-c-fcls_menulabel*/
-  /* Text Block of description/information */
-  /* FormClass: fcls_font_description */
   /* 4 Additional Header Styles to be used in forms */
   /* FormClass: fcls_font_h1, fcls_font_h2, fcls_font_h3, fcls_font_h4 */
   /*
@@ -3517,6 +3515,18 @@ Tab Handles
   padding: var(--main-disabled-border-padding);
 }
 
+
+/* Text Block of description/information */
+
+
+/* FormClass: fcls_font_description */
+
+.qx-c-fcls_font_description .qx-text-with-icon .qx-text {
+  color: grey;
+  color: var(--label-comment-color-fg);
+  font-style: italic;
+}
+
 .qx-jquery-ui #qx-container-status-bar {
   display: none;
 }
@@ -3703,12 +3713,6 @@ Tab Handles
 .qx-jquery-ui .qx-c-fcls_menulabel.qx-aum-label.qx-no-image.qx-has-text.qx-aum.qx-aum-abstract-text-field.qx-inactive {
   color: rgba(058,089,126,1.00);
   color: var(--label-fg-color);
-}
-
-.qx-jquery-ui .qx-c-fcls_font_description .qx-text-with-icon .qx-text {
-  color: grey;
-  color: var(--label-comment-color-fg);
-  font-style: italic;
 }
 
 .qx-jquery-ui .qx-c-fcls_font_h1 .qx-text-with-icon {
@@ -10722,6 +10726,21 @@ sans-Serif;
 .qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-progress-bar.qx-va-s.md-tf-normal,
 .qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-horizontal.qx-aum.qx-aum-slider.qx-va-s.md-tf-normal,
 .qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-calendar.qx-va-s.md-tf-normal {
+  height: auto !important;
+}
+
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-text-field[data-helper-text],
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-function-field-abs[data-helper-text],
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-combo-box[data-helper-text],
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.ui-spinner.qx-aum-spinner[data-helper-text],
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-time-edit-field[data-helper-text],
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-check-box[data-helper-text],
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-radio[data-helper-text],
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-bool-widget.qx-aum.qx-aum-radio[data-helper-text],
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-button[data-helper-text],
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-progress-bar[data-helper-text],
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-horizontal.qx-aum.qx-aum-slider[data-helper-text],
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-calendar[data-helper-text] {
   height: auto !important;
 }
 
