@@ -1,0 +1,286 @@
+.qx-jquery-ui {
+  .qx-aum-label .qx-text {
+    color: var(--fgl-label-color-default-enabled-fg);
+  }
+  .qx-c-attribute_reverse.qx-aum-label .qx-text {
+    color: var(--fgl-label-color-default-rev-enabled-fg);
+    background-color: var(--fgl-label-color-default-rev-enabled-bg);
+  }
+  .qx-c-attribute_reverse.qx-aum-label {
+    color: var(--fgl-label-color-default-rev-enabled-fg);
+    background-color: var(--fgl-label-color-default-rev-enabled-bg) ;
+  }
+  .qx-c-attribute_dim.qx-aum-label .qx-text {
+    color: var(--fgl-color-default-dim-fg);
+    background-color: transparent ;
+  }
+  .qx-c-attribute_dim.qx-aum-label {
+    color: var(--fgl-color-default-dim-bg);
+    background-color: var(--fgl-color-default-dim-bg) ;
+  }
+  .qx-c-attribute_blink.qx-aum-label .qx-text {
+    color: var(--fgl-color-default-blink-fg);
+    background-color: transparent ;
+  }
+  .qx-c-attribute_blink.qx-aum-label {
+    background-color: var(--fgl-color-blink-bg-label) ;
+  }
+  .qx-c-attribute_underline.qx-aum-label .qx-text {
+    color: var(--fgl-label-color-default-enabled-fg);
+  }
+  .qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-aum-combo-box.qx-inactive.ui-state-disabled,
+  /*outer ComboBoxList*/
+  .qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target,
+  /*Inner ComboBoxList*/
+  .qx-aum-browser {
+    color: var(--fgl-field-color-default-disabled-fg) ;
+    background-color: var(--fgl-field-color-default-disabled-bg);
+    opacity: 1;
+  }
+  /* DEFAULT REVERSE*/
+  .qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled,
+  /*outer ComboBoxList*/
+  .qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target,
+  /*Inner ComboBoxList*/
+  .qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-field-color-default-rev-disabled-fg) ;
+    background-color: var(--fgl-field-color-default-rev-disabled-bg) ;
+    opacity: 1;
+  }
+  /* DEFAULT DIM*/
+  .qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled,
+  /*outer ComboBoxList*/
+  .qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target,
+  /*Inner ComboBoxList*/
+  .qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-default-dim-fg) ;
+    background-color: var(--fgl-color-default-dim-bg) ;
+    opacity: 1;
+  }
+  /* DEFAULT BLINK*/
+  .qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled,
+  /*outer ComboBoxList*/
+  .qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target,
+  /*Inner ComboBoxList*/
+  .qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-default-blink-fg) ;
+    background-color: var(--fgl-color-default-blink-bg) ;
+    opacity: 1;
+  }
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  DEFAULT ATTRIBUTE set in 4gl  (NO color, dim, blink, reversed attribute)
+  ####################################################################
+  */
+  .qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-aum-combo-box.qx-inactive.ui-state-disabled,
+  /*outer ComboBoxList*/
+  .qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target,
+  /*Inner ComboBoxList*/
+  .qx-aum-browser {
+    color: var(--fgl-field-color-default-disabled-fg) ;
+    background-color: var(--fgl-field-color-default-disabled-bg);
+    opacity: 1;
+  }
+  /*REVERSED color*/
+  /*default-reversed*/
+  .qx-aum-some.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) * {
+    background: var(--fgl-enabled-default-color-fg);
+  }
+  .qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_reverse:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-default-bg);
+    background-color: var(--fgl-enabled-default-color-fg);
+  }
+  /* DEFAULT REVERSE*/
+  .qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled,
+  /*outer ComboBoxList*/
+  .qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target,
+  /*Inner ComboBoxList*/
+  .qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-field-color-default-rev-disabled-fg) ;
+    background-color: var(--fgl-field-color-default-rev-disabled-bg) ;
+    opacity: 1;
+  }
+  /* DEFAULT DIM*/
+  .qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled,
+  /*outer ComboBoxList*/
+  .qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target,
+  /*Inner ComboBoxList*/
+  .qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-default-dim-fg) ;
+    background-color: var(--fgl-color-default-dim-bg) ;
+    opacity: 1;
+  }
+  /* DEFAULT BLINK*/
+  .qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled,
+  /*outer ComboBoxList*/
+  .qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target,
+  /*Inner ComboBoxList*/
+  .qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-default-blink-fg) ;
+    background-color: var(--fgl-color-default-blink-bg) ;
+    opacity: 1;
+  }
+  /*Table (Disp/Inp Array) */
+  /*normal color = NO 4gl ATTRIBUTE(color)*/
+  /*default*/
+  .qx-aum-some:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-aum:not(.qx-c-nativestyle) * {
+    color: var(--fgl-field-color-default-enabled-fg);
+    /* If you define background here, it will overwrite/dominate ALL table elements - do not do this */
+    /*background: var(--fgl-color-default-bg);*/
+  }
+  qx-aum:not(.qx-c-nativestyle) .md-input,
+  .qx-aum:not(.qx-c-nativestyle) {
+    color: var(--fgl-field-color-default-enabled-fg);
+  }
+  /*
+  ####################################################################
+  ACTIVE Fields (ALL Element Types with textBox)
+  INPUT
+  DEFAULT ATTRIBUTE set in 4gl  (NO color, dim, blink, reversed attribute)
+  ####################################################################
+  */
+  .qx-aum-calendar.qx-active.ui-state-active,
+  .qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-aum-spinner.qx-active.ui-state-active,
+  .qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-aum-text-field.qx-active.ui-state-active,
+  .qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-aum-text-area.qx-active.ui-state-active,
+  .qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-aum-combo-box.qx-active.ui-state-active,
+  /*outer ComboBoxList*/
+  .qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target,
+  /*Inner ComboBoxList*/
+  .qx-aum-browser {
+    color: var(--fgl-color-blue) ;
+    background-color: transparent;
+    opacity: 1;
+  }
+  /* DEFAULT REVERSE*/
+  .qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active,
+  /*outer ComboBoxList*/
+  .qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target,
+  /*Inner ComboBoxList*/
+  .qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-blue-rev-fg) ;
+    background-color: var(--fgl-color-blue-rev-bg) ;
+    opacity: 1;
+  }  
+}

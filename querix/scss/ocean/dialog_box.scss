@@ -1,0 +1,125 @@
+/*BEGIN dialog_box.css*/
+.qx-jquery-ui {
+  /* DIALOG boxes like fgl_winmessage */
+  .qx-mb-dialog.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable {
+    /*min-width: 300px; */
+    min-width: 35rem;
+    min-height: 15rem;
+    background-color: var(--dialog-box-color-bg);
+  }
+  
+  /*margin between icons and text body*/
+  .qx-message-box.qx-has-image
+  .qx-image {
+    margin-right: 10px;
+  }
+  
+  
+  /* ***************************************** */
+  /* Titlebar                                  */
+  /* ***************************************** */
+  
+  .ui-dialog-titlebar {
+    background-color: var(--dialog-box-titlebar-color-bg);
+  }
+  /* text in the titlebar of dialog boxes i.e. fgl_winmessage() */
+  .ui-dialog-titlebar .ui-dialog-title {
+    color: var(--dialog-box-titlebar-color-fg);
+    /* white; */
+    /*background: default is transparent */
+    font: normal 1.0rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+  }
+  
+  /* Actual message text/area */
+  .qx-message-box.ui-dialog-content.ui-widget-content {
+    color: var(--dialog-box-message-color-fg);
+   /* #495797;	*/
+    background: transparent;
+   /* #ffffff;	*/;
+  }	
+  
+  /* text/message are within the dialog box */
+  .qx-message-box.ui-dialog-content.ui-widget-content .qx-text-wrapper {
+    background: transparent;
+  }
+  /* Button Area in dialog boxes */
+  .ui-dialog-buttonpane {
+    background-color: var(--dialog-box-color-bg);
+  }
+  
+  /* Button in dialog boxes i.e.OK; Cancel, Done */
+  .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button.ui-widget.ui-state-default {
+    color: var(--dialog-box-button-color-fg);
+    background-color: var(--dialog-box-button-color-bg);
+  }
+  
+  /* Button fixes 25.05.2019 */
+  .ui-widget-content .ui-state-default {
+    /*border: 1px solid #d3d3d3;*/
+    /*background: none !important;*/
+    /*font-weight: 400;*/
+    color: var(--dialog-box-button-color-fg);
+    background-color: var(--dialog-box-button-color-bg);
+  }
+  
+  
+  /*.qx-winmessage-button:focus*/
+  .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button.ui-widget.ui-state-default:focus {
+    color: var(--main-dialog-button-focus-color-fg);
+    background-color: var(--dialog-box-button-focus-color-bg);
+    border: 1px solid var(--main-focus-border-color);
+  }
+  
+  img[src="/LyciaWeb/pack/error.ico"] {
+    box-sizing: border-box;
+    content: url(/public/querix/icon/svg/24/ic_error_outline_24px_blue.svg);
+    margin-left: 2px;
+    /* Equal to width of new image */
+    margin-right: 2px;
+    /* Equal to width of new image */;
+  }
+  
+  img[src="/LyciaWeb/pack/info.ico"] {
+    box-sizing: border-box;
+    content: url(/public/querix/icon/svg/24/ic_info_outline_24px_blue.svg);
+    margin-left: 2px;
+    /* Equal to width of new image */
+    margin-right: 2px;
+    /* Equal to width of new image */;
+  }
+  
+  img[src="/LyciaWeb/pack/question.ico"] {
+    box-sizing: border-box;
+    content: url(/public/querix/icon/svg/24/ic_question_mark_outline_24px_blue.svg);
+    margin-left: 2px;
+    /* Equal to width of new image */
+    margin-right: 2px;
+    /* Equal to width of new image */
+  }
+  /*
+  ######################################################
+  Table FIND dialog
+  ######################################################
+  */
+  .qx-find-form.ui-dialog-content.ui-widget-content * {
+      font: normal 1.0rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+    color: #2e6e9e;
+    margin: 4px;
+  }
+  
+  .qx-find-form.ui-dialog-content.ui-widget-content #qx-find-val,
+  .qx-find-form.ui-dialog-content.ui-widget-content #qx-find-column {
+    font: normal 1.0rem "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+    color: #2e6e9e;
+    margin: 4px;
+  }
+  
+  /*Titlebar text for ALL DIALOG windows & boxes*/
+  .ui-widget-header {
+    color: white !important;
+  }
+}
+
+.qx-material-design {
+}
+/*END dialog_box.css*/

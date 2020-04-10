@@ -9,7 +9,7 @@
               <PropertyPath>
                 <PropertyName>Wrapper</PropertyName>
               </PropertyPath>
-              <PropertyValue type="Wrapper" Name="displayAtRedir" Parameter="[  {&quot;rows&quot;:[23],&quot;to&quot;:&quot;popup&quot;,&quot;parameter&quot;:&quot;f1&quot;},&#xD;&#xA; {&quot;rows&quot;:[24],&quot;to&quot;:&quot;popup&quot;,&quot;parameter&quot;:&quot;f2&quot;} ]" />
+              <PropertyValue type="Wrapper" Name="displayAtRedir" Parameter="[&#xD;&#xA;{&quot;rows&quot;:[1],&quot;to&quot;:&quot;popup&quot;,&quot;parameter&quot;:&quot;f1&quot;},&#xD;&#xA;{&quot;rows&quot;:[2],&quot;to&quot;:&quot;popup&quot;,&quot;parameter&quot;:&quot;f1&quot;},&#xD;&#xA; &#xD;&#xA;{&quot;rows&quot;:[23],&quot;to&quot;:&quot;popup&quot;,&quot;parameter&quot;:&quot;f1&quot;},&#xD;&#xA; {&quot;rows&quot;:[24],&quot;to&quot;:&quot;popup&quot;,&quot;parameter&quot;:&quot;f2&quot;} &#xD;&#xA;]" />
             </SetProperty>
           </DoStyleAction>
         </StyleSheet>

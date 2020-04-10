@@ -1,0 +1,170 @@
+/*
+####################################################################################################################################
+MDI-Container stuff
+
+
+####################################################################################################################################
+*/
+
+
+/*Tab Handles */
+
+/* MDI-Container Root-Tab should be hidden without taking place / display:none */
+/*modified for informix compatmode Victor 14.12.2018 */
+.ui-widget-header .ui-state-default[role="tab"].qx-page-0-header
+{
+    /*visibility: hidden;*/
+    display: none;
+}
+
+/*Note, we need a different/unique class name for MDI-container tab-handles*/
+/*at the moment, this class will select ALL tab handles normal form AND mdi-container */
+.ui-tabs-nav .qx-text 
+{
+    min-width: 80px;
+}
+
+/*.qx-t-h.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header
+{
+    border-bottom: 1px solid #5c9ccc ; 
+    
+}*/
+
+
+
+/* ##################################################### */
+/* MDI TAB                                               */
+/* ##################################################### */
+
+/* ********************************* */
+/* GENERAL                           */
+/* MDI Tab NOT Size, Padding, Margin */
+/* ********************************* */
+
+/* OUTER tab-handle area */
+.ui-widget-header .ui-state-default[role="tab"] {
+  height:3.7rem;  /* height */
+  min-width: 120px; /* min width */
+
+  display: flex;
+
+  background: var(--cnt-mdi-tab-handle-outer-area-bg);  /* no effect */ /* #fff; */ 
+  font-weight: 400; /* no effect @check*/ 
+  padding: 0; /* no effect @check*/ 
+
+  /*border-bottom: none; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 5px;   
+  border-width: 2px;
+  border-color: var(--cnt-mdi-tab-handle-not-selected-border-color-bg);  
+  border-left-color: var(--cnt-mdi-tab-handle-not-selected-border-color-bg); 
+  border-top-color: var(--cnt-mdi-tab-handle-not-selected-border-color-bg); 
+  border-right-color: var(--cnt-mdi-tab-handle-not-selected-border-color-bg); 
+  /* border-bottom-color: var(--cnt-mdi-tab-handle-selected-border-color-bg); */
+
+  border-image-width: 0px;
+  /*border-bottom-width: 2px;    */
+  /*border-bottom-style: solid;*/
+  boder-bottom: none;
+
+}
+
+
+
+/* INNER tab-handle area */
+.ui-widget-header .ui-state-default[role="tab"] > a {
+  padding: 0 10px;  /* top/bottom right/left*/
+  /*margin: 10;*/  /* no effect @check */
+  display: flex;
+  align-self: stretch;
+  flex: 1;
+  border: none;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 4px; 
+  border-image-width: 0px;
+}
+
+/* Hover tab-handle */
+.ui-widget-header .ui-state-default[role="tab"] > a:hover
+{
+  background-color: var(--cnt-mdi-tab-handle-hover-color-bg);
+}
+.ui-widget-header .ui-state-default[role="tab"].qx-has-text .ui-tabs-anchor .qx-text:hover
+{
+    color:var(--cnt-mdi-tab-handle-hover-color-fg);
+}
+
+/* @check - does this do anything ? */
+.ui-widget-header .ui-state-default[role="tab"] > a > .qx-text-with-icon {
+  justify-content: center;
+  align-items: center;
+    border-image-width: 0px;
+}
+
+/* **************************** */
+/* MDI Tab NOT Selected/Focused */
+/* **************************** */
+/* MDI tab-label text */
+.ui-widget-header .ui-state-default[role="tab"].qx-has-text .ui-tabs-anchor .qx-text {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: var(--cnt-mdi-tab-handle-not-selected-color-fg); /* rgba(255,255,255,0.6);*/
+    border-image-width: 0px;
+}
+
+/* Background Color - NOT selected/focused */
+.ui-widget-header .ui-state-default[role="tab"] > a {
+  background-color: var(--main-color-080);/* var(--cnt-mdi-tab-handle-not-selected-color-bg); */
+  border-image-width: 0px;
+
+}
+
+
+/* ************************ */
+/* MDI Tab Selected/Focused */
+/* ************************ */
+/*MDI tabbed_container selected tab*/
+.ui-widget-header .ui-state-default.ui-state-active[role="tab"] {
+    border-color: var(--cnt-mdi-tab-handle-selected-border-color-bg); /*  #fff */
+    border-left-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 23x;
+    border-style: solid;
+
+    /*border-bottom-width: 5px;
+    border-bottom-color: green;
+    border-bottom-style: solid;*/
+
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 5px;
+    border-image-width: 0px;
+
+  /*margin-left: 1px; */
+  margin-right: 1px;
+
+
+
+
+    /*margin-right: 5px;
+        margin-left: 5px;*/
+
+
+}
+
+/* MDI tab-label text */
+/*text bg color of focused mdi-tab handle */
+.ui-widget-header .ui-state-default.ui-state-active[role="tab"] > a {
+  background:var(--cnt-mdi-tab-handle-selected-color-bg); /* rgb(58, 89, 126);*/
+  border-image-width: 0px;  
+
+}
+/*text fg color of focused mdi-tab handle */
+.ui-widget-header .ui-state-default.ui-state-active[role="tab"].qx-has-text .ui-tabs-anchor .qx-text {
+  background: none;
+  color: var(--cnt-mdi-tab-handle-selected-color-fg); /* #ededed; */
+  /*background-color: yellow; */
+  border-image-width: 0px;  
+
+}

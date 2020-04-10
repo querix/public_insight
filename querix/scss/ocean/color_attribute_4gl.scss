@@ -1,0 +1,2275 @@
+.qx-jquery-ui {
+  .qx-c-attribute_black.qx-aum-label .qx-text {
+    color: var(--fgl-color-black);
+  }
+  
+  /*fgl color black-reverse huho: 03.11.2018 */
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-label .qx-text {
+    color: var(--fgl-color-black-rev-fg);
+    background-color: var(--fgl-color-black-rev-bg);
+  }
+  
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-label {
+    color: var(--fgl-color-black-dim);
+    background-color: var(--fgl-color-black-rev-bg) !important;
+  }
+  
+  /*fgl color black-Dim huho: 03.11.2018 */
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-label .qx-text {
+    color: var(--fgl-color-black-dim-fg);
+    background-color: transparent !important;
+  }
+  
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-label {
+    color: var(--fgl-color-black-dim-bg);
+    background-color: var(--fgl-color-black-dim-bg) !important;
+      /*background-color:rgba(225,225,225,0.3) !important;*/;
+  }
+  
+  /*fgl color black-Blink huho: 03.11.2018 */
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-label .qx-text {
+    color: var(--fgl-color-black-blink);
+    background-color: transparent !important;
+  }
+  /*parent background-color*/
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-label {
+    background-color: var(--fgl-color-blink-bg-label) !important;
+  }
+  
+  /*###################################
+  WHITE
+  ###################################/*
+  
+  /*fgl color white huho: 03.11.2018 */
+  .qx-c-attribute_white.qx-aum-label .qx-text {
+    color: var(--fgl-color-white);
+  }
+  
+  /*fgl color WHITE - reverse huho: 03.11.2018 */
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-label .qx-text {
+    color: var(--fgl-color-white-rev-fg);
+    background-color: var(--fgl-color-white-rev-bg);
+  }
+  
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-label {
+    color: var(--fgl-color-white-dim);
+    background-color: var(--fgl-color-white-rev-bg) !important;
+  }
+  /*fgl color WHITE - Dim huho: 03.11.2018 */
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-label .qx-text {
+    color: var(--fgl-color-black-dim-fg);
+    background-color: transparent !important;
+  }
+  /*parent background-color*/
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-label {
+    color: var(--fgl-color-black-dim-bg);
+    background-color: var(--fgl-color-black-dim-bg) !important;
+      /*background-color:rgba(225,225,225,0.3) !important;*/;
+  }
+  
+  /*fgl color WHITE - Blink huho: 03.11.2018 */
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-label .qx-text {
+    color: var(--fgl-color-white-blink-fg);
+    background-color: transparent !important;
+  }
+  /*parent background-color*/
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-label {
+    background-color: var(--fgl-color-blink-bg-label) !important;
+  }
+  
+  
+  
+  /*###################################
+  GREEN
+  ###################################/*
+  
+  /*fgl color green huho: 03.11.2018 */
+  .qx-c-attribute_green.qx-aum-label .qx-text {
+    color: var(--fgl-color-green);
+  }
+  
+  /*fgl color green - reverse huho: 03.11.2018 */
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-label .qx-text {
+    color: var(--fgl-color-green-rev-fg);
+    background-color: var(--fgl-color-green-rev-bg);
+  }
+  
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-label {
+    color: var(--fgl-color-green-dim);
+    background-color: var(--fgl-color-green-rev-bg) !important;
+  }
+  
+  /*fgl color green - Dim huho: 03.11.2018 */
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-label .qx-text {
+    color: var(--fgl-color-green-dim-fg);
+    background-color: transparent !important;
+  }
+  /*parent background-color*/
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-label {
+    color: var(--fgl-color-green-dim-bg);
+    background-color: var(--fgl-color-green-dim-bg) !important;
+      /*background-color:rgba(225,225,225,0.3) !important;*/;
+  }
+  
+  /*fgl color green - Blink huho: 03.11.2018 */
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-label .qx-text {
+    color: var(--fgl-color-green-blink-fg);
+    background-color: transparent !important;
+  }
+  /*parent background-color*/
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-label {
+    background-color: var(--fgl-color-blink-bg-label) !important;
+  }
+  
+  
+  /*###################################
+  RED
+  ###################################/*
+  
+  /*fgl color red huho: 03.11.2018 */
+  .qx-c-attribute_red.qx-aum-label .qx-text {
+    color: var(--fgl-color-red);
+  }
+  
+  /*fgl color red - reverse huho: 03.11.2018 */
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-label .qx-text {
+    color: var(--fgl-color-red-rev-fg);
+    background-color: var(--fgl-color-red-rev-bg);
+  }
+  
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-label {
+    color: var(--fgl-color-red-dim);
+    background-color: var(--fgl-color-red-rev-bg) !important;
+  }
+  
+  /*fgl color red - Dim huho: 03.11.2018 */
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-label .qx-text {
+    color: var(--fgl-color-red-dim-fg);
+    background-color: transparent !important;
+  }
+  /*parent background-color*/
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-label {
+    color: var(--fgl-color-red-dim-bg);
+    background-color: var(--fgl-color-red-dim-bg) !important;
+      /*background-color:rgba(225,225,225,0.3) !important;*/;
+  }
+  
+  /*fgl color red - Blink huho: 03.11.2018 */
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-label .qx-text {
+    color: var(--fgl-color-red-blink-fg);
+    background-color: transparent !important;
+  }
+  /*parent background-color*/
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-label {
+    background-color: var(--fgl-color-blink-bg-label) !important;
+  }
+  
+  
+  
+  /*###################################
+  BLUE
+  ###################################/*
+  
+  /*fgl color blue huho: 03.11.2018 */
+  .qx-c-attribute_blue.qx-aum-label .qx-text {
+    color: var(--fgl-color-blue);
+  }
+  
+  /*fgl color blue - reverse huho: 03.11.2018 */
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-label .qx-text {
+    color: var(--fgl-color-blue-rev-fg);
+    background-color: transparent;
+  }
+  
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-label {
+      /*color: var(--fgl-color-blue-rev-bg) !important;*/
+    background-color: var(--fgl-color-blue-rev-bg) !important;
+  }
+  
+  
+  /*fgl color blue - Dim huho: 03.11.2018 */
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-label .qx-text {
+    color: var(--fgl-color-blue-dim-fg);
+    background-color: transparent !important;
+  }
+  /*parent background-color*/
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-label {
+    color: var(--fgl-color-blue-dim-bg);
+    background-color: var(--fgl-color-blue-dim-bg) !important;
+  }
+  
+  /*fgl color blue - Blink huho: 03.11.2018 */
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-label .qx-text {
+    color: var(--fgl-color-blue-blink-fg);
+    background-color: transparent !important;
+  }
+  /*parent background-color*/
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-label {
+    background-color: var(--fgl-color-blink-bg-label) !important;
+  }
+  
+  
+  
+  /*###################################
+  MAGENTA
+  ###################################/*
+  
+  /*fgl color magenta huho: 03.11.2018 */
+  .qx-c-attribute_magenta.qx-aum-label .qx-text {
+    color: var(--fgl-color-magenta);
+  }
+  
+  /*fgl color magenta - reverse huho: 03.11.2018 */
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-label .qx-text {
+    color: var(--fgl-color-magenta-rev-fg);
+    background-color: var(--fgl-color-magenta-rev-bg);
+  }
+  
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-label {
+    color: var(--fgl-color-magenta-dim);
+    background-color: var(--fgl-color-magenta-rev-bg) !important;
+  }
+  /*fgl color magenta - Dim huho: 03.11.2018 */
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-label .qx-text {
+    color: var(--fgl-color-magenta-dim-fg);
+    background-color: transparent !important;
+  }
+  /*parent background-color*/
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-label {
+    color: var(--fgl-color-magenta-dim-bg);
+    background-color: var(--fgl-color-magenta-dim-bg) !important;
+      /*background-color:rgba(225,225,225,0.3) !important;*/;
+  }
+  
+  /*fgl color magenta - Blink huho: 03.11.2018 */
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-label .qx-text {
+    color: var(--fgl-color-magenta-blink-fg);
+    background-color: transparent !important;
+  }
+  /*parent background-color*/
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-label {
+    background-color: var(--fgl-color-blink-bg-label) !important;
+  }
+  
+  
+  
+  
+  /*###################################
+  YELLOW
+  ###################################/*
+  
+  /*fgl color yellow huho: 03.11.2018 */
+  .qx-c-attribute_yellow.qx-aum-label .qx-text {
+    color: var(--fgl-color-yellow);
+  }
+  
+  /*fgl color yellow - reverse huho: 03.11.2018 */
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-label .qx-text {
+    color: var(--fgl-color-yellow-rev-fg);
+    background-color: var(--fgl-color-yellow-rev-bg);
+  }
+  
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-label {
+    color: var(--fgl-color-yellow-dim);
+    background-color: var(--fgl-color-yellow-rev-bg) !important;
+  }
+  /*fgl color yellow - Dim huho: 03.11.2018 */
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-label .qx-text {
+    color: var(--fgl-color-yellow-dim-fg);
+    background-color: transparent !important;
+  }
+  /*parent background-color*/
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-label {
+    color: var(--fgl-color-black-dim-bg);
+    background-color: var(--fgl-color-dim-bg-label-bg) !important;
+      /*background-color:rgba(225,225,225,0.3) !important;*/;
+  }
+  
+  /*fgl color yellow - Blink huho: 03.11.2018 */
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-label .qx-text {
+    color: var(--fgl-color-yellow-blink-fg);
+    background-color: transparent !important;
+  }
+  /*parent background-color*/
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-label {
+    background-color: var(--fgl-color-blink-bg-label) !important;
+  }
+  
+  
+  
+  /*###################################
+  CYAN
+  ###################################/*
+  
+  /*fgl color cyan huho: 03.11.2018 */
+  .qx-c-attribute_cyan.qx-aum-label .qx-text {
+    color: var(--fgl-color-cyan);
+  }
+  
+  /*fgl color cyan - reverse huho: 03.11.2018 */
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-label .qx-text {
+    color: var(--fgl-color-cyan-rev-fg);
+    background-color: var(--fgl-color-cyan-rev-bg);
+  }
+  
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-label {
+    color: var(--fgl-color-cyan-dim);
+    background-color: var(--fgl-color-cyan-rev-bg) !important;
+  }
+  /*fgl color cyan - Dim huho: 03.11.2018 */
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-label .qx-text {
+    color: var(--fgl-color-cyan-dim-fg);
+    background-color: transparent !important;
+  }
+  /*parent background-color*/
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-label {
+    color: var(--fgl-color-cyan-dim-bg);
+    background-color: var(--fgl-color-cyan-dim-bg) !important;
+      /*background-color:rgba(225,225,225,0.3) !important;*/;
+  }
+  
+  /*fgl color cyan - Blink huho: 03.11.2018 */
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-label .qx-text {
+    color: var(--fgl-color-cyan-blink-fg);
+    background-color: transparent !important;
+  }
+  /*parent background-color*/
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-label {
+    background-color: var(--fgl-color-blink-bg-label) !important;
+  }
+  
+  
+  /*fgl color cyan huho: 24.02.2019 */
+  .qx-c-attribute_cyan.qx-aum-label .qx-text {
+    color: var(--fgl-color-cyan);
+  }
+  
+  /*************************************************************************/
+  /* END OF fgl COLOUR ATTRIBUTES                                          */
+  /*************************************************************************/
+  
+  
+  
+  
+  
+  
+  
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  BLACK ATTRIBUTE set in fgl .qx-c-attribute_black
+  ####################################################################
+  */
+  
+  .qx-c-attribute_black.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_black.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_black.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_black.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_black.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_black.qx-aum-browser {
+    color: var(--fgl-color-black) !important;
+    background-color: transparent;
+    opacity: 1;
+    
+  }
+  /* BLACK REVERSE*/
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-black-rev-fg) !important;
+    background-color: var(--fgl-color-black-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* BLACK DIM*/
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-black-dim-fg) !important;
+    background-color: var(--fgl-color-black-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* BLACK BLINK*/
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-black-blink-fg) !important;
+    background-color: var(--fgl-color-black-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  WHITE ATTRIBUTE set in fgl .qx-c-attribute_white
+  ####################################################################
+  */
+  
+  .qx-c-attribute_white.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_white.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_white.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_white.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_white.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_white.qx-aum-browser {
+    color: var(--fgl-color-white) !important;
+    background-color: transparent;
+    opacity: 1;
+    
+  }
+  /* WHITE REVERSE*/
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-white-rev-fg) !important;
+    background-color: var(--fgl-color-white-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* WHITE DIM*/
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-white-dim-fg) !important;
+    background-color: var(--fgl-color-white-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* WHITE BLINK*/
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-white-blink-fg) !important;
+    background-color: var(--fgl-color-white-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  GREEN ATTRIBUTE set in fgl .qx-c-attribute_green
+  ####################################################################
+  */
+  
+  .qx-c-attribute_green.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_green.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_green.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_green.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_green.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_green.qx-aum-browser {
+    color: var(--fgl-color-green) !important;
+    background-color: transparent;
+    opacity: 1;
+    
+  }
+  /* GREEN REVERSE*/
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-green-rev-fg) !important;
+    background-color: var(--fgl-color-green-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* GREEN DIM*/
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-green-dim-fg) !important;
+    background-color: var(--fgl-color-green-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* GREEN BLINK*/
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-green-blink-fg) !important;
+    background-color: var(--fgl-color-green-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  RED ATTRIBUTE set in fgl .qx-c-attribute_red
+  ####################################################################
+  */
+  
+  .qx-c-attribute_red.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_red.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_red.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_red.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_red.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_red.qx-aum-browser {
+    color: var(--fgl-color-red) !important;
+    background-color: transparent;
+    opacity: 1;
+    
+  }
+  /* RED REVERSE*/
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-red-rev-fg) !important;
+    background-color: var(--fgl-color-red-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* RED DIM*/
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-red-dim-fg) !important;
+    background-color: var(--fgl-color-red-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* RED BLINK*/
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-red-blink-fg) !important;
+    background-color: var(--fgl-color-red-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  BLUE ATTRIBUTE set in fgl .qx-c-attribute_blue
+  ####################################################################
+  */
+  
+  /* BLUE */
+  .qx-c-attribute_blue.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_blue.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_blue.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_blue.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_blue.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_blue.qx-aum-browser {
+    color: var(--fgl-color-blue) !important;
+    background-color: transparent !important;
+    opacity: 1;
+    
+  }
+  
+  /* BLUE REVERSE*/
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-blue-rev-fg) !important;
+    background-color: var(--fgl-color-blue-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* BLUE DIM*/
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-blue-dim-fg) !important;
+    background-color: var(--fgl-color-blue-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* BLUE BLINK*/
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-blue-blink-fg) !important;
+    background-color: var(--fgl-color-blue-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  YELLOW ATTRIBUTE set in fgl .qx-c-attribute_yellow
+  ####################################################################
+  */
+  
+  .qx-c-attribute_yellow.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_yellow.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_yellow.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_yellow.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_yellow.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_yellow.qx-aum-browser {
+    color: var(--fgl-color-yellow) !important;
+    background-color: transparent;
+    opacity: 1;
+    
+  }
+  /* YELLOW REVERSE*/
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-yellow-rev-fg) !important;
+    background-color: var(--fgl-color-yellow-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* yellow DIM*/
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-yellow-dim-fg) !important;
+    background-color: var(--fgl-color-yellow-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* yellow BLINK*/
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-yellow-blink-fg) !important;
+    background-color: var(--fgl-color-yellow-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  CYAN ATTRIBUTE set in fgl .qx-c-attribute_cyan
+  ####################################################################
+  */
+  
+  .qx-c-attribute_cyan.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_cyan.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_cyan.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_cyan.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_cyan.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_cyan.qx-aum-browser {
+    color: var(--fgl-color-cyan) !important;
+    background-color: transparent;
+    opacity: 1;
+    
+  }
+  /* CYAN REVERSE*/
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-cyan-rev-fg) !important;
+    background-color: var(--fgl-color-cyan-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* CYAN DIM*/
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-cyan-dim-fg) !important;
+    background-color: var(--fgl-color-cyan-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* CYAN BLINK*/
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-cyan-blink-fg) !important;
+    background-color: var(--fgl-color-cyan-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  MAGENTA ATTRIBUTE set in fgl .qx-c-attribute_magenta
+  ####################################################################
+  */
+  
+  .qx-c-attribute_magenta.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_magenta.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_magenta.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_magenta.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_magenta.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_magenta.qx-aum-browser {
+    color: var(--fgl-color-magenta) !important;
+    background-color: transparent;
+    opacity: 1;
+    
+  }
+  /* MAGENTA REVERSE*/
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-magenta-rev-fg) !important;
+    background-color: var(--fgl-color-magenta-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* MAGENTA DIM*/
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-magenta-dim-fg) !important;
+    background-color: var(--fgl-color-magenta-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* MAGENTA BLINK*/
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-calendar.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-function-field-abs.qx-inactive.ui-state-disabled .qx-ff-text *,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-spinner.qx-inactive.ui-state-disabled .qx-text,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-text-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-text-area.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-time-edit-field.qx-inactive.ui-state-disabled *,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled, /*outer ComboBoxList*/
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-combo-box.qx-inactive.ui-state-disabled .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-magenta-blink-fg) !important;
+    background-color: var(--fgl-color-magenta-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /*##############################################################################################################*/
+  /* END OF INACTIVE fields                                                                                      */ 
+  /*##############################################################################################################*/
+  
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  BLACK ATTRIBUTE set in fgl .qx-c-attribute_black
+  ####################################################################
+  */
+  
+  .qx-c-attribute_black.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_black.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_black.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_black.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_black.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_black.qx-aum-browser {
+    color: var(--fgl-color-black) !important;
+    background-color: transparent;
+    opacity: 1;
+    
+  }
+  /* BLACK REVERSE*/
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_black.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-black-rev-fg) !important;
+    background-color: var(--fgl-color-black-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* BLACK DIM*/
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_black.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-black-dim-fg) !important;
+    background-color: var(--fgl-color-black-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* BLACK BLINK*/
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_black.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-black-blink-fg) !important;
+    background-color: var(--fgl-color-black-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  WHITE ATTRIBUTE set in fgl .qx-c-attribute_white
+  ####################################################################
+  */
+  
+  .qx-c-attribute_white.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_white.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_white.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_white.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_white.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_white.qx-aum-browser {
+    color: var(--fgl-color-white) !important;
+    background-color: transparent;
+    opacity: 1;
+    
+  }
+  /* WHITE REVERSE*/
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_white.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-white-rev-fg) !important;
+    background-color: var(--fgl-color-white-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* WHITE DIM*/
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_white.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-white-dim-fg) !important;
+    background-color: var(--fgl-color-white-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* WHITE BLINK*/
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_white.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-white-blink-fg) !important;
+    background-color: var(--fgl-color-white-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  GREEN ATTRIBUTE set in fgl .qx-c-attribute_green
+  ####################################################################
+  */
+  
+  .qx-c-attribute_green.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_green.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_green.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_green.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_green.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_green.qx-aum-browser {
+    color: var(--fgl-color-green) !important;
+    background-color: transparent;
+    opacity: 1;
+    
+  }
+  /* GREEN REVERSE*/
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_green.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-green-rev-fg) !important;
+    background-color: var(--fgl-color-green-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* GREEN DIM*/
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_green.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-green-dim-fg) !important;
+    background-color: var(--fgl-color-green-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* GREEN BLINK*/
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_green.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-green-blink-fg) !important;
+    background-color: var(--fgl-color-green-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  RED ATTRIBUTE set in fgl .qx-c-attribute_red
+  ####################################################################
+  */
+  
+  .qx-c-attribute_red.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_red.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_red.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_red.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_red.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_red.qx-aum-browser {
+    color: var(--fgl-color-red) !important;
+    background-color: transparent;
+    opacity: 1;
+    
+  }
+  /* RED REVERSE*/
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_red.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-red-rev-fg) !important;
+    background-color: var(--fgl-color-red-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* RED DIM*/
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_red.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-red-dim-fg) !important;
+    background-color: var(--fgl-color-red-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* RED BLINK*/
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_red.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-red-blink-fg) !important;
+    background-color: var(--fgl-color-red-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  BLUE ATTRIBUTE set in fgl .qx-c-attribute_blue
+  ####################################################################
+  */
+  
+  /* BLUE */
+  .qx-c-attribute_blue.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_blue.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_blue.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_blue.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_blue.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_blue.qx-aum-browser {
+    color: var(--fgl-color-blue) !important;
+    background-color: transparent !important;
+    opacity: 1;
+    
+  }
+  
+  /* BLUE REVERSE*/
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-blue-rev-fg) !important;
+    background-color: var(--fgl-color-blue-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* BLUE DIM*/
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_blue.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-blue-dim-fg) !important;
+    background-color: var(--fgl-color-blue-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* BLUE BLINK*/
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_blue.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-blue-blink-fg) !important;
+    background-color: var(--fgl-color-blue-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  YELLOW ATTRIBUTE set in fgl .qx-c-attribute_yellow
+  ####################################################################
+  */
+  
+  .qx-c-attribute_yellow.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_yellow.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_yellow.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_yellow.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_yellow.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_yellow.qx-aum-browser {
+    color: var(--fgl-color-yellow) !important;
+    background-color: transparent;
+    opacity: 1;
+    
+  }
+  /* YELLOW REVERSE*/
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-yellow-rev-fg) !important;
+    background-color: var(--fgl-color-yellow-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* yellow DIM*/
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_yellow.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-yellow-dim-fg) !important;
+    background-color: var(--fgl-color-yellow-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* yellow BLINK*/
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_yellow.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-yellow-blink-fg) !important;
+    background-color: var(--fgl-color-yellow-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  CYAN ATTRIBUTE set in fgl .qx-c-attribute_cyan
+  ####################################################################
+  */
+  
+  .qx-c-attribute_cyan.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_cyan.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_cyan.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_cyan.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_cyan.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_cyan.qx-aum-browser {
+    color: var(--fgl-color-cyan) !important;
+    background-color: transparent;
+    opacity: 1;
+    
+  }
+  /* CYAN REVERSE*/
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-cyan-rev-fg) !important;
+    background-color: var(--fgl-color-cyan-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* CYAN DIM*/
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_cyan.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-cyan-dim-fg) !important;
+    background-color: var(--fgl-color-cyan-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* CYAN BLINK*/
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_cyan.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-cyan-blink-fg) !important;
+    background-color: var(--fgl-color-cyan-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  /*
+  ####################################################################
+  Inactive Fields (ALL Element Types with textBox)
+  NOT IN INPUT
+  MAGENTA ATTRIBUTE set in fgl .qx-c-attribute_magenta
+  ####################################################################
+  */
+  
+  .qx-c-attribute_magenta.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_magenta.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_magenta.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_magenta.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_magenta.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_magenta.qx-aum-browser {
+    color: var(--fgl-color-magenta) !important;
+    background-color: transparent;
+    opacity: 1;
+    
+  }
+  /* MAGENTA REVERSE*/
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum-browser {
+    color: var(--fgl-color-magenta-rev-fg) !important;
+    background-color: var(--fgl-color-magenta-rev-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /* MAGENTA DIM*/
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_magenta.qx-c-attribute_dim.qx-aum-browser {
+    color: var(--fgl-color-magenta-dim-fg) !important;
+    background-color: var(--fgl-color-magenta-dim-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  
+  /* MAGENTA BLINK*/
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-calendar.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-function-field-abs.qx-active.ui-state-active .qx-ff-text *,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-spinner.qx-active.ui-state-active .qx-text,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-text-field.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-text-area.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-time-edit-field.qx-active.ui-state-active *,
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active, /*outer ComboBoxList*/
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-combo-box.qx-active.ui-state-active .qx-text.qx-text-edit.qx-focus-target, /*Inner ComboBoxList*/
+  .qx-c-attribute_magenta.qx-c-attribute_blink.qx-aum-browser {
+    color: var(--fgl-color-magenta-blink-fg) !important;
+    background-color: var(--fgl-color-magenta-blink-bg) !important;
+    opacity: 1;
+    
+  }
+  
+  /*##############################################################################################################*/
+  /* END OF INPUT/ACTIVE fields                                                                                      */ 
+  /*##############################################################################################################*/
+  
+  
+  
+  
+  
+  /*#################################################################*/
+  /* Supporting fgl color attributes for tables display/ipnut array  */
+  /*#################################################################*/
+  
+  
+  /*black*/
+  .qx-aum-some.qx-c-attribute_black:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_black.qx-aum:not(.qx-c-nativestyle) * {
+    color: var(--fgl-color-black-fg);
+    background: var(--fgl-color-black-bg);
+  }
+  
+  .qx-c-attribute_black:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_black:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-black-fg);
+   ;
+  }
+  /*white*/
+  .qx-aum-some.qx-c-attribute_white:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_white.qx-aum:not(.qx-c-nativestyle) * {
+    color: var(--fgl-color-white-fg);
+    background: var(--fgl-color-white-bg);
+  }
+  
+  .qx-c-attribute_white:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_white:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-white-fg);
+   ;
+  }
+  
+  /*green*/
+  .qx-aum-some.qx-c-attribute_green:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_green:not(.qx-c-nativestyle) * {
+    background: var(--fgl-color-green-bg);
+  }
+  
+  .qx-c-attribute_green:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_green:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-green-fg);
+   ;
+  }
+  /* Need to check this with Victor - hightlight is always sending color blue */
+  .qx-c-attribute_green.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected .qx-table-cell.qx-c-activefield.qx-aum-some.qx-aum-abstract-field.qx-has-text {
+    background-color: var(--fgl-color-green-fg);
+    color: var(--fgl-color-green-bg);
+  }
+  
+  /*red*/
+  .qx-aum-some.qx-c-attribute_red:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_red.qx-aum:not(.qx-c-nativestyle) * {
+    background: var(--fgl-color-red-bg);
+  }
+  
+  .qx-c-attribute_red:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_red:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-red-fg);
+   ;
+  }
+  
+  
+  /*blue*/
+  .qx-aum-some.qx-c-attribute_blue:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_blue.qx-aum:not(.qx-c-nativestyle) * {
+    background: var(--fgl-color-blue-bg);
+  }
+  
+  .qx-c-attribute_blue:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_blue:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-blue-fg);
+   ;
+  }
+  
+  /*cyan*/
+  .qx-aum-some.qx-c-attribute_cyan:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_cyan.qx-aum:not(.qx-c-nativestyle) * {
+    background: var(--fgl-color-cyan-bg);
+  }
+  
+  .qx-c-attribute_cyan:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_cyan:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-cyan-fg);
+   ;
+  }
+  
+  /*yellow*/
+  .qx-aum-some.qx-c-attribute_yellow:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_yellow.qx-aum:not(.qx-c-nativestyle) * {
+    background: var(--fgl-color-yellow-bg);
+  }
+  
+  .qx-c-attribute_yellow:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_yellow:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-yellow-fg);
+   ;
+  }
+  
+  
+  /*magenta*/
+  .qx-aum-some.qx-c-attribute_magenta:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_magenta.qx-aum:not(.qx-c-nativestyle) * {
+    background: var(--fgl-color-magenta-bg);
+  }
+  
+  .qx-c-attribute_magenta:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_magenta:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-magenta-fg);
+   ;
+  }
+  
+  /* ******************************************************* */
+  /*REVERSED color*/
+  /*default-reversed*/
+  
+  
+  /*black-reversed*/
+  .qx-aum-some.qx-c-attribute_black.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_black.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) * {
+    /*color: var(--fgl-color-black-bg); */
+    background: var(--fgl-color-black-fg);
+  }
+  
+  .qx-c-attribute_black.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_black.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-black-bg);
+  
+    background-color: var(--fgl-color-black-fg);
+  }
+  
+  /*white-reversed*/
+  .qx-aum-some.qx-c-attribute_white.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_white.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) * {
+    background: var(--fgl-color-white-fg);
+  }
+  
+  .qx-c-attribute_white.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_white.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-white-bg);
+   
+    background-color: var(--fgl-color-white-fg);
+  }
+  
+  /*green-reversed*/
+  .qx-aum-some.qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle) * {
+    background: var(--fgl-color-green-fg);
+  }
+  
+  .qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_green.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-green-bg);
+   
+    background-color: var(--fgl-color-green-fg);
+  }
+  
+  
+  /*red-reversed*/
+  .qx-aum-some.qx-c-attribute_red.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_red.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) * {
+    background: var(--fgl-color-red-fg);
+  }
+  
+  .qx-c-attribute_red.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_red.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-red-bg);
+   
+    background-color: var(--fgl-color-red-fg);
+  }
+  
+  
+  /*blue-reversed*/
+  .qx-aum-some.qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_blue.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) * {
+    background: var(--fgl-color-blue-fg);
+  }
+  
+  .qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_blue.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-blue-bg);
+  }
+  
+  /*cyan-reversed*/
+  .qx-aum-some.qx-c-attribute_cyan.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_cyan.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) * {
+    background: var(--fgl-color-cyan-fg);
+  }
+  
+  .qx-c-attribute_cyan.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_cyan.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-cyan-bg);
+   
+    background-color: var(--fgl-color-cyan-fg);
+  }
+  
+  /*yellow-reversed*/
+  .qx-aum-some.qx-c-attribute_yellow.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_yellow.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) * {
+    background: var(--fgl-color-yellow-fg);
+  }
+  
+  .qx-c-attribute_yellow.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_yellow.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-yellow-bg);
+   
+    background-color: var(--fgl-color-yellow-fg);
+  }
+  
+  
+  /*magenta-reversed*/
+  .qx-aum-some.qx-c-attribute_magenta.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_magenta.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) * {
+    background: var(--fgl-color-magenta-fg);
+  }
+  
+  .qx-c-attribute_magenta.qx-c-attribute_reverse:not(.qx-c-nativestyle) .md-input,
+  .qx-c-attribute_magenta.qx-c-attribute_reverse:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-magenta-bg);
+   
+    background-color: var(--fgl-color-magenta-fg);
+  }
+  /*#################################################################*/
+  /* END OF table fgl color support definition                       */
+  /* Supporting fgl color attributes for tables display/ipnut array  */
+  /*#################################################################*/
+  
+  
+}
+
+.qx-material-design {
+  /*BEGIN color_attribute_fgl.css*/
+  $colorlist: ('black', 'white', 'green', 'red', 'blue', 'magenta', 'yellow', 'cyan');
+  $widgetSelectors: ".qx-aum-calendar, .qx-aum-calendar *,"+
+  ".qx-aum-text-field, .qx-aum-text-field *,"+
+  ".qx-aum-text-area, .qx-aum-text-area *,"+
+  ".qx-aum-time-edit-field, .qx-aum-time-edit-field *,"+
+  ".qx-aum-spinner, .qx-aum-spinner .qx-text,"+
+  ".qx-aum-combo-box, .qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,"+
+  ".qx-aum-function-field-abs .qx-ff-text, .qx-aum-function-field-abs .qx-ff-text *";
+
+  #{selector-append('.qx-active', $widgetSelectors)} {
+    color: var(--fgl-color-blue);
+    background-color: transparent;
+  }
+  #{selector-append('.qx-active.qx-c-attribute_reverse', $widgetSelectors)} {
+    color: var(--fgl-color-blue-rev-fg);
+    background-color: var(--fgl-color-blue-rev-bg);
+  }
+
+  .qx-aum-some.qx-c-attribute_reverse:not(.qx-c-nativestyle),
+  .qx-aum-some.qx-c-attribute_reverse.qx-aum:not(.qx-c-nativestyle) * {
+    /*color: var(--fgl-color-black-bg); */
+    background: var(--fgl-color-default-fg);
+  }
+  .qx-c-attribute_reverse[data-md-widget]:not(.qx-c-nativestyle),
+  .qx-c-attribute_reverse:not(.qx-c-nativestyle) {
+    color: var(--fgl-color-default-bg);
+    background-color: var(--fgl-color-default-fg); 
+  }
+
+  /* Need to check this with Victor - hightlight is always sending color blue */
+  /*Check color_default and size_length for duplicates*/
+  // .qx-c-attribute_green.qx-aum-some.ui-row-ltr.qx-focusable.qx-table-row.qx-selected .qx-table-cell.qx-c-activefield.qx-aum-some.qx-aum-abstract-field.qx-has-text {
+  //   background-color: var(--fgl-color-green-fg);
+  //   color: var(--fgl-color-green-bg);
+  // }
+
+  @each $color in $colorlist {
+    .qx-c-attribute_#{$color} {
+      &.qx-aum-label {
+        color: var(--fgl-color-#{$color}-fg);	
+        /*fgl color #{$color}-reverse huho: 03.11.2018 */
+        &.qx-c-attribute_reverse {
+          background-color: var(--fgl-color-#{$color}-rev-bg);    
+          color: var(--fgl-color-#{$color}-rev-fg);	
+        }    
+        // &.qx-c-attribute_reverse .qx-text{
+        //   color: var(--fgl-color-#{$color}-rev-fg);	
+        // }    
+        /*fgl color #{$color}-Dim huho: 03.11.2018 */
+        &.qx-c-attribute_dim {
+          color: var(--fgl-color-#{$color}-dim-bg);
+          background-color: var(--fgl-color-#{$color}-dim-bg);
+        }
+    
+        &.qx-c-attribute_blink {
+          background-color: var(--fgl-color-blink-bg-label);
+          color: var(--fgl-color-#{$color}-blink-fg);
+        }
+      } 
+
+      &.qx-inactive {
+        @at-root #{selector-append(&, $widgetSelectors)} {
+          color: var(--fgl-color-#{$color}-fg);
+          background-color: transparent;
+        }
+        &.qx-c-attribute_reverse {
+          @at-root #{selector-append(&, $widgetSelectors)} {
+            color: var(--fgl-color-#{$color}-rev-fg);
+            background-color: var(--fgl-color-#{$color}-rev-bg);
+            opacity: 1;
+          }
+        }
+        &.qx-c-attribute_dim {
+          @at-root #{selector-append(&, $widgetSelectors)} {
+            color: var(--fgl-color-#{$color}-dim-fg);
+            background-color: var(--fgl-color-#{$color}-dim-bg);
+            opacity: 1;
+          }
+        }
+        &.qx-c-attribute_blink {
+          @at-root #{selector-append(&, $widgetSelectors)} {
+            color: var(--fgl-color-#{$color}-blink-fg);
+            background-color: var(--fgl-color-#{$color}-blink-bg);
+            opacity: 1;
+          }
+        }
+      }
+
+      &.qx-active {
+        @at-root #{selector-append(&, $widgetSelectors)} {
+          color: var(--fgl-color-#{$color}-fg);
+          background-color: transparent;
+        }
+        &.qx-c-attribute_reverse {
+          @at-root #{selector-append(&, $widgetSelectors)} {
+            color: var(--fgl-color-#{$color}-rev-fg);
+            background-color: var(--fgl-color-#{$color}-rev-bg);
+            opacity: 1;
+          }
+        }
+        &.qx-c-attribute_dim {
+          @at-root #{selector-append(&, $widgetSelectors)} {
+            color: var(--fgl-color-#{$color}-dim-fg);
+            background-color: var(--fgl-color-#{$color}-dim-bg);
+            opacity: 1;
+          }
+        }
+        &.qx-c-attribute_blink {
+          @at-root #{selector-append(&, $widgetSelectors)} {
+            color: var(--fgl-color-#{$color}-blink-fg);
+            background-color: var(--fgl-color-#{$color}-blink-bg);
+            opacity: 1;
+          }
+        }
+      }
+
+      &.qx-aum-browser {
+        color: var(--fgl-color-#{$color}-fg);
+        background-color: var(--fgl-color-#{$color}-bg);
+      }
+      &.qx-aum-browser.qx-c-attribute_reverse {
+        color: var(--fgl-color-#{$color}-rev-fg);
+        background-color: var(--fgl-color-#{$color}-rev-bg);
+        opacity: 1;
+      }
+      &.qx-aum-browser.qx-c-attribute_dim {
+        color: var(--fgl-color-#{$color}-dim-fg);
+        background-color: var(--fgl-color-#{$color}-dim-bg);
+        opacity: 1;
+      }
+      &.qx-aum-browser.qx-c-attribute_blink {
+        color: var(--fgl-color-#{$color}-blink-fg);
+        background-color: var(--fgl-color-#{$color}-blink-bg);
+        opacity: 1;
+      }
+
+      /*Supporting 4gl color attributes for tables display/ipnut array*/
+      &:not(.qx-c-nativestyle) {
+        color: var(--fgl-color-#{$color}-fg);
+        /*ABRA*/
+        @at-root &[data-md-widget],
+        .qx-aum-some#{&},
+        .qx-aum-some#{&} * {
+          color: var(--fgl-color-#{$color}-fg);
+          // background: var(--fgl-color-#{$color}-bg);
+        }
+        @at-root .qx-aum-some.qx-c-attribute_reverse#{&},
+        .qx-aum-some.qx-c-attribute_reverse#{&} * {
+          color: var(--fgl-color-#{$color}-bg);
+          background: var(--fgl-color-#{$color}-fg);
+        }
+      }
+    }
+  }
+
+
+}
+/*END color_attribute_fgl.css*/

@@ -1,0 +1,69 @@
+/*BEGIN flextbox.css*/
+.qx-jquery-ui {
+  .qx-c-fcls_flexbox .qx-tbody > tbody > tr > td:nth-child(1) img {
+    height: 120px;
+  }
+  
+  .qx-c-fcls_flexbox .qx-tbody > tbody > tr > td:nth-child(2) {
+    display: none;
+  }
+  
+  .qx-c-fcls_flexbox.qx-aum-table.qx-table {
+    background-image: none !important;
+    background-color: #ffffff;
+  }
+  
+  .qx-c-fcls_flexbox .qx-tbody {
+    display: block;
+  }
+  
+  .qx-c-fcls_flexbox .qx-hrow,
+  .qx-c-fcls_flexbox .qx-frow,
+  .qx-c-fcls_flexbox .qx-tbody > thead {
+    display: none !important;
+  }
+  
+  .qx-c-fcls_flexbox .qx-brow {
+    padding-top: 0 !important;
+  }
+  
+  .qx-c-fcls_flexbox .qx-tbody > tbody {
+    display: block;
+    padding-top: 1em;
+  }
+  
+  .qx-c-fcls_flexbox .qx-tbody > tbody > tr {
+    float: left;
+    display: flex;
+    flex-flow: column;
+    flex: 1 1 30%;
+    align-self: flex-start;
+    margin: 1%;
+    min-width: 170px;
+    border: none;
+    background: none !important;
+  }
+  
+  .qx-c-fcls_flexbox .qx-tbody > tbody > tr.qx-scroll-space {
+    flex: 0 0 100%;
+  }
+  
+  
+  .qx-c-fcls_flexbox.qx-table .qx-tbody > tbody > tr > td {
+    height: auto !important;
+    border: none;
+    align-self: center;
+  }
+  
+  .qx-c-fcls_flexbox .qx-tbody > tbody > tr * {
+    background: none !important;
+  }
+  
+  .qx-c-fcls_flexbox .qx-tbody > tbody > tr > td img:first-child {
+    border-radius: 1em;
+  }
+}
+
+.qx-material-design {
+}
+/*END flextbox.css*/

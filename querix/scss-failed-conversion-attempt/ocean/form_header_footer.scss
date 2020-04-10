@@ -1,0 +1,33 @@
+/*BEGIN form_header_footer.css*/
+%frg {
+  color: var(--root_cnt_header-fg-color);
+}
+%bkg {
+  background: var(--root_cnt_header-bg-color);
+  background-image: none;
+}
+
+// .qx-jquery-ui {
+  .qx-aum.qx-c-fcls_title_lb .qx-text {
+    @extend %frg;
+    padding: 2px;
+    padding: 5px 10px;
+    font: bold 14px "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+  } 
+  .qx-aum.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-c-fcls_title_cnt {
+    @extend %bkg;
+    font-weight: bold;
+    padding: 2px; 
+    margin: 2px;
+  }
+  .qx-aum.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-c-fcls_title_cnt > .qx-aum-label .qx-text {
+    @extend %frg;
+  }
+  .qx-aum.qx-c-fcls_statusbar_cnt {
+    @extend %bkg;
+    @extend %frg;
+    padding: 0;
+    margin-top:5px;
+  }
+// }
+/*END form_header_footer.css*/

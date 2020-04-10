@@ -1,0 +1,79 @@
+/*BEGIN form_header_footer.css*/
+.qx-c-fcls_title_cnt.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container {
+  background: var(--root-cnt-header-color-bg);
+  background-image: none;
+  font-weight: bold;
+  padding: 2px;
+  margin: 2px;
+}
+
+.qx-jquery-ui {
+  
+  /*FormClass: fs_sblabel for FORM statusbar*/
+  .qx-c-fcls_sblabel .qx-text-with-icon .qx-text {
+    color: var(--root-cnt-footer-color-fg);
+    padding: 5px 10px;
+    font: var(--qx-footer-font);
+  } 
+
+  .qx-c-fcls_title_lb .qx-text-with-icon .qx-text {
+    padding: 5px 10px;
+    color: var(--root-cnt-header-color-fg)!important;
+    background-color: transparent;
+    font: var(--qx-header-font);
+  }
+  
+  
+  /*
+  ####################################################################################################################################
+  Custom Statusbar - bottom form
+  Form Classes / Selectors:
+  fcls_statusbar_cnt
+  fcls_statusbar_cnt_sub
+  fcls_sblabel
+  ####################################################################################################################################
+  */
+  
+  .qx-c-fcls_statusbar_cnt {
+    background: var(--root-cnt-footer-color-bg);
+    background-image: none;
+    padding: 0;
+    margin-top: 5px;
+  }
+  
+  
+}
+
+.qx-material-design {
+  %frg {
+    color: var(--root-cnt-header-color-fg);
+  }
+  %bkg {
+    background: var(--root-cnt-header-color-bg);
+    background-image: none;
+  }
+  
+  .qx-aum.qx-c-fcls_title_lb {
+    @extend %frg;
+    padding: 5px 10px;
+    font: var(--qx-header-font);
+    // font: bold 14px "Roboto","Calibri","Helvetica Neue", Sans-Serif;
+  } 
+  .qx-aum.qx-aum-grid-panel.qx-aum-items-container.qx-aum-abstract-container.qx-c-fcls_title_cnt > .qx-aum-label .qx-text {
+    @extend %frg;
+  }
+  .qx-aum.qx-c-fcls_statusbar_cnt {
+    @extend %bkg;
+    @extend %frg;
+    padding: 0;
+    margin-top:5px;
+  }
+  /*FormClass: fs_sblabel for FORM statusbar*/
+  .qx-c-fcls_sblabel .qx-text-with-icon .qx-text {
+    color: var(--root-cnt-footer-color-fg);
+    padding: 5px 10px;
+    font: var(--qx-footer-font);
+  } 
+  
+}
+/*END form_header_footer.css*/

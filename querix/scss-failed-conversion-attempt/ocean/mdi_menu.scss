@@ -1,0 +1,187 @@
+/*BEGIN mdi_menu.css*/
+.qx-jquery-ui {
+  .ui-tabs-nav .qx-text {
+    min-width: 80px;
+  }
+  .ui-widget-header {
+    .ui-state-default[role="tab"] {
+      height: 3.7rem;
+      min-width: 120px;
+      display: flex;
+      background: var(--cnt_mdi_menu_col3-color);
+      font-weight: 400;
+      padding: 0;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 5px;   
+      border-width: 2px;
+      border-color: var(--cnt_mdi_tab_handle_not_selected-border-color-bg);  
+      border-left-color: var(--cnt_mdi_tab_handle_not_selected-border-color-bg); 
+      border-top-color: var(--cnt_mdi_tab_handle_not_selected-border-color-bg); 
+      border-right-color: var(--cnt_mdi_tab_handle_not_selected-border-color-bg); 
+      border-image-width: 0px;
+      border-bottom-width: none;
+
+      &.qx-page-0-header {
+        display: none;
+      }
+      &.qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text:hover {
+        color:var(--cnt-mdi-tab-handle-hover-color-fg);
+      }
+      &.qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: var(--cnt_mdi_tab_handle_not_selected-color-fg);
+        border-image-width: 0px;
+
+        &:hover {
+          color:var(--cnt-mdi-tab-handle-hover-color-fg);
+        }
+      }
+
+      > a {
+        padding: 0 10px;
+        display: flex;
+        align-self: stretch;
+        flex: 1;
+        border: none;
+        border-top-left-radius: 14px;
+        border-top-right-radius: 4px; 
+        border-image-width: 0px;
+        background-color: var(--main-color-080);
+        border-image-width: 0px;
+      }
+
+      > a:hover {
+        background-color: var(--cnt-mdi-tab-handle-hover-color-bg);
+      }
+
+      > a > .qx-text-with-icon {
+        justify-content: center;
+        align-items: center;
+        border-image-width: 0px;
+      }
+      
+      &.ui-state-active {
+        border-color: var(--cnt_mdi_tab_handle_selected-border-color-bg);
+        border-left-width: 2px;
+        border-top-width: 2px;
+        border-right-width: 2px;
+        border-style: solid;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 5px;
+        border-image-width: 0px;
+        margin-right: 1px;
+
+        > a {
+          background:var(--cnt_mdi_tab_handle_selected-color-bg); /* rgb(58, 89, 126);*/
+          border-image-width: 0px;  
+        }
+
+        &.qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text {
+          background: none;
+          color: var(--cnt_mdi_tab_handle_selected-color-fg); /* #ededed; */
+          border-image-width: 0px;  
+        }
+      }
+    }
+  }
+
+
+  // .ui-widget-header .ui-state-default[role="tab"].qx-page-0-header {
+  //   display: none;
+  // }
+  
+  // .ui-widget-header .ui-state-default[role="tab"] {
+  //   height: 3.7rem;
+  //   min-width: 120px;
+  //   display: flex;
+  //   background: var(--cnt_mdi_menu_col3-color);
+  //   font-weight: 400;
+  //   padding: 0;
+  //   border-top-left-radius: 15px;
+  //   border-top-right-radius: 5px;   
+  //   border-width: 2px;
+  //   border-color: var(--cnt_mdi_tab_handle_not_selected-border-color-bg);  
+  //   border-left-color: var(--cnt_mdi_tab_handle_not_selected-border-color-bg); 
+  //   border-top-color: var(--cnt_mdi_tab_handle_not_selected-border-color-bg); 
+  //   border-right-color: var(--cnt_mdi_tab_handle_not_selected-border-color-bg); 
+  //   border-image-width: 0px;
+  //   border-bottom: none;
+  // }
+  
+  /* INNER tab-handle area */
+  // .ui-widget-header .ui-state-default[role="tab"] > a {
+  //   padding: 0 10px;
+  //   display: flex;
+  //   align-self: stretch;
+  //   flex: 1;
+  //   border: none;
+  //   border-top-left-radius: 14px;
+  //   border-top-right-radius: 4px; 
+  //   border-image-width: 0px;
+  // }
+  
+  /* Hover tab-handle */
+  // .ui-widget-header .ui-state-default[role="tab"] > a:hover {
+  //   background-color: var(--cnt-mdi-tab-handle-hover-color-bg);
+  // }
+  // .ui-widget-header .ui-state-default[role="tab"].qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text:hover {
+  //   color:var(--cnt-mdi-tab-handle-hover-color-fg);
+  // }
+  
+  /* @check - does this do anything ? */
+  // .ui-widget-header .ui-state-default[role="tab"] > a > .qx-text-with-icon {
+  //   justify-content: center;
+  //   align-items: center;
+  //   border-image-width: 0px;
+  // }
+  
+  /* **************************** */
+  /* MDI Tab NOT Selected/Focused */
+  /* **************************** */
+  /* MDI tab-label text */
+  // .ui-widget-header .ui-state-default[role="tab"].qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text {
+  //   text-align: center;
+  //   justify-content: center;
+  //   align-items: center;
+  //   color: var(--cnt_mdi_tab_handle_not_selected-color-fg);
+  //   border-image-width: 0px;
+  // }
+  
+  /* Background Color - NOT selected/focused */
+  // .ui-widget-header .ui-state-default[role="tab"] > a {
+  //   background-color: var(--main-color-080);
+  //   border-image-width: 0px;
+  // }
+  
+  /* ************************ */
+  /* MDI Tab Selected/Focused */
+  /* ************************ */
+  /*MDI tabbed_container selected tab*/
+  // .ui-widget-header .ui-state-default.ui-state-active[role="tab"] {
+  //   border-color: var(--cnt_mdi_tab_handle_selected-border-color-bg);
+  //   border-left-width: 2px;
+  //   border-top-width: 2px;
+  //   border-right-width: 23x;
+  //   border-style: solid;
+  //   border-top-left-radius: 15px;
+  //   border-top-right-radius: 5px;
+  //   border-image-width: 0px;
+  //   margin-right: 1px;
+  // }
+  
+  /* MDI tab-label text */
+  /*text bg color of focused mdi-tab handle */
+  // .ui-widget-header .ui-state-default.ui-state-active[role="tab"] > a {
+  //   background:var(--cnt_mdi_tab_handle_selected-color-bg); /* rgb(58, 89, 126);*/
+  //   border-image-width: 0px;  
+  // }
+  /*text fg color of focused mdi-tab handle */
+  // .ui-widget-header .ui-state-default.ui-state-active[role="tab"].qx-has-text .ui-tabs-anchor .qx-text-with-icon .qx-text {
+  //   background: none;
+  //   color: var(--cnt_mdi_tab_handle_selected-color-fg); /* #ededed; */
+  //   border-image-width: 0px;  
+  // }
+}
+/*END mdi_menu.css*/

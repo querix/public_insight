@@ -38,7 +38,7 @@ position: relative;
     display: none !important;
 }
 
-#qx-container-body {
+.qx-jquery-ui #qx-container-body {
     overflow: hidden;
 }
 
@@ -68,12 +68,11 @@ position: relative;
 	font-weight: normal !important;
 }
 
-/* Sidebar */
+/* Sidebar -thin area between left menu scoll bar and main child-app area*/
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu {
 	background-color: var(--cnt_mdi_menu_button_area-bg-color) !important; 
-	font-family: Montserrat;
-	font-size: 13px;
-	border-right-color: var(--cnt_mdi_menu_col2-color) !important;
+	font: var(--qx-menu-font) !important; /*Montserrat;*/
+	border-right-color: var(--cnt-mdi-menu-scrollbar-right-silly-area-color-bg) !important;
 }
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu,
@@ -82,7 +81,7 @@ position: relative;
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .ui-state-active a,
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .ui-state-default,
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .ui-state-active {
-	color: rgba(255,255,255,.6);
+	color: var(--cnt-mdi-menu-item-color-fg); /*rgba(255,255,255,.6);*/
 	text-decoration: none;
 }
 
@@ -100,7 +99,7 @@ position: relative;
 /* Sub-Items */
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu > div.qx-menu-inner::before,
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu ul ul {
-	background-color: var(--cnt_mdi_menu_col3-color);
+	background-color: var(--cnt-mdi-menu-sub-color-bg);
 }
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar li,
@@ -131,11 +130,17 @@ position: relative;
 	padding: 10px 0;
 }
 
-.cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar label {
-  padding-left: 16px !important;
+.cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar label::before {
+	display: none;
 }
+
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar label > img {
-	display: none !important;
+	/*visibility: hidden;  huho 2017-12-10*/
+	display: block !important;
+	VISIBILITY: hidden;
+	width: 16px !important;
+	min-width: 16px !important;
+	max-width: 16px !important;
 }
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu .qx-aum-menu-bar li > a.ui-state-hover,
@@ -191,15 +196,16 @@ position: relative;
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu li.qx-aum-menu-group > a:hover:after {
 	border-left-color: #fff;
+
 }
 
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu li.qx-aum-menu-group.collapsable > a:after {
 	transform: rotate(90deg);
 }
 
-/* selection background */
+/* menu item selection/focused background */
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu div.qx-aum-menu-bar li.menu-item-selected {
-	background-color: var(--cnt_mdi_menu_col5-color); 
+	background-color: var(--cnt-mdi-menu-selected-item-color-bg); 
 	transition-duration: .3s;
 	transition-property: background-color;
 }
@@ -208,11 +214,16 @@ position: relative;
         border-left-color: #fff;
 }
 
-/* selection color */
+/* menu item selection color */
 .cmsfb:root .qx-menu-type-tree.qx-mdi div#qx-container-menu div.qx-aum-menu-bar li.menu-item-selected > a {
-	color: var(--cnt_mdi_menu_col4-color);
+	color: var(--cnt-mdi-menu-selected-item-color-fg);
 }
 
+.li.ui-state-hover:{
+	color:red !important;
+}
+
+/* mdi header area */
 .cmsfb:root #cms-topbar {
 	position: fixed;
 	top: 0;
@@ -221,7 +232,7 @@ position: relative;
 	display: flex;
 	padding-left: 0;
 	z-index: 1000;
-	background-color: var(--cnt_mdi_header-bg-color); 
+	background-color: var(--cnt-mdi-header-color-bg); 
 	transition: padding-left .8s;
 }
 
@@ -235,14 +246,14 @@ position: relative;
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: var(--cnt_mdi_menu_col1-color) url(/public/querix/css/images/logo.svg) no-repeat 20px center;
-	background-size: 30%;
+	background: var(--cnt-mdi-menu-logo-area-color-bg) url(/public/querix/css/images/logo.svg) no-repeat 20px center;
+	background-size: 100px;
 }
 /*END left-side menu*/
 
 .qx-devicemode-desktop #qx-main-layout .qx-menu-type-tree.qx-mdi div#qx-container-menu {
 	width: 300px;
- min-width: 300px;
+    min-width: 300px;
 }
 
 .qx-devicemode-desktop.cms-mainmenu-visible #cms-topbar {
@@ -418,7 +429,7 @@ html.cmsfb:root .cms-mainmenu-close {
 padding-bottom: 1rem;
 }*/
 
-.qx-aum-status-bar > .qx-aum-template-instance {
+.qx-jquery-ui .qx-aum-status-bar > .qx-aum-template-instance {
     height: 48px;
     padding-bottom: 24px;
 }

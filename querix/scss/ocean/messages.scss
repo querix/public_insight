@@ -1,0 +1,64 @@
+/*BEGIN messages.css*/
+.qx-jquery-ui {
+  /*#######################################*/
+  /* POPUP - Mouse context menu            */
+  /* HuHo 01.11.2018                       */
+  /*#######################################*/
+  .qx-aum-popup-menu {
+    background-color: var(--main-color-popup-bg);
+  }
+  
+  .qx-aum-popup-menu .qx-text {
+    color: white;
+      /*font: normal 1rem "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;*/;
+  }
+  /* need to check the css from here onward/below */
+  #message-popup.ui-widget-content {
+    color: var(--main-color-message-fg);
+    background-color: var(--main-color-message-bg);
+    border: none;
+    background-image: none;
+    font: var(--qx-hint-font);
+    max-width: 200px;
+  }
+  
+  #message-popup.ui-widget-content.error {
+    color: var(--main-color-error-fg);
+    background-color: var(--main-color-error-bg);
+    border: none;
+    background-image: none;
+    font: var(--qx-hint-font);
+  }  
+}
+
+.qx-material-design {
+  .qx-wrapper-popup,
+  .qx-wrapper-popuperror,
+  .qx-wrapper-textto,
+  .qx-wrapper-attachto,
+  .qx-wrapper-console,
+  .qx-wrapper-displayatredir {
+    display: none !important;
+  }
+  .qx-messages-popup {
+    position: fixed;
+    z-index: 100000;
+    background-color: #34474f;
+    color: #ccc;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    white-space: pre-wrap;
+    max-width: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: 0;
+    transform: scale(0);
+    transform-origin: center;
+    transition: all 0.15s;
+  }
+  .qx-messages-popup-error {
+    background-color: #D32F2F;
+  }
+}
+/*END messages.css*/

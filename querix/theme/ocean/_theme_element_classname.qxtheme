@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <ElementFilter ElementName="FunctionFieldAbs">
+    <StyleSheet>
+      <ChildFilter>	  
+        <StyleSheet>
+          <ElementFilter ElementName="TextField">
+            <StyleSheet>
+              <DoStyleAction>
+                <ApplyClass Name="qx-function-text-field" />
+              </DoStyleAction>
+            </StyleSheet>
+          </ElementFilter>
+        </StyleSheet>
+      </ChildFilter>
+    </StyleSheet>
+  </ElementFilter>
+  <ElementFilter ElementName="Button">
+    <StyleSheet>
+      <DoStyleAction>
+        <ApplyClass Name="contained" />
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementFilter>
+</StyleSheet>
