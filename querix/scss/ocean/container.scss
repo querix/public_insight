@@ -219,7 +219,8 @@
 
   .qx-table.qx-aum.qx-aum-table.qx-aum-abstract-data-table.qx-aum-abstract-container.qx-has-header .qx-hrow .qx-thead .qx-thead-row.ui-widget-header {
     min-height: 1.6rem;
-    height: 1.6rem;
+    // height: 1.6rem;
+    height: auto;
   }
   /*
   .qx-aum-table-column.ui-widget-header,
