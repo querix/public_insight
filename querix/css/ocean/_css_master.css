@@ -2445,6 +2445,22 @@ sans-serif !important;
   fill: white;
 }
 
+.qx-material-design .qx-aum-function-field-abs .md-button.qx-c-contained.qx-aum[data-md-widget]:not(.qx-c-nativestyle):not(.qx-disabled) .qx-text {
+  color: inherit;
+}
+
+.qx-material-design .qx-aum-function-field-abs .md-button.qx-c-contained.qx-aum[data-md-widget]:not(.qx-c-nativestyle):not(.qx-disabled) svg {
+  fill: var(--md-tf-enabled-idle-empty-label);
+}
+
+.qx-material-design .qx-aum-function-field-abs .md-button.qx-c-contained.qx-aum[data-md-widget]:not(.qx-c-nativestyle):not(.qx-disabled) svg:focus {
+  fill: var(--md-tf-enabled-focus-empty-label);
+}
+
+.qx-material-design .qx-aum-function-field-abs.qx-focused .md-button.qx-c-contained.qx-aum[data-md-widget]:not(.qx-c-nativestyle):not(.qx-disabled) svg {
+  fill: var(--md-tf-enabled-focus-empty-label);
+}
+
 
 /*END button_library.css*/
 
