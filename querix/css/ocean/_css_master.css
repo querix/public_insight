@@ -11082,10 +11082,12 @@ sans-serif
   min-width: 170px;
   border: none;
   background: none !important;
+  height: auto !important;
 }
 
 .qx-jquery-ui .qx-c-fcls_flexbox .qx-tbody > tbody > tr.qx-scroll-space {
   flex: 0 0 100%;
+  width: 100%;
 }
 
 .qx-jquery-ui .qx-c-fcls_flexbox.qx-table .qx-tbody > tbody > tr > td {
