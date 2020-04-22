@@ -11,11 +11,11 @@
 
 /* Text Block of description/information */
 /* FormClass: fcls_font_description */
-.qx-c-fcls_font_description .qx-text-with-icon .qx-text {
+.qx-jquery-ui .qx-aum.qx-c-fcls_font_description .qx-text-with-icon .qx-text,
+.qx-material-design .qx-aum.qx-c-fcls_font_description .qx-text-with-icon .qx-text {
   color: var(--label-comment-color-fg);
   font-style: italic;
 }
-
 
 .qx-jquery-ui {
   #qx-container-status-bar {

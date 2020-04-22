@@ -2749,7 +2749,7 @@ StackPanel container
 
 .qx-table.qx-aum.qx-aum-table.qx-aum-abstract-data-table.qx-aum-abstract-container.qx-has-header .qx-hrow .qx-thead .qx-thead-row.ui-widget-header {
   min-height: 1.6rem;
-  height: 1.6rem;
+  height: auto;
 }
 
 
@@ -3521,7 +3521,8 @@ Tab Handles
 
 /* FormClass: fcls_font_description */
 
-.qx-c-fcls_font_description .qx-text-with-icon .qx-text {
+.qx-jquery-ui .qx-aum.qx-c-fcls_font_description .qx-text-with-icon .qx-text,
+.qx-material-design .qx-aum.qx-c-fcls_font_description .qx-text-with-icon .qx-text {
   color: grey;
   color: var(--label-comment-color-fg);
   font-style: italic;
@@ -7318,8 +7319,6 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_black:not(.qx-c-nativestyle) * {
   color: black;
   color: var(--4gl-color-black-fg);
-  background: rgba(217, 217, 217,1);
-  background: var(--4gl-color-black-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_black:not(.qx-c-nativestyle),
@@ -7565,8 +7564,6 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_white:not(.qx-c-nativestyle) * {
   color: white;
   color: var(--4gl-color-white-fg);
-  background: rgba(89, 89, 89,1);
-  background: var(--4gl-color-white-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_white:not(.qx-c-nativestyle),
@@ -7812,8 +7809,6 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_green:not(.qx-c-nativestyle) * {
   color: rgb(51, 153, 51);
   color: var(--4gl-color-green-fg);
-  background: rgba(214, 245, 214,1);
-  background: var(--4gl-color-green-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_green:not(.qx-c-nativestyle),
@@ -8059,8 +8054,6 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_red:not(.qx-c-nativestyle) * {
   color: rgb(204,0,0);
   color: var(--4gl-color-red-fg);
-  background: rgba(255, 204, 204,1);
-  background: var(--4gl-color-red-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_red:not(.qx-c-nativestyle),
@@ -8306,8 +8299,6 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_blue:not(.qx-c-nativestyle) * {
   color: rgb(58, 89, 126);
   color: var(--4gl-color-blue-fg);
-  background: rgba(203, 215, 231,1);
-  background: var(--4gl-color-blue-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_blue:not(.qx-c-nativestyle),
@@ -8553,8 +8544,6 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_magenta:not(.qx-c-nativestyle) * {
   color: rgb(191,0,255);
   color: var(--4gl-color-magenta-fg);
-  background: rgba(236, 179, 255,1);
-  background: var(--4gl-color-magenta-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_magenta:not(.qx-c-nativestyle),
@@ -8800,8 +8789,6 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_yellow:not(.qx-c-nativestyle) * {
   color: rgb(255,204,0);
   color: var(--4gl-color-yellow-fg);
-  background: rgba(255,240,179,1);
-  background: var(--4gl-color-yellow-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_yellow:not(.qx-c-nativestyle),
@@ -9047,8 +9034,6 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_cyan:not(.qx-c-nativestyle) * {
   color: rgb(51,204,255);
   color: var(--4gl-color-cyan-fg);
-  background: rgba(179, 236, 255,1);
-  background: var(--4gl-color-cyan-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_cyan:not(.qx-c-nativestyle),
@@ -9295,20 +9280,7 @@ sans-serif
 }
 
 .qx-material-design .qx-aum-browser.qx-c-attribute_reverse,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_reverse.qx-aum-calendar,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_reverse.qx-aum-calendar *,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text *,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_reverse.qx-aum-spinner,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_reverse.qx-aum-text-field,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_reverse.qx-aum-text-field *,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_reverse.qx-aum-text-area,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_reverse.qx-aum-text-area *,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_reverse.qx-aum-time-edit-field,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_reverse.qx-aum-time-edit-field *,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target {
+.qx-material-design .qx-disabled.qx-c-attribute_reverse {
   color: white;
   color: var(--4gl-color-blue-rev-fg);
   background-color: rgb(58, 89, 126);
@@ -9317,20 +9289,7 @@ sans-serif
 }
 
 .qx-material-design .qx-aum-browser.qx-c-attribute_dim,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_dim.qx-aum-calendar,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_dim.qx-aum-calendar *,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text *,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_dim.qx-aum-spinner,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_dim.qx-aum-spinner .qx-text,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_dim.qx-aum-text-field,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_dim.qx-aum-text-field *,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_dim.qx-aum-text-area,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_dim.qx-aum-text-area *,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_dim.qx-aum-time-edit-field,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_dim.qx-aum-time-edit-field *,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target {
+.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_dim {
   color: rgb(40, 61, 87);
   color: var(--4gl-color-default-dim-fg);
   background-color: transparent;
@@ -9339,20 +9298,7 @@ sans-serif
 }
 
 .qx-material-design .qx-aum-browser.qx-c-attribute_blink,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_blink.qx-aum-calendar,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_blink.qx-aum-calendar *,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text *,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_blink.qx-aum-spinner,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_blink.qx-aum-spinner .qx-text,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_blink.qx-aum-text-field,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_blink.qx-aum-text-field *,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_blink.qx-aum-text-area,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_blink.qx-aum-text-area *,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_blink.qx-aum-time-edit-field,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_blink.qx-aum-time-edit-field *,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target {
+.qx-material-design .qx-inactive.qx-disabled.qx-c-attribute_blink {
   color: rgb(98, 136, 183);
   color: var(--4gl-color-default-blink-fg);
   background-color: var(--4gl-color-default-blink-bg);
@@ -9360,20 +9306,7 @@ sans-serif
 }
 
 .qx-material-design .qx-aum-browser,
-.qx-material-design .qx-inactive.qx-disabled.qx-aum-calendar,
-.qx-material-design .qx-inactive.qx-disabled.qx-aum-calendar *,
-.qx-material-design .qx-inactive.qx-disabled.qx-aum-function-field-abs .qx-ff-text,
-.qx-material-design .qx-inactive.qx-disabled.qx-aum-function-field-abs .qx-ff-text *,
-.qx-material-design .qx-inactive.qx-disabled.qx-aum-spinner,
-.qx-material-design .qx-inactive.qx-disabled.qx-aum-spinner .qx-text,
-.qx-material-design .qx-inactive.qx-disabled.qx-aum-text-field,
-.qx-material-design .qx-inactive.qx-disabled.qx-aum-text-field .md-input,
-.qx-material-design .qx-inactive.qx-disabled.qx-aum-text-area,
-.qx-material-design .qx-inactive.qx-disabled.qx-aum-text-area *,
-.qx-material-design .qx-inactive.qx-disabled.qx-aum-time-edit-field,
-.qx-material-design .qx-inactive.qx-disabled.qx-aum-time-edit-field *,
-.qx-material-design .qx-inactive.qx-disabled.qx-aum-combo-box,
-.qx-material-design .qx-inactive.qx-disabled.qx-aum-combo-box .md-input.qx-text {
+.qx-material-design .qx-disabled {
   color: rgba(032,053,094,1.00) !important;
   color: var(--4gl-field-color-default-disabled-fg) !important;
   background-color: transparent;

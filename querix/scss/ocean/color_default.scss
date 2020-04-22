@@ -399,61 +399,29 @@
     color: var(--fgl-color-default-fg);
   }
   
-  .qx-inactive.qx-disabled {
-    &.qx-aum-calendar, &.qx-aum-calendar *,
-    &.qx-aum-function-field-abs .qx-ff-text, &.qx-aum-function-field-abs .qx-ff-text *,
-    &.qx-aum-spinner, &.qx-aum-spinner .qx-text,
-    &.qx-aum-text-field, &.qx-aum-text-field .md-input,
-    &.qx-aum-text-area, &.qx-aum-text-area *,
-    &.qx-aum-time-edit-field, &.qx-aum-time-edit-field *,
-    &.qx-aum-combo-box, &.qx-aum-combo-box .md-input.qx-text {
-      @extend %disabled_field_color;
-    }
+  .qx-disabled {                                                                                  
+    @extend %disabled_field_color;                                                                
   }
   .qx-aum-browser {
     @extend %disabled_field_color;
   }
   
-  .qx-inactive.qx-disabled.qx-c-attribute_reverse {
-    &.qx-aum-calendar, &.qx-aum-calendar *,
-    &.qx-aum-function-field-abs .qx-ff-text, &.qx-aum-function-field-abs .qx-ff-text *,
-    &.qx-aum-spinner, &.qx-aum-spinner .qx-text,
-    &.qx-aum-text-field, &.qx-aum-text-field *,
-    &.qx-aum-text-area, &.qx-aum-text-area *,
-    &.qx-aum-time-edit-field, &.qx-aum-time-edit-field *,
-    &.qx-aum-combo-box, &.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target {
-      @extend %disabled_reverse_color;
-    }
-  }
+  .qx-disabled.qx-c-attribute_reverse {                                                           
+    @extend %disabled_reverse_color;                                                              
+  }                                                                                               
   .qx-aum-browser.qx-c-attribute_reverse {
     @extend %disabled_reverse_color;
   }
   
   .qx-inactive.qx-disabled.qx-c-attribute_dim {
-    &.qx-aum-calendar, &.qx-aum-calendar *,
-    &.qx-aum-function-field-abs .qx-ff-text, &.qx-aum-function-field-abs .qx-ff-text *,
-    &.qx-aum-spinner, &.qx-aum-spinner .qx-text,
-    &.qx-aum-text-field, &.qx-aum-text-field *,
-    &.qx-aum-text-area, &.qx-aum-text-area *,
-    &.qx-aum-time-edit-field, &.qx-aum-time-edit-field *,
-    &.qx-aum-combo-box, &.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target {
-      @extend %disabled_dim_color;
-    }
+    @extend %disabled_dim_color;                                                                  
   }
   .qx-aum-browser.qx-c-attribute_dim {
     @extend %disabled_dim_color;
   }
   
   .qx-inactive.qx-disabled.qx-c-attribute_blink {
-    &.qx-aum-calendar, &.qx-aum-calendar *,
-    &.qx-aum-function-field-abs .qx-ff-text, &.qx-aum-function-field-abs .qx-ff-text *,
-    &.qx-aum-spinner, &.qx-aum-spinner .qx-text,
-    &.qx-aum-text-field, &.qx-aum-text-field *,
-    &.qx-aum-text-area, &.qx-aum-text-area *,
-    &.qx-aum-time-edit-field, &.qx-aum-time-edit-field *,
-    &.qx-aum-combo-box, &.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target {
-      @extend %disabled_blink_color;
-    }
+    @extend %disabled_blink_color;                                                                
   }
   .qx-aum-browser.qx-c-attribute_blink {
     @extend %disabled_blink_color;
