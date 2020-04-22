@@ -2121,14 +2121,24 @@
   ".qx-aum-text-area, .qx-aum-text-area *,"+
   ".qx-aum-time-edit-field, .qx-aum-time-edit-field *,"+
   ".qx-aum-spinner, .qx-aum-spinner .qx-text,"+
-  ".qx-aum-combo-box, .qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,"+
+  ".qx-aum-combo-box, .qx-aum-combo-box .md-text-container,"+
   ".qx-aum-function-field-abs .qx-ff-text, .qx-aum-function-field-abs .qx-ff-text *";
+  $readonlyComboSelectors: ".qx-aum-combo-box, .qx-aum-combo-box .md-text-container";
 
   #{selector-append('.qx-active', $widgetSelectors)} {
     color: var(--fgl-color-blue);
     background-color: transparent;
-  }
+  } 
   #{selector-append('.qx-active.qx-c-attribute_reverse', $widgetSelectors)} {
+    color: var(--fgl-color-blue-rev-fg);
+    background-color: var(--fgl-color-blue-rev-bg);
+  }
+
+  #{selector-append('.qx-readonly', $readonlyComboSelectors)} {
+    color: var(--fgl-color-blue);
+    background-color: transparent;
+  } 
+  #{selector-append('.qx-readonly.qx-c-attribute_reverse', $readonlyComboSelectors)} {
     color: var(--fgl-color-blue-rev-fg);
     background-color: var(--fgl-color-blue-rev-bg);
   }
@@ -2259,7 +2269,7 @@
         .qx-aum-some#{&},
         .qx-aum-some#{&} * {
           color: var(--fgl-color-#{$color}-fg);
-          // background: var(--fgl-color-#{$color}-bg);
+          background: var(--fgl-color-#{$color}-bg);
         }
         @at-root .qx-aum-some.qx-c-attribute_reverse#{&},
         .qx-aum-some.qx-c-attribute_reverse#{&} * {
