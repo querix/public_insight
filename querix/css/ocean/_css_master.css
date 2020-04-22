@@ -11102,6 +11102,7 @@ sans-serif
 
 .qx-jquery-ui .qx-c-fcls_flexbox .qx-tbody > tbody > tr > td img:first-child {
   border-radius: 1em;
+  width: auto;
 }
 
 
