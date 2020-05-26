@@ -4476,6 +4476,7 @@ sans-serif;
   text-align: center !important;
   vertical-align: middle !important;
   content: url(/public/querix/icon/svg/24/ic_sub_dialog_24px.svg);
+  background-image: none !important;
 }
 
 .qx-jquery-ui .qx-aum-function-field-abs {
