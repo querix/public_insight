@@ -11088,6 +11088,7 @@ sans-serif
 
 .qx-jquery-ui .qx-c-fcls_flexbox .qx-tbody > tbody > tr > td:nth-child(1) img {
   height: 120px;
+  width: auto;
 }
 
 .qx-jquery-ui .qx-c-fcls_flexbox .qx-tbody > tbody > tr > td:nth-child(2) {
