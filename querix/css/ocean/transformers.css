@@ -34,9 +34,9 @@ position: relative;
 
  
 
-#qx-container-body > .qx-o-c-screen {
+/* #qx-container-body > .qx-o-c-screen {
     display: none !important;
-}
+} */
 
 .qx-jquery-ui #qx-container-body {
     overflow: hidden;
