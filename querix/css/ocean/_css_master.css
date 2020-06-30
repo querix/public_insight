@@ -1903,6 +1903,7 @@ sans-serif !important;
   /* ####################*/
   /* FOCUS - in input    */
   /* ####################*/
+  width: auto;
 }
 
 .qx-jquery-ui .qx-c-fcls_button_add.qx-aum-button .qx-text-with-icon,
@@ -2443,6 +2444,22 @@ sans-serif !important;
 
 .qx-material-design .md-button.qx-c-contained.qx-aum[data-md-widget]:not(.qx-c-nativestyle):not(.qx-disabled) svg {
   fill: white;
+}
+
+.qx-material-design .qx-aum-function-field-abs .md-button.qx-c-contained.qx-aum[data-md-widget]:not(.qx-c-nativestyle):not(.qx-disabled) .qx-text {
+  color: inherit;
+}
+
+.qx-material-design .qx-aum-function-field-abs .md-button.qx-c-contained.qx-aum[data-md-widget]:not(.qx-c-nativestyle):not(.qx-disabled) svg {
+  fill: var(--md-tf-enabled-idle-empty-label);
+}
+
+.qx-material-design .qx-aum-function-field-abs .md-button.qx-c-contained.qx-aum[data-md-widget]:not(.qx-c-nativestyle):not(.qx-disabled) svg:focus {
+  fill: var(--md-tf-enabled-focus-empty-label);
+}
+
+.qx-material-design .qx-aum-function-field-abs.qx-focused .md-button.qx-c-contained.qx-aum[data-md-widget]:not(.qx-c-nativestyle):not(.qx-disabled) svg {
+  fill: var(--md-tf-enabled-focus-empty-label);
 }
 
 
@@ -4319,8 +4336,6 @@ sans-serif !important;
 .qx-jquery-ui .qx-aum-radio-group.qx-focusable-field.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly:hover {
   color: var(--main-textfield-hover-color-fg) !important;
   color: var(--rb-hover-color-fg) !important;
-  background-color: var(--main-textfield-hover-color-bg) !important;
-  background-color: var(--rb-hover-color-bg) !important;
   border-color: rgba(048,074,105,1.00) !important;
   border-color: var(--rb-hover-border-color) !important;
   border-width: 1px !important;
@@ -4461,6 +4476,7 @@ sans-serif;
   text-align: center !important;
   vertical-align: middle !important;
   content: url(/public/querix/icon/svg/24/ic_sub_dialog_24px.svg);
+  background-image: none !important;
 }
 
 .qx-jquery-ui .qx-aum-function-field-abs {
@@ -7041,7 +7057,7 @@ sans-serif
 .qx-material-design .qx-active.qx-aum-spinner,
 .qx-material-design .qx-active.qx-aum-spinner .qx-text,
 .qx-material-design .qx-active.qx-aum-combo-box,
-.qx-material-design .qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-active.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-active.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-active.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(58, 89, 126);
@@ -7060,9 +7076,24 @@ sans-serif
 .qx-material-design .qx-active.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-active.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
+  color: white;
+  color: var(--4gl-color-blue-rev-fg);
+  background-color: rgb(58, 89, 126);
+  background-color: var(--4gl-color-blue-rev-bg);
+}
+
+.qx-material-design .qx-readonly.qx-aum-combo-box,
+.qx-material-design .qx-readonly.qx-aum-combo-box .md-text-container {
+  color: rgb(58, 89, 126);
+  color: var(--4gl-color-blue);
+  background-color: transparent;
+}
+
+.qx-material-design .qx-readonly.qx-c-attribute_reverse.qx-aum-combo-box,
+.qx-material-design .qx-readonly.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container {
   color: white;
   color: var(--4gl-color-blue-rev-fg);
   background-color: rgb(58, 89, 126);
@@ -7127,7 +7158,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_black.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_black.qx-inactive.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
   color: black;
@@ -7146,7 +7177,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -7167,7 +7198,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(100,100,100);
@@ -7188,7 +7219,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_black.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(100,100,100);
@@ -7208,7 +7239,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_black.qx-active.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_black.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_black.qx-active.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-aum-function-field-abs .qx-ff-text * {
   color: black;
@@ -7227,7 +7258,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -7248,7 +7279,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(100,100,100);
@@ -7269,7 +7300,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_black.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(100,100,100);
@@ -7319,6 +7350,8 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_black:not(.qx-c-nativestyle) * {
   color: black;
   color: var(--4gl-color-black-fg);
+  background: rgba(217, 217, 217,1);
+  background: var(--4gl-color-black-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_black:not(.qx-c-nativestyle),
@@ -7372,7 +7405,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_white.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_white.qx-inactive.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -7391,7 +7424,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: black;
@@ -7412,7 +7445,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(150,150,150);
@@ -7433,7 +7466,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_white.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(150,150,150);
@@ -7453,7 +7486,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_white.qx-active.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_white.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_white.qx-active.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -7472,7 +7505,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: black;
@@ -7493,7 +7526,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(150,150,150);
@@ -7514,7 +7547,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_white.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(150,150,150);
@@ -7564,6 +7597,8 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_white:not(.qx-c-nativestyle) * {
   color: white;
   color: var(--4gl-color-white-fg);
+  background: rgba(89, 89, 89,1);
+  background: var(--4gl-color-white-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_white:not(.qx-c-nativestyle),
@@ -7617,7 +7652,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_green.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_green.qx-inactive.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(51, 153, 51);
@@ -7636,7 +7671,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -7657,7 +7692,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(38, 115, 38);
@@ -7678,7 +7713,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_green.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(64, 191, 64);
@@ -7698,7 +7733,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_green.qx-active.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_green.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_green.qx-active.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(51, 153, 51);
@@ -7717,7 +7752,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -7738,7 +7773,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(38, 115, 38);
@@ -7759,7 +7794,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_green.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(64, 191, 64);
@@ -7809,6 +7844,8 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_green:not(.qx-c-nativestyle) * {
   color: rgb(51, 153, 51);
   color: var(--4gl-color-green-fg);
+  background: rgba(214, 245, 214,1);
+  background: var(--4gl-color-green-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_green:not(.qx-c-nativestyle),
@@ -7862,7 +7899,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_red.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_red.qx-inactive.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(204,0,0);
@@ -7881,7 +7918,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -7902,7 +7939,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(153,0,0);
@@ -7923,7 +7960,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_red.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(255,102,102);
@@ -7943,7 +7980,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_red.qx-active.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_red.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_red.qx-active.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(204,0,0);
@@ -7962,7 +7999,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -7983,7 +8020,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(153,0,0);
@@ -8004,7 +8041,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_red.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(255,102,102);
@@ -8054,6 +8091,8 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_red:not(.qx-c-nativestyle) * {
   color: rgb(204,0,0);
   color: var(--4gl-color-red-fg);
+  background: rgba(255, 204, 204,1);
+  background: var(--4gl-color-red-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_red:not(.qx-c-nativestyle),
@@ -8107,7 +8146,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_blue.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_blue.qx-inactive.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(58, 89, 126);
@@ -8126,7 +8165,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -8147,7 +8186,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(40, 61, 87);
@@ -8168,7 +8207,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_blue.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(98, 136, 183);
@@ -8188,7 +8227,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_blue.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_blue.qx-active.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(58, 89, 126);
@@ -8207,7 +8246,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -8228,7 +8267,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(40, 61, 87);
@@ -8249,7 +8288,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_blue.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(98, 136, 183);
@@ -8299,6 +8338,8 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_blue:not(.qx-c-nativestyle) * {
   color: rgb(58, 89, 126);
   color: var(--4gl-color-blue-fg);
+  background: rgba(203, 215, 231,1);
+  background: var(--4gl-color-blue-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_blue:not(.qx-c-nativestyle),
@@ -8352,7 +8393,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(191,0,255);
@@ -8371,7 +8412,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -8392,7 +8433,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(115, 0, 153);
@@ -8413,7 +8454,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_magenta.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(217, 102, 255);
@@ -8433,7 +8474,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_magenta.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_magenta.qx-active.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(191,0,255);
@@ -8452,7 +8493,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -8473,7 +8514,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(115, 0, 153);
@@ -8494,7 +8535,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_magenta.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(217, 102, 255);
@@ -8544,6 +8585,8 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_magenta:not(.qx-c-nativestyle) * {
   color: rgb(191,0,255);
   color: var(--4gl-color-magenta-fg);
+  background: rgba(236, 179, 255,1);
+  background: var(--4gl-color-magenta-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_magenta:not(.qx-c-nativestyle),
@@ -8597,7 +8640,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(255,204,0);
@@ -8616,7 +8659,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -8637,7 +8680,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(255, 153, 0);
@@ -8658,7 +8701,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_yellow.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(255, 255, 0);
@@ -8678,7 +8721,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_yellow.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_yellow.qx-active.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(255,204,0);
@@ -8697,7 +8740,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -8718,7 +8761,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(255, 153, 0);
@@ -8739,7 +8782,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_yellow.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(255, 255, 0);
@@ -8789,6 +8832,8 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_yellow:not(.qx-c-nativestyle) * {
   color: rgb(255,204,0);
   color: var(--4gl-color-yellow-fg);
+  background: rgba(255,240,179,1);
+  background: var(--4gl-color-yellow-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_yellow:not(.qx-c-nativestyle),
@@ -8842,7 +8887,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(51,204,255);
@@ -8861,7 +8906,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -8882,7 +8927,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(0,115,153);
@@ -8903,7 +8948,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_cyan.qx-inactive.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(102,217,255);
@@ -8923,7 +8968,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_cyan.qx-active.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_cyan.qx-active.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(51,204,255);
@@ -8942,7 +8987,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_reverse.qx-aum-function-field-abs .qx-ff-text * {
   color: white;
@@ -8963,7 +9008,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_dim.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(0,115,153);
@@ -8984,7 +9029,7 @@ sans-serif
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-spinner,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-spinner .qx-text,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-combo-box,
-.qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-combo-box .qx-text.qx-text-edit.qx-focus-target,
+.qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-combo-box .md-text-container,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text,
 .qx-material-design .qx-c-attribute_cyan.qx-active.qx-c-attribute_blink.qx-aum-function-field-abs .qx-ff-text * {
   color: rgb(102,217,255);
@@ -9034,6 +9079,8 @@ sans-serif
 .qx-aum-some.qx-material-design .qx-c-attribute_cyan:not(.qx-c-nativestyle) * {
   color: rgb(51,204,255);
   color: var(--4gl-color-cyan-fg);
+  background: rgba(179, 236, 255,1);
+  background: var(--4gl-color-cyan-bg);
 }
 
 .qx-aum-some.qx-c-attribute_reverse.qx-material-design .qx-c-attribute_cyan:not(.qx-c-nativestyle),
@@ -10677,6 +10724,21 @@ sans-Serif;
   height: auto !important;
 }
 
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-text-field[data-helper-text] .md-text-container,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-function-field-abs[data-helper-text] .md-text-container,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-combo-box[data-helper-text] .md-text-container,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.ui-spinner.qx-aum-spinner[data-helper-text] .md-text-container,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-time-edit-field[data-helper-text] .md-text-container,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-check-box[data-helper-text] .md-text-container,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-radio[data-helper-text] .md-text-container,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-bool-widget.qx-aum.qx-aum-radio[data-helper-text] .md-text-container,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-button[data-helper-text] .md-text-container,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-progress-bar[data-helper-text] .md-text-container,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-horizontal.qx-aum.qx-aum-slider[data-helper-text] .md-text-container,
+.qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-calendar[data-helper-text] .md-text-container {
+  height: auto !important;
+}
+
 .qx-material-design .qx-aum.qx-aum-abstract-container.qx-display-grid > .qx-aum.qx-aum-function-field-abs .qx-aum-button {
   flex: 1;
   align-self: stretch;
@@ -11066,10 +11128,12 @@ sans-serif
   min-width: 170px;
   border: none;
   background: none !important;
+  height: auto !important;
 }
 
 .qx-jquery-ui .qx-c-fcls_flexbox .qx-tbody > tbody > tr.qx-scroll-space {
   flex: 0 0 100%;
+  width: 100%;
 }
 
 .qx-jquery-ui .qx-c-fcls_flexbox.qx-table .qx-tbody > tbody > tr > td {

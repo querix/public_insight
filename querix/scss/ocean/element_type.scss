@@ -1076,7 +1076,7 @@
   /* ##################################*/
   .qx-aum-radio-group.qx-focusable-field.qx-active.qx-c-activefield.qx-enabled.qx-not-readonly:hover {
     color: var(--rb-hover-color-fg) !important;
-    background-color: var(--rb-hover-color-bg) !important;
+    // background-color: var(--rb-hover-color-bg) !important;
     border-color: var(--rb-hover-border-color) !important;
     border-width: var(--main-hover-border-width) !important;
     border-radius: var(--main-hover-border-radius) !important;
@@ -1259,6 +1259,7 @@
     text-align: center !important;
     vertical-align: middle !important;
     content: url(/public/querix/icon/svg/24/ic_sub_dialog_24px.svg);
+    background-image: none !important;
   }
   
   /* ------------------------------------------------------ */
