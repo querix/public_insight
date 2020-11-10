@@ -649,9 +649,9 @@
   --fgl-color-cyan: rgb(51,204,255);
   --fgl-color-cyan-fg: rgb(51,204,255);
   --fgl-color-cyan-bg: rgba(179, 236, 255,1);
-  --fgl-color-yellow: rgb(255, 204, 0);
-  --fgl-color-yellow-fg: rgb(255,204,0);
-  --fgl-color-yellow-bg: rgba(255,240,179,1);
+  --fgl-color-yellow: rgb(200, 150, 0);
+  --fgl-color-yellow-fg: var(--fgl-color-yellow);
+  --fgl-color-yellow-bg: rgba(255,240,179,.5);
   --fgl-color-magenta: rgb(191,0,255);
   --fgl-color-magenta-fg: rgb(191,0,255);
   --fgl-color-magenta-bg: rgba(236, 179, 255,1);
@@ -667,7 +667,7 @@
   --fgl-color-blue-rev-fg: white;
   --fgl-color-blue-rev-bg: rgb(58, 89, 126);
   --fgl-color-yellow-rev-fg: white;
-  --fgl-color-yellow-rev-bg: rgb(255, 204, 0);
+  --fgl-color-yellow-rev-bg: var(--fgl-color-yellow);
   --fgl-color-cyan-rev-fg: white;
   --fgl-color-cyan-rev-bg: rgb(51,204,255);
   --fgl-color-magenta-rev-fg: white;
@@ -752,6 +752,7 @@
 .qx-material-design:root {
   --main-color-073: rgba(83, 112, 124, 1);
   --main-color-074: rgba(83, 112, 124, 1);
-  --main-color-076: rgba(83, 112, 124, .7);
+  /* --main-color-076: rgba(83, 112, 124, .7); */
+  --main-color-076: rgba(217, 230, 234, 1);
   --md-table-header-frg: var(--main-color-038);
 }
