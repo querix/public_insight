@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet xmlns="http://querix.com">
+  <ElementFilter ElementName="ComboBox">
+    <StyleSheet>
+      <DoStyleAction>
+        <ApplyClass Name="autocomplete-inclusive" />
+      </DoStyleAction>
+    </StyleSheet>
+  </ElementFilter>
+</StyleSheet>

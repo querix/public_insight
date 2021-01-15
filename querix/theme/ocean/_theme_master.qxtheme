@@ -27,7 +27,12 @@
   </DoStyleAction>  
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_legacy_hybrid_compat.qxtheme"/>
-  </DoStyleAction>   
+  </DoStyleAction>
+
+  <DoStyleAction>
+    <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_autocomplete.qxtheme"/>
+  </DoStyleAction>
+
 <!--
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_legacy_i4gl_compat.qxtheme"/>
@@ -57,8 +62,7 @@
 
   <DoStyleAction>
     <Include IncludeFileName="{CONTEXT}/public/querix/theme/ocean/_theme_text_label.qxtheme"/>
-  </DoStyleAction>    
-
+  </DoStyleAction>
 
 -->  
 <!--
