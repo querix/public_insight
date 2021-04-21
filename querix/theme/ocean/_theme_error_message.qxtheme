@@ -21,7 +21,7 @@
               <PropertyPath>
                 <PropertyName>Wrapper</PropertyName>
               </PropertyPath>
-              <PropertyValue type="Wrapper" Name="popupError" Parameter=".qx-focused" />
+              <PropertyValue type="Wrapper" Name="popupError" Parameter=".qx-focused:not(.qx-element-role-ringmenu)" />
             </SetProperty>
           </DoStyleAction>
         </StyleSheet>
