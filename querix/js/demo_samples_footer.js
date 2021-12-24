@@ -2,15 +2,15 @@ var footerHtml =
 '<table id="FooterTable" data-demo-samples-footer="true" cellspacing="0" cellpadding="0">' +
 '<thead><tr>' +
 '<td class="qx-text" id="lbLableUserName">UserName:</td>' +
-'<td class="qx-text" id="lbValueUserName">Claus Shoulz</td>' +
-'<td class="qx-text" id="lbLableUserDepartment">Department</td>' +
-'<td class="qx-text" id="lbValueUserDepartment">Strategic Management</td>' +
+'<td class="qx-text" id="lbValueUserName"></td>' +
+'<td class="qx-text" id="lbLableUserAgent">Agent:</td>' +
+'<td class="qx-text" id="lbValueUserAgent"></td>' +
 '</tr></thead>' +
 '<tbody><tr>' +
-'<td class="qx-text" id="lbLableUserLoginTime">Logged in since:</td>' +
-'<td class="qx-text" id="lbValueUserLoginTime">12:15</td>' +
-'<td class="qx-text" id="lbLableUserBirthDate">User BirthDate:</td>' +
-'<td class="qx-text" id="lbValueUserBirthDate">26.12.1982:</td>' +
+'<td class="qx-text" id="lbLableUserLoginTime">Logged in:</td>' +
+'<td class="qx-text" id="lbValueUserLoginTime"></td>' +
+'<td class="qx-text" id="lbLableUserCountry">Country:</td>' +
+'<td class="qx-text" id="lbValueUserCountry"></td>' +
 '</tr></tbody>' +
 '</table>';
 
