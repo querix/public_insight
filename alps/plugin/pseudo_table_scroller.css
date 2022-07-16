@@ -1,0 +1,27 @@
+.pseudo-table-scroller {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: max-content auto auto max-content;
+}
+
+[data-action="line-up"] {
+  grid-row-start: 1;
+}
+
+[data-action="line-down"] {
+  grid-row-start: 4;
+}
+
+[data-action="page-up"] {
+  grid-row-start: 2;
+}
+
+[data-action="page-down"] {
+  grid-row-start: 3;
+}
+
+.pseudo-table-scroller > button > svg {
+  width: 12px;
+}

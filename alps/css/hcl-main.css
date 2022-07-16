@@ -1,0 +1,43 @@
+/* !!!!File content included into hcl-common.css */
+
+/*Option #1 (Default): all font files are kept locally*/
+@import url("hcl-fonts.css");
+
+/*Option #2: font files are loaded at runtime from Google (/fonts folder is not needed then)*/
+/*@import url(/public/hcl/hcl-fonts-remote.css);*/
+
+:root {
+  --qx-drawer-background: #004FB6;
+  --qx-drawer-chip-bkg: #0040B0;
+  --qx-drawer-child-row-background: #0057A2;
+  --qx-appbar-background: #FFD900;
+  --qx-appbar-text-color: #00359D;
+  --qx-fscreen-tbutton-fill-nrm: var(--qx-appbar-text-color);
+}
+
+.qx-md-chip.qx-md-all-apps {
+  background-color: var(--qx-drawer-chip-bkg);
+}
+
+.qx-vdom .qx-messages-popup {
+  background-color: #44C0FF;
+  color: #F9F9F9;
+}
+
+.qx-vdom .qx-messages-popup.qx-messages-popup-error {
+  background-color: #B10101;
+  color: #F9F9F9;
+}
+
+.qx-ring-area .qx-text {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.md-tf.md-tf-short .md-input {
+  font-weight: bold;
+}
+
+.your-custom-css-class-for-the-widgets-bearing-proportional-fonts .qx-text {
+  font-family: 'Source Sans Pro' !important;
+}
