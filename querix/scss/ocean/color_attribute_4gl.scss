@@ -2160,27 +2160,32 @@
   //   background-color: var(--fgl-color-green-fg);
   //   color: var(--fgl-color-green-bg);
   // }
-
+  /*BEGIN qx-c-attribute_*/
   @each $color in $colorlist {
     .qx-c-attribute_#{$color} {
       &.qx-aum-label {
-        color: var(--fgl-color-#{$color}-fg);	
-        /*fgl color #{$color}-reverse huho: 03.11.2018 */
+        & .qx-text {
+          color: var(--fgl-color-#{$color}-fg);	
+        }    
+        // color: var(--fgl-color-#{$color}-fg);	
         &.qx-c-attribute_reverse {
           background-color: var(--fgl-color-#{$color}-rev-bg);    
+        }    
+        &.qx-c-attribute_reverse .qx-text {
           color: var(--fgl-color-#{$color}-rev-fg);	
         }    
-        // &.qx-c-attribute_reverse .qx-text{
-        //   color: var(--fgl-color-#{$color}-rev-fg);	
-        // }    
-        /*fgl color #{$color}-Dim huho: 03.11.2018 */
+
         &.qx-c-attribute_dim {
-          color: var(--fgl-color-#{$color}-dim-bg);
           background-color: var(--fgl-color-#{$color}-dim-bg);
+        }
+        &.qx-c-attribute_dim .qx-text {
+          color: var(--fgl-color-#{$color}-dim-bg);
         }
     
         &.qx-c-attribute_blink {
           background-color: var(--fgl-color-blink-bg-label);
+        }
+        &.qx-c-attribute_blink .qx-text {
           color: var(--fgl-color-#{$color}-blink-fg);
         }
       } 
@@ -2279,6 +2284,7 @@
       }
     }
   }
+  /*END qx-c-attribute_*/
 
 
 }
