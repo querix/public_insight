@@ -32,7 +32,7 @@ var mdSpecificStyles = ' \
 } \
 ';
 
-var topdoc = window.top.document;
+var topdoc = querix.ownerWindow.document;
 if (topdoc.querySelector('html.qx-jquery-ui')) {
   var addFootnote = function addFootnote() {
     if (!topdoc.querySelector('#qx-maia-footnote')) {
@@ -40,8 +40,8 @@ if (topdoc.querySelector('html.qx-jquery-ui')) {
       footnote.setAttribute('id', 'qx-maia-footnote');
       footnote.innerHTML = footnoteHtml;
       topdoc.body.appendChild(footnote);
-      window.top.requestAnimationFrame(function(){
-        var up = window.top.querix.updatePager;
+      querix.ownerWindow.requestAnimationFrame(function(){
+        var up = querix.ownerWindow.querix.updatePager;
         if (up) {
           up();
         }

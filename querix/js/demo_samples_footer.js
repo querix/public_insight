@@ -36,14 +36,14 @@ var mdSpecificStyles = ' \
 
 querix.plugins.frontCallModuleList.sample = {
   changeFrameTemplate: function () {
-    var doc = window.top.document;
+    var doc = querix.ownerWindow.document;
     var css = doc.createElement('style');
     doc.head.appendChild(css);
-    var ft = window.top.$(footerHtml);
-    if (window.top.document.querySelector('html.qx-jquery-ui')) {
+    var ft = querix.ownerWindow.$(footerHtml);
+    if (doc.querySelector('html.qx-jquery-ui')) {
       css.innerText = footerStyles;
       $('#qx-container-status-bar-inner').prepend(ft);
-    } else if (window.top.document.querySelector('html.qx-material-design')) {
+    } else if (doc.querySelector('html.qx-material-design')) {
       css.innerText = footerStyles + mdSpecificStyles;
       /**
        * @TODO turn to more Reactish way

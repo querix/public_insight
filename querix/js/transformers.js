@@ -1,10 +1,10 @@
 /**
  * containermenu_transformer - modifies left-side menu and adds topbar
  */
-if (window.top.document.querySelector('html.qx-jquery-ui')) {
+if (querix.ownerWindow.document.querySelector('html.qx-jquery-ui')) {
   (function (querix) {
     var setDeviceDependentClasses = function () {
-      var $ = window.top.$;
+      var $ = querix.ownerWindow.$;
       var root = $('html');
   
       if (root.hasClass('qx-target-web') && root.hasClass('qx-target-tablet')) {//tablet mode forced on web
@@ -74,7 +74,7 @@ if (window.top.document.querySelector('html.qx-jquery-ui')) {
           },
           tablet: {
             menuWidth: function () {
-              if (window.top.innerWidth > 300) {
+              if (querix.ownerWindow.innerWidth > 300) {
                 return 300;
               } else {
                 return '100%';
@@ -111,7 +111,7 @@ if (window.top.document.querySelector('html.qx-jquery-ui')) {
             tb.css('padding-left', 0);
             topmost.removeClass('cms-mainmenu-visible');
           }
-          var topqx = window.top.querix;
+          var topqx = querix.ownerWindow.querix;
           for (var i in topqx.children) {
             childqx = topqx.children[i].root;
             childqx.rjqui.signalWindowResize();
@@ -127,11 +127,11 @@ if (window.top.document.querySelector('html.qx-jquery-ui')) {
       return {
         remove: function () {
           if (topbarInstalled) {
-            window.top.$('#cms-topbar').remove();
+            querix.ownerWindow.$('#cms-topbar').remove();
           }
         },
         attach: function (to) {
-          var $ = window.top.$;
+          var $ = querix.ownerWindow.$;
           if ($('#cms-topbar').length == 0) {
             addTopbar($);
             topbarInstalled = true;

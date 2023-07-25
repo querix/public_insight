@@ -1,6 +1,6 @@
 (function (querix) {
   /** LOAD messages.css */
-  var d = window.top.document;
+  var d = querix.ownerWindow.document;
   var src = d.currentScript ? d.currentScript.src : null;
   if (src) {
     src = src.substring(0, src.length-3) + '.css';
@@ -14,7 +14,7 @@
     }
   }
   /**BEGIN VDOM PLUGINS */
-  if (window.top.document.querySelector('.qx-vdom')) {
+  if (d.querySelector('.qx-vdom')) {
     var CONST_IGNORE_WIDGET_INVISIBILITY = true;
 
     var findByIdentifier = function (qx, identifier) {
@@ -97,7 +97,7 @@
         if (isNaN(timeout)) {
           try{
             selector = (param[0] == '.' || param[0] == '#' || param[0] == '[') ? param : '.qx-identifier-' + param;
-            element = window.top.document.querySelector(selector);
+            element = d.querySelector(selector);
             if (element) {
               result = element.getBoundingClientRect();
             }
@@ -107,7 +107,7 @@
         }
       }
       if (!result) {
-        var left = (window.top.document.body.offsetWidth - 110),
+        var left = (d.body.offsetWidth - 110),
         result = {
           left: left,
           right: left,
@@ -156,9 +156,9 @@
 
     var applyPopupListeners = function(bAdd, handler) {
       var method = bAdd ? 'addEventListener' : 'removeEventListener';
-      window.top[method]('mousedown', handler);
-      window.top[method]('keydown', handler);
-      window.top[method]('mousewheel', handler);
+      querix.ownerWindow[method]('mousedown', handler);
+      querix.ownerWindow[method]('keydown', handler);
+      querix.ownerWindow[method]('mousewheel', handler);
     }
 
     var effect = function(dom, targetBounds, time, scaleFrom, scaleTo, opacityFrom, opacityTo, finalizeFunc) {
@@ -416,7 +416,7 @@
     var msgs = querix.plugins.frontCallModuleList.messages = {
       showForId: function (fieldid, content, timeout) {
         var popupId = 'message-popup';
-        var d = window.top.document;
+        var d = querix.ownerWindow.document;
         var prevPopupInstance = d.querySelector('#'+popupId);
         prevPopupInstance && d.body.removeChild(prevPopupInstance);
         var targetBounds = getPopupTargetBounds(fieldid);
@@ -453,7 +453,7 @@
       if (el) {
         return el.getWindow().$;
       } else {
-        return window.top.$;
+        return querix.ownerWindow.$;
         // return api.getWindow(api.topWindow()).$;
       }
     } catch (e) {
