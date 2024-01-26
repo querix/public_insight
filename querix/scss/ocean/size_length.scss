@@ -716,7 +716,7 @@
   /*Single Line Widgets / textField based*/
   /*Must override !important on default qx-va-s*/
   .qx-aum.qx-aum-abstract-container.qx-display-grid {
-    > .qx-aum {
+    > .qx-aum:not([data-bp-location="center"]):not([data-bp-location="left"]):not([data-bp-location="right"]) {
       &.qx-aum-text-field,
       &.qx-aum-function-field-abs,
       &.qx-aum-combo-box,
