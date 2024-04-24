@@ -354,6 +354,12 @@
     margin-right: 2px !important;
   }
 
+  .qx-table-footer-cell > .qx-aum-label {
+    margin: unset !important;
+    padding: unset !important;
+    border-width: 0 !important;
+  }
+  
   /*
   ######################################
   Table Column
