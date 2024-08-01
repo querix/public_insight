@@ -69,7 +69,7 @@
   .qx-aum-coord-panel .qx-aum.qx-aum-radio, /*Single RadioButton *special widget*/
   .qx-aum-coord-panel .qx-bool-widget.qx-aum.qx-aum-radio,
   .qx-aum-coord-panel .qx-single-row.qx-aum-button, /*button*/
-  .qx-aum-coord-panel .qx-aum-progress-bar,
+  .qx-aum-coord-panel .qx-aum-progress-bar:not(.circular),
   .qx-aum-coord-panel .qx-horizontal.qx-aum.qx-aum-slider {
     height: var(--qx-qch, 22px) !important;
   }
