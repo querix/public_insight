@@ -43,8 +43,6 @@
   .qx-messages-popup {
     position: fixed;
     z-index: 100000;
-    background-color: #34474f;
-    color: #ccc;
     border-radius: 5px;
     padding: .5rem 1rem;
     white-space: pre-wrap;
@@ -57,7 +55,11 @@
     transform-origin: center;
     transition: all 0.15s;
   }
-  .qx-messages-popup-error {
+  .qx-messages-popup.no-attributes {
+    background-color: #34474f;
+    color: #ccc;
+  }
+  .qx-messages-popup-error.no-attributes {
     background-color: #D32F2F;
   }
 }
