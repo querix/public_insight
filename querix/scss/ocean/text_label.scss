@@ -1,23 +1,2 @@
 /*BEGIN text_label.css*/
-.qx-jquery-ui {
-  /*
-  ########################################################
-  CSS is used for label/text properties
-  ########################################################
-  */
-
-  /* Underline text i.e. hotlink */
-  .qx-c-fcls_data_widget.qx-no-image.qx-aum.qx-aum-label.qx-aum-abstract-text-field.qx-aum-abstract-string-field.qx-aum-abstract-field.qx-has-text.qx-c-attribute_underline {
-    font: var(--default-font);
-    color: red;
-  } 
-
-  /* Form Class  fcls_columnlabel  */
-  .qx-c-fcls_columnlabel.qx-aum-label .qx-text {
-    font-weight: bold;
-  }   
-}
-
-.qx-material-design {
-}
 /*END text_label.css*/

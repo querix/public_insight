@@ -1,36 +1,4 @@
 /*BEGIN messages.css*/
-.qx-jquery-ui {
-  /*#######################################*/
-  /* POPUP - Mouse context menu            */
-  /* HuHo 01.11.2018                       */
-  /*#######################################*/
-  .qx-aum-popup-menu {
-    background-color: var(--main-color-popup-bg);
-  }
-  
-  .qx-aum-popup-menu .qx-text {
-    color: white;
-      /*font: normal 1rem "Roboto",Montserrat,Calibri,"Helvetica Neue", Sans-Serif;*/;
-  }
-  /* need to check the css from here onward/below */
-  #message-popup.ui-widget-content {
-    color: var(--main-color-message-fg);
-    background-color: var(--main-color-message-bg);
-    border: none;
-    background-image: none;
-    font: var(--qx-hint-font);
-    max-width: 200px;
-  }
-  
-  #message-popup.ui-widget-content.error {
-    color: var(--main-color-error-fg);
-    background-color: var(--main-color-error-bg);
-    border: none;
-    background-image: none;
-    font: var(--qx-hint-font);
-  }  
-}
-
 .qx-material-design {
   .qx-wrapper-popup,
   .qx-wrapper-popuperror,

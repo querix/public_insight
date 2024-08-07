@@ -7,43 +7,6 @@
   margin: 2px;
 }
 
-.qx-jquery-ui {
-  
-  /*FormClass: fs_sblabel for FORM statusbar*/
-  .qx-c-fcls_sblabel .qx-text-with-icon .qx-text {
-    color: var(--root-cnt-footer-color-fg);
-    padding: 5px 10px;
-    font: var(--qx-footer-font);
-  } 
-
-  .qx-c-fcls_title_lb .qx-text-with-icon .qx-text {
-    padding: 5px 10px;
-    color: var(--root-cnt-header-color-fg)!important;
-    background-color: transparent;
-    font: var(--qx-header-font);
-  }
-  
-  
-  /*
-  ####################################################################################################################################
-  Custom Statusbar - bottom form
-  Form Classes / Selectors:
-  fcls_statusbar_cnt
-  fcls_statusbar_cnt_sub
-  fcls_sblabel
-  ####################################################################################################################################
-  */
-  
-  .qx-c-fcls_statusbar_cnt {
-    background: var(--root-cnt-footer-color-bg);
-    background-image: none;
-    padding: 0;
-    margin-top: 5px;
-  }
-  
-  
-}
-
 .qx-material-design {
   %frg {
     color: var(--root-cnt-header-color-fg);
