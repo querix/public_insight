@@ -1,9 +1,0 @@
-/*
-Used to select/manipulate the contents of the qx_console_window (report, DISPLAY, Log)
-*/
-
-.qx-text-console .ui-widget-content textarea{
-    font: var(--main-text-console-font);
-    color: var(--main-text-console-color-fg);
-    background-color: var(--main-text-console-color-bg);
-} 

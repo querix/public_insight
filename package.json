@@ -4,10 +4,6 @@
   "description": "Lycia custom styles and plugins",
   "main": "index.js",
   "scripts": {
-    "swamp:deploy": "node build.js sourceDir=querix/scss-huho-experimental/ocean targetDir=C:/.LYCIA_PROGS/progs/public/querix/css/ocean masterCss=_css_master.css",
-    "swamp:dev": "node build.js sourceDir=querix/scss-huho-experimental/ocean targetDir=querix/css/ocean masterCss=_css_master.css",
-    "swamp:pro": "set NODE_ENV=production&& node build.js sourceDir=querix/scss-huho-experimental/ocean targetDir=querix/css/ocean masterCss=_css_master.css",
-    "swamp": "npm run swamp:pro",
     "ocean:deploy": "node build.js sourceDir=querix/scss/ocean targetDir=C:/.LYCIA_PROGS/progs/public/querix/css/ocean masterCss=_css_master.css",
     "ocean:noimport": "node build.js sourceDir=querix/scss/ocean targetDir=querix/css/ocean",
     "ocean:dev": "node build.js sourceDir=querix/scss/ocean targetDir=querix/css/ocean masterCss=_css_master.css",
